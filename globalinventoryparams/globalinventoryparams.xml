@@ -1,0 +1,34 @@
+<SGlobalInventoryParams.GlobalInventoryParams __type="SGlobalInventoryParams" __ref="e82d698b-88a5-4f86-b1f6-a51b0857d3a4" __path="libs/foundry/records/globalinventoryparams/globalinventoryparams.xml">
+  <ExcludedItemTypes>
+    <Enum value="Char_Accessory_Eyes" />
+    <Enum value="Char_Accessory_Head" />
+    <Enum value="Char_Body" />
+    <Enum value="Char_Head" />
+    <Enum value="Char_Head_Beard" />
+    <Enum value="Char_Head_Eyebrow" />
+    <Enum value="Char_Head_Eyes" />
+    <Enum value="Char_Head_Hair" />
+  </ExcludedItemTypes>
+  <EquipmentItemTypes>
+    <Enum value="FPS_AttachmentBarrel" />
+    <Enum value="FPS_AttachmentBottom" />
+    <Enum value="FPS_Deployable" />
+    <Enum value="FPS_Magazine" />
+    <Enum value="FPS_PowerGen" />
+    <Enum value="FPS_Throwable" />
+    <Enum value="FPS_WeaponMelee" />
+    <Enum value="FPS_WeaponShouldered" />
+    <Enum value="FPS_WeaponSidearm" />
+    <Enum value="FPS_WeaponStocked" />
+    <Enum value="FPS_WeaponUtility" />
+    <Enum value="Gadget" />
+    <Enum value="Grenade" />
+    <Enum value="Magazine" />
+    <Enum value="WeaponPersonal" />
+    <Enum value="Char_Armor_Arms" />
+    <Enum value="Char_Armor_Feet" />
+    <Enum value="Char_Armor_Legs" />
+    <Enum value="Char_Armor_Torso" />
+    <Enum value="Char_Armor_Undersuit" />
+  </EquipmentItemTypes>
+</SGlobalInventoryParams.GlobalInventoryParams>

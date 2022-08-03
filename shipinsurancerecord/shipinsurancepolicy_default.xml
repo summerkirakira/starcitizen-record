@@ -1,0 +1,7 @@
+<ShipInsurancePolicyRecord.ShipInsurancePolicy_Default __type="ShipInsurancePolicyRecord" __ref="29f4a068-6397-435c-9cef-721f82b143d0" __path="libs/foundry/records/shipinsurancerecord/shipinsurancepolicy_default.xml">
+  <uninsuredItemTypes>
+    <SUninsuredItem Type="WeaponPersonal" __type="SUninsuredItem">
+      <SubTypes />
+    </SUninsuredItem>
+  </uninsuredItemTypes>
+</ShipInsurancePolicyRecord.ShipInsurancePolicy_Default>

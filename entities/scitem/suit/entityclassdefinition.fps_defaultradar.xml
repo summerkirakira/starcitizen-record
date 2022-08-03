@@ -1,0 +1,52 @@
+<EntityClassDefinition.FPS_DefaultRadar Category="Default" Icon="Default.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="ff08bbcf-9364-40d7-9bfa-e3271542a500" __path="libs/foundry/records/entities/scitem/suit/entityclassdefinition.fps_defaultradar.xml">
+  <tags />
+  <StaticEntityClassData />
+  <Components>
+    <SAttachableComponentParams attachToTileItemPort="NoConnection" __type="DataForgeComponentParams" __polymorphicType="SAttachableComponentParams">
+      <AttachDef Type="Radar" SubType="UNDEFINED" Size="1" Grade="1" Manufacturer="00000000-0000-0000-0000-000000000000" inheritParentManufacturer="0" Tags="flightReady" RequiredTags="" DisplayType="" __type="SItemDefinition">
+        <Localization Name="@LOC_PLACEHOLDER" ShortName="@LOC_EMPTY" Description="@LOC_EMPTY" __type="SCItemLocalization">
+          <displayFeatures LogoSimplifiedWhite="" FrontendBackground="" History="@LOC_EMPTY" Callout1="@LOC_EMPTY" Callout2="@LOC_EMPTY" Callout3="@LOC_EMPTY" UIPriority="0" __type="SCExtendedLocalizationLevelParams">
+            <locationAudioPlayTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+            <locationAudioStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </displayFeatures>
+        </Localization>
+        <mannequinTags mannequinClassTag="" mannequinTypeTag="" mannequinBaseTag="" __type="SCItemMannequinTags" />
+        <inventoryOccupancyVolume>
+          <SMicroCargoUnit microSCU="1" __type="SBaseCargoUnit" __polymorphicType="SMicroCargoUnit" />
+        </inventoryOccupancyVolume>
+        <inventoryOccupancyDimensions x="0.15" y="0.15" z="0.15" __type="Vec3" />
+        <inventoryOccupancyDimensionsUIOverride>
+        </inventoryOccupancyDimensionsUIOverride>
+      </AttachDef>
+      <entityAttachParams>
+      </entityAttachParams>
+    </SAttachableComponentParams>
+    <SCItemRadarComponentParams identityDetection="0.9" isMultiTool="0" __type="DataForgeComponentParams" __polymorphicType="SCItemRadarComponentParams">
+      <contactGroups __type="RadarContactGroupArray">
+        <groups>
+          <Reference value="5dffa82c-3ba7-473d-a1ea-cccf22a9a678" />
+          <Reference value="ff866e3c-2efa-42ad-8698-6820f16cdc41" />
+          <Reference value="0ea6278c-4230-4325-95d8-13b68af5415e" />
+          <Reference value="647f26ac-92ce-4d33-8913-870f66ab6415" />
+          <Reference value="ad7e5172-0979-4c0e-83ad-7cc8b5e20e94" />
+        </groups>
+      </contactGroups>
+      <signatureDetection>
+        <SCItemRadarSignatureDetection sensitivity="0" piercing="0.25" permitPassiveDetection="1" permitActiveDetection="1" __type="SCItemRadarSignatureDetection" />
+        <SCItemRadarSignatureDetection sensitivity="0" piercing="0.25" permitPassiveDetection="1" permitActiveDetection="1" __type="SCItemRadarSignatureDetection" />
+        <SCItemRadarSignatureDetection sensitivity="0" piercing="0.25" permitPassiveDetection="1" permitActiveDetection="1" __type="SCItemRadarSignatureDetection" />
+        <SCItemRadarSignatureDetection sensitivity="0" piercing="0.25" permitPassiveDetection="1" permitActiveDetection="1" __type="SCItemRadarSignatureDetection" />
+        <SCItemRadarSignatureDetection sensitivity="0" piercing="0.25" permitPassiveDetection="1" permitActiveDetection="1" __type="SCItemRadarSignatureDetection" />
+        <SCItemRadarSignatureDetection sensitivity="0" piercing="0.25" permitPassiveDetection="1" permitActiveDetection="1" __type="SCItemRadarSignatureDetection" />
+        <SCItemRadarSignatureDetection sensitivity="0" piercing="0.25" permitPassiveDetection="1" permitActiveDetection="1" __type="SCItemRadarSignatureDetection" />
+      </signatureDetection>
+      <pingProperties cooldownTime="2.5" __type="SCItemRadarPingProperties" />
+    </SCItemRadarComponentParams>
+    <ItemControlComponentParams turnedOnByDefault="1" __type="DataForgeComponentParams" __polymorphicType="ItemControlComponentParams">
+      <throttleParams>
+      </throttleParams>
+    </ItemControlComponentParams>
+    <ItemControllerComponentParams operatorModeDefinitionsOverride="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="ItemControllerComponentParams" />
+    <UIBindingsVendorEntityComponentParams namespace="" __type="DataForgeComponentParams" __polymorphicType="UIBindingsVendorEntityComponentParams" />
+  </Components>
+</EntityClassDefinition.FPS_DefaultRadar>

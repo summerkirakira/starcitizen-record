@@ -1,0 +1,8 @@
+<WeaponProceduralClip.behr_rifle_ballistic_01_PoseJumpADS __type="WeaponProceduralClip" __ref="e9174288-83b1-4f80-886c-76efab28e97a" __path="libs/foundry/records/weaponproceduralclip/rifle/weaponproceduralclip.behr_rifle_ballistic_01_posejumpads.xml">
+  <weaponProceduralClipBase>
+    <WeaponProceduralClipPose blendTime="1" poseType="RightHand" zoomTransitionAngle="0" useAimHelperOffset="0" __type="WeaponProceduralClipBase" __polymorphicType="WeaponProceduralClipPose">
+      <position x="0" y="0.05" z="0.0087" __type="Vec3" />
+      <rotation x="0.2" y="0" z="0" __type="Ang3" />
+    </WeaponProceduralClipPose>
+  </weaponProceduralClipBase>
+</WeaponProceduralClip.behr_rifle_ballistic_01_PoseJumpADS>

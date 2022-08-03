@@ -1,0 +1,6 @@
+<CarryConfig.PlayerCarryConfig __type="CarryConfig" __ref="2573d69f-8537-4abb-a978-0ab2e56e889e" __path="libs/foundry/records/actor/playercarryconfig.xml">
+  <overArmThrow force="64.8" minSpeed="0.1" maxSpeed="20" __type="ThrowParams" />
+  <underArmThrow force="15" minSpeed="0.1" maxSpeed="12" __type="ThrowParams" />
+  <twoHandedThrow force="72" minSpeed="0.1" maxSpeed="20" __type="ThrowParams" />
+  <carry maxCarryableMass="80" __type="ItemCarryParams" />
+</CarryConfig.PlayerCarryConfig>

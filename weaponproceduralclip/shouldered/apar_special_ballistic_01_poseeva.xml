@@ -1,0 +1,8 @@
+<WeaponProceduralClip.apar_special_ballistic_01_PoseEVA __type="WeaponProceduralClip" __ref="7210acce-5ff6-4ec1-ae89-8abdce76ee79" __path="libs/foundry/records/weaponproceduralclip/shouldered/apar_special_ballistic_01_poseeva.xml">
+  <weaponProceduralClipBase>
+    <WeaponProceduralClipPose blendTime="1" poseType="RightHand" zoomTransitionAngle="0" useAimHelperOffset="0" __type="WeaponProceduralClipBase" __polymorphicType="WeaponProceduralClipPose">
+      <position x="0" y="0.02" z="0.0175" __type="Vec3" />
+      <rotation x="0" y="0" z="0" __type="Ang3" />
+    </WeaponProceduralClipPose>
+  </weaponProceduralClipBase>
+</WeaponProceduralClip.apar_special_ballistic_01_PoseEVA>

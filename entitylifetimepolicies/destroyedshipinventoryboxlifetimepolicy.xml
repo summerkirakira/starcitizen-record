@@ -1,0 +1,5 @@
+<EntityLifetimePolicyRecord.DestroyedShipInventoryBoxLifetimePolicy __type="EntityLifetimePolicyRecord" __ref="07dc4352-2677-414d-a3fe-615c222ca6e8" __path="libs/foundry/records/entitylifetimepolicies/destroyedshipinventoryboxlifetimepolicy.xml">
+  <lifetimePolicies>
+    <SDestroyedShipInventoryBoxLifetimePolicy authorizerCountLimit="500" isNonTrivialRemoval="0" timeoutDuration="7200" __type="SEntityLifetimePolicyParams" __polymorphicType="SDestroyedShipInventoryBoxLifetimePolicy" />
+  </lifetimePolicies>
+</EntityLifetimePolicyRecord.DestroyedShipInventoryBoxLifetimePolicy>

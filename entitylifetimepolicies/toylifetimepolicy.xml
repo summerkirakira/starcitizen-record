@@ -1,0 +1,5 @@
+<EntityLifetimePolicyRecord.ToyLifetimePolicy __type="EntityLifetimePolicyRecord" __ref="bd3763e6-05dc-4ad8-b97f-ad109bcf241a" __path="libs/foundry/records/entitylifetimepolicies/toylifetimepolicy.xml">
+  <lifetimePolicies>
+    <SToyLifetimePolicy authorizerCountLimit="40" isNonTrivialRemoval="0" timeoutDuration="60" __type="SEntityLifetimePolicyParams" __polymorphicType="SToyLifetimePolicy" />
+  </lifetimePolicies>
+</EntityLifetimePolicyRecord.ToyLifetimePolicy>

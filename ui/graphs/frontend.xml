@@ -1,0 +1,482 @@
+<CtxGraph.Frontend __type="CtxGraph" __ref="013134ac-40a2-48dd-8000-3c9a6a4067dc" __path="libs/foundry/records/ui/graphs/frontend.xml">
+  <groups>
+    <WeakPointer groups="" />
+    <WeakPointer groups="" />
+    <WeakPointer groups="" />
+    <WeakPointer groups="" />
+  </groups>
+  <nodes>
+    <UIGraph_DockingGroup name="MainContext" indexContexts="1" __type="CtxGraph_Node" __polymorphicType="UIGraph_DockingGroup">
+      <contexts>
+        <WeakPointer contexts="" />
+        <WeakPointer contexts="" />
+        <WeakPointer contexts="" />
+        <WeakPointer contexts="" />
+        <WeakPointer contexts="" />
+        <WeakPointer contexts="" />
+        <WeakPointer contexts="" />
+        <WeakPointer contexts="" />
+        <WeakPointer contexts="" />
+        <WeakPointer contexts="" />
+        <WeakPointer contexts="" />
+        <WeakPointer contexts="" />
+      </contexts>
+      <childGroups />
+    </UIGraph_DockingGroup>
+    <UIGraph_Context name="FE_Splash" BackBehavior="LastRequestClose" renderTarget="All" __type="CtxGraph_Node" __polymorphicType="UIGraph_Context">
+      <dependencies />
+      <components>
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+      </components>
+      <UIController>
+        <UIGraph_ControllerComponent name="FEController" __type="CtxGraph_Node" __polymorphicType="UIGraph_ControllerComponent" />
+      </UIController>
+    </UIGraph_Context>
+    <UIGraph_Context name="PU_Splash" BackBehavior="LastRequestClose" renderTarget="All" __type="CtxGraph_Node" __polymorphicType="UIGraph_Context">
+      <dependencies />
+      <components>
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+      </components>
+      <UIController>
+        <UIGraph_ControllerComponent name="PUController" __type="CtxGraph_Node" __polymorphicType="UIGraph_ControllerComponent" />
+      </UIController>
+    </UIGraph_Context>
+    <UIGraph_Context name="EA_Leaderboards" BackBehavior="LastRequestClose" renderTarget="All" __type="CtxGraph_Node" __polymorphicType="UIGraph_Context">
+      <dependencies>
+        <CtxGraph_Dependency reason="Enter" first="" second="UIController" __type="CtxGraph_Dependency" />
+      </dependencies>
+      <components>
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+      </components>
+      <UIController>
+        <UIGraph_ControllerComponent name="LeaderboardController" __type="CtxGraph_Node" __polymorphicType="UIGraph_ControllerComponent" />
+      </UIController>
+    </UIGraph_Context>
+    <UIGraph_Context name="AC_Splash" BackBehavior="LastRequestClose" renderTarget="All" __type="CtxGraph_Node" __polymorphicType="UIGraph_Context">
+      <dependencies>
+        <CtxGraph_Dependency reason="Enter" first="" second="UIController" __type="CtxGraph_Dependency" />
+      </dependencies>
+      <components>
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+      </components>
+      <UIController>
+        <UIGraph_ControllerComponent name="ACController" __type="CtxGraph_Node" __polymorphicType="UIGraph_ControllerComponent" />
+      </UIController>
+    </UIGraph_Context>
+    <UIGraph_Context name="EA_Teamsetup" BackBehavior="LastRequestContextEnd" renderTarget="All" __type="CtxGraph_Node" __polymorphicType="UIGraph_Context">
+      <dependencies>
+        <CtxGraph_Dependency reason="Enter" first="" second="UIController" __type="CtxGraph_Dependency" />
+        <CtxGraph_Dependency reason="Enter" first="" second="" __type="CtxGraph_Dependency" />
+      </dependencies>
+      <components>
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+      </components>
+      <UIController>
+        <UIGraph_ControllerComponent name="ACTeamController" __type="CtxGraph_Node" __polymorphicType="UIGraph_ControllerComponent" />
+      </UIController>
+    </UIGraph_Context>
+    <UIGraph_Context name="EA_CustomLobby" BackBehavior="LastRequestContextEnd" renderTarget="All" __type="CtxGraph_Node" __polymorphicType="UIGraph_Context">
+      <dependencies>
+        <CtxGraph_Dependency reason="Enter" first="" second="UIController" __type="CtxGraph_Dependency" />
+        <CtxGraph_Dependency reason="Enter" first="" second="" __type="CtxGraph_Dependency" />
+      </dependencies>
+      <components>
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+      </components>
+      <UIController>
+        <UIGraph_ControllerComponent name="ACLobbyController" __type="CtxGraph_Node" __polymorphicType="UIGraph_ControllerComponent" />
+      </UIController>
+    </UIGraph_Context>
+    <UIGraph_Context name="SM_Splash" BackBehavior="LastRequestClose" renderTarget="All" __type="CtxGraph_Node" __polymorphicType="UIGraph_Context">
+      <dependencies>
+        <CtxGraph_Dependency reason="Enter" first="" second="UIController" __type="CtxGraph_Dependency" />
+      </dependencies>
+      <components>
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+      </components>
+      <UIController>
+        <UIGraph_ControllerComponent name="SMController" __type="CtxGraph_Node" __polymorphicType="UIGraph_ControllerComponent" />
+      </UIController>
+    </UIGraph_Context>
+    <UIGraph_Context name="SM_Teamsetup" BackBehavior="LastRequestClose" renderTarget="All" __type="CtxGraph_Node" __polymorphicType="UIGraph_Context">
+      <dependencies>
+        <CtxGraph_Dependency reason="Enter" first="" second="UIController" __type="CtxGraph_Dependency" />
+      </dependencies>
+      <components>
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+      </components>
+      <UIController>
+        <UIGraph_ControllerComponent name="SMTeamController" __type="CtxGraph_Node" __polymorphicType="UIGraph_ControllerComponent" />
+      </UIController>
+    </UIGraph_Context>
+    <UIGraph_MouseControlComponent autoHandleInput="1" __type="CtxGraph_Node" __polymorphicType="UIGraph_MouseControlComponent" />
+    <UIGraph_MouseControlComponent autoHandleInput="1" __type="CtxGraph_Node" __polymorphicType="UIGraph_MouseControlComponent" />
+    <UIGraph_MouseControlComponent autoHandleInput="1" __type="CtxGraph_Node" __polymorphicType="UIGraph_MouseControlComponent" />
+    <UIGraph_MouseControlComponent autoHandleInput="1" __type="CtxGraph_Node" __polymorphicType="UIGraph_MouseControlComponent" />
+    <UIGraph_MouseControlComponent autoHandleInput="1" __type="CtxGraph_Node" __polymorphicType="UIGraph_MouseControlComponent" />
+    <UIGraph_MouseControlComponent autoHandleInput="1" __type="CtxGraph_Node" __polymorphicType="UIGraph_MouseControlComponent" />
+    <UIGraph_MouseControlComponent autoHandleInput="1" __type="CtxGraph_Node" __polymorphicType="UIGraph_MouseControlComponent" />
+    <UIGraph_MouseControlComponent autoHandleInput="1" __type="CtxGraph_Node" __polymorphicType="UIGraph_MouseControlComponent" />
+    <UIGraph_SimpleComponent type="FrontendViewTransition" __type="CtxGraph_Node" __polymorphicType="UIGraph_SimpleComponent" />
+    <UIGraph_SimpleComponent type="FrontendViewTransition" __type="CtxGraph_Node" __polymorphicType="UIGraph_SimpleComponent" />
+    <UIGraph_SimpleComponent type="FrontendViewTransition" __type="CtxGraph_Node" __polymorphicType="UIGraph_SimpleComponent" />
+    <UIGraph_SimpleComponent type="FrontendViewTransition" __type="CtxGraph_Node" __polymorphicType="UIGraph_SimpleComponent" />
+    <UIGraph_SimpleComponent type="FrontendViewTransition" __type="CtxGraph_Node" __polymorphicType="UIGraph_SimpleComponent" />
+    <UIGraph_SimpleComponent type="FrontendViewTransition" __type="CtxGraph_Node" __polymorphicType="UIGraph_SimpleComponent" />
+    <UIGraph_Context name="EA_Singleplayer" BackBehavior="NoAction" renderTarget="All" __type="CtxGraph_Node" __polymorphicType="UIGraph_Context">
+      <dependencies>
+        <CtxGraph_Dependency reason="Enter" first="UIController" second="" __type="CtxGraph_Dependency" />
+      </dependencies>
+      <components>
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+      </components>
+      <UIController>
+        <UIGraph_ControllerComponent name="" __type="CtxGraph_Node" __polymorphicType="UIGraph_ControllerComponent" />
+      </UIController>
+    </UIGraph_Context>
+    <UIGraph_MouseControlComponent autoHandleInput="1" __type="CtxGraph_Node" __polymorphicType="UIGraph_MouseControlComponent" />
+    <UIGraph_SimpleComponent type="FrontendViewTransition" __type="CtxGraph_Node" __polymorphicType="UIGraph_SimpleComponent" />
+    <UIGraph_SimpleComponent type="FrontendEAModeCheck" __type="CtxGraph_Node" __polymorphicType="UIGraph_SimpleComponent" />
+    <UIGraph_SimpleComponent type="FrontendEAModeCheck" __type="CtxGraph_Node" __polymorphicType="UIGraph_SimpleComponent" />
+    <UIGraph_SimpleComponent type="FrontendEAModeCheck" __type="CtxGraph_Node" __polymorphicType="UIGraph_SimpleComponent" />
+    <UIGraph_BuildingBlocksContextComponent canvas="d761eb91-f5c7-47ca-ba8c-7599d8fd6688" __type="CtxGraph_Node" __polymorphicType="UIGraph_BuildingBlocksContextComponent" />
+    <UIGraph_BuildingBlocksContextComponent canvas="90534531-9fc0-475b-817c-75fc4c7d644b" __type="CtxGraph_Node" __polymorphicType="UIGraph_BuildingBlocksContextComponent" />
+    <UIGraph_FrontendEALobbySetupComponent singleplayerLobby="0" name="Custom Lobby" __type="CtxGraph_Node" __polymorphicType="UIGraph_FrontendEALobbySetupComponent" />
+    <UIGraph_FrontendEALobbySetupComponent singleplayerLobby="1" name="Singleplayer" __type="CtxGraph_Node" __polymorphicType="UIGraph_FrontendEALobbySetupComponent" />
+    <UIGraph_FrontendEASplashComponent __type="CtxGraph_Node" __polymorphicType="UIGraph_FrontendEASplashComponent" />
+    <UIGraph_FrontendEASplashComponent __type="CtxGraph_Node" __polymorphicType="UIGraph_FrontendEASplashComponent" />
+    <UIGraph_SimpleComponent type="FrontendEAModeCheck" __type="CtxGraph_Node" __polymorphicType="UIGraph_SimpleComponent" />
+    <UIGraph_FrontendEALobbySetupComponent singleplayerLobby="0" name="Team Setup" __type="CtxGraph_Node" __polymorphicType="UIGraph_FrontendEALobbySetupComponent" />
+    <UIGraph_FlashDockingStationComponent displayName="CustomLobby" __type="CtxGraph_Node" __polymorphicType="UIGraph_FlashDockingStationComponent" />
+    <UIGraph_FlashDockingStationComponent displayName="TeamSetup" __type="CtxGraph_Node" __polymorphicType="UIGraph_FlashDockingStationComponent" />
+    <UIGraph_SimpleComponent type="EALeaderboards" __type="CtxGraph_Node" __polymorphicType="UIGraph_SimpleComponent" />
+    <EAStaticLoadoutDummy params="fab7fe63-069f-4d64-93ad-94b3a09fccf1" __type="CtxGraph_Node" __polymorphicType="EAStaticLoadoutDummy" />
+    <UIGraph_Context name="FE_CharacterCustomiser" BackBehavior="LastDoNothing" renderTarget="All" __type="CtxGraph_Node" __polymorphicType="UIGraph_Context">
+      <dependencies>
+        <CtxGraph_Dependency reason="Enter" first="" second="UIController" __type="CtxGraph_Dependency" />
+      </dependencies>
+      <components>
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+      </components>
+      <UIController>
+        <UIGraph_ControllerComponent name="FE_CharacterCustomiser" __type="CtxGraph_Node" __polymorphicType="UIGraph_ControllerComponent" />
+      </UIController>
+    </UIGraph_Context>
+    <UIGraph_MouseControlComponent autoHandleInput="1" __type="CtxGraph_Node" __polymorphicType="UIGraph_MouseControlComponent" />
+    <UIGraph_SimpleComponent type="FrontendViewTransition" __type="CtxGraph_Node" __polymorphicType="UIGraph_SimpleComponent" />
+    <UIGraph_FlashDockingStationComponent displayName="FE_CharacterCustomizerDockingStation" __type="CtxGraph_Node" __polymorphicType="UIGraph_FlashDockingStationComponent" />
+    <UIGraph_FrontendCharacterCustomizer characterCustomizerComponentParams="fe0cc3d7-63bf-4e3f-b200-e1f45b6de4ae" __type="CtxGraph_Node" __polymorphicType="UIGraph_FrontendCharacterCustomizer" />
+    <UIGraph_LoadoutItemPortDockContextComponent loadoutEditorComponentParams="1ce6a3d1-0c50-4614-a97b-ce3b1a4ac57e" __type="CtxGraph_Node" __polymorphicType="UIGraph_LoadoutItemPortDockContextComponent" />
+    <UIGraph_SimpleComponent type="VehicleQuery" __type="CtxGraph_Node" __polymorphicType="UIGraph_SimpleComponent" />
+    <UIGraph_SimpleComponent type="PortCategories" __type="CtxGraph_Node" __polymorphicType="UIGraph_SimpleComponent" />
+    <UIGraph_Group name="Prompt" indexContexts="1" __type="CtxGraph_Node" __polymorphicType="UIGraph_Group">
+      <contexts>
+        <WeakPointer contexts="" />
+        <WeakPointer contexts="" />
+        <WeakPointer contexts="" />
+        <WeakPointer contexts="" />
+        <WeakPointer contexts="" />
+        <WeakPointer contexts="" />
+        <WeakPointer contexts="" />
+        <WeakPointer contexts="" />
+      </contexts>
+      <childGroups>
+        <WeakPointer childGroups="" />
+      </childGroups>
+    </UIGraph_Group>
+    <UIGraph_Context name="ConnectionPopUp" BackBehavior="NoAction" renderTarget="All" __type="CtxGraph_Node" __polymorphicType="UIGraph_Context">
+      <dependencies />
+      <components>
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+      </components>
+      <UIController>
+        <UIGraph_ControllerComponent name="" __type="CtxGraph_Node" __polymorphicType="UIGraph_ControllerComponent" />
+      </UIController>
+    </UIGraph_Context>
+    <UIGraph_Context name="LoadoutWarningPopUp" BackBehavior="NoAction" renderTarget="All" __type="CtxGraph_Node" __polymorphicType="UIGraph_Context">
+      <dependencies />
+      <components>
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+      </components>
+      <UIController>
+        <UIGraph_ControllerComponent name="" __type="CtxGraph_Node" __polymorphicType="UIGraph_ControllerComponent" />
+      </UIController>
+    </UIGraph_Context>
+    <UIGraph_Context name="ShipDetailsKickWarningPopUp" BackBehavior="NoAction" renderTarget="All" __type="CtxGraph_Node" __polymorphicType="UIGraph_Context">
+      <dependencies />
+      <components>
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+      </components>
+      <UIController>
+        <UIGraph_ControllerComponent name="" __type="CtxGraph_Node" __polymorphicType="UIGraph_ControllerComponent" />
+      </UIController>
+    </UIGraph_Context>
+    <UIGraph_Context name="ShipDetailsKickNoticePopUp" BackBehavior="NoAction" renderTarget="All" __type="CtxGraph_Node" __polymorphicType="UIGraph_Context">
+      <dependencies />
+      <components>
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+      </components>
+      <UIController>
+        <UIGraph_ControllerComponent name="" __type="CtxGraph_Node" __polymorphicType="UIGraph_ControllerComponent" />
+      </UIController>
+    </UIGraph_Context>
+    <UIGraph_MouseControlComponent autoHandleInput="1" __type="CtxGraph_Node" __polymorphicType="UIGraph_MouseControlComponent" />
+    <UIGraph_SimpleComponent type="EAShipDetailsKickNoticePopUp" __type="CtxGraph_Node" __polymorphicType="UIGraph_SimpleComponent" />
+    <UIGraph_MouseControlComponent autoHandleInput="1" __type="CtxGraph_Node" __polymorphicType="UIGraph_MouseControlComponent" />
+    <UIGraph_SimpleComponent type="EAShipDetailsKickWarningPopUp" __type="CtxGraph_Node" __polymorphicType="UIGraph_SimpleComponent" />
+    <UIGraph_SimpleComponent type="EALoadoutWarningPopUp" __type="CtxGraph_Node" __polymorphicType="UIGraph_SimpleComponent" />
+    <UIGraph_MouseControlComponent autoHandleInput="1" __type="CtxGraph_Node" __polymorphicType="UIGraph_MouseControlComponent" />
+    <UIGraph_MouseControlComponent autoHandleInput="1" __type="CtxGraph_Node" __polymorphicType="UIGraph_MouseControlComponent" />
+    <UIGraph_SimpleComponent type="EAConnectionPopUp" __type="CtxGraph_Node" __polymorphicType="UIGraph_SimpleComponent" />
+    <UIGraph_MouseControlComponent autoHandleInput="1" __type="CtxGraph_Node" __polymorphicType="UIGraph_MouseControlComponent" />
+    <UIGraph_BlockingMessagePopUpComponent errorFormat="@dfm_ac_ui_lobby_error_format" provider="ElectronicAccess" __type="CtxGraph_Node" __polymorphicType="UIGraph_BlockingMessagePopUpComponent" />
+    <UIGraph_Context name="LobbyConnection" BackBehavior="NoAction" renderTarget="All" __type="CtxGraph_Node" __polymorphicType="UIGraph_Context">
+      <dependencies />
+      <components>
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+      </components>
+      <UIController>
+        <UIGraph_ControllerComponent name="" __type="CtxGraph_Node" __polymorphicType="UIGraph_ControllerComponent" />
+      </UIController>
+    </UIGraph_Context>
+    <UIGraph_SimpleComponent type="EALobbyConnection" __type="CtxGraph_Node" __polymorphicType="UIGraph_SimpleComponent" />
+    <UIGraph_MouseControlComponent autoHandleInput="1" __type="CtxGraph_Node" __polymorphicType="UIGraph_MouseControlComponent" />
+    <UIGraph_Context name="SM_Loadout" BackBehavior="NoAction" renderTarget="All" __type="CtxGraph_Node" __polymorphicType="UIGraph_Context">
+      <dependencies />
+      <components>
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+      </components>
+      <UIController>
+        <UIGraph_ControllerComponent name="" __type="CtxGraph_Node" __polymorphicType="UIGraph_ControllerComponent" />
+      </UIController>
+    </UIGraph_Context>
+    <UIGraph_MouseControlComponent autoHandleInput="1" __type="CtxGraph_Node" __polymorphicType="UIGraph_MouseControlComponent" />
+    <UIGraph_MouseControlComponent autoHandleInput="1" __type="CtxGraph_Node" __polymorphicType="UIGraph_MouseControlComponent" />
+    <UIGraph_Context name="EA_MapSelect" BackBehavior="NoAction" renderTarget="All" __type="CtxGraph_Node" __polymorphicType="UIGraph_Context">
+      <dependencies />
+      <components>
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+      </components>
+      <UIController>
+        <UIGraph_ControllerComponent name="" __type="CtxGraph_Node" __polymorphicType="UIGraph_ControllerComponent" />
+      </UIController>
+    </UIGraph_Context>
+    <UIGraph_MouseControlComponent autoHandleInput="1" __type="CtxGraph_Node" __polymorphicType="UIGraph_MouseControlComponent" />
+    <UIGraph_Context name="EA_ContactList" BackBehavior="NoAction" renderTarget="All" __type="CtxGraph_Node" __polymorphicType="UIGraph_Context">
+      <dependencies />
+      <components>
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+      </components>
+      <UIController>
+        <UIGraph_ControllerComponent name="" __type="CtxGraph_Node" __polymorphicType="UIGraph_ControllerComponent" />
+      </UIController>
+    </UIGraph_Context>
+    <UIGraph_MouseControlComponent autoHandleInput="1" __type="CtxGraph_Node" __polymorphicType="UIGraph_MouseControlComponent" />
+    <EAContactList __type="CtxGraph_Node" __polymorphicType="EAContactList" />
+    <UIGraph_FlashDockingStationComponent displayName="ContactList" __type="CtxGraph_Node" __polymorphicType="UIGraph_FlashDockingStationComponent" />
+    <UIGraph_DockingGroup name="WidgetPrompt" indexContexts="1" __type="CtxGraph_Node" __polymorphicType="UIGraph_DockingGroup">
+      <contexts>
+        <WeakPointer contexts="" />
+        <WeakPointer contexts="" />
+        <WeakPointer contexts="" />
+        <WeakPointer contexts="" />
+        <WeakPointer contexts="" />
+        <WeakPointer contexts="" />
+      </contexts>
+      <childGroups>
+        <WeakPointer childGroups="0" />
+        <WeakPointer childGroups="" />
+      </childGroups>
+    </UIGraph_DockingGroup>
+    <UIGraph_Context name="AC_Loadout" BackBehavior="LastRequestClose" renderTarget="All" __type="CtxGraph_Node" __polymorphicType="UIGraph_Context">
+      <dependencies />
+      <components>
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+      </components>
+      <UIController>
+        <UIGraph_ControllerComponent name="ACLoadoutController" __type="CtxGraph_Node" __polymorphicType="UIGraph_ControllerComponent" />
+      </UIController>
+    </UIGraph_Context>
+    <UIGraph_MouseControlComponent autoHandleInput="1" __type="CtxGraph_Node" __polymorphicType="UIGraph_MouseControlComponent" />
+    <UIGraph_FlashDockingStationComponent displayName="ItemPort" __type="CtxGraph_Node" __polymorphicType="UIGraph_FlashDockingStationComponent" />
+    <UIGraph_LoadoutEditorComponent loadoutEditorComponentParams="82e12b26-d672-404e-930a-55b1b55f8bc6" geometryRecord="307bf8f5-0037-4cc2-abaf-8b33bbfe0c74" entityClipName="ItemPreview" __type="CtxGraph_Node" __polymorphicType="UIGraph_LoadoutEditorComponent">
+      <entityClipDimensions x="5" y="2" __type="Vec2" />
+    </UIGraph_LoadoutEditorComponent>
+    <UIGraph_SimpleComponent type="ACLoadoutContextSwitch" __type="CtxGraph_Node" __polymorphicType="UIGraph_SimpleComponent" />
+    <UIGraph_LoadoutItemPortDockContextComponent loadoutEditorComponentParams="82e12b26-d672-404e-930a-55b1b55f8bc6" __type="CtxGraph_Node" __polymorphicType="UIGraph_LoadoutItemPortDockContextComponent" />
+    <UIGraph_SimpleComponent type="ShipList" __type="CtxGraph_Node" __polymorphicType="UIGraph_SimpleComponent" />
+    <UIGraph_FlashDockingStationComponent displayName="SMLoadoutDockingStation" __type="CtxGraph_Node" __polymorphicType="UIGraph_FlashDockingStationComponent" />
+    <UIGraph_LoadoutItemPortDockContextComponent loadoutEditorComponentParams="a38056eb-83bd-44d6-9c44-035033dd233a" __type="CtxGraph_Node" __polymorphicType="UIGraph_LoadoutItemPortDockContextComponent" />
+    <UIGraph_LoadoutEditorComponent loadoutEditorComponentParams="a38056eb-83bd-44d6-9c44-035033dd233a" geometryRecord="d46ec03b-7f2c-47b2-92b1-8c94aac8fc9b" entityClipName="SMItemPreview" __type="CtxGraph_Node" __polymorphicType="UIGraph_LoadoutEditorComponent">
+      <entityClipDimensions x="3" y="4" __type="Vec2" />
+    </UIGraph_LoadoutEditorComponent>
+    <UIGraph_SimpleComponent type="BackClick" __type="CtxGraph_Node" __polymorphicType="UIGraph_SimpleComponent" />
+    <UIGraph_ActorLoadoutEditorContextComponent __type="CtxGraph_Node" __polymorphicType="UIGraph_ActorLoadoutEditorContextComponent" />
+    <UIGraph_SMLoadoutContextComponent loadoutEditorComponentParams="a38056eb-83bd-44d6-9c44-035033dd233a" __type="CtxGraph_Node" __polymorphicType="UIGraph_SMLoadoutContextComponent" />
+    <UIGraph_ItemPreviewContextComponentDef loadoutEditorComponentParams="a38056eb-83bd-44d6-9c44-035033dd233a" maxPreviewsLoaded="20" __type="CtxGraph_Node" __polymorphicType="UIGraph_ItemPreviewContextComponentDef" />
+    <UIGraph_ItemPreviewContextComponentDef loadoutEditorComponentParams="82e12b26-d672-404e-930a-55b1b55f8bc6" maxPreviewsLoaded="20" __type="CtxGraph_Node" __polymorphicType="UIGraph_ItemPreviewContextComponentDef" />
+    <UIGraph_SimpleComponent type="VehicleQuery" __type="CtxGraph_Node" __polymorphicType="UIGraph_SimpleComponent" />
+    <UIGraph_SimpleComponent type="PortCategories" __type="CtxGraph_Node" __polymorphicType="UIGraph_SimpleComponent" />
+    <UIGraph_SimpleComponent type="PortCategories" __type="CtxGraph_Node" __polymorphicType="UIGraph_SimpleComponent" />
+    <UIGraph_Context name="AC_ShipSelect" BackBehavior="NoAction" renderTarget="All" __type="CtxGraph_Node" __polymorphicType="UIGraph_Context">
+      <dependencies />
+      <components>
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+      </components>
+      <UIController>
+        <UIGraph_ControllerComponent name="" __type="CtxGraph_Node" __polymorphicType="UIGraph_ControllerComponent" />
+      </UIController>
+    </UIGraph_Context>
+    <UIGraph_MouseControlComponent autoHandleInput="1" __type="CtxGraph_Node" __polymorphicType="UIGraph_MouseControlComponent" />
+    <UIGraph_SimpleComponent type="VehicleQuery" __type="CtxGraph_Node" __polymorphicType="UIGraph_SimpleComponent" />
+    <UIGraph_SimpleComponent type="ShipSelectOrRental" __type="CtxGraph_Node" __polymorphicType="UIGraph_SimpleComponent" />
+    <UIGraph_VehicleLoadoutEditorContextComponent __type="CtxGraph_Node" __polymorphicType="UIGraph_VehicleLoadoutEditorContextComponent" />
+    <UIGraph_LoadoutEditorComponent loadoutEditorComponentParams="524b7f2f-cb1a-4673-8c72-f9ae369cc34a" geometryRecord="307bf8f5-0037-4cc2-abaf-8b33bbfe0c74" entityClipName="ItemPreview" __type="CtxGraph_Node" __polymorphicType="UIGraph_LoadoutEditorComponent">
+      <entityClipDimensions x="5" y="2" __type="Vec2" />
+    </UIGraph_LoadoutEditorComponent>
+    <UIGraph_FlashDockingStationComponent displayName="ShipSelectOrRent" __type="CtxGraph_Node" __polymorphicType="UIGraph_FlashDockingStationComponent" />
+    <UIGraph_Group name="FrontendBackground" indexContexts="1" __type="CtxGraph_Node" __polymorphicType="UIGraph_Group">
+      <contexts>
+        <WeakPointer contexts="" />
+      </contexts>
+      <childGroups />
+    </UIGraph_Group>
+    <UIGraph_Context name="FE_Background" BackBehavior="NoAction" renderTarget="All" __type="CtxGraph_Node" __polymorphicType="UIGraph_Context">
+      <dependencies />
+      <components>
+        <WeakPointer components="" />
+      </components>
+      <UIController>
+        <UIGraph_ControllerComponent name="" __type="CtxGraph_Node" __polymorphicType="UIGraph_ControllerComponent" />
+      </UIController>
+    </UIGraph_Context>
+    <EABackground params="127e6c83-830e-4c4c-993d-8b61b78c1305" __type="CtxGraph_Node" __polymorphicType="EABackground" />
+    <UIGraph_Context name="ServerMessagePopUp" BackBehavior="NoAction" renderTarget="All" __type="CtxGraph_Node" __polymorphicType="UIGraph_Context">
+      <dependencies />
+      <components>
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+      </components>
+      <UIController>
+        <UIGraph_ControllerComponent name="" __type="CtxGraph_Node" __polymorphicType="UIGraph_ControllerComponent" />
+      </UIController>
+    </UIGraph_Context>
+    <UIGraph_Context name="EA_GameModeSelect" BackBehavior="LastRequestContextEnd" renderTarget="All" __type="CtxGraph_Node" __polymorphicType="UIGraph_Context">
+      <dependencies />
+      <components>
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+      </components>
+      <UIController>
+        <UIGraph_ControllerComponent name="" __type="CtxGraph_Node" __polymorphicType="UIGraph_ControllerComponent" />
+      </UIController>
+    </UIGraph_Context>
+    <UIGraph_BuildingBlocksContextComponent canvas="735348bc-870e-4f7c-be14-f97ce2726dc0" __type="CtxGraph_Node" __polymorphicType="UIGraph_BuildingBlocksContextComponent" />
+    <UIGraph_Context name="CameraMicConfig" BackBehavior="NoAction" renderTarget="All" __type="CtxGraph_Node" __polymorphicType="UIGraph_Context">
+      <dependencies />
+      <components>
+        <WeakPointer components="" />
+      </components>
+      <UIController>
+        <UIGraph_ControllerComponent name="" __type="CtxGraph_Node" __polymorphicType="UIGraph_ControllerComponent" />
+      </UIController>
+    </UIGraph_Context>
+    <UIGraph_BuildingBlocksContextComponent canvas="ecee7320-8694-4e2c-8908-3c636bfaa6c6" __type="CtxGraph_Node" __polymorphicType="UIGraph_BuildingBlocksContextComponent" />
+    <UIGraph_Context name="S42_FE_Splash" BackBehavior="NoAction" renderTarget="All" __type="CtxGraph_Node" __polymorphicType="UIGraph_Context">
+      <dependencies />
+      <components>
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+      </components>
+      <UIController>
+        <UIGraph_ControllerComponent name="" __type="CtxGraph_Node" __polymorphicType="UIGraph_ControllerComponent" />
+      </UIController>
+    </UIGraph_Context>
+    <UIGraph_BuildingBlocksContextComponent canvas="d8184b9a-9a7f-44f1-84c8-3732da3e69d2" __type="CtxGraph_Node" __polymorphicType="UIGraph_BuildingBlocksContextComponent" />
+    <UIGraph_MouseControlComponent autoHandleInput="1" __type="CtxGraph_Node" __polymorphicType="UIGraph_MouseControlComponent" />
+    <UIGraph_Context name="S42_Level_Select" BackBehavior="NoAction" renderTarget="All" __type="CtxGraph_Node" __polymorphicType="UIGraph_Context">
+      <dependencies />
+      <components>
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+      </components>
+      <UIController>
+        <UIGraph_ControllerComponent name="" __type="CtxGraph_Node" __polymorphicType="UIGraph_ControllerComponent" />
+      </UIController>
+    </UIGraph_Context>
+    <UIGraph_BuildingBlocksContextComponent canvas="cc4a96e5-654d-4e5a-a25d-7fb4ee161079" __type="CtxGraph_Node" __polymorphicType="UIGraph_BuildingBlocksContextComponent" />
+    <UIGraph_MouseControlComponent autoHandleInput="1" __type="CtxGraph_Node" __polymorphicType="UIGraph_MouseControlComponent" />
+    <UIGraph_Context name="FindingMatchPopUp" BackBehavior="NoAction" renderTarget="All" __type="CtxGraph_Node" __polymorphicType="UIGraph_Context">
+      <dependencies />
+      <components>
+        <WeakPointer components="" />
+        <WeakPointer components="" />
+      </components>
+      <UIController>
+        <UIGraph_ControllerComponent name="" __type="CtxGraph_Node" __polymorphicType="UIGraph_ControllerComponent" />
+      </UIController>
+    </UIGraph_Context>
+    <UIGraph_MouseControlComponent autoHandleInput="1" __type="CtxGraph_Node" __polymorphicType="UIGraph_MouseControlComponent" />
+    <UIGraph_SimpleComponent type="EAFindingMatchPopUp" __type="CtxGraph_Node" __polymorphicType="UIGraph_SimpleComponent" />
+    <UIGraph_BuildingBlocksContextComponent canvas="760ad6b9-d246-4db8-a35b-290a19267771" __type="CtxGraph_Node" __polymorphicType="UIGraph_BuildingBlocksContextComponent" />
+    <UIGraph_ArenaCommanderVehicleLoadoutEditorContextComponent __type="CtxGraph_Node" __polymorphicType="UIGraph_ArenaCommanderVehicleLoadoutEditorContextComponent" />
+  </nodes>
+</CtxGraph.Frontend>

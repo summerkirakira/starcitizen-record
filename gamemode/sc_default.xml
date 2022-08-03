@@ -1,0 +1,251 @@
+<GameMode.SC_Default name="SC_Default" locDisplayName="@LOC_EMPTY" description="@LOC_EMPTY" thumbnail="" alias="SC" leaderboardMatchCode="" invalidShipGroup="00000000-0000-0000-0000-000000000000" singleMultiplayerAvailability="Both" disableSMLoadoutButton="0" availableToPlayer="1" isDevMode="0" __type="GameMode" __ref="330ce5d3-fb01-4f82-8708-3154a3a4b78a" __path="libs/foundry/records/gamemode/sc_default.xml">
+  <params>
+    <SStandardParams moduleType="PersistentUniverse" gameModule="a510b7af-4aba-4717-88cc-76448fc43057" persistentDataPolicy="WriteFull" spawnInSpaceship="0" enableQuantumTravel="1" isSurvivalMode="0" allowVehicleExit="1" useSelfDestructPenalty="0" allowEditLoadoutWhenDead="0" allowIngameMenu="1" maxUnattendedVehicleMarkers="2" musicSuite="767ad03c-a17c-40bf-ab55-fbc8eb1c59f7" audioOcclusionMaxDist="500" requiresBuildingBlocksRoundTimer="0" scanningEnabled="0" flyableShips="1" allShipsModifiable="0" canJoinLobbies="0" canAccessMobiGlass="1" planetMaxPatchesOverride="0" planetPatchTimeoutOverride="0" arModeSettings="d9f36265-906a-41e7-ac11-6e41295667e2" restrictGasExchanges="0" showGreenZoneWeaponsOnlineOffline="1" allowPartyInvite="1" joinOpenChannelOnStartup="1" commsMaxValidRange="-1" shipComputerMode="Default" canTakedownFriendly="1" canApplyForcesToFriendly="0" disableKillMessage="0" allowPITMenu="1" allowPITInventory="1" hasPlanetaryEffects="1" missionsWaitForSpawn="0" showNonPlayerJoinFeed="0" reputationJournalEntryParams="53939a05-3c1c-4426-9160-0a8615e73161" shopInventoryAlertsJournalEntry="60ec2ec7-415e-440b-8692-154e2fb5fe55" quantumDriveGlobalParams="1b25f9c9-630f-47f6-865d-0f0bb199215a" __type="DataForgeComponentParams" __polymorphicType="SStandardParams">
+      <audioSwitchStates>
+        <String value="SC_Game:Live_Persistent_Universe" />
+        <String value="SC_GameMode:SC_Default" />
+        <String value="SC_FPS_Player_Life:None" />
+      </audioSwitchStates>
+      <legacyUIOptions updateProgressBar="1" showFrameProgressBar="1" requiresScoreboard="0" requiresGameDetails="0" __type="LegacyUIOptionsParams" />
+      <announcerParams announcer="00000000-0000-0000-0000-000000000000" announcerGameModeTokenName="" __type="SGameRulesAnnouncerParams" />
+      <playerCamerasAllowed firstPersonAllowed="1" chaseAllowed="1" orbitAllowed="1" __type="SPlayerCameraTypeAllowedParams" />
+      <fireParams enabledMode="Disabled" __type="FireParams">
+        <behaviors>
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="0" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+        </behaviors>
+      </fireParams>
+      <actorMechanics allowZeroGTraversal="0" allowEVAIronman="0" __type="ActorMechanicsParams" />
+    </SStandardParams>
+  </params>
+  <pickup>
+  </pickup>
+  <damageHandling>
+    <SSCDamageHandling damageDisabled="0" incomingDamageModifierToAIVehicles="1" incomingVehicleDamageModifierFromAI="1" __type="DataForgeComponentParams" __polymorphicType="SSCDamageHandling" />
+  </damageHandling>
+  <hostility>
+    <SPUHostility __type="DataForgeComponentParams" __polymorphicType="SPUHostility">
+      <playerHostilityParams nonTargetedHostilityThresholdMultiplier="5" criminalHostilityThresholdMultiplier="0.5" criminalWantedLevelThreshold="1" changeHostilityOnFriendlyFire="1" hostilityTimerMinSeconds="30" hostilityTimerMaxSeconds="180" hostilityTimerIncreaseStep="10" __type="PlayerHostilityParams">
+        <accidentalFireAIActorParams damagePercentageThreshold="80" cooldownDamageHalflife="240" sustainedFireThreshold="4" cooldownSustainedFireHalflife="60" __type="PlayerHostilityAccidentalFireParams" />
+        <accidentalFirePlayerActorParams damagePercentageThreshold="2" cooldownDamageHalflife="240" sustainedFireThreshold="2" cooldownSustainedFireHalflife="60" __type="PlayerHostilityAccidentalFireParams" />
+        <accidentalFireAIShipParams damagePercentageThreshold="10" cooldownDamageHalflife="240" sustainedFireThreshold="50" cooldownSustainedFireHalflife="60" __type="PlayerHostilityAccidentalFireParams" />
+        <accidentalFirePlayerShipParams damagePercentageThreshold="2" cooldownDamageHalflife="240" sustainedFireThreshold="20" cooldownSustainedFireHalflife="60" __type="PlayerHostilityAccidentalFireParams" />
+        <factionCriminalParams>
+          <PlayerHostilityFactionCriminalParams faction="96f7df5a-90ad-4c95-bb28-1b62481e0fa1" criminalWantedLevelThreshold="6" __type="PlayerHostilityFactionCriminalParams" />
+          <PlayerHostilityFactionCriminalParams faction="1cee36a1-b3f5-4550-a85f-6edaa1cf66ca" criminalWantedLevelThreshold="6" __type="PlayerHostilityFactionCriminalParams" />
+          <PlayerHostilityFactionCriminalParams faction="23875316-74a2-441d-afc4-5411988286a0" criminalWantedLevelThreshold="6" __type="PlayerHostilityFactionCriminalParams" />
+          <PlayerHostilityFactionCriminalParams faction="94d7c53b-0bf6-4e8a-bb9a-f1bc19d7b749" criminalWantedLevelThreshold="6" __type="PlayerHostilityFactionCriminalParams" />
+          <PlayerHostilityFactionCriminalParams faction="d7589432-efde-4e46-bb68-2303badca585" criminalWantedLevelThreshold="6" __type="PlayerHostilityFactionCriminalParams" />
+          <PlayerHostilityFactionCriminalParams faction="03fa1a65-90e6-42f4-b23a-a6d3efd1157b" criminalWantedLevelThreshold="6" __type="PlayerHostilityFactionCriminalParams" />
+        </factionCriminalParams>
+        <securityNetworkFactions>
+          <Reference value="d8fa9fc7-525e-450d-b697-14512bad013f" />
+          <Reference value="d7589432-efde-4e46-bb68-2303badca585" />
+          <Reference value="8d2e0e7f-3ca7-447a-aff8-086a60653b6a" />
+          <Reference value="a4a0b04b-9b64-4243-bfcc-a8cbc9f386af" />
+        </securityNetworkFactions>
+      </playerHostilityParams>
+      <rammingParams minimumHitSpeedHostilityThreshold="10" minimumHitSpeedCrimeThreshold="20" singleBlameThreshold="1.2" sharedResponsibilityThreshold="100" collisionGracePeriodSeconds="2" vehicleActorCollisionSpeedThreshold="9" __type="RammingTrackerParams" />
+      <bountyParams enabled="1" crimeStatThreshold="3" jurisdiction="87e3c2af-000c-412f-b4d9-220377908eba" bountyRewardIncreaseFactor="5000" arrestCriminalOnBountyKill="1" minutesToBlockRepeatedPlayerBounty="30" minutesToDelayEscapedPrisonerBounty="5" failMissionIfHunterKilledByBounty="1" mobiglasActiveTimeToPingLocation="15" __type="BountyParams">
+        <missionBrokerEntries>
+          <Reference value="df4710e8-6e87-47da-bd1f-c7a20ddcef08" />
+          <Reference value="59763303-fb1f-4404-bf70-274f8cf94309" />
+          <Reference value="4c401b34-4443-4e5b-b407-e5c07685d84e" />
+          <Reference value="79e0ddef-f7d9-4d4f-9832-b68c6a40c89e" />
+        </missionBrokerEntries>
+        <escapedPrisonerMissions>
+          <Reference value="cabbb081-354c-4924-b85d-7a952e5d9832" />
+          <Reference value="4df98bbf-53bf-4de2-922e-3adad949b937" />
+          <Reference value="dfb760d6-b38e-4335-aa56-03a596b0239b" />
+          <Reference value="41081ea5-8d59-4786-a2fc-259b62cbcb71" />
+        </escapedPrisonerMissions>
+      </bountyParams>
+      <lawSystemSettings autoPayInfractionFines="0" earlyFineMultiplier="0.8" meritsToCredit="16" meritsToSentenceMinute="60" meritSentenceLimit="25000" meritSentenceCurveStart="12500" maxMeritsValue="-1" removalTimeMaxSeconds="60" removalTimeMinSeconds="2" meritsToRemovalTimeSeconds="150" defaultPressChargesNotificationTime="15" arrestTimeMinSeconds="60" arrestTimeMaxSeconds="180" arrestTimeIncreaseStep="10" arrestSearchAreaInVehicle="12000" arrestSearchAreaOnFoot="250" criminalRecordJournalEntry="ea17b191-a2a3-4ac2-a493-d7f8aeef93e2" firstCrimeStatJournalEntry="4296760c-30fb-4940-ab6f-a991104bdf73" resistArrestInfraction="d90ac7d6-fd83-43ba-a425-a8744a0e8c7b" evadeArrestInfraction="cedc5901-f39c-4b3b-960f-6863f5226e11" gracePeriodAfterUndocking="7" __type="LawSystemGlobalSettings">
+        <crimeStatThresholds __type="CrimeStatThresholds">
+          <meritThresholds>
+            <Int32 value="1000" />
+            <Int32 value="2000" />
+            <Int32 value="5000" />
+            <Int32 value="25000" />
+            <Int32 value="100000" />
+          </meritThresholds>
+        </crimeStatThresholds>
+        <lawEnforcementFactions>
+          <Reference value="d8fa9fc7-525e-450d-b697-14512bad013f" />
+          <Reference value="8d2e0e7f-3ca7-447a-aff8-086a60653b6a" />
+        </lawEnforcementFactions>
+        <factionsThatCanArrest>
+          <Reference value="09739fe2-fc3a-47c4-a27b-d75ee06c55de" />
+          <Reference value="d8fa9fc7-525e-450d-b697-14512bad013f" />
+          <Reference value="8d2e0e7f-3ca7-447a-aff8-086a60653b6a" />
+          <Reference value="a4a0b04b-9b64-4243-bfcc-a8cbc9f386af" />
+          <Reference value="d7589432-efde-4e46-bb68-2303badca585" />
+        </factionsThatCanArrest>
+        <foundInOwnStolenShipInfraction infraction="27ffc9bd-cadf-4407-bb9b-ec7b17bed6b3" __type="ScanEvaluationInfractionSettings">
+          <taskOutputTags __type="TagList">
+            <tags />
+          </taskOutputTags>
+        </foundInOwnStolenShipInfraction>
+        <harboringAFelonInfraction infraction="6a398c57-9a0f-40c3-9960-c2edbda04b91" __type="ScanEvaluationInfractionSettings">
+          <taskOutputTags __type="TagList">
+            <tags>
+              <Reference value="96a04512-f8bd-48d7-a369-f6ceb4bffc89" />
+            </tags>
+          </taskOutputTags>
+        </harboringAFelonInfraction>
+        <stolenGoodsPossessionInfraction infraction="35b6c12f-0cc7-4e76-baa1-5a6c4a6bd821" __type="ScanEvaluationInfractionSettings">
+          <taskOutputTags __type="TagList">
+            <tags>
+              <Reference value="732941c3-948b-4258-b454-af403ff5a280" />
+            </tags>
+          </taskOutputTags>
+        </stolenGoodsPossessionInfraction>
+        <stolenGoodsDistributionInfraction infraction="af9dabc5-d62c-49a9-9e0d-5112818cfabe" __type="ScanEvaluationInfractionSettings">
+          <taskOutputTags __type="TagList">
+            <tags>
+              <Reference value="295f2d0b-2a9b-4061-a0a7-687559f8d94d" />
+            </tags>
+          </taskOutputTags>
+        </stolenGoodsDistributionInfraction>
+        <prohibitedGoodsInfraction infraction="7f5e7bfc-9c4c-4ddd-b53d-4678ee36193f" __type="ScanEvaluationInfractionSettings">
+          <taskOutputTags __type="TagList">
+            <tags>
+              <Reference value="8e560bf7-bd3c-4d0b-9939-e1857355391e" />
+            </tags>
+          </taskOutputTags>
+        </prohibitedGoodsInfraction>
+        <arrestedInfraction infraction="7a897383-af3d-4198-aebd-c2e1efef661c" __type="ScanEvaluationInfractionSettings">
+          <taskOutputTags __type="TagList">
+            <tags />
+          </taskOutputTags>
+        </arrestedInfraction>
+        <controlledSubstancePossessionInfractions>
+          <ScanEvaluationInfractionSettings infraction="223317fb-e4d4-4eec-81f2-d27d2ecd8394" __type="ScanEvaluationInfractionSettings">
+            <taskOutputTags __type="TagList">
+              <tags>
+                <Reference value="84a053cf-7d94-4191-9ca4-e1b9c21f3b1d" />
+              </tags>
+            </taskOutputTags>
+          </ScanEvaluationInfractionSettings>
+          <ScanEvaluationInfractionSettings infraction="252dabef-4a0c-48dd-9fd7-92092b19cdbc" __type="ScanEvaluationInfractionSettings">
+            <taskOutputTags __type="TagList">
+              <tags>
+                <Reference value="84a053cf-7d94-4191-9ca4-e1b9c21f3b1d" />
+              </tags>
+            </taskOutputTags>
+          </ScanEvaluationInfractionSettings>
+          <ScanEvaluationInfractionSettings infraction="ad0ba701-6c87-49c3-b64f-1edbfdf3f5c0" __type="ScanEvaluationInfractionSettings">
+            <taskOutputTags __type="TagList">
+              <tags>
+                <Reference value="2578dd5c-0965-4df9-8471-fa8de91b214e" />
+              </tags>
+            </taskOutputTags>
+          </ScanEvaluationInfractionSettings>
+        </controlledSubstancePossessionInfractions>
+        <controlledSubstanceDistributionInfractions>
+          <ScanEvaluationInfractionSettings infraction="1740869d-6589-468d-8d41-93ad50b45e2d" __type="ScanEvaluationInfractionSettings">
+            <taskOutputTags __type="TagList">
+              <tags>
+                <Reference value="24f41f66-a8d1-449b-9f6a-2d1758020510" />
+              </tags>
+            </taskOutputTags>
+          </ScanEvaluationInfractionSettings>
+          <ScanEvaluationInfractionSettings infraction="c43e289f-322c-4d68-b810-d3a3a84897fd" __type="ScanEvaluationInfractionSettings">
+            <taskOutputTags __type="TagList">
+              <tags>
+                <Reference value="24f41f66-a8d1-449b-9f6a-2d1758020510" />
+              </tags>
+            </taskOutputTags>
+          </ScanEvaluationInfractionSettings>
+          <ScanEvaluationInfractionSettings infraction="687dca01-977d-4b23-a554-5ab059afe4d8" __type="ScanEvaluationInfractionSettings">
+            <taskOutputTags __type="TagList">
+              <tags>
+                <Reference value="24f41f66-a8d1-449b-9f6a-2d1758020510" />
+              </tags>
+            </taskOutputTags>
+          </ScanEvaluationInfractionSettings>
+        </controlledSubstanceDistributionInfractions>
+        <splashDamageSettings explosionTimeFrame="1" friendlyHitValue="0.5" friendlyKillValue="1.5" enemyHitValue="-0.5" enemyKillValue="-0.1" __type="SplashDamageInfractionSettings" />
+      </lawSystemSettings>
+    </SPUHostility>
+  </hostility>
+  <objectives>
+  </objectives>
+  <playerStats>
+    <SStandardPlayerStats checkFriendlyFire="1" serverKickPlayersFriendlyDamage="1000" serverKickPlayersDamageForInfraction="200" serverKickPlayersIgnoreDamageTimeAfterInfraction="2" serverKickPlayersNumberOfInfractionsToKick="4" serverKickPlayersDamageDecayHalflife="4" secondsToMergeHits="0.5" deathScreenMaxItemsPerColumn="4" deathScreenMaxSecondsStatValid="60" teamDamageCaution="@dfm_ui_Critical_Local_TeamDamage_Caution" teamDamageWarning="@dfm_ui_Critical_Local_TeamDamage_Warning" teamDamageKicked="@dfm_ui_Critical_Local_TeamDamage_Dismissal" __type="DataForgeComponentParams" __polymorphicType="SStandardPlayerStats" />
+  </playerStats>
+  <spawning>
+    <SPUSpawning respawnTimeKilled="10" pressXToRespawn="0" allowForceRespawnSuicide="1" prisonExitWaitTilBlackScreen="2" __type="DataForgeComponentParams" __polymorphicType="SPUSpawning">
+      <initialJournalEntries>
+        <Reference value="99b23ef0-bafc-4410-822a-59731bf97f74" />
+        <Reference value="2699b60c-c567-4d83-a18b-502c1c9ef708" />
+        <Reference value="1694c77e-106a-4676-8939-25caebec2774" />
+        <Reference value="7bc4b2d5-6347-4177-b737-9a48c019caff" />
+        <Reference value="f668cc19-b419-46f9-a2a4-78581cefccf1" />
+      </initialJournalEntries>
+    </SPUSpawning>
+  </spawning>
+  <victoryConditions>
+  </victoryConditions>
+  <spectator>
+    <SPUSpectator __type="DataForgeComponentParams" __polymorphicType="SPUSpectator">
+      <modes>
+        <SpectatorModeParams spectatorMode="SM_Follow" cameraRecord="0a4bc334-c608-4d83-a34e-c7c1a45bff17" availableToPlayers="0" __type="SpectatorModeParams" />
+        <SpectatorModeParams spectatorMode="SM_Free" cameraRecord="53dab46b-4c8c-4939-afc2-c8fc5e357a1a" availableToPlayers="0" __type="SpectatorModeParams" />
+      </modes>
+    </SPUSpectator>
+  </spectator>
+  <playerSetup>
+    <SStandardPlayerSetup __type="DataForgeComponentParams" __polymorphicType="SStandardPlayerSetup" />
+  </playerSetup>
+  <statsRecording>
+  </statsRecording>
+  <stateModule>
+    <PUStateParams allowOffline="0" __type="DataForgeComponentParams" __polymorphicType="PUStateParams" />
+  </stateModule>
+  <teams>
+  </teams>
+  <rounds>
+  </rounds>
+  <notifications>
+  </notifications>
+  <scoring>
+  </scoring>
+  <subsumptionMissionModule>
+    <SSubsumptionMission startOnIntialCountdown="0" __type="DataForgeComponentParams" __polymorphicType="SSubsumptionMission">
+      <spawningTagFilter __type="TagList">
+        <tags>
+          <Reference value="c08564a2-68d2-4eb1-903b-e3c3ecf12ac1" />
+        </tags>
+      </spawningTagFilter>
+    </SSubsumptionMission>
+  </subsumptionMissionModule>
+  <camerasModule>
+    <SCamerasBaseModule gameEndCameraRecord="00000000-0000-0000-0000-000000000000" onFootDeathCameraRecord="9dbbc6e3-b182-4c8d-84a9-92b911d62e0f" vehicleDeathCameraRecord="2d5adedb-1eb6-4287-87e1-d049f070d1b0" deathCameraDuration="8" useFadeOut="1" fadeOutTriggerTime="2" allowConstantDOF="0" __type="DataForgeComponentParams" __polymorphicType="SCamerasBaseModule" />
+  </camerasModule>
+  <validMaps />
+  <customSettings />
+  <entityManagementSetting>
+    <SEntityManagementModule vehicleManagementParams="e643458d-f41e-4140-a4bc-4f40c7fdc38f" carryableManagementParams="a747b40d-5b2f-478f-84fb-4998b369b9b6" destroyUnmanagedOnDetach="1" __type="DataForgeComponentParams" __polymorphicType="SEntityManagementModule" />
+  </entityManagementSetting>
+  <chatSystemOptions>
+    <ChatSystemOptions chatChannelFilterRecord="1a9bc6af-7fa7-41be-b6aa-f0c80cfdf2c2" voiceChannelSettingsRecord="d016405c-1a8d-4f10-bad5-826f4d9160d1" __type="DataForgeComponentParams" __polymorphicType="ChatSystemOptions" />
+  </chatSystemOptions>
+  <reputationModule>
+    <SGameRulesReputationBaseParamsDef __type="DataForgeComponentParams" __polymorphicType="SGameRulesReputationBaseParamsDef" />
+  </reputationModule>
+</GameMode.SC_Default>

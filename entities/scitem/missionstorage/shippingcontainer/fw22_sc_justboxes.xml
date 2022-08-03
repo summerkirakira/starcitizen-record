@@ -1,0 +1,11 @@
+<EntityClassDefinition.FW22_SC_JustBoxes Category="Default" Icon="Default.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="72c44c01-2535-4f43-b392-ac8b2cb53200" __path="libs/foundry/records/entities/scitem/missionstorage/shippingcontainer/fw22_sc_justboxes.xml">
+  <tags>
+    <Reference value="3a5b50b9-ab6a-4b53-86d8-cde4a42f21e8" />
+    <Reference value="3681e392-e782-4cdc-819e-a3e059fae148" />
+  </tags>
+  <StaticEntityClassData />
+  <Components>
+    <SObjectContainerComponentParams objectContainer="ObjectContainers/PU/design/FleetWeek2022/ShippingContainer/shippingcontainer_justboxes.socpak" __type="DataForgeComponentParams" __polymorphicType="SObjectContainerComponentParams" />
+    <SubsumptionMissionLinkComponentParams __type="DataForgeComponentParams" __polymorphicType="SubsumptionMissionLinkComponentParams" />
+  </Components>
+</EntityClassDefinition.FW22_SC_JustBoxes>

@@ -1,0 +1,5 @@
+<EntityClassDefinition.AreaShape Category="Default" Icon="Box.bmp" Invisible="1" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="268254b5-2f97-41c0-91e3-8741edd2064c" __path="libs/foundry/records/entities/area/areashape.xml">
+  <tags />
+  <StaticEntityClassData />
+  <Components />
+</EntityClassDefinition.AreaShape>

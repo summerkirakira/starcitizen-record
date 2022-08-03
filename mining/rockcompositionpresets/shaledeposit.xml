@@ -1,0 +1,9 @@
+<MineableComposition.ShaleDeposit depositName="@hud_mining_rock_name_1" minimumDistinctElements="3" __type="MineableComposition" __ref="d18f0859-44bd-45c2-a98c-85456279ed77" __path="libs/foundry/records/mining/rockcompositionpresets/shaledeposit.xml">
+  <compositionArray>
+    <MineableCompositionPart mineableElement="3776294d-5689-41f2-b03d-e8fcd17ede6a" minPercentage="3" maxPercentage="50" probability="0.5" curveExponent="2" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="f2f5bf2e-87f9-4f3d-bb59-b4e11eceeaad" minPercentage="2" maxPercentage="35" probability="0.25" curveExponent="2" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="7b9055e5-6d62-44dd-a725-a31d838301eb" minPercentage="2" maxPercentage="35" probability="0.25" curveExponent="3" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="d61d6c33-e428-4014-9326-0b06034de16a" minPercentage="2" maxPercentage="30" probability="0.25" curveExponent="4" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="8375a8d8-1627-4d35-ae91-6f39b373c3ad" minPercentage="2" maxPercentage="20" probability="0.25" curveExponent="5" __type="MineableCompositionPart" />
+  </compositionArray>
+</MineableComposition.ShaleDeposit>

@@ -1,0 +1,116 @@
+<EntityClassDefinition.SCPlayer Category="Default" Icon="Default.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="9e6479b7-fa1a-4013-a4cf-03b3d9cc46d1" __path="libs/foundry/records/player/scplayer.xml">
+  <tags />
+  <StaticEntityClassData />
+  <Components>
+    <SCPlayer __type="DataForgeComponentParams" __polymorphicType="SCPlayer">
+      <playerInventory landingZoneInventory="00000000-0000-0000-0000-000000000000" __type="PlayerInventory" />
+    </SCPlayer>
+    <SCPlayerPUSpawningComponentParams __type="DataForgeComponentParams" __polymorphicType="SCPlayerPUSpawningComponentParams" />
+    <SSCLocalPlayerComponentParams __type="DataForgeComponentParams" __polymorphicType="SSCLocalPlayerComponentParams" />
+    <SSCLocalPlayerUIComponentParams showRespawnTextForSameLocation="0" respawnScreenWaitTimeAfterTextFinishedSeconds="1" respawnScreenMaxTextWaitTimeSeconds="10" __type="DataForgeComponentParams" __polymorphicType="SSCLocalPlayerUIComponentParams" />
+    <EntityComponentLocalPlayerVisorAudioParams fireRateThresholdForPrioritySwap="350" __type="DataForgeComponentParams" __polymorphicType="EntityComponentLocalPlayerVisorAudioParams">
+      <visorRtpc rtpc="Player_Visor_IsVisor" __type="AudioRtpc" />
+      <visorPriorityRtpc rtpc="Player_Visor_Priority" __type="AudioRtpc" />
+      <soundSimOnRtpc rtpc="Player_Visor_Active" __type="AudioRtpc" />
+      <weaponHasActiveVisorAudioRtpc rtpc="Weapon_HasActiveVisorAudio" __type="AudioRtpc" />
+    </EntityComponentLocalPlayerVisorAudioParams>
+    <SCPersonalThoughtDisplayParams __type="DataForgeComponentParams" __polymorphicType="SCPersonalThoughtDisplayParams" />
+    <UIAudioComponentEntityComponentParams UIAudioDef="8910610a-aee0-4ec2-8249-c286c3a271a0" useEntityClass="00000000-0000-0000-0000-000000000000" dialogueContext="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="UIAudioComponentEntityComponentParams">
+      <offset>
+      </offset>
+      <videoAudioPlayTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <videoAudioPauseTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <videoAudioResumeTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+    </UIAudioComponentEntityComponentParams>
+    <StatusEntityComponentParams bindingsPrefix="" __type="DataForgeComponentParams" __polymorphicType="StatusEntityComponentParams" />
+    <UIOwnerEntityComponentParams startOpen="1" areScreens3D="0" areSounds3D="0" hasActions="0" element="db7efd04-8c62-467a-8d01-4ad8409ae47a" domainName="global" loadDistance="0" updateDistance="0" moviePath="" variantName="" invariantName="" movieAutoPlay="0" loopMovie="0" forceFlashColourCorrection="0" ignoreTrackviewUnloadRequests="0" reflectLocalStateMachine="0" reflectLinkedStateMachines="0" graph="4ffab591-e94b-4db8-9436-41f6f6433261" __type="DataForgeComponentParams" __polymorphicType="UIOwnerEntityComponentParams" />
+    <UIRenderToTextureEntityComponentParams directRenderStage="AfterPostProcessing" compositeMaterialName="" hideRenderNodeOnUnload="0" aspectRatioOverride="0" interactionDistance="5" transparentListDepthBias="0" renderFlashBeforeCamera="1" fieldOfView="30" renderType="FORWARD" fallbackTextureOnOnload="" __type="DataForgeComponentParams" __polymorphicType="UIRenderToTextureEntityComponentParams">
+      <secondaryTarget>
+      </secondaryTarget>
+      <grabCameraControlParams>
+      </grabCameraControlParams>
+    </UIRenderToTextureEntityComponentParams>
+    <UIEntityServiceEntityComponentParams immediateTransforms="0" __type="DataForgeComponentParams" __polymorphicType="UIEntityServiceEntityComponentParams" />
+    <UISimpleRenderNodeEntityComponentParams minimumBounds="1" materialName="materials/default_ui.mtl" sortDistance="1" layerOffset="5" layerDistance="0.1" fixedScaleMin="0" fixedScaleMax="0" __type="DataForgeComponentParams" __polymorphicType="UISimpleRenderNodeEntityComponentParams" />
+    <UIBindingsConsumerEntityComponentParams linkToPort="0" __type="DataForgeComponentParams" __polymorphicType="UIBindingsConsumerEntityComponentParams" />
+    <UIBindingsVendorEntityComponentParams namespace="" __type="DataForgeComponentParams" __polymorphicType="UIBindingsVendorEntityComponentParams" />
+    <SSCLocalPlayerCameraComponentParams __type="DataForgeComponentParams" __polymorphicType="SSCLocalPlayerCameraComponentParams">
+      <views>
+        <Reference value="cb84c493-d9db-4579-85d6-aa6e155725e7" />
+        <Reference value="01fff63d-0e4f-4052-907c-e8c37f887214" />
+        <Reference value="58360111-b09e-4c7d-8e93-686630850d42" />
+      </views>
+    </SSCLocalPlayerCameraComponentParams>
+    <SSCLocalPlayerChoiceComponentParams __type="DataForgeComponentParams" __polymorphicType="SSCLocalPlayerChoiceComponentParams" />
+    <SSCLocalPlayerPersonalThoughtComponentParams __type="DataForgeComponentParams" __polymorphicType="SSCLocalPlayerPersonalThoughtComponentParams" />
+    <SSCLocalPlayerMarkerTrackerComponentParams __type="DataForgeComponentParams" __polymorphicType="SSCLocalPlayerMarkerTrackerComponentParams">
+      <eaTrackersParams>
+        <EAEntityMarkerTracker ARMarkerConfig="d586d7a3-7df0-490f-aa15-5b77f58abe46" distanceUnits="@LOC_EMPTY" ARMarkerAlpha="0.6" scaleMarkerByDistance="1" minScaleDistance="10" maxScaleDistance="50" minSize="1" maxSize="1.5" allowClipping="1" __type="EAMarkerTrackerBase" __polymorphicType="EAEntityMarkerTracker" />
+        <EAObjectiveMarkerTracker ARMarkerConfig="d586d7a3-7df0-490f-aa15-5b77f58abe46" distanceUnits="@ea_ui_CTRL_objectiveDistance" ARMarkerAlpha="0.6" scaleMarkerByDistance="1" minScaleDistance="10" maxScaleDistance="50" minSize="1" maxSize="1.5" allowClipping="1" activeHUDAlpha="1" inactiveHUDAlpha="0.15" hudMarkerSize="1.2" contestedObjectiveString="@ea_ui_objectiveContested" multipleContestedObjectivesString="@ea_ui_multipleObjectivesContested" objectiveSeparatorString="@ea_ui_objectivesCommaSeparator" __type="EAMarkerTrackerBase" __polymorphicType="EAObjectiveMarkerTracker" />
+        <EAPlayableAreaMarkerTracker ARMarkerConfig="d586d7a3-7df0-490f-aa15-5b77f58abe46" distanceUnits="@ea_ui_CTRL_objectiveDistance" ARMarkerAlpha="0.6" scaleMarkerByDistance="1" minScaleDistance="10" maxScaleDistance="50" minSize="1" maxSize="10" allowClipping="1" helperText="@ea_ui_playablearea_ThisWay" __type="EAMarkerTrackerBase" __polymorphicType="EAPlayableAreaMarkerTracker" />
+        <EALockedSpawnMarkerTracker ARMarkerConfig="d586d7a3-7df0-490f-aa15-5b77f58abe46" distanceUnits="@ea_ui_CTRL_objectiveDistance" ARMarkerAlpha="1" scaleMarkerByDistance="1" minScaleDistance="10" maxScaleDistance="50" minSize="1" maxSize="1.5" allowClipping="1" maxClipRange="100" __type="EAMarkerTrackerBase" __polymorphicType="EALockedSpawnMarkerTracker" />
+      </eaTrackersParams>
+      <incapacitatedPlayerMarkerParams markerHeightOffset="0.25" corpseMarkerMaxDistance="-1" corpseMarkerLabel="@LOC_EMPTY" unconsciousMarkerMaxDistance="-1" unconsciousMarkerLabel="@LOC_EMPTY" downedMarkerMaxDistance="-1" downedMarkerLabel="@LOC_EMPTY" __type="IncapacitatedPlayerMarkerParams" />
+    </SSCLocalPlayerMarkerTrackerComponentParams>
+    <SSCLocalPlayerAimControlComponentParams __type="DataForgeComponentParams" __polymorphicType="SSCLocalPlayerAimControlComponentParams" />
+    <SSCLocalPlayerAudioComponentParams __type="DataForgeComponentParams" __polymorphicType="SSCLocalPlayerAudioComponentParams">
+      <buffEarRingingStart audioTrigger="Play_CBPC_EarRinging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <buffEarRingingStop audioTrigger="Stop_CBPC_EarRinging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <buffEarRingRtpc rtpc="Player_EarRinging" __type="AudioRtpc" />
+      <buffTempAudioLossStart audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <buffTempAudioLossStop audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <tempAudioLossRtpc rtpc="Player_TempAudioLoss" __type="AudioRtpc" />
+      <buffMuffledAudioStart audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <buffMuffledAudioStop audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <muffledAudioRtpc rtpc="Actor_Status_Muffled_Audio" __type="AudioRtpc" />
+      <shiveringStart audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <shiveringStop audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <shiveringRtpc rtpc="" __type="AudioRtpc" />
+      <headacheAudioStart audioTrigger="Play_CBPC_Headache" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <headacheAudioStop audioTrigger="Stop_CBPC_Headache" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <headacheAudioRtpc rtpc="Actor_Status_Headache_Intensity" __type="AudioRtpc" />
+      <stomachGroanAudioStart audioTrigger="Play_CBAS_Stomach_Rumble" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <stomachGroanAudioStop audioTrigger="Stop_CBAS_Stomach_Rumble" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <stomachGroanAudioRtpc rtpc="Actor_Status_Stomach_Groan_Amount" __type="AudioRtpc" />
+      <heartPulse audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <heartPulseDurationRtpc rtpc="" __type="AudioRtpc" />
+      <heartPulseBpmRtpc rtpc="" __type="AudioRtpc" />
+      <bodyTempRtpc rtpc="Player_Body_Temp" __type="AudioRtpc" />
+      <suitTempRtpc rtpc="" __type="AudioRtpc" />
+      <remoteTurretOn audioTrigger="Play_UI_MCCS_Remote_Turret_On" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <remoteTurretOff audioTrigger="Play_UI_MCCS_Remote_Turret_Off" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <remoteTurretLoopStart audioTrigger="Play_UI_MCCS_Remote_Turret_Loop" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <remoteTurretLoopStop audioTrigger="Stop_UI_MCCS_Remote_Turret_Loop" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <vacuumStart audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <vacuumStop audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <wantedLevelUp audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <wantedLevelDown audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <wantedLevelMax audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <helmetRtpc rtpc="Player_Helmet" __type="AudioRtpc" />
+      <localPerspectiveRtpc rtpc="SC_Local_Perspective" __type="AudioRtpc" />
+      <playerActorContainedRtpc rtpc="PlayerActorContained" __type="AudioRtpc" />
+      <globalPlayerActorInActiveVehicleSeatRtpc rtpc="" __type="AudioRtpc" />
+      <targetedByPlayerRtpc rtpc="TargetedByPlayer" __type="AudioRtpc" />
+      <isAttackingPlayerShipRtpc rtpc="IsAttackingPlayerShip" __type="AudioRtpc" />
+      <globalSoundSimEnabledRtpc rtpc="gl_SoundSimEnabled" __type="AudioRtpc" />
+      <weaponAdsLocalPlayerRtpc rtpc="Weapon_ADS_LocalPlayer" __type="AudioRtpc" />
+      <globalAdsLocalPlayerRtpc rtpc="Weapon_ADS_LocalPlayer_gl" __type="AudioRtpc" />
+      <localPlayerInThisOCRtpc rtpc="localPlayerInThisOc" __type="AudioRtpc" />
+      <globalTimeOfDayRtpc rtpc="Time_Of_Day" __type="AudioRtpc" />
+      <globalEMRtpc rtpc="gl_EMLevel" __type="AudioRtpc" />
+      <globalIRRtpc rtpc="gl_IRLevel" __type="AudioRtpc" />
+      <globalDistortionRtpc rtpc="gl_DistortionLevel" __type="AudioRtpc" />
+      <armsLockRtpc rtpc="" __type="AudioRtpc" />
+      <shakeRtpc rtpc="" __type="AudioRtpc" />
+      <heldItemWeightRtpc rtpc="" __type="AudioRtpc" />
+      <heldItemTooHeavyRtpc rtpc="" __type="AudioRtpc" />
+      <torsoWearRtpc rtpc="" __type="AudioRtpc" />
+    </SSCLocalPlayerAudioComponentParams>
+    <LocalPlayerAudioEnvironmentParams __type="DataForgeComponentParams" __polymorphicType="LocalPlayerAudioEnvironmentParams" />
+    <SCLocalPlayerGroupVideoCallComponentParams __type="DataForgeComponentParams" __polymorphicType="SCLocalPlayerGroupVideoCallComponentParams" />
+    <VoiceChatInputParams connectionEstablishedTag="4b6a49a0-c0e5-4c19-a3eb-9e70770db2d7" connectionLostTag="277f283a-c407-40d5-a5df-6b6986bdd3cc" pushToTalkEngagedTag="dd719099-a979-44ff-9755-5904bd2cf0da" pushToTalkDisengagedTag="67845ed0-2fcb-4b18-b314-39067d45bb91" __type="DataForgeComponentParams" __polymorphicType="VoiceChatInputParams" />
+    <VoiceChatRxAggregatorParams __type="DataForgeComponentParams" __polymorphicType="VoiceChatRxAggregatorParams" />
+    <SCLocalPlayerSocialConnectionComponentParams __type="DataForgeComponentParams" __polymorphicType="SCLocalPlayerSocialConnectionComponentParams" />
+    <ServiceBeaconInterfaceParams __type="DataForgeComponentParams" __polymorphicType="ServiceBeaconInterfaceParams" />
+  </Components>
+</EntityClassDefinition.SCPlayer>

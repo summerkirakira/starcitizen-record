@@ -1,0 +1,67 @@
+<EntityClassDefinition.Citcon_Cuttable Category="Default" Icon="Default.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="274c532f-6946-4a81-b664-28f8d7ce4b14" __path="libs/foundry/records/entities/scitem/environments/citcon_cuttable.xml">
+  <tags />
+  <StaticEntityClassData />
+  <Components>
+    <SGeometryResourceParams cacheResources="0" rootOverridePaint="0" inheritModelTagFromHost="1" __type="DataForgeComponentParams" __polymorphicType="SGeometryResourceParams">
+      <ModelTag>
+      </ModelTag>
+      <Geometry Tags="" ScaleMultiplier="1" __type="SGeometryNodeParams">
+        <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+          <Geometry path="objects/buildingsets/human/lowtech/prop/structure/relay/relay_comms_1_interior_cuttable_pins_a.cga" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+          <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+          <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        </Geometry>
+        <SubGeometry />
+      </Geometry>
+      <Material Tags="" __type="SMaterialNodeParams">
+        <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+        <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        <materialVariants />
+      </Material>
+    </SGeometryResourceParams>
+    <SEntityPhysicsControllerParams __type="DataForgeComponentParams" __polymorphicType="SEntityPhysicsControllerParams">
+      <PhysType>
+        <SEntityRigidPhysicsControllerParams Mass="0" maxLoggedCollisions="1" Damping="0" DampingFreefall="0.05" PushableByPlayers="0" NeverAffectTriggers="0" UseManualGridTransition="0" BlocksNavigation="1" Kinematic="0" Resting="0" physicalizeAllSlots="1" __type="SEntityBasePhysicsControllerParams" __polymorphicType="SEntityRigidPhysicsControllerParams">
+          <breakableParams>
+          </breakableParams>
+          <gameCollisionClass>
+          </gameCollisionClass>
+          <grid>
+          </grid>
+          <buoyancyParams>
+          </buoyancyParams>
+          <temperature enable="0" initialTemperature="-1" internalTemperatureGeneration="0" __type="EntityTemperature" />
+        </SEntityRigidPhysicsControllerParams>
+      </PhysType>
+    </SEntityPhysicsControllerParams>
+    <SHealthComponentParams Health="10000" ClientOnly="0" UnlockInteractionsOnDeath="0" PushDamageUpPartsHeirarchyWhenDead="1" DetachFromItemPortOnDeath="0" DetachFromEntityOnDeath="0" PropagateExplosionDamageToChildren="0" UseDirtShaderForDamage="0" DestroyedGeometryTag="" ExplodedGeometryTag="" DebrisGeometryTag="" ExplosionDelayTime="0" ExplosionRandomDelayRange="0" ExplosionBone="" __type="DataForgeComponentParams" __polymorphicType="SHealthComponentParams">
+      <DamageResistances>
+        <DamageResistance __type="DamageResistanceBase" __polymorphicType="DamageResistance">
+          <PhysicalResistance Multiplier="0" Threshold="0" __type="DamageResistanceEntry" />
+          <EnergyResistance Multiplier="0" Threshold="0" __type="DamageResistanceEntry" />
+          <DistortionResistance Multiplier="0" Threshold="0" __type="DamageResistanceEntry" />
+          <ThermalResistance Multiplier="0" Threshold="0" __type="DamageResistanceEntry" />
+          <BiochemicalResistance Multiplier="0" Threshold="0" __type="DamageResistanceEntry" />
+          <StunResistance Multiplier="1" Threshold="0" __type="DamageResistanceEntry" />
+        </DamageResistance>
+      </DamageResistances>
+      <InitialDamage>
+      </InitialDamage>
+      <HealthLevelStates />
+      <DeathExplosionParams>
+      </DeathExplosionParams>
+      <DeathGasComposition />
+      <InteractionLocks />
+      <DamageMapParams>
+        <SDamageMapParams MaxPositionMapLOD="1" __type="SDamageMapBaseParams" __polymorphicType="SDamageMapParams">
+          <Resolution x="512" y="512" __type="Vec2" />
+          <Scale x="1" y="1" __type="Vec2" />
+          <Offset x="0" y="0" __type="Vec2" />
+        </SDamageMapParams>
+      </DamageMapParams>
+    </SHealthComponentParams>
+    <SCuttableComponentParams __type="DataForgeComponentParams" __polymorphicType="SCuttableComponentParams">
+      <cuttableShapeParams cutMargin="0.03" autoCompleteThreshold="0.8" meleeCompleteThreshold="1" segmentsPerLine="4" __type="SCuttableShapeObjectParams" />
+    </SCuttableComponentParams>
+  </Components>
+</EntityClassDefinition.Citcon_Cuttable>

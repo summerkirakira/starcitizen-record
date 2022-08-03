@@ -1,0 +1,8 @@
+<WeaponProceduralClip.ksar_shotgun_energy_01_PoseJump __type="WeaponProceduralClip" __ref="8d1b05b5-4fb1-450a-9d5d-846bfcc7678d" __path="libs/foundry/records/weaponproceduralclip/shotgun/weaponproceduralclip.ksar_shotgun_energy_01_posejump.xml">
+  <weaponProceduralClipBase>
+    <WeaponProceduralClipPose blendTime="1" poseType="RightHand" zoomTransitionAngle="0" useAimHelperOffset="0" __type="WeaponProceduralClipBase" __polymorphicType="WeaponProceduralClipPose">
+      <position x="0" y="-0.02" z="0" __type="Vec3" />
+      <rotation x="0" y="0" z="0" __type="Ang3" />
+    </WeaponProceduralClipPose>
+  </weaponProceduralClipBase>
+</WeaponProceduralClip.ksar_shotgun_energy_01_PoseJump>

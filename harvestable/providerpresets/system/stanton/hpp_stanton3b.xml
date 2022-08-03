@@ -1,0 +1,67 @@
+<HarvestableProviderPreset.HPP_Stanton3b __type="HarvestableProviderPreset" __ref="06278151-3593-4382-bd34-17172ff5467b" __path="libs/foundry/records/harvestable/providerpresets/system/stanton/hpp_stanton3b.xml">
+  <harvestableGroups>
+    <HarvestableElementGroup groupName="SpaceShip_Mineables" groupProbability="6" __type="HarvestableElementGroup">
+      <harvestables>
+        <HarvestableElement harvestable="de2c1f8e-ab6f-449d-b102-24efd340ae56" relativeProbability="1" clustering="d3bc17e2-7a06-450a-82a0-1c5774329054" __type="HarvestableElement">
+          <geometries>
+            <HarvestableGeometry tag="cacaba91-2f83-42fe-bde5-fa6a023daeb9" __type="HarvestableGeometry" />
+          </geometries>
+        </HarvestableElement>
+        <HarvestableElement harvestable="2d6c59cf-8548-4826-9f38-d0be9f625120" relativeProbability="0.2" clustering="d3bc17e2-7a06-450a-82a0-1c5774329054" __type="HarvestableElement">
+          <geometries>
+            <HarvestableGeometry tag="cacaba91-2f83-42fe-bde5-fa6a023daeb9" __type="HarvestableGeometry" />
+          </geometries>
+        </HarvestableElement>
+        <HarvestableElement harvestable="f5700b10-cd6d-4e94-9338-58e001258568" relativeProbability="0.1" clustering="d3bc17e2-7a06-450a-82a0-1c5774329054" __type="HarvestableElement">
+          <geometries>
+            <HarvestableGeometry tag="cacaba91-2f83-42fe-bde5-fa6a023daeb9" __type="HarvestableGeometry" />
+          </geometries>
+        </HarvestableElement>
+        <HarvestableElement harvestable="044a3d40-b475-4ff8-bd2b-5deff2518b5d" relativeProbability="0.2" clustering="d3bc17e2-7a06-450a-82a0-1c5774329054" __type="HarvestableElement">
+          <geometries>
+            <HarvestableGeometry tag="cacaba91-2f83-42fe-bde5-fa6a023daeb9" __type="HarvestableGeometry" />
+          </geometries>
+        </HarvestableElement>
+      </harvestables>
+    </HarvestableElementGroup>
+    <HarvestableElementGroup groupName="GroundVehicle_Mineables" groupProbability="12.5" __type="HarvestableElementGroup">
+      <harvestables>
+        <HarvestableElement harvestable="0b32a5ed-a6e4-4947-9e8f-b59da59108db" relativeProbability="7" clustering="4ffceda3-639a-4c1f-9e24-cf4df9af1253" __type="HarvestableElement">
+          <geometries>
+            <HarvestableGeometry tag="cacaba91-2f83-42fe-bde5-fa6a023daeb9" __type="HarvestableGeometry" />
+          </geometries>
+        </HarvestableElement>
+        <HarvestableElement harvestable="f0207105-2593-4082-be26-17849954bfd6" relativeProbability="5" clustering="4ffceda3-639a-4c1f-9e24-cf4df9af1253" __type="HarvestableElement">
+          <geometries>
+            <HarvestableGeometry tag="cacaba91-2f83-42fe-bde5-fa6a023daeb9" __type="HarvestableGeometry" />
+          </geometries>
+        </HarvestableElement>
+        <HarvestableElement harvestable="7510bf4b-175e-43f3-818b-469dae715290" relativeProbability="0.5" clustering="4ffceda3-639a-4c1f-9e24-cf4df9af1253" __type="HarvestableElement">
+          <geometries>
+            <HarvestableGeometry tag="cacaba91-2f83-42fe-bde5-fa6a023daeb9" __type="HarvestableGeometry" />
+          </geometries>
+        </HarvestableElement>
+      </harvestables>
+    </HarvestableElementGroup>
+    <HarvestableElementGroup groupName="FPS_Mineables" groupProbability="25" __type="HarvestableElementGroup">
+      <harvestables>
+        <HarvestableElement harvestable="b4dbb414-4946-437a-870b-0df49007603b" relativeProbability="14" clustering="4ffceda3-639a-4c1f-9e24-cf4df9af1253" __type="HarvestableElement">
+          <geometries>
+            <HarvestableGeometry tag="cacaba91-2f83-42fe-bde5-fa6a023daeb9" __type="HarvestableGeometry" />
+          </geometries>
+        </HarvestableElement>
+        <HarvestableElement harvestable="aeb1d11d-52b8-4bb1-9c8d-c910539cb532" relativeProbability="10" clustering="4ffceda3-639a-4c1f-9e24-cf4df9af1253" __type="HarvestableElement">
+          <geometries>
+            <HarvestableGeometry tag="cacaba91-2f83-42fe-bde5-fa6a023daeb9" __type="HarvestableGeometry" />
+          </geometries>
+        </HarvestableElement>
+        <HarvestableElement harvestable="f42be172-0391-4482-b3ff-6f97c2182272" relativeProbability="1" clustering="4ffceda3-639a-4c1f-9e24-cf4df9af1253" __type="HarvestableElement">
+          <geometries>
+            <HarvestableGeometry tag="cacaba91-2f83-42fe-bde5-fa6a023daeb9" __type="HarvestableGeometry" />
+          </geometries>
+        </HarvestableElement>
+      </harvestables>
+    </HarvestableElementGroup>
+  </harvestableGroups>
+  <areas />
+</HarvestableProviderPreset.HPP_Stanton3b>

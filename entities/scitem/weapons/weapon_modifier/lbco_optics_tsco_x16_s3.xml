@@ -1,0 +1,542 @@
+<EntityClassDefinition.lbco_optics_tsco_x16_s3 Category="Default" Icon="Default.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="1ba4ebda-fa61-45e7-928f-a543161c9276" __path="libs/foundry/records/entities/scitem/weapons/weapon_modifier/lbco_optics_tsco_x16_s3.xml">
+  <tags>
+    <Reference value="93c88aa6-79bb-41a4-9bc1-10fd364496d3" />
+    <Reference value="84c6f3a1-35a5-4bdd-a5d3-7caa63f90067" />
+    <Reference value="b97f2439-cde7-45f9-acc3-5eab75b0f84c" />
+    <Reference value="bed8e09b-a5f2-4f4e-9be9-ab618ebfbd58" />
+    <Reference value="6328f718-1fa5-427f-b9d8-79d16a325044" />
+    <Reference value="15726024-aaed-4202-87cc-c8d56f8404b2" />
+    <Reference value="9a46e2f3-6651-4283-8447-c01e6dd778e8" />
+  </tags>
+  <StaticEntityClassData>
+    <DefaultEntitlementEntityParams entitlementPolicy="086801b6-4827-47ea-b796-ef9706b5b694" canEntitleThroughWebsite="1" __type="EntityClassStaticDataParams" __polymorphicType="DefaultEntitlementEntityParams" />
+  </StaticEntityClassData>
+  <Components>
+    <SAttachableComponentParams attachToTileItemPort="NoConnection" __type="DataForgeComponentParams" __polymorphicType="SAttachableComponentParams">
+      <AttachDef Type="WeaponAttachment" SubType="IronSight" Size="3" Grade="1" Manufacturer="98bb2e9e-fcc7-46e5-9ba6-d34c42c414e0" inheritParentManufacturer="0" Tags="" RequiredTags="" DisplayType="" __type="SItemDefinition">
+        <Localization Name="@item_Namelbco_optics_tsco_x16_s3" ShortName="@LOC_EMPTY" Description="@item_Desclbco_optics_tsco_x16_s3" __type="SCItemLocalization">
+          <displayFeatures LogoSimplifiedWhite="" FrontendBackground="" History="@LOC_EMPTY" Callout1="@LOC_EMPTY" Callout2="@LOC_EMPTY" Callout3="@LOC_EMPTY" UIPriority="0" __type="SCExtendedLocalizationLevelParams">
+            <locationAudioPlayTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+            <locationAudioStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </displayFeatures>
+        </Localization>
+        <mannequinTags mannequinClassTag="lbco_optics_tsco_x16_s3" mannequinTypeTag="" mannequinBaseTag="" __type="SCItemMannequinTags" />
+        <inventoryOccupancyVolume>
+          <SMicroCargoUnit microSCU="1900" __type="SBaseCargoUnit" __polymorphicType="SMicroCargoUnit" />
+        </inventoryOccupancyVolume>
+        <inventoryOccupancyDimensions x="0.0754" y="0.2829" z="0.0915" __type="Vec3" />
+        <inventoryOccupancyDimensionsUIOverride>
+        </inventoryOccupancyDimensionsUIOverride>
+      </AttachDef>
+      <entityAttachParams>
+      </entityAttachParams>
+    </SAttachableComponentParams>
+    <SWeaponModifierComponentParams tag="00000000-0000-0000-0000-000000000000" uiIndex="0" aimHelperYOffset="0" barrelEffectsStrength="1" __type="DataForgeComponentParams" __polymorphicType="SWeaponModifierComponentParams">
+      <modifier __type="SWeaponModifierParams">
+        <weaponStats fireRate="0" fireRateMultiplier="1" damageMultiplier="1" projectileSpeedMultiplier="1" pellets="0" burstShots="0" ammoCost="0" ammoCostMultiplier="1" heatGenerationMultiplier="1" soundRadiusMultiplier="1" useAlternateProjectileVisuals="0" __type="SWeaponStats">
+          <recoilModifier decayMultiplier="1" endDecayMultiplier="1" fireRecoilTimeMultiplier="1" fireRecoilStrengthFirstMultiplier="1" fireRecoilStrengthMultiplier="1" angleRecoilStrengthMultiplier="1" randomnessMultiplier="1" randomnessBackPushMultiplier="1" frontalOscillationRotationMultiplier="1" frontalOscillationStrengthMultiplier="1" frontalOscillationDecayMultiplier="1" frontalOscillationRandomnessMultiplier="1" animatedRecoilMultiplier="1" __type="SRecoilModifier">
+            <headRotationMultiplier x="1" y="1" z="1" __type="Vec3" />
+            <aimRecoilModifier randomPitchMultiplier="1" randomYawMultiplier="1" decayMultiplier="1" endDecayMultiplier="1" __type="SAimRecoilModifier">
+              <maxMultiplier x="1" y="1" __type="Vec2" />
+              <shotKickFirstMultiplier x="1" y="1" __type="Vec2" />
+              <shotKickMultiplier x="1" y="1" __type="Vec2" />
+            </aimRecoilModifier>
+          </recoilModifier>
+          <spreadModifier minMultiplier="1" maxMultiplier="1" firstAttackMultiplier="1" attackMultiplier="1" decayMultiplier="1" additiveModifier="0" __type="SSpreadModifier" />
+          <aimModifier zoomScale="16" zoomTimeScale="1" hideWeaponInADS="1" __type="SAimModifier" />
+        </weaponStats>
+      </modifier>
+      <zeroingParams>
+        <SWeaponZeroingParams defaultRange="0" maxRange="2000" rangeIncrement="200" autoZeroingTime="0" __type="SWeaponZeroingParams" />
+      </zeroingParams>
+      <reticleParams>
+      </reticleParams>
+      <adsCameraOffset>
+        <Vec3 x="0" y="0.08" z="0" __type="Vec3" />
+      </adsCameraOffset>
+      <userRTPCs />
+      <fireEffects />
+      <mannequinTag tag="" __type="SMannequinTagParams" />
+    </SWeaponModifierComponentParams>
+    <SGeometryResourceParams cacheResources="1" rootOverridePaint="0" inheritModelTagFromHost="1" __type="DataForgeComponentParams" __polymorphicType="SGeometryResourceParams">
+      <ModelTag>
+      </ModelTag>
+      <Geometry Tags="" ScaleMultiplier="1" __type="SGeometryNodeParams">
+        <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+          <Geometry path="Objects/fps_weapons/attachments/sights_scopes/lbco/optc_s03_lbco_01.cga" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+          <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+          <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        </Geometry>
+        <SubGeometry>
+          <SGeometryNodeParams Tags="aux0" ScaleMultiplier="1" __type="SGeometryNodeParams">
+            <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+              <Geometry path="Objects/fps_weapons/attachments/sights_scopes/lbco/optc_s03_lbco_01_ads.cga" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+              <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+              <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+            </Geometry>
+            <SubGeometry />
+          </SGeometryNodeParams>
+          <SGeometryNodeParams Tags="tableDisplay" ScaleMultiplier="1" __type="SGeometryNodeParams">
+            <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+              <Geometry path="Objects/fps_weapons/attachments/sights_scopes/nvtac/optc_s03_nvtac_01_shop.cgf" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+              <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+              <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+            </Geometry>
+            <SubGeometry />
+          </SGeometryNodeParams>
+          <SGeometryNodeParams Tags="Chromic01" ScaleMultiplier="1" __type="SGeometryNodeParams">
+            <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+              <Geometry path="Objects/fps_weapons/attachments/sights_scopes/lbco/optc_s03_lbco_01.cga" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+              <Material path="Objects/fps_weapons/attachments/sights_scopes/lbco/optc_s03_lbco_01_mat_chromic_01.mtl" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+              <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+            </Geometry>
+            <SubGeometry />
+          </SGeometryNodeParams>
+          <SGeometryNodeParams Tags="Acid01" ScaleMultiplier="1" __type="SGeometryNodeParams">
+            <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+              <Geometry path="Objects/fps_weapons/attachments/sights_scopes/lbco/optc_s03_lbco_01.cga" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+              <Material path="Objects/fps_weapons/attachments/sights_scopes/lbco/optc_s03_lbco_01_mat_acid_01.mtl" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+              <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+            </Geometry>
+            <SubGeometry />
+          </SGeometryNodeParams>
+          <SGeometryNodeParams Tags="Sunset01" ScaleMultiplier="1" __type="SGeometryNodeParams">
+            <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+              <Geometry path="Objects/fps_weapons/attachments/sights_scopes/lbco/optc_s03_lbco_01.cga" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+              <Material path="Objects/fps_weapons/attachments/sights_scopes/lbco/optc_s03_lbco_01_mat_sunset_01.mtl" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+              <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+            </Geometry>
+            <SubGeometry />
+          </SGeometryNodeParams>
+        </SubGeometry>
+      </Geometry>
+      <Material Tags="" __type="SMaterialNodeParams">
+        <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+        <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        <materialVariants />
+      </Material>
+    </SGeometryResourceParams>
+    <SCItemPurchasableParams displayName="@item_Namelbco_optics_tsco_x16_s3" displayType="@itemPort_OpticsSlot" displayThumbnail="" allowTryOn="0" allowQuickBuy="0" tryOnInteractionText="@procedural_text_null" defaultAttachToPortName="" interactionPointTemplate="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="SCItemPurchasableParams">
+      <Display>
+      </Display>
+      <disabledLoadoutInteractions />
+    </SCItemPurchasableParams>
+    <SARDataComponentParams dataType="ShopItem" rangeMin="1" rangeMax="5" labelMovementType="Fixed" visibleThroughWalls="1" labelZOrientationOffset="0" title1="@LOC_EMPTY" title2="@LOC_EMPTY" subtitle1="@LOC_EMPTY" subtitle2="@LOC_EMPTY" description="@LOC_EMPTY" scaleCapDistance="10" __type="DataForgeComponentParams" __polymorphicType="SARDataComponentParams">
+      <labelAttachOffset x="0" y="0" z="0" __type="Vec3" />
+      <queryOffset x="0" y="0" z="0" __type="Vec3" />
+      <labelScale x="1" y="1" z="1" __type="Vec3" />
+    </SARDataComponentParams>
+    <SEntityPhysicsControllerParams __type="DataForgeComponentParams" __polymorphicType="SEntityPhysicsControllerParams">
+      <PhysType>
+        <SEntityRigidPhysicsControllerParams Mass="0.1" maxLoggedCollisions="1" Damping="0" DampingFreefall="0.05" PushableByPlayers="1" NeverAffectTriggers="0" UseManualGridTransition="0" BlocksNavigation="0" Kinematic="0" Resting="0" physicalizeAllSlots="1" __type="SEntityBasePhysicsControllerParams" __polymorphicType="SEntityRigidPhysicsControllerParams">
+          <breakableParams>
+          </breakableParams>
+          <gameCollisionClass>
+          </gameCollisionClass>
+          <grid>
+          </grid>
+          <buoyancyParams>
+          </buoyancyParams>
+          <temperature enable="0" initialTemperature="-1" internalTemperatureGeneration="0" __type="EntityTemperature" />
+        </SEntityRigidPhysicsControllerParams>
+      </PhysType>
+    </SEntityPhysicsControllerParams>
+    <SActorUsableParams archetype="00000000-0000-0000-0000-000000000000" fragmentTag="Carryable" isExterior="0" __type="DataForgeComponentParams" __polymorphicType="SActorUsableParams">
+      <useSlots>
+        <UsableUseSlot name="" available="1" additionalFragmentTags="" isScoochable="0" __type="UsableUseSlot">
+          <useChannelInstances>
+            <UsableUseChannelInstance useChannelArchetype="68319952-3bd9-46ae-ad11-883fa32c8365" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots />
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+          </useChannelInstances>
+          <usableItemPorts />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="0" z="0" __type="Vec3" />
+          </relativeTransform>
+          <optionalGameTags />
+        </UsableUseSlot>
+      </useSlots>
+      <alignmentSlots>
+        <PointAlignmentSlot name="" available="1" canPlayerUse="1" fragmentTag="" slottedFragmentTag="" helperName="Missing" linkMode="NoLink" spotStance="Stand" useHandIK="0" useADIK="0" __type="AlignmentSlotBase" __polymorphicType="PointAlignmentSlot">
+          <interactionPoints />
+          <optionalGameTags />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="0" z="0" __type="Vec3" />
+          </relativeTransform>
+          <viewParams viewLimitYawMin="-45" viewLimitYawMax="45" viewLimitPitchMin="-45" viewLimitPitchMax="45" __type="SUsableViewParams" />
+          <enterParams aiSignal="UseStart" additionalTags="" eventTriggerMask="AIAndPlayer" holsterWeapon="1" enterInteraction="null" __type="SUsableTransitionParams" __polymorphicType="SUsableEnterTransitionParams">
+            <transitionAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </enterParams>
+          <exitParams aiSignal="UseEnd" additionalTags="" eventTriggerMask="AIAndPlayer" inputExit="1" exitOnMovement="0" exitOnJump="0" exitOnDamageTaken="0" exitInteraction="null" exitSequence="null" __type="SUsableTransitionParams" __polymorphicType="SUsableExitTransitionParams">
+            <transitionAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </exitParams>
+          <usableIdleParams __type="SUsableIdleParams">
+            <idlePoseOverrides />
+          </usableIdleParams>
+        </PointAlignmentSlot>
+      </alignmentSlots>
+      <slottingSetups />
+      <views />
+      <abilityLocks />
+      <usableSequencerTasks />
+      <specializedData __type="SSpecializedData">
+        <specializedDataEntry />
+      </specializedData>
+    </SActorUsableParams>
+    <SInteractionStateMachineParams __type="DataForgeComponentParams" __polymorphicType="SInteractionStateMachineParams">
+      <StateTypes>
+        <SInteractionStateType StateTypeName="CarryableStates" bindingsMethod="None" DefaultState="StateTypes.SInteractionStateType.States[0]" networkAuthority="Server" __type="SInteractionStateType">
+          <States>
+            <SInteractionState StateName="Settled" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions>
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[0]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[5]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[6]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[7]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[3]" NextState="null" __type="SInteractionStateTransition" />
+              </Interactions>
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="Carried" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions>
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[0]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[5]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[6]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[3]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[2]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[4]" NextState="null" __type="SInteractionStateTransition" />
+              </Interactions>
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="EquippedOrStored" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions>
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[1]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[5]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[6]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[2]" NextState="null" __type="SInteractionStateTransition" />
+              </Interactions>
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="Inspecting" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions>
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[5]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[6]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[1]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[2]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[4]" NextState="null" __type="SInteractionStateTransition" />
+              </Interactions>
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="Dropped" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions />
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="Offered" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions />
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+          </States>
+          <StateModifiers />
+        </SInteractionStateType>
+      </StateTypes>
+    </SInteractionStateMachineParams>
+    <SEntityInteractableParams __type="DataForgeComponentParams" __polymorphicType="SEntityInteractableParams">
+      <Interactable __type="SInteractableParams">
+        <SharedInteractions>
+          <SSharedInteractionParams Name="Grab" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_grab" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="cfbf64fc-515a-4777-835d-4328af0d3003" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Carry" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_carry" DisplayType="Show" GenericCursor="Grab" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="f5e13f32-3097-46d1-b863-5bfae1c846c0" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Drop" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_drop" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="901b0193-5e7c-4a9b-9dc6-0a5af5420e51" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Inspect" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@innerthought_inspect" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="2f90a95d-d090-447b-9620-125f31599e2c" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Place" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_place" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="9e196f93-d77e-4d6e-80b4-2378dcbbf0bf" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Equip" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_equip" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="53fd2b94-69e5-4a49-a9ad-4eae4a70b471" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Store" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_store" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="29323715-dae3-41f0-8680-07aa4307e9ca" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="OffHandStore" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_store" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="29323715-dae3-41f0-8680-07aa4307e9ca" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+        </SharedInteractions>
+        <InteractionPoints>
+          <SInteractionPointParams FirstInteractionPrimary="0" UseHelperLocation="0" ShowHighlight="1" ApplyToEntireSkeleton="0" longRangeIP="0" HelperName="optc_s03_lbco_01" TextJustification="Middle" TextOrientation="RotateToPlayer" TextScale="1" Radius="2" MaxCursorScreenDistance="2" ShowInnerThoughtsOffScreen="0" OnlySelectableInLookDir="0" __type="SInteractionPointParams">
+            <HighlightBehaviors />
+            <AdditionalCollisionBones />
+            <Offset __type="QuatT">
+              <Rotation x="0" y="0" z="0" __type="Ang3" />
+              <Position x="0" y="0" z="0" __type="Vec3" />
+            </Offset>
+            <AngleConstraint angleRange="181" __type="SAngleConstraint">
+              <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+            </AngleConstraint>
+            <SpherePrimitive>
+            </SpherePrimitive>
+            <Interactions>
+              <SInteractionParams Interaction="Interactable.SharedInteractions[0]" DisplayName="@LOC_EMPTY" IsPrimary="1" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[1]" DisplayName="@LOC_EMPTY" IsPrimary="1" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[2]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[3]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[4]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[5]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[6]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[7]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+            </Interactions>
+          </SInteractionPointParams>
+        </InteractionPoints>
+        <interactionTasks />
+        <actionHandlerTasks />
+        <itemActionTasks />
+        <menuTitle>
+          <SInteractableMenuTitleParams titleColor="a3dead36-7a01-4244-8d76-1ae6099777b0" __type="SInteractableMenuTitleParams" />
+        </menuTitle>
+      </Interactable>
+    </SEntityInteractableParams>
+    <SCItemInspectableParams inspectInteraction="null" stopInspectInteraction="null" flipInteraction="null" inspectRotateScaleX="0.025" inspectRotateScaleY="0.025" __type="DataForgeComponentParams" __polymorphicType="SCItemInspectableParams">
+      <inspectAnimations />
+      <inspectRotateLimitsX x="-1" y="1" __type="Vec2" />
+      <inspectRotateLimitsY x="-1" y="1" __type="Vec2" />
+      <firstSelect firstSelectMode="None" itemTag="00000000-0000-0000-0000-000000000000" __type="SFirstSelect" />
+    </SCItemInspectableParams>
+    <SEntityComponentCarryableParams pickupInteraction="Interactable.SharedInteractions[0]" carryInteraction="Interactable.SharedInteractions[1]" placeInteraction="Interactable.SharedInteractions[4]" dropInteraction="Interactable.SharedInteractions[2]" stowInteraction="Interactable.SharedInteractions[5]" offHandStowInteraction="null" storeInteraction="Interactable.SharedInteractions[6]" offHandStoreInteraction="Interactable.SharedInteractions[7]" equipInteraction="null" inspectInteraction="Interactable.SharedInteractions[3]" flipInteraction="null" swapAttachmentsInteraction="null" enslavementAnimationDatabase="" interactionPointToMoveOnEquip="null" canBeCarriedInProne="1" __type="DataForgeComponentParams" __polymorphicType="SEntityComponentCarryableParams">
+      <carryableStatesParams settledState="StateTypes.SInteractionStateType.States[0]" carriedState="StateTypes.SInteractionStateType.States[1]" stowedState="StateTypes.SInteractionStateType.States[2]" inspectingState="StateTypes.SInteractionStateType.States[3]" droppedState="StateTypes.SInteractionStateType.States[4]" offeredState="StateTypes.SInteractionStateType.States[5]" equippedState="null" __type="SCarryableStatesParams" />
+      <interactionPointOffsets __type="SCarryableInteractionPointOffsets">
+        <interactionOffsetEquipped __type="QuatT">
+          <Rotation x="0" y="0" z="0" __type="Ang3" />
+          <Position x="0" y="0" z="0" __type="Vec3" />
+        </interactionOffsetEquipped>
+        <interactionOffsetCarried __type="QuatT">
+          <Rotation x="0" y="0" z="0" __type="Ang3" />
+          <Position x="0" y="0" z="0" __type="Vec3" />
+        </interactionOffsetCarried>
+        <interactionOffsetInspected __type="QuatT">
+          <Rotation x="0" y="0" z="0" __type="Ang3" />
+          <Position x="0" y="0" z="0" __type="Vec3" />
+        </interactionOffsetInspected>
+      </interactionPointOffsets>
+      <gripData gripOverrideUsingLOS="0" __type="SGripContainer">
+        <grips>
+          <SCarryableGrip carryStyleID="1H_Standard" canBeUsedBy="All" handMode="RightHand" __type="SCarryableGrip">
+            <handGrip gripID="" optionalHelper="grip_right_1" __type="SGrip">
+              <gripShapeParameters gripShape="gs_square" dimension="6" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </handGrip>
+            <offHandGrip>
+            </offHandGrip>
+            <animationParameters motionBase="1hr" handTag="" __type="SCarryAnimationParams" />
+            <carryParameters width="0" height="0" depth="0" __type="SCarryParams" />
+          </SCarryableGrip>
+          <SCarryableGrip carryStyleID="1H_Reverse" canBeUsedBy="All" handMode="RightHand" __type="SCarryableGrip">
+            <handGrip gripID="" optionalHelper="grip_left_1" __type="SGrip">
+              <gripShapeParameters gripShape="gs_square" dimension="5.75" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </handGrip>
+            <offHandGrip>
+            </offHandGrip>
+            <animationParameters motionBase="1hr" handTag="" __type="SCarryAnimationParams" />
+            <carryParameters width="0" height="0" depth="0" __type="SCarryParams" />
+          </SCarryableGrip>
+          <SCarryableGrip carryStyleID="1HL_Standard" canBeUsedBy="All" handMode="LeftHand" __type="SCarryableGrip">
+            <handGrip gripID="" optionalHelper="grip_left_1" __type="SGrip">
+              <gripShapeParameters gripShape="gs_cylinder" dimension="10" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </handGrip>
+            <offHandGrip>
+            </offHandGrip>
+            <animationParameters motionBase="1hl" handTag="" __type="SCarryAnimationParams" />
+            <carryParameters width="0" height="0" depth="0" __type="SCarryParams" />
+          </SCarryableGrip>
+          <SCarryableGrip carryStyleID="1HL_Reverse" canBeUsedBy="All" handMode="LeftHand" __type="SCarryableGrip">
+            <handGrip gripID="" optionalHelper="grip_right_1" __type="SGrip">
+              <gripShapeParameters gripShape="gs_cylinder" dimension="10" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </handGrip>
+            <offHandGrip>
+            </offHandGrip>
+            <animationParameters motionBase="1hl" handTag="" __type="SCarryAnimationParams" />
+            <carryParameters width="0" height="0" depth="0" __type="SCarryParams" />
+          </SCarryableGrip>
+        </grips>
+      </gripData>
+      <abilityLocks />
+      <carryableTasks />
+      <throwableParams reticle="none" faceUpWhenSettled="1" allowHologramTiltRotation="0" placementRange="3" placementRangeHysteresis="0.5" yawOffset="0" applyBoundingBoxPlacementOffset="0" combatThrowable="0" __type="SThrowableParams">
+        <throwModes />
+        <audioParams onCollisionAudioPerceptionInfo="SmallSound" onCollisionAudioPerceptionRadius="20" __type="SThrowAudioParams">
+          <onThrownAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          <onCollisionAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          <collisionSpeedAudioRTPC rtpc="" __type="AudioRtpc" />
+        </audioParams>
+        <defaultPlacementUpDirection x="0" y="0" z="1" __type="Vec3" />
+      </throwableParams>
+      <equipableParams itemPort="" __type="SCEquipableParams" />
+    </SEntityComponentCarryableParams>
+    <SPersistentComponentParams __type="DataForgeComponentParams" __polymorphicType="SPersistentComponentParams" />
+    <UIOwnerEntityComponentParams startOpen="1" areScreens3D="0" areSounds3D="0" hasActions="0" element="235bfc85-aa63-4fd5-b5d1-821fb3522a39" domainName="global" loadDistance="8" updateDistance="5" moviePath="" variantName="" invariantName="" movieAutoPlay="0" loopMovie="0" forceFlashColourCorrection="1" ignoreTrackviewUnloadRequests="0" reflectLocalStateMachine="0" reflectLinkedStateMachines="0" graph="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="UIOwnerEntityComponentParams" />
+    <UIRenderToTextureEntityComponentParams directRenderStage="None" compositeMaterialName="" hideRenderNodeOnUnload="0" aspectRatioOverride="0" interactionDistance="5" transparentListDepthBias="0" renderFlashBeforeCamera="0" fieldOfView="90" renderType="FORWARD" fallbackTextureOnOnload="" __type="DataForgeComponentParams" __polymorphicType="UIRenderToTextureEntityComponentParams">
+      <secondaryTarget>
+      </secondaryTarget>
+      <grabCameraControlParams>
+      </grabCameraControlParams>
+    </UIRenderToTextureEntityComponentParams>
+    <UIBuildingBlocksEntityComponentParams enableFullScreenMouse="0" defaultStyle="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="UIBuildingBlocksEntityComponentParams">
+      <layers>
+        <BuildingBlocksLayer layerName="Default" renderTarget="All" defaultView="layers.BuildingBlocksLayer.views" __type="BuildingBlocksLayer">
+          <views>
+            <BuildingBlocksView name="Default" __type="BuildingBlocksView">
+              <component canvas="a54d3d14-fd08-408b-b254-1b157b5c212e" __type="CtxGraph_Node" __polymorphicType="UIGraph_BuildingBlocksContextComponent" />
+            </BuildingBlocksView>
+          </views>
+        </BuildingBlocksLayer>
+      </layers>
+    </UIBuildingBlocksEntityComponentParams>
+    <UIAudioComponentEntityComponentParams UIAudioDef="5f1775eb-5767-4756-8127-e1e9ffbaed87" useEntityClass="00000000-0000-0000-0000-000000000000" dialogueContext="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="UIAudioComponentEntityComponentParams">
+      <offset>
+      </offset>
+      <videoAudioPlayTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <videoAudioPauseTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <videoAudioResumeTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+    </UIAudioComponentEntityComponentParams>
+    <UIBindingsConsumerEntityComponentParams linkToPort="0" __type="DataForgeComponentParams" __polymorphicType="UIBindingsConsumerEntityComponentParams" />
+    <SPersistentComponentParams __type="DataForgeComponentParams" __polymorphicType="SPersistentComponentParams" />
+  </Components>
+</EntityClassDefinition.lbco_optics_tsco_x16_s3>

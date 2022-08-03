@@ -1,0 +1,16 @@
+<ActorLookLimits.LookLimits_Helmet_Heavy __type="ActorLookLimits" __ref="9375ed42-7bdb-4cfb-a1e9-f1edb7a5130e" __path="libs/foundry/records/actor/actorviewlimits/looklimits/looklimits_helmet_heavy.xml">
+  <lookLimitsStateFilters>
+    <ActorLookLimitsStateFilter filterByState="Any" filterByMotionSpeed="Sprint" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Shouldered" filterBySkeleton="Any" __type="ActorStateFilter" __polymorphicType="ActorLookLimitsStateFilter">
+      <lookLimits minYaw="-60" maxYaw="70" minPitch="-75" maxPitch="50" __type="ActorViewLimits" />
+    </ActorLookLimitsStateFilter>
+    <ActorLookLimitsStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Shouldered" filterBySkeleton="Any" __type="ActorStateFilter" __polymorphicType="ActorLookLimitsStateFilter">
+      <lookLimits minYaw="-60" maxYaw="70" minPitch="-75" maxPitch="75" __type="ActorViewLimits" />
+    </ActorLookLimitsStateFilter>
+    <ActorLookLimitsStateFilter filterByState="Any" filterByMotionSpeed="Sprint" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" __type="ActorStateFilter" __polymorphicType="ActorLookLimitsStateFilter">
+      <lookLimits minYaw="-70" maxYaw="70" minPitch="-75" maxPitch="50" __type="ActorViewLimits" />
+    </ActorLookLimitsStateFilter>
+    <ActorLookLimitsStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" __type="ActorStateFilter" __polymorphicType="ActorLookLimitsStateFilter">
+      <lookLimits minYaw="-70" maxYaw="70" minPitch="-75" maxPitch="75" __type="ActorViewLimits" />
+    </ActorLookLimitsStateFilter>
+  </lookLimitsStateFilters>
+</ActorLookLimits.LookLimits_Helmet_Heavy>

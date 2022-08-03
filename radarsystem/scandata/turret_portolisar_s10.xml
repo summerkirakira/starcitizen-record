@@ -1,0 +1,9 @@
+<ScanCustomDataDef.Turret_PortOlisar_S10 __type="ScanCustomDataDef" __ref="b1917e8d-afe3-4935-b504-e488db784503" __path="libs/foundry/records/radarsystem/scandata/turret_portolisar_s10.xml">
+  <scanProcedures>
+    <CustomScanProcedureParams scanLayer="Initial" emissionBaseline="0" __type="ScanProcedureParams" __polymorphicType="CustomScanProcedureParams">
+      <customDatas>
+        <ScanCustomDataLocString name="@ea_ui_spawning_Turret" value="@ea_ui_spawning_Turret" __type="ScanCustomData" __polymorphicType="ScanCustomDataLocString" />
+      </customDatas>
+    </CustomScanProcedureParams>
+  </scanProcedures>
+</ScanCustomDataDef.Turret_PortOlisar_S10>

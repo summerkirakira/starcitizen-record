@@ -1,0 +1,13 @@
+<EntityClassDefinition.TransitManager Category="Default" Icon="transit_manager.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="33ea5f64-cebb-4125-aed0-fb738a93a79e" __path="libs/foundry/records/transitsystem/transitmanager/transitmanager.xml">
+  <tags />
+  <StaticEntityClassData />
+  <Components>
+    <TransitManagerParams carriageType="8f406cd1-f35e-4b24-83c5-516a1bc187d8" carriageDisplayTypeId="@transit_carriage_train" carriageWaitTime="5" carriageDoorTimeout="2.5" carriageAcceleration="10" idealTimeBetweenArrivals="60" onByDefault="1" sortDestinationsByName="0" sortDestinationsByPriority="0" ignoreDoorProximity="0" carriageDoorOpenByDefault="0" doorFindDistance="2" automateTransit="0" useStreamableTransit="0" reverseDisplayIndexOrder="0" turnOnInteractionName="" turnOffInteractionName="" displayIndexOffset="0" updateDestinationsForDistantTrains="0" manufacturer="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="TransitManagerParams">
+      <carriageInterior path="objectcontainers/setup/elevator_setup/levski/elevator_sml_levski.socpak" __type="GlobalResourceBase" __polymorphicType="GlobalResourceObjectContainer" />
+      <tagFilter __type="TagsDNFTerm">
+        <positiveTags />
+        <negativeTags />
+      </tagFilter>
+    </TransitManagerParams>
+  </Components>
+</EntityClassDefinition.TransitManager>

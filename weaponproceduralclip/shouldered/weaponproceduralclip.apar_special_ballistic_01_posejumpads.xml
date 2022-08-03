@@ -1,0 +1,8 @@
+<WeaponProceduralClip.apar_special_ballistic_01_PoseJumpADS __type="WeaponProceduralClip" __ref="44bb31c4-98a0-4673-82af-7b7588a3d99b" __path="libs/foundry/records/weaponproceduralclip/shouldered/weaponproceduralclip.apar_special_ballistic_01_posejumpads.xml">
+  <weaponProceduralClipBase>
+    <WeaponProceduralClipPose blendTime="1" poseType="RightHand" zoomTransitionAngle="0" useAimHelperOffset="0" __type="WeaponProceduralClipBase" __polymorphicType="WeaponProceduralClipPose">
+      <position x="0" y="0.05" z="0.0085" __type="Vec3" />
+      <rotation x="-0.29" y="0" z="0" __type="Ang3" />
+    </WeaponProceduralClipPose>
+  </weaponProceduralClipBase>
+</WeaponProceduralClip.apar_special_ballistic_01_PoseJumpADS>

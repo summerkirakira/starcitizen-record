@@ -1,0 +1,11 @@
+<EntityClassDefinition.FW22_SC_Ammo Category="Default" Icon="Default.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="937f462d-06fe-47da-8f09-bc64edc7e1da" __path="libs/foundry/records/entities/scitem/missionstorage/shippingcontainer/fw22_sc_ammo.xml">
+  <tags>
+    <Reference value="3573c175-1066-42de-b37b-1d5db448779e" />
+    <Reference value="3a5b50b9-ab6a-4b53-86d8-cde4a42f21e8" />
+  </tags>
+  <StaticEntityClassData />
+  <Components>
+    <SObjectContainerComponentParams objectContainer="ObjectContainers/PU/design/FleetWeek2022/ShippingContainer/shippingcontainer_ammocache.socpak" __type="DataForgeComponentParams" __polymorphicType="SObjectContainerComponentParams" />
+    <SubsumptionMissionLinkComponentParams __type="DataForgeComponentParams" __polymorphicType="SubsumptionMissionLinkComponentParams" />
+  </Components>
+</EntityClassDefinition.FW22_SC_Ammo>

@@ -1,0 +1,10 @@
+<MineableComposition.QuartziteDeposit depositName="@hud_mining_rock_name_6" minimumDistinctElements="3" __type="MineableComposition" __ref="ede05c06-1752-44a4-8b86-3489bcd8fa5b" __path="libs/foundry/records/mining/rockcompositionpresets/quartzitedeposit.xml">
+  <compositionArray>
+    <MineableCompositionPart mineableElement="1d35c0bc-9142-42ff-8a83-0ec68d69a128" minPercentage="20" maxPercentage="65" probability="1" curveExponent="2" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="cad02f99-292c-4ee4-93cc-a73868f11ddb" minPercentage="2" maxPercentage="40" probability="0.5" curveExponent="2" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="ee12edc1-a2c3-4202-909d-9b729a050a3f" minPercentage="2" maxPercentage="30" probability="0.25" curveExponent="3" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="f2f5bf2e-87f9-4f3d-bb59-b4e11eceeaad" minPercentage="2" maxPercentage="30" probability="0.25" curveExponent="3" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="efb89e24-486d-4eee-ab5c-85b90a3bdad1" minPercentage="2" maxPercentage="40" probability="0.25" curveExponent="3" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="8893c670-f9f7-48df-a05b-e85764994256" minPercentage="1" maxPercentage="15" probability="0.25" curveExponent="4" __type="MineableCompositionPart" />
+  </compositionArray>
+</MineableComposition.QuartziteDeposit>

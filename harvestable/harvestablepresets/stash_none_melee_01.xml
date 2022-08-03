@@ -1,0 +1,15 @@
+<HarvestablePreset.Stash_none_melee_01 entityClass="31ef8e9c-1add-414a-87d0-07a38d923ac8" respawnInSlotTime="3600" specialHarvestableString="" __type="HarvestablePreset" __ref="1607479f-019d-4e5f-af78-c619fb38bafd" __path="libs/foundry/records/harvestable/harvestablepresets/stash_none_melee_01.xml">
+  <transformParams minScale="1" maxScale="1" terrainNormalAlignment="1" minZOffset="0" maxZOffset="0" minSlope="0" maxSlope="90" minElevation="-10000" maxElevation="10000" __type="HarvestableTransformParams">
+    <rotationRange x="0" y="0" z="360" __type="Vec3" />
+  </transformParams>
+  <subConfigBase>
+    <SubHarvestableConfigManual __type="SubHarvestableConfigBase" __polymorphicType="SubHarvestableConfigManual">
+      <subConfigManual initialSlotsProbability="0" configRespawnTimeMultiplier="1" __type="SubHarvestableConfig">
+        <initialSlotsProbabilityDeepest>
+          <OptionalProbability probability="0.1" __type="OptionalProbability" />
+        </initialSlotsProbabilityDeepest>
+        <subHarvestables />
+      </subConfigManual>
+    </SubHarvestableConfigManual>
+  </subConfigBase>
+</HarvestablePreset.Stash_none_melee_01>

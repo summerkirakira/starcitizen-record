@@ -1,0 +1,28 @@
+<MissionLocationTemplate.AsteroidMiningClaim __type="MissionLocationTemplate" __ref="c6443921-4086-4e70-a874-0f8d5055d60a" __path="libs/foundry/records/missiondata/pu_locations/templates/system/miningclaim/asteroidminingclaim.xml">
+  <locationData __type="MissionLocationData">
+    <generalTags __type="MissionLocationTags">
+      <tags>
+        <Reference value="f00b6f01-7245-437d-9c41-da6a00e2df43" />
+      </tags>
+    </generalTags>
+    <producesTags __type="TagSearchTerm">
+      <positiveTags />
+      <negativeTags />
+    </producesTags>
+    <consumesTags __type="TagSearchTerm">
+      <positiveTags />
+      <negativeTags />
+    </consumesTags>
+    <aiSpawnTags __type="TagList">
+      <tags />
+    </aiSpawnTags>
+    <stringVariants __type="MissionStringVariants">
+      <variants />
+    </stringVariants>
+    <missionModules />
+    <missionLimits>
+      <LocationMissionLimit tag="e604ed9c-c969-46b3-9667-ae6dc8e38994" maxMissionInstances="1" __type="LocationMissionLimit" />
+    </missionLimits>
+    <autoSpawnSettings />
+  </locationData>
+</MissionLocationTemplate.AsteroidMiningClaim>

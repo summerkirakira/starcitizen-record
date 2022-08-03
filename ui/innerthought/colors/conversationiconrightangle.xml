@@ -1,0 +1,6 @@
+<InnerThought_ColorParams.ConversationIconRightAngle opacity="50" glow="50" diffuseOpacity="1" rimOpacity="10" silhouetteOpacity="1" silhouetteThickness="6" __type="InnerThought_ColorParams" __ref="7c26aeee-95d2-40f5-9d8d-152c6c187942" __path="libs/foundry/records/ui/innerthought/colors/conversationiconrightangle.xml">
+  <diffuseColor r="0.5711249" g="1" b="0.6307572" __type="RGB" />
+  <emissiveColor r="0.1119324" g="0.6514056" b="0.1651322" __type="RGB" />
+  <rimColor r="0.2195262" g="0.9301109" b="0.2961383" __type="RGB" />
+  <silhouetteColor r="0.4677838" g="1" b="0.5394795" __type="RGB" />
+</InnerThought_ColorParams.ConversationIconRightAngle>

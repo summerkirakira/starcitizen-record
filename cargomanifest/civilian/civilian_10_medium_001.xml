@@ -1,0 +1,12 @@
+<CargoManifest.Civilian_10_Medium_001 fillCapacity="0.1" __type="CargoManifest" __ref="f2f52d05-b00c-4585-9340-4665ffc3a725" __path="libs/foundry/records/cargomanifest/civilian/civilian_10_medium_001.xml">
+  <descriptionTags __type="TagList">
+    <tags>
+      <Reference value="15248271-9a9c-4780-b64a-1823b4e9c667" />
+    </tags>
+  </descriptionTags>
+  <tags>
+    <Reference value="50ffd420-96ce-499d-b1e8-948545be14ed" />
+    <Reference value="53662449-deeb-4c8f-b4bc-ce9b6eee2e2d" />
+    <Reference value="b1a87dbe-cf0a-45a7-a569-479c55c76597" />
+  </tags>
+</CargoManifest.Civilian_10_Medium_001>

@@ -1,0 +1,7 @@
+<CarryableManagementParams.CarryableManagementStarMarine defaultTimeoutDuration="30" __type="CarryableManagementParams" __ref="4b497ac4-887f-4ea9-9118-4c827ee8c999" __path="libs/foundry/records/entitylifetime/items/carryablemanagementstarmarine.xml">
+  <itemTypeTimeouts>
+    <ItemTypeTimeout itemType="WeaponAttachment" timeoutDuration="60" __type="ItemTypeTimeout" />
+    <ItemTypeTimeout itemType="WeaponPersonal" timeoutDuration="60" __type="ItemTypeTimeout" />
+    <ItemTypeTimeout itemType="Gadget" timeoutDuration="60" __type="ItemTypeTimeout" />
+  </itemTypeTimeouts>
+</CarryableManagementParams.CarryableManagementStarMarine>

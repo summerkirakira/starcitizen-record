@@ -1,0 +1,14 @@
+<GlobalShopSellingParams.GlobalShopSellingData matchPercentage="-10" noMatchPercentage="-50" __type="GlobalShopSellingParams" __ref="c30121dc-d1c9-4747-9d31-ef6e78c195c1" __path="libs/foundry/records/globalshopparams/globalshopsellingdata.xml">
+  <maxInventoryCurve>
+    <Single value="0" />
+    <Single value="15" />
+    <Single value="25" />
+    <Single value="40" />
+  </maxInventoryCurve>
+  <wearCurve>
+    <Single value="20" />
+    <Single value="40" />
+    <Single value="60" />
+    <Single value="80" />
+  </wearCurve>
+</GlobalShopSellingParams.GlobalShopSellingData>

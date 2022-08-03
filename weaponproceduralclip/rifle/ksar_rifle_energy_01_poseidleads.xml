@@ -1,0 +1,8 @@
+<WeaponProceduralClip.ksar_rifle_energy_01_PoseIdleADS __type="WeaponProceduralClip" __ref="22d3e290-3295-481d-970c-6399a3c4824e" __path="libs/foundry/records/weaponproceduralclip/rifle/ksar_rifle_energy_01_poseidleads.xml">
+  <weaponProceduralClipBase>
+    <WeaponProceduralClipPose blendTime="1" poseType="RightHand" zoomTransitionAngle="0" useAimHelperOffset="0" __type="WeaponProceduralClipBase" __polymorphicType="WeaponProceduralClipPose">
+      <position x="0" y="0.02" z="0.027" __type="Vec3" />
+      <rotation x="0.2" y="0" z="0" __type="Ang3" />
+    </WeaponProceduralClipPose>
+  </weaponProceduralClipBase>
+</WeaponProceduralClip.ksar_rifle_energy_01_PoseIdleADS>

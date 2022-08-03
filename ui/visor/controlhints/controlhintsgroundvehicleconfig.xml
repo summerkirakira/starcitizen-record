@@ -1,0 +1,13 @@
+<ControlHints_VehiclePreset.ControlHintsGroundVehicleConfig __type="ControlHints_VehiclePreset" __ref="6ac0cf2c-ce05-446d-8349-9985b15b5d18" __path="libs/foundry/records/ui/visor/controlhints/controlhintsgroundvehicleconfig.xml">
+  <entriesHint>
+    <ControlHints_VehicleEntry name="Slot1" __type="ControlHints_Entry" __polymorphicType="ControlHints_VehicleEntry">
+      <filters />
+    </ControlHints_VehicleEntry>
+    <ControlHints_VehicleEntry name="Slot2" __type="ControlHints_Entry" __polymorphicType="ControlHints_VehicleEntry">
+      <filters />
+    </ControlHints_VehicleEntry>
+    <ControlHints_VehicleEntry name="Slot3" __type="ControlHints_Entry" __polymorphicType="ControlHints_VehicleEntry">
+      <filters />
+    </ControlHints_VehicleEntry>
+  </entriesHint>
+</ControlHints_VehiclePreset.ControlHintsGroundVehicleConfig>

@@ -1,0 +1,768 @@
+<EntityClassDefinition.ActorMovable_Block_Roll_TEMPLATE Category="ActorMovable" Icon="Default.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="f7814eea-3df7-45d0-a5f1-2eb7e8a1ad56" __path="libs/foundry/records/entities/scitem/actormovables/actormovable_block_roll_template.xml">
+  <tags>
+    <Reference value="5c5fa754-3ab1-4102-a70b-c661d2ec99d1" />
+  </tags>
+  <StaticEntityClassData />
+  <Components>
+    <SEntityPhysicsControllerParams __type="DataForgeComponentParams" __polymorphicType="SEntityPhysicsControllerParams">
+      <PhysType>
+        <SEntityRigidPhysicsControllerParams Mass="140" maxLoggedCollisions="1" Damping="0" DampingFreefall="0.05" PushableByPlayers="0" NeverAffectTriggers="0" UseManualGridTransition="0" BlocksNavigation="1" Kinematic="0" Resting="0" physicalizeAllSlots="1" __type="SEntityBasePhysicsControllerParams" __polymorphicType="SEntityRigidPhysicsControllerParams">
+          <breakableParams>
+          </breakableParams>
+          <gameCollisionClass>
+          </gameCollisionClass>
+          <grid>
+          </grid>
+          <buoyancyParams>
+          </buoyancyParams>
+          <temperature enable="0" initialTemperature="-1" internalTemperatureGeneration="0" __type="EntityTemperature" />
+        </SEntityRigidPhysicsControllerParams>
+      </PhysType>
+    </SEntityPhysicsControllerParams>
+    <SEntityInteractableParams __type="DataForgeComponentParams" __polymorphicType="SEntityInteractableParams">
+      <Interactable __type="SInteractableParams">
+        <SharedInteractions>
+          <SSharedInteractionParams Name="Grip" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_push" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="b0774a40-4a84-408c-bbe8-b1827a2d5e27" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Release" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_release" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+        </SharedInteractions>
+        <InteractionPoints>
+          <SInteractionPointParams FirstInteractionPrimary="1" UseHelperLocation="0" ShowHighlight="1" ApplyToEntireSkeleton="1" longRangeIP="0" HelperName="Interaction_1" TextJustification="Middle" TextOrientation="RotateToPlayer" TextScale="1.25" Radius="1.5" MaxCursorScreenDistance="2" ShowInnerThoughtsOffScreen="0" OnlySelectableInLookDir="0" __type="SInteractionPointParams">
+            <HighlightBehaviors />
+            <AdditionalCollisionBones />
+            <Offset __type="QuatT">
+              <Rotation x="0" y="0" z="90" __type="Ang3" />
+              <Position x="0" y="0" z="0.0875" __type="Vec3" />
+            </Offset>
+            <AngleConstraint angleRange="360" __type="SAngleConstraint">
+              <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+            </AngleConstraint>
+            <SpherePrimitive>
+            </SpherePrimitive>
+            <Interactions>
+              <SInteractionParams Interaction="Interactable.SharedInteractions[0]" DisplayName="@interaction_push" IsPrimary="1" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[1]" DisplayName="@interaction_release" IsPrimary="0" __type="SInteractionParams" />
+            </Interactions>
+          </SInteractionPointParams>
+          <SInteractionPointParams FirstInteractionPrimary="1" UseHelperLocation="0" ShowHighlight="1" ApplyToEntireSkeleton="1" longRangeIP="0" HelperName="Interaction_2" TextJustification="Middle" TextOrientation="RotateToPlayer" TextScale="1.25" Radius="1.5" MaxCursorScreenDistance="2" ShowInnerThoughtsOffScreen="0" OnlySelectableInLookDir="0" __type="SInteractionPointParams">
+            <HighlightBehaviors />
+            <AdditionalCollisionBones />
+            <Offset __type="QuatT">
+              <Rotation x="0" y="0" z="90" __type="Ang3" />
+              <Position x="0" y="0" z="0.0875" __type="Vec3" />
+            </Offset>
+            <AngleConstraint angleRange="360" __type="SAngleConstraint">
+              <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+            </AngleConstraint>
+            <SpherePrimitive>
+            </SpherePrimitive>
+            <Interactions>
+              <SInteractionParams Interaction="Interactable.SharedInteractions[0]" DisplayName="@interaction_push" IsPrimary="1" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[1]" DisplayName="@interaction_release" IsPrimary="0" __type="SInteractionParams" />
+            </Interactions>
+          </SInteractionPointParams>
+          <SInteractionPointParams FirstInteractionPrimary="1" UseHelperLocation="0" ShowHighlight="1" ApplyToEntireSkeleton="1" longRangeIP="0" HelperName="Interaction_3" TextJustification="Middle" TextOrientation="RotateToPlayer" TextScale="1.25" Radius="1.5" MaxCursorScreenDistance="2" ShowInnerThoughtsOffScreen="0" OnlySelectableInLookDir="0" __type="SInteractionPointParams">
+            <HighlightBehaviors />
+            <AdditionalCollisionBones />
+            <Offset __type="QuatT">
+              <Rotation x="0" y="0" z="90" __type="Ang3" />
+              <Position x="0" y="0" z="0.0875" __type="Vec3" />
+            </Offset>
+            <AngleConstraint angleRange="360" __type="SAngleConstraint">
+              <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+            </AngleConstraint>
+            <SpherePrimitive>
+            </SpherePrimitive>
+            <Interactions>
+              <SInteractionParams Interaction="Interactable.SharedInteractions[0]" DisplayName="@interaction_push" IsPrimary="1" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[1]" DisplayName="@interaction_release" IsPrimary="0" __type="SInteractionParams" />
+            </Interactions>
+          </SInteractionPointParams>
+          <SInteractionPointParams FirstInteractionPrimary="1" UseHelperLocation="0" ShowHighlight="1" ApplyToEntireSkeleton="1" longRangeIP="0" HelperName="Interaction_4" TextJustification="Middle" TextOrientation="RotateToPlayer" TextScale="1.25" Radius="1.5" MaxCursorScreenDistance="2" ShowInnerThoughtsOffScreen="0" OnlySelectableInLookDir="0" __type="SInteractionPointParams">
+            <HighlightBehaviors />
+            <AdditionalCollisionBones />
+            <Offset __type="QuatT">
+              <Rotation x="0" y="0" z="90" __type="Ang3" />
+              <Position x="0" y="0" z="0.0875" __type="Vec3" />
+            </Offset>
+            <AngleConstraint angleRange="360" __type="SAngleConstraint">
+              <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+            </AngleConstraint>
+            <SpherePrimitive>
+            </SpherePrimitive>
+            <Interactions>
+              <SInteractionParams Interaction="Interactable.SharedInteractions[0]" DisplayName="@interaction_push" IsPrimary="1" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[1]" DisplayName="@interaction_release" IsPrimary="0" __type="SInteractionParams" />
+            </Interactions>
+          </SInteractionPointParams>
+          <SInteractionPointParams FirstInteractionPrimary="1" UseHelperLocation="0" ShowHighlight="1" ApplyToEntireSkeleton="1" longRangeIP="0" HelperName="Interaction_5" TextJustification="Middle" TextOrientation="RotateToPlayer" TextScale="1.25" Radius="1.5" MaxCursorScreenDistance="2" ShowInnerThoughtsOffScreen="0" OnlySelectableInLookDir="0" __type="SInteractionPointParams">
+            <HighlightBehaviors />
+            <AdditionalCollisionBones />
+            <Offset __type="QuatT">
+              <Rotation x="0" y="0" z="90" __type="Ang3" />
+              <Position x="0" y="0" z="0.0875" __type="Vec3" />
+            </Offset>
+            <AngleConstraint angleRange="360" __type="SAngleConstraint">
+              <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+            </AngleConstraint>
+            <SpherePrimitive>
+            </SpherePrimitive>
+            <Interactions>
+              <SInteractionParams Interaction="Interactable.SharedInteractions[0]" DisplayName="@interaction_push" IsPrimary="1" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[1]" DisplayName="@interaction_release" IsPrimary="0" __type="SInteractionParams" />
+            </Interactions>
+          </SInteractionPointParams>
+          <SInteractionPointParams FirstInteractionPrimary="1" UseHelperLocation="0" ShowHighlight="1" ApplyToEntireSkeleton="1" longRangeIP="0" HelperName="Interaction_6" TextJustification="Middle" TextOrientation="RotateToPlayer" TextScale="1.25" Radius="1.5" MaxCursorScreenDistance="2" ShowInnerThoughtsOffScreen="0" OnlySelectableInLookDir="0" __type="SInteractionPointParams">
+            <HighlightBehaviors />
+            <AdditionalCollisionBones />
+            <Offset __type="QuatT">
+              <Rotation x="0" y="0" z="90" __type="Ang3" />
+              <Position x="0" y="0" z="0.0875" __type="Vec3" />
+            </Offset>
+            <AngleConstraint angleRange="360" __type="SAngleConstraint">
+              <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+            </AngleConstraint>
+            <SpherePrimitive>
+            </SpherePrimitive>
+            <Interactions>
+              <SInteractionParams Interaction="Interactable.SharedInteractions[0]" DisplayName="@interaction_push" IsPrimary="1" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[1]" DisplayName="@interaction_release" IsPrimary="0" __type="SInteractionParams" />
+            </Interactions>
+          </SInteractionPointParams>
+        </InteractionPoints>
+        <interactionTasks />
+        <actionHandlerTasks />
+        <itemActionTasks />
+        <menuTitle>
+        </menuTitle>
+      </Interactable>
+    </SEntityInteractableParams>
+    <SGeometryResourceParams cacheResources="0" rootOverridePaint="0" inheritModelTagFromHost="1" __type="DataForgeComponentParams" __polymorphicType="SGeometryResourceParams">
+      <ModelTag>
+      </ModelTag>
+      <Geometry Tags="" ScaleMultiplier="1" __type="SGeometryNodeParams">
+        <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+          <Geometry path="Objects/buildingsets/human/template/prop/pushable/template_pushable_2_a.cgf" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+          <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+          <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        </Geometry>
+        <SubGeometry>
+          <SGeometryNodeParams Tags="Exploded" ScaleMultiplier="1" __type="SGeometryNodeParams">
+            <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+              <Geometry path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+              <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+              <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+            </Geometry>
+            <SubGeometry />
+          </SGeometryNodeParams>
+          <SGeometryNodeParams Tags="tableDisplay" ScaleMultiplier="1" __type="SGeometryNodeParams">
+            <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+              <Geometry path="objects/buildingsets/human/universal/prop/light/portable/portable_light_1_stand_a.cgf" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+              <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+              <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+            </Geometry>
+            <SubGeometry />
+          </SGeometryNodeParams>
+        </SubGeometry>
+      </Geometry>
+      <Material Tags="" __type="SMaterialNodeParams">
+        <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+        <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        <materialVariants />
+      </Material>
+    </SGeometryResourceParams>
+    <SPersistentComponentParams __type="DataForgeComponentParams" __polymorphicType="SPersistentComponentParams" />
+    <SCEntityActorMovableParams moveInteraction="Interactable.SharedInteractions[0]" exitInteraction="Interactable.SharedInteractions[1]" LinVelocityModifier="1" AngAccelerationModifier="1" limits="eda4f9c8-0a5c-4fbc-a0fe-3f362f18c1db" IntroFragmentId="ActorMovable" IntroFragTag="IntroHorizontal" OutroFragmentId="ActorMovable" OutroFragTag="OutroHorizontal" __type="DataForgeComponentParams" __polymorphicType="SCEntityActorMovableParams">
+      <grips>
+        <SMovableGrip gripName="1" canBeUsedBy="All" handMode="RightHand" width="0" AllowStrafe="0" AllowPush="1" AllowPull="0" interactionPoint="Interactable.InteractionPoints[0]" __type="SMovableGrip">
+          <handGrip gripID="RightHand" optionalHelper="$grip_right_1" __type="SGrip">
+            <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+            <offset __type="QuatT">
+              <Rotation x="0" y="0" z="0" __type="Ang3" />
+              <Position x="0" y="0" z="0" __type="Vec3" />
+            </offset>
+          </handGrip>
+          <offHandGrip>
+            <SGrip gripID="LeftHand" optionalHelper="$grip_left_1" __type="SGrip">
+              <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </SGrip>
+          </offHandGrip>
+          <userOffset __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="-0.14" z="0" __type="Vec3" />
+          </userOffset>
+        </SMovableGrip>
+        <SMovableGrip gripName="2" canBeUsedBy="All" handMode="RightHand" width="0" AllowStrafe="0" AllowPush="1" AllowPull="0" interactionPoint="Interactable.InteractionPoints[0]" __type="SMovableGrip">
+          <handGrip gripID="RightHand" optionalHelper="$grip_right_2" __type="SGrip">
+            <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+            <offset __type="QuatT">
+              <Rotation x="0" y="0" z="0" __type="Ang3" />
+              <Position x="0" y="0" z="0" __type="Vec3" />
+            </offset>
+          </handGrip>
+          <offHandGrip>
+            <SGrip gripID="LeftHand" optionalHelper="$grip_left_2" __type="SGrip">
+              <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </SGrip>
+          </offHandGrip>
+          <userOffset __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="-0.14" z="0" __type="Vec3" />
+          </userOffset>
+        </SMovableGrip>
+        <SMovableGrip gripName="3" canBeUsedBy="All" handMode="RightHand" width="0" AllowStrafe="0" AllowPush="1" AllowPull="0" interactionPoint="Interactable.InteractionPoints[0]" __type="SMovableGrip">
+          <handGrip gripID="RightHand" optionalHelper="$grip_right_3" __type="SGrip">
+            <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+            <offset __type="QuatT">
+              <Rotation x="0" y="0" z="0" __type="Ang3" />
+              <Position x="0" y="0" z="0" __type="Vec3" />
+            </offset>
+          </handGrip>
+          <offHandGrip>
+            <SGrip gripID="LeftHand" optionalHelper="$grip_left_3" __type="SGrip">
+              <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </SGrip>
+          </offHandGrip>
+          <userOffset __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="-0.14" z="0" __type="Vec3" />
+          </userOffset>
+        </SMovableGrip>
+        <SMovableGrip gripName="4" canBeUsedBy="All" handMode="RightHand" width="0" AllowStrafe="0" AllowPush="1" AllowPull="0" interactionPoint="Interactable.InteractionPoints[0]" __type="SMovableGrip">
+          <handGrip gripID="RightHand" optionalHelper="$grip_right_4" __type="SGrip">
+            <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+            <offset __type="QuatT">
+              <Rotation x="0" y="0" z="0" __type="Ang3" />
+              <Position x="0" y="0" z="0" __type="Vec3" />
+            </offset>
+          </handGrip>
+          <offHandGrip>
+            <SGrip gripID="LeftHand" optionalHelper="$grip_left_4" __type="SGrip">
+              <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </SGrip>
+          </offHandGrip>
+          <userOffset __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="-0.14" z="0" __type="Vec3" />
+          </userOffset>
+        </SMovableGrip>
+        <SMovableGrip gripName="5" canBeUsedBy="All" handMode="RightHand" width="0" AllowStrafe="0" AllowPush="1" AllowPull="0" interactionPoint="Interactable.InteractionPoints[1]" __type="SMovableGrip">
+          <handGrip gripID="RightHand" optionalHelper="$grip_right_5" __type="SGrip">
+            <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+            <offset __type="QuatT">
+              <Rotation x="0" y="0" z="0" __type="Ang3" />
+              <Position x="0" y="0" z="0" __type="Vec3" />
+            </offset>
+          </handGrip>
+          <offHandGrip>
+            <SGrip gripID="LeftHand" optionalHelper="$grip_left_5" __type="SGrip">
+              <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </SGrip>
+          </offHandGrip>
+          <userOffset __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="-0.14" z="0" __type="Vec3" />
+          </userOffset>
+        </SMovableGrip>
+        <SMovableGrip gripName="6" canBeUsedBy="All" handMode="RightHand" width="0" AllowStrafe="0" AllowPush="1" AllowPull="0" interactionPoint="Interactable.InteractionPoints[1]" __type="SMovableGrip">
+          <handGrip gripID="RightHand" optionalHelper="$grip_right_6" __type="SGrip">
+            <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+            <offset __type="QuatT">
+              <Rotation x="0" y="0" z="0" __type="Ang3" />
+              <Position x="0" y="0" z="0" __type="Vec3" />
+            </offset>
+          </handGrip>
+          <offHandGrip>
+            <SGrip gripID="LeftHand" optionalHelper="$grip_left_6" __type="SGrip">
+              <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </SGrip>
+          </offHandGrip>
+          <userOffset __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="-0.14" z="0" __type="Vec3" />
+          </userOffset>
+        </SMovableGrip>
+        <SMovableGrip gripName="7" canBeUsedBy="All" handMode="RightHand" width="0" AllowStrafe="0" AllowPush="1" AllowPull="0" interactionPoint="Interactable.InteractionPoints[1]" __type="SMovableGrip">
+          <handGrip gripID="RightHand" optionalHelper="$grip_right_7" __type="SGrip">
+            <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+            <offset __type="QuatT">
+              <Rotation x="0" y="0" z="0" __type="Ang3" />
+              <Position x="0" y="0" z="0" __type="Vec3" />
+            </offset>
+          </handGrip>
+          <offHandGrip>
+            <SGrip gripID="LeftHand" optionalHelper="$grip_left_7" __type="SGrip">
+              <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </SGrip>
+          </offHandGrip>
+          <userOffset __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="-0.14" z="0" __type="Vec3" />
+          </userOffset>
+        </SMovableGrip>
+        <SMovableGrip gripName="8" canBeUsedBy="All" handMode="RightHand" width="0" AllowStrafe="0" AllowPush="1" AllowPull="0" interactionPoint="Interactable.InteractionPoints[1]" __type="SMovableGrip">
+          <handGrip gripID="RightHand" optionalHelper="$grip_right_8" __type="SGrip">
+            <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+            <offset __type="QuatT">
+              <Rotation x="0" y="0" z="0" __type="Ang3" />
+              <Position x="0" y="0" z="0" __type="Vec3" />
+            </offset>
+          </handGrip>
+          <offHandGrip>
+            <SGrip gripID="LeftHand" optionalHelper="$grip_left_8" __type="SGrip">
+              <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </SGrip>
+          </offHandGrip>
+          <userOffset __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="-0.14" z="0" __type="Vec3" />
+          </userOffset>
+        </SMovableGrip>
+        <SMovableGrip gripName="9" canBeUsedBy="All" handMode="RightHand" width="0" AllowStrafe="0" AllowPush="1" AllowPull="0" interactionPoint="Interactable.InteractionPoints[2]" __type="SMovableGrip">
+          <handGrip gripID="RightHand" optionalHelper="$grip_right_9" __type="SGrip">
+            <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+            <offset __type="QuatT">
+              <Rotation x="0" y="0" z="0" __type="Ang3" />
+              <Position x="0" y="0" z="0" __type="Vec3" />
+            </offset>
+          </handGrip>
+          <offHandGrip>
+            <SGrip gripID="LeftHand" optionalHelper="$grip_left_9" __type="SGrip">
+              <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </SGrip>
+          </offHandGrip>
+          <userOffset __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="-0.14" z="0" __type="Vec3" />
+          </userOffset>
+        </SMovableGrip>
+        <SMovableGrip gripName="10" canBeUsedBy="All" handMode="RightHand" width="0" AllowStrafe="0" AllowPush="1" AllowPull="0" interactionPoint="Interactable.InteractionPoints[2]" __type="SMovableGrip">
+          <handGrip gripID="RightHand" optionalHelper="$grip_right_10" __type="SGrip">
+            <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+            <offset __type="QuatT">
+              <Rotation x="0" y="0" z="0" __type="Ang3" />
+              <Position x="0" y="0" z="0" __type="Vec3" />
+            </offset>
+          </handGrip>
+          <offHandGrip>
+            <SGrip gripID="LeftHand" optionalHelper="$grip_left_10" __type="SGrip">
+              <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </SGrip>
+          </offHandGrip>
+          <userOffset __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="-0.14" z="0" __type="Vec3" />
+          </userOffset>
+        </SMovableGrip>
+        <SMovableGrip gripName="11" canBeUsedBy="All" handMode="RightHand" width="0" AllowStrafe="0" AllowPush="1" AllowPull="0" interactionPoint="Interactable.InteractionPoints[2]" __type="SMovableGrip">
+          <handGrip gripID="RightHand" optionalHelper="$grip_right_11" __type="SGrip">
+            <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+            <offset __type="QuatT">
+              <Rotation x="0" y="0" z="0" __type="Ang3" />
+              <Position x="0" y="0" z="0" __type="Vec3" />
+            </offset>
+          </handGrip>
+          <offHandGrip>
+            <SGrip gripID="LeftHand" optionalHelper="$grip_left_11" __type="SGrip">
+              <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </SGrip>
+          </offHandGrip>
+          <userOffset __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="-0.14" z="0" __type="Vec3" />
+          </userOffset>
+        </SMovableGrip>
+        <SMovableGrip gripName="12" canBeUsedBy="All" handMode="RightHand" width="0" AllowStrafe="0" AllowPush="1" AllowPull="0" interactionPoint="Interactable.InteractionPoints[2]" __type="SMovableGrip">
+          <handGrip gripID="RightHand" optionalHelper="$grip_right_12" __type="SGrip">
+            <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+            <offset __type="QuatT">
+              <Rotation x="0" y="0" z="0" __type="Ang3" />
+              <Position x="0" y="0" z="0" __type="Vec3" />
+            </offset>
+          </handGrip>
+          <offHandGrip>
+            <SGrip gripID="LeftHand" optionalHelper="$grip_left_12" __type="SGrip">
+              <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </SGrip>
+          </offHandGrip>
+          <userOffset __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="-0.14" z="0" __type="Vec3" />
+          </userOffset>
+        </SMovableGrip>
+        <SMovableGrip gripName="13" canBeUsedBy="All" handMode="RightHand" width="0" AllowStrafe="0" AllowPush="1" AllowPull="0" interactionPoint="Interactable.InteractionPoints[3]" __type="SMovableGrip">
+          <handGrip gripID="RightHand" optionalHelper="$grip_right_13" __type="SGrip">
+            <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+            <offset __type="QuatT">
+              <Rotation x="0" y="0" z="0" __type="Ang3" />
+              <Position x="0" y="0" z="0" __type="Vec3" />
+            </offset>
+          </handGrip>
+          <offHandGrip>
+            <SGrip gripID="LeftHand" optionalHelper="$grip_left_13" __type="SGrip">
+              <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </SGrip>
+          </offHandGrip>
+          <userOffset __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="-0.14" z="0" __type="Vec3" />
+          </userOffset>
+        </SMovableGrip>
+        <SMovableGrip gripName="14" canBeUsedBy="All" handMode="RightHand" width="0" AllowStrafe="0" AllowPush="1" AllowPull="0" interactionPoint="Interactable.InteractionPoints[3]" __type="SMovableGrip">
+          <handGrip gripID="RightHand" optionalHelper="$grip_right_14" __type="SGrip">
+            <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+            <offset __type="QuatT">
+              <Rotation x="0" y="0" z="0" __type="Ang3" />
+              <Position x="0" y="0" z="0" __type="Vec3" />
+            </offset>
+          </handGrip>
+          <offHandGrip>
+            <SGrip gripID="LeftHand" optionalHelper="$grip_left_14" __type="SGrip">
+              <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </SGrip>
+          </offHandGrip>
+          <userOffset __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="-0.14" z="0" __type="Vec3" />
+          </userOffset>
+        </SMovableGrip>
+        <SMovableGrip gripName="15" canBeUsedBy="All" handMode="RightHand" width="0" AllowStrafe="0" AllowPush="1" AllowPull="0" interactionPoint="Interactable.InteractionPoints[3]" __type="SMovableGrip">
+          <handGrip gripID="RightHand" optionalHelper="$grip_right_15" __type="SGrip">
+            <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+            <offset __type="QuatT">
+              <Rotation x="0" y="0" z="0" __type="Ang3" />
+              <Position x="0" y="0" z="0" __type="Vec3" />
+            </offset>
+          </handGrip>
+          <offHandGrip>
+            <SGrip gripID="LeftHand" optionalHelper="$grip_left_15" __type="SGrip">
+              <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </SGrip>
+          </offHandGrip>
+          <userOffset __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="-0.14" z="0" __type="Vec3" />
+          </userOffset>
+        </SMovableGrip>
+        <SMovableGrip gripName="16" canBeUsedBy="All" handMode="RightHand" width="0" AllowStrafe="0" AllowPush="1" AllowPull="0" interactionPoint="Interactable.InteractionPoints[3]" __type="SMovableGrip">
+          <handGrip gripID="RightHand" optionalHelper="$grip_right_16" __type="SGrip">
+            <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+            <offset __type="QuatT">
+              <Rotation x="0" y="0" z="0" __type="Ang3" />
+              <Position x="0" y="0" z="0" __type="Vec3" />
+            </offset>
+          </handGrip>
+          <offHandGrip>
+            <SGrip gripID="LeftHand" optionalHelper="$grip_left_16" __type="SGrip">
+              <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </SGrip>
+          </offHandGrip>
+          <userOffset __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="-0.14" z="0" __type="Vec3" />
+          </userOffset>
+        </SMovableGrip>
+        <SMovableGrip gripName="17" canBeUsedBy="All" handMode="RightHand" width="0" AllowStrafe="0" AllowPush="1" AllowPull="0" interactionPoint="Interactable.InteractionPoints[4]" __type="SMovableGrip">
+          <handGrip gripID="RightHand" optionalHelper="$grip_right_17" __type="SGrip">
+            <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+            <offset __type="QuatT">
+              <Rotation x="0" y="0" z="0" __type="Ang3" />
+              <Position x="0" y="0" z="0" __type="Vec3" />
+            </offset>
+          </handGrip>
+          <offHandGrip>
+            <SGrip gripID="LeftHand" optionalHelper="$grip_left_17" __type="SGrip">
+              <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </SGrip>
+          </offHandGrip>
+          <userOffset __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="-0.14" z="0" __type="Vec3" />
+          </userOffset>
+        </SMovableGrip>
+        <SMovableGrip gripName="18" canBeUsedBy="All" handMode="RightHand" width="0" AllowStrafe="0" AllowPush="1" AllowPull="0" interactionPoint="Interactable.InteractionPoints[4]" __type="SMovableGrip">
+          <handGrip gripID="RightHand" optionalHelper="$grip_right_18" __type="SGrip">
+            <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+            <offset __type="QuatT">
+              <Rotation x="0" y="0" z="0" __type="Ang3" />
+              <Position x="0" y="0" z="0" __type="Vec3" />
+            </offset>
+          </handGrip>
+          <offHandGrip>
+            <SGrip gripID="LeftHand" optionalHelper="$grip_left_18" __type="SGrip">
+              <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </SGrip>
+          </offHandGrip>
+          <userOffset __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="-0.14" z="0" __type="Vec3" />
+          </userOffset>
+        </SMovableGrip>
+        <SMovableGrip gripName="19" canBeUsedBy="All" handMode="RightHand" width="0" AllowStrafe="0" AllowPush="1" AllowPull="0" interactionPoint="Interactable.InteractionPoints[4]" __type="SMovableGrip">
+          <handGrip gripID="RightHand" optionalHelper="$grip_right_19" __type="SGrip">
+            <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+            <offset __type="QuatT">
+              <Rotation x="0" y="0" z="0" __type="Ang3" />
+              <Position x="0" y="0" z="0" __type="Vec3" />
+            </offset>
+          </handGrip>
+          <offHandGrip>
+            <SGrip gripID="LeftHand" optionalHelper="$grip_left_19" __type="SGrip">
+              <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </SGrip>
+          </offHandGrip>
+          <userOffset __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="-0.14" z="0" __type="Vec3" />
+          </userOffset>
+        </SMovableGrip>
+        <SMovableGrip gripName="20" canBeUsedBy="All" handMode="RightHand" width="0" AllowStrafe="0" AllowPush="1" AllowPull="0" interactionPoint="Interactable.InteractionPoints[4]" __type="SMovableGrip">
+          <handGrip gripID="RightHand" optionalHelper="$grip_right_20" __type="SGrip">
+            <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+            <offset __type="QuatT">
+              <Rotation x="0" y="0" z="0" __type="Ang3" />
+              <Position x="0" y="0" z="0" __type="Vec3" />
+            </offset>
+          </handGrip>
+          <offHandGrip>
+            <SGrip gripID="LeftHand" optionalHelper="$grip_left_20" __type="SGrip">
+              <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </SGrip>
+          </offHandGrip>
+          <userOffset __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="-0.14" z="0" __type="Vec3" />
+          </userOffset>
+        </SMovableGrip>
+        <SMovableGrip gripName="21" canBeUsedBy="All" handMode="RightHand" width="0" AllowStrafe="0" AllowPush="1" AllowPull="0" interactionPoint="Interactable.InteractionPoints[5]" __type="SMovableGrip">
+          <handGrip gripID="RightHand" optionalHelper="$grip_right_21" __type="SGrip">
+            <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+            <offset __type="QuatT">
+              <Rotation x="0" y="0" z="0" __type="Ang3" />
+              <Position x="0" y="0" z="0" __type="Vec3" />
+            </offset>
+          </handGrip>
+          <offHandGrip>
+            <SGrip gripID="LeftHand" optionalHelper="$grip_left_21" __type="SGrip">
+              <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </SGrip>
+          </offHandGrip>
+          <userOffset __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="-0.14" z="0" __type="Vec3" />
+          </userOffset>
+        </SMovableGrip>
+        <SMovableGrip gripName="22" canBeUsedBy="All" handMode="RightHand" width="0" AllowStrafe="0" AllowPush="1" AllowPull="0" interactionPoint="Interactable.InteractionPoints[5]" __type="SMovableGrip">
+          <handGrip gripID="RightHand" optionalHelper="$grip_right_22" __type="SGrip">
+            <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+            <offset __type="QuatT">
+              <Rotation x="0" y="0" z="0" __type="Ang3" />
+              <Position x="0" y="0" z="0" __type="Vec3" />
+            </offset>
+          </handGrip>
+          <offHandGrip>
+            <SGrip gripID="LeftHand" optionalHelper="$grip_left_22" __type="SGrip">
+              <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </SGrip>
+          </offHandGrip>
+          <userOffset __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="-0.14" z="0" __type="Vec3" />
+          </userOffset>
+        </SMovableGrip>
+        <SMovableGrip gripName="23" canBeUsedBy="All" handMode="RightHand" width="0" AllowStrafe="0" AllowPush="1" AllowPull="0" interactionPoint="Interactable.InteractionPoints[5]" __type="SMovableGrip">
+          <handGrip gripID="RightHand" optionalHelper="$grip_right_23" __type="SGrip">
+            <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+            <offset __type="QuatT">
+              <Rotation x="0" y="0" z="0" __type="Ang3" />
+              <Position x="0" y="0" z="0" __type="Vec3" />
+            </offset>
+          </handGrip>
+          <offHandGrip>
+            <SGrip gripID="LeftHand" optionalHelper="$grip_left_23" __type="SGrip">
+              <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </SGrip>
+          </offHandGrip>
+          <userOffset __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="-0.14" z="0" __type="Vec3" />
+          </userOffset>
+        </SMovableGrip>
+        <SMovableGrip gripName="24" canBeUsedBy="All" handMode="RightHand" width="0" AllowStrafe="0" AllowPush="1" AllowPull="0" interactionPoint="Interactable.InteractionPoints[5]" __type="SMovableGrip">
+          <handGrip gripID="RightHand" optionalHelper="$grip_right_24" __type="SGrip">
+            <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+            <offset __type="QuatT">
+              <Rotation x="0" y="0" z="0" __type="Ang3" />
+              <Position x="0" y="0" z="0" __type="Vec3" />
+            </offset>
+          </handGrip>
+          <offHandGrip>
+            <SGrip gripID="LeftHand" optionalHelper="$grip_left_24" __type="SGrip">
+              <gripShapeParameters gripShape="gs_block" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </SGrip>
+          </offHandGrip>
+          <userOffset __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="-0.14" z="0" __type="Vec3" />
+          </userOffset>
+        </SMovableGrip>
+      </grips>
+    </SCEntityActorMovableParams>
+    <EntityPhysicalAudioParams minimumImpulseContinuous="10" minimumImpulseTransient="20" minimumVelocityNoImpulse="100" slideThreshold="0.1" rollThreshold="0.1" momentumScale="1" useAABBCentre="0" oneShotTag="0d401f6c-38a4-4c52-bb02-26059dd8d98a" oneShotCooldown="0.2" dragOnly="0" __type="DataForgeComponentParams" __polymorphicType="EntityPhysicalAudioParams">
+      <collisionTriggers>
+        <PhysicalAudioCollisionTrigger oneShotMinPlayTime="0.25" attachToObject="0" __type="PhysicalAudioCollisionTrigger">
+          <trigger audioTrigger="Play_PHOB_Physics_Objects_Fuel_Tank_Large_Impacts" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+        </PhysicalAudioCollisionTrigger>
+      </collisionTriggers>
+      <slideStartTrigger audioTrigger="Play_PHOB_Physics_Objects_Fuel_Tank_Large_Slide" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <slideStopTrigger audioTrigger="Play_PHOB_Physics_Objects_Fuel_Tank_Large_Slide_Stop" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <rollStartTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <rollStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <movementStartTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <movementStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <pickupTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <pickFromOwnerTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <dropTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <placeTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <rtpcSlideVelocity rtpc="PhysicalAudio_Velocity_Fuel_Tank" __type="AudioRtpc" />
+      <rtpcMassSelf rtpc="PhysicalAudio_MassSelf" __type="AudioRtpc" />
+      <rtpcMassOther rtpc="PhysicalAudio_MassOther" __type="AudioRtpc" />
+      <rtpcDampening rtpc="PhysicalAudio_Damping" __type="AudioRtpc" />
+      <rtpcRollVelocity rtpc="PhysicalAudio_RollVelocity" __type="AudioRtpc" />
+      <rtpcHealth rtpc="PhysicalAudio_Health" __type="AudioRtpc" />
+      <rtpcMovement rtpc="PhysicalAudio_Movement" __type="AudioRtpc" />
+      <rtpcRotation rtpc="PhysicalAudio_Rotation" __type="AudioRtpc" />
+      <rtpcTimeSinceLastOneshot rtpc="PhysicalAudio_TimeSinceLastOneshot" __type="AudioRtpc" />
+      <rtpcMomentum rtpc="PhysicalAudio_Momentum" __type="AudioRtpc" />
+      <rtpcCarried rtpc="PhysicalAudio_CarryState" __type="AudioRtpc" />
+    </EntityPhysicalAudioParams>
+    <SHealthComponentParams Health="50" ClientOnly="0" UnlockInteractionsOnDeath="0" PushDamageUpPartsHeirarchyWhenDead="1" DetachFromItemPortOnDeath="0" DetachFromEntityOnDeath="0" PropagateExplosionDamageToChildren="0" UseDirtShaderForDamage="0" DestroyedGeometryTag="Destroyed" ExplodedGeometryTag="" DebrisGeometryTag="" ExplosionDelayTime="0" ExplosionRandomDelayRange="0" ExplosionBone="" __type="DataForgeComponentParams" __polymorphicType="SHealthComponentParams">
+      <DamageResistances>
+        <DamageResistance __type="DamageResistanceBase" __polymorphicType="DamageResistance">
+          <PhysicalResistance Multiplier="1" Threshold="0" __type="DamageResistanceEntry" />
+          <EnergyResistance Multiplier="0" Threshold="0" __type="DamageResistanceEntry" />
+          <DistortionResistance Multiplier="0" Threshold="0" __type="DamageResistanceEntry" />
+          <ThermalResistance Multiplier="0" Threshold="0" __type="DamageResistanceEntry" />
+          <BiochemicalResistance Multiplier="0" Threshold="0" __type="DamageResistanceEntry" />
+          <StunResistance Multiplier="0" Threshold="0" __type="DamageResistanceEntry" />
+        </DamageResistance>
+      </DamageResistances>
+      <InitialDamage>
+      </InitialDamage>
+      <HealthLevelStates />
+      <DeathExplosionParams>
+      </DeathExplosionParams>
+      <DeathGasComposition />
+      <InteractionLocks />
+      <DamageMapParams>
+      </DamageMapParams>
+    </SHealthComponentParams>
+  </Components>
+</EntityClassDefinition.ActorMovable_Block_Roll_TEMPLATE>

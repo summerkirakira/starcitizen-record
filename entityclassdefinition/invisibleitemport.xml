@@ -1,0 +1,44 @@
+<EntityClassDefinition.InvisibleItemPort Category="Default" Icon="Default.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="3294e7b3-f4b4-457a-890b-9249e627e4e0" __path="libs/foundry/records/entityclassdefinition/invisibleitemport.xml">
+  <tags />
+  <StaticEntityClassData />
+  <Components>
+    <SItemPortContainerComponentParams PortFlags="" PortTags="" RequiredItemTags="" __type="DataForgeComponentParams" __polymorphicType="SItemPortContainerComponentParams">
+      <masterController>
+      </masterController>
+      <Ports>
+        <SItemPortDef Name="Root" DisplayName="" PortTags="" RequiredPortTags="" Flags="" MinSize="0" MaxSize="15" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags />
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types />
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationEntity usePhysicalAttachment="0" useEntityAttachment="1" useExteriorAttachment="0" usePhysicalParent="0" hangarPort="0" __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationEntity">
+              <constraintParams damping="0" noSelfCollisions="1" maxPullForce="0" maxBendTorque="0" constrainToLine="0" constrainToPlane="0" constrainFully="1" useWorldConstraintPosition="0" noRotation="1" xMin="0" xMax="0" yzMax="0" constraintHelper="" constraintMaintainOrientation="0" __type="SAttachmentConstraintParams" />
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationEntity>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+      </Ports>
+      <InternalResourceLinks />
+    </SItemPortContainerComponentParams>
+  </Components>
+</EntityClassDefinition.InvisibleItemPort>

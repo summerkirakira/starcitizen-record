@@ -1,0 +1,4 @@
+<ActorStanceSpeedsInfo.Crouch __type="ActorStanceSpeedsInfo" __ref="242e7494-8690-4837-8db8-0c7fed3e636c" __path="libs/foundry/records/actor/stanceinfo/speeds/crouch.xml">
+  <stateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Crouch" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" __type="ActorStateFilter" __polymorphicType="ActorMotionStateFilter" />
+  <speeds defaultSpeed="2.28" walkSlowSpeed="0" walkMidSpeed="0" walkFastSpeed="0" runSlowSpeed="0" runFastSpeed="0" sprintSpeed="0" greenZoneWalkSpeed="0" greenZoneSprintSpeed="0" aimDownSightSpeed="0" leanSpeed="0" conversationSpeed="0" __type="ActorStanceSpeeds" />
+</ActorStanceSpeedsInfo.Crouch>

@@ -1,0 +1,7 @@
+<Formation.SimpleArrow_two_members name="" __type="Formation" __ref="8bd4510f-e0c6-42a9-b7cf-052010d75906" __path="libs/foundry/records/formation/simplearrow_two_members.xml">
+  <offsets>
+    <Vec3 x="80" y="-120" z="20" __type="Vec3" />
+    <Vec3 x="-80" y="-120" z="20" __type="Vec3" />
+  </offsets>
+  <playerFormationParams targetRadius="10" innerRadius="25" outerRadius="50" breakRadius="0" influenceAtInnerRadius="0.2" abandonFormationAtBreakRadius="0" __type="PlayerFormationParams" />
+</Formation.SimpleArrow_two_members>

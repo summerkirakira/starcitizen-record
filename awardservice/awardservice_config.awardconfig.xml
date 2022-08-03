@@ -1,0 +1,6 @@
+<AwardService_Config.AwardConfig __type="AwardService_Config" __ref="94185ed9-03bd-41c1-81c8-75becc8cbc0f" __path="libs/foundry/records/awardservice/awardservice_config.awardconfig.xml">
+  <Awards>
+    <AwardService_Award Name="R-GM-VS-WAVE18-2016" Title="@ea_ui_reward_VanduulSwarm_Title" Message="@ea_ui_reward_VanduulSwarm_Msg" __type="AwardService_Award" />
+    <AwardService_Award Name="R-GM-PS-2949-COMPLETED" Title="@ea_ui_reward_PirateSwarm_Title" Message="@ea_ui_reward_PirateSwarm_Msg" __type="AwardService_Award" />
+  </Awards>
+</AwardService_Config.AwardConfig>

@@ -1,0 +1,64 @@
+<UIAudioDefinition.grin_multitool_01_display __type="UIAudioDefinition" __ref="17150bab-c2df-4949-b331-ab1c585629e5" __path="libs/foundry/records/audio/ui/buildingblocks/grin_multitool_01_display.xml">
+  <events>
+    <UIAudioEvent tag="9e3c4f32-90f7-45e2-a0fb-424357c14bc5" __type="UIAudioEvent">
+      <audioTrigger audioTrigger="Play_Silence" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+    </UIAudioEvent>
+    <UIAudioEvent tag="c9f9a7a5-b990-4580-9373-d269e90675aa" __type="UIAudioEvent">
+      <audioTrigger audioTrigger="Play_Silence" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+    </UIAudioEvent>
+    <UIAudioEvent tag="e70c3aae-5428-4c21-ba27-dd4daf1bf416" __type="UIAudioEvent">
+      <audioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+    </UIAudioEvent>
+    <UIAudioEvent tag="736500da-30ce-4f93-9718-f13e77c06ecd" __type="UIAudioEvent">
+      <audioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+    </UIAudioEvent>
+    <UIAudioEvent tag="6ae02293-fa21-4e3d-880f-6942b63f383e" __type="UIAudioEvent">
+      <audioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+    </UIAudioEvent>
+    <UIAudioEvent tag="80a9a0a7-2ec1-48ae-b651-2088d7a98b84" __type="UIAudioEvent">
+      <audioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+    </UIAudioEvent>
+    <UIAudioEvent tag="19b18ac1-276d-43b7-a859-c4dc89e36ab9" __type="UIAudioEvent">
+      <audioTrigger audioTrigger="Play_Silence" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+    </UIAudioEvent>
+    <UIAudioEvent tag="1bda90cb-22f3-44aa-8099-ed9944e4b046" __type="UIAudioEvent">
+      <audioTrigger audioTrigger="Play_UI_MCCS_FPS_Mining_Tool_Power_85_Percent" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+    </UIAudioEvent>
+    <UIAudioEvent tag="f9423bd3-4b4b-4309-b1a5-88388b4a35bd" __type="UIAudioEvent">
+      <audioTrigger audioTrigger="Play_Silence" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+    </UIAudioEvent>
+    <UIAudioEvent tag="68998393-0399-4cba-b5bb-91811510732e" __type="UIAudioEvent">
+      <audioTrigger audioTrigger="Play_UI_MCCS_FPS_Mining_Tool_Power_100_Percent" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+    </UIAudioEvent>
+    <UIAudioEvent tag="4d0914e6-38de-40cd-8abe-269c898e8f4b" __type="UIAudioEvent">
+      <audioTrigger audioTrigger="Play_UIWP_GRIN_Multitool_TractorBeam_Pointing_Object" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+    </UIAudioEvent>
+    <UIAudioEvent tag="3c8fbfb2-31d7-4b06-859a-8e6ad7a96397" __type="UIAudioEvent">
+      <audioTrigger audioTrigger="Stop_UIWP_GRIN_Multitool_TractorBeam_Pointing_Object" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+    </UIAudioEvent>
+    <UIAudioEvent tag="7e7046bf-dbaf-4832-8efa-e1c03aa807da" __type="UIAudioEvent">
+      <audioTrigger audioTrigger="Play_UIWP_GRIN_Multitool_TractorBeam_Hologram_On" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+    </UIAudioEvent>
+    <UIAudioEvent tag="c97c539b-a02b-4141-925e-6ea58e11002a" __type="UIAudioEvent">
+      <audioTrigger audioTrigger="Play_UIWP_GRIN_Multitool_TractorBeam_Hologram_Off" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+    </UIAudioEvent>
+    <UIAudioEvent tag="1a3d7ef7-468c-4345-855e-6e27b79f7934" __type="UIAudioEvent">
+      <audioTrigger audioTrigger="Play_UIWP_GRIN_Multitool_TractorBeam_Firing" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+    </UIAudioEvent>
+    <UIAudioEvent tag="0516355b-ab22-4892-8d08-69ee0488961b" __type="UIAudioEvent">
+      <audioTrigger audioTrigger="Stop_UIWP_GRIN_Multitool_TractorBeam_Firing" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+    </UIAudioEvent>
+  </events>
+  <parameters>
+    <UIAudioParameter tag="eef8fae2-32a1-437c-b737-2645ae520003" __type="UIAudioParameter">
+      <rtpc rtpc="UIWP_Multitool_TractorBeam_State" __type="AudioRtpc" />
+    </UIAudioParameter>
+    <UIAudioParameter tag="57b2b790-2e90-4b46-b7c1-4b6bc8c1516f" __type="UIAudioParameter">
+      <rtpc rtpc="UIWP_Multitool_TractorBeam_Warning" __type="AudioRtpc" />
+    </UIAudioParameter>
+    <UIAudioParameter tag="48e7f24f-6a24-447a-928c-6e44c7961eeb" __type="UIAudioParameter">
+      <rtpc rtpc="UIWP_Multitool_TractorBeam_Distance_Delta" __type="AudioRtpc" />
+    </UIAudioParameter>
+  </parameters>
+  <dialogueEvents />
+</UIAudioDefinition.grin_multitool_01_display>

@@ -1,0 +1,140 @@
+<EntityClassDefinition.ANVL_Hornet_F7C_Cargo_Mod Category="Items" Icon="Default.bmp" Invisible="0" BBoxSelection="1" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="8661bcd6-9247-4376-8509-11af3d24a44c" __path="libs/foundry/records/entities/scitem/ships/module/anvl/anvl_hornet_f7c_cargo_mod.xml">
+  <tags />
+  <StaticEntityClassData />
+  <Components>
+    <SAttachableComponentParams attachToTileItemPort="NoConnection" __type="DataForgeComponentParams" __polymorphicType="SAttachableComponentParams">
+      <AttachDef Type="Container" SubType="Cargo" Size="5" Grade="1" Manufacturer="b922abdb-0634-4358-9eee-60118f3cf3a7" inheritParentManufacturer="0" Tags="" RequiredTags="ANVL_Hornet_Base" DisplayType="" __type="SItemDefinition">
+        <Localization Name="@item_NameStorAll_Big_Box_Model_H" ShortName="@LOC_EMPTY" Description="@item_DescStorAll_Big_Box_Model_H" __type="SCItemLocalization">
+          <displayFeatures LogoSimplifiedWhite="" FrontendBackground="" History="@LOC_EMPTY" Callout1="@LOC_EMPTY" Callout2="@LOC_EMPTY" Callout3="@LOC_EMPTY" UIPriority="0" __type="SCExtendedLocalizationLevelParams">
+            <locationAudioPlayTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+            <locationAudioStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </displayFeatures>
+        </Localization>
+        <mannequinTags mannequinClassTag="" mannequinTypeTag="" mannequinBaseTag="" __type="SCItemMannequinTags" />
+        <inventoryOccupancyVolume>
+          <SMicroCargoUnit microSCU="1" __type="SBaseCargoUnit" __polymorphicType="SMicroCargoUnit" />
+        </inventoryOccupancyVolume>
+        <inventoryOccupancyDimensions x="0.15" y="0.15" z="0.15" __type="Vec3" />
+        <inventoryOccupancyDimensionsUIOverride>
+        </inventoryOccupancyDimensionsUIOverride>
+      </AttachDef>
+      <entityAttachParams>
+      </entityAttachParams>
+    </SAttachableComponentParams>
+    <SGeometryResourceParams cacheResources="0" rootOverridePaint="0" inheritModelTagFromHost="1" __type="DataForgeComponentParams" __polymorphicType="SGeometryResourceParams">
+      <ModelTag>
+      </ModelTag>
+      <Geometry Tags="" ScaleMultiplier="1" __type="SGeometryNodeParams">
+        <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+          <Geometry path="objects/spaceships/cargo/stor-all/bigbox/storall_bigboxanvilhornet.cga" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+          <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+          <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        </Geometry>
+        <SubGeometry />
+      </Geometry>
+      <Material Tags="" __type="SMaterialNodeParams">
+        <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+        <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        <materialVariants />
+      </Material>
+    </SGeometryResourceParams>
+    <SEntityPhysicsControllerParams __type="DataForgeComponentParams" __polymorphicType="SEntityPhysicsControllerParams">
+      <PhysType>
+        <SEntityRigidPhysicsControllerParams Mass="1" maxLoggedCollisions="1" Damping="0" DampingFreefall="0.05" PushableByPlayers="1" NeverAffectTriggers="0" UseManualGridTransition="0" BlocksNavigation="1" Kinematic="0" Resting="0" physicalizeAllSlots="1" __type="SEntityBasePhysicsControllerParams" __polymorphicType="SEntityRigidPhysicsControllerParams">
+          <breakableParams>
+          </breakableParams>
+          <gameCollisionClass>
+          </gameCollisionClass>
+          <grid>
+          </grid>
+          <buoyancyParams>
+          </buoyancyParams>
+          <temperature enable="0" initialTemperature="-1" internalTemperatureGeneration="0" __type="EntityTemperature" />
+        </SEntityRigidPhysicsControllerParams>
+      </PhysType>
+    </SEntityPhysicsControllerParams>
+    <SEntityComponentDefaultLoadoutParams __type="DataForgeComponentParams" __polymorphicType="SEntityComponentDefaultLoadoutParams">
+      <loadout>
+        <SItemPortLoadoutManualParams __type="SItemPortLoadoutBaseParams" __polymorphicType="SItemPortLoadoutManualParams">
+          <entries>
+            <SItemPortLoadoutEntryParams itemPortName="hardpoint_cargo_grid" entityClassName="ANVL_Hornet_CargoGrid_F7C" __type="SItemPortLoadoutEntryParams">
+              <inventoryContainer>
+              </inventoryContainer>
+              <loadout>
+              </loadout>
+            </SItemPortLoadoutEntryParams>
+          </entries>
+        </SItemPortLoadoutManualParams>
+      </loadout>
+    </SEntityComponentDefaultLoadoutParams>
+    <SHealthComponentParams Health="250" ClientOnly="0" UnlockInteractionsOnDeath="0" PushDamageUpPartsHeirarchyWhenDead="1" DetachFromItemPortOnDeath="0" DetachFromEntityOnDeath="0" PropagateExplosionDamageToChildren="0" UseDirtShaderForDamage="0" DestroyedGeometryTag="" ExplodedGeometryTag="" DebrisGeometryTag="" ExplosionDelayTime="0" ExplosionRandomDelayRange="0" ExplosionBone="" __type="DataForgeComponentParams" __polymorphicType="SHealthComponentParams">
+      <DamageResistances>
+        <DamageResistance __type="DamageResistanceBase" __polymorphicType="DamageResistance">
+          <PhysicalResistance Multiplier="1" Threshold="0" __type="DamageResistanceEntry" />
+          <EnergyResistance Multiplier="1" Threshold="0" __type="DamageResistanceEntry" />
+          <DistortionResistance Multiplier="1" Threshold="0" __type="DamageResistanceEntry" />
+          <ThermalResistance Multiplier="1" Threshold="0" __type="DamageResistanceEntry" />
+          <BiochemicalResistance Multiplier="1" Threshold="0" __type="DamageResistanceEntry" />
+          <StunResistance Multiplier="1" Threshold="0" __type="DamageResistanceEntry" />
+        </DamageResistance>
+      </DamageResistances>
+      <InitialDamage>
+      </InitialDamage>
+      <HealthLevelStates />
+      <DeathExplosionParams>
+      </DeathExplosionParams>
+      <DeathGasComposition />
+      <InteractionLocks />
+      <DamageMapParams>
+      </DamageMapParams>
+    </SHealthComponentParams>
+    <SItemPortContainerComponentParams PortFlags="" PortTags="" RequiredItemTags="" __type="DataForgeComponentParams" __polymorphicType="SItemPortContainerComponentParams">
+      <masterController>
+      </masterController>
+      <Ports>
+        <SItemPortDef Name="hardpoint_cargo_grid" DisplayName="" PortTags="" RequiredPortTags="" Flags="invisible uneditable" MinSize="1" MaxSize="1" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags />
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types>
+            <SItemPortDefTypes Type="Cargo" __type="SItemPortDefTypes">
+              <SubTypes />
+            </SItemPortDefTypes>
+          </Types>
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationBone __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationBone">
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="hardpoint_cargo_grid" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationBone>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+      </Ports>
+      <InternalResourceLinks />
+    </SItemPortContainerComponentParams>
+    <RParticleFieldNodeComponentParams enableField="1" texture3D="" strengthMult="1" useTransformHelperFile="1" matchSizeFromTexture="0" mergeSDFs="0" mergedVoxelCountScaleFrac="1" __type="DataForgeComponentParams" __polymorphicType="RParticleFieldNodeComponentParams">
+      <size x="1" y="1" z="1" __type="Vec3" />
+      <posOffset x="0" y="0" z="0" __type="Vec3" />
+      <rotOffset x="0" y="0" z="0" __type="Ang3" />
+      <mergedPaddingFrac x="0" y="0" z="0" __type="Vec3" />
+      <debugDraw drawBoundingBox="0" drawAdvanced="0" densityPerMeter="0" density="1" minMagnitude="0" maxMagnitude="0" arrowScale="1" renderThreshold="0" renderTolerance="0" renderInverted="0" __type="RParticleFieldNodeDebugParams" />
+    </RParticleFieldNodeComponentParams>
+  </Components>
+</EntityClassDefinition.ANVL_Hornet_F7C_Cargo_Mod>

@@ -1,0 +1,5 @@
+<DensityManagerStreamingFilterRecord.DensityManagerStreamingFilterRecord __type="DensityManagerStreamingFilterRecord" __ref="8ee61320-c73b-4a1c-9c73-a89a3e55e37f" __path="libs/foundry/records/densitymanager/densitymanagerstreamingfilterrecord.xml">
+  <StreamingFilterContexts>
+    <MissionEntityFilterContextParams __type="StreamingFilterContextBase" __polymorphicType="MissionEntityFilterContextParams" />
+  </StreamingFilterContexts>
+</DensityManagerStreamingFilterRecord.DensityManagerStreamingFilterRecord>

@@ -1,0 +1,5 @@
+<EntityClassDefinition.HarvestableTagPoint Category="Default" Icon="TagPoint.bmp" Invisible="1" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="7aebd1a0-2eee-46cf-92e1-08e7a2908017" __path="libs/foundry/records/entityclassdefinition/harvestabletagpoint.xml">
+  <tags />
+  <StaticEntityClassData />
+  <Components />
+</EntityClassDefinition.HarvestableTagPoint>

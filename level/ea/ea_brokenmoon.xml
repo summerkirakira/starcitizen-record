@@ -1,0 +1,17 @@
+<Level.EA_BrokenMoon displayName="EA_BrokenMoon" locDisplayName="@ea_ui_map_BrokenMoon" description="@ea_ui_mapdesc_BrokenMoon" thumbnail="ui/frontend/assets/tif/gametypesmaps/brokenmoon.tif" filename="EA_BrokenMoon" gameToken="brokenmoon" universeLocationUniqueId="0" defaultGameRules="6aa137c0-e347-40f1-939d-5662da62cd78" TrackNumber="-1" mapCode="BROKEN-MOON" systemImagePath="" __type="Level" __ref="2aa8cec9-8c89-45bb-902c-9bdb2a301d9b" __path="libs/foundry/records/level/ea/ea_brokenmoon.xml">
+  <displayFeatures>
+  </displayFeatures>
+  <validGameRules>
+    <Reference value="6aa137c0-e347-40f1-939d-5662da62cd78" />
+    <Reference value="537c85e3-5bbb-4a2c-9fb9-8aa72b81c5cc" />
+    <Reference value="c50d0759-0e7a-4720-9978-b817d3fd874a" />
+    <Reference value="8ad03260-4a3c-47eb-90f2-238ac78ac0f2" />
+    <Reference value="822f0a97-bbd5-4084-892e-b33bae736277" />
+    <Reference value="7faa0f27-1e99-4af5-a48d-c259a098348c" />
+  </validGameRules>
+  <loadingScreenInfo loadingScreenType="ElectronicAccess" imagePath="../TIF/LoadingScreen/ac.dds" primaryTitle="@ui_GameTitle_ArenaCommander" secondaryTitle="@LOC_EMPTY" subtitle="@LOC_EMPTY" description="@LOC_EMPTY" __type="SLoadingScreenInformationDef">
+    <tips />
+  </loadingScreenInfo>
+  <potentialSpawnLocations />
+  <potentialDevOnlySpawnLocations />
+</Level.EA_BrokenMoon>

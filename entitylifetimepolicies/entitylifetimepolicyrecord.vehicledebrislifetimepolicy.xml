@@ -1,0 +1,5 @@
+<EntityLifetimePolicyRecord.VehicleDebrisLifetimePolicy __type="EntityLifetimePolicyRecord" __ref="25d6eda5-5588-444e-8e60-346f222c8199" __path="libs/foundry/records/entitylifetimepolicies/entitylifetimepolicyrecord.vehicledebrislifetimepolicy.xml">
+  <lifetimePolicies>
+    <SDebrisLifetimePolicy authorizerCountLimit="128" isNonTrivialRemoval="0" minimumMass="1000" maximumMass="1000000" minimumTimeout="60" maximumTimeout="180" minimumFactor="50" maximumFactor="100" minimumRandomOffset="-5" maximumRandomOffset="5" __type="SEntityLifetimePolicyParams" __polymorphicType="SDebrisLifetimePolicy" />
+  </lifetimePolicies>
+</EntityLifetimePolicyRecord.VehicleDebrisLifetimePolicy>

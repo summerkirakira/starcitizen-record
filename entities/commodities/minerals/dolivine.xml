@@ -1,0 +1,25 @@
+<EntityClassDefinition.dolivine Category="Default" Icon="Default.bmp" Invisible="1" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="f5246e60-4877-4c0a-8bad-e6b9b26e8887" __path="libs/foundry/records/entities/commodities/minerals/dolivine.xml">
+  <tags>
+    <Reference value="78ad91a7-99b0-4ff8-9904-e15f2dcb51be" />
+  </tags>
+  <StaticEntityClassData>
+    <EntityUIDisplayParams displayDescription="@LOC_UNINITIALIZED" displayThumbnail="" displayImage="ui/sharedassets/commodityicons/cargo_comm_050x3_minerals_a_diff.tif" displayIcon="" sortString="" __type="EntityClassStaticDataParams" __polymorphicType="EntityUIDisplayParams">
+      <trackerProperties>
+        <SObjectDataBankEntryTrackerParams __type="SObjectDataBankEntryTrackerParams" />
+      </trackerProperties>
+    </EntityUIDisplayParams>
+  </StaticEntityClassData>
+  <Components>
+    <CommodityComponentParams type="138e6e5d-fbe3-425f-b94d-e11009d922a0" subtype="fc59cd62-b251-41ce-b2e1-3a630b86d12d" name="@items_commodities_dolivine" description="@items_commodities_dolivine_desc" IsUnrefinedElement="0" boxable="1" __type="DataForgeComponentParams" __polymorphicType="CommodityComponentParams">
+      <occupancy>
+        <SMicroCargoUnit microSCU="1000" __type="SBaseCargoUnit" __polymorphicType="SMicroCargoUnit" />
+      </occupancy>
+      <ContainerDimension x="0" y="0" z="0" __type="Vec3" />
+    </CommodityComponentParams>
+    <SCItemPurchasableParams displayName="@items_commodities_dolivine" displayType="@items_commodities_type_Mineral" displayThumbnail="ui/textures/vector/general/items/inv_icon_dolivine.svg" allowTryOn="0" allowQuickBuy="0" tryOnInteractionText="@shop_ui_item_action_try" defaultAttachToPortName="" interactionPointTemplate="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="SCItemPurchasableParams">
+      <Display>
+      </Display>
+      <disabledLoadoutInteractions />
+    </SCItemPurchasableParams>
+  </Components>
+</EntityClassDefinition.dolivine>

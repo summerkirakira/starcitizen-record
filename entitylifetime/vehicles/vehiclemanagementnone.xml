@@ -1,0 +1,5 @@
+<VehicleManagementParams.VehicleManagementNone vehicleCountLimit="75" forceRemovalImmuneDurationOnSpawn="180" __type="VehicleManagementParams" __ref="16958544-9717-4fae-8fa2-31dba35af387" __path="libs/foundry/records/entitylifetime/vehicles/vehiclemanagementnone.xml">
+  <vehicleManagementStrategy>
+    <VehicleManagementStrategy __type="VehicleManagementStrategy" />
+  </vehicleManagementStrategy>
+</VehicleManagementParams.VehicleManagementNone>

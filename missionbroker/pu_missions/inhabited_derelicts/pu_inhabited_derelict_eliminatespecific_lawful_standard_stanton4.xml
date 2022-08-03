@@ -1,0 +1,238 @@
+<MissionBrokerEntry.PU_Inhabited_Derelict_EliminateSpecific_Lawful_Standard_Stanton4 notForRelease="0" missionModule="Libs/Subsumption/Missions/PU/PU_Missions/FPSMissions/PU_EliminateSpecific.xml" title="@mtps_bounty_fps_title_001" titleHUD="@LOC_UNINITIALIZED" description="@mtps_bounty_fps_UGF_desc_001" missionGiver="@mtps_from" commsChannelName="@LOC_UNINITIALIZED" type="8e5c6f5f-f882-4e31-945b-31ae88db5c0a" locationMissionAvailable="5a529db7-1a4e-45b0-bdcb-a5a0c7a7fc57" notifyOnAvailable="0" showAsOffer="0" missionBuyInAmount="0" refundBuyInOnWithdraw="0" hasCompleteButton="0" handlesAbandonRequest="0" missionModulePerPlayer="1" maxInstances="1" maxPlayersPerInstance="1" maxInstancesPerPlayer="1" canBeShared="1" onceOnly="0" displayAlliedMarkers="1" availableInPrison="0" failIfSentToPrison="1" requestOnly="0" respawnTime="20" respawnTimeVariation="10" instanceHasLifeTime="1" showLifeTimeInMobiGlas="0" instanceLifeTime="15" instanceLifeTimeVariation="5" canReacceptAfterAbandoning="0" abandonedCooldownTime="20" abandonedCooldownTimeVariation="5" canReacceptAfterFailing="0" hasPersonalCooldown="1" personalCooldownTime="10" personalCooldownTimeVariation="5" moduleHandlesOwnShutdown="0" linkedMission="00000000-0000-0000-0000-000000000000" lawfulMission="1" missionGiverRecord="bfb177af-0724-47b6-b49e-62cf85300484" invitationMission="00000000-0000-0000-0000-000000000000" missionGiverFragmentTags="" __type="MissionBrokerEntry" __ref="d614a26e-9297-4fcb-9dcd-5dd0cd24bbec" __path="libs/foundry/records/missionbroker/pu_missions/inhabited_derelicts/pu_inhabited_derelict_eliminatespecific_lawful_standard_stanton4.xml">
+  <availableDateSchedule />
+  <missionReward reward="9000" max="0" plusBonuses="0" currencyType="UEC" reputationBonus="00000000-0000-0000-0000-000000000000" __type="MissionReward" />
+  <missionResultReputationRewards>
+    <SReputationAmountListParams __type="SReputationAmountListParams">
+      <reputationAmounts />
+    </SReputationAmountListParams>
+    <SReputationAmountListParams __type="SReputationAmountListParams">
+      <reputationAmounts />
+    </SReputationAmountListParams>
+    <SReputationAmountListParams __type="SReputationAmountListParams">
+      <reputationAmounts />
+    </SReputationAmountListParams>
+  </missionResultReputationRewards>
+  <journalEntriesToAddOnComplete />
+  <journalEntriesToRemoveOnComplete />
+  <completionTags __type="TagList">
+    <tags />
+  </completionTags>
+  <modifiers />
+  <missionTags />
+  <reputationPrerequisites wantedLevelJurisdictionOverride="00000000-0000-0000-0000-000000000000" __type="ReputationPrerequisites">
+    <wantedLevel minValue="0" maxValue="5" __type="ReputationPrerequisiteRange" />
+  </reputationPrerequisites>
+  <reputationRequirements>
+  </reputationRequirements>
+  <requiredMissions />
+  <requiredCompletedMissionTags />
+  <requiredJournalEntries />
+  <properties>
+    <MissionProperty missionVariableName="BP_MissionLocation" extendedTextToken="Location" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Location minLocationsToFind="1" maxLocationsToFind="1" debugForceChosenLocation="00000000-0000-0000-0000-000000000000" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Location">
+          <matchConditions>
+            <DataSetMatchCondition_TagSearch tagType="General" __type="BaseDataSetMatchCondition" __polymorphicType="DataSetMatchCondition_TagSearch">
+              <tagSearch>
+                <TagSearchTerm __type="TagSearchTerm">
+                  <positiveTags>
+                    <Reference value="19b465cf-ba03-4706-8fec-3b356726eb03" />
+                    <Reference value="f0615e35-6af9-4e28-957f-476241c111e5" />
+                    <Reference value="ff4d704a-7840-4577-ba64-7d4bd709ab9d" />
+                  </positiveTags>
+                  <negativeTags>
+                    <Reference value="d5d68f8c-005a-439b-91ee-3ce637306d09" />
+                  </negativeTags>
+                </TagSearchTerm>
+              </tagSearch>
+            </DataSetMatchCondition_TagSearch>
+          </matchConditions>
+          <resourceTags>
+            <Reference value="9b4baa29-3bef-43c2-8feb-28adc2837f51" />
+            <Reference value="aaa9b2e6-cbd4-4eed-9cd0-d3a7638f7390" />
+          </resourceTags>
+        </MissionPropertyValue_Location>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="BP_SpawnDescriptions" extendedTextToken="" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_NPCSpawnDescriptions __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_NPCSpawnDescriptions">
+          <spawnDescriptions>
+            <SpawnDescription_NPCGroup priority="-1" includeLocationAISpawnTags="0" __type="SpawnDescription_NPCGroup">
+              <autoSpawnSettings initialActivity="" minGroupSize="1" maxGroupSize="1" maxConcurrentSpawns="1" maxSpawns="1" minSpawnDelay="-1" maxSpawnDelay="-1" missionAlliedMarker="0" __type="AutoSpawnSettings">
+                <positiveCharacterTags __type="TagList">
+                  <tags>
+                    <Reference value="003c9fbf-0b12-4b01-9850-468d2cdd1a75" />
+                    <Reference value="ecfb92fe-5d2d-4fef-aa8f-2f09fcf42b6f" />
+                    <Reference value="016e2011-25c3-4a96-979d-8def1ab62003" />
+                  </tags>
+                </positiveCharacterTags>
+                <negativeCharacterTags __type="TagList">
+                  <tags />
+                </negativeCharacterTags>
+                <inventoryItems />
+                <closetPositiveTags __type="TagList">
+                  <tags>
+                    <Reference value="016e2011-25c3-4a96-979d-8def1ab62003" />
+                  </tags>
+                </closetPositiveTags>
+                <closetNegativeTags __type="TagList">
+                  <tags />
+                </closetNegativeTags>
+              </autoSpawnSettings>
+              <identifierTags __type="TagList">
+                <tags>
+                  <Reference value="6a7d46fa-68cc-4c1e-9e4d-73af17c3f3ea" />
+                </tags>
+              </identifierTags>
+            </SpawnDescription_NPCGroup>
+            <SpawnDescription_NPCGroup priority="-1" includeLocationAISpawnTags="0" __type="SpawnDescription_NPCGroup">
+              <autoSpawnSettings initialActivity="" minGroupSize="1" maxGroupSize="1" maxConcurrentSpawns="2" maxSpawns="2" minSpawnDelay="-1" maxSpawnDelay="-1" missionAlliedMarker="0" __type="AutoSpawnSettings">
+                <positiveCharacterTags __type="TagList">
+                  <tags>
+                    <Reference value="ecfb92fe-5d2d-4fef-aa8f-2f09fcf42b6f" />
+                    <Reference value="003c9fbf-0b12-4b01-9850-468d2cdd1a75" />
+                    <Reference value="ead9956c-0d00-4e7a-96f3-3b56f1386486" />
+                  </tags>
+                </positiveCharacterTags>
+                <negativeCharacterTags __type="TagList">
+                  <tags>
+                    <Reference value="016e2011-25c3-4a96-979d-8def1ab62003" />
+                  </tags>
+                </negativeCharacterTags>
+                <inventoryItems />
+                <closetPositiveTags __type="TagList">
+                  <tags>
+                    <Reference value="ead9956c-0d00-4e7a-96f3-3b56f1386486" />
+                  </tags>
+                </closetPositiveTags>
+                <closetNegativeTags __type="TagList">
+                  <tags>
+                    <Reference value="016e2011-25c3-4a96-979d-8def1ab62003" />
+                  </tags>
+                </closetNegativeTags>
+              </autoSpawnSettings>
+              <identifierTags __type="TagList">
+                <tags />
+              </identifierTags>
+            </SpawnDescription_NPCGroup>
+            <SpawnDescription_NPCGroup priority="-1" includeLocationAISpawnTags="0" __type="SpawnDescription_NPCGroup">
+              <autoSpawnSettings initialActivity="" minGroupSize="1" maxGroupSize="1" maxConcurrentSpawns="7" maxSpawns="7" minSpawnDelay="-1" maxSpawnDelay="-1" missionAlliedMarker="0" __type="AutoSpawnSettings">
+                <positiveCharacterTags __type="TagList">
+                  <tags>
+                    <Reference value="ecfb92fe-5d2d-4fef-aa8f-2f09fcf42b6f" />
+                    <Reference value="003c9fbf-0b12-4b01-9850-468d2cdd1a75" />
+                    <Reference value="50fccfb5-157f-401a-adaf-97406524f713" />
+                  </tags>
+                </positiveCharacterTags>
+                <negativeCharacterTags __type="TagList">
+                  <tags>
+                    <Reference value="016e2011-25c3-4a96-979d-8def1ab62003" />
+                  </tags>
+                </negativeCharacterTags>
+                <inventoryItems />
+                <closetPositiveTags __type="TagList">
+                  <tags>
+                    <Reference value="50fccfb5-157f-401a-adaf-97406524f713" />
+                  </tags>
+                </closetPositiveTags>
+                <closetNegativeTags __type="TagList">
+                  <tags>
+                    <Reference value="016e2011-25c3-4a96-979d-8def1ab62003" />
+                  </tags>
+                </closetNegativeTags>
+              </autoSpawnSettings>
+              <identifierTags __type="TagList">
+                <tags />
+              </identifierTags>
+            </SpawnDescription_NPCGroup>
+            <SpawnDescription_NPCGroup priority="-1" includeLocationAISpawnTags="0" __type="SpawnDescription_NPCGroup">
+              <autoSpawnSettings initialActivity="" minGroupSize="1" maxGroupSize="1" maxConcurrentSpawns="5" maxSpawns="5" minSpawnDelay="-1" maxSpawnDelay="-1" missionAlliedMarker="0" __type="AutoSpawnSettings">
+                <positiveCharacterTags __type="TagList">
+                  <tags>
+                    <Reference value="ecfb92fe-5d2d-4fef-aa8f-2f09fcf42b6f" />
+                    <Reference value="003c9fbf-0b12-4b01-9850-468d2cdd1a75" />
+                    <Reference value="bd6b903f-0d2d-4688-8329-db68c16fb0d1" />
+                  </tags>
+                </positiveCharacterTags>
+                <negativeCharacterTags __type="TagList">
+                  <tags>
+                    <Reference value="016e2011-25c3-4a96-979d-8def1ab62003" />
+                  </tags>
+                </negativeCharacterTags>
+                <inventoryItems />
+                <closetPositiveTags __type="TagList">
+                  <tags>
+                    <Reference value="bd6b903f-0d2d-4688-8329-db68c16fb0d1" />
+                  </tags>
+                </closetPositiveTags>
+                <closetNegativeTags __type="TagList">
+                  <tags>
+                    <Reference value="016e2011-25c3-4a96-979d-8def1ab62003" />
+                  </tags>
+                </closetNegativeTags>
+              </autoSpawnSettings>
+              <identifierTags __type="TagList">
+                <tags />
+              </identifierTags>
+            </SpawnDescription_NPCGroup>
+          </spawnDescriptions>
+        </MissionPropertyValue_NPCSpawnDescriptions>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="" extendedTextToken="TargetName" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_AIName randomName="1" randomLastName="1" randomNickName="1" characterGivenName="@LOC_UNINITIALIZED" characterGivenLastName="@LOC_UNINITIALIZED" characterGivenNickName="@LOC_UNINITIALIZED" characterNameData="652d139d-d2b1-4dc0-855b-d75c7be716b9" chanceOfNickName="0.05" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_AIName" />
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="BP_AllowEmergentAI" extendedTextToken="" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="0" variation="0" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="BP_SpawnTarget" extendedTextToken="" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="1" variation="0" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="BP_TargetTags" extendedTextToken="" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Tags __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Tags">
+          <tags __type="TagList">
+            <tags>
+              <Reference value="6a7d46fa-68cc-4c1e-9e4d-73af17c3f3ea" />
+              <Reference value="016e2011-25c3-4a96-979d-8def1ab62003" />
+            </tags>
+          </tags>
+          <negativeTags __type="TagList">
+            <tags />
+          </negativeTags>
+          <options />
+        </MissionPropertyValue_Tags>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="BP_FailOnNonTarget" extendedTextToken="" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="0" variation="0" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+  </properties>
+</MissionBrokerEntry.PU_Inhabited_Derelict_EliminateSpecific_Lawful_Standard_Stanton4>

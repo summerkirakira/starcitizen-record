@@ -1,0 +1,13 @@
+<CargoManifest.Civilian_Explorer_10_High_001 fillCapacity="0.1" __type="CargoManifest" __ref="b369b2af-a529-4fb1-b84b-7a7db6b8b84f" __path="libs/foundry/records/cargomanifest/civilian/civilian_explorer_10_high_001.xml">
+  <descriptionTags __type="TagList">
+    <tags>
+      <Reference value="062315f4-394c-4296-bb68-0d66027c4fdf" />
+    </tags>
+  </descriptionTags>
+  <tags>
+    <Reference value="eee84e1f-63be-4d94-8150-ef277d014f72" />
+    <Reference value="53662449-deeb-4c8f-b4bc-ce9b6eee2e2d" />
+    <Reference value="b4ff07f0-5214-4835-b6a2-b3e95a9adec5" />
+    <Reference value="97b82d1b-0479-4023-96e2-a4b0d9884a9b" />
+  </tags>
+</CargoManifest.Civilian_Explorer_10_High_001>

@@ -1,0 +1,987 @@
+<ControlHints_OnFootPreset.ControlHintsOnFootConfig __type="ControlHints_OnFootPreset" __ref="2a9ff57b-9eea-4a34-8eca-c834c0452930" __path="libs/foundry/records/ui/visor/controlhints/controlhintsonfootconfig.xml">
+  <entriesHint>
+    <ControlHints_OnFootEntry name="Slot1" __type="ControlHints_Entry" __polymorphicType="ControlHints_OnFootEntry">
+      <filters>
+        <ControlHints_OnFootStateFilter filterByState="WeaponMount" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="1" name="@ui_controlhint_fire" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player_choice:pc_item_primary" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Movable" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="1" name="@ui_controlhint_run" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:sprint" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="MediPenHeal" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="HealthDamaged" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="1" name="@ui_controlhint_heal" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player_choice:pc_item_primary" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="ADS" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NearMineableRock" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="1" name="@ui_controlhint_fire" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player_choice:pc_item_primary" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Idle" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="MiningTool" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NearMineableRock" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="1" name="@ui_controlhint_fire" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player_choice:pc_item_primary" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NearDraggableBody" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="1" name="@ui_controlhint_pc_choice:interaction_mode" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Tap" actionName="player_choice:pc_interaction_mode" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NearInteractableObject" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="1" name="@ui_controlhint_pc_choice:interaction_mode" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Tap" actionName="player_choice:pc_interaction_mode" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Usable" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="UsingKiosk" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="1" name="@ui_controlhint_navigate" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player_choice:pc_select" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="CombatThrowable" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NoGreenzone" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="1" name="@ui_controlhint_throw" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Other" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NoGreenzone" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="1" name="@ui_controlhint_pullpin" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Carry" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="ThrowReady" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="1" name="@ui_controlhint_throw" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player_choice:pc_select" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Carry" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="PlaceReady" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="1" name="@ui_controlhint_place" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player_choice:pc_select" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NoGreenzone" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Reloadable" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="1" name="@ui_controlhint_reload" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:reload" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="None" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NoGreenzone" filterByActorState="Any" filterByAttachedItems="Weapon" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="1" name="@ui_controlhint_weapon_quick" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Hold" actionName="player_choice:pc_qs_weapons_primary" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+              <ControlHints_ActionInput activationMode="Hold" actionName="player_choice:pc_qs_weapons_pistol" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+              <ControlHints_ActionInput activationMode="Hold" actionName="player_choice:pc_qs_weapons_secondary" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="EVA" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="1" name="@ui_controlhint_eva" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="zero_gravity_eva:eva_strafe_forward" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+              <ControlHints_ActionInput activationMode="Default" actionName="zero_gravity_eva:eva_strafe_left" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+              <ControlHints_ActionInput activationMode="Default" actionName="zero_gravity_eva:eva_strafe_right" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+              <ControlHints_ActionInput activationMode="Default" actionName="zero_gravity_eva:eva_strafe_back" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Prone" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="1" name="@ui_controlhint_roll" includeSeparator="1" separatorInputName="@ui_controlhint_or" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="prone:prone_rollleft" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+              <ControlHints_ActionInput activationMode="Default" actionName="prone:prone_rollright" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NoGreenzone" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="AmmoFull" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="1" name="@ui_controlhint_fire" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player_choice:pc_item_primary" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Weapon" filterByStanceState="Any" filterByAimStanceState="MeleeBlock" filterByLeanState="Any" filterByHeldItemType="MeleeMode" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="1" name="@ui_controlhint_light_attack" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:melee_AttackLightLeft" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+              <ControlHints_ActionInput activationMode="Default" actionName="player:melee_AttackLightRight" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Weapon" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="MeleeMode" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="1" name="@ui_controlhint_light_attack" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:melee_AttackLightLeft" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+              <ControlHints_ActionInput activationMode="Default" actionName="player:melee_AttackLightRight" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="UnarmedCombat" filterByStanceState="Any" filterByAimStanceState="MeleeBlock" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="1" name="@ui_controlhint_block" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:melee_AttackLightLeft" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+              <ControlHints_ActionInput activationMode="Default" actionName="player:melee_AttackLightRight" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="UnarmedCombat" filterByStanceState="Any" filterByAimStanceState="Ready" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="1" name="@ui_controlhint_light_attack" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:melee_AttackLightLeft" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+              <ControlHints_ActionInput activationMode="Default" actionName="player:melee_AttackLightRight" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Carry" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@LOC_EMPTY" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player_choice:pc_item_primary" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Weapon" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@LOC_EMPTY" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player_choice:pc_item_primary" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Weapon" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NoGreenzone" filterByActorState="Any" filterByAttachedItems="Weapon" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_weapon_quick" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player_choice:pc_item_primary" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="InUsable" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="1" name="@ui_controlhint_pl_exit" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="default:pl_exit" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="1" name="@ui_controlhint_pc_choice:interaction_system" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player_choice:pc_interaction_mode" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@LOC_EMPTY" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions />
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+      </filters>
+    </ControlHints_OnFootEntry>
+    <ControlHints_OnFootEntry name="Slot2" __type="ControlHints_Entry" __polymorphicType="ControlHints_OnFootEntry">
+      <filters>
+        <ControlHints_OnFootStateFilter filterByState="WeaponMount" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_ads" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player_choice:pc_item_secondary" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Movable" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_freelook" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:free_thirdperson_camera" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="MediPenHeal" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="HealthDamaged" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_heal_player" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player_choice:pc_item_secondary" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="ADS" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NearMineableRock" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_ads" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player_choice:pc_item_secondary" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="MiningTool" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NearMineableRock" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="ModifierAttachment" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_ads" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player_choice:pc_item_secondary" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Weapon" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="InTakeDownRange" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_takedown_lethal" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:weapon_melee" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="InTakeDownRange" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_takedown_ko" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:weapon_melee" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NearDraggableBody" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_pc_choice:interaction_system" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player_choice:pc_interaction_mode" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NearInteractableObject" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_pc_choice:interaction_system" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player_choice:pc_interaction_mode" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="CombatThrowable" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NoGreenzone" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@LOC_EMPTY" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Carry" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="PlaceReady" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_cancel_place" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player_choice:pc_interaction_mode" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Carry" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="ThrowReady" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_cancel_throw" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player_choice:pc_interaction_mode" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="ADS" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NoGreenzone" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="AutoIsZeroed" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@LOC_EMPTY" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:weapon_zeroing_increase" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+              <ControlHints_ActionInput activationMode="Default" actionName="player:weapon_zeroing_decrease" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="ADS" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NoGreenzone" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Auto" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@LOC_EMPTY" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:weapon_zeroing_increase" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+              <ControlHints_ActionInput activationMode="Default" actionName="player:weapon_zeroing_decrease" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="ADS" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NoGreenzone" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Manual" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@LOC_EMPTY" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:weapon_zeroing_increase" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+              <ControlHints_ActionInput activationMode="Default" actionName="player:weapon_zeroing_decrease" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="ADS" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NoGreenzone" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@LOC_EMPTY" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions />
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="EVA" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_eva" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="zero_gravity_eva:eva_strafe_up" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+              <ControlHints_ActionInput activationMode="Default" actionName="zero_gravity_eva:eva_strafe_down" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NoGreenzone" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="AltFire" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_firemode" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:weapon_change_firemode" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NoGreenzone" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="AmmoFull" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_ads" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player_choice:pc_item_secondary" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Weapon" filterByStanceState="Any" filterByAimStanceState="MeleeBlock" filterByLeanState="Any" filterByHeldItemType="MeleeMode" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_heavy_attack" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:melee_AttackHeavyLeft" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+              <ControlHints_ActionInput activationMode="Default" actionName="player:melee_AttackLightRight" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Weapon" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="MeleeMode" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_heavy_attack" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:melee_AttackHeavyLeft" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+              <ControlHints_ActionInput activationMode="Default" actionName="player:melee_AttackHeavyRight" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="UnarmedCombat" filterByStanceState="Any" filterByAimStanceState="MeleeBlock" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_heavy_attack" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:melee_AttackHeavyLeft" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+              <ControlHints_ActionInput activationMode="Default" actionName="player:melee_AttackHeavyRight" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="UnarmedCombat" filterByStanceState="Any" filterByAimStanceState="Ready" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_heavy_attack" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:melee_AttackHeavyLeft" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+              <ControlHints_ActionInput activationMode="Default" actionName="player:melee_AttackHeavyRight" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Carry" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@LOC_EMPTY" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player_choice:pc_item_secondary" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Weapon" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@LOC_EMPTY" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player_choice:pc_item_secondary" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="None" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NoGreenzone" filterByActorState="Any" filterByAttachedItems="Grenade" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_primaryselect" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player_choice:pc_item_primary" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="InUsable" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_look_pis" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player_choice:pc_interaction_mode" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+              <ControlHints_ActionInput activationMode="Default" actionName="player:free_thirdperson_camera" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="1" name="@ui_controlhint_pc_choice:interaction_system" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player_choice:pc_interaction_mode" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+      </filters>
+    </ControlHints_OnFootEntry>
+    <ControlHints_OnFootEntry name="Slot3" __type="ControlHints_Entry" __polymorphicType="ControlHints_OnFootEntry">
+      <filters>
+        <ControlHints_OnFootStateFilter filterByState="WeaponMount" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_exit" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="default:pl_exit" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Movable" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="InUsable" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_exit" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="default:pl_exit" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="MediPenHeal" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="HealthBleeding" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_consumable" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player_choice:pc_qs_consumables" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="ADS" filterByLeanState="Any" filterByHeldItemType="MiningTool" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NearMineableRock" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="ModifierAttachment" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_power_control" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player_choice:pc_pit_miningmode_actions" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="InMeleeRange" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="AmmoFull" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_melee" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:weapon_melee" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Usable" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="UsingKiosk" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_move_to_exit" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:moveforward" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+              <ControlHints_ActionInput activationMode="Default" actionName="player:moveback" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+              <ControlHints_ActionInput activationMode="Default" actionName="player:moveleft" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+              <ControlHints_ActionInput activationMode="Default" actionName="player:moveright" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Sprint" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_jump" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:jump" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="CombatThrowable" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NoGreenzone" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_holster" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:holster" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="CombatThrowable" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NoGreenzone" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_holster" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:holster" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="CombatThrowable" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NoGreenzone" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_holster" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:holster" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Carry" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="PlaceReady" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_rotate" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player_choice:pc_select" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="ADS" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NoGreenzone" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="AutoIsZeroed" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_stabilize" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:stabilize" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="ADS" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NoGreenzone" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="AutoIsZeroed" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_zero_auto_adjust" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:weapon_zeroing_increase" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="ADS" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NoGreenzone" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Auto" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@LOC_EMPTY" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:weapon_zeroing_increase" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+              <ControlHints_ActionInput activationMode="Default" actionName="player:weapon_zeroing_decrease" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="ADS" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NoGreenzone" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Manual" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_stabilize" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:stabilize" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="ADS" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NoGreenzone" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_stabilize" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:stabilize" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Weapon" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NoGreenzone" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Reloadable" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_personal_inventory" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player_choice:pc_pit_inventory" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NoGreenzone" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Reloadable" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_personal_inventory" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player_choice:pc_pit_inventory" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Weapon" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NoGreenzone" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="ModifierAttachment" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_toggle_attachment" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:useAttachmentBottom" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+              <ControlHints_ActionInput activationMode="Default" actionName="player:useAttachmentTop" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="EVA" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_eva_roll" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="zero_gravity_eva:eva_roll_left" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+              <ControlHints_ActionInput activationMode="Default" actionName="zero_gravity_eva:eva_roll_right" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Prone" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_prone" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:prone" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Crouch" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_crouch" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:crouch" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NoGreenzone" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="AmmoFull" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_holster" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:holster" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Weapon" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="MeleeMode" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_dodge" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:melee_dodgeLeft" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+              <ControlHints_ActionInput activationMode="Default" actionName="player:melee_dodgeBack" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+              <ControlHints_ActionInput activationMode="Default" actionName="player:melee_dodgeRight" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Weapon" filterByStanceState="Any" filterByAimStanceState="MeleeBlock" filterByLeanState="Any" filterByHeldItemType="MeleeMode" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_weapon_block" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:melee_block" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="UnarmedCombat" filterByStanceState="Any" filterByAimStanceState="MeleeBlock" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_dodge" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:melee_dodgeLeft" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+              <ControlHints_ActionInput activationMode="Default" actionName="player:melee_dodgeRight" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+              <ControlHints_ActionInput activationMode="Default" actionName="player:melee_dodgeBack" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="UnarmedCombat" filterByStanceState="Any" filterByAimStanceState="Ready" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_block" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:melee_block" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Weapon" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Greenzone" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_holster" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:holster" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="NoGreenzone" filterByActorState="Any" filterByAttachedItems="Gadget" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_selectgadget" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player:selectgadget" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="InUsable" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="0" name="@ui_controlhint_pc_personal_thought" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player_choice:pc_personal_thought" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+        <ControlHints_OnFootStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" filterByEnvironment="Any" filterByActorState="Any" filterByAttachedItems="Any" filterByAbility="Any" filterBySightZeroMode="Any" filterByWeaponState="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ActorStateFilter" __polymorphicType="ControlHints_OnFootStateFilter">
+          <overrideHint overrideName="1" name="@ui_controlhint_pc_personal_thought" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="player_choice:pc_personal_thought" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_OnFootStateFilter>
+      </filters>
+    </ControlHints_OnFootEntry>
+  </entriesHint>
+</ControlHints_OnFootPreset.ControlHintsOnFootConfig>

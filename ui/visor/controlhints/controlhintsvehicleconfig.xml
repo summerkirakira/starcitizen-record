@@ -1,0 +1,128 @@
+<ControlHints_VehiclePreset.ControlHintsVehicleConfig __type="ControlHints_VehiclePreset" __ref="b668b542-e909-45b7-b0eb-74bdb283fb3e" __path="libs/foundry/records/ui/visor/controlhints/controlhintsvehicleconfig.xml">
+  <entriesHint>
+    <ControlHints_VehicleEntry name="Slot1" __type="ControlHints_Entry" __polymorphicType="ControlHints_VehicleEntry">
+      <filters>
+        <ControlHints_VehicleStateFilter filterByVehicleState="Any" filterByOperatorMode="Any" filterByVehicleSystems="Any" filterByEnvironment="IncomingMissiles" filterByLandingArea="Any" filterByLandingGearState="Any" filterByAutoland="Any" filterByQuantumTravel="Any" filterByAutoSelectedContact="Any" filterByLockedTarget="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ControlHints_VehicleStateFilter">
+          <overrideHint overrideName="0" name="@LOC_EMPTY" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="spaceship_defensive:v_weapon_countermeasure_decoy_launch" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_VehicleStateFilter>
+        <ControlHints_VehicleStateFilter filterByVehicleState="Any" filterByOperatorMode="Any" filterByVehicleSystems="Any" filterByEnvironment="Any" filterByLandingArea="Any" filterByLandingGearState="Any" filterByAutoland="Any" filterByQuantumTravel="QT_RouteSet" filterByAutoSelectedContact="Any" filterByLockedTarget="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ControlHints_VehicleStateFilter">
+          <overrideHint overrideName="0" name="@LOC_EMPTY" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="spaceship_movement:v_toggle_qdrive_engagement" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_VehicleStateFilter>
+        <ControlHints_VehicleStateFilter filterByVehicleState="Any" filterByOperatorMode="Any" filterByVehicleSystems="Power_On" filterByEnvironment="Any" filterByLandingArea="Reserved" filterByLandingGearState="Any" filterByAutoland="Any" filterByQuantumTravel="Any" filterByAutoSelectedContact="Any" filterByLockedTarget="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ControlHints_VehicleStateFilter">
+          <overrideHint overrideName="1" name="@ui_CGSpaceFlightMovement" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="spaceship_movement:v_strafe_left" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+              <ControlHints_ActionInput activationMode="Default" actionName="spaceship_movement:v_strafe_forward" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+              <ControlHints_ActionInput activationMode="Default" actionName="spaceship_movement:v_strafe_right" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+              <ControlHints_ActionInput activationMode="Default" actionName="spaceship_movement:v_strafe_back" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_VehicleStateFilter>
+        <ControlHints_VehicleStateFilter filterByVehicleState="Any" filterByOperatorMode="Any" filterByVehicleSystems="Power_On" filterByEnvironment="Any" filterByLandingArea="InsideNonReservedLandingArea" filterByLandingGearState="Any" filterByAutoland="Any" filterByQuantumTravel="Any" filterByAutoSelectedContact="Any" filterByLockedTarget="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ControlHints_VehicleStateFilter">
+          <overrideHint overrideName="0" name="@LOC_EMPTY" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="default:toggle_contact" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_VehicleStateFilter>
+        <ControlHints_VehicleStateFilter filterByVehicleState="Any" filterByOperatorMode="Any" filterByVehicleSystems="Power_Off" filterByEnvironment="Any" filterByLandingArea="Any" filterByLandingGearState="Any" filterByAutoland="Any" filterByQuantumTravel="Any" filterByAutoSelectedContact="Any" filterByLockedTarget="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ControlHints_VehicleStateFilter">
+          <overrideHint overrideName="0" name="@LOC_EMPTY" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="spaceship_power:v_power_toggle" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_VehicleStateFilter>
+        <ControlHints_VehicleStateFilter filterByVehicleState="Any" filterByOperatorMode="Combat" filterByVehicleSystems="Any" filterByEnvironment="Any" filterByLandingArea="Any" filterByLandingGearState="Any" filterByAutoland="Any" filterByQuantumTravel="Any" filterByAutoSelectedContact="Any" filterByLockedTarget="Hostile" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ControlHints_VehicleStateFilter">
+          <overrideHint overrideName="0" name="@LOC_EMPTY" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="spaceship_weapons:v_attack1_group1" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_VehicleStateFilter>
+        <ControlHints_VehicleStateFilter filterByVehicleState="Any" filterByOperatorMode="Combat" filterByVehicleSystems="Any" filterByEnvironment="Any" filterByLandingArea="Any" filterByLandingGearState="Any" filterByAutoland="Any" filterByQuantumTravel="Any" filterByAutoSelectedContact="Hostile" filterByLockedTarget="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ControlHints_VehicleStateFilter">
+          <overrideHint overrideName="0" name="@LOC_EMPTY" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="spaceship_targeting:v_target_lock_selected" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_VehicleStateFilter>
+      </filters>
+    </ControlHints_VehicleEntry>
+    <ControlHints_VehicleEntry name="Slot2" __type="ControlHints_Entry" __polymorphicType="ControlHints_VehicleEntry">
+      <filters>
+        <ControlHints_VehicleStateFilter filterByVehicleState="Any" filterByOperatorMode="Any" filterByVehicleSystems="Any" filterByEnvironment="Any" filterByLandingArea="Any" filterByLandingGearState="Any" filterByAutoland="Any" filterByQuantumTravel="QT_ReadyToEngage" filterByAutoSelectedContact="Any" filterByLockedTarget="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ControlHints_VehicleStateFilter">
+          <overrideHint overrideName="0" name="@LOC_EMPTY" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="spaceship_movement:v_toggle_qdrive_spooling" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_VehicleStateFilter>
+        <ControlHints_VehicleStateFilter filterByVehicleState="Any" filterByOperatorMode="Any" filterByVehicleSystems="Power_On" filterByEnvironment="Any" filterByLandingArea="Reserved" filterByLandingGearState="Any" filterByAutoland="Any" filterByQuantumTravel="Any" filterByAutoSelectedContact="Any" filterByLockedTarget="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ControlHints_VehicleStateFilter">
+          <overrideHint overrideName="1" name="@ui_CGSpaceFlightMovement" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions>
+              <ControlHints_ActionInput activationMode="Default" actionName="spaceship_movement:v_strafe_up" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+              <ControlHints_ActionInput activationMode="Default" actionName="spaceship_movement:v_strafe_down" __type="ControlHints_Input" __polymorphicType="ControlHints_ActionInput" />
+            </actions>
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_VehicleStateFilter>
+      </filters>
+    </ControlHints_VehicleEntry>
+    <ControlHints_VehicleEntry name="Slot3" __type="ControlHints_Entry" __polymorphicType="ControlHints_VehicleEntry">
+      <filters>
+        <ControlHints_VehicleStateFilter filterByVehicleState="Any" filterByOperatorMode="Any" filterByVehicleSystems="Any" filterByEnvironment="Any" filterByLandingArea="Any" filterByLandingGearState="Any" filterByAutoland="Any" filterByQuantumTravel="Any" filterByAutoSelectedContact="Any" filterByLockedTarget="Any" filterByHintTrigger="00000000-0000-0000-0000-000000000000" __type="ControlHints_VehicleStateFilter">
+          <overrideHint overrideName="0" name="@LOC_EMPTY" includeSeparator="0" separatorInputName="@LOC_EMPTY" separatorIconPath="" __type="ControlHints_HintDisplayInfo" __polymorphicType="ControlHints_HintDisplayInfoAction">
+            <actions />
+          </overrideHint>
+          <gamepadHint>
+          </gamepadHint>
+          <joystickHint>
+          </joystickHint>
+        </ControlHints_VehicleStateFilter>
+      </filters>
+    </ControlHints_VehicleEntry>
+  </entriesHint>
+</ControlHints_VehiclePreset.ControlHintsVehicleConfig>

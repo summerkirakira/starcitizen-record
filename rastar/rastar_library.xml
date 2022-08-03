@@ -1,0 +1,296 @@
+<RaSTaRLibrary.RaSTaR_Library __type="RaSTaRLibrary" __ref="12fe11ed-6879-455e-bbbf-22ab484ad0c4" __path="libs/foundry/records/rastar/rastar_library.xml">
+  <categories>
+    <RaSTaRLibraryCategory name="Colonialism Outpost HQ A Room Elements" __type="RaSTaRLibraryCategory">
+      <elements>
+        <Reference value="4dd31cd3-23fe-49d3-b3b7-4f0314a1d32a" />
+        <Reference value="96dc69f3-ca99-4ab8-88e6-24e8d49cc13c" />
+        <Reference value="1ceaf5fc-d53c-4dad-8280-cc88582fe0f5" />
+        <Reference value="5ff2a6d9-186d-49ce-a3f8-90ef1d621117" />
+        <Reference value="c618162d-2926-47dc-bddb-2e0157dd178f" />
+        <Reference value="2e18d6e1-161b-4f90-a6b6-9233af6b391a" />
+        <Reference value="dd66a131-11cc-44ef-a129-cf28ba9f9d0b" />
+        <Reference value="ae94e6c2-8cde-4604-ba58-169c1cea8189" />
+        <Reference value="d5784691-e217-4ef1-81b4-b05ac294a57d" />
+        <Reference value="4a53f32c-d61b-407f-b3cd-400fa0f68ef0" />
+        <Reference value="31810c73-bef1-48b1-b67c-d2c049987296" />
+        <Reference value="cff21a8a-ef86-4b7c-8627-d63d5eab50c3" />
+        <Reference value="44fe750f-89c1-41bc-b709-0851a87f1829" />
+        <Reference value="7541ae38-1185-4c68-b1b4-4b59736b518e" />
+        <Reference value="49d4ce8d-15d5-4b23-a750-f394bc8c1a8b" />
+        <Reference value="35b93ef5-3668-40fa-b22b-21726be34b68" />
+        <Reference value="04223339-448d-47b7-9eed-4318b1c38750" />
+        <Reference value="a7c17c35-f495-4acf-ae14-46adf9bf0c92" />
+        <Reference value="fa0bc4a1-d7a1-4e89-9694-4523cef87a98" />
+        <Reference value="0f736994-59ae-404e-b171-2f6ba248ed26" />
+        <Reference value="779c7db0-d342-4d7b-aa2b-e532d4d855c8" />
+        <Reference value="fab8f12a-45d3-4369-9953-19d23716e80b" />
+        <Reference value="297fe4ac-b9c4-4f55-9f9c-f9e74e746a74" />
+        <Reference value="5a3c469f-7249-4aed-8a8b-29a3ac51e10d" />
+        <Reference value="ac4c54e6-b714-4c5f-b17e-55b8c884408b" />
+        <Reference value="8226588a-78ea-4159-89fa-8eb4001bd40c" />
+        <Reference value="2ecb81cf-6c73-472e-bf4a-7825efe1b29d" />
+        <Reference value="c8eee173-b8d6-483a-a214-065c94d3e5a4" />
+        <Reference value="d352de0f-fb40-413f-bb9c-c112ad5fa328" />
+        <Reference value="f9c15734-628d-4eec-b91c-1ffec106f897" />
+        <Reference value="50c42bda-cf1c-4912-81d4-210019f50847" />
+        <Reference value="bf32da8b-8486-4396-950d-468d2d64d2c9" />
+        <Reference value="f80e2c22-e36b-4334-bec3-f86c06ed1fa3" />
+        <Reference value="34d9ef2c-f1d1-48fd-9fb8-b9d785f59fa1" />
+        <Reference value="5a9e4c4f-8d74-4efa-bd80-d3e0bfc7c72d" />
+        <Reference value="e2dfc882-cc67-4579-b7d9-2e0a34ef3e04" />
+        <Reference value="4631ac95-7c89-4dbd-bf21-655a37bdbbac" />
+        <Reference value="e8a82881-4f56-49de-becc-6b2a8da716cc" />
+        <Reference value="ee6cfa92-d8df-4b1c-92a8-ed4efee888ad" />
+        <Reference value="b81b0e78-f348-49b0-a9f6-74f8ce6176fa" />
+        <Reference value="986be95f-7f1a-47c5-8c5f-a5e05590a938" />
+        <Reference value="b9470141-81aa-4eb8-b326-34d4329a5ac9" />
+        <Reference value="506aa6c9-b29d-477e-9f48-d06924f396de" />
+        <Reference value="29012fa7-3a4b-4a9c-9d42-b113aa7308d8" />
+        <Reference value="14d8f8de-a19a-4c6d-a1ab-2853aac82c42" />
+        <Reference value="7c83dda6-d503-425f-bd11-be4bf1b52554" />
+        <Reference value="7ad4a372-d1a2-4741-83cb-d3df67f665c8" />
+        <Reference value="2afa41bc-0569-45a3-8ead-5d0e22507403" />
+        <Reference value="f49cfd7b-e960-4e55-9980-8392c6997068" />
+        <Reference value="53a8f9d6-f03d-4d12-8d62-3d3c6adae9a9" />
+        <Reference value="8abf7b5a-a85f-4b48-81ed-479def6aa64c" />
+        <Reference value="76f12eb5-06d9-4c34-a4d9-5f1173839b73" />
+        <Reference value="ad161073-0c18-4df3-a852-122ca4175fd8" />
+        <Reference value="edfcd1fd-0f10-43d8-894b-ef32f371ad3c" />
+        <Reference value="5d37a5a0-2256-421a-84bd-55048dd9335b" />
+        <Reference value="bec903d3-6dd4-425d-bde8-e1f425fe1778" />
+        <Reference value="f2bee881-1aeb-428f-9289-574e53f05e05" />
+        <Reference value="cbfbc393-fafb-4d12-a0d2-31dd8dd9ecaa" />
+        <Reference value="596c2fc6-b697-4b9e-ba00-19bb3b7049f2" />
+        <Reference value="8b39fa7c-1d33-4982-8c09-5421ebc78dd3" />
+        <Reference value="4b32980c-8b6c-45ae-a3cc-c4a5ded99bcd" />
+        <Reference value="a4c77afb-9204-4ff2-874d-bb1bdd0d812c" />
+        <Reference value="28574933-9f4e-41b6-8e2c-1c7a4ff9bc0b" />
+        <Reference value="cdd37eea-79e7-4dcf-a4a7-36859cf27466" />
+        <Reference value="d25dcdde-849c-4d54-bf16-49be72564463" />
+        <Reference value="85ab8597-4f07-4a92-a3c9-762b3d40a2fa" />
+        <Reference value="b1f24308-b65b-44e7-a890-4887ba3f17a4" />
+        <Reference value="927a39c5-a82b-400b-9ad4-145bfa92f297" />
+        <Reference value="2de34d86-5b02-4882-ae39-4ce739ad65e2" />
+        <Reference value="20fd092f-090b-4353-a859-de24750fe099" />
+        <Reference value="66ba22be-bc7d-4366-b080-55d84099ddaf" />
+        <Reference value="90d99673-4108-451b-b04b-1969824661e7" />
+        <Reference value="13f44ed8-7a15-49bd-85db-67a43e92dee1" />
+      </elements>
+    </RaSTaRLibraryCategory>
+    <RaSTaRLibraryCategory name="Colonialism Outpost SA Modules" __type="RaSTaRLibraryCategory">
+      <elements>
+        <Reference value="f361a315-281d-4c23-9d20-4492fd34af43" />
+        <Reference value="9974a09b-1043-4ed0-8d63-630573ff0644" />
+        <Reference value="919fd6fb-ff46-4c88-9ca5-d9e7ece2055e" />
+        <Reference value="fc4785f1-6d47-43e0-a3c3-243454335194" />
+        <Reference value="0882763a-6c96-450d-b37e-adb46c08947f" />
+        <Reference value="44efc0e9-e5a3-4983-bde0-b6609e121750" />
+        <Reference value="f466887a-216f-4d58-942f-96986ec0be5a" />
+        <Reference value="a8ae70aa-cc12-44ec-b05a-4a3629d15380" />
+        <Reference value="a1e25578-a0d2-4ca2-a2a9-77340d869f06" />
+        <Reference value="0c01662e-b11a-4368-8b94-f4c99b54c3e0" />
+        <Reference value="08d607fc-50bb-4721-8315-fa788bdf70fc" />
+      </elements>
+    </RaSTaRLibraryCategory>
+    <RaSTaRLibraryCategory name="Colonialism Outpost SA Elements" __type="RaSTaRLibraryCategory">
+      <elements>
+        <Reference value="ee0b6cf4-e606-44a5-a7b5-32cf5cf1878b" />
+        <Reference value="19a1cb28-509d-43bd-ade3-fee78fc7470c" />
+        <Reference value="2de081a3-e651-48e1-8fd1-fd82d97707ee" />
+        <Reference value="be4c0c69-36db-487a-b174-185575256309" />
+        <Reference value="9fb4ec9b-51c5-4bb1-ae20-6ffd71dbca4d" />
+        <Reference value="ce69472c-8b54-42ec-a9ff-814b86cb411a" />
+        <Reference value="4611d4b2-18cf-4dd1-ad95-49c65fc8f901" />
+      </elements>
+    </RaSTaRLibraryCategory>
+    <RaSTaRLibraryCategory name="Colonialism Outpost SA Static" __type="RaSTaRLibraryCategory">
+      <elements>
+        <Reference value="92089d7f-5152-40c0-995e-b9814a4aa244" />
+        <Reference value="24315832-8ad4-4b59-8d29-f7dbe02f6401" />
+        <Reference value="4193cf88-0a31-4c06-9c47-f8797560ffd9" />
+        <Reference value="8a3a8a23-e964-4720-9912-cadf53d67ca2" />
+        <Reference value="806f1d0a-3263-42b5-ab68-68ce376c0c3e" />
+        <Reference value="f0db9c9f-11ac-4905-aea9-378cd8bc5076" />
+        <Reference value="ebd75f7c-7f4f-4020-9d7f-6b6a6ebc81ff" />
+        <Reference value="076cc6c5-a49a-4dc8-ad7b-93a00a7a23fc" />
+        <Reference value="a2eb1c24-b18c-4399-8522-cf36c2c72b2f" />
+        <Reference value="3830f23a-1d13-442a-9e68-21d5f58f525d" />
+        <Reference value="bde33177-ad50-4ef0-9782-52e6cfab3803" />
+        <Reference value="0403373f-1b17-451f-be0a-f63a79a191bc" />
+        <Reference value="db735c5f-69e7-4b9a-a7f0-5b11150a38b2" />
+        <Reference value="dac06511-f8ca-4083-8968-564f43c39140" />
+        <Reference value="b4a31ae8-870c-499d-a34a-2c2d1b24c9fd" />
+        <Reference value="026619a0-50d2-4836-91f5-caa2213a27d2" />
+        <Reference value="f6dc519c-3e22-4255-9a5e-eb4ca62fff81" />
+        <Reference value="38476f10-a637-41e3-ad72-4bb777c30a4f" />
+        <Reference value="0905cd84-7cb6-4748-b2c1-697cb1ef2cf4" />
+        <Reference value="9ac3710d-2c25-477c-8213-ff748daf2d36" />
+        <Reference value="fe15403e-d948-4101-bde3-44958c396f71" />
+        <Reference value="a8d31588-2d2c-4d4b-9c2a-b413c8e24f5f" />
+        <Reference value="a345ea6d-3ddd-4ee2-ade1-cbfe24649d38" />
+        <Reference value="1a6448d9-9265-4d34-90c8-1a9f88432411" />
+        <Reference value="25f3ed38-abe5-46c2-836f-c6c820523ad7" />
+        <Reference value="18b4d6a0-437a-4e8e-ba20-7ac321ef974d" />
+        <Reference value="8088906d-01a1-48c1-94c3-9a6ed828eba5" />
+        <Reference value="3cc02629-b7ee-4646-b72a-13e8a326f53d" />
+        <Reference value="481283b2-2994-4d8c-a324-769c4ca2939f" />
+        <Reference value="f18c0caf-62fa-42c0-b858-b282276a5d74" />
+        <Reference value="0b1edd96-de1a-4024-9437-55ea373196e4" />
+        <Reference value="11d77531-f8df-4cc1-9218-07b1bce4f5e7" />
+        <Reference value="29414c9d-cad1-4641-b1a5-833d553dc68f" />
+        <Reference value="f356ad3a-b877-4aaf-b735-7a6cfd6b051d" />
+        <Reference value="2e0cc737-b3bd-48c7-95ea-6afc328629fd" />
+        <Reference value="715af6c5-c144-4b5a-bd2e-ac634a5efb23" />
+        <Reference value="8ff6c124-1d9d-48a9-b781-ed278390c8c9" />
+        <Reference value="572f0318-cc75-4be5-91f2-6857ef384522" />
+        <Reference value="e9070857-273c-427b-a2d3-8f672f9f11d4" />
+        <Reference value="5d2b38c4-f998-434c-bcf0-ce38b238cfdf" />
+        <Reference value="a1d38a82-8ce2-4af2-9e62-d50234467409" />
+        <Reference value="3ac21195-77f2-4d05-a0d7-1955e9c41792" />
+        <Reference value="a34a1357-a8ee-469d-80f4-0d0cebed8784" />
+        <Reference value="d643e256-a623-48f1-9b8d-787dd21b1df3" />
+        <Reference value="5dc29e77-b6e0-432c-815e-35e74ad9a617" />
+        <Reference value="ef9868e0-0505-4acc-a9cb-eda648667ac5" />
+        <Reference value="92ee3d11-7283-4822-b140-871957dd9a5f" />
+        <Reference value="13dc3279-ba81-4ea2-b040-61496e4b9bf5" />
+        <Reference value="738aac31-c245-4230-8d3c-6b5b46ca1145" />
+        <Reference value="2877eff4-5d1c-41d5-8bc0-ab97b8acb919" />
+        <Reference value="321f63ec-b8bf-4221-b231-ae5336971757" />
+        <Reference value="7931d20e-a33b-42a2-a9f1-d2475dbc2cca" />
+        <Reference value="59d0f5c7-7c37-4717-9349-e639584753b0" />
+        <Reference value="7d35ac86-aa94-456d-abbd-73a6679c961a" />
+        <Reference value="7b871fb6-6306-4ce0-af43-8c4b1e229084" />
+        <Reference value="b6431176-cefc-44b2-9114-a97e5b73a817" />
+        <Reference value="9e26d316-d030-4891-81ec-69fa5e7a1fcd" />
+        <Reference value="909ee81e-eb8d-4863-b01d-85d714d44e90" />
+        <Reference value="9bdabc8e-6423-4593-b2d3-6cb1fc80655c" />
+        <Reference value="62b6f72e-4885-496c-a936-216e2e5a6376" />
+        <Reference value="8341f739-f6b3-41d8-8019-76d54bafe7d7" />
+        <Reference value="c9cc62c8-2dde-418d-8994-9c3aff567ec4" />
+        <Reference value="0ec8bf44-774e-4be7-afd4-b685c55dfe09" />
+        <Reference value="ab476500-c61f-486a-97ff-05db8b69bb45" />
+        <Reference value="2db0b6bb-bd80-46ec-b2a4-05dd456835b7" />
+        <Reference value="040449e2-e887-42cb-bf66-f97c102ca617" />
+        <Reference value="6bbf7985-8d55-492f-9da1-252dfe150e0f" />
+      </elements>
+    </RaSTaRLibraryCategory>
+    <RaSTaRLibraryCategory name="Colonialism Outpost Derelict" __type="RaSTaRLibraryCategory">
+      <elements>
+        <Reference value="68be8a4a-b2f3-4a89-9c3a-ef4e9d03cff1" />
+        <Reference value="1aec9322-1174-42aa-a6f2-66ec6c61ec79" />
+        <Reference value="5fb11be8-358e-427f-9642-6933b9c11b9e" />
+        <Reference value="baf041aa-4878-4e4c-b526-c8c7db606001" />
+        <Reference value="f166488b-6ab6-4ac6-9986-b6d1ea754cfa" />
+        <Reference value="c81ddf22-026d-470f-b6f6-49cb94af4df8" />
+        <Reference value="475b1449-5ff4-40a4-89b0-8bc09a0383d4" />
+        <Reference value="e9ac52bf-a757-493f-9d3b-c1833cb1e3a5" />
+        <Reference value="41b4197e-8e9d-4d7d-b8e5-d436ad0b9f4c" />
+        <Reference value="1dd2e3c9-b1f7-433d-9fd0-50f5d11d711f" />
+        <Reference value="a20ca84c-cb9a-4132-9d42-046a025630b2" />
+        <Reference value="d5960bf3-1574-4165-a9bc-e23c7b7cf09b" />
+        <Reference value="1fc4ac68-10a3-4219-a93e-94670f11fb28" />
+        <Reference value="fb0efe93-b462-4cc9-bb9f-5da7c8c9e7e7" />
+        <Reference value="a3367597-2e8d-4840-b1c6-73a9e647b78a" />
+        <Reference value="fe906691-cae4-4703-9312-424c6fa631ce" />
+        <Reference value="15181095-4e61-4ea9-b5cf-bfee984f7f12" />
+        <Reference value="1ac0b7ef-5ebb-4f0c-9702-959a84b1f3af" />
+        <Reference value="92337a9f-be7a-4bf6-8b47-facda1fe3123" />
+        <Reference value="caecab96-f772-4537-85ec-170da7474cfe" />
+        <Reference value="5920c7fb-a1bd-42a5-b07d-855beed1f10a" />
+        <Reference value="c959300b-cbf7-458d-8bb5-422efada6c9d" />
+        <Reference value="7a63edf4-e8f0-46e6-ae69-8dabf5aa8acc" />
+        <Reference value="770b0d92-1e95-4703-9fe0-3dc91791d489" />
+        <Reference value="0e368e6a-7aa1-48be-9cad-96d1a556775b" />
+        <Reference value="aaf7b27a-a3b1-4f10-b82c-87ea36e230a1" />
+        <Reference value="e656a9d1-77ec-43dc-93db-8622cf70180b" />
+        <Reference value="6e80b759-9121-4102-99fe-56df8e3fbb22" />
+        <Reference value="f1651242-9a51-4376-853f-3d3b31654e04" />
+        <Reference value="0566e789-2c00-459f-b2b0-6c97ecbd9a68" />
+        <Reference value="27f0a12f-f612-4570-bc1c-2cc7470b357d" />
+        <Reference value="36d67873-58a5-46a3-acde-c26d6ca0e999" />
+        <Reference value="f37576db-e8a4-48a3-90dd-5076beb83715" />
+        <Reference value="748a3bb2-1fb8-4231-8115-61bf3d473786" />
+        <Reference value="f58904b5-b207-44cb-b632-384ddfd5b7d6" />
+      </elements>
+    </RaSTaRLibraryCategory>
+    <RaSTaRLibraryCategory name="Test" __type="RaSTaRLibraryCategory">
+      <elements>
+        <Reference value="0e2239a4-9622-400e-b1a8-17b952550afe" />
+        <Reference value="f9e61577-29f9-4f61-9257-12e1437e07a7" />
+        <Reference value="1e7ceca1-5758-4d86-b39e-791f15c53399" />
+      </elements>
+    </RaSTaRLibraryCategory>
+    <RaSTaRLibraryCategory name="Drlct_Ctplr_Middle_Surface" __type="RaSTaRLibraryCategory">
+      <elements>
+        <Reference value="a3387856-f961-4895-9652-182ffbc88b30" />
+        <Reference value="5218732e-ea3d-4095-bb37-62540dd510e0" />
+        <Reference value="cf0c4cbc-4556-481f-bb1f-e6dc3e554943" />
+        <Reference value="a25b02e3-4176-4aef-98b4-24a0d72e8bff" />
+        <Reference value="9f25123d-6e76-41c8-9914-9b8998e191a8" />
+        <Reference value="b07956c8-eff4-44e5-bb16-87e9068afe07" />
+        <Reference value="3d51ae1b-1977-43e2-9992-4136394623c6" />
+        <Reference value="cf3e97b0-89c9-41de-89d5-5b2536f7d965" />
+        <Reference value="bde5e2fb-b9ac-4ff6-bc16-1e04a686afdc" />
+        <Reference value="7db97829-b6b0-400e-a09c-75a62693a0ab" />
+        <Reference value="5c50174d-430d-4efe-9f41-caaf157e9e9e" />
+        <Reference value="1f71b5e2-37a4-4da9-a258-7f0d48f8998c" />
+        <Reference value="7f514e7f-a7ea-457a-8a98-a30d67bf279d" />
+        <Reference value="533e4bbb-b9ce-44b3-ac75-a6b53056f80a" />
+        <Reference value="c9a80364-59b4-4523-ae44-17fda6ddec02" />
+        <Reference value="02deadbe-90a9-499d-a9eb-404cc372bd51" />
+      </elements>
+    </RaSTaRLibraryCategory>
+    <RaSTaRLibraryCategory name="Drlct_Ctplr_Nose_Surface" __type="RaSTaRLibraryCategory">
+      <elements>
+        <Reference value="da869683-487a-4206-820f-71ecc93299e5" />
+        <Reference value="1b6ba172-57ab-4fbd-9ab4-f7835ab884ad" />
+        <Reference value="58bfff96-7649-4cbb-a333-af6e43d9b557" />
+        <Reference value="10012ddf-f243-4113-8251-afcff6b8199d" />
+        <Reference value="a585f6e0-39f7-44c4-b079-1f4a30a356fb" />
+        <Reference value="569887ae-0179-4700-b315-5de67ef456a6" />
+        <Reference value="c9b11692-698e-4a26-bb3d-100e7c4619bd" />
+        <Reference value="ca2b19ca-106e-416c-ab85-c3d82f98e64b" />
+        <Reference value="c31ca2d1-77d8-47fc-bd38-3df3cbe0ae5a" />
+        <Reference value="4642e23c-c719-4013-a748-f339f1faef67" />
+        <Reference value="76611b32-96c8-421f-85a1-794812f913e3" />
+        <Reference value="d56a53c2-a631-4776-a451-62b1082ea48e" />
+        <Reference value="60708d2c-752e-4c52-9e60-f93200e5054e" />
+        <Reference value="d44e9145-8a46-449f-a686-61f1653d4959" />
+        <Reference value="a806a335-698e-4699-b02b-0f6a752e12fa" />
+      </elements>
+    </RaSTaRLibraryCategory>
+    <RaSTaRLibraryCategory name="Drlct_Ctplr_RearTail_Surface" __type="RaSTaRLibraryCategory">
+      <elements>
+        <Reference value="438f2b11-05c1-4e92-b618-5e7a4239f1b6" />
+        <Reference value="8cf74494-b646-4e2d-8e36-b07b7ae45474" />
+        <Reference value="8ca9ece2-be8b-4708-b775-8f62c38c0ddd" />
+        <Reference value="a5648a87-4ee8-409b-a300-c51cdc78026d" />
+        <Reference value="5b5799f5-74b0-423d-9e08-241f2cc2a06e" />
+        <Reference value="a51faa5b-e813-44ff-8c04-d6fb89c32792" />
+        <Reference value="fbce8a9d-787b-4eea-9a62-d3d13b55221e" />
+        <Reference value="1d15e1b7-86a8-46da-a1a4-367f927472cd" />
+        <Reference value="bedda9f5-5dac-42ea-b63f-58c2aa316514" />
+        <Reference value="a70ad66e-f731-4564-ab34-2d6db457b78a" />
+      </elements>
+    </RaSTaRLibraryCategory>
+    <RaSTaRLibraryCategory name="Drlct_Ctplr_Misc_ShipParts" __type="RaSTaRLibraryCategory">
+      <elements>
+        <Reference value="0afbccc5-d40a-46b6-802c-a462d4a49b9f" />
+        <Reference value="39e06399-f78b-47a6-a8eb-a0f0f3f12ca0" />
+        <Reference value="d0975f83-330c-42e9-9f3c-2d8d402bd0d9" />
+        <Reference value="1e810ed2-83fc-4a17-9035-0cf25488faf4" />
+        <Reference value="5dfa35ba-56b4-45ac-9480-80db3771960c" />
+      </elements>
+    </RaSTaRLibraryCategory>
+    <RaSTaRLibraryCategory name="Drlct_sfce_reclaimer_crash_c" __type="RaSTaRLibraryCategory">
+      <elements>
+        <Reference value="f74b46c0-95f6-415e-afc4-fc76e6cac50c" />
+        <Reference value="58276b71-d68e-40c0-88fe-44d0ea49cf9e" />
+        <Reference value="4e35c985-3c2d-4f42-9974-a8ca0141714a" />
+        <Reference value="8f1e24e6-3794-43a3-bd56-1bfb6d5e54e9" />
+        <Reference value="245ec13b-546d-4a37-af71-f514f4f47cd6" />
+        <Reference value="43dc240f-6474-459f-8ea6-a1ebc9ede189" />
+      </elements>
+    </RaSTaRLibraryCategory>
+  </categories>
+</RaSTaRLibrary.RaSTaR_Library>

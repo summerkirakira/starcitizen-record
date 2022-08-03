@@ -1,0 +1,10 @@
+<MegaMap.Hangar_Selfland gameMode="00000000-0000-0000-0000-000000000000" singlePlayerOrMultiplayer="Both" subsumptionMission="" missionBroker="00000000-0000-0000-0000-000000000000" level="00000000-0000-0000-0000-000000000000" originalMapFilename="" trackViewIntro="" rootLocation="00000000-0000-0000-0000-000000000000" initialSpawnLocation="00000000-0000-0000-0000-000000000000" streamingMode="Never" bindCullingEnabled="0" defaultWinningTeamOverride="-1" displayName="@LOC_UNINITIALIZED" appearsInS42LevelSelect="0" chapter="00000000-0000-0000-0000-000000000000" __type="MegaMap" __ref="d3dd987b-add0-40e7-aef4-9633c4813ae2" __path="libs/foundry/records/megamap/hangar_selfland.xml">
+  <SolarSystems>
+    <SMegaMapSolarSystem Name="Default" __type="SMegaMapSolarSystem">
+      <ObjectContainers>
+        <String value="objectcontainers/pu/hangars/selfland/hangar_selfland_single.socpak" />
+      </ObjectContainers>
+    </SMegaMapSolarSystem>
+  </SolarSystems>
+  <subsumptionMissionInitParams />
+</MegaMap.Hangar_Selfland>

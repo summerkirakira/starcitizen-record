@@ -1,0 +1,9 @@
+<SecurityNetworkRoomSettings.SNRS_Prison roomIdentifier="fcac52e2-48e9-460f-9f9b-738578e1f70b" __type="SecurityNetworkRoomSettings" __ref="8e94f7f0-65f5-46e6-8867-62c8e063a33a" __path="libs/foundry/records/lawsystem/securitynetwork/prison/snrs_prison.xml">
+  <defaultProtocol __type="SecurityNetworkProtocol">
+    <permissionsWithClearance access="Inherit" shootOnSight="Inherit" __type="SecurityNetworkPermissions" />
+    <permissionsWithoutClearance access="No" shootOnSight="Yes" __type="SecurityNetworkPermissions" />
+    <acceptedClearance __type="SecurityClearanceConditions">
+      <tokens />
+    </acceptedClearance>
+  </defaultProtocol>
+</SecurityNetworkRoomSettings.SNRS_Prison>

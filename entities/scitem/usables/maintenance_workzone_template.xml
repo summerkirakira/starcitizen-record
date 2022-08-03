@@ -1,0 +1,628 @@
+<EntityClassDefinition.Maintenance_Workzone_Template Category="Default" Icon="Usable.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="e242c2c9-6b03-4a90-a17e-647eb756c9c8" __path="libs/foundry/records/entities/scitem/usables/maintenance_workzone_template.xml">
+  <tags>
+    <Reference value="01dd48c6-525c-4613-844a-8468df8d99f1" />
+    <Reference value="aff36b77-bc7d-467f-809b-f7b534068819" />
+  </tags>
+  <StaticEntityClassData />
+  <Components>
+    <SAttachableComponentParams attachToTileItemPort="NoConnection" __type="DataForgeComponentParams" __polymorphicType="SAttachableComponentParams">
+      <AttachDef Type="Usable" SubType="UNDEFINED" Size="1" Grade="1" Manufacturer="00000000-0000-0000-0000-000000000000" inheritParentManufacturer="0" Tags="" RequiredTags="" DisplayType="" __type="SItemDefinition">
+        <Localization Name="@LOC_PLACEHOLDER" ShortName="@LOC_EMPTY" Description="@LOC_EMPTY" __type="SCItemLocalization">
+          <displayFeatures LogoSimplifiedWhite="" FrontendBackground="" History="@LOC_EMPTY" Callout1="@LOC_EMPTY" Callout2="@LOC_EMPTY" Callout3="@LOC_EMPTY" UIPriority="0" __type="SCExtendedLocalizationLevelParams">
+            <locationAudioPlayTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+            <locationAudioStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </displayFeatures>
+        </Localization>
+        <mannequinTags mannequinClassTag="" mannequinTypeTag="" mannequinBaseTag="" __type="SCItemMannequinTags" />
+        <inventoryOccupancyVolume>
+          <SMicroCargoUnit microSCU="1" __type="SBaseCargoUnit" __polymorphicType="SMicroCargoUnit" />
+        </inventoryOccupancyVolume>
+        <inventoryOccupancyDimensions x="0.15" y="0.15" z="0.15" __type="Vec3" />
+        <inventoryOccupancyDimensionsUIOverride>
+        </inventoryOccupancyDimensionsUIOverride>
+      </AttachDef>
+      <entityAttachParams>
+      </entityAttachParams>
+    </SAttachableComponentParams>
+    <SEntityInteractableParams __type="DataForgeComponentParams" __polymorphicType="SEntityInteractableParams">
+      <Interactable __type="SInteractableParams">
+        <SharedInteractions />
+        <InteractionPoints />
+        <interactionTasks />
+        <actionHandlerTasks />
+        <itemActionTasks />
+        <menuTitle>
+        </menuTitle>
+      </Interactable>
+    </SEntityInteractableParams>
+    <SGeometryResourceParams cacheResources="0" rootOverridePaint="0" inheritModelTagFromHost="1" __type="DataForgeComponentParams" __polymorphicType="SGeometryResourceParams">
+      <ModelTag>
+      </ModelTag>
+      <Geometry Tags="" ScaleMultiplier="1" __type="SGeometryNodeParams">
+        <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+          <Geometry path="objects/buildingsets/human/template/usablehelpers/propless/propless_usable.cga" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+          <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+          <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        </Geometry>
+        <SubGeometry />
+      </Geometry>
+      <Material Tags="" __type="SMaterialNodeParams">
+        <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+        <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        <materialVariants />
+      </Material>
+    </SGeometryResourceParams>
+    <SEntityPhysicsControllerParams __type="DataForgeComponentParams" __polymorphicType="SEntityPhysicsControllerParams">
+      <PhysType>
+        <SEntityRigidPhysicsControllerParams Mass="0" maxLoggedCollisions="1" Damping="0" DampingFreefall="0.05" PushableByPlayers="1" NeverAffectTriggers="0" UseManualGridTransition="0" BlocksNavigation="1" Kinematic="0" Resting="0" physicalizeAllSlots="1" __type="SEntityBasePhysicsControllerParams" __polymorphicType="SEntityRigidPhysicsControllerParams">
+          <breakableParams>
+          </breakableParams>
+          <gameCollisionClass>
+          </gameCollisionClass>
+          <grid>
+          </grid>
+          <buoyancyParams>
+          </buoyancyParams>
+          <temperature enable="0" initialTemperature="-1" internalTemperatureGeneration="0" __type="EntityTemperature" />
+        </SEntityRigidPhysicsControllerParams>
+      </PhysType>
+    </SEntityPhysicsControllerParams>
+    <SActorUsableParams archetype="dfed942f-1551-4519-ab6f-efc0a2f6d44f" fragmentTag="" isExterior="0" __type="DataForgeComponentParams" __polymorphicType="SActorUsableParams">
+      <useSlots>
+        <UsableUseSlot name="Standing Above" available="1" additionalFragmentTags="stand+above" isScoochable="0" __type="UsableUseSlot">
+          <useChannelInstances>
+            <UsableUseChannelInstance useChannelArchetype="3f7949d2-a450-4e22-8fdd-97a0c7075134" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance useChannelArchetype="cbfb6253-8d74-4e2a-b44a-ca2e74403d0e" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+          </useChannelInstances>
+          <usableItemPorts />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="0" z="0" __type="Vec3" />
+          </relativeTransform>
+          <optionalGameTags>
+            <Reference value="fd427628-b921-45b6-8cd7-498ad5101518" />
+            <Reference value="ddf6f70b-9191-4e04-ab73-8d4c2f1f58ce" />
+          </optionalGameTags>
+        </UsableUseSlot>
+        <UsableUseSlot name="Standing Up" available="1" additionalFragmentTags="stand+up" isScoochable="0" __type="UsableUseSlot">
+          <useChannelInstances>
+            <UsableUseChannelInstance useChannelArchetype="3f7949d2-a450-4e22-8fdd-97a0c7075134" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance useChannelArchetype="cbfb6253-8d74-4e2a-b44a-ca2e74403d0e" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+          </useChannelInstances>
+          <usableItemPorts />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="0" z="0" __type="Vec3" />
+          </relativeTransform>
+          <optionalGameTags>
+            <Reference value="fd427628-b921-45b6-8cd7-498ad5101518" />
+            <Reference value="60bd71b7-116a-4aa1-87f7-838d95d766d5" />
+          </optionalGameTags>
+        </UsableUseSlot>
+        <UsableUseSlot name="Standing Middle" available="1" additionalFragmentTags="stand+middle" isScoochable="0" __type="UsableUseSlot">
+          <useChannelInstances>
+            <UsableUseChannelInstance useChannelArchetype="3f7949d2-a450-4e22-8fdd-97a0c7075134" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance useChannelArchetype="cbfb6253-8d74-4e2a-b44a-ca2e74403d0e" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+          </useChannelInstances>
+          <usableItemPorts />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="0" z="0" __type="Vec3" />
+          </relativeTransform>
+          <optionalGameTags>
+            <Reference value="fd427628-b921-45b6-8cd7-498ad5101518" />
+            <Reference value="3ef4724f-07ab-49ef-a1a3-69bc88e0f715" />
+          </optionalGameTags>
+        </UsableUseSlot>
+        <UsableUseSlot name="Standing Down" available="1" additionalFragmentTags="stand+down" isScoochable="0" __type="UsableUseSlot">
+          <useChannelInstances>
+            <UsableUseChannelInstance useChannelArchetype="3f7949d2-a450-4e22-8fdd-97a0c7075134" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance useChannelArchetype="cbfb6253-8d74-4e2a-b44a-ca2e74403d0e" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+          </useChannelInstances>
+          <usableItemPorts />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="0" z="0" __type="Vec3" />
+          </relativeTransform>
+          <optionalGameTags>
+            <Reference value="fd427628-b921-45b6-8cd7-498ad5101518" />
+            <Reference value="e150cea1-03b8-48ec-a818-34c783ab59f6" />
+          </optionalGameTags>
+        </UsableUseSlot>
+        <UsableUseSlot name="Standing Below" available="1" additionalFragmentTags="stand+below" isScoochable="0" __type="UsableUseSlot">
+          <useChannelInstances>
+            <UsableUseChannelInstance useChannelArchetype="3f7949d2-a450-4e22-8fdd-97a0c7075134" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance useChannelArchetype="cbfb6253-8d74-4e2a-b44a-ca2e74403d0e" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+          </useChannelInstances>
+          <usableItemPorts />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="0" z="0" __type="Vec3" />
+          </relativeTransform>
+          <optionalGameTags>
+            <Reference value="fd427628-b921-45b6-8cd7-498ad5101518" />
+            <Reference value="46cbddfb-fda8-4787-90f9-cd3d9ff3116b" />
+          </optionalGameTags>
+        </UsableUseSlot>
+        <UsableUseSlot name="Crouching Above" available="1" additionalFragmentTags="crouch+above" isScoochable="0" __type="UsableUseSlot">
+          <useChannelInstances>
+            <UsableUseChannelInstance useChannelArchetype="3f7949d2-a450-4e22-8fdd-97a0c7075134" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance useChannelArchetype="cbfb6253-8d74-4e2a-b44a-ca2e74403d0e" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+          </useChannelInstances>
+          <usableItemPorts />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="0" z="0" __type="Vec3" />
+          </relativeTransform>
+          <optionalGameTags>
+            <Reference value="4bc7bc8c-578d-46e0-904a-e0ddd73ef8cd" />
+            <Reference value="ddf6f70b-9191-4e04-ab73-8d4c2f1f58ce" />
+          </optionalGameTags>
+        </UsableUseSlot>
+        <UsableUseSlot name="Crouching Up" available="1" additionalFragmentTags="crouch+up" isScoochable="0" __type="UsableUseSlot">
+          <useChannelInstances>
+            <UsableUseChannelInstance useChannelArchetype="3f7949d2-a450-4e22-8fdd-97a0c7075134" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance useChannelArchetype="cbfb6253-8d74-4e2a-b44a-ca2e74403d0e" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+          </useChannelInstances>
+          <usableItemPorts />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="0" z="0" __type="Vec3" />
+          </relativeTransform>
+          <optionalGameTags>
+            <Reference value="4bc7bc8c-578d-46e0-904a-e0ddd73ef8cd" />
+            <Reference value="60bd71b7-116a-4aa1-87f7-838d95d766d5" />
+          </optionalGameTags>
+        </UsableUseSlot>
+        <UsableUseSlot name="Crouching Middle" available="1" additionalFragmentTags="crouch+middle" isScoochable="0" __type="UsableUseSlot">
+          <useChannelInstances>
+            <UsableUseChannelInstance useChannelArchetype="3f7949d2-a450-4e22-8fdd-97a0c7075134" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance useChannelArchetype="cbfb6253-8d74-4e2a-b44a-ca2e74403d0e" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+          </useChannelInstances>
+          <usableItemPorts />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="0" z="0" __type="Vec3" />
+          </relativeTransform>
+          <optionalGameTags>
+            <Reference value="4bc7bc8c-578d-46e0-904a-e0ddd73ef8cd" />
+            <Reference value="3ef4724f-07ab-49ef-a1a3-69bc88e0f715" />
+          </optionalGameTags>
+        </UsableUseSlot>
+        <UsableUseSlot name="Crouching Down" available="1" additionalFragmentTags="crouch+down" isScoochable="0" __type="UsableUseSlot">
+          <useChannelInstances>
+            <UsableUseChannelInstance useChannelArchetype="3f7949d2-a450-4e22-8fdd-97a0c7075134" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance useChannelArchetype="cbfb6253-8d74-4e2a-b44a-ca2e74403d0e" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+          </useChannelInstances>
+          <usableItemPorts />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="0" z="0" __type="Vec3" />
+          </relativeTransform>
+          <optionalGameTags>
+            <Reference value="4bc7bc8c-578d-46e0-904a-e0ddd73ef8cd" />
+            <Reference value="e150cea1-03b8-48ec-a818-34c783ab59f6" />
+          </optionalGameTags>
+        </UsableUseSlot>
+        <UsableUseSlot name="Crouching Below" available="1" additionalFragmentTags="crouch+below" isScoochable="0" __type="UsableUseSlot">
+          <useChannelInstances>
+            <UsableUseChannelInstance useChannelArchetype="3f7949d2-a450-4e22-8fdd-97a0c7075134" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance useChannelArchetype="cbfb6253-8d74-4e2a-b44a-ca2e74403d0e" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+                <WeakPointer alignmentSlots="0" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+          </useChannelInstances>
+          <usableItemPorts />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="0" z="0" __type="Vec3" />
+          </relativeTransform>
+          <optionalGameTags>
+            <Reference value="4bc7bc8c-578d-46e0-904a-e0ddd73ef8cd" />
+            <Reference value="46cbddfb-fda8-4787-90f9-cd3d9ff3116b" />
+          </optionalGameTags>
+        </UsableUseSlot>
+      </useSlots>
+      <alignmentSlots>
+        <PointAlignmentSlot name="" available="1" canPlayerUse="0" fragmentTag="align_slot_01" slottedFragmentTag="" helperName="$anchor_01" linkMode="FeetLink" spotStance="Stand" useHandIK="0" useADIK="0" __type="AlignmentSlotBase" __polymorphicType="PointAlignmentSlot">
+          <interactionPoints />
+          <optionalGameTags />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="0" z="0" __type="Vec3" />
+          </relativeTransform>
+          <viewParams viewLimitYawMin="-45" viewLimitYawMax="45" viewLimitPitchMin="-45" viewLimitPitchMax="45" __type="SUsableViewParams" />
+          <enterParams aiSignal="UseStart" additionalTags="" eventTriggerMask="AIAndPlayer" holsterWeapon="1" enterInteraction="null" __type="SUsableTransitionParams" __polymorphicType="SUsableEnterTransitionParams">
+            <transitionAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </enterParams>
+          <exitParams aiSignal="UseEnd" additionalTags="" eventTriggerMask="AIAndPlayer" inputExit="1" exitOnMovement="0" exitOnJump="0" exitOnDamageTaken="0" exitInteraction="null" exitSequence="null" __type="SUsableTransitionParams" __polymorphicType="SUsableExitTransitionParams">
+            <transitionAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </exitParams>
+          <usableIdleParams __type="SUsableIdleParams">
+            <idlePoseOverrides />
+          </usableIdleParams>
+        </PointAlignmentSlot>
+      </alignmentSlots>
+      <slottingSetups />
+      <views />
+      <abilityLocks />
+      <usableSequencerTasks />
+      <specializedData __type="SSpecializedData">
+        <specializedDataEntry />
+      </specializedData>
+    </SActorUsableParams>
+  </Components>
+</EntityClassDefinition.Maintenance_Workzone_Template>

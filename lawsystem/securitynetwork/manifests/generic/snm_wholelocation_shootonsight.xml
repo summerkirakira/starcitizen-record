@@ -1,0 +1,10 @@
+<SecurityNetworkManifest.SNM_WholeLocation_ShootOnSight __type="SecurityNetworkManifest" __ref="4085001f-1441-431e-bc4b-314b3719bfbc" __path="libs/foundry/records/lawsystem/securitynetwork/manifests/generic/snm_wholelocation_shootonsight.xml">
+  <defaultProtocol __type="SecurityNetworkProtocol">
+    <permissionsWithClearance access="No" shootOnSight="Yes" __type="SecurityNetworkPermissions" />
+    <permissionsWithoutClearance access="No" shootOnSight="Yes" __type="SecurityNetworkPermissions" />
+    <acceptedClearance __type="SecurityClearanceConditions">
+      <tokens />
+    </acceptedClearance>
+  </defaultProtocol>
+  <roomProtocols />
+</SecurityNetworkManifest.SNM_WholeLocation_ShootOnSight>

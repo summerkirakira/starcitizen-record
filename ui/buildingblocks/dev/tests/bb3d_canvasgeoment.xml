@@ -1,0 +1,1969 @@
+<BuildingBlocks_Canvas.BB3D_CanvasGeomEnt coordinateMethod="aspectOverridesWidth" style="00000000-0000-0000-0000-000000000000" proxyRootNode="null" defaultButtonDownSoundTag="00000000-0000-0000-0000-000000000000" defaultRightButtonDownSoundTag="00000000-0000-0000-0000-000000000000" defaultLeftClickSoundTag="00000000-0000-0000-0000-000000000000" defaultRightClickSoundTag="00000000-0000-0000-0000-000000000000" defaultLeftDoubleClickSoundTag="00000000-0000-0000-0000-000000000000" defaultRollOverSoundTag="00000000-0000-0000-0000-000000000000" defaultRollOffSoundTag="00000000-0000-0000-0000-000000000000" collisionType="Cutout" overrideDefaultTooltipCanvas="00000000-0000-0000-0000-000000000000" __type="BuildingBlocks_Canvas" __ref="503332b1-bd21-4c35-ad99-5c9d050017f3" __path="libs/foundry/records/ui/buildingblocks/dev/tests/bb3d_canvasgeoment.xml">
+  <size x="1920" y="1080" z="0" __type="Vec3" />
+  <embeddedStyles />
+  <defaultStyles sharedStyles="00000000-0000-0000-0000-000000000000" __type="BuildingBlocks_DefaultStyles">
+    <entries />
+  </defaultStyles>
+  <brandStyles />
+  <entityPreviewScene>
+    <BuildingBlocks_PreviewSceneEntityRoot __type="BuildingBlocks_PreviewScreenBase" __polymorphicType="BuildingBlocks_PreviewSceneEntityRoot" />
+  </entityPreviewScene>
+  <rttPreviewScene>
+    <BuildingBlocks_PreviewSceneRttRoot entityScale="1" __type="BuildingBlocks_PreviewScreenBase" __polymorphicType="BuildingBlocks_PreviewSceneRttRoot">
+      <entityOrientation x="0" y="0" z="0" __type="Deg3" />
+    </BuildingBlocks_PreviewSceneRttRoot>
+  </rttPreviewScene>
+  <staticVariables />
+  <scene>
+    <BuildingBlocks_WidgetCircle name="&lt;unnamed&gt;" primitiveMaterialPath="" rendererType="Flash" parent="" previewScene="null" isActive="1" canBeVirtual="1" affectsLayout="1" affectsAutosize="1" inheritsScale="1" inheritsRotation="1" inheritsTranslation="1" inheritsAlpha="1" inheritsFadeOverflowAlpha="1" useFlashRenderThreadUpdate="0" alpha="1" layer="5" focusIndex="-1" doFill="0" doStroke="1" strokeWidth="8" strokeCapStyle="None" strokeJointStyle="Miter" strokeAlignment="Center" segments="1" gapAngle="0" parallelGaps="0" startAngle="0" progress="1" minProgressClamp="0" maxProgressClamp="1" minMeterClamp="0" maxMeterClamp="1" segmentProgressBehavior="Clip" segmentEasing="Linear" flip="0" fillStroke="0" fillStrokeWidth="1" startAngleWidget="null" rotateStartAngleWidget="0" pivotStartAngleWidget="0" __type="BuildingBlocks_WidgetBase" __polymorphicType="BuildingBlocks_WidgetCircle">
+      <styleTags />
+      <position x="0" y="0" z="0" __type="Vec3" />
+      <positionOffset x="0" y="0" z="0" __type="Vec3" />
+      <orientation x="0" y="0" z="0" __type="Deg3" />
+      <orientationOffset x="0" y="0" z="0" __type="Deg3" />
+      <scale x="1" y="1" z="1" __type="Vec3" />
+      <sizing enableMinWidth="0" enableMinHeight="0" enableMaxWidth="0" enableMaxHeight="0" __type="BuildingBlocks_Size">
+        <width value="1000" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <height value="1000" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <depth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+      </sizing>
+      <padding top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <margin top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <pivot x="0.5" y="0.5" z="0" __type="Vec3" />
+      <anchor x="0.5" y="0.5" z="0" __type="Vec3" />
+      <background enable="0" __type="BuildingBlocks_Background">
+        <color>
+        </color>
+      </background>
+      <segmentedFill enable="0" angle="0" xOffset="0" barFill="0" __type="BuildingBlocks_SegmentedFill">
+        <segmentSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <spaceSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <segmentColor>
+        </segmentColor>
+      </segmentedFill>
+      <border __type="BuildingBlocks_Border">
+        <top width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </top>
+        <right width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </right>
+        <bottom width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </bottom>
+        <left width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </left>
+        <topLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topLeftRadius>
+        <topRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topRightRadius>
+        <bottomLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomLeftRadius>
+        <bottomRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomRightRadius>
+      </border>
+      <layoutPolicy>
+      </layoutPolicy>
+      <layoutPolicyItem>
+      </layoutPolicyItem>
+      <layoutItemCommon>
+      </layoutItemCommon>
+      <dropTargetPolicy>
+      </dropTargetPolicy>
+      <draggablePolicy>
+      </draggablePolicy>
+      <tooltipPolicy>
+      </tooltipPolicy>
+      <grabControlsPolicy>
+      </grabControlsPolicy>
+      <overflow overflow="Visible" widthFadeThreshold="0" heightFadeThreshold="0" fadeXAxis="1" fadeYAxis="1" __type="BuildingBlocks_Overflow" />
+      <scrollPolicy>
+      </scrollPolicy>
+      <radialTransform transformMultiplier="0" mouseTestShape="1" __type="BuildingBlocks_RadialTransform" />
+      <radialTransformChild inheritRotation="1" inheritShapeWarp="1" maintainGapLength="1" __type="BuildingBlocks_RadialTransformChild" />
+      <animation duration="1" delay="0" direction="Forward" fillMode="None" iterationCount="1" loopIndefinitely="0" timeSync="0" additive="1" __type="BuildingBlocks_Animation">
+        <animationTimeline>
+        </animationTimeline>
+      </animation>
+      <interactions canInteract="0" disabled="0" selected="0" collideLeftClick="1" collideRightClick="1" collideMouseWheel="0" hitDetectionOffset="1" propagateInteractionStates="0" inheritHoverState="0" inheritDownState="0" inheritSelectedState="0" inheritDisabledState="0" blocksCursor="0" buttonDownSoundTag="00000000-0000-0000-0000-000000000000" rightButtonDownSoundTag="00000000-0000-0000-0000-000000000000" leftClickSoundTag="00000000-0000-0000-0000-000000000000" rightClickSoundTag="00000000-0000-0000-0000-000000000000" leftDoubleClickSoundTag="00000000-0000-0000-0000-000000000000" rollOverSoundTag="00000000-0000-0000-0000-000000000000" rollOffSoundTag="00000000-0000-0000-0000-000000000000" __type="BuildingBlocks_Interactions">
+        <onLeftClick />
+        <onRightClick />
+        <onLeftDoubleClick />
+        <onRollOver />
+        <onRollOff />
+      </interactions>
+      <inlineStyles />
+      <fillColor>
+      </fillColor>
+      <strokeColor>
+      </strokeColor>
+      <UVStart x="0" y="0" __type="Vec2" />
+      <UVSize x="0" y="0" __type="Vec2" />
+    </BuildingBlocks_WidgetCircle>
+    <BuildingBlocks_DisplayWidget name="top_left" primitiveMaterialPath="" rendererType="Flash" parent="" previewScene="null" isActive="1" canBeVirtual="1" affectsLayout="1" affectsAutosize="1" inheritsScale="1" inheritsRotation="1" inheritsTranslation="1" inheritsAlpha="1" inheritsFadeOverflowAlpha="1" useFlashRenderThreadUpdate="0" alpha="1" layer="5" focusIndex="-1" __type="BuildingBlocks_WidgetBase" __polymorphicType="BuildingBlocks_DisplayWidget">
+      <styleTags />
+      <position x="0" y="0" z="0" __type="Vec3" />
+      <positionOffset x="0" y="0" z="0" __type="Vec3" />
+      <orientation x="0" y="0" z="0" __type="Deg3" />
+      <orientationOffset x="0" y="0" z="0" __type="Deg3" />
+      <scale x="1" y="1" z="1" __type="Vec3" />
+      <sizing enableMinWidth="0" enableMinHeight="0" enableMaxWidth="0" enableMaxHeight="0" __type="BuildingBlocks_Size">
+        <width value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <height value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <depth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+      </sizing>
+      <padding top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <margin top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <pivot x="0" y="0" z="0" __type="Vec3" />
+      <anchor x="0" y="0" z="0" __type="Vec3" />
+      <background enable="1" __type="BuildingBlocks_Background">
+        <color>
+        </color>
+      </background>
+      <segmentedFill enable="0" angle="0" xOffset="0" barFill="0" __type="BuildingBlocks_SegmentedFill">
+        <segmentSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <spaceSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <segmentColor>
+        </segmentColor>
+      </segmentedFill>
+      <border __type="BuildingBlocks_Border">
+        <top width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </top>
+        <right width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </right>
+        <bottom width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </bottom>
+        <left width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </left>
+        <topLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topLeftRadius>
+        <topRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topRightRadius>
+        <bottomLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomLeftRadius>
+        <bottomRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomRightRadius>
+      </border>
+      <layoutPolicy>
+      </layoutPolicy>
+      <layoutPolicyItem>
+      </layoutPolicyItem>
+      <layoutItemCommon>
+      </layoutItemCommon>
+      <dropTargetPolicy>
+      </dropTargetPolicy>
+      <draggablePolicy>
+      </draggablePolicy>
+      <tooltipPolicy>
+      </tooltipPolicy>
+      <grabControlsPolicy>
+      </grabControlsPolicy>
+      <overflow overflow="Visible" widthFadeThreshold="0" heightFadeThreshold="0" fadeXAxis="1" fadeYAxis="1" __type="BuildingBlocks_Overflow" />
+      <scrollPolicy>
+      </scrollPolicy>
+      <radialTransform transformMultiplier="0" mouseTestShape="1" __type="BuildingBlocks_RadialTransform" />
+      <radialTransformChild inheritRotation="1" inheritShapeWarp="1" maintainGapLength="1" __type="BuildingBlocks_RadialTransformChild" />
+      <animation duration="1" delay="0" direction="Forward" fillMode="None" iterationCount="1" loopIndefinitely="0" timeSync="0" additive="1" __type="BuildingBlocks_Animation">
+        <animationTimeline>
+        </animationTimeline>
+      </animation>
+      <interactions canInteract="0" disabled="0" selected="0" collideLeftClick="1" collideRightClick="1" collideMouseWheel="0" hitDetectionOffset="1" propagateInteractionStates="0" inheritHoverState="0" inheritDownState="0" inheritSelectedState="0" inheritDisabledState="0" blocksCursor="0" buttonDownSoundTag="00000000-0000-0000-0000-000000000000" rightButtonDownSoundTag="00000000-0000-0000-0000-000000000000" leftClickSoundTag="00000000-0000-0000-0000-000000000000" rightClickSoundTag="00000000-0000-0000-0000-000000000000" leftDoubleClickSoundTag="00000000-0000-0000-0000-000000000000" rollOverSoundTag="00000000-0000-0000-0000-000000000000" rollOffSoundTag="00000000-0000-0000-0000-000000000000" __type="BuildingBlocks_Interactions">
+        <onLeftClick />
+        <onRightClick />
+        <onLeftDoubleClick />
+        <onRollOver />
+        <onRollOff />
+      </interactions>
+      <inlineStyles />
+    </BuildingBlocks_DisplayWidget>
+    <BuildingBlocks_DisplayWidget name="top_right" primitiveMaterialPath="" rendererType="Flash" parent="" previewScene="null" isActive="1" canBeVirtual="1" affectsLayout="1" affectsAutosize="1" inheritsScale="1" inheritsRotation="1" inheritsTranslation="1" inheritsAlpha="1" inheritsFadeOverflowAlpha="1" useFlashRenderThreadUpdate="0" alpha="1" layer="5" focusIndex="-1" __type="BuildingBlocks_WidgetBase" __polymorphicType="BuildingBlocks_DisplayWidget">
+      <styleTags />
+      <position x="0" y="0" z="0" __type="Vec3" />
+      <positionOffset x="0" y="0" z="0" __type="Vec3" />
+      <orientation x="0" y="0" z="0" __type="Deg3" />
+      <orientationOffset x="0" y="0" z="0" __type="Deg3" />
+      <scale x="1" y="1" z="1" __type="Vec3" />
+      <sizing enableMinWidth="0" enableMinHeight="0" enableMaxWidth="0" enableMaxHeight="0" __type="BuildingBlocks_Size">
+        <width value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <height value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <depth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+      </sizing>
+      <padding top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <margin top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <pivot x="1" y="0" z="0" __type="Vec3" />
+      <anchor x="1" y="0" z="0" __type="Vec3" />
+      <background enable="1" __type="BuildingBlocks_Background">
+        <color>
+          <BuildingBlocks_ColorSolid __type="BuildingBlocks_ColorBase" __polymorphicType="BuildingBlocks_ColorSolid">
+            <color r="255" g="0" b="0" a="255" __type="SRGBA8" />
+          </BuildingBlocks_ColorSolid>
+        </color>
+      </background>
+      <segmentedFill enable="0" angle="0" xOffset="0" barFill="0" __type="BuildingBlocks_SegmentedFill">
+        <segmentSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <spaceSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <segmentColor>
+        </segmentColor>
+      </segmentedFill>
+      <border __type="BuildingBlocks_Border">
+        <top width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </top>
+        <right width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </right>
+        <bottom width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </bottom>
+        <left width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </left>
+        <topLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topLeftRadius>
+        <topRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topRightRadius>
+        <bottomLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomLeftRadius>
+        <bottomRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomRightRadius>
+      </border>
+      <layoutPolicy>
+      </layoutPolicy>
+      <layoutPolicyItem>
+      </layoutPolicyItem>
+      <layoutItemCommon>
+      </layoutItemCommon>
+      <dropTargetPolicy>
+      </dropTargetPolicy>
+      <draggablePolicy>
+      </draggablePolicy>
+      <tooltipPolicy>
+      </tooltipPolicy>
+      <grabControlsPolicy>
+      </grabControlsPolicy>
+      <overflow overflow="Visible" widthFadeThreshold="0" heightFadeThreshold="0" fadeXAxis="1" fadeYAxis="1" __type="BuildingBlocks_Overflow" />
+      <scrollPolicy>
+      </scrollPolicy>
+      <radialTransform transformMultiplier="0" mouseTestShape="1" __type="BuildingBlocks_RadialTransform" />
+      <radialTransformChild inheritRotation="1" inheritShapeWarp="1" maintainGapLength="1" __type="BuildingBlocks_RadialTransformChild" />
+      <animation duration="1" delay="0" direction="Forward" fillMode="None" iterationCount="1" loopIndefinitely="0" timeSync="0" additive="1" __type="BuildingBlocks_Animation">
+        <animationTimeline>
+        </animationTimeline>
+      </animation>
+      <interactions canInteract="0" disabled="0" selected="0" collideLeftClick="1" collideRightClick="1" collideMouseWheel="0" hitDetectionOffset="1" propagateInteractionStates="0" inheritHoverState="0" inheritDownState="0" inheritSelectedState="0" inheritDisabledState="0" blocksCursor="0" buttonDownSoundTag="00000000-0000-0000-0000-000000000000" rightButtonDownSoundTag="00000000-0000-0000-0000-000000000000" leftClickSoundTag="00000000-0000-0000-0000-000000000000" rightClickSoundTag="00000000-0000-0000-0000-000000000000" leftDoubleClickSoundTag="00000000-0000-0000-0000-000000000000" rollOverSoundTag="00000000-0000-0000-0000-000000000000" rollOffSoundTag="00000000-0000-0000-0000-000000000000" __type="BuildingBlocks_Interactions">
+        <onLeftClick />
+        <onRightClick />
+        <onLeftDoubleClick />
+        <onRollOver />
+        <onRollOff />
+      </interactions>
+      <inlineStyles />
+    </BuildingBlocks_DisplayWidget>
+    <BuildingBlocks_DisplayWidget name="bottom_left" primitiveMaterialPath="" rendererType="Flash" parent="" previewScene="null" isActive="1" canBeVirtual="1" affectsLayout="1" affectsAutosize="1" inheritsScale="1" inheritsRotation="1" inheritsTranslation="1" inheritsAlpha="1" inheritsFadeOverflowAlpha="1" useFlashRenderThreadUpdate="0" alpha="1" layer="5" focusIndex="-1" __type="BuildingBlocks_WidgetBase" __polymorphicType="BuildingBlocks_DisplayWidget">
+      <styleTags />
+      <position x="0" y="0" z="0" __type="Vec3" />
+      <positionOffset x="0" y="0" z="0" __type="Vec3" />
+      <orientation x="0" y="0" z="0" __type="Deg3" />
+      <orientationOffset x="0" y="0" z="0" __type="Deg3" />
+      <scale x="1" y="1" z="1" __type="Vec3" />
+      <sizing enableMinWidth="0" enableMinHeight="0" enableMaxWidth="0" enableMaxHeight="0" __type="BuildingBlocks_Size">
+        <width value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <height value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <depth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+      </sizing>
+      <padding top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <margin top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <pivot x="0" y="1" z="0" __type="Vec3" />
+      <anchor x="0" y="1" z="0" __type="Vec3" />
+      <background enable="1" __type="BuildingBlocks_Background">
+        <color>
+          <BuildingBlocks_ColorSolid __type="BuildingBlocks_ColorBase" __polymorphicType="BuildingBlocks_ColorSolid">
+            <color r="0" g="0" b="255" a="255" __type="SRGBA8" />
+          </BuildingBlocks_ColorSolid>
+        </color>
+      </background>
+      <segmentedFill enable="0" angle="0" xOffset="0" barFill="0" __type="BuildingBlocks_SegmentedFill">
+        <segmentSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <spaceSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <segmentColor>
+        </segmentColor>
+      </segmentedFill>
+      <border __type="BuildingBlocks_Border">
+        <top width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </top>
+        <right width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </right>
+        <bottom width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </bottom>
+        <left width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </left>
+        <topLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topLeftRadius>
+        <topRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topRightRadius>
+        <bottomLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomLeftRadius>
+        <bottomRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomRightRadius>
+      </border>
+      <layoutPolicy>
+      </layoutPolicy>
+      <layoutPolicyItem>
+      </layoutPolicyItem>
+      <layoutItemCommon>
+      </layoutItemCommon>
+      <dropTargetPolicy>
+      </dropTargetPolicy>
+      <draggablePolicy>
+      </draggablePolicy>
+      <tooltipPolicy>
+      </tooltipPolicy>
+      <grabControlsPolicy>
+      </grabControlsPolicy>
+      <overflow overflow="Visible" widthFadeThreshold="0" heightFadeThreshold="0" fadeXAxis="1" fadeYAxis="1" __type="BuildingBlocks_Overflow" />
+      <scrollPolicy>
+      </scrollPolicy>
+      <radialTransform transformMultiplier="0" mouseTestShape="1" __type="BuildingBlocks_RadialTransform" />
+      <radialTransformChild inheritRotation="1" inheritShapeWarp="1" maintainGapLength="1" __type="BuildingBlocks_RadialTransformChild" />
+      <animation duration="1" delay="0" direction="Forward" fillMode="None" iterationCount="1" loopIndefinitely="0" timeSync="0" additive="1" __type="BuildingBlocks_Animation">
+        <animationTimeline>
+        </animationTimeline>
+      </animation>
+      <interactions canInteract="0" disabled="0" selected="0" collideLeftClick="1" collideRightClick="1" collideMouseWheel="0" hitDetectionOffset="1" propagateInteractionStates="0" inheritHoverState="0" inheritDownState="0" inheritSelectedState="0" inheritDisabledState="0" blocksCursor="0" buttonDownSoundTag="00000000-0000-0000-0000-000000000000" rightButtonDownSoundTag="00000000-0000-0000-0000-000000000000" leftClickSoundTag="00000000-0000-0000-0000-000000000000" rightClickSoundTag="00000000-0000-0000-0000-000000000000" leftDoubleClickSoundTag="00000000-0000-0000-0000-000000000000" rollOverSoundTag="00000000-0000-0000-0000-000000000000" rollOffSoundTag="00000000-0000-0000-0000-000000000000" __type="BuildingBlocks_Interactions">
+        <onLeftClick />
+        <onRightClick />
+        <onLeftDoubleClick />
+        <onRollOver />
+        <onRollOff />
+      </interactions>
+      <inlineStyles />
+    </BuildingBlocks_DisplayWidget>
+    <BuildingBlocks_DisplayWidget name="bottom_right" primitiveMaterialPath="" rendererType="Flash" parent="" previewScene="null" isActive="1" canBeVirtual="1" affectsLayout="1" affectsAutosize="1" inheritsScale="1" inheritsRotation="1" inheritsTranslation="1" inheritsAlpha="1" inheritsFadeOverflowAlpha="1" useFlashRenderThreadUpdate="0" alpha="1" layer="5" focusIndex="-1" __type="BuildingBlocks_WidgetBase" __polymorphicType="BuildingBlocks_DisplayWidget">
+      <styleTags />
+      <position x="0" y="0" z="0" __type="Vec3" />
+      <positionOffset x="0" y="0" z="0" __type="Vec3" />
+      <orientation x="0" y="0" z="0" __type="Deg3" />
+      <orientationOffset x="0" y="0" z="0" __type="Deg3" />
+      <scale x="1" y="1" z="1" __type="Vec3" />
+      <sizing enableMinWidth="0" enableMinHeight="0" enableMaxWidth="0" enableMaxHeight="0" __type="BuildingBlocks_Size">
+        <width value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <height value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <depth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+      </sizing>
+      <padding top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <margin top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <pivot x="1" y="1" z="0" __type="Vec3" />
+      <anchor x="1" y="1" z="0" __type="Vec3" />
+      <background enable="1" __type="BuildingBlocks_Background">
+        <color>
+          <BuildingBlocks_ColorSolid __type="BuildingBlocks_ColorBase" __polymorphicType="BuildingBlocks_ColorSolid">
+            <color r="0" g="255" b="0" a="255" __type="SRGBA8" />
+          </BuildingBlocks_ColorSolid>
+        </color>
+      </background>
+      <segmentedFill enable="0" angle="0" xOffset="0" barFill="0" __type="BuildingBlocks_SegmentedFill">
+        <segmentSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <spaceSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <segmentColor>
+        </segmentColor>
+      </segmentedFill>
+      <border __type="BuildingBlocks_Border">
+        <top width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </top>
+        <right width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </right>
+        <bottom width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </bottom>
+        <left width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </left>
+        <topLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topLeftRadius>
+        <topRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topRightRadius>
+        <bottomLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomLeftRadius>
+        <bottomRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomRightRadius>
+      </border>
+      <layoutPolicy>
+      </layoutPolicy>
+      <layoutPolicyItem>
+      </layoutPolicyItem>
+      <layoutItemCommon>
+      </layoutItemCommon>
+      <dropTargetPolicy>
+      </dropTargetPolicy>
+      <draggablePolicy>
+      </draggablePolicy>
+      <tooltipPolicy>
+      </tooltipPolicy>
+      <grabControlsPolicy>
+      </grabControlsPolicy>
+      <overflow overflow="Visible" widthFadeThreshold="0" heightFadeThreshold="0" fadeXAxis="1" fadeYAxis="1" __type="BuildingBlocks_Overflow" />
+      <scrollPolicy>
+      </scrollPolicy>
+      <radialTransform transformMultiplier="0" mouseTestShape="1" __type="BuildingBlocks_RadialTransform" />
+      <radialTransformChild inheritRotation="1" inheritShapeWarp="1" maintainGapLength="1" __type="BuildingBlocks_RadialTransformChild" />
+      <animation duration="1" delay="0" direction="Forward" fillMode="None" iterationCount="1" loopIndefinitely="0" timeSync="0" additive="1" __type="BuildingBlocks_Animation">
+        <animationTimeline>
+        </animationTimeline>
+      </animation>
+      <interactions canInteract="0" disabled="0" selected="0" collideLeftClick="1" collideRightClick="1" collideMouseWheel="0" hitDetectionOffset="1" propagateInteractionStates="0" inheritHoverState="0" inheritDownState="0" inheritSelectedState="0" inheritDisabledState="0" blocksCursor="0" buttonDownSoundTag="00000000-0000-0000-0000-000000000000" rightButtonDownSoundTag="00000000-0000-0000-0000-000000000000" leftClickSoundTag="00000000-0000-0000-0000-000000000000" rightClickSoundTag="00000000-0000-0000-0000-000000000000" leftDoubleClickSoundTag="00000000-0000-0000-0000-000000000000" rollOverSoundTag="00000000-0000-0000-0000-000000000000" rollOffSoundTag="00000000-0000-0000-0000-000000000000" __type="BuildingBlocks_Interactions">
+        <onLeftClick />
+        <onRightClick />
+        <onLeftDoubleClick />
+        <onRollOver />
+        <onRollOff />
+      </interactions>
+      <inlineStyles />
+    </BuildingBlocks_DisplayWidget>
+    <BuildingBlocks_DisplayWidget name="right" primitiveMaterialPath="" rendererType="Flash" parent="" previewScene="null" isActive="0" canBeVirtual="1" affectsLayout="1" affectsAutosize="1" inheritsScale="1" inheritsRotation="1" inheritsTranslation="1" inheritsAlpha="1" inheritsFadeOverflowAlpha="1" useFlashRenderThreadUpdate="0" alpha="1" layer="5" focusIndex="-1" __type="BuildingBlocks_WidgetBase" __polymorphicType="BuildingBlocks_DisplayWidget">
+      <styleTags />
+      <position x="0" y="0" z="0" __type="Vec3" />
+      <positionOffset x="0" y="0" z="0" __type="Vec3" />
+      <orientation x="0" y="0" z="0" __type="Deg3" />
+      <orientationOffset x="0" y="0" z="0" __type="Deg3" />
+      <scale x="1" y="1" z="1" __type="Vec3" />
+      <sizing enableMinWidth="0" enableMinHeight="0" enableMaxWidth="0" enableMaxHeight="0" __type="BuildingBlocks_Size">
+        <width value="320" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <height value="4" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <depth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+      </sizing>
+      <padding top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <margin top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <pivot x="0" y="0" z="0" __type="Vec3" />
+      <anchor x="0.5" y="0.5" z="0" __type="Vec3" />
+      <background enable="1" __type="BuildingBlocks_Background">
+        <color>
+          <BuildingBlocks_ColorSolid __type="BuildingBlocks_ColorBase" __polymorphicType="BuildingBlocks_ColorSolid">
+            <color r="255" g="0" b="0" a="255" __type="SRGBA8" />
+          </BuildingBlocks_ColorSolid>
+        </color>
+      </background>
+      <segmentedFill enable="0" angle="0" xOffset="0" barFill="0" __type="BuildingBlocks_SegmentedFill">
+        <segmentSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <spaceSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <segmentColor>
+        </segmentColor>
+      </segmentedFill>
+      <border __type="BuildingBlocks_Border">
+        <top width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </top>
+        <right width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </right>
+        <bottom width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </bottom>
+        <left width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </left>
+        <topLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topLeftRadius>
+        <topRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topRightRadius>
+        <bottomLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomLeftRadius>
+        <bottomRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomRightRadius>
+      </border>
+      <layoutPolicy>
+      </layoutPolicy>
+      <layoutPolicyItem>
+      </layoutPolicyItem>
+      <layoutItemCommon>
+      </layoutItemCommon>
+      <dropTargetPolicy>
+      </dropTargetPolicy>
+      <draggablePolicy>
+      </draggablePolicy>
+      <tooltipPolicy>
+      </tooltipPolicy>
+      <grabControlsPolicy>
+      </grabControlsPolicy>
+      <overflow overflow="Visible" widthFadeThreshold="0" heightFadeThreshold="0" fadeXAxis="1" fadeYAxis="1" __type="BuildingBlocks_Overflow" />
+      <scrollPolicy>
+      </scrollPolicy>
+      <radialTransform transformMultiplier="0" mouseTestShape="1" __type="BuildingBlocks_RadialTransform" />
+      <radialTransformChild inheritRotation="1" inheritShapeWarp="1" maintainGapLength="1" __type="BuildingBlocks_RadialTransformChild" />
+      <animation duration="1" delay="0" direction="Forward" fillMode="None" iterationCount="1" loopIndefinitely="0" timeSync="0" additive="1" __type="BuildingBlocks_Animation">
+        <animationTimeline>
+        </animationTimeline>
+      </animation>
+      <interactions canInteract="0" disabled="0" selected="0" collideLeftClick="1" collideRightClick="1" collideMouseWheel="0" hitDetectionOffset="1" propagateInteractionStates="0" inheritHoverState="0" inheritDownState="0" inheritSelectedState="0" inheritDisabledState="0" blocksCursor="0" buttonDownSoundTag="00000000-0000-0000-0000-000000000000" rightButtonDownSoundTag="00000000-0000-0000-0000-000000000000" leftClickSoundTag="00000000-0000-0000-0000-000000000000" rightClickSoundTag="00000000-0000-0000-0000-000000000000" leftDoubleClickSoundTag="00000000-0000-0000-0000-000000000000" rollOverSoundTag="00000000-0000-0000-0000-000000000000" rollOffSoundTag="00000000-0000-0000-0000-000000000000" __type="BuildingBlocks_Interactions">
+        <onLeftClick />
+        <onRightClick />
+        <onLeftDoubleClick />
+        <onRollOver />
+        <onRollOff />
+      </interactions>
+      <inlineStyles />
+    </BuildingBlocks_DisplayWidget>
+    <BuildingBlocks_DisplayWidget name="down" primitiveMaterialPath="" rendererType="Flash" parent="" previewScene="null" isActive="0" canBeVirtual="1" affectsLayout="1" affectsAutosize="1" inheritsScale="1" inheritsRotation="1" inheritsTranslation="1" inheritsAlpha="1" inheritsFadeOverflowAlpha="1" useFlashRenderThreadUpdate="0" alpha="1" layer="5" focusIndex="-1" __type="BuildingBlocks_WidgetBase" __polymorphicType="BuildingBlocks_DisplayWidget">
+      <styleTags />
+      <position x="0" y="0" z="0" __type="Vec3" />
+      <positionOffset x="0" y="0" z="0" __type="Vec3" />
+      <orientation x="0" y="0" z="0" __type="Deg3" />
+      <orientationOffset x="0" y="0" z="0" __type="Deg3" />
+      <scale x="1" y="1" z="1" __type="Vec3" />
+      <sizing enableMinWidth="0" enableMinHeight="0" enableMaxWidth="0" enableMaxHeight="0" __type="BuildingBlocks_Size">
+        <width value="4" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <height value="320" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <depth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+      </sizing>
+      <padding top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <margin top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <pivot x="0" y="0" z="0" __type="Vec3" />
+      <anchor x="0.5" y="0.5" z="0" __type="Vec3" />
+      <background enable="1" __type="BuildingBlocks_Background">
+        <color>
+          <BuildingBlocks_ColorSolid __type="BuildingBlocks_ColorBase" __polymorphicType="BuildingBlocks_ColorSolid">
+            <color r="0" g="255" b="0" a="255" __type="SRGBA8" />
+          </BuildingBlocks_ColorSolid>
+        </color>
+      </background>
+      <segmentedFill enable="0" angle="0" xOffset="0" barFill="0" __type="BuildingBlocks_SegmentedFill">
+        <segmentSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <spaceSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <segmentColor>
+        </segmentColor>
+      </segmentedFill>
+      <border __type="BuildingBlocks_Border">
+        <top width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </top>
+        <right width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </right>
+        <bottom width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </bottom>
+        <left width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </left>
+        <topLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topLeftRadius>
+        <topRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topRightRadius>
+        <bottomLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomLeftRadius>
+        <bottomRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomRightRadius>
+      </border>
+      <layoutPolicy>
+      </layoutPolicy>
+      <layoutPolicyItem>
+      </layoutPolicyItem>
+      <layoutItemCommon>
+      </layoutItemCommon>
+      <dropTargetPolicy>
+      </dropTargetPolicy>
+      <draggablePolicy>
+      </draggablePolicy>
+      <tooltipPolicy>
+      </tooltipPolicy>
+      <grabControlsPolicy>
+      </grabControlsPolicy>
+      <overflow overflow="Visible" widthFadeThreshold="0" heightFadeThreshold="0" fadeXAxis="1" fadeYAxis="1" __type="BuildingBlocks_Overflow" />
+      <scrollPolicy>
+      </scrollPolicy>
+      <radialTransform transformMultiplier="0" mouseTestShape="1" __type="BuildingBlocks_RadialTransform" />
+      <radialTransformChild inheritRotation="1" inheritShapeWarp="1" maintainGapLength="1" __type="BuildingBlocks_RadialTransformChild" />
+      <animation duration="1" delay="0" direction="Forward" fillMode="None" iterationCount="1" loopIndefinitely="0" timeSync="0" additive="1" __type="BuildingBlocks_Animation">
+        <animationTimeline>
+        </animationTimeline>
+      </animation>
+      <interactions canInteract="0" disabled="0" selected="0" collideLeftClick="1" collideRightClick="1" collideMouseWheel="0" hitDetectionOffset="1" propagateInteractionStates="0" inheritHoverState="0" inheritDownState="0" inheritSelectedState="0" inheritDisabledState="0" blocksCursor="0" buttonDownSoundTag="00000000-0000-0000-0000-000000000000" rightButtonDownSoundTag="00000000-0000-0000-0000-000000000000" leftClickSoundTag="00000000-0000-0000-0000-000000000000" rightClickSoundTag="00000000-0000-0000-0000-000000000000" leftDoubleClickSoundTag="00000000-0000-0000-0000-000000000000" rollOverSoundTag="00000000-0000-0000-0000-000000000000" rollOffSoundTag="00000000-0000-0000-0000-000000000000" __type="BuildingBlocks_Interactions">
+        <onLeftClick />
+        <onRightClick />
+        <onLeftDoubleClick />
+        <onRollOver />
+        <onRollOff />
+      </interactions>
+      <inlineStyles />
+    </BuildingBlocks_DisplayWidget>
+    <BuildingBlocks_WidgetCustomShape name="s42" primitiveMaterialPath="" rendererType="Flash" parent="" previewScene="null" isActive="0" canBeVirtual="1" affectsLayout="1" affectsAutosize="1" inheritsScale="1" inheritsRotation="1" inheritsTranslation="1" inheritsAlpha="1" inheritsFadeOverflowAlpha="1" useFlashRenderThreadUpdate="0" alpha="1" layer="1" focusIndex="-1" renderShape="1" flipHorizontal="0" flipVertical="0" svgPath="UI/Textures/Vector/Test/sq42.svg" enableColorOverlay="1" scalingBehavior="Contain" containPositionX="0" containPositionY="0" enableNineSliceRect="0" nineSliceScale="1" strokeExtent="1" playhead="0" __type="BuildingBlocks_WidgetBase" __polymorphicType="BuildingBlocks_WidgetCustomShape">
+      <styleTags />
+      <position x="0" y="0" z="0" __type="Vec3" />
+      <positionOffset x="0" y="0" z="0" __type="Vec3" />
+      <orientation x="0" y="0" z="0" __type="Deg3" />
+      <orientationOffset x="0" y="0" z="0" __type="Deg3" />
+      <scale x="1" y="1" z="1" __type="Vec3" />
+      <sizing enableMinWidth="0" enableMinHeight="0" enableMaxWidth="0" enableMaxHeight="0" __type="BuildingBlocks_Size">
+        <width value="640" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <height value="640" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <depth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+      </sizing>
+      <padding top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <margin top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <pivot x="0.5" y="0.5" z="0" __type="Vec3" />
+      <anchor x="0.5" y="0.5" z="0" __type="Vec3" />
+      <background enable="0" __type="BuildingBlocks_Background">
+        <color>
+        </color>
+      </background>
+      <segmentedFill enable="0" angle="0" xOffset="0" barFill="0" __type="BuildingBlocks_SegmentedFill">
+        <segmentSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <spaceSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <segmentColor>
+        </segmentColor>
+      </segmentedFill>
+      <border __type="BuildingBlocks_Border">
+        <top width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </top>
+        <right width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </right>
+        <bottom width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </bottom>
+        <left width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </left>
+        <topLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topLeftRadius>
+        <topRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topRightRadius>
+        <bottomLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomLeftRadius>
+        <bottomRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomRightRadius>
+      </border>
+      <layoutPolicy>
+      </layoutPolicy>
+      <layoutPolicyItem>
+      </layoutPolicyItem>
+      <layoutItemCommon>
+      </layoutItemCommon>
+      <dropTargetPolicy>
+      </dropTargetPolicy>
+      <draggablePolicy>
+      </draggablePolicy>
+      <tooltipPolicy>
+      </tooltipPolicy>
+      <grabControlsPolicy>
+      </grabControlsPolicy>
+      <overflow overflow="Visible" widthFadeThreshold="0" heightFadeThreshold="0" fadeXAxis="1" fadeYAxis="1" __type="BuildingBlocks_Overflow" />
+      <scrollPolicy>
+      </scrollPolicy>
+      <radialTransform transformMultiplier="0" mouseTestShape="1" __type="BuildingBlocks_RadialTransform" />
+      <radialTransformChild inheritRotation="1" inheritShapeWarp="1" maintainGapLength="1" __type="BuildingBlocks_RadialTransformChild" />
+      <animation duration="1" delay="0" direction="Forward" fillMode="None" iterationCount="1" loopIndefinitely="0" timeSync="0" additive="1" __type="BuildingBlocks_Animation">
+        <animationTimeline>
+        </animationTimeline>
+      </animation>
+      <interactions canInteract="0" disabled="0" selected="0" collideLeftClick="1" collideRightClick="1" collideMouseWheel="0" hitDetectionOffset="1" propagateInteractionStates="0" inheritHoverState="0" inheritDownState="0" inheritSelectedState="0" inheritDisabledState="0" blocksCursor="0" buttonDownSoundTag="00000000-0000-0000-0000-000000000000" rightButtonDownSoundTag="00000000-0000-0000-0000-000000000000" leftClickSoundTag="00000000-0000-0000-0000-000000000000" rightClickSoundTag="00000000-0000-0000-0000-000000000000" leftDoubleClickSoundTag="00000000-0000-0000-0000-000000000000" rollOverSoundTag="00000000-0000-0000-0000-000000000000" rollOffSoundTag="00000000-0000-0000-0000-000000000000" __type="BuildingBlocks_Interactions">
+        <onLeftClick />
+        <onRightClick />
+        <onLeftDoubleClick />
+        <onRollOver />
+        <onRollOff />
+      </interactions>
+      <inlineStyles />
+      <color>
+        <BuildingBlocks_ColorSolid __type="BuildingBlocks_ColorBase" __polymorphicType="BuildingBlocks_ColorSolid">
+          <color r="83" g="83" b="83" a="255" __type="SRGBA8" />
+        </BuildingBlocks_ColorSolid>
+      </color>
+      <nineSliceRect top="0.25" right="0.75" bottom="0.75" left="0.25" __type="BuildingBlocks_TRBL" />
+    </BuildingBlocks_WidgetCustomShape>
+    <BuildingBlocks_WidgetText name="placeholder" primitiveMaterialPath="" rendererType="Flash" parent="" previewScene="null" isActive="0" canBeVirtual="1" affectsLayout="1" affectsAutosize="1" inheritsScale="1" inheritsRotation="1" inheritsTranslation="1" inheritsAlpha="1" inheritsFadeOverflowAlpha="1" useFlashRenderThreadUpdate="0" alpha="1" layer="5" focusIndex="-1" locString="@LOC_PLACEHOLDER" textAlignment="Center" verticalAlignment="Top" wordWrap="0" lineSpacing="0" letterSpacing="0" horizontalAutoSize="1" verticalAutoSize="1" renderAsHTML="0" fontStyle="08deb31d-07e3-4b1a-9306-d2e0d2b48e8f" materialOverride="" fontSize="48" autoFontSize="0" squashAxis="None" bold="0" italic="0" underline="0" kerning="0" caseModifier="None" __type="BuildingBlocks_WidgetBase" __polymorphicType="BuildingBlocks_WidgetText">
+      <styleTags />
+      <position x="0" y="0" z="0" __type="Vec3" />
+      <positionOffset x="0" y="0" z="0" __type="Vec3" />
+      <orientation x="0" y="0" z="0" __type="Deg3" />
+      <orientationOffset x="0" y="0" z="0" __type="Deg3" />
+      <scale x="1" y="1" z="1" __type="Vec3" />
+      <sizing enableMinWidth="0" enableMinHeight="0" enableMaxWidth="0" enableMaxHeight="0" __type="BuildingBlocks_Size">
+        <width value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <height value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <depth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+      </sizing>
+      <padding top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <margin top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <pivot x="0.5" y="0" z="0" __type="Vec3" />
+      <anchor x="0.5" y="0.8" z="0" __type="Vec3" />
+      <background enable="0" __type="BuildingBlocks_Background">
+        <color>
+        </color>
+      </background>
+      <segmentedFill enable="0" angle="0" xOffset="0" barFill="0" __type="BuildingBlocks_SegmentedFill">
+        <segmentSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <spaceSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <segmentColor>
+        </segmentColor>
+      </segmentedFill>
+      <border __type="BuildingBlocks_Border">
+        <top width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </top>
+        <right width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </right>
+        <bottom width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </bottom>
+        <left width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </left>
+        <topLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topLeftRadius>
+        <topRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topRightRadius>
+        <bottomLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomLeftRadius>
+        <bottomRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomRightRadius>
+      </border>
+      <layoutPolicy>
+      </layoutPolicy>
+      <layoutPolicyItem>
+      </layoutPolicyItem>
+      <layoutItemCommon>
+      </layoutItemCommon>
+      <dropTargetPolicy>
+      </dropTargetPolicy>
+      <draggablePolicy>
+      </draggablePolicy>
+      <tooltipPolicy>
+      </tooltipPolicy>
+      <grabControlsPolicy>
+      </grabControlsPolicy>
+      <overflow overflow="Visible" widthFadeThreshold="0" heightFadeThreshold="0" fadeXAxis="1" fadeYAxis="1" __type="BuildingBlocks_Overflow" />
+      <scrollPolicy>
+      </scrollPolicy>
+      <radialTransform transformMultiplier="0" mouseTestShape="1" __type="BuildingBlocks_RadialTransform" />
+      <radialTransformChild inheritRotation="1" inheritShapeWarp="1" maintainGapLength="1" __type="BuildingBlocks_RadialTransformChild" />
+      <animation duration="1" delay="0" direction="Forward" fillMode="None" iterationCount="1" loopIndefinitely="0" timeSync="0" additive="1" __type="BuildingBlocks_Animation">
+        <animationTimeline>
+        </animationTimeline>
+      </animation>
+      <interactions canInteract="0" disabled="0" selected="0" collideLeftClick="1" collideRightClick="1" collideMouseWheel="0" hitDetectionOffset="1" propagateInteractionStates="0" inheritHoverState="0" inheritDownState="0" inheritSelectedState="0" inheritDisabledState="0" blocksCursor="0" buttonDownSoundTag="00000000-0000-0000-0000-000000000000" rightButtonDownSoundTag="00000000-0000-0000-0000-000000000000" leftClickSoundTag="00000000-0000-0000-0000-000000000000" rightClickSoundTag="00000000-0000-0000-0000-000000000000" leftDoubleClickSoundTag="00000000-0000-0000-0000-000000000000" rollOverSoundTag="00000000-0000-0000-0000-000000000000" rollOffSoundTag="00000000-0000-0000-0000-000000000000" __type="BuildingBlocks_Interactions">
+        <onLeftClick />
+        <onRightClick />
+        <onLeftDoubleClick />
+        <onRollOver />
+        <onRollOff />
+      </interactions>
+      <inlineStyles />
+      <autoTypeParams>
+      </autoTypeParams>
+      <color>
+      </color>
+    </BuildingBlocks_WidgetText>
+    <BuildingBlocks_WidgetPolygon name="triangle" primitiveMaterialPath="" rendererType="Flash" parent="" previewScene="null" isActive="1" canBeVirtual="1" affectsLayout="1" affectsAutosize="1" inheritsScale="1" inheritsRotation="1" inheritsTranslation="1" inheritsAlpha="1" inheritsFadeOverflowAlpha="1" useFlashRenderThreadUpdate="0" alpha="1" layer="5" focusIndex="-1" doFill="1" doStroke="1" strokeWidth="8" strokeCapStyle="None" strokeJointStyle="Miter" strokeAlignment="Center" startAngle="270" sides="3" cornerRatio="0" chamfer="0" __type="BuildingBlocks_WidgetBase" __polymorphicType="BuildingBlocks_WidgetPolygon">
+      <styleTags />
+      <position x="0" y="0" z="0" __type="Vec3" />
+      <positionOffset x="0" y="0" z="0" __type="Vec3" />
+      <orientation x="0" y="0" z="0" __type="Deg3" />
+      <orientationOffset x="0" y="0" z="0" __type="Deg3" />
+      <scale x="1" y="1" z="1" __type="Vec3" />
+      <sizing enableMinWidth="0" enableMinHeight="0" enableMaxWidth="0" enableMaxHeight="0" __type="BuildingBlocks_Size">
+        <width value="200" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <height value="200" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <depth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+      </sizing>
+      <padding top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <margin top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <pivot x="0.5" y="0.5" z="0" __type="Vec3" />
+      <anchor x="0.125" y="0.5" z="0" __type="Vec3" />
+      <background enable="0" __type="BuildingBlocks_Background">
+        <color>
+        </color>
+      </background>
+      <segmentedFill enable="0" angle="0" xOffset="0" barFill="0" __type="BuildingBlocks_SegmentedFill">
+        <segmentSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <spaceSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <segmentColor>
+        </segmentColor>
+      </segmentedFill>
+      <border __type="BuildingBlocks_Border">
+        <top width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </top>
+        <right width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </right>
+        <bottom width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </bottom>
+        <left width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </left>
+        <topLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topLeftRadius>
+        <topRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topRightRadius>
+        <bottomLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomLeftRadius>
+        <bottomRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomRightRadius>
+      </border>
+      <layoutPolicy>
+      </layoutPolicy>
+      <layoutPolicyItem>
+      </layoutPolicyItem>
+      <layoutItemCommon>
+      </layoutItemCommon>
+      <dropTargetPolicy>
+      </dropTargetPolicy>
+      <draggablePolicy>
+      </draggablePolicy>
+      <tooltipPolicy>
+      </tooltipPolicy>
+      <grabControlsPolicy>
+      </grabControlsPolicy>
+      <overflow overflow="Visible" widthFadeThreshold="0" heightFadeThreshold="0" fadeXAxis="1" fadeYAxis="1" __type="BuildingBlocks_Overflow" />
+      <scrollPolicy>
+      </scrollPolicy>
+      <radialTransform transformMultiplier="0" mouseTestShape="1" __type="BuildingBlocks_RadialTransform" />
+      <radialTransformChild inheritRotation="1" inheritShapeWarp="1" maintainGapLength="1" __type="BuildingBlocks_RadialTransformChild" />
+      <animation duration="1" delay="0" direction="Forward" fillMode="None" iterationCount="1" loopIndefinitely="0" timeSync="0" additive="1" __type="BuildingBlocks_Animation">
+        <animationTimeline>
+        </animationTimeline>
+      </animation>
+      <interactions canInteract="0" disabled="0" selected="0" collideLeftClick="1" collideRightClick="1" collideMouseWheel="0" hitDetectionOffset="1" propagateInteractionStates="0" inheritHoverState="0" inheritDownState="0" inheritSelectedState="0" inheritDisabledState="0" blocksCursor="0" buttonDownSoundTag="00000000-0000-0000-0000-000000000000" rightButtonDownSoundTag="00000000-0000-0000-0000-000000000000" leftClickSoundTag="00000000-0000-0000-0000-000000000000" rightClickSoundTag="00000000-0000-0000-0000-000000000000" leftDoubleClickSoundTag="00000000-0000-0000-0000-000000000000" rollOverSoundTag="00000000-0000-0000-0000-000000000000" rollOffSoundTag="00000000-0000-0000-0000-000000000000" __type="BuildingBlocks_Interactions">
+        <onLeftClick />
+        <onRightClick />
+        <onLeftDoubleClick />
+        <onRollOver />
+        <onRollOff />
+      </interactions>
+      <inlineStyles />
+      <fillColor>
+        <BuildingBlocks_ColorSolid __type="BuildingBlocks_ColorBase" __polymorphicType="BuildingBlocks_ColorSolid">
+          <color r="12" g="0" b="255" a="255" __type="SRGBA8" />
+        </BuildingBlocks_ColorSolid>
+      </fillColor>
+      <strokeColor>
+        <BuildingBlocks_ColorSolid __type="BuildingBlocks_ColorBase" __polymorphicType="BuildingBlocks_ColorSolid">
+          <color r="255" g="0" b="0" a="255" __type="SRGBA8" />
+        </BuildingBlocks_ColorSolid>
+      </strokeColor>
+    </BuildingBlocks_WidgetPolygon>
+    <BuildingBlocks_GeometryEntityWidget name="fish" primitiveMaterialPath="" rendererType="Entity" parent="null" previewScene="null" isActive="1" canBeVirtual="1" affectsLayout="1" affectsAutosize="1" inheritsScale="1" inheritsRotation="1" inheritsTranslation="1" inheritsAlpha="1" inheritsFadeOverflowAlpha="1" useFlashRenderThreadUpdate="0" alpha="1" layer="5" focusIndex="-1" geometryTag="00000000-0000-0000-0000-000000000000" materialPath="" useCustomPivot="0" dirt="0" wear="0" geometryPath="Objects/animals/fish/Fish_clean_prop_animal_01.cgf" viewDistRatio="100" lodCullDistMultiplier="100" __type="BuildingBlocks_WidgetBase" __polymorphicType="BuildingBlocks_GeometryEntityWidget">
+      <styleTags />
+      <position x="0" y="0" z="0" __type="Vec3" />
+      <positionOffset x="0" y="0" z="0" __type="Vec3" />
+      <orientation x="90" y="90" z="0" __type="Deg3" />
+      <orientationOffset x="0" y="0" z="0" __type="Deg3" />
+      <scale x="1" y="1" z="1" __type="Vec3" />
+      <sizing enableMinWidth="0" enableMinHeight="0" enableMaxWidth="0" enableMaxHeight="0" __type="BuildingBlocks_Size">
+        <width value="1" behavior="Percent" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <height value="1" behavior="Percent" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <depth value="1000" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+      </sizing>
+      <padding top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <margin top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <pivot x="0.5" y="0.5" z="0.5" __type="Vec3" />
+      <anchor x="0.5" y="0.5" z="0" __type="Vec3" />
+      <background enable="0" __type="BuildingBlocks_Background">
+        <color>
+        </color>
+      </background>
+      <segmentedFill enable="0" angle="0" xOffset="0" barFill="0" __type="BuildingBlocks_SegmentedFill">
+        <segmentSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <spaceSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <segmentColor>
+        </segmentColor>
+      </segmentedFill>
+      <border __type="BuildingBlocks_Border">
+        <top width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </top>
+        <right width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </right>
+        <bottom width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </bottom>
+        <left width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </left>
+        <topLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topLeftRadius>
+        <topRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topRightRadius>
+        <bottomLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomLeftRadius>
+        <bottomRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomRightRadius>
+      </border>
+      <layoutPolicy>
+      </layoutPolicy>
+      <layoutPolicyItem>
+      </layoutPolicyItem>
+      <layoutItemCommon>
+      </layoutItemCommon>
+      <dropTargetPolicy>
+      </dropTargetPolicy>
+      <draggablePolicy>
+      </draggablePolicy>
+      <tooltipPolicy>
+      </tooltipPolicy>
+      <grabControlsPolicy>
+      </grabControlsPolicy>
+      <overflow overflow="Visible" widthFadeThreshold="0" heightFadeThreshold="0" fadeXAxis="1" fadeYAxis="1" __type="BuildingBlocks_Overflow" />
+      <scrollPolicy>
+      </scrollPolicy>
+      <radialTransform transformMultiplier="0" mouseTestShape="1" __type="BuildingBlocks_RadialTransform" />
+      <radialTransformChild inheritRotation="1" inheritShapeWarp="1" maintainGapLength="1" __type="BuildingBlocks_RadialTransformChild" />
+      <animation duration="1" delay="0" direction="Forward" fillMode="None" iterationCount="1" loopIndefinitely="0" timeSync="0" additive="1" __type="BuildingBlocks_Animation">
+        <animationTimeline>
+        </animationTimeline>
+      </animation>
+      <interactions canInteract="0" disabled="0" selected="0" collideLeftClick="1" collideRightClick="1" collideMouseWheel="0" hitDetectionOffset="1" propagateInteractionStates="0" inheritHoverState="0" inheritDownState="0" inheritSelectedState="0" inheritDisabledState="0" blocksCursor="0" buttonDownSoundTag="00000000-0000-0000-0000-000000000000" rightButtonDownSoundTag="00000000-0000-0000-0000-000000000000" leftClickSoundTag="00000000-0000-0000-0000-000000000000" rightClickSoundTag="00000000-0000-0000-0000-000000000000" leftDoubleClickSoundTag="00000000-0000-0000-0000-000000000000" rollOverSoundTag="00000000-0000-0000-0000-000000000000" rollOffSoundTag="00000000-0000-0000-0000-000000000000" __type="BuildingBlocks_Interactions">
+        <onLeftClick />
+        <onRightClick />
+        <onLeftDoubleClick />
+        <onRollOver />
+        <onRollOff />
+      </interactions>
+      <inlineStyles />
+      <contentOrientation x="0" y="0" z="0" __type="Deg3" />
+      <effects interferenceAmount="-1" __type="SBuildingBlocks_EntityEffects">
+        <glow>
+        </glow>
+        <tint>
+        </tint>
+        <silhouette>
+        </silhouette>
+      </effects>
+      <loadoutNames />
+      <tintPalette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+      <animationParams>
+      </animationParams>
+    </BuildingBlocks_GeometryEntityWidget>
+    <BuildingBlocks_DisplayWidget name="&lt;unnamed&gt;" primitiveMaterialPath="" rendererType="Flash" parent="null" previewScene="null" isActive="1" canBeVirtual="1" affectsLayout="1" affectsAutosize="1" inheritsScale="1" inheritsRotation="1" inheritsTranslation="1" inheritsAlpha="1" inheritsFadeOverflowAlpha="1" useFlashRenderThreadUpdate="0" alpha="1" layer="5" focusIndex="-1" __type="BuildingBlocks_WidgetBase" __polymorphicType="BuildingBlocks_DisplayWidget">
+      <styleTags />
+      <position x="0" y="0" z="0" __type="Vec3" />
+      <positionOffset x="0" y="0" z="0" __type="Vec3" />
+      <orientation x="0" y="0" z="0" __type="Deg3" />
+      <orientationOffset x="0" y="0" z="0" __type="Deg3" />
+      <scale x="1" y="1" z="1" __type="Vec3" />
+      <sizing enableMinWidth="0" enableMinHeight="0" enableMaxWidth="0" enableMaxHeight="0" __type="BuildingBlocks_Size">
+        <width value="1" behavior="Percent" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <height value="1" behavior="Percent" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <depth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+      </sizing>
+      <padding top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <margin top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <pivot x="0" y="0" z="0" __type="Vec3" />
+      <anchor x="0" y="0" z="0" __type="Vec3" />
+      <background enable="0" __type="BuildingBlocks_Background">
+        <color>
+        </color>
+      </background>
+      <segmentedFill enable="0" angle="0" xOffset="0" barFill="0" __type="BuildingBlocks_SegmentedFill">
+        <segmentSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <spaceSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <segmentColor>
+        </segmentColor>
+      </segmentedFill>
+      <border __type="BuildingBlocks_Border">
+        <top width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </top>
+        <right width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </right>
+        <bottom width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </bottom>
+        <left width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </left>
+        <topLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topLeftRadius>
+        <topRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topRightRadius>
+        <bottomLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomLeftRadius>
+        <bottomRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomRightRadius>
+      </border>
+      <layoutPolicy>
+      </layoutPolicy>
+      <layoutPolicyItem>
+      </layoutPolicyItem>
+      <layoutItemCommon>
+      </layoutItemCommon>
+      <dropTargetPolicy>
+      </dropTargetPolicy>
+      <draggablePolicy>
+      </draggablePolicy>
+      <tooltipPolicy>
+      </tooltipPolicy>
+      <grabControlsPolicy>
+      </grabControlsPolicy>
+      <overflow overflow="Visible" widthFadeThreshold="0" heightFadeThreshold="0" fadeXAxis="1" fadeYAxis="1" __type="BuildingBlocks_Overflow" />
+      <scrollPolicy>
+      </scrollPolicy>
+      <radialTransform transformMultiplier="0" mouseTestShape="1" __type="BuildingBlocks_RadialTransform" />
+      <radialTransformChild inheritRotation="1" inheritShapeWarp="1" maintainGapLength="1" __type="BuildingBlocks_RadialTransformChild" />
+      <animation duration="1" delay="0" direction="Forward" fillMode="None" iterationCount="1" loopIndefinitely="0" timeSync="0" additive="1" __type="BuildingBlocks_Animation">
+        <animationTimeline>
+        </animationTimeline>
+      </animation>
+      <interactions canInteract="0" disabled="0" selected="0" collideLeftClick="1" collideRightClick="1" collideMouseWheel="0" hitDetectionOffset="1" propagateInteractionStates="0" inheritHoverState="0" inheritDownState="0" inheritSelectedState="0" inheritDisabledState="0" blocksCursor="0" buttonDownSoundTag="00000000-0000-0000-0000-000000000000" rightButtonDownSoundTag="00000000-0000-0000-0000-000000000000" leftClickSoundTag="00000000-0000-0000-0000-000000000000" rightClickSoundTag="00000000-0000-0000-0000-000000000000" leftDoubleClickSoundTag="00000000-0000-0000-0000-000000000000" rollOverSoundTag="00000000-0000-0000-0000-000000000000" rollOffSoundTag="00000000-0000-0000-0000-000000000000" __type="BuildingBlocks_Interactions">
+        <onLeftClick />
+        <onRightClick />
+        <onLeftDoubleClick />
+        <onRollOver />
+        <onRollOff />
+      </interactions>
+      <inlineStyles />
+    </BuildingBlocks_DisplayWidget>
+    <BuildingBlocks_DisplayWidget name="3D red prim" primitiveMaterialPath="" rendererType="Primitive" parent="null" previewScene="null" isActive="1" canBeVirtual="1" affectsLayout="1" affectsAutosize="1" inheritsScale="1" inheritsRotation="1" inheritsTranslation="1" inheritsAlpha="1" inheritsFadeOverflowAlpha="1" useFlashRenderThreadUpdate="0" alpha="1" layer="5" focusIndex="-1" __type="BuildingBlocks_WidgetBase" __polymorphicType="BuildingBlocks_DisplayWidget">
+      <styleTags />
+      <position x="-1" y="-1" z="0" __type="Vec3" />
+      <positionOffset x="0" y="0" z="0" __type="Vec3" />
+      <orientation x="0" y="0" z="0" __type="Deg3" />
+      <orientationOffset x="0" y="0" z="0" __type="Deg3" />
+      <scale x="1" y="1" z="1" __type="Vec3" />
+      <sizing enableMinWidth="0" enableMinHeight="0" enableMaxWidth="0" enableMaxHeight="0" __type="BuildingBlocks_Size">
+        <width value="0.8" behavior="Percent" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <height value="0.8" behavior="Percent" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <depth value="1" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+      </sizing>
+      <padding top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <margin top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <pivot x="0.5" y="0.5" z="0" __type="Vec3" />
+      <anchor x="0.5" y="0.5" z="0" __type="Vec3" />
+      <background enable="1" __type="BuildingBlocks_Background">
+        <color>
+          <BuildingBlocks_ColorSolid __type="BuildingBlocks_ColorBase" __polymorphicType="BuildingBlocks_ColorSolid">
+            <color r="106" g="29" b="29" a="57" __type="SRGBA8" />
+          </BuildingBlocks_ColorSolid>
+        </color>
+      </background>
+      <segmentedFill enable="0" angle="0" xOffset="0" barFill="0" __type="BuildingBlocks_SegmentedFill">
+        <segmentSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <spaceSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <segmentColor>
+        </segmentColor>
+      </segmentedFill>
+      <border __type="BuildingBlocks_Border">
+        <top width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </top>
+        <right width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </right>
+        <bottom width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </bottom>
+        <left width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </left>
+        <topLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topLeftRadius>
+        <topRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topRightRadius>
+        <bottomLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomLeftRadius>
+        <bottomRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomRightRadius>
+      </border>
+      <layoutPolicy>
+      </layoutPolicy>
+      <layoutPolicyItem>
+      </layoutPolicyItem>
+      <layoutItemCommon>
+      </layoutItemCommon>
+      <dropTargetPolicy>
+      </dropTargetPolicy>
+      <draggablePolicy>
+      </draggablePolicy>
+      <tooltipPolicy>
+      </tooltipPolicy>
+      <grabControlsPolicy>
+      </grabControlsPolicy>
+      <overflow overflow="Visible" widthFadeThreshold="0" heightFadeThreshold="0" fadeXAxis="1" fadeYAxis="1" __type="BuildingBlocks_Overflow" />
+      <scrollPolicy>
+      </scrollPolicy>
+      <radialTransform transformMultiplier="0" mouseTestShape="1" __type="BuildingBlocks_RadialTransform" />
+      <radialTransformChild inheritRotation="1" inheritShapeWarp="1" maintainGapLength="1" __type="BuildingBlocks_RadialTransformChild" />
+      <animation duration="1" delay="0" direction="Forward" fillMode="None" iterationCount="1" loopIndefinitely="0" timeSync="0" additive="1" __type="BuildingBlocks_Animation">
+        <animationTimeline>
+        </animationTimeline>
+      </animation>
+      <interactions canInteract="0" disabled="0" selected="0" collideLeftClick="1" collideRightClick="1" collideMouseWheel="0" hitDetectionOffset="1" propagateInteractionStates="0" inheritHoverState="0" inheritDownState="0" inheritSelectedState="0" inheritDisabledState="0" blocksCursor="0" buttonDownSoundTag="00000000-0000-0000-0000-000000000000" rightButtonDownSoundTag="00000000-0000-0000-0000-000000000000" leftClickSoundTag="00000000-0000-0000-0000-000000000000" rightClickSoundTag="00000000-0000-0000-0000-000000000000" leftDoubleClickSoundTag="00000000-0000-0000-0000-000000000000" rollOverSoundTag="00000000-0000-0000-0000-000000000000" rollOffSoundTag="00000000-0000-0000-0000-000000000000" __type="BuildingBlocks_Interactions">
+        <onLeftClick />
+        <onRightClick />
+        <onLeftDoubleClick />
+        <onRollOver />
+        <onRollOff />
+      </interactions>
+      <inlineStyles />
+    </BuildingBlocks_DisplayWidget>
+    <BuildingBlocks_DisplayWidget name="2D white outline" primitiveMaterialPath="" rendererType="Flash" parent="" previewScene="null" isActive="1" canBeVirtual="1" affectsLayout="1" affectsAutosize="1" inheritsScale="1" inheritsRotation="1" inheritsTranslation="1" inheritsAlpha="1" inheritsFadeOverflowAlpha="1" useFlashRenderThreadUpdate="0" alpha="1" layer="5" focusIndex="-1" __type="BuildingBlocks_WidgetBase" __polymorphicType="BuildingBlocks_DisplayWidget">
+      <styleTags />
+      <position x="0" y="0" z="0" __type="Vec3" />
+      <positionOffset x="0" y="0" z="0" __type="Vec3" />
+      <orientation x="0" y="0" z="0" __type="Deg3" />
+      <orientationOffset x="0" y="0" z="0" __type="Deg3" />
+      <scale x="1" y="1" z="1" __type="Vec3" />
+      <sizing enableMinWidth="0" enableMinHeight="0" enableMaxWidth="0" enableMaxHeight="0" __type="BuildingBlocks_Size">
+        <width value="1" behavior="Percent" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <height value="1" behavior="Percent" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <depth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+      </sizing>
+      <padding top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <margin top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <pivot x="0" y="0" z="0" __type="Vec3" />
+      <anchor x="0" y="0" z="0" __type="Vec3" />
+      <background enable="0" __type="BuildingBlocks_Background">
+        <color>
+          <BuildingBlocks_ColorSolid __type="BuildingBlocks_ColorBase" __polymorphicType="BuildingBlocks_ColorSolid">
+            <color r="15" g="193" b="19" a="255" __type="SRGBA8" />
+          </BuildingBlocks_ColorSolid>
+        </color>
+      </background>
+      <segmentedFill enable="0" angle="0" xOffset="0" barFill="0" __type="BuildingBlocks_SegmentedFill">
+        <segmentSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <spaceSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <segmentColor>
+        </segmentColor>
+      </segmentedFill>
+      <border __type="BuildingBlocks_Border">
+        <top width="2" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </top>
+        <right width="2" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </right>
+        <bottom width="2" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </bottom>
+        <left width="2" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </left>
+        <topLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topLeftRadius>
+        <topRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topRightRadius>
+        <bottomLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomLeftRadius>
+        <bottomRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomRightRadius>
+      </border>
+      <layoutPolicy>
+      </layoutPolicy>
+      <layoutPolicyItem>
+      </layoutPolicyItem>
+      <layoutItemCommon>
+      </layoutItemCommon>
+      <dropTargetPolicy>
+      </dropTargetPolicy>
+      <draggablePolicy>
+      </draggablePolicy>
+      <tooltipPolicy>
+      </tooltipPolicy>
+      <grabControlsPolicy>
+      </grabControlsPolicy>
+      <overflow overflow="Visible" widthFadeThreshold="0" heightFadeThreshold="0" fadeXAxis="1" fadeYAxis="1" __type="BuildingBlocks_Overflow" />
+      <scrollPolicy>
+      </scrollPolicy>
+      <radialTransform transformMultiplier="0" mouseTestShape="1" __type="BuildingBlocks_RadialTransform" />
+      <radialTransformChild inheritRotation="1" inheritShapeWarp="1" maintainGapLength="1" __type="BuildingBlocks_RadialTransformChild" />
+      <animation duration="1" delay="0" direction="Forward" fillMode="None" iterationCount="1" loopIndefinitely="0" timeSync="0" additive="1" __type="BuildingBlocks_Animation">
+        <animationTimeline>
+        </animationTimeline>
+      </animation>
+      <interactions canInteract="0" disabled="0" selected="0" collideLeftClick="1" collideRightClick="1" collideMouseWheel="0" hitDetectionOffset="1" propagateInteractionStates="0" inheritHoverState="0" inheritDownState="0" inheritSelectedState="0" inheritDisabledState="0" blocksCursor="0" buttonDownSoundTag="00000000-0000-0000-0000-000000000000" rightButtonDownSoundTag="00000000-0000-0000-0000-000000000000" leftClickSoundTag="00000000-0000-0000-0000-000000000000" rightClickSoundTag="00000000-0000-0000-0000-000000000000" leftDoubleClickSoundTag="00000000-0000-0000-0000-000000000000" rollOverSoundTag="00000000-0000-0000-0000-000000000000" rollOffSoundTag="00000000-0000-0000-0000-000000000000" __type="BuildingBlocks_Interactions">
+        <onLeftClick />
+        <onRightClick />
+        <onLeftDoubleClick />
+        <onRollOver />
+        <onRollOff />
+      </interactions>
+      <inlineStyles />
+    </BuildingBlocks_DisplayWidget>
+    <BuildingBlocks_DisplayWidget name="&lt;unnamed&gt;" primitiveMaterialPath="" rendererType="Flash" parent="null" previewScene="null" isActive="1" canBeVirtual="1" affectsLayout="1" affectsAutosize="1" inheritsScale="1" inheritsRotation="1" inheritsTranslation="1" inheritsAlpha="1" inheritsFadeOverflowAlpha="1" useFlashRenderThreadUpdate="0" alpha="1" layer="5" focusIndex="-1" __type="BuildingBlocks_WidgetBase" __polymorphicType="BuildingBlocks_DisplayWidget">
+      <styleTags />
+      <position x="0" y="0" z="0" __type="Vec3" />
+      <positionOffset x="0" y="0" z="0" __type="Vec3" />
+      <orientation x="0" y="0" z="0" __type="Deg3" />
+      <orientationOffset x="0" y="0" z="0" __type="Deg3" />
+      <scale x="1" y="1" z="1" __type="Vec3" />
+      <sizing enableMinWidth="0" enableMinHeight="0" enableMaxWidth="0" enableMaxHeight="0" __type="BuildingBlocks_Size">
+        <width value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <height value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <depth value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+      </sizing>
+      <padding top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <margin top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <pivot x="0" y="0" z="0" __type="Vec3" />
+      <anchor x="0" y="0" z="0" __type="Vec3" />
+      <background enable="1" __type="BuildingBlocks_Background">
+        <color>
+        </color>
+      </background>
+      <segmentedFill enable="0" angle="0" xOffset="0" barFill="0" __type="BuildingBlocks_SegmentedFill">
+        <segmentSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <spaceSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <segmentColor>
+        </segmentColor>
+      </segmentedFill>
+      <border __type="BuildingBlocks_Border">
+        <top width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </top>
+        <right width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </right>
+        <bottom width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </bottom>
+        <left width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </left>
+        <topLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topLeftRadius>
+        <topRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topRightRadius>
+        <bottomLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomLeftRadius>
+        <bottomRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomRightRadius>
+      </border>
+      <layoutPolicy>
+      </layoutPolicy>
+      <layoutPolicyItem>
+      </layoutPolicyItem>
+      <layoutItemCommon>
+      </layoutItemCommon>
+      <dropTargetPolicy>
+      </dropTargetPolicy>
+      <draggablePolicy>
+      </draggablePolicy>
+      <tooltipPolicy>
+      </tooltipPolicy>
+      <grabControlsPolicy>
+      </grabControlsPolicy>
+      <overflow overflow="Visible" widthFadeThreshold="0" heightFadeThreshold="0" fadeXAxis="1" fadeYAxis="1" __type="BuildingBlocks_Overflow" />
+      <scrollPolicy>
+      </scrollPolicy>
+      <radialTransform transformMultiplier="0" mouseTestShape="1" __type="BuildingBlocks_RadialTransform" />
+      <radialTransformChild inheritRotation="1" inheritShapeWarp="1" maintainGapLength="1" __type="BuildingBlocks_RadialTransformChild" />
+      <animation duration="1" delay="0" direction="Forward" fillMode="None" iterationCount="1" loopIndefinitely="0" timeSync="0" additive="1" __type="BuildingBlocks_Animation">
+        <animationTimeline>
+        </animationTimeline>
+      </animation>
+      <interactions canInteract="0" disabled="0" selected="0" collideLeftClick="1" collideRightClick="1" collideMouseWheel="0" hitDetectionOffset="1" propagateInteractionStates="0" inheritHoverState="0" inheritDownState="0" inheritSelectedState="0" inheritDisabledState="0" blocksCursor="0" buttonDownSoundTag="00000000-0000-0000-0000-000000000000" rightButtonDownSoundTag="00000000-0000-0000-0000-000000000000" leftClickSoundTag="00000000-0000-0000-0000-000000000000" rightClickSoundTag="00000000-0000-0000-0000-000000000000" leftDoubleClickSoundTag="00000000-0000-0000-0000-000000000000" rollOverSoundTag="00000000-0000-0000-0000-000000000000" rollOffSoundTag="00000000-0000-0000-0000-000000000000" __type="BuildingBlocks_Interactions">
+        <onLeftClick />
+        <onRightClick />
+        <onLeftDoubleClick />
+        <onRollOver />
+        <onRollOff />
+      </interactions>
+      <inlineStyles />
+    </BuildingBlocks_DisplayWidget>
+    <BuildingBlocks_DisplayWidget name="3D green prim" primitiveMaterialPath="" rendererType="Primitive" parent="null" previewScene="null" isActive="0" canBeVirtual="1" affectsLayout="1" affectsAutosize="1" inheritsScale="1" inheritsRotation="1" inheritsTranslation="1" inheritsAlpha="1" inheritsFadeOverflowAlpha="1" useFlashRenderThreadUpdate="0" alpha="1" layer="5" focusIndex="-1" __type="BuildingBlocks_WidgetBase" __polymorphicType="BuildingBlocks_DisplayWidget">
+      <styleTags />
+      <position x="-1" y="-1" z="-100" __type="Vec3" />
+      <positionOffset x="0" y="0" z="0" __type="Vec3" />
+      <orientation x="0" y="0" z="0" __type="Deg3" />
+      <orientationOffset x="0" y="0" z="0" __type="Deg3" />
+      <scale x="1" y="1" z="1" __type="Vec3" />
+      <sizing enableMinWidth="0" enableMinHeight="0" enableMaxWidth="0" enableMaxHeight="0" __type="BuildingBlocks_Size">
+        <width value="0.2" behavior="Percent" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <height value="0.2" behavior="Percent" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <depth value="1" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+      </sizing>
+      <padding top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <margin top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <pivot x="0.5" y="0.5" z="0" __type="Vec3" />
+      <anchor x="0.5" y="0.5" z="0" __type="Vec3" />
+      <background enable="1" __type="BuildingBlocks_Background">
+        <color>
+          <BuildingBlocks_ColorSolid __type="BuildingBlocks_ColorBase" __polymorphicType="BuildingBlocks_ColorSolid">
+            <color r="106" g="255" b="29" a="255" __type="SRGBA8" />
+          </BuildingBlocks_ColorSolid>
+        </color>
+      </background>
+      <segmentedFill enable="0" angle="0" xOffset="0" barFill="0" __type="BuildingBlocks_SegmentedFill">
+        <segmentSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <spaceSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <segmentColor>
+        </segmentColor>
+      </segmentedFill>
+      <border __type="BuildingBlocks_Border">
+        <top width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </top>
+        <right width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </right>
+        <bottom width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </bottom>
+        <left width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </left>
+        <topLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topLeftRadius>
+        <topRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topRightRadius>
+        <bottomLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomLeftRadius>
+        <bottomRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomRightRadius>
+      </border>
+      <layoutPolicy>
+      </layoutPolicy>
+      <layoutPolicyItem>
+      </layoutPolicyItem>
+      <layoutItemCommon>
+      </layoutItemCommon>
+      <dropTargetPolicy>
+      </dropTargetPolicy>
+      <draggablePolicy>
+      </draggablePolicy>
+      <tooltipPolicy>
+      </tooltipPolicy>
+      <grabControlsPolicy>
+      </grabControlsPolicy>
+      <overflow overflow="Visible" widthFadeThreshold="0" heightFadeThreshold="0" fadeXAxis="1" fadeYAxis="1" __type="BuildingBlocks_Overflow" />
+      <scrollPolicy>
+      </scrollPolicy>
+      <radialTransform transformMultiplier="0" mouseTestShape="1" __type="BuildingBlocks_RadialTransform" />
+      <radialTransformChild inheritRotation="1" inheritShapeWarp="1" maintainGapLength="1" __type="BuildingBlocks_RadialTransformChild" />
+      <animation duration="1" delay="0" direction="Forward" fillMode="None" iterationCount="1" loopIndefinitely="0" timeSync="0" additive="1" __type="BuildingBlocks_Animation">
+        <animationTimeline>
+        </animationTimeline>
+      </animation>
+      <interactions canInteract="0" disabled="0" selected="0" collideLeftClick="1" collideRightClick="1" collideMouseWheel="0" hitDetectionOffset="1" propagateInteractionStates="0" inheritHoverState="0" inheritDownState="0" inheritSelectedState="0" inheritDisabledState="0" blocksCursor="0" buttonDownSoundTag="00000000-0000-0000-0000-000000000000" rightButtonDownSoundTag="00000000-0000-0000-0000-000000000000" leftClickSoundTag="00000000-0000-0000-0000-000000000000" rightClickSoundTag="00000000-0000-0000-0000-000000000000" leftDoubleClickSoundTag="00000000-0000-0000-0000-000000000000" rollOverSoundTag="00000000-0000-0000-0000-000000000000" rollOffSoundTag="00000000-0000-0000-0000-000000000000" __type="BuildingBlocks_Interactions">
+        <onLeftClick />
+        <onRightClick />
+        <onLeftDoubleClick />
+        <onRollOver />
+        <onRollOff />
+      </interactions>
+      <inlineStyles />
+    </BuildingBlocks_DisplayWidget>
+    <BuildingBlocks_DisplayWidget name="3D world prim" primitiveMaterialPath="" rendererType="Primitive" parent="null" previewScene="null" isActive="1" canBeVirtual="1" affectsLayout="1" affectsAutosize="1" inheritsScale="1" inheritsRotation="1" inheritsTranslation="1" inheritsAlpha="1" inheritsFadeOverflowAlpha="1" useFlashRenderThreadUpdate="0" alpha="0.5" layer="5" focusIndex="-1" __type="BuildingBlocks_WidgetBase" __polymorphicType="BuildingBlocks_DisplayWidget">
+      <styleTags />
+      <position x="-0.5" y="0" z="0" __type="Vec3" />
+      <positionOffset x="0" y="0" z="0" __type="Vec3" />
+      <orientation x="0" y="0" z="0" __type="Deg3" />
+      <orientationOffset x="0" y="0" z="0" __type="Deg3" />
+      <scale x="1" y="1" z="1" __type="Vec3" />
+      <sizing enableMinWidth="0" enableMinHeight="0" enableMaxWidth="0" enableMaxHeight="0" __type="BuildingBlocks_Size">
+        <width value="0.2" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <height value="0.2" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <depth value="0.2" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+      </sizing>
+      <padding top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <margin top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <pivot x="0" y="0" z="0" __type="Vec3" />
+      <anchor x="0" y="0" z="0" __type="Vec3" />
+      <background enable="1" __type="BuildingBlocks_Background">
+        <color>
+          <BuildingBlocks_ColorSolid __type="BuildingBlocks_ColorBase" __polymorphicType="BuildingBlocks_ColorSolid">
+            <color r="106" g="255" b="29" a="255" __type="SRGBA8" />
+          </BuildingBlocks_ColorSolid>
+        </color>
+      </background>
+      <segmentedFill enable="0" angle="0" xOffset="0" barFill="0" __type="BuildingBlocks_SegmentedFill">
+        <segmentSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <spaceSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <segmentColor>
+        </segmentColor>
+      </segmentedFill>
+      <border __type="BuildingBlocks_Border">
+        <top width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </top>
+        <right width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </right>
+        <bottom width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </bottom>
+        <left width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </left>
+        <topLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topLeftRadius>
+        <topRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topRightRadius>
+        <bottomLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomLeftRadius>
+        <bottomRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomRightRadius>
+      </border>
+      <layoutPolicy>
+      </layoutPolicy>
+      <layoutPolicyItem>
+      </layoutPolicyItem>
+      <layoutItemCommon>
+      </layoutItemCommon>
+      <dropTargetPolicy>
+      </dropTargetPolicy>
+      <draggablePolicy>
+      </draggablePolicy>
+      <tooltipPolicy>
+      </tooltipPolicy>
+      <grabControlsPolicy>
+      </grabControlsPolicy>
+      <overflow overflow="Visible" widthFadeThreshold="0" heightFadeThreshold="0" fadeXAxis="1" fadeYAxis="1" __type="BuildingBlocks_Overflow" />
+      <scrollPolicy>
+      </scrollPolicy>
+      <radialTransform transformMultiplier="0" mouseTestShape="1" __type="BuildingBlocks_RadialTransform" />
+      <radialTransformChild inheritRotation="1" inheritShapeWarp="1" maintainGapLength="1" __type="BuildingBlocks_RadialTransformChild" />
+      <animation duration="1" delay="0" direction="Forward" fillMode="None" iterationCount="1" loopIndefinitely="0" timeSync="0" additive="1" __type="BuildingBlocks_Animation">
+        <animationTimeline>
+        </animationTimeline>
+      </animation>
+      <interactions canInteract="0" disabled="0" selected="0" collideLeftClick="1" collideRightClick="1" collideMouseWheel="0" hitDetectionOffset="1" propagateInteractionStates="0" inheritHoverState="0" inheritDownState="0" inheritSelectedState="0" inheritDisabledState="0" blocksCursor="0" buttonDownSoundTag="00000000-0000-0000-0000-000000000000" rightButtonDownSoundTag="00000000-0000-0000-0000-000000000000" leftClickSoundTag="00000000-0000-0000-0000-000000000000" rightClickSoundTag="00000000-0000-0000-0000-000000000000" leftDoubleClickSoundTag="00000000-0000-0000-0000-000000000000" rollOverSoundTag="00000000-0000-0000-0000-000000000000" rollOffSoundTag="00000000-0000-0000-0000-000000000000" __type="BuildingBlocks_Interactions">
+        <onLeftClick />
+        <onRightClick />
+        <onLeftDoubleClick />
+        <onRollOver />
+        <onRollOff />
+      </interactions>
+      <inlineStyles />
+    </BuildingBlocks_DisplayWidget>
+    <BuildingBlocks_VehicleEntityWidget name="Hornet" primitiveMaterialPath="" rendererType="Entity" parent="null" previewScene="null" isActive="1" canBeVirtual="1" affectsLayout="1" affectsAutosize="1" inheritsScale="1" inheritsRotation="1" inheritsTranslation="1" inheritsAlpha="1" inheritsFadeOverflowAlpha="1" useFlashRenderThreadUpdate="0" alpha="1" layer="5" focusIndex="-1" geometryTag="00000000-0000-0000-0000-000000000000" materialPath="" useCustomPivot="0" dirt="0" wear="0" class="26c25ff6-fd3c-48f5-babc-4018ef780031" __type="BuildingBlocks_WidgetBase" __polymorphicType="BuildingBlocks_VehicleEntityWidget">
+      <styleTags />
+      <position x="0" y="0" z="0" __type="Vec3" />
+      <positionOffset x="0" y="0" z="0" __type="Vec3" />
+      <orientation x="0" y="180" z="0" __type="Deg3" />
+      <orientationOffset x="0" y="0" z="0" __type="Deg3" />
+      <scale x="1" y="1" z="1" __type="Vec3" />
+      <sizing enableMinWidth="0" enableMinHeight="0" enableMaxWidth="0" enableMaxHeight="0" __type="BuildingBlocks_Size">
+        <width value="1080" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <height value="1080" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <depth value="1080" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+      </sizing>
+      <padding top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <margin top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <pivot x="0.5" y="0.5" z="0.5" __type="Vec3" />
+      <anchor x="0.5" y="0.5" z="0.5" __type="Vec3" />
+      <background enable="0" __type="BuildingBlocks_Background">
+        <color>
+        </color>
+      </background>
+      <segmentedFill enable="0" angle="0" xOffset="0" barFill="0" __type="BuildingBlocks_SegmentedFill">
+        <segmentSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <spaceSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <segmentColor>
+        </segmentColor>
+      </segmentedFill>
+      <border __type="BuildingBlocks_Border">
+        <top width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </top>
+        <right width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </right>
+        <bottom width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </bottom>
+        <left width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </left>
+        <topLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topLeftRadius>
+        <topRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topRightRadius>
+        <bottomLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomLeftRadius>
+        <bottomRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomRightRadius>
+      </border>
+      <layoutPolicy>
+      </layoutPolicy>
+      <layoutPolicyItem>
+      </layoutPolicyItem>
+      <layoutItemCommon>
+      </layoutItemCommon>
+      <dropTargetPolicy>
+      </dropTargetPolicy>
+      <draggablePolicy>
+      </draggablePolicy>
+      <tooltipPolicy>
+      </tooltipPolicy>
+      <grabControlsPolicy>
+      </grabControlsPolicy>
+      <overflow overflow="Visible" widthFadeThreshold="0" heightFadeThreshold="0" fadeXAxis="1" fadeYAxis="1" __type="BuildingBlocks_Overflow" />
+      <scrollPolicy>
+      </scrollPolicy>
+      <radialTransform transformMultiplier="0" mouseTestShape="1" __type="BuildingBlocks_RadialTransform" />
+      <radialTransformChild inheritRotation="1" inheritShapeWarp="1" maintainGapLength="1" __type="BuildingBlocks_RadialTransformChild" />
+      <animation duration="1" delay="0" direction="Forward" fillMode="None" iterationCount="1" loopIndefinitely="0" timeSync="0" additive="1" __type="BuildingBlocks_Animation">
+        <animationTimeline>
+        </animationTimeline>
+      </animation>
+      <interactions canInteract="0" disabled="0" selected="0" collideLeftClick="1" collideRightClick="1" collideMouseWheel="0" hitDetectionOffset="1" propagateInteractionStates="0" inheritHoverState="0" inheritDownState="0" inheritSelectedState="0" inheritDisabledState="0" blocksCursor="0" buttonDownSoundTag="00000000-0000-0000-0000-000000000000" rightButtonDownSoundTag="00000000-0000-0000-0000-000000000000" leftClickSoundTag="00000000-0000-0000-0000-000000000000" rightClickSoundTag="00000000-0000-0000-0000-000000000000" leftDoubleClickSoundTag="00000000-0000-0000-0000-000000000000" rollOverSoundTag="00000000-0000-0000-0000-000000000000" rollOffSoundTag="00000000-0000-0000-0000-000000000000" __type="BuildingBlocks_Interactions">
+        <onLeftClick />
+        <onRightClick />
+        <onLeftDoubleClick />
+        <onRollOver />
+        <onRollOff />
+      </interactions>
+      <inlineStyles />
+      <contentOrientation x="0" y="0" z="0" __type="Deg3" />
+      <effects interferenceAmount="-1" __type="SBuildingBlocks_EntityEffects">
+        <glow>
+        </glow>
+        <tint>
+        </tint>
+        <silhouette>
+        </silhouette>
+      </effects>
+      <loadoutNames />
+      <tintPalette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+    </BuildingBlocks_VehicleEntityWidget>
+    <BuildingBlocks_ActorEntityWidget name="RTT Everything" primitiveMaterialPath="" rendererType="Entity" parent="null" previewScene="null" isActive="0" canBeVirtual="1" affectsLayout="1" affectsAutosize="1" inheritsScale="1" inheritsRotation="1" inheritsTranslation="1" inheritsAlpha="1" inheritsFadeOverflowAlpha="1" useFlashRenderThreadUpdate="0" alpha="1" layer="5" focusIndex="-1" geometryTag="00000000-0000-0000-0000-000000000000" materialPath="" useCustomPivot="0" dirt="0" wear="0" idleAnimName="char_customizer_stand_idle_01" facialAnimName="generic_character_customizer_01_face" __type="BuildingBlocks_WidgetBase" __polymorphicType="BuildingBlocks_ActorEntityWidget">
+      <styleTags />
+      <position x="0" y="0" z="0" __type="Vec3" />
+      <positionOffset x="0" y="0" z="0" __type="Vec3" />
+      <orientation x="-90" y="-128" z="180" __type="Deg3" />
+      <orientationOffset x="0" y="0" z="0" __type="Deg3" />
+      <scale x="1" y="1" z="1" __type="Vec3" />
+      <sizing enableMinWidth="0" enableMinHeight="0" enableMaxWidth="0" enableMaxHeight="0" __type="BuildingBlocks_Size">
+        <width value="1" behavior="Percent" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <height value="1" behavior="Percent" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <depth value="1080" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+      </sizing>
+      <padding top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <margin top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <pivot x="0.5" y="0.5" z="0.5" __type="Vec3" />
+      <anchor x="0.5" y="0.5" z="0.5" __type="Vec3" />
+      <background enable="0" __type="BuildingBlocks_Background">
+        <color>
+        </color>
+      </background>
+      <segmentedFill enable="0" angle="0" xOffset="0" barFill="0" __type="BuildingBlocks_SegmentedFill">
+        <segmentSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <spaceSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <segmentColor>
+        </segmentColor>
+      </segmentedFill>
+      <border __type="BuildingBlocks_Border">
+        <top width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </top>
+        <right width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </right>
+        <bottom width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </bottom>
+        <left width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </left>
+        <topLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topLeftRadius>
+        <topRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topRightRadius>
+        <bottomLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomLeftRadius>
+        <bottomRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomRightRadius>
+      </border>
+      <layoutPolicy>
+      </layoutPolicy>
+      <layoutPolicyItem>
+      </layoutPolicyItem>
+      <layoutItemCommon>
+      </layoutItemCommon>
+      <dropTargetPolicy>
+      </dropTargetPolicy>
+      <draggablePolicy>
+      </draggablePolicy>
+      <tooltipPolicy>
+      </tooltipPolicy>
+      <grabControlsPolicy>
+      </grabControlsPolicy>
+      <overflow overflow="Visible" widthFadeThreshold="0" heightFadeThreshold="0" fadeXAxis="1" fadeYAxis="1" __type="BuildingBlocks_Overflow" />
+      <scrollPolicy>
+      </scrollPolicy>
+      <radialTransform transformMultiplier="0" mouseTestShape="1" __type="BuildingBlocks_RadialTransform" />
+      <radialTransformChild inheritRotation="1" inheritShapeWarp="1" maintainGapLength="1" __type="BuildingBlocks_RadialTransformChild" />
+      <animation duration="1" delay="0" direction="Forward" fillMode="None" iterationCount="1" loopIndefinitely="0" timeSync="0" additive="1" __type="BuildingBlocks_Animation">
+        <animationTimeline>
+        </animationTimeline>
+      </animation>
+      <interactions canInteract="0" disabled="0" selected="0" collideLeftClick="1" collideRightClick="1" collideMouseWheel="0" hitDetectionOffset="1" propagateInteractionStates="0" inheritHoverState="0" inheritDownState="0" inheritSelectedState="0" inheritDisabledState="0" blocksCursor="0" buttonDownSoundTag="00000000-0000-0000-0000-000000000000" rightButtonDownSoundTag="00000000-0000-0000-0000-000000000000" leftClickSoundTag="00000000-0000-0000-0000-000000000000" rightClickSoundTag="00000000-0000-0000-0000-000000000000" leftDoubleClickSoundTag="00000000-0000-0000-0000-000000000000" rollOverSoundTag="00000000-0000-0000-0000-000000000000" rollOffSoundTag="00000000-0000-0000-0000-000000000000" __type="BuildingBlocks_Interactions">
+        <onLeftClick />
+        <onRightClick />
+        <onLeftDoubleClick />
+        <onRollOver />
+        <onRollOff />
+      </interactions>
+      <inlineStyles />
+      <contentOrientation x="0" y="0" z="0" __type="Deg3" />
+      <effects interferenceAmount="-1" __type="SBuildingBlocks_EntityEffects">
+        <glow>
+        </glow>
+        <tint>
+        </tint>
+        <silhouette>
+        </silhouette>
+      </effects>
+      <loadoutNames>
+        <String value="Scripts/Loadouts/Player/StarMarine/StarMarine_Marine_Light.xml" />
+      </loadoutNames>
+      <tintPalette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+    </BuildingBlocks_ActorEntityWidget>
+    <BuildingBlocks_ActorEntityWidget name="World Everything" primitiveMaterialPath="" rendererType="Entity" parent="null" previewScene="null" isActive="0" canBeVirtual="1" affectsLayout="1" affectsAutosize="1" inheritsScale="1" inheritsRotation="1" inheritsTranslation="1" inheritsAlpha="1" inheritsFadeOverflowAlpha="1" useFlashRenderThreadUpdate="0" alpha="1" layer="5" focusIndex="-1" geometryTag="00000000-0000-0000-0000-000000000000" materialPath="" useCustomPivot="0" dirt="0" wear="0" idleAnimName="charselect_med_outlaw" facialAnimName="generic_character_customizer_01_face" __type="BuildingBlocks_WidgetBase" __polymorphicType="BuildingBlocks_ActorEntityWidget">
+      <styleTags />
+      <position x="-1" y="0" z="0" __type="Vec3" />
+      <positionOffset x="0" y="0" z="0" __type="Vec3" />
+      <orientation x="0" y="0" z="0" __type="Deg3" />
+      <orientationOffset x="0" y="0" z="0" __type="Deg3" />
+      <scale x="1" y="1" z="1" __type="Vec3" />
+      <sizing enableMinWidth="0" enableMinHeight="0" enableMaxWidth="0" enableMaxHeight="0" __type="BuildingBlocks_Size">
+        <width value="1" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <height value="1" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <depth value="1" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <minHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxWidth value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <maxHeight value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+      </sizing>
+      <padding top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <margin top="0" right="0" bottom="0" left="0" __type="BuildingBlocks_TRBL" />
+      <pivot x="0.5" y="0.5" z="0.5" __type="Vec3" />
+      <anchor x="0" y="0" z="0" __type="Vec3" />
+      <background enable="0" __type="BuildingBlocks_Background">
+        <color>
+        </color>
+      </background>
+      <segmentedFill enable="0" angle="0" xOffset="0" barFill="0" __type="BuildingBlocks_SegmentedFill">
+        <segmentSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <spaceSize value="64" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        <segmentColor>
+        </segmentColor>
+      </segmentedFill>
+      <border __type="BuildingBlocks_Border">
+        <top width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </top>
+        <right width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </right>
+        <bottom width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </bottom>
+        <left width="0" __type="BuildingBlocks_BorderSide">
+          <color>
+          </color>
+        </left>
+        <topLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topLeftRadius>
+        <topRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </topRightRadius>
+        <bottomLeftRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomLeftRadius>
+        <bottomRightRadius chamfer="0" __type="BuildingBlocks_BorderRadiusCorner">
+          <radius value="0" behavior="Fixed" __type="BuildingBlocks_FixedOrRelativeValue" />
+        </bottomRightRadius>
+      </border>
+      <layoutPolicy>
+      </layoutPolicy>
+      <layoutPolicyItem>
+      </layoutPolicyItem>
+      <layoutItemCommon>
+      </layoutItemCommon>
+      <dropTargetPolicy>
+      </dropTargetPolicy>
+      <draggablePolicy>
+      </draggablePolicy>
+      <tooltipPolicy>
+      </tooltipPolicy>
+      <grabControlsPolicy>
+      </grabControlsPolicy>
+      <overflow overflow="Visible" widthFadeThreshold="0" heightFadeThreshold="0" fadeXAxis="1" fadeYAxis="1" __type="BuildingBlocks_Overflow" />
+      <scrollPolicy>
+      </scrollPolicy>
+      <radialTransform transformMultiplier="0" mouseTestShape="1" __type="BuildingBlocks_RadialTransform" />
+      <radialTransformChild inheritRotation="1" inheritShapeWarp="1" maintainGapLength="1" __type="BuildingBlocks_RadialTransformChild" />
+      <animation duration="1" delay="0" direction="Forward" fillMode="None" iterationCount="1" loopIndefinitely="0" timeSync="0" additive="1" __type="BuildingBlocks_Animation">
+        <animationTimeline>
+        </animationTimeline>
+      </animation>
+      <interactions canInteract="0" disabled="0" selected="0" collideLeftClick="1" collideRightClick="1" collideMouseWheel="0" hitDetectionOffset="1" propagateInteractionStates="0" inheritHoverState="0" inheritDownState="0" inheritSelectedState="0" inheritDisabledState="0" blocksCursor="0" buttonDownSoundTag="00000000-0000-0000-0000-000000000000" rightButtonDownSoundTag="00000000-0000-0000-0000-000000000000" leftClickSoundTag="00000000-0000-0000-0000-000000000000" rightClickSoundTag="00000000-0000-0000-0000-000000000000" leftDoubleClickSoundTag="00000000-0000-0000-0000-000000000000" rollOverSoundTag="00000000-0000-0000-0000-000000000000" rollOffSoundTag="00000000-0000-0000-0000-000000000000" __type="BuildingBlocks_Interactions">
+        <onLeftClick />
+        <onRightClick />
+        <onLeftDoubleClick />
+        <onRollOver />
+        <onRollOff />
+      </interactions>
+      <inlineStyles />
+      <contentOrientation x="0" y="0" z="0" __type="Deg3" />
+      <effects interferenceAmount="-1" __type="SBuildingBlocks_EntityEffects">
+        <glow>
+        </glow>
+        <tint>
+        </tint>
+        <silhouette>
+        </silhouette>
+      </effects>
+      <loadoutNames />
+      <tintPalette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+    </BuildingBlocks_ActorEntityWidget>
+  </scene>
+  <library />
+  <operations>
+    <BuildingBlocks_BindingsNumberVariable binding="timerseconds" inheritsNamespace="1" isPulled="0" isWatched="0" __type="BuildingBlocks_Node" __polymorphicType="BuildingBlocks_BindingsNumberVariable">
+      <path />
+    </BuildingBlocks_BindingsNumberVariable>
+    <BuildingBlocks_BindingsNumberField widget="" field="OrientationZ" input="" __type="BuildingBlocks_Node" __polymorphicType="BuildingBlocks_BindingsNumberField" />
+    <BuildingBlocks_BindingsNumberArithmatic type="Mul" amount="15" input="" inputB="null" __type="BuildingBlocks_Node" __polymorphicType="BuildingBlocks_BindingsNumberArithmatic" />
+    <BuildingBlocks_BindingsNumberField widget="" field="OrientationZ" input="" __type="BuildingBlocks_Node" __polymorphicType="BuildingBlocks_BindingsNumberField" />
+  </operations>
+</BuildingBlocks_Canvas.BB3D_CanvasGeomEnt>

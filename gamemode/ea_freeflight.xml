@@ -1,0 +1,110 @@
+<GameMode.EA_FreeFlight name="EA_FreeFlight" locDisplayName="@ea_ui_mode_FreeFlight" description="@ea_ui_modedesc_FreeFlight" thumbnail="ui/frontend/assets/tif/gametypesmaps/freeflight.tif" alias="FF" leaderboardMatchCode="" invalidShipGroup="00000000-0000-0000-0000-000000000000" singleMultiplayerAvailability="Both" disableSMLoadoutButton="0" availableToPlayer="1" isDevMode="0" __type="GameMode" __ref="6aa137c0-e347-40f1-939d-5662da62cd78" __path="libs/foundry/records/gamemode/ea_freeflight.xml">
+  <params>
+    <SStandardParams moduleType="ArenaCommander" gameModule="6aa08b35-c57e-445e-a3e8-1e74044659ee" persistentDataPolicy="ReadOnly" spawnInSpaceship="1" enableQuantumTravel="0" isSurvivalMode="0" allowVehicleExit="1" useSelfDestructPenalty="0" allowEditLoadoutWhenDead="1" allowIngameMenu="1" maxUnattendedVehicleMarkers="0" musicSuite="767ad03c-a17c-40bf-ab55-fbc8eb1c59f7" audioOcclusionMaxDist="500" requiresBuildingBlocksRoundTimer="0" scanningEnabled="1" flyableShips="1" allShipsModifiable="0" canJoinLobbies="0" canAccessMobiGlass="0" planetMaxPatchesOverride="0" planetPatchTimeoutOverride="0" arModeSettings="eaa5ddf3-db75-457b-b1a3-94601a612cb3" restrictGasExchanges="1" showGreenZoneWeaponsOnlineOffline="1" allowPartyInvite="1" joinOpenChannelOnStartup="1" commsMaxValidRange="-1" shipComputerMode="Default" canTakedownFriendly="1" canApplyForcesToFriendly="0" disableKillMessage="0" allowPITMenu="1" allowPITInventory="0" hasPlanetaryEffects="1" missionsWaitForSpawn="0" showNonPlayerJoinFeed="0" reputationJournalEntryParams="00000000-0000-0000-0000-000000000000" shopInventoryAlertsJournalEntry="00000000-0000-0000-0000-000000000000" quantumDriveGlobalParams="1b25f9c9-630f-47f6-865d-0f0bb199215a" __type="DataForgeComponentParams" __polymorphicType="SStandardParams">
+      <audioSwitchStates>
+        <String value="SC_Game:Simulation_ArenaCommander" />
+        <String value="SC_GameMode:DFM_FreeFlight" />
+        <String value="SC_FPS_Player_Life:None" />
+      </audioSwitchStates>
+      <legacyUIOptions updateProgressBar="1" showFrameProgressBar="1" requiresScoreboard="1" requiresGameDetails="0" __type="LegacyUIOptionsParams" />
+      <announcerParams announcer="00000000-0000-0000-0000-000000000000" announcerGameModeTokenName="free_flight_mode" __type="SGameRulesAnnouncerParams" />
+      <playerCamerasAllowed firstPersonAllowed="1" chaseAllowed="1" orbitAllowed="1" __type="SPlayerCameraTypeAllowedParams" />
+      <fireParams enabledMode="Disabled" __type="FireParams">
+        <behaviors>
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="0" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+        </behaviors>
+      </fireParams>
+      <actorMechanics allowZeroGTraversal="0" allowEVAIronman="0" __type="ActorMechanicsParams" />
+    </SStandardParams>
+  </params>
+  <pickup>
+  </pickup>
+  <damageHandling>
+    <SSCDamageHandling damageDisabled="0" incomingDamageModifierToAIVehicles="1" incomingVehicleDamageModifierFromAI="1" __type="DataForgeComponentParams" __polymorphicType="SSCDamageHandling" />
+  </damageHandling>
+  <hostility>
+    <SStandardHostility __type="DataForgeComponentParams" __polymorphicType="SStandardHostility" />
+  </hostility>
+  <objectives>
+  </objectives>
+  <playerStats>
+    <SStandardPlayerStats checkFriendlyFire="0" serverKickPlayersFriendlyDamage="1500" serverKickPlayersDamageForInfraction="800" serverKickPlayersIgnoreDamageTimeAfterInfraction="2" serverKickPlayersNumberOfInfractionsToKick="4" serverKickPlayersDamageDecayHalflife="4" secondsToMergeHits="0.5" deathScreenMaxItemsPerColumn="4" deathScreenMaxSecondsStatValid="60" teamDamageCaution="@dfm_ui_Critical_Local_TeamDamage_Caution" teamDamageWarning="@dfm_ui_Critical_Local_TeamDamage_Warning" teamDamageKicked="@dfm_ui_Critical_Local_TeamDamage_Dismissal" __type="DataForgeComponentParams" __polymorphicType="SStandardPlayerStats" />
+  </playerStats>
+  <spawning>
+    <SDFMSpawning team1AlwaysUsesInitialSpawns="0" team2AlwaysUsesInitialSpawns="0" groupSpawners="0" playerCanSuicide="1" forceRespawnTimer="0" respawnInvulnerableTime="0" spawningSafeDistance="0" roundSwap="0" autoRespawn="0" loadoutId="20" backupLoadout="Scripts/Loadouts/Player/DefaultLoadouts/ArenaCommander_Default.xml" respawnTimeKilled="10" explosionOnSelfDestruct="1" overrideSelfDestructTimer="0" selfDestructTimer="0" useHolorezVehicleSpawnEffect="1" shipReclaiming="1" hideRespawnPrompt="0" __type="DataForgeComponentParams" __polymorphicType="SDFMSpawning" />
+  </spawning>
+  <victoryConditions>
+  </victoryConditions>
+  <spectator>
+    <SDFMSpectator minDistanceForSecondaryTarget="300" __type="DataForgeComponentParams" __polymorphicType="SDFMSpectator">
+      <modes />
+    </SDFMSpectator>
+  </spectator>
+  <playerSetup>
+    <SStandardPlayerSetup __type="DataForgeComponentParams" __polymorphicType="SStandardPlayerSetup" />
+  </playerSetup>
+  <statsRecording>
+    <SAuthoritativeStatsRecording __type="DataForgeComponentParams" __polymorphicType="SAuthoritativeStatsRecording" />
+  </statsRecording>
+  <stateModule>
+    <EAStateParams allowOffline="1" __type="DataForgeComponentParams" __polymorphicType="EAStateParams">
+      <pregame enabled="0" requiredPlayers="1" enableIntro="1" movementEnabled="0" gameStartCountdown="10" announceCountdown="1" restrictJoiningToPreGame="0" saturateScreen="1" initialSpawnType="LegacyDFMSpawning" __type="GameRulesEAStatePreGameParams">
+        <readySystem enabled="0" requiredPlayers="2" forceReadyTime="-1" __type="ReadySystemParams" />
+      </pregame>
+      <postgame enabled="0" enableOutro="1" shutdownDelay="10" __type="GameRulesEAStatePostGameParams">
+        <scoreboard enabled="1" scoreboardTime="20" postScoreboardLogoTime="4.5" __type="PostGameScoreboardParams" />
+        <matchCycle type="None" matchCycleTimeout="180" __type="MatchCycleParams" />
+      </postgame>
+    </EAStateParams>
+  </stateModule>
+  <teams>
+  </teams>
+  <rounds>
+  </rounds>
+  <notifications>
+    <SStandardNotifications showNotifications="1" __type="DataForgeComponentParams" __polymorphicType="SStandardNotifications" />
+  </notifications>
+  <scoring>
+  </scoring>
+  <subsumptionMissionModule>
+    <SSubsumptionMission startOnIntialCountdown="0" __type="DataForgeComponentParams" __polymorphicType="SSubsumptionMission">
+      <spawningTagFilter __type="TagList">
+        <tags>
+          <Reference value="5a9670c9-d060-4bad-b042-e538f90e24e3" />
+        </tags>
+      </spawningTagFilter>
+    </SSubsumptionMission>
+  </subsumptionMissionModule>
+  <camerasModule>
+    <SCamerasBaseModule gameEndCameraRecord="00000000-0000-0000-0000-000000000000" onFootDeathCameraRecord="d39f6caf-e3a6-4ce4-8a79-653a0f244cd0" vehicleDeathCameraRecord="2d5adedb-1eb6-4287-87e1-d049f070d1b0" deathCameraDuration="8" useFadeOut="0" fadeOutTriggerTime="0" allowConstantDOF="0" __type="DataForgeComponentParams" __polymorphicType="SCamerasBaseModule" />
+  </camerasModule>
+  <validMaps>
+    <GameModeValidMap mapName="EA_BrokenMoon" numTracks="0" levelReference="2aa8cec9-8c89-45bb-902c-9bdb2a301d9b" __type="GameModeValidMap" />
+    <GameModeValidMap mapName="EA_DyingStar" numTracks="0" levelReference="ee77b26d-13db-40d2-bed7-ecfdb4d27101" __type="GameModeValidMap" />
+  </validMaps>
+  <customSettings />
+  <entityManagementSetting>
+    <SEntityManagementModule vehicleManagementParams="7681ac39-f4b7-43f8-a729-7a225ad9ec6d" carryableManagementParams="a747b40d-5b2f-478f-84fb-4998b369b9b6" destroyUnmanagedOnDetach="1" __type="DataForgeComponentParams" __polymorphicType="SEntityManagementModule" />
+  </entityManagementSetting>
+  <chatSystemOptions>
+    <ChatSystemOptions chatChannelFilterRecord="fce8901f-4060-45cc-9e9f-063956ec70bd" voiceChannelSettingsRecord="585a4dce-9fa8-4e95-9fe3-bb8a767e2fe7" __type="DataForgeComponentParams" __polymorphicType="ChatSystemOptions" />
+  </chatSystemOptions>
+  <reputationModule>
+    <SGameRulesReputationBaseParamsDef __type="DataForgeComponentParams" __polymorphicType="SGameRulesReputationBaseParamsDef" />
+  </reputationModule>
+</GameMode.EA_FreeFlight>

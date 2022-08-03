@@ -1,0 +1,29 @@
+<HarvestableProviderPreset.HPP_Stanton2c_Belt __type="HarvestableProviderPreset" __ref="67d7df21-dd57-436f-97ae-2b7f72271950" __path="libs/foundry/records/harvestable/providerpresets/system/stanton/asteroidfield/hpp_stanton2c_belt.xml">
+  <harvestableGroups>
+    <HarvestableElementGroup groupName="SpaceShip_Mineables" groupProbability="0.3" __type="HarvestableElementGroup">
+      <harvestables>
+        <HarvestableElement harvestable="8c84b942-0209-4fd7-8681-f79873196fac" relativeProbability="0.025" clustering="70128b72-7c50-4315-bed8-59a1c2ef7996" __type="HarvestableElement">
+          <geometries>
+            <HarvestableGeometry tag="d3d5956d-48c3-4254-afda-a072447a0c7e" __type="HarvestableGeometry" />
+          </geometries>
+        </HarvestableElement>
+        <HarvestableElement harvestable="914fb64c-09bd-4e90-86cb-7adcb7ac6be7" relativeProbability="0.025" clustering="70128b72-7c50-4315-bed8-59a1c2ef7996" __type="HarvestableElement">
+          <geometries>
+            <HarvestableGeometry tag="d3d5956d-48c3-4254-afda-a072447a0c7e" __type="HarvestableGeometry" />
+          </geometries>
+        </HarvestableElement>
+        <HarvestableElement harvestable="5ecf8a42-f507-4266-bebe-830d15d3cd56" relativeProbability="0.025" clustering="70128b72-7c50-4315-bed8-59a1c2ef7996" __type="HarvestableElement">
+          <geometries>
+            <HarvestableGeometry tag="d3d5956d-48c3-4254-afda-a072447a0c7e" __type="HarvestableGeometry" />
+          </geometries>
+        </HarvestableElement>
+        <HarvestableElement harvestable="e19f3750-13a6-41ba-b1e0-32e540f04f5b" relativeProbability="0.015" clustering="70128b72-7c50-4315-bed8-59a1c2ef7996" __type="HarvestableElement">
+          <geometries>
+            <HarvestableGeometry tag="d3d5956d-48c3-4254-afda-a072447a0c7e" __type="HarvestableGeometry" />
+          </geometries>
+        </HarvestableElement>
+      </harvestables>
+    </HarvestableElementGroup>
+  </harvestableGroups>
+  <areas />
+</HarvestableProviderPreset.HPP_Stanton2c_Belt>

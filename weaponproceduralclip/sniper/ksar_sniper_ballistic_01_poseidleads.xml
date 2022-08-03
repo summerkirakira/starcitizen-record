@@ -1,0 +1,8 @@
+<WeaponProceduralClip.ksar_sniper_ballistic_01_PoseIdleADS __type="WeaponProceduralClip" __ref="09cf68e8-63cc-4564-9ac7-3cf849f80aa5" __path="libs/foundry/records/weaponproceduralclip/sniper/ksar_sniper_ballistic_01_poseidleads.xml">
+  <weaponProceduralClipBase>
+    <WeaponProceduralClipPose blendTime="1" poseType="RightHand" zoomTransitionAngle="0" useAimHelperOffset="0" __type="WeaponProceduralClipBase" __polymorphicType="WeaponProceduralClipPose">
+      <position x="0" y="-0.064" z="-0.008" __type="Vec3" />
+      <rotation x="0.425" y="0" z="0" __type="Ang3" />
+    </WeaponProceduralClipPose>
+  </weaponProceduralClipBase>
+</WeaponProceduralClip.ksar_sniper_ballistic_01_PoseIdleADS>

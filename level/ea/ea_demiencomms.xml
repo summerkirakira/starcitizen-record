@@ -1,0 +1,12 @@
+<Level.EA_DemienComms displayName="EA_DemienComms" locDisplayName="@ea_ui_map_DemienComms" description="@ea_ui_mapdesc_DemienComms" thumbnail="ui/frontend/assets/tif/gametypesmaps/demien.tif" filename="EA_DemienComms" gameToken="demien" universeLocationUniqueId="0" defaultGameRules="22d4a2f3-131e-4594-90e3-e57016690a22" TrackNumber="-1" mapCode="DEMIEN-COMMS" systemImagePath="" __type="Level" __ref="20ee8cab-a2db-436e-9b8d-7187cfb22d44" __path="libs/foundry/records/level/ea/ea_demiencomms.xml">
+  <displayFeatures>
+  </displayFeatures>
+  <validGameRules>
+    <Reference value="22d4a2f3-131e-4594-90e3-e57016690a22" />
+  </validGameRules>
+  <loadingScreenInfo loadingScreenType="ElectronicAccess" imagePath="../TIF/LoadingScreen/sm.dds" primaryTitle="@ui_GameTitle_StarMarine" secondaryTitle="@LOC_EMPTY" subtitle="@LOC_EMPTY" description="@LOC_EMPTY" __type="SLoadingScreenInformationDef">
+    <tips />
+  </loadingScreenInfo>
+  <potentialSpawnLocations />
+  <potentialDevOnlySpawnLocations />
+</Level.EA_DemienComms>

@@ -1,0 +1,35 @@
+<MissionLocationTemplate.Orison_August_Dunlow_SpacePort __type="MissionLocationTemplate" __ref="90161b8f-8f2d-439d-b4c5-49d2bfed67bc" __path="libs/foundry/records/missiondata/pu_locations/templates/spaceport/orison_august_dunlow_spaceport.xml">
+  <locationData __type="MissionLocationData">
+    <generalTags __type="MissionLocationTags">
+      <tags>
+        <Reference value="1179e711-4e4d-4b3b-95ae-e6d6d43b9a98" />
+      </tags>
+    </generalTags>
+    <producesTags __type="TagSearchTerm">
+      <positiveTags />
+      <negativeTags />
+    </producesTags>
+    <consumesTags __type="TagSearchTerm">
+      <positiveTags />
+      <negativeTags />
+    </consumesTags>
+    <aiSpawnTags __type="TagList">
+      <tags />
+    </aiSpawnTags>
+    <stringVariants __type="MissionStringVariants">
+      <variants />
+    </stringVariants>
+    <missionModules>
+      <SMissionLocationModule missionModule="Libs/Subsumption/Missions/PU/PU_MissionModules/LocationManager/ExpoHalls/ExpoHalls_Security.xml" __type="SMissionLocationModule">
+        <missionInputs />
+      </SMissionLocationModule>
+      <SMissionLocationModule missionModule="Libs/Subsumption/Missions/PU/PU_MissionModules/LocationManager/ExpoHalls/ExpoHalls_Elevators.xml" __type="SMissionLocationModule">
+        <missionInputs>
+          <MissionInitParamInteger name="DestinationToEnableDisable_Int" value="2" __type="AbstractMissionInitParam" __polymorphicType="MissionInitParamInteger" />
+        </missionInputs>
+      </SMissionLocationModule>
+    </missionModules>
+    <missionLimits />
+    <autoSpawnSettings />
+  </locationData>
+</MissionLocationTemplate.Orison_August_Dunlow_SpacePort>

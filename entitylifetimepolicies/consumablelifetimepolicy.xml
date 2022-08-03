@@ -1,0 +1,5 @@
+<EntityLifetimePolicyRecord.ConsumableLifetimePolicy __type="EntityLifetimePolicyRecord" __ref="6ebf80f8-8dbf-422f-870c-1033ca8f0993" __path="libs/foundry/records/entitylifetimepolicies/consumablelifetimepolicy.xml">
+  <lifetimePolicies>
+    <SConsumableLifetimePolicy authorizerCountLimit="300" isNonTrivialRemoval="0" timeoutDuration="1800" __type="SEntityLifetimePolicyParams" __polymorphicType="SConsumableLifetimePolicy" />
+  </lifetimePolicies>
+</EntityLifetimePolicyRecord.ConsumableLifetimePolicy>

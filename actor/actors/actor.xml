@@ -1,0 +1,1823 @@
+<EntityClassDefinition.Actor Category="Actors" Icon="Default.bmp" Invisible="1" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="a0f92b9f-6fac-46a9-9b93-9c73f095ae29" __path="libs/foundry/records/actor/actors/actor.xml">
+  <tags />
+  <StaticEntityClassData>
+    <EntityUIDisplayParams displayDescription="@LOC_UNINITIALIZED" displayThumbnail="" displayImage="" displayIcon="" sortString="" __type="EntityClassStaticDataParams" __polymorphicType="EntityUIDisplayParams">
+      <trackerProperties>
+        <SActorEntryTrackerParams __type="SObjectDataBankEntryTrackerParams" __polymorphicType="SActorEntryTrackerParams" />
+      </trackerProperties>
+    </EntityUIDisplayParams>
+  </StaticEntityClassData>
+  <Components>
+    <SActorComponentParams character="00000000-0000-0000-0000-000000000000" isAIControlled="1" aimFOV="200" maxLookAimAngle="120" turnThresholdTime="0.5" turnThresholdAngle="5" maxDeltaAngleRateNormal="360" jumpHeight="1.5" leanAngle="15" aimIKLayer="10" lookIKLayer="10" characterNameData="00000000-0000-0000-0000-000000000000" ledgeGrabbingParams="68de2d67-2eab-4dbb-9c09-efa8005d3ab0" jumpFallLandConfig="bceeb3fe-dd5f-4365-b6fe-372fbcee1c59" carryConfig="2573d69f-8537-4abb-a978-0ab2e56e889e" proceduralAnimationRecord="00000000-0000-0000-0000-000000000000" movementModifiersRecord="00000000-0000-0000-0000-000000000000" movementSetsRecord="00000000-0000-0000-0000-000000000000" isCorpse="0" isDebugGhost="0" actorStatusRecord="5001b94f-1caa-47bb-af55-316b6281af83" actorStatusRecordEA="4db218fc-6ada-4329-8b46-6991eb233d58" takeDownConfig="00000000-0000-0000-0000-000000000000" hitReactionsDefRecord="e39c3bf0-821f-42ca-8b29-402bf83e5973" forceReactionsDefRecord="00000000-0000-0000-0000-000000000000" shakeRecord="00000000-0000-0000-0000-000000000000" actorAimLimits="4d0cbb00-3227-4db9-96ed-394fb398baa6" actorLookLimits="120d1d75-97b4-40d5-ad59-33fa87c2ca9e" hazardParams="00000000-0000-0000-0000-000000000000" duckingParams="4a83e669-417c-4be2-97bb-f900f8f31114" gforceParamsRecord="a046a43b-bfb7-4393-8c77-de7dbd2461a5" gforceHeadBobRecord="00000000-0000-0000-0000-000000000000" abilityParamsRecord="00000000-0000-0000-0000-000000000000" breathingParamsRecord="00000000-0000-0000-0000-000000000000" staminaParamsRecord="00000000-0000-0000-0000-000000000000" actorEnvironmentRecord="00000000-0000-0000-0000-000000000000" defaultLookAheadRecord="00000000-0000-0000-0000-000000000000" locomotionPersonalityRecord="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="SActorComponentParams">
+      <stanceSpeeds>
+        <Reference value="376b5be2-c691-414f-8661-6ae8c19f68ad" />
+        <Reference value="55e9ec89-7087-4249-9e76-4c55ab530068" />
+        <Reference value="23ca6192-8178-480c-93cf-1df4cab1c397" />
+        <Reference value="c1273cfd-1ec3-49c3-a22e-5952560c4cd9" />
+        <Reference value="260f8af8-f0fa-41ad-b603-8ed77ce63d31" />
+        <Reference value="878fdcbd-22af-45ac-b250-883c5e667532" />
+        <Reference value="a30bdb72-a666-4702-833b-736417e2ac23" />
+        <Reference value="8dd7777c-d89d-4877-acdb-7892caa2dbdf" />
+        <Reference value="3d5dd0ce-b439-45fa-a98f-8314159bb9cb" />
+        <Reference value="754c284f-c2d4-4674-a51b-f4fcb7cc7e82" />
+        <Reference value="8e3c4683-c43c-4cc3-8f39-bd8fe382e7f7" />
+        <Reference value="cf81fd23-42f7-4661-beee-23c514e73048" />
+        <Reference value="1aa7dd17-e805-4c69-beec-512cc90af79a" />
+        <Reference value="9a12d51c-64ac-4ef9-a4ee-f998ba5956ca" />
+        <Reference value="e6148bde-1c3c-4504-b9b5-62da3940b54c" />
+        <Reference value="a28b239c-eb7e-414d-a4c3-a3b7b1b27200" />
+        <Reference value="07a6ad9f-af88-441a-9630-630ac50f9f81" />
+        <Reference value="4c29f07a-dfd9-4d00-b6d0-2a49cb650d9d" />
+        <Reference value="6f58bfdf-dbf0-4d2c-ad8c-46806b0294be" />
+        <Reference value="242e7494-8690-4837-8db8-0c7fed3e636c" />
+        <Reference value="4d9a81d0-8e6c-4f7e-ab4d-b28fbb205a1a" />
+        <Reference value="82aa9dd8-5c67-44a3-86ab-7269d9dd379e" />
+      </stanceSpeeds>
+      <stanceDimensions>
+        <Reference value="bc940a20-0396-4364-9c4e-f5e259a6463e" />
+        <Reference value="88b6d94e-eb5f-4e0b-b0a2-5c983918037f" />
+        <Reference value="e18854d2-2657-4b95-ba86-744f8b7a4db6" />
+        <Reference value="77d90282-2627-4513-8a8f-03cca2a84c00" />
+        <Reference value="b8053168-6573-4f72-818b-b8ae9fd0ab13" />
+        <Reference value="145b73b4-926d-4b15-b673-dc5ec648240e" />
+        <Reference value="b31234e2-6a4f-4270-b720-e8462d55899a" />
+        <Reference value="c1d8b755-3195-4273-95b8-20fb1e68ec86" />
+        <Reference value="1e866955-45e4-4d72-afb7-1e8d40e46f2b" />
+        <Reference value="154ecf04-6d70-4b8b-bc56-71b3e881f105" />
+        <Reference value="b90b070f-8a18-462c-938c-8c6a16a6d40b" />
+        <Reference value="28dfba43-4adc-45d7-a93a-24a4d3bdf3e5" />
+      </stanceDimensions>
+      <turnAngles defaultTurnAngle="60" proneTurnAngle="30" unarmedCombatTurnAngle="10" __type="ActorTurnAngles" />
+    </SActorComponentParams>
+    <SEntityComponentDefaultLoadoutParams __type="DataForgeComponentParams" __polymorphicType="SEntityComponentDefaultLoadoutParams">
+      <loadout>
+        <SItemPortLoadoutOutfitParams __type="SItemPortLoadoutBaseParams" __polymorphicType="SItemPortLoadoutOutfitParams">
+          <BaseLoadout>
+            <SItemPortLoadoutXMLParams loadoutPath="scripts/loadouts/character/human/clothing/npc/civilian/aiemptyitemloadout.xml" __type="SItemPortLoadoutBaseParams" __polymorphicType="SItemPortLoadoutXMLParams" />
+          </BaseLoadout>
+          <Outfits />
+        </SItemPortLoadoutOutfitParams>
+      </loadout>
+    </SEntityComponentDefaultLoadoutParams>
+    <SGeometryResourceParams cacheResources="0" rootOverridePaint="0" inheritModelTagFromHost="1" __type="DataForgeComponentParams" __polymorphicType="SGeometryResourceParams">
+      <ModelTag>
+      </ModelTag>
+      <Geometry Tags="" ScaleMultiplier="1" __type="SGeometryNodeParams">
+        <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="1" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+          <Geometry path="objects/characters/human/male_v7/export/bhm_skeleton_v7.chr" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+          <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+          <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        </Geometry>
+        <SubGeometry />
+      </Geometry>
+      <Material Tags="" __type="SMaterialNodeParams">
+        <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+        <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        <materialVariants />
+      </Material>
+    </SGeometryResourceParams>
+    <SPhysicalProxyComponentParams __type="DataForgeComponentParams" __polymorphicType="SPhysicalProxyComponentParams" />
+    <SEntityComponentObjectMetadataParams name="@LOC_EMPTY" hasLocalBounds="1" __type="DataForgeComponentParams" __polymorphicType="SEntityComponentObjectMetadataParams">
+      <metadata />
+    </SEntityComponentObjectMetadataParams>
+    <SCRTTCameraParams onFootCameraView="00000000-0000-0000-0000-000000000000" vehicleCameraView="00000000-0000-0000-0000-000000000000" defaultCamDistance="0.4" __type="DataForgeComponentParams" __polymorphicType="SCRTTCameraParams" />
+    <EntityComponentRoomOccupantParams __type="DataForgeComponentParams" __polymorphicType="EntityComponentRoomOccupantParams" />
+    <ActorStatusComponentParams __type="DataForgeComponentParams" __polymorphicType="ActorStatusComponentParams" />
+    <SSCActorExternalForceResponseComponentParams __type="DataForgeComponentParams" __polymorphicType="SSCActorExternalForceResponseComponentParams" />
+    <SActorAnimationComponentParams __type="DataForgeComponentParams" __polymorphicType="SActorAnimationComponentParams" />
+    <SSCSignatureSystemParams bindingURLPrefix="Actor" scanCustomData="00000000-0000-0000-0000-000000000000" isOverridden="0" __type="DataForgeComponentParams" __polymorphicType="SSCSignatureSystemParams">
+      <radarProperties>
+        <SSCRadarContactProperites contactType="f4070c9c-061a-4fe2-9e87-c38d398541e7" __type="SSCRadarContactProperites">
+          <baseSignatureParams>
+            <SSCSignatureSystemBaseSignatureParams __type="SSCSignatureParamsBase" __polymorphicType="SSCSignatureSystemBaseSignatureParams">
+              <signatures>
+                <Single value="0" />
+                <Single value="100" />
+                <Single value="0" />
+                <Single value="0" />
+                <Single value="0" />
+                <Single value="0" />
+                <Single value="0" />
+              </signatures>
+            </SSCSignatureSystemBaseSignatureParams>
+          </baseSignatureParams>
+          <crossSectionParams>
+            <SSCSignatureSystemActorCrossSectionParams __type="SSCSignatureSystemCrossSectionParams" __polymorphicType="SSCSignatureSystemActorCrossSectionParams" />
+          </crossSectionParams>
+          <scanBounds>
+          </scanBounds>
+        </SSCRadarContactProperites>
+      </radarProperties>
+      <audioParams>
+        <SSCSignatureSystemAudioParams __type="SSCSignatureSystemAudioParams">
+          <rulesets>
+            <Reference value="f489a2f4-ac4a-45c9-af3d-ffd7723b95e1" />
+          </rulesets>
+        </SSCSignatureSystemAudioParams>
+      </audioParams>
+      <detectionTags />
+      <overriddenSize x="0" y="0" z="0" __type="Vec3" />
+    </SSCSignatureSystemParams>
+    <SSCActorActionHandlerComponentParams __type="DataForgeComponentParams" __polymorphicType="SSCActorActionHandlerComponentParams" />
+    <SSCActorControlStateHostComponentParams __type="DataForgeComponentParams" __polymorphicType="SSCActorControlStateHostComponentParams" />
+    <SSCActorResultStateHostComponentParams __type="DataForgeComponentParams" __polymorphicType="SSCActorResultStateHostComponentParams" />
+    <SSCActorRotationComponentParams __type="DataForgeComponentParams" __polymorphicType="SSCActorRotationComponentParams" />
+    <SSCActorSuitManagerComponentParams __type="DataForgeComponentParams" __polymorphicType="SSCActorSuitManagerComponentParams" />
+    <FoleyComponentParams __type="DataForgeComponentParams" __polymorphicType="FoleyComponentParams" />
+    <SSCActorEffectsControllerParams __type="DataForgeComponentParams" __polymorphicType="SSCActorEffectsControllerParams">
+      <vectorFieldParams path="" maxStrength="16" maxMass="50" speedBiasController="0" respectAspectRatio="0" __type="VectorFieldParams">
+        <speedRange minimum="3" maximum="7" __type="Range" />
+        <posOffset x="0" y="0" z="0" __type="Vec3" />
+        <size x="1" y="1" z="1" __type="Vec3" />
+      </vectorFieldParams>
+    </SSCActorEffectsControllerParams>
+    <SSCActorMonitorComponentParams __type="DataForgeComponentParams" __polymorphicType="SSCActorMonitorComponentParams" />
+    <SSCActorInteractionHelperParams __type="DataForgeComponentParams" __polymorphicType="SSCActorInteractionHelperParams">
+      <initiallyLockedInteractions>
+        <String value="Refill Ammo" />
+        <String value="Medpen" />
+        <String value="Refill Grenades" />
+      </initiallyLockedInteractions>
+    </SSCActorInteractionHelperParams>
+    <SSCActorSpatialAwarenessComponentParams __type="DataForgeComponentParams" __polymorphicType="SSCActorSpatialAwarenessComponentParams" />
+    <SSCActorViewComponentParams __type="DataForgeComponentParams" __polymorphicType="SSCActorViewComponentParams" />
+    <SGreenZoneObedienceComponentParams __type="DataForgeComponentParams" __polymorphicType="SGreenZoneObedienceComponentParams" />
+    <BodyHealthComponentParams bodyHealthParamsRecord="627f078e-0a62-4ae3-846e-e7567f17273d" __type="DataForgeComponentParams" __polymorphicType="BodyHealthComponentParams" />
+    <SSCActorPhysicsControllerComponentParams __type="DataForgeComponentParams" __polymorphicType="SSCActorPhysicsControllerComponentParams">
+      <physType>
+        <SEntityActorPhysicsControllerParams Mass="110" stiffnessScale="2" airResistance="0" airControl="0.9" inertia="10" inertiaAccel="11" maxVelGround="32" minSlideAngle="75" maxClimbAngle="50" minFallAngle="50" timeImpulseRecover="1" colliderMat="mat_player_collider" minColSpeedForExternalForceEvent="0.5" __type="SEntityBasePhysicsControllerParams" __polymorphicType="SEntityActorPhysicsControllerParams">
+          <breakableParams>
+          </breakableParams>
+          <gameCollisionClass>
+          </gameCollisionClass>
+        </SEntityActorPhysicsControllerParams>
+      </physType>
+    </SSCActorPhysicsControllerComponentParams>
+    <SAnimatedCharacterComponentParams actionController="Animations/Mannequin/ADB/playerControllerDefs.xml" animDatabase3P="Animations/Mannequin/ADB/playerAnims.adb" soundDatabase="Animations/Mannequin/ADB/playerSounds.adb" __type="DataForgeComponentParams" __polymorphicType="SAnimatedCharacterComponentParams" />
+    <SCItemUserParams __type="DataForgeComponentParams" __polymorphicType="SCItemUserParams" />
+    <SCActorCollisionAvoidanceParams passRadiusAgent="0.3" passRadiusObstacleMoving="0.4" passRadiusObstacleStatic="0.5" alwaysAnObstacle="0" __type="DataForgeComponentParams" __polymorphicType="SCActorCollisionAvoidanceParams">
+      <offsetAgent x="0" y="0" __type="Vec2" />
+      <offsetObstacle x="0" y="0" __type="Vec2" />
+    </SCActorCollisionAvoidanceParams>
+    <SubsumptionEventReceiverComponentParams __type="DataForgeComponentParams" __polymorphicType="SubsumptionEventReceiverComponentParams" />
+    <SubsumptionComponentParams subsumptionMastergraph="" subsumptionActivity="" __type="DataForgeComponentParams" __polymorphicType="SubsumptionComponentParams" />
+    <SObservableComponentParams defaultEntityObservablePoint="observablePoints[1]" defaultAimingObservablePoint="observablePoints[0]" __type="DataForgeComponentParams" __polymorphicType="SObservableComponentParams">
+      <perceptionTypes>
+        <Enum value="Agent" />
+      </perceptionTypes>
+      <observablePoints>
+        <SObservablePointDef helperName="Spine3" __type="SObservablePointDef">
+          <relativePositionOffset x="0" y="0" z="0" __type="Vec3" />
+        </SObservablePointDef>
+        <SObservablePointDef helperName="Head" __type="SObservablePointDef">
+          <relativePositionOffset x="0" y="0" z="0" __type="Vec3" />
+        </SObservablePointDef>
+      </observablePoints>
+    </SObservableComponentParams>
+    <SCommunicationUserComponentParams voiceBundle="00000000-0000-0000-0000-000000000000" voiceSingle="00000000-0000-0000-0000-000000000000" communicationConfig="00000000-0000-0000-0000-000000000000" contextualDialog="" __type="DataForgeComponentParams" __polymorphicType="SCommunicationUserComponentParams" />
+    <SEntityInteractableParams __type="DataForgeComponentParams" __polymorphicType="SEntityInteractableParams">
+      <Interactable __type="SInteractableParams">
+        <SharedInteractions>
+          <SSharedInteractionParams Name="LookAt" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@LOC_EMPTY" DisplayType="Hide" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Talk" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@NPC_Interact_Generic_Talk" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Order" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_use" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Serve" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_use" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="TakeOrder" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_use" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Refill Ammo" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_interactor_pickup_ammo" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Refill Grenades" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_interactor_pickup_grenade" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Medpen" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_refillMedPens" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="BodyDrag" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_bodydrag" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="cf98a87d-e0ec-4fb6-bef1-089bf9dbf9ce" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="BodyDrop" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_bodydragDrop" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="TurnOver" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_turnover" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="53ffa98f-21b1-4a97-959b-f0b86b82307a" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Loot" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_loot" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="cf98a87d-e0ec-4fb6-bef1-089bf9dbf9ce" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+        </SharedInteractions>
+        <InteractionPoints>
+          <SInteractionPointParams FirstInteractionPrimary="1" UseHelperLocation="1" ShowHighlight="0" ApplyToEntireSkeleton="1" longRangeIP="0" HelperName="Spine3" TextJustification="Middle" TextOrientation="RotateToPlayer" TextScale="1" Radius="2.4" MaxCursorScreenDistance="2" ShowInnerThoughtsOffScreen="0" OnlySelectableInLookDir="1" __type="SInteractionPointParams">
+            <HighlightBehaviors />
+            <AdditionalCollisionBones />
+            <Offset __type="QuatT">
+              <Rotation x="0" y="0" z="0" __type="Ang3" />
+              <Position x="0.1" y="0.1" z="0" __type="Vec3" />
+            </Offset>
+            <AngleConstraint angleRange="181" __type="SAngleConstraint">
+              <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+            </AngleConstraint>
+            <SpherePrimitive>
+            </SpherePrimitive>
+            <Interactions>
+              <SInteractionParams Interaction="Interactable.SharedInteractions[1]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[0]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[8]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[9]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[10]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[11]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+            </Interactions>
+          </SInteractionPointParams>
+        </InteractionPoints>
+        <interactionTasks />
+        <actionHandlerTasks />
+        <itemActionTasks />
+        <menuTitle>
+        </menuTitle>
+      </Interactable>
+    </SEntityInteractableParams>
+    <SARDataComponentParams dataType="Player" rangeMin="1" rangeMax="25" labelMovementType="FacingPlayer" visibleThroughWalls="0" labelZOrientationOffset="0" title1="@LOC_EMPTY" title2="@LOC_EMPTY" subtitle1="@LOC_EMPTY" subtitle2="@LOC_EMPTY" description="@LOC_EMPTY" scaleCapDistance="10" __type="DataForgeComponentParams" __polymorphicType="SARDataComponentParams">
+      <labelAttachOffset x="0" y="0" z="1.02" __type="Vec3" />
+      <queryOffset x="0" y="0" z="0" __type="Vec3" />
+      <labelScale x="2" y="2" z="2" __type="Vec3" />
+    </SARDataComponentParams>
+    <SCItemCommsComponentParams setup="201bfe98-d5f6-499a-bd02-0076c73ddc19" __type="DataForgeComponentParams" __polymorphicType="SCItemCommsComponentParams" />
+    <MovementSystemComponentParams __type="DataForgeComponentParams" __polymorphicType="MovementSystemComponentParams" />
+    <PathingComponentParams navigationType="MediumSizedCharacters" __type="DataForgeComponentParams" __polymorphicType="PathingComponentParams" />
+    <SEntityComponentHostilityParams faction="96f7df5a-90ad-4c95-bb28-1b62481e0fa1" __type="DataForgeComponentParams" __polymorphicType="SEntityComponentHostilityParams">
+      <wantedLevelHostility>
+      </wantedLevelHostility>
+    </SEntityComponentHostilityParams>
+    <SAttachableComponentParams attachToTileItemPort="NoConnection" __type="DataForgeComponentParams" __polymorphicType="SAttachableComponentParams">
+      <AttachDef Type="NOITEM_Player" SubType="UNDEFINED" Size="1" Grade="1" Manufacturer="00000000-0000-0000-0000-000000000000" inheritParentManufacturer="0" Tags="" RequiredTags="" DisplayType="" __type="SItemDefinition">
+        <Localization Name="@LOC_PLACEHOLDER" ShortName="@LOC_EMPTY" Description="@LOC_EMPTY" __type="SCItemLocalization">
+          <displayFeatures LogoSimplifiedWhite="" FrontendBackground="" History="@LOC_EMPTY" Callout1="@LOC_EMPTY" Callout2="@LOC_EMPTY" Callout3="@LOC_EMPTY" UIPriority="0" __type="SCExtendedLocalizationLevelParams">
+            <locationAudioPlayTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+            <locationAudioStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </displayFeatures>
+        </Localization>
+        <mannequinTags mannequinClassTag="" mannequinTypeTag="" mannequinBaseTag="" __type="SCItemMannequinTags" />
+        <inventoryOccupancyVolume>
+          <SMicroCargoUnit microSCU="1" __type="SBaseCargoUnit" __polymorphicType="SMicroCargoUnit" />
+        </inventoryOccupancyVolume>
+        <inventoryOccupancyDimensions x="0.15" y="0.15" z="0.15" __type="Vec3" />
+        <inventoryOccupancyDimensionsUIOverride>
+        </inventoryOccupancyDimensionsUIOverride>
+      </AttachDef>
+      <entityAttachParams>
+      </entityAttachParams>
+    </SAttachableComponentParams>
+    <AudioAllegianceParams __type="DataForgeComponentParams" __polymorphicType="AudioAllegianceParams" />
+    <SEntityComponentEffects __type="DataForgeComponentParams" __polymorphicType="SEntityComponentEffects">
+      <entityEffects __type="SEntitityEffectSystem_SystemBase" __polymorphicType="SEntitityEffectSystem_System">
+        <particleEffects>
+          <SEntityEffectSystem_ParticleCategory enabled="1" allowMultipleTags="1" __type="SEntityEffectSystem_Category" __polymorphicType="SEntityEffectSystem_ParticleCategory">
+            <tagEffects>
+              <SEntityEffectSystem_ParticleTagEffect name="ElectronCharge" enabled="1" primed="0" holographic="0" updateEntityBounds="0" clipToVisArea="Local" gpuVisAreaCullingMode="Default" tag="b4314846-37fc-446d-a22a-20c888c1f58a" __type="SEntityEffectSystem_Effect" __polymorphicType="SEntityEffectSystem_ParticleTagEffect">
+                <particleEffect path="FPS_Weapons\Ammo\Weapons_Ammo_sniper_electron.Electron_Residual_Charge" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+                <attachmentSettings>
+                  <SEntityEffectSystem_Attachment_BoneAttachment offsetParameter="00000000-0000-0000-0000-000000000000" attachmentZone="Host" boneAttachment="Spine1" __type="SEntityEffectSystem_Attachment" __polymorphicType="SEntityEffectSystem_Attachment_BoneAttachment">
+                    <offset __type="QuatT">
+                      <Rotation x="0" y="0" z="0" __type="Ang3" />
+                      <Position x="0" y="0" z="0" __type="Vec3" />
+                    </offset>
+                  </SEntityEffectSystem_Attachment_BoneAttachment>
+                </attachmentSettings>
+                <propertyLinks />
+              </SEntityEffectSystem_ParticleTagEffect>
+            </tagEffects>
+            <triggerEffects />
+          </SEntityEffectSystem_ParticleCategory>
+        </particleEffects>
+        <materialEffects>
+          <EntityEffectSystem_MaterialCategory enabled="1" allowMultipleTags="0" __type="SEntityEffectSystem_Category" __polymorphicType="EntityEffectSystem_MaterialCategory">
+            <tagEffects>
+              <EntityEffectSystem_MaterialTagEffect name="Screen Interference" enabled="1" tag="c3ca3e12-5c26-450e-a1b5-fa170ec4703d" __type="SEntityEffectSystem_Effect" __polymorphicType="EntityEffectSystem_MaterialTagEffect">
+                <propertyLinks>
+                  <EntityEffectSystem_MaterialPropertyLink parameterName="4b550377-9155-4dd0-afee-3deb4ae4ad07" materialProperty="Interference" subMeshName="" __type="SEntityEffectSystem_PropertyLink" __polymorphicType="EntityEffectSystem_MaterialPropertyLink">
+                    <modifiers />
+                  </EntityEffectSystem_MaterialPropertyLink>
+                </propertyLinks>
+              </EntityEffectSystem_MaterialTagEffect>
+            </tagEffects>
+            <triggerEffects />
+          </EntityEffectSystem_MaterialCategory>
+        </materialEffects>
+        <soundEffects>
+        </soundEffects>
+        <audioEnvironmentEffects>
+        </audioEnvironmentEffects>
+        <lightEffects>
+        </lightEffects>
+        <uiOwnerEffects>
+        </uiOwnerEffects>
+        <sequencerTags />
+      </entityEffects>
+      <staticValues />
+      <staticColors />
+      <tagsToEnableOnLoad />
+      <triggersToEnableOnLoad />
+    </SEntityComponentEffects>
+    <EMPoolParams overrideEmValue="0" __type="DataForgeComponentParams" __polymorphicType="EMPoolParams" />
+    <SActorUsableParams archetype="108990d3-5bb1-44fb-a944-f8691f9ecec9" fragmentTag="" isExterior="0" __type="DataForgeComponentParams" __polymorphicType="SActorUsableParams">
+      <useSlots>
+        <UsableUseSlot name="Order" available="1" additionalFragmentTags="" isScoochable="0" __type="UsableUseSlot">
+          <useChannelInstances>
+            <UsableUseChannelInstance useChannelArchetype="a0b15884-1a43-4e47-a553-03f8a33e3e71" interaction="Interactable.SharedInteractions[2]" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots[0]" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance useChannelArchetype="97cdbdaa-cf32-4001-a883-549658694136" interaction="Interactable.SharedInteractions[3]" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots[0]" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance useChannelArchetype="0986625f-7cd4-4ddd-a38e-ab7102d4024e" interaction="Interactable.SharedInteractions[4]" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots[0]" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+          </useChannelInstances>
+          <usableItemPorts />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="0" z="0" __type="Vec3" />
+          </relativeTransform>
+          <optionalGameTags />
+        </UsableUseSlot>
+        <UsableUseSlot name="Supervise" available="1" additionalFragmentTags="" isScoochable="0" __type="UsableUseSlot">
+          <useChannelInstances>
+            <UsableUseChannelInstance useChannelArchetype="53d30368-8c40-4ec6-a9a1-0f4c8fde51a0" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots />
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+          </useChannelInstances>
+          <usableItemPorts />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="0" z="0" __type="Vec3" />
+          </relativeTransform>
+          <optionalGameTags />
+        </UsableUseSlot>
+        <UsableUseSlot name="Prepare" available="1" additionalFragmentTags="" isScoochable="0" __type="UsableUseSlot">
+          <useChannelInstances>
+            <UsableUseChannelInstance useChannelArchetype="3a7c9b95-ad47-479e-93fe-e2a1f8fc8a7a" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots[0]" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+          </useChannelInstances>
+          <usableItemPorts />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="0" z="0" __type="Vec3" />
+          </relativeTransform>
+          <optionalGameTags />
+        </UsableUseSlot>
+        <UsableUseSlot name="Talk" available="1" additionalFragmentTags="" isScoochable="0" __type="UsableUseSlot">
+          <useChannelInstances>
+            <UsableUseChannelInstance useChannelArchetype="39878f48-9f75-4aca-88f5-b648c2cd1bbf" interaction="null" isEnabled="0" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots[5]" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+          </useChannelInstances>
+          <usableItemPorts />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="0" z="0" __type="Vec3" />
+          </relativeTransform>
+          <optionalGameTags />
+        </UsableUseSlot>
+        <UsableUseSlot name="ExamineBody" available="1" additionalFragmentTags="" isScoochable="0" __type="UsableUseSlot">
+          <useChannelInstances>
+            <UsableUseChannelInstance useChannelArchetype="fd0f7997-11a5-49db-86e9-fd26fb85f8f5" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots[1]" />
+                <WeakPointer alignmentSlots="alignmentSlots[2]" />
+                <WeakPointer alignmentSlots="alignmentSlots[3]" />
+                <WeakPointer alignmentSlots="alignmentSlots[4]" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+          </useChannelInstances>
+          <usableItemPorts />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="0" z="0" __type="Vec3" />
+          </relativeTransform>
+          <optionalGameTags />
+        </UsableUseSlot>
+      </useSlots>
+      <alignmentSlots>
+        <PointAlignmentSlot name="" available="1" canPlayerUse="1" fragmentTag="" slottedFragmentTag="" helperName="" linkMode="NoLink" spotStance="Stand" useHandIK="0" useADIK="0" __type="AlignmentSlotBase" __polymorphicType="PointAlignmentSlot">
+          <interactionPoints>
+            <WeakPointer interactionPoints="Interactable.InteractionPoints" />
+          </interactionPoints>
+          <optionalGameTags />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="0" z="0" __type="Vec3" />
+          </relativeTransform>
+          <viewParams viewLimitYawMin="-45" viewLimitYawMax="45" viewLimitPitchMin="-45" viewLimitPitchMax="45" __type="SUsableViewParams" />
+          <enterParams aiSignal="UseStart" additionalTags="" eventTriggerMask="AIAndPlayer" holsterWeapon="1" enterInteraction="null" __type="SUsableTransitionParams" __polymorphicType="SUsableEnterTransitionParams">
+            <transitionAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </enterParams>
+          <exitParams aiSignal="UseEnd" additionalTags="" eventTriggerMask="AIAndPlayer" inputExit="1" exitOnMovement="0" exitOnJump="0" exitOnDamageTaken="0" exitInteraction="null" exitSequence="null" __type="SUsableTransitionParams" __polymorphicType="SUsableExitTransitionParams">
+            <transitionAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </exitParams>
+          <usableIdleParams __type="SUsableIdleParams">
+            <idlePoseOverrides />
+          </usableIdleParams>
+        </PointAlignmentSlot>
+        <PointAlignmentSlot name="BodyPoint0" available="1" canPlayerUse="0" fragmentTag="" slottedFragmentTag="" helperName="" linkMode="NoLink" spotStance="Crouch" useHandIK="0" useADIK="0" __type="AlignmentSlotBase" __polymorphicType="PointAlignmentSlot">
+          <interactionPoints />
+          <optionalGameTags />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="90" __type="Ang3" />
+            <Position x="1" y="0" z="0" __type="Vec3" />
+          </relativeTransform>
+          <viewParams viewLimitYawMin="-45" viewLimitYawMax="45" viewLimitPitchMin="-45" viewLimitPitchMax="45" __type="SUsableViewParams" />
+          <enterParams aiSignal="UseStart" additionalTags="" eventTriggerMask="OnlyAI" holsterWeapon="0" enterInteraction="null" __type="SUsableTransitionParams" __polymorphicType="SUsableEnterTransitionParams">
+            <transitionAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </enterParams>
+          <exitParams aiSignal="UseEnd" additionalTags="" eventTriggerMask="AIAndPlayer" inputExit="1" exitOnMovement="0" exitOnJump="0" exitOnDamageTaken="1" exitInteraction="null" exitSequence="null" __type="SUsableTransitionParams" __polymorphicType="SUsableExitTransitionParams">
+            <transitionAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </exitParams>
+          <usableIdleParams __type="SUsableIdleParams">
+            <idlePoseOverrides />
+          </usableIdleParams>
+        </PointAlignmentSlot>
+        <PointAlignmentSlot name="BodyPoint1" available="1" canPlayerUse="0" fragmentTag="" slottedFragmentTag="" helperName="" linkMode="NoLink" spotStance="Crouch" useHandIK="0" useADIK="0" __type="AlignmentSlotBase" __polymorphicType="PointAlignmentSlot">
+          <interactionPoints />
+          <optionalGameTags />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="-90" __type="Ang3" />
+            <Position x="-1" y="0" z="0" __type="Vec3" />
+          </relativeTransform>
+          <viewParams viewLimitYawMin="-45" viewLimitYawMax="45" viewLimitPitchMin="-45" viewLimitPitchMax="45" __type="SUsableViewParams" />
+          <enterParams aiSignal="UseStart" additionalTags="" eventTriggerMask="OnlyAI" holsterWeapon="0" enterInteraction="null" __type="SUsableTransitionParams" __polymorphicType="SUsableEnterTransitionParams">
+            <transitionAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </enterParams>
+          <exitParams aiSignal="UseEnd" additionalTags="" eventTriggerMask="AIAndPlayer" inputExit="1" exitOnMovement="0" exitOnJump="0" exitOnDamageTaken="1" exitInteraction="null" exitSequence="null" __type="SUsableTransitionParams" __polymorphicType="SUsableExitTransitionParams">
+            <transitionAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </exitParams>
+          <usableIdleParams __type="SUsableIdleParams">
+            <idlePoseOverrides />
+          </usableIdleParams>
+        </PointAlignmentSlot>
+        <PointAlignmentSlot name="BodyPoint2" available="1" canPlayerUse="0" fragmentTag="" slottedFragmentTag="" helperName="" linkMode="NoLink" spotStance="Crouch" useHandIK="0" useADIK="0" __type="AlignmentSlotBase" __polymorphicType="PointAlignmentSlot">
+          <interactionPoints />
+          <optionalGameTags />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="180" __type="Ang3" />
+            <Position x="0" y="1" z="0" __type="Vec3" />
+          </relativeTransform>
+          <viewParams viewLimitYawMin="-45" viewLimitYawMax="45" viewLimitPitchMin="-45" viewLimitPitchMax="45" __type="SUsableViewParams" />
+          <enterParams aiSignal="UseStart" additionalTags="" eventTriggerMask="OnlyAI" holsterWeapon="0" enterInteraction="null" __type="SUsableTransitionParams" __polymorphicType="SUsableEnterTransitionParams">
+            <transitionAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </enterParams>
+          <exitParams aiSignal="UseEnd" additionalTags="" eventTriggerMask="AIAndPlayer" inputExit="1" exitOnMovement="0" exitOnJump="0" exitOnDamageTaken="1" exitInteraction="null" exitSequence="null" __type="SUsableTransitionParams" __polymorphicType="SUsableExitTransitionParams">
+            <transitionAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </exitParams>
+          <usableIdleParams __type="SUsableIdleParams">
+            <idlePoseOverrides />
+          </usableIdleParams>
+        </PointAlignmentSlot>
+        <PointAlignmentSlot name="BodyPoint3" available="1" canPlayerUse="0" fragmentTag="" slottedFragmentTag="" helperName="" linkMode="NoLink" spotStance="Crouch" useHandIK="0" useADIK="0" __type="AlignmentSlotBase" __polymorphicType="PointAlignmentSlot">
+          <interactionPoints />
+          <optionalGameTags />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="-1" z="0" __type="Vec3" />
+          </relativeTransform>
+          <viewParams viewLimitYawMin="-45" viewLimitYawMax="45" viewLimitPitchMin="-45" viewLimitPitchMax="45" __type="SUsableViewParams" />
+          <enterParams aiSignal="UseStart" additionalTags="" eventTriggerMask="OnlyAI" holsterWeapon="0" enterInteraction="null" __type="SUsableTransitionParams" __polymorphicType="SUsableEnterTransitionParams">
+            <transitionAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </enterParams>
+          <exitParams aiSignal="UseEnd" additionalTags="" eventTriggerMask="AIAndPlayer" inputExit="1" exitOnMovement="0" exitOnJump="0" exitOnDamageTaken="1" exitInteraction="null" exitSequence="null" __type="SUsableTransitionParams" __polymorphicType="SUsableExitTransitionParams">
+            <transitionAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </exitParams>
+          <usableIdleParams __type="SUsableIdleParams">
+            <idlePoseOverrides />
+          </usableIdleParams>
+        </PointAlignmentSlot>
+        <PointAlignmentSlot name="FrontLocation" available="1" canPlayerUse="1" fragmentTag="" slottedFragmentTag="" helperName="root" linkMode="NoLink" spotStance="Stand" useHandIK="0" useADIK="0" __type="AlignmentSlotBase" __polymorphicType="PointAlignmentSlot">
+          <interactionPoints />
+          <optionalGameTags />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="180" __type="Ang3" />
+            <Position x="0" y="1" z="0" __type="Vec3" />
+          </relativeTransform>
+          <viewParams viewLimitYawMin="-45" viewLimitYawMax="45" viewLimitPitchMin="-45" viewLimitPitchMax="45" __type="SUsableViewParams" />
+          <enterParams aiSignal="UseStart" additionalTags="" eventTriggerMask="AIAndPlayer" holsterWeapon="1" enterInteraction="null" __type="SUsableTransitionParams" __polymorphicType="SUsableEnterTransitionParams">
+            <transitionAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </enterParams>
+          <exitParams aiSignal="UseEnd" additionalTags="" eventTriggerMask="AIAndPlayer" inputExit="1" exitOnMovement="0" exitOnJump="0" exitOnDamageTaken="0" exitInteraction="null" exitSequence="null" __type="SUsableTransitionParams" __polymorphicType="SUsableExitTransitionParams">
+            <transitionAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </exitParams>
+          <usableIdleParams __type="SUsableIdleParams">
+            <idlePoseOverrides />
+          </usableIdleParams>
+        </PointAlignmentSlot>
+      </alignmentSlots>
+      <slottingSetups />
+      <views />
+      <abilityLocks />
+      <usableSequencerTasks />
+      <specializedData __type="SSpecializedData">
+        <specializedDataEntry />
+      </specializedData>
+    </SActorUsableParams>
+    <SEntityLootableContainerParams initialLocalPlayerAccess="0" radius="1.6" mainInteractionPoint="Interactable.InteractionPoints" validTagsOnSwapOutfit="" blockingTagsOnSwapOutfit="" infiniteLootable="0" smartRefillAmmo="0" smartRefillGrenadesAndAmmo="0" fragmentTags="" forceFirstSelect="0" openInventoryInteraction="Interactable.SharedInteractions[11]" placeIntoPortInteraction="null" bespokePlace="0" __type="DataForgeComponentParams" __polymorphicType="SEntityLootableContainerParams">
+      <maxOffsetTranslation x="0" y="0" z="0" __type="Vec3" />
+      <maxOffsetRotation x="0" y="0" z="0" __type="Ang3" />
+      <mainInteractions>
+        <WeakPointer mainInteractions="Interactable.SharedInteractions[5]" />
+        <WeakPointer mainInteractions="Interactable.SharedInteractions[6]" />
+        <WeakPointer mainInteractions="Interactable.SharedInteractions[7]" />
+      </mainInteractions>
+      <placeOutfitRules />
+      <takeExclussionRules />
+      <itemPortRules />
+    </SEntityLootableContainerParams>
+    <AudioRayOcclusionParams occlusionType="MultiRayRadius" occlusionCalcRule="Average" rayTargetBoneName="HeadCam" __type="DataForgeComponentParams" __polymorphicType="AudioRayOcclusionParams" />
+    <SEntityAudioControllerParams audioControllerEntityType="Actor" randomSeedCount="4" fullLODDistance="500" fullToLowLODDistance="505" offToLowLODDistance="505" offLODDistance="505" occlusionAttenuationScaler="0.042" __type="DataForgeComponentParams" __polymorphicType="SEntityAudioControllerParams" />
+    <GForceComponentParams __type="DataForgeComponentParams" __polymorphicType="GForceComponentParams" />
+    <AITargetableComponentParams targetableSettings="7bf98d92-153c-4b14-a694-7496161a3c05" __type="DataForgeComponentParams" __polymorphicType="AITargetableComponentParams" />
+    <AISeatOperatorComponentParams __type="DataForgeComponentParams" __polymorphicType="AISeatOperatorComponentParams" />
+    <AISeatFlightControllerComponentParams __type="DataForgeComponentParams" __polymorphicType="AISeatFlightControllerComponentParams" />
+    <AISeatWeaponControllerComponentParams __type="DataForgeComponentParams" __polymorphicType="AISeatWeaponControllerComponentParams" />
+    <AISeatShieldControllerComponentParams __type="DataForgeComponentParams" __polymorphicType="AISeatShieldControllerComponentParams" />
+    <RangeEventDispatcherComponentParams __type="DataForgeComponentParams" __polymorphicType="RangeEventDispatcherComponentParams" />
+    <AISeatDashboardControllerComponentParams __type="DataForgeComponentParams" __polymorphicType="AISeatDashboardControllerComponentParams" />
+    <AISeatQuantumDriveControllerComponentParams __type="DataForgeComponentParams" __polymorphicType="AISeatQuantumDriveControllerComponentParams" />
+    <SubsumptionMissionLinkComponentParams __type="DataForgeComponentParams" __polymorphicType="SubsumptionMissionLinkComponentParams" />
+    <SCEntityDraggableParams dragInteraction="Interactable.SharedInteractions[8]" dropInteraction="Interactable.SharedInteractions[9]" turnoverInteraction="Interactable.SharedInteractions[10]" defaultGrip="b618788e-083d-401e-bf4b-71256bdd68a6" weightModifier="0.5" usingBespokeSetup="0" __type="DataForgeComponentParams" __polymorphicType="SCEntityDraggableParams">
+      <overrideGrips>
+        <Reference value="19e11f12-8019-49a4-bc57-1f738893c0a2" />
+        <Reference value="c4278b94-5f52-4a44-90c9-30e3ca84c110" />
+        <Reference value="8555e2cb-2f7b-459a-9eab-88767ce5b385" />
+      </overrideGrips>
+      <dragTasks />
+    </SCEntityDraggableParams>
+    <SSubsumptionActionAreaTrackerParams __type="DataForgeComponentParams" __polymorphicType="SSubsumptionActionAreaTrackerParams" />
+    <EntityPhysicalAudioParams minimumImpulseContinuous="40" minimumImpulseTransient="20" minimumVelocityNoImpulse="100" slideThreshold="0.1" rollThreshold="0.1" momentumScale="1" useAABBCentre="0" oneShotTag="00000000-0000-0000-0000-000000000000" oneShotCooldown="0.2" dragOnly="1" __type="DataForgeComponentParams" __polymorphicType="EntityPhysicalAudioParams">
+      <collisionTriggers />
+      <slideStartTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <slideStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <rollStartTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <rollStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <movementStartTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <movementStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <pickupTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <pickFromOwnerTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <dropTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <placeTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <rtpcSlideVelocity rtpc="PhysicalAudio_Velocity" __type="AudioRtpc" />
+      <rtpcMassSelf rtpc="PhysicalAudio_MassSelf" __type="AudioRtpc" />
+      <rtpcMassOther rtpc="PhysicalAudio_MassOther" __type="AudioRtpc" />
+      <rtpcDampening rtpc="PhysicalAudio_Damping" __type="AudioRtpc" />
+      <rtpcRollVelocity rtpc="PhysicalAudio_RollVelocity" __type="AudioRtpc" />
+      <rtpcHealth rtpc="PhysicalAudio_Health" __type="AudioRtpc" />
+      <rtpcMovement rtpc="PhysicalAudio_Movement" __type="AudioRtpc" />
+      <rtpcRotation rtpc="PhysicalAudio_Rotation" __type="AudioRtpc" />
+      <rtpcTimeSinceLastOneshot rtpc="PhysicalAudio_TimeSinceLastOneshot" __type="AudioRtpc" />
+      <rtpcMomentum rtpc="PhysicalAudio_Momentum" __type="AudioRtpc" />
+      <rtpcCarried rtpc="PhysicalAudio_CarryState" __type="AudioRtpc" />
+    </EntityPhysicalAudioParams>
+    <SCDynamicLightingRigComponentParams settings="00000000-0000-0000-0000-000000000000" enabled="1" __type="DataForgeComponentParams" __polymorphicType="SCDynamicLightingRigComponentParams">
+      <enabledLights>
+        <SCDynamicRigLightEnabledParams enabled="1" __type="SCDynamicRigLightEnabledParams" />
+        <SCDynamicRigLightEnabledParams enabled="1" __type="SCDynamicRigLightEnabledParams" />
+        <SCDynamicRigLightEnabledParams enabled="1" __type="SCDynamicRigLightEnabledParams" />
+      </enabledLights>
+    </SCDynamicLightingRigComponentParams>
+    <AutopilotParams __type="DataForgeComponentParams" __polymorphicType="AutopilotParams" />
+    <SItemPortContainerComponentParams PortFlags="" PortTags="" RequiredItemTags="" __type="DataForgeComponentParams" __polymorphicType="SItemPortContainerComponentParams">
+      <masterController>
+      </masterController>
+      <Ports>
+        <SItemPortDef Name="Body_ItemPort" DisplayName="" PortTags="" RequiredPortTags="" Flags="" MinSize="1" MaxSize="1" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags>
+            <Reference value="27893aeb-650b-4c1b-9c96-a5ae9b0da261" />
+          </Tags>
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types>
+            <SItemPortDefTypes Type="Char_Body" __type="SItemPortDefTypes">
+              <SubTypes />
+            </SItemPortDefTypes>
+          </Types>
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationSkin __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationSkin">
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationSkin>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+      </Ports>
+      <InternalResourceLinks />
+    </SItemPortContainerComponentParams>
+    <UserVariablesComponentParams AlwaysUseDefaultValues="0" __type="DataForgeComponentParams" __polymorphicType="UserVariablesComponentParams">
+      <floats />
+      <ints />
+      <bools />
+      <strings>
+        <StringUserVariable name="testSkin" defaultValue="ItemPorts.Male.storedInventoryEntity" __type="StringUserVariable">
+          <recordRefValue>
+          </recordRefValue>
+          <tasks />
+        </StringUserVariable>
+        <StringUserVariable name="skin" defaultValue="storedInventoryEntity Male" __type="StringUserVariable">
+          <recordRefValue>
+          </recordRefValue>
+          <tasks />
+        </StringUserVariable>
+      </strings>
+      <locStrings />
+    </UserVariablesComponentParams>
+    <SInteractionLinkParams __type="DataForgeComponentParams" __polymorphicType="SInteractionLinkParams">
+      <vehicleItemPortInteractionLinks />
+      <linkPlugs />
+    </SInteractionLinkParams>
+    <SEntityTraversingTreeParams __type="DataForgeComponentParams" __polymorphicType="SEntityTraversingTreeParams">
+      <TraversingNodes>
+        <SEntityTraversingNodeBase name="Char_Armor_Undersuit" __type="SEntityTraversingNodeBase">
+          <id>
+          </id>
+          <entityTraversingType>
+            <SEntityTraversingNodeTypeItemType itemType="Char_Armor_Undersuit" __type="SEntityTraversingNodeTypeParams" __polymorphicType="SEntityTraversingNodeTypeItemType" />
+          </entityTraversingType>
+          <executeNodes>
+            <SInverseInteractionLinkExecuteCreateInteractionLinkNode __type="SEntityTraversingExecuteNodeBase" __polymorphicType="SInverseInteractionLinkExecuteCreateInteractionLinkNode">
+              <interactionPointParams FirstInteractionPrimary="1" UseHelperLocation="0" ShowHighlight="1" ApplyToEntireSkeleton="0" longRangeIP="0" HelperName="Hips" TextJustification="Middle" TextOrientation="RotateToPlayer" TextScale="1" Radius="2" MaxCursorScreenDistance="2" ShowInnerThoughtsOffScreen="0" OnlySelectableInLookDir="0" __type="SInteractionPointParams">
+                <HighlightBehaviors />
+                <AdditionalCollisionBones />
+                <Offset __type="QuatT">
+                  <Rotation x="0" y="0" z="0" __type="Ang3" />
+                  <Position x="0" y="0" z="0" __type="Vec3" />
+                </Offset>
+                <AngleConstraint angleRange="181" __type="SAngleConstraint">
+                  <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+                </AngleConstraint>
+                <SpherePrimitive>
+                </SpherePrimitive>
+                <Interactions />
+              </interactionPointParams>
+              <inverseInteractionEntries>
+                <SInverseInteractionLinkParams targetInteractionName="BodyDrag" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="BodyDrag" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_bodydrag" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="bf54952a-3369-4753-a762-16b2d5bcaa65" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="BodyDrop" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="BodyDrop" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_bodydragDrop" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="1dc19ad1-6e74-4fc8-9c42-89154059c597" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="TurnOver" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="TurnOver" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_turnover" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="689aaab4-6b99-48f1-a865-91175eaa6720" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="Loot" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="Loot" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_loot" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="49e18f10-93c9-4340-ba08-2b00631ab51a" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+              </inverseInteractionEntries>
+            </SInverseInteractionLinkExecuteCreateInteractionLinkNode>
+          </executeNodes>
+          <nextNodes />
+        </SEntityTraversingNodeBase>
+        <SEntityTraversingNodeBase name="Char_Armor_Torso" __type="SEntityTraversingNodeBase">
+          <id>
+          </id>
+          <entityTraversingType>
+            <SEntityTraversingNodeTypeItemType itemType="Char_Armor_Torso" __type="SEntityTraversingNodeTypeParams" __polymorphicType="SEntityTraversingNodeTypeItemType" />
+          </entityTraversingType>
+          <executeNodes>
+            <SInverseInteractionLinkExecuteCreateInteractionLinkNode __type="SEntityTraversingExecuteNodeBase" __polymorphicType="SInverseInteractionLinkExecuteCreateInteractionLinkNode">
+              <interactionPointParams FirstInteractionPrimary="1" UseHelperLocation="0" ShowHighlight="1" ApplyToEntireSkeleton="0" longRangeIP="0" HelperName="Spine3" TextJustification="Middle" TextOrientation="RotateToPlayer" TextScale="1" Radius="2" MaxCursorScreenDistance="2" ShowInnerThoughtsOffScreen="0" OnlySelectableInLookDir="0" __type="SInteractionPointParams">
+                <HighlightBehaviors />
+                <AdditionalCollisionBones />
+                <Offset __type="QuatT">
+                  <Rotation x="0" y="0" z="0" __type="Ang3" />
+                  <Position x="0" y="0" z="0" __type="Vec3" />
+                </Offset>
+                <AngleConstraint angleRange="181" __type="SAngleConstraint">
+                  <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+                </AngleConstraint>
+                <SpherePrimitive>
+                </SpherePrimitive>
+                <Interactions />
+              </interactionPointParams>
+              <inverseInteractionEntries>
+                <SInverseInteractionLinkParams targetInteractionName="BodyDrag" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="BodyDrag" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_bodydrag" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="bf54952a-3369-4753-a762-16b2d5bcaa65" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="BodyDrop" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="BodyDrop" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_bodydragDrop" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="1dc19ad1-6e74-4fc8-9c42-89154059c597" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="TurnOver" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="TurnOver" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_turnover" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="689aaab4-6b99-48f1-a865-91175eaa6720" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="Loot" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="Loot" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_loot" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="49e18f10-93c9-4340-ba08-2b00631ab51a" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+              </inverseInteractionEntries>
+            </SInverseInteractionLinkExecuteCreateInteractionLinkNode>
+          </executeNodes>
+          <nextNodes />
+        </SEntityTraversingNodeBase>
+        <SEntityTraversingNodeBase name="Char_Armor_Legs" __type="SEntityTraversingNodeBase">
+          <id>
+          </id>
+          <entityTraversingType>
+            <SEntityTraversingNodeTypeItemType itemType="Char_Armor_Legs" __type="SEntityTraversingNodeTypeParams" __polymorphicType="SEntityTraversingNodeTypeItemType" />
+          </entityTraversingType>
+          <executeNodes>
+            <SInverseInteractionLinkExecuteCreateInteractionLinkNode __type="SEntityTraversingExecuteNodeBase" __polymorphicType="SInverseInteractionLinkExecuteCreateInteractionLinkNode">
+              <interactionPointParams FirstInteractionPrimary="1" UseHelperLocation="0" ShowHighlight="1" ApplyToEntireSkeleton="0" longRangeIP="0" HelperName="LeftLeg" TextJustification="Middle" TextOrientation="RotateToPlayer" TextScale="1" Radius="2" MaxCursorScreenDistance="2" ShowInnerThoughtsOffScreen="0" OnlySelectableInLookDir="0" __type="SInteractionPointParams">
+                <HighlightBehaviors />
+                <AdditionalCollisionBones>
+                  <String value="RightLeg" />
+                  <String value="mesh_crate_armor_legs_1_005x005x005" />
+                  <String value="anim_mesh_crate_lid_armor_legs_1_005x005x005" />
+                </AdditionalCollisionBones>
+                <Offset __type="QuatT">
+                  <Rotation x="0" y="0" z="0" __type="Ang3" />
+                  <Position x="0" y="0" z="0" __type="Vec3" />
+                </Offset>
+                <AngleConstraint angleRange="181" __type="SAngleConstraint">
+                  <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+                </AngleConstraint>
+                <SpherePrimitive>
+                </SpherePrimitive>
+                <Interactions />
+              </interactionPointParams>
+              <inverseInteractionEntries>
+                <SInverseInteractionLinkParams targetInteractionName="BodyDrag" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="BodyDrag" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_bodydrag" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="bf54952a-3369-4753-a762-16b2d5bcaa65" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="BodyDrop" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="BodyDrop" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_bodydragDrop" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="1dc19ad1-6e74-4fc8-9c42-89154059c597" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="TurnOver" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="TurnOver" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_turnover" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="689aaab4-6b99-48f1-a865-91175eaa6720" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="Loot" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="Loot" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_loot" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="49e18f10-93c9-4340-ba08-2b00631ab51a" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+              </inverseInteractionEntries>
+            </SInverseInteractionLinkExecuteCreateInteractionLinkNode>
+          </executeNodes>
+          <nextNodes />
+        </SEntityTraversingNodeBase>
+        <SEntityTraversingNodeBase name="Char_Armor_Arms" __type="SEntityTraversingNodeBase">
+          <id>
+          </id>
+          <entityTraversingType>
+            <SEntityTraversingNodeTypeItemType itemType="Char_Armor_Arms" __type="SEntityTraversingNodeTypeParams" __polymorphicType="SEntityTraversingNodeTypeItemType" />
+          </entityTraversingType>
+          <executeNodes>
+            <SInverseInteractionLinkExecuteCreateInteractionLinkNode __type="SEntityTraversingExecuteNodeBase" __polymorphicType="SInverseInteractionLinkExecuteCreateInteractionLinkNode">
+              <interactionPointParams FirstInteractionPrimary="1" UseHelperLocation="0" ShowHighlight="1" ApplyToEntireSkeleton="0" longRangeIP="0" HelperName="LeftForeArm" TextJustification="Middle" TextOrientation="RotateToPlayer" TextScale="1" Radius="2" MaxCursorScreenDistance="2" ShowInnerThoughtsOffScreen="0" OnlySelectableInLookDir="0" __type="SInteractionPointParams">
+                <HighlightBehaviors />
+                <AdditionalCollisionBones />
+                <Offset __type="QuatT">
+                  <Rotation x="0" y="0" z="0" __type="Ang3" />
+                  <Position x="0" y="0" z="0" __type="Vec3" />
+                </Offset>
+                <AngleConstraint angleRange="181" __type="SAngleConstraint">
+                  <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+                </AngleConstraint>
+                <SpherePrimitive>
+                </SpherePrimitive>
+                <Interactions />
+              </interactionPointParams>
+              <inverseInteractionEntries>
+                <SInverseInteractionLinkParams targetInteractionName="BodyDrag" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="BodyDrag" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_bodydrag" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="bf54952a-3369-4753-a762-16b2d5bcaa65" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="BodyDrop" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="BodyDrop" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_bodydragDrop" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="1dc19ad1-6e74-4fc8-9c42-89154059c597" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="TurnOver" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="TurnOver" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_turnover" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="689aaab4-6b99-48f1-a865-91175eaa6720" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="Loot" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="Loot" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_loot" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="49e18f10-93c9-4340-ba08-2b00631ab51a" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+              </inverseInteractionEntries>
+            </SInverseInteractionLinkExecuteCreateInteractionLinkNode>
+            <SInverseInteractionLinkExecuteCreateInteractionLinkNode __type="SEntityTraversingExecuteNodeBase" __polymorphicType="SInverseInteractionLinkExecuteCreateInteractionLinkNode">
+              <interactionPointParams FirstInteractionPrimary="1" UseHelperLocation="0" ShowHighlight="1" ApplyToEntireSkeleton="0" longRangeIP="0" HelperName="RightForeArm" TextJustification="Middle" TextOrientation="RotateToPlayer" TextScale="1" Radius="2" MaxCursorScreenDistance="2" ShowInnerThoughtsOffScreen="0" OnlySelectableInLookDir="0" __type="SInteractionPointParams">
+                <HighlightBehaviors />
+                <AdditionalCollisionBones />
+                <Offset __type="QuatT">
+                  <Rotation x="0" y="0" z="0" __type="Ang3" />
+                  <Position x="0" y="0" z="0" __type="Vec3" />
+                </Offset>
+                <AngleConstraint angleRange="181" __type="SAngleConstraint">
+                  <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+                </AngleConstraint>
+                <SpherePrimitive>
+                </SpherePrimitive>
+                <Interactions />
+              </interactionPointParams>
+              <inverseInteractionEntries>
+                <SInverseInteractionLinkParams targetInteractionName="BodyDrag" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="BodyDrag" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_bodydrag" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="bf54952a-3369-4753-a762-16b2d5bcaa65" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="BodyDrop" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="BodyDrop" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_bodydragDrop" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="1dc19ad1-6e74-4fc8-9c42-89154059c597" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="TurnOver" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="TurnOver" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_turnover" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="689aaab4-6b99-48f1-a865-91175eaa6720" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="Loot" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="Loot" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_loot" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="49e18f10-93c9-4340-ba08-2b00631ab51a" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+              </inverseInteractionEntries>
+            </SInverseInteractionLinkExecuteCreateInteractionLinkNode>
+          </executeNodes>
+          <nextNodes />
+        </SEntityTraversingNodeBase>
+        <SEntityTraversingNodeBase name="Char_Armor_Backpack" __type="SEntityTraversingNodeBase">
+          <id>
+          </id>
+          <entityTraversingType>
+            <SEntityTraversingNodeTypeItemType itemType="Char_Armor_Backpack" __type="SEntityTraversingNodeTypeParams" __polymorphicType="SEntityTraversingNodeTypeItemType" />
+          </entityTraversingType>
+          <executeNodes>
+            <SInverseInteractionLinkExecuteCreateInteractionLinkNode __type="SEntityTraversingExecuteNodeBase" __polymorphicType="SInverseInteractionLinkExecuteCreateInteractionLinkNode">
+              <interactionPointParams FirstInteractionPrimary="1" UseHelperLocation="0" ShowHighlight="1" ApplyToEntireSkeleton="1" longRangeIP="0" HelperName="root" TextJustification="Middle" TextOrientation="RotateToPlayer" TextScale="1" Radius="2" MaxCursorScreenDistance="2" ShowInnerThoughtsOffScreen="0" OnlySelectableInLookDir="0" __type="SInteractionPointParams">
+                <HighlightBehaviors />
+                <AdditionalCollisionBones />
+                <Offset __type="QuatT">
+                  <Rotation x="0" y="0" z="0" __type="Ang3" />
+                  <Position x="0" y="0" z="0" __type="Vec3" />
+                </Offset>
+                <AngleConstraint angleRange="181" __type="SAngleConstraint">
+                  <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+                </AngleConstraint>
+                <SpherePrimitive>
+                </SpherePrimitive>
+                <Interactions />
+              </interactionPointParams>
+              <inverseInteractionEntries>
+                <SInverseInteractionLinkParams targetInteractionName="BodyDrag" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="BodyDrag" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_bodydrag" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="bf54952a-3369-4753-a762-16b2d5bcaa65" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="BodyDrop" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="BodyDrop" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_bodydragDrop" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="1dc19ad1-6e74-4fc8-9c42-89154059c597" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="TurnOver" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="TurnOver" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_turnover" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="689aaab4-6b99-48f1-a865-91175eaa6720" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="Loot" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="Loot" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_loot" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="49e18f10-93c9-4340-ba08-2b00631ab51a" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+              </inverseInteractionEntries>
+            </SInverseInteractionLinkExecuteCreateInteractionLinkNode>
+          </executeNodes>
+          <nextNodes />
+        </SEntityTraversingNodeBase>
+        <SEntityTraversingNodeBase name="Char_Armor_Helmet" __type="SEntityTraversingNodeBase">
+          <id>
+          </id>
+          <entityTraversingType>
+            <SEntityTraversingNodeTypeItemType itemType="Char_Armor_Helmet" __type="SEntityTraversingNodeTypeParams" __polymorphicType="SEntityTraversingNodeTypeItemType" />
+          </entityTraversingType>
+          <executeNodes>
+            <SInverseInteractionLinkExecuteCreateInteractionLinkNode __type="SEntityTraversingExecuteNodeBase" __polymorphicType="SInverseInteractionLinkExecuteCreateInteractionLinkNode">
+              <interactionPointParams FirstInteractionPrimary="1" UseHelperLocation="0" ShowHighlight="1" ApplyToEntireSkeleton="0" longRangeIP="0" HelperName="Head" TextJustification="Middle" TextOrientation="RotateToPlayer" TextScale="1" Radius="2" MaxCursorScreenDistance="2" ShowInnerThoughtsOffScreen="0" OnlySelectableInLookDir="0" __type="SInteractionPointParams">
+                <HighlightBehaviors />
+                <AdditionalCollisionBones />
+                <Offset __type="QuatT">
+                  <Rotation x="0" y="0" z="0" __type="Ang3" />
+                  <Position x="0" y="0" z="0" __type="Vec3" />
+                </Offset>
+                <AngleConstraint angleRange="181" __type="SAngleConstraint">
+                  <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+                </AngleConstraint>
+                <SpherePrimitive>
+                </SpherePrimitive>
+                <Interactions />
+              </interactionPointParams>
+              <inverseInteractionEntries>
+                <SInverseInteractionLinkParams targetInteractionName="BodyDrag" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="BodyDrag" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_bodydrag" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="bf54952a-3369-4753-a762-16b2d5bcaa65" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="BodyDrop" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="BodyDrop" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_bodydragDrop" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="1dc19ad1-6e74-4fc8-9c42-89154059c597" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="TurnOver" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="TurnOver" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_turnover" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="689aaab4-6b99-48f1-a865-91175eaa6720" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="Loot" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="Loot" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_loot" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="49e18f10-93c9-4340-ba08-2b00631ab51a" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+              </inverseInteractionEntries>
+            </SInverseInteractionLinkExecuteCreateInteractionLinkNode>
+          </executeNodes>
+          <nextNodes />
+        </SEntityTraversingNodeBase>
+        <SEntityTraversingNodeBase name="Char_Clothing_Torso_0" __type="SEntityTraversingNodeBase">
+          <id>
+          </id>
+          <entityTraversingType>
+            <SEntityTraversingNodeTypeItemType itemType="Char_Clothing_Torso_0" __type="SEntityTraversingNodeTypeParams" __polymorphicType="SEntityTraversingNodeTypeItemType" />
+          </entityTraversingType>
+          <executeNodes>
+            <SInverseInteractionLinkExecuteCreateInteractionLinkNode __type="SEntityTraversingExecuteNodeBase" __polymorphicType="SInverseInteractionLinkExecuteCreateInteractionLinkNode">
+              <interactionPointParams FirstInteractionPrimary="1" UseHelperLocation="0" ShowHighlight="1" ApplyToEntireSkeleton="0" longRangeIP="0" HelperName="Spine2" TextJustification="Middle" TextOrientation="RotateToPlayer" TextScale="1" Radius="2" MaxCursorScreenDistance="2" ShowInnerThoughtsOffScreen="0" OnlySelectableInLookDir="0" __type="SInteractionPointParams">
+                <HighlightBehaviors />
+                <AdditionalCollisionBones />
+                <Offset __type="QuatT">
+                  <Rotation x="0" y="0" z="0" __type="Ang3" />
+                  <Position x="0" y="0" z="0" __type="Vec3" />
+                </Offset>
+                <AngleConstraint angleRange="181" __type="SAngleConstraint">
+                  <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+                </AngleConstraint>
+                <SpherePrimitive>
+                </SpherePrimitive>
+                <Interactions />
+              </interactionPointParams>
+              <inverseInteractionEntries>
+                <SInverseInteractionLinkParams targetInteractionName="BodyDrag" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="BodyDrag" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_bodydrag" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="bf54952a-3369-4753-a762-16b2d5bcaa65" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="BodyDrop" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="BodyDrop" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_bodydragDrop" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="1dc19ad1-6e74-4fc8-9c42-89154059c597" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="TurnOver" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="TurnOver" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_turnover" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="689aaab4-6b99-48f1-a865-91175eaa6720" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="Loot" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="Loot" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_loot" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="49e18f10-93c9-4340-ba08-2b00631ab51a" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+              </inverseInteractionEntries>
+            </SInverseInteractionLinkExecuteCreateInteractionLinkNode>
+          </executeNodes>
+          <nextNodes />
+        </SEntityTraversingNodeBase>
+        <SEntityTraversingNodeBase name="Char_Clothing_Torso_1" __type="SEntityTraversingNodeBase">
+          <id>
+          </id>
+          <entityTraversingType>
+            <SEntityTraversingNodeTypeItemType itemType="Char_Clothing_Torso_1" __type="SEntityTraversingNodeTypeParams" __polymorphicType="SEntityTraversingNodeTypeItemType" />
+          </entityTraversingType>
+          <executeNodes>
+            <SInverseInteractionLinkExecuteCreateInteractionLinkNode __type="SEntityTraversingExecuteNodeBase" __polymorphicType="SInverseInteractionLinkExecuteCreateInteractionLinkNode">
+              <interactionPointParams FirstInteractionPrimary="1" UseHelperLocation="0" ShowHighlight="1" ApplyToEntireSkeleton="0" longRangeIP="0" HelperName="Spine3" TextJustification="Middle" TextOrientation="RotateToPlayer" TextScale="1" Radius="2" MaxCursorScreenDistance="2" ShowInnerThoughtsOffScreen="0" OnlySelectableInLookDir="0" __type="SInteractionPointParams">
+                <HighlightBehaviors />
+                <AdditionalCollisionBones />
+                <Offset __type="QuatT">
+                  <Rotation x="0" y="0" z="0" __type="Ang3" />
+                  <Position x="0" y="0" z="0" __type="Vec3" />
+                </Offset>
+                <AngleConstraint angleRange="181" __type="SAngleConstraint">
+                  <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+                </AngleConstraint>
+                <SpherePrimitive>
+                </SpherePrimitive>
+                <Interactions />
+              </interactionPointParams>
+              <inverseInteractionEntries>
+                <SInverseInteractionLinkParams targetInteractionName="BodyDrag" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="BodyDrag" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_bodydrag" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="bf54952a-3369-4753-a762-16b2d5bcaa65" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="BodyDrop" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="BodyDrop" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_bodydragDrop" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="1dc19ad1-6e74-4fc8-9c42-89154059c597" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="TurnOver" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="TurnOver" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_turnover" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="689aaab4-6b99-48f1-a865-91175eaa6720" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="Loot" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="Loot" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_loot" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="49e18f10-93c9-4340-ba08-2b00631ab51a" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+              </inverseInteractionEntries>
+            </SInverseInteractionLinkExecuteCreateInteractionLinkNode>
+          </executeNodes>
+          <nextNodes />
+        </SEntityTraversingNodeBase>
+        <SEntityTraversingNodeBase name="Char_Clothing_Legs" __type="SEntityTraversingNodeBase">
+          <id>
+          </id>
+          <entityTraversingType>
+            <SEntityTraversingNodeTypeItemType itemType="Char_Clothing_Legs" __type="SEntityTraversingNodeTypeParams" __polymorphicType="SEntityTraversingNodeTypeItemType" />
+          </entityTraversingType>
+          <executeNodes>
+            <SInverseInteractionLinkExecuteCreateInteractionLinkNode __type="SEntityTraversingExecuteNodeBase" __polymorphicType="SInverseInteractionLinkExecuteCreateInteractionLinkNode">
+              <interactionPointParams FirstInteractionPrimary="1" UseHelperLocation="0" ShowHighlight="1" ApplyToEntireSkeleton="0" longRangeIP="0" HelperName="LeftLeg" TextJustification="Middle" TextOrientation="RotateToPlayer" TextScale="1" Radius="2" MaxCursorScreenDistance="2" ShowInnerThoughtsOffScreen="0" OnlySelectableInLookDir="0" __type="SInteractionPointParams">
+                <HighlightBehaviors />
+                <AdditionalCollisionBones>
+                  <String value="RightLeg" />
+                </AdditionalCollisionBones>
+                <Offset __type="QuatT">
+                  <Rotation x="0" y="0" z="0" __type="Ang3" />
+                  <Position x="0" y="0" z="0" __type="Vec3" />
+                </Offset>
+                <AngleConstraint angleRange="181" __type="SAngleConstraint">
+                  <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+                </AngleConstraint>
+                <SpherePrimitive>
+                </SpherePrimitive>
+                <Interactions />
+              </interactionPointParams>
+              <inverseInteractionEntries>
+                <SInverseInteractionLinkParams targetInteractionName="BodyDrag" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="BodyDrag" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_bodydrag" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="bf54952a-3369-4753-a762-16b2d5bcaa65" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="BodyDrop" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="BodyDrop" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_bodydragDrop" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="1dc19ad1-6e74-4fc8-9c42-89154059c597" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="TurnOver" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="TurnOver" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_turnover" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="689aaab4-6b99-48f1-a865-91175eaa6720" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="Loot" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="Loot" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_loot" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="49e18f10-93c9-4340-ba08-2b00631ab51a" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+              </inverseInteractionEntries>
+            </SInverseInteractionLinkExecuteCreateInteractionLinkNode>
+          </executeNodes>
+          <nextNodes />
+        </SEntityTraversingNodeBase>
+        <SEntityTraversingNodeBase name="Char_Clothing_Hat" __type="SEntityTraversingNodeBase">
+          <id>
+          </id>
+          <entityTraversingType>
+            <SEntityTraversingNodeTypeItemType itemType="Char_Clothing_Hat" __type="SEntityTraversingNodeTypeParams" __polymorphicType="SEntityTraversingNodeTypeItemType" />
+          </entityTraversingType>
+          <executeNodes>
+            <SInverseInteractionLinkExecuteCreateInteractionLinkNode __type="SEntityTraversingExecuteNodeBase" __polymorphicType="SInverseInteractionLinkExecuteCreateInteractionLinkNode">
+              <interactionPointParams FirstInteractionPrimary="1" UseHelperLocation="0" ShowHighlight="1" ApplyToEntireSkeleton="0" longRangeIP="0" HelperName="Head" TextJustification="Middle" TextOrientation="RotateToPlayer" TextScale="1" Radius="2" MaxCursorScreenDistance="2" ShowInnerThoughtsOffScreen="0" OnlySelectableInLookDir="0" __type="SInteractionPointParams">
+                <HighlightBehaviors />
+                <AdditionalCollisionBones />
+                <Offset __type="QuatT">
+                  <Rotation x="0" y="0" z="0" __type="Ang3" />
+                  <Position x="0" y="0" z="0" __type="Vec3" />
+                </Offset>
+                <AngleConstraint angleRange="181" __type="SAngleConstraint">
+                  <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+                </AngleConstraint>
+                <SpherePrimitive>
+                </SpherePrimitive>
+                <Interactions />
+              </interactionPointParams>
+              <inverseInteractionEntries>
+                <SInverseInteractionLinkParams targetInteractionName="BodyDrag" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="BodyDrag" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_bodydrag" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="bf54952a-3369-4753-a762-16b2d5bcaa65" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="BodyDrop" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="BodyDrop" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_bodydragDrop" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="1dc19ad1-6e74-4fc8-9c42-89154059c597" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="TurnOver" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="TurnOver" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_turnover" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="689aaab4-6b99-48f1-a865-91175eaa6720" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="Loot" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="Loot" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_loot" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="49e18f10-93c9-4340-ba08-2b00631ab51a" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+              </inverseInteractionEntries>
+            </SInverseInteractionLinkExecuteCreateInteractionLinkNode>
+          </executeNodes>
+          <nextNodes />
+        </SEntityTraversingNodeBase>
+        <SEntityTraversingNodeBase name="Char_Clothing_Hands" __type="SEntityTraversingNodeBase">
+          <id>
+          </id>
+          <entityTraversingType>
+            <SEntityTraversingNodeTypeItemType itemType="Char_Clothing_Hands" __type="SEntityTraversingNodeTypeParams" __polymorphicType="SEntityTraversingNodeTypeItemType" />
+          </entityTraversingType>
+          <executeNodes>
+            <SInverseInteractionLinkExecuteCreateInteractionLinkNode __type="SEntityTraversingExecuteNodeBase" __polymorphicType="SInverseInteractionLinkExecuteCreateInteractionLinkNode">
+              <interactionPointParams FirstInteractionPrimary="1" UseHelperLocation="0" ShowHighlight="1" ApplyToEntireSkeleton="0" longRangeIP="0" HelperName="LeftHand" TextJustification="Middle" TextOrientation="RotateToPlayer" TextScale="1" Radius="2" MaxCursorScreenDistance="2" ShowInnerThoughtsOffScreen="0" OnlySelectableInLookDir="0" __type="SInteractionPointParams">
+                <HighlightBehaviors />
+                <AdditionalCollisionBones />
+                <Offset __type="QuatT">
+                  <Rotation x="0" y="0" z="0" __type="Ang3" />
+                  <Position x="0" y="0" z="0" __type="Vec3" />
+                </Offset>
+                <AngleConstraint angleRange="181" __type="SAngleConstraint">
+                  <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+                </AngleConstraint>
+                <SpherePrimitive>
+                </SpherePrimitive>
+                <Interactions />
+              </interactionPointParams>
+              <inverseInteractionEntries>
+                <SInverseInteractionLinkParams targetInteractionName="BodyDrag" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="BodyDrag" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_bodydrag" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="bf54952a-3369-4753-a762-16b2d5bcaa65" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="BodyDrop" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="BodyDrop" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_bodydragDrop" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="1dc19ad1-6e74-4fc8-9c42-89154059c597" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="TurnOver" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="TurnOver" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_turnover" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="689aaab4-6b99-48f1-a865-91175eaa6720" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="Loot" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="Loot" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_loot" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="49e18f10-93c9-4340-ba08-2b00631ab51a" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+              </inverseInteractionEntries>
+            </SInverseInteractionLinkExecuteCreateInteractionLinkNode>
+            <SInverseInteractionLinkExecuteCreateInteractionLinkNode __type="SEntityTraversingExecuteNodeBase" __polymorphicType="SInverseInteractionLinkExecuteCreateInteractionLinkNode">
+              <interactionPointParams FirstInteractionPrimary="1" UseHelperLocation="0" ShowHighlight="1" ApplyToEntireSkeleton="0" longRangeIP="0" HelperName="RightHand" TextJustification="Middle" TextOrientation="RotateToPlayer" TextScale="1" Radius="2" MaxCursorScreenDistance="2" ShowInnerThoughtsOffScreen="0" OnlySelectableInLookDir="0" __type="SInteractionPointParams">
+                <HighlightBehaviors />
+                <AdditionalCollisionBones />
+                <Offset __type="QuatT">
+                  <Rotation x="0" y="0" z="0" __type="Ang3" />
+                  <Position x="0" y="0" z="0" __type="Vec3" />
+                </Offset>
+                <AngleConstraint angleRange="181" __type="SAngleConstraint">
+                  <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+                </AngleConstraint>
+                <SpherePrimitive>
+                </SpherePrimitive>
+                <Interactions />
+              </interactionPointParams>
+              <inverseInteractionEntries>
+                <SInverseInteractionLinkParams targetInteractionName="BodyDrag" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="BodyDrag" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_bodydrag" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="bf54952a-3369-4753-a762-16b2d5bcaa65" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="BodyDrop" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="BodyDrop" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_bodydragDrop" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="1dc19ad1-6e74-4fc8-9c42-89154059c597" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="TurnOver" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="TurnOver" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_turnover" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="689aaab4-6b99-48f1-a865-91175eaa6720" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="Loot" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="Loot" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_loot" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="49e18f10-93c9-4340-ba08-2b00631ab51a" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+              </inverseInteractionEntries>
+            </SInverseInteractionLinkExecuteCreateInteractionLinkNode>
+          </executeNodes>
+          <nextNodes />
+        </SEntityTraversingNodeBase>
+        <SEntityTraversingNodeBase name="Char_Clothing_Feet" __type="SEntityTraversingNodeBase">
+          <id>
+          </id>
+          <entityTraversingType>
+            <SEntityTraversingNodeTypeItemType itemType="Char_Clothing_Feet" __type="SEntityTraversingNodeTypeParams" __polymorphicType="SEntityTraversingNodeTypeItemType" />
+          </entityTraversingType>
+          <executeNodes>
+            <SInverseInteractionLinkExecuteCreateInteractionLinkNode __type="SEntityTraversingExecuteNodeBase" __polymorphicType="SInverseInteractionLinkExecuteCreateInteractionLinkNode">
+              <interactionPointParams FirstInteractionPrimary="1" UseHelperLocation="0" ShowHighlight="1" ApplyToEntireSkeleton="0" longRangeIP="0" HelperName="LeftFoot" TextJustification="Middle" TextOrientation="RotateToPlayer" TextScale="1" Radius="2" MaxCursorScreenDistance="2" ShowInnerThoughtsOffScreen="0" OnlySelectableInLookDir="0" __type="SInteractionPointParams">
+                <HighlightBehaviors />
+                <AdditionalCollisionBones />
+                <Offset __type="QuatT">
+                  <Rotation x="0" y="0" z="0" __type="Ang3" />
+                  <Position x="0" y="0" z="0" __type="Vec3" />
+                </Offset>
+                <AngleConstraint angleRange="181" __type="SAngleConstraint">
+                  <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+                </AngleConstraint>
+                <SpherePrimitive>
+                </SpherePrimitive>
+                <Interactions />
+              </interactionPointParams>
+              <inverseInteractionEntries>
+                <SInverseInteractionLinkParams targetInteractionName="BodyDrag" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="BodyDrag" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_bodydrag" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="bf54952a-3369-4753-a762-16b2d5bcaa65" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="BodyDrop" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="BodyDrop" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_bodydragDrop" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="1dc19ad1-6e74-4fc8-9c42-89154059c597" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="TurnOver" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="TurnOver" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_turnover" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="689aaab4-6b99-48f1-a865-91175eaa6720" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="Loot" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="Loot" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_loot" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="49e18f10-93c9-4340-ba08-2b00631ab51a" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+              </inverseInteractionEntries>
+            </SInverseInteractionLinkExecuteCreateInteractionLinkNode>
+            <SInverseInteractionLinkExecuteCreateInteractionLinkNode __type="SEntityTraversingExecuteNodeBase" __polymorphicType="SInverseInteractionLinkExecuteCreateInteractionLinkNode">
+              <interactionPointParams FirstInteractionPrimary="1" UseHelperLocation="0" ShowHighlight="1" ApplyToEntireSkeleton="0" longRangeIP="0" HelperName="RightFoot" TextJustification="Middle" TextOrientation="RotateToPlayer" TextScale="1" Radius="2" MaxCursorScreenDistance="2" ShowInnerThoughtsOffScreen="0" OnlySelectableInLookDir="0" __type="SInteractionPointParams">
+                <HighlightBehaviors />
+                <AdditionalCollisionBones />
+                <Offset __type="QuatT">
+                  <Rotation x="0" y="0" z="0" __type="Ang3" />
+                  <Position x="0" y="0" z="0" __type="Vec3" />
+                </Offset>
+                <AngleConstraint angleRange="181" __type="SAngleConstraint">
+                  <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+                </AngleConstraint>
+                <SpherePrimitive>
+                </SpherePrimitive>
+                <Interactions />
+              </interactionPointParams>
+              <inverseInteractionEntries>
+                <SInverseInteractionLinkParams targetInteractionName="BodyDrag" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="BodyDrag" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_bodydrag" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="bf54952a-3369-4753-a762-16b2d5bcaa65" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="BodyDrop" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="BodyDrop" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_bodydragDrop" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="1dc19ad1-6e74-4fc8-9c42-89154059c597" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="TurnOver" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="TurnOver" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_turnover" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="689aaab4-6b99-48f1-a865-91175eaa6720" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+                <SInverseInteractionLinkParams targetInteractionName="Loot" __type="SInverseInteractionLinkParams">
+                  <interactionEntry Name="Loot" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_loot" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="1" __type="SSharedInteractionParams">
+                    <QueryTags />
+                    <conditionList>
+                      <InteractionConditionList preset="49e18f10-93c9-4340-ba08-2b00631ab51a" __type="InteractionConditionList">
+                        <conditionParams />
+                        <conditionToHideParams />
+                      </InteractionConditionList>
+                    </conditionList>
+                  </interactionEntry>
+                </SInverseInteractionLinkParams>
+              </inverseInteractionEntries>
+            </SInverseInteractionLinkExecuteCreateInteractionLinkNode>
+          </executeNodes>
+          <nextNodes />
+        </SEntityTraversingNodeBase>
+      </TraversingNodes>
+    </SEntityTraversingTreeParams>
+  </Components>
+</EntityClassDefinition.Actor>

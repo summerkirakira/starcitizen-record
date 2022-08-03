@@ -1,0 +1,50 @@
+<EntityClassDefinition.Default_LensDisplay Category="Default" Icon="Default.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="4ceab596-ef75-4881-970e-138c9c6fc30e" __path="libs/foundry/records/entities/scitem/default_lensdisplay.xml">
+  <tags />
+  <StaticEntityClassData />
+  <Components>
+    <SAttachableComponentParams attachToTileItemPort="NoConnection" __type="DataForgeComponentParams" __polymorphicType="SAttachableComponentParams">
+      <AttachDef Type="Visor" SubType="Personal" Size="1" Grade="1" Manufacturer="093e6eba-93fa-4dad-b3dd-38966934e34e" inheritParentManufacturer="0" Tags="" RequiredTags="" DisplayType="" __type="SItemDefinition">
+        <Localization Name="@LOC_PLACEHOLDER" ShortName="@LOC_EMPTY" Description="@LOC_EMPTY" __type="SCItemLocalization">
+          <displayFeatures LogoSimplifiedWhite="" FrontendBackground="" History="@LOC_EMPTY" Callout1="@LOC_EMPTY" Callout2="@LOC_EMPTY" Callout3="@LOC_EMPTY" UIPriority="0" __type="SCExtendedLocalizationLevelParams">
+            <locationAudioPlayTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+            <locationAudioStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </displayFeatures>
+        </Localization>
+        <mannequinTags mannequinClassTag="" mannequinTypeTag="" mannequinBaseTag="" __type="SCItemMannequinTags" />
+        <inventoryOccupancyVolume>
+          <SMicroCargoUnit microSCU="1" __type="SBaseCargoUnit" __polymorphicType="SMicroCargoUnit" />
+        </inventoryOccupancyVolume>
+        <inventoryOccupancyDimensions x="0.15" y="0.15" z="0.15" __type="Vec3" />
+        <inventoryOccupancyDimensionsUIOverride>
+        </inventoryOccupancyDimensionsUIOverride>
+      </AttachDef>
+      <entityAttachParams>
+      </entityAttachParams>
+    </SAttachableComponentParams>
+    <UIOwnerEntityComponentParams startOpen="0" areScreens3D="0" areSounds3D="0" hasActions="1" element="c70c326b-6854-4414-8dfd-b7e3dace65ce" domainName="global" loadDistance="0" updateDistance="0" moviePath="" variantName="" invariantName="" movieAutoPlay="0" loopMovie="0" forceFlashColourCorrection="0" ignoreTrackviewUnloadRequests="0" reflectLocalStateMachine="0" reflectLinkedStateMachines="0" graph="e0bd7800-03f4-4eb9-b0c7-8f02477abb5f" __type="DataForgeComponentParams" __polymorphicType="UIOwnerEntityComponentParams" />
+    <SCItemLensDisplayParams __type="DataForgeComponentParams" __polymorphicType="SCItemLensDisplayParams" />
+    <UIRenderToTextureEntityComponentParams directRenderStage="BeforeToneMapping" compositeMaterialName="Materials/default_lens.mtl" hideRenderNodeOnUnload="0" aspectRatioOverride="0" interactionDistance="5" transparentListDepthBias="0" renderFlashBeforeCamera="0" fieldOfView="45" renderType="FORWARD" fallbackTextureOnOnload="" __type="DataForgeComponentParams" __polymorphicType="UIRenderToTextureEntityComponentParams">
+      <secondaryTarget>
+        <UIRenderToTextureTarget aspectRatio="1.777778" usePrimaryTargetBounds="0" __type="UIRenderToTextureTarget" />
+      </secondaryTarget>
+      <grabCameraControlParams>
+      </grabCameraControlParams>
+    </UIRenderToTextureEntityComponentParams>
+    <UIAudioComponentEntityComponentParams UIAudioDef="5b8ef7ec-0862-4542-86fd-70bb27ffad21" useEntityClass="7bd3bb71-fa1a-4c08-bca5-ae4fb30f5ca8" dialogueContext="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="UIAudioComponentEntityComponentParams">
+      <offset>
+      </offset>
+      <videoAudioPlayTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <videoAudioPauseTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <videoAudioResumeTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+    </UIAudioComponentEntityComponentParams>
+    <UIBindingsVendorEntityComponentParams namespace="" __type="DataForgeComponentParams" __polymorphicType="UIBindingsVendorEntityComponentParams" />
+    <UIBindingsConsumerEntityComponentParams linkToPort="0" __type="DataForgeComponentParams" __polymorphicType="UIBindingsConsumerEntityComponentParams" />
+    <UIBindingsInteractionsComponentParams interactionDistance="50" __type="DataForgeComponentParams" __polymorphicType="UIBindingsInteractionsComponentParams" />
+    <UISimpleRenderNodeEntityComponentParams minimumBounds="100" materialName="materials/ui/ar/vehicle_marker.mtl" sortDistance="0" layerOffset="5" layerDistance="0.1" fixedScaleMin="0" fixedScaleMax="0" __type="DataForgeComponentParams" __polymorphicType="UISimpleRenderNodeEntityComponentParams" />
+    <UIEntityServiceEntityComponentParams immediateTransforms="1" __type="DataForgeComponentParams" __polymorphicType="UIEntityServiceEntityComponentParams" />
+    <ItemControlComponentParams turnedOnByDefault="0" __type="DataForgeComponentParams" __polymorphicType="ItemControlComponentParams">
+      <throttleParams>
+      </throttleParams>
+    </ItemControlComponentParams>
+  </Components>
+</EntityClassDefinition.Default_LensDisplay>

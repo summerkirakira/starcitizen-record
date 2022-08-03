@@ -1,0 +1,8 @@
+<WeaponProceduralClip.behr_pistol_ballistic_01_PoseIdleADS __type="WeaponProceduralClip" __ref="ace1efc6-6a44-406f-ad36-0d811abb4a0b" __path="libs/foundry/records/weaponproceduralclip/pistol/behr_pistol_ballistic_01_poseidleads.xml">
+  <weaponProceduralClipBase>
+    <WeaponProceduralClipPose blendTime="1" poseType="RightHand" zoomTransitionAngle="0" useAimHelperOffset="1" __type="WeaponProceduralClipBase" __polymorphicType="WeaponProceduralClipPose">
+      <position x="0" y="0" z="0.008" __type="Vec3" />
+      <rotation x="0.4" y="0" z="0" __type="Ang3" />
+    </WeaponProceduralClipPose>
+  </weaponProceduralClipBase>
+</WeaponProceduralClip.behr_pistol_ballistic_01_PoseIdleADS>

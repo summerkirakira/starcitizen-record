@@ -1,0 +1,8 @@
+<WeaponProceduralClip.klwe_lmg_energy_01_PoseInteracting __type="WeaponProceduralClip" __ref="f36aa1df-3eeb-4ba7-8013-eda4dd960fec" __path="libs/foundry/records/weaponproceduralclip/lmg/klwe_lmg_energy_01_poseinteracting.xml">
+  <weaponProceduralClipBase>
+    <WeaponProceduralClipPose blendTime="1" poseType="RightHand" zoomTransitionAngle="0" useAimHelperOffset="0" __type="WeaponProceduralClipBase" __polymorphicType="WeaponProceduralClipPose">
+      <position x="0" y="0.01" z="-0.01" __type="Vec3" />
+      <rotation x="-6" y="0" z="0" __type="Ang3" />
+    </WeaponProceduralClipPose>
+  </weaponProceduralClipBase>
+</WeaponProceduralClip.klwe_lmg_energy_01_PoseInteracting>

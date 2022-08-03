@@ -1,0 +1,10 @@
+<SecurityNetworkManifest.SNM_Fleetweek2021_EventOver __type="SecurityNetworkManifest" __ref="e35a354e-2f5c-4689-a23a-4fccdcf16be9" __path="libs/foundry/records/lawsystem/securitynetwork/manifests/fleetweek2021/snm_fleetweek2021_eventover.xml">
+  <defaultProtocol __type="SecurityNetworkProtocol">
+    <permissionsWithClearance access="No" shootOnSight="Yes" __type="SecurityNetworkPermissions" />
+    <permissionsWithoutClearance access="No" shootOnSight="Yes" __type="SecurityNetworkPermissions" />
+    <acceptedClearance __type="SecurityClearanceConditions">
+      <tokens />
+    </acceptedClearance>
+  </defaultProtocol>
+  <roomProtocols />
+</SecurityNetworkManifest.SNM_Fleetweek2021_EventOver>

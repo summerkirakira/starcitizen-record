@@ -1,0 +1,10 @@
+<ScanCustomDataDef.Lootable_PU_Container_Derelict_Rare __type="ScanCustomDataDef" __ref="7d512e12-7cac-4ea9-bafb-eaaaa5100dae" __path="libs/foundry/records/radarsystem/scandata/lootable_pu_container_derelict_rare.xml">
+  <scanProcedures>
+    <CustomScanProcedureParams scanLayer="Initial" emissionBaseline="0" __type="ScanProcedureParams" __polymorphicType="CustomScanProcedureParams">
+      <customDatas>
+        <ScanCustomDataLocString name="@hud_scanning_info_type" value="@item_container_lootcontainer_3_desc" __type="ScanCustomData" __polymorphicType="ScanCustomDataLocString" />
+        <ScanCustomDataLocString name="@hud_scanning_info_name" value="@item_container_lootcontainer_3" __type="ScanCustomData" __polymorphicType="ScanCustomDataLocString" />
+      </customDatas>
+    </CustomScanProcedureParams>
+  </scanProcedures>
+</ScanCustomDataDef.Lootable_PU_Container_Derelict_Rare>

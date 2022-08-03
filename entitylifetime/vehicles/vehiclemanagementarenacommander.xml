@@ -1,0 +1,5 @@
+<VehicleManagementParams.VehicleManagementArenaCommander vehicleCountLimit="75" forceRemovalImmuneDurationOnSpawn="180" __type="VehicleManagementParams" __ref="7681ac39-f4b7-43f8-a729-7a225ad9ec6d" __path="libs/foundry/records/entitylifetime/vehicles/vehiclemanagementarenacommander.xml">
+  <vehicleManagementStrategy>
+    <VehicleManagementOnPilotRevive timeoutDuration="60" __type="VehicleManagementStrategy" __polymorphicType="VehicleManagementOnPilotRevive" />
+  </vehicleManagementStrategy>
+</VehicleManagementParams.VehicleManagementArenaCommander>

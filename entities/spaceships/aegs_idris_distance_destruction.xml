@@ -1,0 +1,205 @@
+<EntityClassDefinition.AEGS_Idris_Distance_Destruction Category="Default" Icon="Default.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="739d47df-e587-4ecd-8849-6ff6160c334d" __type="EntityClassDefinition" __ref="c9c6be89-57ab-4fd0-925a-112198a96199" __path="libs/foundry/records/entities/spaceships/aegs_idris_distance_destruction.xml">
+  <tags>
+    <Reference value="63897a88-9b61-476d-94f4-1fe138ca648e" />
+    <Reference value="10d96278-5b69-42d3-a2aa-f20eb6b0b33b" />
+    <Reference value="434af56b-80a5-4e0d-a004-fe22c07ebacd" />
+    <Reference value="e1d90840-d3c2-469c-9df4-6c2b9f44aa9c" />
+    <Reference value="17cc697a-727f-44ba-8781-1a9883cc9ca3" />
+  </tags>
+  <StaticEntityClassData>
+    <EntityUIDisplayParams displayDescription="@LOC_UNINITIALIZED" displayThumbnail="" displayImage="" displayIcon="" sortString="" __type="EntityClassStaticDataParams" __polymorphicType="EntityUIDisplayParams">
+      <trackerProperties>
+        <SVehicleEntryTrackerParams __type="SObjectDataBankEntryTrackerParams" __polymorphicType="SVehicleEntryTrackerParams" />
+      </trackerProperties>
+    </EntityUIDisplayParams>
+    <SurfaceMFXEntityParams customEffect="Ships_Surface_Effects_S3" __type="EntityClassStaticDataParams" __polymorphicType="SurfaceMFXEntityParams" />
+    <CollisionMFXEntityParams customEffect="Ships_Collision_Effects_S5" __type="EntityClassStaticDataParams" __polymorphicType="CollisionMFXEntityParams" />
+    <DefaultEntitlementEntityParams entitlementPolicy="8a1fdd48-7896-4774-a110-2466190e1a07" canEntitleThroughWebsite="0" __type="EntityClassStaticDataParams" __polymorphicType="DefaultEntitlementEntityParams" />
+    <WakeMFXEntityParams customEffect="Ships_Wake_Effects" emissionSizeScaleToShipRatio="0.75" distanceOffSurface="0.25" raycastLengthMultiplier="1" sizeScaleMultiplier="0.25" strengthDistanceFalloffThreshold="0.5" velocityToGenerateWake="5" velocityToAchieveMaxWakeStrength="50" __type="EntityClassStaticDataParams" __polymorphicType="WakeMFXEntityParams" />
+  </StaticEntityClassData>
+  <Components>
+    <VehicleComponentParams landingSystem="00000000-0000-0000-0000-000000000000" manufacturer="00000000-0000-0000-0000-000000000000" vehicleDefinition="Scripts/Entities/Vehicles/Implementations/Xml/TEST_ColsonCarriage.xml" modification="" dogfightEnabled="0" unmoveable="0" isGravlevVehicle="0" incomingDamageModifierToAI="1" incomingVehicleDamageModifierFromAI="1" emergencyStatusDamageThreshold="0.25" crewSize="1" vehicleName="@vehicle_NameMISC_Freelancer" vehicleDescription="@vehicle_DescMISC_Freelancer" vehicleImagePath="" vehicleCareer="@LOC_PLACEHOLDER" vehicleCareerRef="00000000-0000-0000-0000-000000000000" vehicleRole="@LOC_PLACEHOLDER" vehicleRoleRef="00000000-0000-0000-0000-000000000000" DashboardCanvasConfig="00000000-0000-0000-0000-000000000000" inventoryContainerParams="04555ac1-dfc1-4181-b847-dcd62f5147da" __type="DataForgeComponentParams" __polymorphicType="VehicleComponentParams">
+      <maxBoundingBoxSize x="0" y="0" z="0" __type="Vec3" />
+      <cargoEntrySize x="0" y="0" __type="Vec2" />
+      <aiProperties>
+        <VehicleAIPropertiesParams __type="VehicleAIPropertiesParams">
+          <aiTargetingParams shipAttackerScore="1" turretAttackerScore="0.5" __type="VehicleAITargetingParams" />
+        </VehicleAIPropertiesParams>
+      </aiProperties>
+      <objectContainers>
+        <SVehicleObjectContainerParams fileName="ObjectContainers/S42/Cine/C01/oc_generic_destruction_idris_kingship_beam.socpak" guid="607b66d6-341f-4751-9d6c-884c5f11582e" boneName="" shouldRequestNavMeshRegenerationOnLoad="0" __type="SAttachableObjectContainerData" __polymorphicType="SVehicleObjectContainerParams">
+          <Offset __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="0" z="0" __type="Vec3" />
+          </Offset>
+        </SVehicleObjectContainerParams>
+      </objectContainers>
+      <physicsGrid inheritGravity="0" gridType="Small" cellSize="2" gridPartsOnly="0" voxelDataFile="objects\spaceships\ships\misc\freelancer_v2\vehiclevoxel_misc_freelancer.vvg" __type="SEntityBasePhysicsGridParams" __polymorphicType="SVehiclePhysicsGridParams">
+        <gravity x="0" y="0" z="-9.81" __type="Vec3" />
+        <physicsProxy path="objects\spaceships\ships\misc\freelancer_v2\misc_freelancer_no_collide.cgf" __type="GlobalResourceBase" __polymorphicType="GlobalResourceCGF" />
+      </physicsGrid>
+      <shieldSDFParams>
+      </shieldSDFParams>
+      <experimental delayDestruction="0" __type="SVehicleExperimentalParams" />
+    </VehicleComponentParams>
+    <SEntityInteractableParams __type="DataForgeComponentParams" __polymorphicType="SEntityInteractableParams">
+      <Interactable __type="SInteractableParams">
+        <SharedInteractions>
+          <SSharedInteractionParams Name="PowerOn" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_interactor_power_on" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="1" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="PowerOff" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_interactor_power_off" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="1" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+        </SharedInteractions>
+        <InteractionPoints />
+        <interactionTasks />
+        <actionHandlerTasks />
+        <itemActionTasks />
+        <menuTitle>
+        </menuTitle>
+      </Interactable>
+    </SEntityInteractableParams>
+    <SAttachableComponentParams attachToTileItemPort="NoConnection" __type="DataForgeComponentParams" __polymorphicType="SAttachableComponentParams">
+      <AttachDef Type="NOITEM_Vehicle" SubType="Vehicle_Spaceship" Size="1" Grade="1" Manufacturer="00000000-0000-0000-0000-000000000000" inheritParentManufacturer="0" Tags="" RequiredTags="" DisplayType="" __type="SItemDefinition">
+        <Localization Name="@vehicle_NameMISC_Freelancer" ShortName="@LOC_EMPTY" Description="@vehicle_DescMISC_Freelancer" __type="SCItemLocalization">
+          <displayFeatures LogoSimplifiedWhite="" FrontendBackground="" History="@LOC_EMPTY" Callout1="@LOC_EMPTY" Callout2="@LOC_EMPTY" Callout3="@LOC_EMPTY" UIPriority="0" __type="SCExtendedLocalizationLevelParams">
+            <locationAudioPlayTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+            <locationAudioStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </displayFeatures>
+        </Localization>
+        <mannequinTags mannequinClassTag="" mannequinTypeTag="" mannequinBaseTag="" __type="SCItemMannequinTags" />
+        <inventoryOccupancyVolume>
+          <SMicroCargoUnit microSCU="1" __type="SBaseCargoUnit" __polymorphicType="SMicroCargoUnit" />
+        </inventoryOccupancyVolume>
+        <inventoryOccupancyDimensions x="0.15" y="0.15" z="0.15" __type="Vec3" />
+        <inventoryOccupancyDimensionsUIOverride>
+        </inventoryOccupancyDimensionsUIOverride>
+      </AttachDef>
+      <entityAttachParams>
+      </entityAttachParams>
+    </SAttachableComponentParams>
+    <SCItemPurchasableParams displayName="@vehicle_NameMISC_Freelancer" displayType="@LOC_PLACEHOLDER" displayThumbnail="" allowTryOn="0" allowQuickBuy="0" tryOnInteractionText="@shop_ui_item_action_preview" defaultAttachToPortName="" interactionPointTemplate="4d750337-0281-4759-8c5f-2f309dec1880" __type="DataForgeComponentParams" __polymorphicType="SCItemPurchasableParams">
+      <Display>
+      </Display>
+      <disabledLoadoutInteractions>
+        <DisabledLoadoutInteraction itemType="FlightController" __type="DisabledLoadoutInteraction">
+          <lockedInteractionNames>
+            <String value="EngineOn" />
+            <String value="EngineOff" />
+          </lockedInteractionNames>
+        </DisabledLoadoutInteraction>
+        <DisabledLoadoutInteraction itemType="SeatDashboard" __type="DisabledLoadoutInteraction">
+          <lockedInteractionNames>
+            <String value="FlightReady" />
+            <String value="Flight_Ready" />
+          </lockedInteractionNames>
+        </DisabledLoadoutInteraction>
+        <DisabledLoadoutInteraction itemType="Seat" __type="DisabledLoadoutInteraction">
+          <lockedInteractionNames>
+            <String value="Ejection" />
+            <String value="ejection" />
+          </lockedInteractionNames>
+        </DisabledLoadoutInteraction>
+      </disabledLoadoutInteractions>
+    </SCItemPurchasableParams>
+    <SEntityComponentObjectMetadataParams name="@LOC_EMPTY" hasLocalBounds="1" __type="DataForgeComponentParams" __polymorphicType="SEntityComponentObjectMetadataParams">
+      <metadata>
+        <SVehicleObjectMetadataParams __type="SObjectMetadataParams" __polymorphicType="SVehicleObjectMetadataParams" />
+      </metadata>
+    </SEntityComponentObjectMetadataParams>
+    <SSuperGUIDComponentParams __type="DataForgeComponentParams" __polymorphicType="SSuperGUIDComponentParams" />
+    <SGeometryResourceParams cacheResources="0" rootOverridePaint="0" inheritModelTagFromHost="0" __type="DataForgeComponentParams" __polymorphicType="SGeometryResourceParams">
+      <ModelTag>
+      </ModelTag>
+      <Geometry Tags="" ScaleMultiplier="1" __type="SGeometryNodeParams">
+        <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+          <Geometry path="Objects/Spaceships/Ships/TEST/Train_Carriage_Vehicle/TEST_ColsonCarriage.cga" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+          <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+          <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        </Geometry>
+        <SubGeometry />
+      </Geometry>
+      <Material Tags="" __type="SMaterialNodeParams">
+        <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+        <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        <materialVariants>
+          <SMaterialNodeParams Tags="" __type="SMaterialNodeParams">
+            <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+            <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+            <materialVariants />
+          </SMaterialNodeParams>
+          <SMaterialNodeParams Tags="" __type="SMaterialNodeParams">
+            <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+            <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+            <materialVariants />
+          </SMaterialNodeParams>
+        </materialVariants>
+      </Material>
+    </SGeometryResourceParams>
+    <SAnimationControllerParams AnimationDatabase="Spaceships\Ships\MISC\Freelancer_Base\MISC_Freelancer_Base_Anims.adb" AnimationController="Spaceships\Ships\MISC\Freelancer_Base\MISC_Freelancer_Base_ControllerDefs.xml" __type="DataForgeComponentParams" __polymorphicType="SAnimationControllerParams">
+      <Tags>
+        <String value="MISC_Freelancer_Base" />
+      </Tags>
+      <ScopeContexts>
+        <SAnimationScopeContext scopeContext="Ship" type="Self" __type="SAnimationScopeContext" />
+      </ScopeContexts>
+      <AnimationJointControls>
+      </AnimationJointControls>
+      <AnimationControlActorIKs />
+      <AnimationTasks />
+      <defaultAnimation>
+      </defaultAnimation>
+    </SAnimationControllerParams>
+    <SItemPortContainerComponentParams PortFlags="" PortTags="MISC_Freelancer_Base" RequiredItemTags="" __type="DataForgeComponentParams" __polymorphicType="SItemPortContainerComponentParams">
+      <masterController>
+        <SItemPortMasterControllerParams __type="SItemPortMasterControllerParams">
+          <Pipes>
+            <SEnergyPipeDefinition Name="MainPower" Klass="Power" __type="SEnergyPipeDefinition" />
+            <SEnergyPipeDefinition Name="MainHeat" Klass="Heat" __type="SEnergyPipeDefinition" />
+            <SEnergyPipeDefinition Name="MainFuel" Klass="Fuel" __type="SEnergyPipeDefinition" />
+            <SEnergyPipeDefinition Name="IntakeFuel" Klass="Fuel" __type="SEnergyPipeDefinition" />
+            <SEnergyPipeDefinition Name="QuantumFuel" Klass="Fuel" __type="SEnergyPipeDefinition" />
+            <SEnergyPipeDefinition Name="Shield" Klass="Shield" __type="SEnergyPipeDefinition" />
+            <SEnergyPipeDefinition Name="WeaponRegenCrew" Klass="WeaponRegen" __type="SEnergyPipeDefinition" />
+            <SEnergyPipeDefinition Name="WeaponRegenTurret" Klass="WeaponRegen" __type="SEnergyPipeDefinition" />
+            <SEnergyPipeDefinition Name="WeaponAmmoLoadCrew" Klass="WeaponAmmoLoad" __type="SEnergyPipeDefinition" />
+            <SEnergyPipeDefinition Name="WeaponAmmoLoadTurret" Klass="WeaponAmmoLoad" __type="SEnergyPipeDefinition" />
+          </Pipes>
+        </SItemPortMasterControllerParams>
+      </masterController>
+      <Ports />
+      <InternalResourceLinks />
+    </SItemPortContainerComponentParams>
+    <SInteractionStateMachineParams __type="DataForgeComponentParams" __polymorphicType="SInteractionStateMachineParams">
+      <StateTypes />
+    </SInteractionStateMachineParams>
+    <SEntityComponentSequencerParams resetSequence="null" __type="DataForgeComponentParams" __polymorphicType="SEntityComponentSequencerParams">
+      <sequences />
+    </SEntityComponentSequencerParams>
+    <SDegradationParams MaxLifetimeHours="25" InitialAgeRatio="0" BasePowerMultiplier="0" DrawPowerMultiplier="0" AtmosphereMultiplier="1.5" DegradeOnlyWhenAttached="0" StopDegradingWhenAttached="0" PortTags="" RequiredPortTags="" __type="DataForgeComponentParams" __polymorphicType="SDegradationParams">
+      <EffectCurve useLUT="0" __type="BezierCurve">
+        <points />
+      </EffectCurve>
+    </SDegradationParams>
+    <SObservableComponentParams defaultEntityObservablePoint="null" defaultAimingObservablePoint="null" __type="DataForgeComponentParams" __polymorphicType="SObservableComponentParams">
+      <perceptionTypes>
+        <Enum value="Vehicle" />
+        <Enum value="Spaceship" />
+      </perceptionTypes>
+      <observablePoints />
+    </SObservableComponentParams>
+    <RestrictedAreaHandlerParams __type="DataForgeComponentParams" __polymorphicType="RestrictedAreaHandlerParams" />
+    <SEntityComponentZoneCamerasParams __type="DataForgeComponentParams" __polymorphicType="SEntityComponentZoneCamerasParams">
+      <views>
+        <Reference value="00000000-0000-0000-0000-000000000000" />
+      </views>
+      <QTViews />
+    </SEntityComponentZoneCamerasParams>
+    <TileManagerParams __type="DataForgeComponentParams" __polymorphicType="TileManagerParams" />
+  </Components>
+</EntityClassDefinition.AEGS_Idris_Distance_Destruction>

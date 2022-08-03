@@ -1,0 +1,5 @@
+<EntityLifetimePolicyRecord.CargoLifetimePolicy __type="EntityLifetimePolicyRecord" __ref="eab1236a-3d62-4fcd-acf7-96edc766a4f7" __path="libs/foundry/records/entitylifetimepolicies/cargolifetimepolicy.xml">
+  <lifetimePolicies>
+    <SCargoLifetimePolicy authorizerCountLimit="600" isNonTrivialRemoval="0" timeoutDuration="6000" __type="SEntityLifetimePolicyParams" __polymorphicType="SCargoLifetimePolicy" />
+  </lifetimePolicies>
+</EntityLifetimePolicyRecord.CargoLifetimePolicy>

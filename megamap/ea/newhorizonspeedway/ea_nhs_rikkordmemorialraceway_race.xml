@@ -1,0 +1,11 @@
+<MegaMap.EA_NHS_RikkordMemorialRaceway_Race gameMode="450391dc-c459-4c1e-9ccc-4b5c189d50b9" singlePlayerOrMultiplayer="Both" subsumptionMission="libs/subsumption/missions/ac/dfm_race/dfm_race.xml" missionBroker="00000000-0000-0000-0000-000000000000" level="492ce59c-e191-41ec-a898-6b7bb245734d" originalMapFilename="EA/EA_NewHorizonSpeedway" trackViewIntro="" rootLocation="00000000-0000-0000-0000-000000000000" initialSpawnLocation="00000000-0000-0000-0000-000000000000" streamingMode="Never" bindCullingEnabled="0" defaultWinningTeamOverride="-1" displayName="@LOC_UNINITIALIZED" appearsInS42LevelSelect="0" chapter="00000000-0000-0000-0000-000000000000" __type="MegaMap" __ref="0ef9d9a1-bcf3-4241-8950-bd79519e68cc" __path="libs/foundry/records/megamap/ea/newhorizonspeedway/ea_nhs_rikkordmemorialraceway_race.xml">
+  <SolarSystems>
+    <SMegaMapSolarSystem Name="Default" __type="SMegaMapSolarSystem">
+      <ObjectContainers>
+        <String value="objectcontainers/ac/newhorizonspeedway/global.socpak" />
+        <String value="objectcontainers/ac/newhorizonspeedway/track2.socpak" />
+      </ObjectContainers>
+    </SMegaMapSolarSystem>
+  </SolarSystems>
+  <subsumptionMissionInitParams />
+</MegaMap.EA_NHS_RikkordMemorialRaceway_Race>

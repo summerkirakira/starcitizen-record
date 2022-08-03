@@ -1,0 +1,280 @@
+<EntityClassDefinition.Messhall_Tray Category="Default" Icon="Default.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="9bc5b227-46d4-48a2-9a13-5776834295d0" __path="libs/foundry/records/entities/scitem/usables/attachments/entityclassdefinition.messhall_tray.xml">
+  <tags />
+  <StaticEntityClassData />
+  <Components>
+    <SAttachableComponentParams attachToTileItemPort="NoConnection" __type="DataForgeComponentParams" __polymorphicType="SAttachableComponentParams">
+      <AttachDef Type="Misc" SubType="UNDEFINED" Size="1" Grade="1" Manufacturer="00000000-0000-0000-0000-000000000000" inheritParentManufacturer="0" Tags="Tray" RequiredTags="" DisplayType="" __type="SItemDefinition">
+        <Localization Name="@LOC_PLACEHOLDER" ShortName="@LOC_EMPTY" Description="@LOC_EMPTY" __type="SCItemLocalization">
+          <displayFeatures LogoSimplifiedWhite="" FrontendBackground="" History="@LOC_EMPTY" Callout1="@LOC_EMPTY" Callout2="@LOC_EMPTY" Callout3="@LOC_EMPTY" UIPriority="0" __type="SCExtendedLocalizationLevelParams">
+            <locationAudioPlayTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+            <locationAudioStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </displayFeatures>
+        </Localization>
+        <mannequinTags mannequinClassTag="" mannequinTypeTag="" mannequinBaseTag="" __type="SCItemMannequinTags" />
+        <inventoryOccupancyVolume>
+          <SMicroCargoUnit microSCU="1" __type="SBaseCargoUnit" __polymorphicType="SMicroCargoUnit" />
+        </inventoryOccupancyVolume>
+        <inventoryOccupancyDimensions x="0.15" y="0.15" z="0.15" __type="Vec3" />
+        <inventoryOccupancyDimensionsUIOverride>
+        </inventoryOccupancyDimensionsUIOverride>
+      </AttachDef>
+      <entityAttachParams>
+      </entityAttachParams>
+    </SAttachableComponentParams>
+    <SGeometryResourceParams cacheResources="0" rootOverridePaint="0" inheritModelTagFromHost="1" __type="DataForgeComponentParams" __polymorphicType="SGeometryResourceParams">
+      <ModelTag>
+      </ModelTag>
+      <Geometry Tags="" ScaleMultiplier="1" __type="SGeometryNodeParams">
+        <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+          <Geometry path="objects/buildingsets/human/universal/prop/dressing/utensil/utensil_tray_1_food_a.cga" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+          <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+          <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        </Geometry>
+        <SubGeometry />
+      </Geometry>
+      <Material Tags="" __type="SMaterialNodeParams">
+        <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+        <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        <materialVariants />
+      </Material>
+    </SGeometryResourceParams>
+    <SEntityPhysicsControllerParams __type="DataForgeComponentParams" __polymorphicType="SEntityPhysicsControllerParams">
+      <PhysType>
+        <SEntityRigidPhysicsControllerParams Mass="1" maxLoggedCollisions="1" Damping="0" DampingFreefall="0.05" PushableByPlayers="1" NeverAffectTriggers="0" UseManualGridTransition="0" BlocksNavigation="1" Kinematic="0" Resting="0" physicalizeAllSlots="1" __type="SEntityBasePhysicsControllerParams" __polymorphicType="SEntityRigidPhysicsControllerParams">
+          <breakableParams>
+          </breakableParams>
+          <gameCollisionClass>
+          </gameCollisionClass>
+          <grid>
+          </grid>
+          <buoyancyParams>
+          </buoyancyParams>
+          <temperature enable="0" initialTemperature="-1" internalTemperatureGeneration="0" __type="EntityTemperature" />
+        </SEntityRigidPhysicsControllerParams>
+      </PhysType>
+    </SEntityPhysicsControllerParams>
+    <SEntityComponentCarryableParams pickupInteraction="null" carryInteraction="Interactable.SharedInteractions[0]" placeInteraction="null" dropInteraction="null" stowInteraction="null" offHandStowInteraction="null" storeInteraction="null" offHandStoreInteraction="null" equipInteraction="null" inspectInteraction="null" flipInteraction="null" swapAttachmentsInteraction="null" enslavementAnimationDatabase="" interactionPointToMoveOnEquip="null" canBeCarriedInProne="1" __type="DataForgeComponentParams" __polymorphicType="SEntityComponentCarryableParams">
+      <carryableStatesParams settledState="null" carriedState="null" stowedState="null" inspectingState="null" droppedState="null" offeredState="null" equippedState="null" __type="SCarryableStatesParams" />
+      <interactionPointOffsets __type="SCarryableInteractionPointOffsets">
+        <interactionOffsetEquipped __type="QuatT">
+          <Rotation x="0" y="0" z="0" __type="Ang3" />
+          <Position x="0" y="0" z="0" __type="Vec3" />
+        </interactionOffsetEquipped>
+        <interactionOffsetCarried __type="QuatT">
+          <Rotation x="0" y="0" z="0" __type="Ang3" />
+          <Position x="0" y="0" z="0" __type="Vec3" />
+        </interactionOffsetCarried>
+        <interactionOffsetInspected __type="QuatT">
+          <Rotation x="0" y="0" z="0" __type="Ang3" />
+          <Position x="0" y="0" z="0" __type="Vec3" />
+        </interactionOffsetInspected>
+      </interactionPointOffsets>
+      <gripData gripOverrideUsingLOS="0" __type="SGripContainer">
+        <grips>
+          <SCarryableGrip carryStyleID="Default" canBeUsedBy="All" handMode="LeftHand" __type="SCarryableGrip">
+            <handGrip gripID="" optionalHelper="$grip_left_1" __type="SGrip">
+              <gripShapeParameters gripShape="gs_none" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </handGrip>
+            <offHandGrip>
+            </offHandGrip>
+            <animationParameters motionBase="2h" handTag="" __type="SCarryAnimationParams" />
+            <carryParameters width="0" height="0" depth="0" __type="SCarryParams" />
+          </SCarryableGrip>
+        </grips>
+      </gripData>
+      <abilityLocks />
+      <carryableTasks />
+      <throwableParams reticle="none" faceUpWhenSettled="0" allowHologramTiltRotation="0" placementRange="3" placementRangeHysteresis="0.5" yawOffset="0" applyBoundingBoxPlacementOffset="0" combatThrowable="0" __type="SThrowableParams">
+        <throwModes />
+        <audioParams onCollisionAudioPerceptionInfo="SmallSound" onCollisionAudioPerceptionRadius="20" __type="SThrowAudioParams">
+          <onThrownAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          <onCollisionAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          <collisionSpeedAudioRTPC rtpc="" __type="AudioRtpc" />
+        </audioParams>
+        <defaultPlacementUpDirection x="0" y="0" z="1" __type="Vec3" />
+      </throwableParams>
+      <equipableParams itemPort="" __type="SCEquipableParams" />
+    </SEntityComponentCarryableParams>
+    <SEntityInteractableParams __type="DataForgeComponentParams" __polymorphicType="SEntityInteractableParams">
+      <Interactable __type="SInteractableParams">
+        <SharedInteractions>
+          <SSharedInteractionParams Name="Pickup" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_use" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Place" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_use" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+        </SharedInteractions>
+        <InteractionPoints />
+        <interactionTasks />
+        <actionHandlerTasks />
+        <itemActionTasks />
+        <menuTitle>
+        </menuTitle>
+      </Interactable>
+    </SEntityInteractableParams>
+    <SItemPortContainerComponentParams PortFlags="" PortTags="" RequiredItemTags="" __type="DataForgeComponentParams" __polymorphicType="SItemPortContainerComponentParams">
+      <masterController>
+      </masterController>
+      <Ports>
+        <SItemPortDef Name="Plate" DisplayName="" PortTags="Tray_Plate" RequiredPortTags="" Flags="" MinSize="1" MaxSize="1" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags />
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types>
+            <SItemPortDefTypes Type="Misc" __type="SItemPortDefTypes">
+              <SubTypes />
+            </SItemPortDefTypes>
+          </Types>
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationEntity usePhysicalAttachment="0" useEntityAttachment="1" useExteriorAttachment="0" usePhysicalParent="0" hangarPort="0" __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationEntity">
+              <constraintParams damping="0" noSelfCollisions="1" maxPullForce="0" maxBendTorque="0" constrainToLine="0" constrainToPlane="0" constrainFully="1" useWorldConstraintPosition="0" noRotation="1" xMin="0" xMax="0" yzMax="0" constraintHelper="" constraintMaintainOrientation="0" __type="SAttachmentConstraintParams" />
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="$slot_plate_1" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationEntity>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+        <SItemPortDef Name="UtensilRight" DisplayName="" PortTags="Utensil_Right" RequiredPortTags="" Flags="" MinSize="1" MaxSize="1" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags />
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types>
+            <SItemPortDefTypes Type="Misc" __type="SItemPortDefTypes">
+              <SubTypes />
+            </SItemPortDefTypes>
+          </Types>
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationEntity usePhysicalAttachment="0" useEntityAttachment="1" useExteriorAttachment="0" usePhysicalParent="0" hangarPort="0" __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationEntity">
+              <constraintParams damping="0" noSelfCollisions="1" maxPullForce="0" maxBendTorque="0" constrainToLine="0" constrainToPlane="0" constrainFully="1" useWorldConstraintPosition="0" noRotation="1" xMin="0" xMax="0" yzMax="0" constraintHelper="" constraintMaintainOrientation="0" __type="SAttachmentConstraintParams" />
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="$slot_utensil_right_1" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationEntity>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+        <SItemPortDef Name="UtensilLeft" DisplayName="" PortTags="Utensil_Left" RequiredPortTags="" Flags="" MinSize="1" MaxSize="1" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags />
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types>
+            <SItemPortDefTypes Type="Misc" __type="SItemPortDefTypes">
+              <SubTypes />
+            </SItemPortDefTypes>
+          </Types>
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationEntity usePhysicalAttachment="0" useEntityAttachment="1" useExteriorAttachment="0" usePhysicalParent="0" hangarPort="0" __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationEntity">
+              <constraintParams damping="0" noSelfCollisions="1" maxPullForce="0" maxBendTorque="0" constrainToLine="0" constrainToPlane="0" constrainFully="1" useWorldConstraintPosition="0" noRotation="1" xMin="0" xMax="0" yzMax="0" constraintHelper="" constraintMaintainOrientation="0" __type="SAttachmentConstraintParams" />
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="$slot_utensil_left_1" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationEntity>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+        <SItemPortDef Name="Cup" DisplayName="" PortTags="Drink" RequiredPortTags="" Flags="" MinSize="1" MaxSize="1" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags />
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types>
+            <SItemPortDefTypes Type="Misc" __type="SItemPortDefTypes">
+              <SubTypes />
+            </SItemPortDefTypes>
+          </Types>
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationEntity usePhysicalAttachment="0" useEntityAttachment="1" useExteriorAttachment="0" usePhysicalParent="0" hangarPort="0" __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationEntity">
+              <constraintParams damping="0" noSelfCollisions="1" maxPullForce="0" maxBendTorque="0" constrainToLine="0" constrainToPlane="0" constrainFully="1" useWorldConstraintPosition="0" noRotation="1" xMin="0" xMax="0" yzMax="0" constraintHelper="" constraintMaintainOrientation="0" __type="SAttachmentConstraintParams" />
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="$slot_cup_right_1" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationEntity>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+      </Ports>
+      <InternalResourceLinks />
+    </SItemPortContainerComponentParams>
+    <SEntityLootableContainerParams initialLocalPlayerAccess="1" radius="1.6" mainInteractionPoint="null" validTagsOnSwapOutfit="" blockingTagsOnSwapOutfit="" infiniteLootable="0" smartRefillAmmo="0" smartRefillGrenadesAndAmmo="0" fragmentTags="" forceFirstSelect="0" openInventoryInteraction="null" placeIntoPortInteraction="Interactable.SharedInteractions[1]" bespokePlace="0" __type="DataForgeComponentParams" __polymorphicType="SEntityLootableContainerParams">
+      <maxOffsetTranslation x="0" y="0" z="0" __type="Vec3" />
+      <maxOffsetRotation x="0" y="0" z="0" __type="Ang3" />
+      <mainInteractions />
+      <placeOutfitRules />
+      <takeExclussionRules />
+      <itemPortRules />
+    </SEntityLootableContainerParams>
+  </Components>
+</EntityClassDefinition.Messhall_Tray>

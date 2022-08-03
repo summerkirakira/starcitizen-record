@@ -1,0 +1,8 @@
+<WeaponProceduralClip.gmni_shotgun_ballistic_01_PoseIdleADS __type="WeaponProceduralClip" __ref="bbeee74a-ef87-4c17-b2a8-12a128ed0b8b" __path="libs/foundry/records/weaponproceduralclip/shotgun/weaponproceduralclip.gmni_shotgun_ballistic_01_poseidleads.xml">
+  <weaponProceduralClipBase>
+    <WeaponProceduralClipPose blendTime="1" poseType="RightHand" zoomTransitionAngle="0" useAimHelperOffset="0" __type="WeaponProceduralClipBase" __polymorphicType="WeaponProceduralClipPose">
+      <position x="0" y="0.04" z="0.022" __type="Vec3" />
+      <rotation x="0.5" y="0" z="0" __type="Ang3" />
+    </WeaponProceduralClipPose>
+  </weaponProceduralClipBase>
+</WeaponProceduralClip.gmni_shotgun_ballistic_01_PoseIdleADS>

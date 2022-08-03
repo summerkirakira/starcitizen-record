@@ -1,0 +1,5 @@
+<VehicleManagementParams.VehicleManagementRush vehicleCountLimit="75" forceRemovalImmuneDurationOnSpawn="180" __type="VehicleManagementParams" __ref="6b18f20b-cb64-4f31-88ac-77d801c830ae" __path="libs/foundry/records/entitylifetime/vehicles/vehiclemanagementrush.xml">
+  <vehicleManagementStrategy>
+    <VehicleManagementEALocation abandondedTime="20" abandondedRange="15" __type="VehicleManagementStrategy" __polymorphicType="VehicleManagementEALocation" />
+  </vehicleManagementStrategy>
+</VehicleManagementParams.VehicleManagementRush>

@@ -1,0 +1,15 @@
+<ScanCustomDataDef.SurfaceRelay_ScanData __type="ScanCustomDataDef" __ref="ceda3857-9d28-4ab5-a072-81b135ec355a" __path="libs/foundry/records/radarsystem/scandata/surfacerelay_scandata.xml">
+  <scanProcedures>
+    <CustomScanProcedureParams scanLayer="Initial" emissionBaseline="0" __type="ScanProcedureParams" __polymorphicType="CustomScanProcedureParams">
+      <customDatas>
+        <ScanCustomDataLocString name="@scan_data_model" value="@mg_clovus_satrecover_surfacerelay_model" __type="ScanCustomData" __polymorphicType="ScanCustomDataLocString" />
+        <ScanCustomDataLocString name="@scan_data_status" value="@hud_Vehicle_Status_Offline" __type="ScanCustomData" __polymorphicType="ScanCustomDataLocString" />
+      </customDatas>
+    </CustomScanProcedureParams>
+    <CustomScanProcedureParams scanLayer="Exterior" emissionBaseline="0" __type="ScanProcedureParams" __polymorphicType="CustomScanProcedureParams">
+      <customDatas>
+        <ScanCustomDataLocString name="@scan_data_owner" value="@hurston_from" __type="ScanCustomData" __polymorphicType="ScanCustomDataLocString" />
+      </customDatas>
+    </CustomScanProcedureParams>
+  </scanProcedures>
+</ScanCustomDataDef.SurfaceRelay_ScanData>

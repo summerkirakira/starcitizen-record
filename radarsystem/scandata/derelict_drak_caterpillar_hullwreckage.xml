@@ -1,0 +1,10 @@
+<ScanCustomDataDef.Derelict_DRAK_Caterpillar_HullWreckage __type="ScanCustomDataDef" __ref="47549d9f-083c-416a-b0be-8ae34c65f997" __path="libs/foundry/records/radarsystem/scandata/derelict_drak_caterpillar_hullwreckage.xml">
+  <scanProcedures>
+    <CustomScanProcedureParams scanLayer="Initial" emissionBaseline="0" __type="ScanProcedureParams" __polymorphicType="CustomScanProcedureParams">
+      <customDatas>
+        <ScanCustomDataLocString name="@scan_data_model" value="@vehicle_NameDRAK_Caterpillar" __type="ScanCustomData" __polymorphicType="ScanCustomDataLocString" />
+        <ScanCustomDataLocString name="@scan_data_name" value="@vehicle_DescDRAK_Caterpillar" __type="ScanCustomData" __polymorphicType="ScanCustomDataLocString" />
+      </customDatas>
+    </CustomScanProcedureParams>
+  </scanProcedures>
+</ScanCustomDataDef.Derelict_DRAK_Caterpillar_HullWreckage>

@@ -1,0 +1,7 @@
+<HarvestablePreset.Fruit_Pingala entityClass="ea165f19-e4a6-4ee4-86d3-a0364a6307bd" respawnInSlotTime="3600" specialHarvestableString="" __type="HarvestablePreset" __ref="0fbb7a5a-6664-49a6-9b85-97d8e5fd97ad" __path="libs/foundry/records/harvestable/harvestablepresets/fruit_pingala.xml">
+  <transformParams minScale="1" maxScale="1" terrainNormalAlignment="1" minZOffset="0" maxZOffset="0" minSlope="0" maxSlope="90" minElevation="-10000" maxElevation="10000" __type="HarvestableTransformParams">
+    <rotationRange x="0" y="0" z="360" __type="Vec3" />
+  </transformParams>
+  <subConfigBase>
+  </subConfigBase>
+</HarvestablePreset.Fruit_Pingala>

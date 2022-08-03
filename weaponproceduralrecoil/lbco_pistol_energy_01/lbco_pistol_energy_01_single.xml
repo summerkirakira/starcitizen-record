@@ -1,0 +1,15 @@
+<WeaponProceduralRecoilConfigDef.lbco_pistol_energy_01_single __type="WeaponProceduralRecoilConfigDef" __ref="320461fa-501a-40bb-ac4c-554f74a39d49" __path="libs/foundry/records/weaponproceduralrecoil/lbco_pistol_energy_01/lbco_pistol_energy_01_single.xml">
+  <weaponProceduralHandsRecoil decay="0" endDecay="0" fireRecoilTime="0" fireRecoilStrengthFirst="0" fireRecoilStrength="0" angleRecoilStrength="0" useRandomRotation="0" randomness="0" randomnessBackPush="0" frontalOscillationRotation="0" frontalOscillationStrength="0" frontalOscillationDecay="0" frontalOscillationRandomness="0" __type="SWeaponProceduralHandsRecoilConfigDef">
+    <rotation x="0" y="0" z="0" __type="Ang3" />
+  </weaponProceduralHandsRecoil>
+  <weaponProceduralAimRecoil pull_left_percentage="0" random_pitch="0" random_yaw="0" decay="1" end_decay="7" recoil_time="0.05" delay="0" __type="SWeaponProceduralAimRecoilConfigDef">
+    <max x="5" y="30" __type="Vec2" />
+    <shot_kick_first x="0.5" y="0.6" __type="Vec2" />
+    <shot_kick x="0.5" y="0.6" __type="Vec2" />
+  </weaponProceduralAimRecoil>
+  <weaponProceduralBodyRecoil hipsPushForce="0.005" hipsDampStrength="8" hipsDampStrengthEnd="5" spinePushForceFirst="0.01" spinePushForce="0.005" spineDampStrength="7" spineDampStrengthEnd="7" __type="SWeaponProceduralBodyRecoilConfigDef" />
+  <weaponProceduralHeadRecoil frequency="0" smoothFactor="0" frequencyNoiseFactor="0" maxDistance="0" phase="0" translationNoise="0" rotationNoise="0" usePerlinNoise="0" referenceSpeed="0" minSpeed="0" minScale="0" maxSpeed="0" maxScale="0" __type="SWeaponProceduralHeadRecoilConfigDef">
+    <translation x="0" y="0" z="0" __type="Vec3" />
+    <rotation x="0" y="0" z="0" __type="Ang3" />
+  </weaponProceduralHeadRecoil>
+</WeaponProceduralRecoilConfigDef.lbco_pistol_energy_01_single>

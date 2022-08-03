@@ -1,0 +1,25 @@
+<EntityClassDefinition.RantaDung Category="Default" Icon="Default.bmp" Invisible="1" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="86c1fde0-1e2b-40d9-a3c7-1d39ef742c68" __path="libs/foundry/records/entities/commodities/agriculturalsupplies/rantadung.xml">
+  <tags>
+    <Reference value="232ba320-7cba-4f8c-bd94-276203e14ece" />
+  </tags>
+  <StaticEntityClassData>
+    <EntityUIDisplayParams displayDescription="@items_commodities_rantadung_desc" displayThumbnail="" displayImage="ui/sharedassets/commodityicons/cargo_comm_050x3_agricultural_supplies_a_diff.tif" displayIcon="" sortString="" __type="EntityClassStaticDataParams" __polymorphicType="EntityUIDisplayParams">
+      <trackerProperties>
+        <SObjectDataBankEntryTrackerParams __type="SObjectDataBankEntryTrackerParams" />
+      </trackerProperties>
+    </EntityUIDisplayParams>
+  </StaticEntityClassData>
+  <Components>
+    <CommodityComponentParams type="6bc39eae-ef95-4c6a-a883-7118aeef631e" subtype="2b575779-e63b-4282-b24c-8ed6e4927b66" name="@items_commodities_rantadung" description="@items_commodities_rantadung_desc" IsUnrefinedElement="0" boxable="1" __type="DataForgeComponentParams" __polymorphicType="CommodityComponentParams">
+      <occupancy>
+        <SMicroCargoUnit microSCU="700" __type="SBaseCargoUnit" __polymorphicType="SMicroCargoUnit" />
+      </occupancy>
+      <ContainerDimension x="0" y="0" z="0" __type="Vec3" />
+    </CommodityComponentParams>
+    <SCItemPurchasableParams displayName="@items_commodities_rantadung" displayType="@items_commodities_type_agriculturalSupply" displayThumbnail="ui/textures/vector/general/items/inv_icon_rantadung.svg" allowTryOn="0" allowQuickBuy="0" tryOnInteractionText="@shop_ui_item_action_try" defaultAttachToPortName="" interactionPointTemplate="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="SCItemPurchasableParams">
+      <Display>
+      </Display>
+      <disabledLoadoutInteractions />
+    </SCItemPurchasableParams>
+  </Components>
+</EntityClassDefinition.RantaDung>

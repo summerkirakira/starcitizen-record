@@ -1,0 +1,8 @@
+<WeaponProceduralClip.mobiGlasPoseIdle __type="WeaponProceduralClip" __ref="1706d5d7-c37d-431d-bcec-1b2582466e92" __path="libs/foundry/records/weaponproceduralclip/mobiglas/mobiglasposeidle.xml">
+  <weaponProceduralClipBase>
+    <WeaponProceduralClipPose blendTime="0" poseType="RightHand" zoomTransitionAngle="0" useAimHelperOffset="0" __type="WeaponProceduralClipBase" __polymorphicType="WeaponProceduralClipPose">
+      <position x="0" y="0.08" z="-0.01" __type="Vec3" />
+      <rotation x="-10" y="-0.5" z="-8" __type="Ang3" />
+    </WeaponProceduralClipPose>
+  </weaponProceduralClipBase>
+</WeaponProceduralClip.mobiGlasPoseIdle>

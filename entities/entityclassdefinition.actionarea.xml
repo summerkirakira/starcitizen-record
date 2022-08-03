@@ -1,0 +1,12 @@
+<EntityClassDefinition.ActionArea Category="Subsumption" Icon="AreaTrigger.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="89447a98-705d-4ef3-b82e-950aa149ac98" __path="libs/foundry/records/entities/entityclassdefinition.actionarea.xml">
+  <tags />
+  <StaticEntityClassData />
+  <Components>
+    <SActionAreaComponentParams triggerOnce="0" enterEvent="ActionAreaEntered" exitEvent="ActionAreaExited" eventTriggerMask="AIAndPlayer" __type="DataForgeComponentParams" __polymorphicType="SActionAreaComponentParams">
+      <requiredTags />
+      <excludedTags />
+      <applyTagsToContainedEntities />
+    </SActionAreaComponentParams>
+    <SubsumptionMissionLinkComponentParams __type="DataForgeComponentParams" __polymorphicType="SubsumptionMissionLinkComponentParams" />
+  </Components>
+</EntityClassDefinition.ActionArea>

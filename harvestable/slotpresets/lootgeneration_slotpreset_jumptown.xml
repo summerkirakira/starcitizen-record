@@ -1,0 +1,32 @@
+<SubHarvestableConfigRecord.LootGeneration_SlotPreset_Jumptown __type="SubHarvestableConfigRecord" __ref="86b3a1f0-4ee7-4696-b261-11676a645802" __path="libs/foundry/records/harvestable/slotpresets/lootgeneration_slotpreset_jumptown.xml">
+  <subConfig initialSlotsProbability="0.7" configRespawnTimeMultiplier="1" __type="SubHarvestableConfig">
+    <initialSlotsProbabilityDeepest>
+    </initialSlotsProbabilityDeepest>
+    <subHarvestables>
+      <SubHarvestableSlot harvestable="62cde8ad-be1f-4316-aa17-de9d27c8f1b7" relativeProbability="0.5" harvestableRespawnTimeMultiplier="1" __type="SubHarvestableSlot">
+        <relativeProbabilityDeepest>
+        </relativeProbabilityDeepest>
+        <geometries />
+        <lootConfig>
+          <LootConfig lootTable="bd40a180-963f-4ab1-8d80-b0e6a571a5b2" __type="LootConfig">
+            <lootConstraints totalResultsLimit="0" __type="LootConstraints">
+              <fullnessFactorRange min="0" max="1" __type="FloatFactorRange" />
+            </lootConstraints>
+          </LootConfig>
+        </lootConfig>
+      </SubHarvestableSlot>
+      <SubHarvestableSlot harvestable="e45440c8-cfde-453c-8be7-bdd5ec955d84" relativeProbability="0.7" harvestableRespawnTimeMultiplier="1" __type="SubHarvestableSlot">
+        <relativeProbabilityDeepest>
+        </relativeProbabilityDeepest>
+        <geometries />
+        <lootConfig>
+          <LootConfig lootTable="f6958dfa-e66b-48a2-a6e3-7caa3256a826" __type="LootConfig">
+            <lootConstraints totalResultsLimit="0" __type="LootConstraints">
+              <fullnessFactorRange min="0" max="1" __type="FloatFactorRange" />
+            </lootConstraints>
+          </LootConfig>
+        </lootConfig>
+      </SubHarvestableSlot>
+    </subHarvestables>
+  </subConfig>
+</SubHarvestableConfigRecord.LootGeneration_SlotPreset_Jumptown>

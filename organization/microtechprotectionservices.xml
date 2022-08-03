@@ -1,0 +1,38 @@
+<EntityClassDefinition.MicroTechProtectionServices Category="Default" Icon="Default.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="6a02d369-8ac2-4df8-9d68-f075d58bb906" __path="libs/foundry/records/organization/microtechprotectionservices.xml">
+  <tags />
+  <StaticEntityClassData>
+    <SOrganizationProperties Name="MicroTechProtectionServices" DisplayName="@MTProtection_RepUI_Name" Description="@MTProtection_RepUI_Description" Headquarters="@MTProtection_RepUI_Headquarters" Logo="UI/mobiGlas/assets/PNG/Reputation/rep_ui_icon_logo_mtprotection.tif" MemberCount="500" __type="EntityClassStaticDataParams" __polymorphicType="SOrganizationProperties">
+      <Allies>
+        <LocID value="@MTProtectiveServices_Allies" />
+      </Allies>
+      <Enemies>
+        <LocID value="@MTProtectiveServices_Rivals" />
+      </Enemies>
+      <propertiesBB>
+        <SReputationContextBBPropertyParams name="entityFounded" __type="SReputationContextBBPropertyParams">
+          <dynamicProperty>
+            <SBBDynamicPropertyLocString value="@MTProtection_RepUI_Founded" __type="SBBDynamicPropertyBase" __polymorphicType="SBBDynamicPropertyLocString" />
+          </dynamicProperty>
+        </SReputationContextBBPropertyParams>
+        <SReputationContextBBPropertyParams name="entityLeadership" __type="SReputationContextBBPropertyParams">
+          <dynamicProperty>
+            <SBBDynamicPropertyLocString value="@MTProtection_RepUI_Leadership" __type="SBBDynamicPropertyBase" __polymorphicType="SBBDynamicPropertyLocString" />
+          </dynamicProperty>
+        </SReputationContextBBPropertyParams>
+        <SReputationContextBBPropertyParams name="entityArea" __type="SReputationContextBBPropertyParams">
+          <dynamicProperty>
+            <SBBDynamicPropertyLocString value="@MTProtection_RepUI_Area" __type="SBBDynamicPropertyBase" __polymorphicType="SBBDynamicPropertyLocString" />
+          </dynamicProperty>
+        </SReputationContextBBPropertyParams>
+        <SReputationContextBBPropertyParams name="entityFocus" __type="SReputationContextBBPropertyParams">
+          <dynamicProperty>
+            <SBBDynamicPropertyLocString value="@MTProtection_RepUI_Focus" __type="SBBDynamicPropertyBase" __polymorphicType="SBBDynamicPropertyLocString" />
+          </dynamicProperty>
+        </SReputationContextBBPropertyParams>
+      </propertiesBB>
+    </SOrganizationProperties>
+    <SUniqueEntityClass fixed_geid="199998000060" is_exportable="0" __type="EntityClassStaticDataParams" __polymorphicType="SUniqueEntityClass" />
+    <SReputationContextPropertiesUI context="7d213bd9-b7dd-4bdc-b24c-a3d618ba9e54" __type="EntityClassStaticDataParams" __polymorphicType="SReputationContextPropertiesUI" />
+  </StaticEntityClassData>
+  <Components />
+</EntityClassDefinition.MicroTechProtectionServices>

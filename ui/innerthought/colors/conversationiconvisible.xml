@@ -1,0 +1,6 @@
+<InnerThought_ColorParams.ConversationIconVisible opacity="1" glow="1" diffuseOpacity="1" rimOpacity="10" silhouetteOpacity="0.06" silhouetteThickness="0.6" __type="InnerThought_ColorParams" __ref="7c273e97-5f10-4dd9-a69d-c137e1663aea" __path="libs/foundry/records/ui/innerthought/colors/conversationiconvisible.xml">
+  <diffuseColor r="0.6724432" g="0.04970657" b="0.04970657" __type="RGB" />
+  <emissiveColor r="0.7991027" g="0.02624122" b="0.02624122" __type="RGB" />
+  <rimColor r="0.7083758" g="0.02842604" b="0.02842604" __type="RGB" />
+  <silhouetteColor r="0.7991027" g="0.4507858" b="0.4507858" __type="RGB" />
+</InnerThought_ColorParams.ConversationIconVisible>

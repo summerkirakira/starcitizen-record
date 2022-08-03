@@ -1,0 +1,31 @@
+<InteractionConditionPreset.UserNotWearingHeavyArmor __type="InteractionConditionPreset" __ref="eac6e03d-ac16-4143-a355-b2ed55190808" __path="libs/foundry/records/interactionconditions/presets/usernotwearingheavyarmor.xml">
+  <conditions>
+    <InteractionConditionActorInventoryTypes conditionResult="Fail" __type="InteractionConditionParams" __polymorphicType="InteractionConditionActorInventoryTypes">
+      <conditionDisplay>
+        <ConditionDisplayParams exclusiveDisplay="1" __type="ConditionDisplayParams">
+          <blockedText>
+            <BlockedTextParams blockedText="@interaction_condition_heavy_armor" __type="BlockedTextParams" />
+          </blockedText>
+          <blockedCursor>
+            <BlockedCursorParams blockedCursor="Invalid" __type="BlockedCursorParams" />
+          </blockedCursor>
+          <blockedColor>
+            <BlockedColorParams selectedColor="c6688c07-0987-4e85-82b7-04458356db8a" unselectedColor="902844b1-8817-4b46-8770-045beee67ce0" applyImmediately="0" __type="BlockedColorParams" />
+          </blockedColor>
+          <blockedHint>
+          </blockedHint>
+        </ConditionDisplayParams>
+      </conditionDisplay>
+      <itemTypes>
+        <Enum value="Char_Armor_Arms" />
+        <Enum value="Char_Armor_Torso" />
+        <Enum value="Char_Armor_Legs" />
+      </itemTypes>
+      <itemSubTypes>
+        <Enum value="Heavy" />
+      </itemSubTypes>
+      <ignoreItemPorts />
+    </InteractionConditionActorInventoryTypes>
+  </conditions>
+  <conditionToHideParams />
+</InteractionConditionPreset.UserNotWearingHeavyArmor>

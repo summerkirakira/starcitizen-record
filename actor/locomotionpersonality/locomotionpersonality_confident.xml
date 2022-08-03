@@ -1,0 +1,5 @@
+<ActorLocomotionPersonality.LocomotionPersonality_Confident locomotionStyleMannequinTag="Confident" __type="ActorLocomotionPersonality" __ref="fcb3363e-b7ae-46f1-83bd-c0f18d4cb121" __path="libs/foundry/records/actor/locomotionpersonality/locomotionpersonality_confident.xml">
+  <avoidance enableAvoidanceTwist="1" minTwistDistance="0.1" maxTwistDistance="0.75" blendWeightAtMinTwist="0.1" blendWeightAtMaxTwist="0.5" twistBlendTime="0.3" twistBlendOutTime="0.75" __type="ActorLocomotionAvoidanceParams" />
+  <glancing enable="0" minTimeBetweenGlances="1" maxTimeBetweenGlances="3" __type="ActorLocomotionGlanceParams" />
+  <acknowledgements enable="0" allowNods="1" allowWaves="0" minDistance="3" maxDistance="5" triggerProbability="0.5" __type="ActorLocomotionAcknowledgementParams" />
+</ActorLocomotionPersonality.LocomotionPersonality_Confident>

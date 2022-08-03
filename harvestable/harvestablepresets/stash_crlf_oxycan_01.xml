@@ -1,0 +1,15 @@
+<HarvestablePreset.Stash_crlf_oxycan_01 entityClass="54143614-a946-4964-9587-fb4d0ce7aed1" respawnInSlotTime="3600" specialHarvestableString="" __type="HarvestablePreset" __ref="2cc08625-0a02-40b2-bb4c-9eebf08c797d" __path="libs/foundry/records/harvestable/harvestablepresets/stash_crlf_oxycan_01.xml">
+  <transformParams minScale="1" maxScale="1" terrainNormalAlignment="1" minZOffset="0" maxZOffset="0" minSlope="0" maxSlope="90" minElevation="-10000" maxElevation="10000" __type="HarvestableTransformParams">
+    <rotationRange x="0" y="0" z="360" __type="Vec3" />
+  </transformParams>
+  <subConfigBase>
+    <SubHarvestableConfigManual __type="SubHarvestableConfigBase" __polymorphicType="SubHarvestableConfigManual">
+      <subConfigManual initialSlotsProbability="0" configRespawnTimeMultiplier="1" __type="SubHarvestableConfig">
+        <initialSlotsProbabilityDeepest>
+          <OptionalProbability probability="0.1" __type="OptionalProbability" />
+        </initialSlotsProbabilityDeepest>
+        <subHarvestables />
+      </subConfigManual>
+    </SubHarvestableConfigManual>
+  </subConfigBase>
+</HarvestablePreset.Stash_crlf_oxycan_01>

@@ -1,0 +1,7 @@
+<HarvestablePreset.Mining_Quartzite entityClass="b9d1726f-4d1a-4d65-befd-bd1157e7b654" respawnInSlotTime="3600" specialHarvestableString="" __type="HarvestablePreset" __ref="e6244591-3997-465e-8a58-651637a76cb9" __path="libs/foundry/records/harvestable/harvestablepresets/mining_quartzite.xml">
+  <transformParams minScale="0.7" maxScale="1" terrainNormalAlignment="1" minZOffset="0.1" maxZOffset="0.25" minSlope="0" maxSlope="90" minElevation="-10000" maxElevation="10000" __type="HarvestableTransformParams">
+    <rotationRange x="360" y="360" z="360" __type="Vec3" />
+  </transformParams>
+  <subConfigBase>
+  </subConfigBase>
+</HarvestablePreset.Mining_Quartzite>

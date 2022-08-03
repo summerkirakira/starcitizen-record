@@ -1,0 +1,9 @@
+<MineableComposition.IgneousDeposit depositName="@hud_mining_rock_name_3" minimumDistinctElements="3" __type="MineableComposition" __ref="87f35aee-70e3-4df8-89c5-932fc8b3bb25" __path="libs/foundry/records/mining/rockcompositionpresets/igneousdeposit.xml">
+  <compositionArray>
+    <MineableCompositionPart mineableElement="8f6a7e06-934d-4339-a0a2-75420b81369a" minPercentage="3" maxPercentage="40" probability="0.5" curveExponent="3" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="ee12edc1-a2c3-4202-909d-9b729a050a3f" minPercentage="2" maxPercentage="35" probability="0.5" curveExponent="3" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="f2f5bf2e-87f9-4f3d-bb59-b4e11eceeaad" minPercentage="2" maxPercentage="35" probability="0.25" curveExponent="3" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="7b9055e5-6d62-44dd-a725-a31d838301eb" minPercentage="2" maxPercentage="35" probability="0.25" curveExponent="3" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="8893c670-f9f7-48df-a05b-e85764994256" minPercentage="3" maxPercentage="30" probability="0.25" curveExponent="4" __type="MineableCompositionPart" />
+  </compositionArray>
+</MineableComposition.IgneousDeposit>

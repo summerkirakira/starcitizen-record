@@ -1,0 +1,14 @@
+<Level.EA_Ministry displayName="EA_Ministry" locDisplayName="@ea_ui_map_Ministry" description="@ea_ui_mapdesc_Ministry" thumbnail="" filename="EA_Ministry" gameToken="ministry" universeLocationUniqueId="0" defaultGameRules="075fad9d-47fa-4c2a-89fe-c144f545ae41" TrackNumber="-1" mapCode="MINISTRY" systemImagePath="" __type="Level" __ref="0eb7abba-4c3b-41a3-bed2-df6a457d5942" __path="libs/foundry/records/level/ea/ea_ministry.xml">
+  <displayFeatures>
+  </displayFeatures>
+  <validGameRules>
+    <Reference value="075fad9d-47fa-4c2a-89fe-c144f545ae41" />
+    <Reference value="22d4a2f3-131e-4594-90e3-e57016690a22" />
+    <Reference value="7ca27acb-1e6d-4521-bf59-95fe8a926c14" />
+  </validGameRules>
+  <loadingScreenInfo loadingScreenType="ElectronicAccess" imagePath="../TIF/LoadingScreen/sm.dds" primaryTitle="@ui_GameTitle_StarMarine" secondaryTitle="@LOC_EMPTY" subtitle="@LOC_EMPTY" description="@LOC_EMPTY" __type="SLoadingScreenInformationDef">
+    <tips />
+  </loadingScreenInfo>
+  <potentialSpawnLocations />
+  <potentialDevOnlySpawnLocations />
+</Level.EA_Ministry>

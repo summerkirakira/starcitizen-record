@@ -1,0 +1,84 @@
+<EntityClassDefinition.RastarPlacedElement Category="Default" Icon="Default.bmp" Invisible="1" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="35e2c57e-98e0-440b-8616-25bff60aabd1" __path="libs/foundry/records/entities/rastar/rastarplacedelement.xml">
+  <tags />
+  <StaticEntityClassData />
+  <Components>
+    <BaseBuildingParams __type="DataForgeComponentParams" __polymorphicType="BaseBuildingParams" />
+    <SStreamingObjectContainerComponentParams objectContainer="" __type="DataForgeComponentParams" __polymorphicType="SStreamingObjectContainerComponentParams" />
+    <ObjectContainerModifierParams __type="DataForgeComponentParams" __polymorphicType="ObjectContainerModifierParams" />
+    <SSuperGUIDComponentParams __type="DataForgeComponentParams" __polymorphicType="SSuperGUIDComponentParams" />
+    <GoToPointComponentParams pointName="" description="" __type="DataForgeComponentParams" __polymorphicType="GoToPointComponentParams" />
+    <SEntityComponentObjectMetadataParams name="@LOC_EMPTY" hasLocalBounds="1" __type="DataForgeComponentParams" __polymorphicType="SEntityComponentObjectMetadataParams">
+      <metadata />
+    </SEntityComponentObjectMetadataParams>
+    <SubsumptionPlatformComponentParams locationHierarchyTag="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="SubsumptionPlatformComponentParams">
+      <missionLocation>
+        <MissionLocationParams template="00000000-0000-0000-0000-000000000000" actionArea="" __type="MissionLocationParams">
+          <additionalData __type="MissionLocationData">
+            <generalTags __type="MissionLocationTags">
+              <tags />
+            </generalTags>
+            <producesTags __type="TagSearchTerm">
+              <positiveTags />
+              <negativeTags />
+            </producesTags>
+            <consumesTags __type="TagSearchTerm">
+              <positiveTags />
+              <negativeTags />
+            </consumesTags>
+            <aiSpawnTags __type="TagList">
+              <tags />
+            </aiSpawnTags>
+            <stringVariants __type="MissionStringVariants">
+              <variants />
+            </stringVariants>
+            <missionModules />
+            <missionLimits />
+            <autoSpawnSettings />
+          </additionalData>
+        </MissionLocationParams>
+      </missionLocation>
+      <additionalLocations />
+    </SubsumptionPlatformComponentParams>
+    <SItemPortContainerComponentParams PortFlags="" PortTags="" RequiredItemTags="" __type="DataForgeComponentParams" __polymorphicType="SItemPortContainerComponentParams">
+      <masterController>
+        <SItemPortMasterControllerParams __type="SItemPortMasterControllerParams">
+          <Pipes />
+        </SItemPortMasterControllerParams>
+      </masterController>
+      <Ports>
+        <SItemPortDef Name="test_itemport" DisplayName="" PortTags="" RequiredPortTags="" Flags="" MinSize="0" MaxSize="0" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags />
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types />
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationEntity usePhysicalAttachment="0" useEntityAttachment="1" useExteriorAttachment="0" usePhysicalParent="0" hangarPort="0" __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationEntity">
+              <constraintParams damping="0" noSelfCollisions="1" maxPullForce="0" maxBendTorque="0" constrainToLine="0" constrainToPlane="0" constrainFully="1" useWorldConstraintPosition="0" noRotation="1" xMin="0" xMax="0" yzMax="0" constraintHelper="" constraintMaintainOrientation="0" __type="SAttachmentConstraintParams" />
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationEntity>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+      </Ports>
+      <InternalResourceLinks />
+    </SItemPortContainerComponentParams>
+  </Components>
+</EntityClassDefinition.RastarPlacedElement>

@@ -1,0 +1,10 @@
+<ScanCustomDataDef.TestData __type="ScanCustomDataDef" __ref="0088c1d2-51c6-4729-97ce-ce7d5af35d53" __path="libs/foundry/records/radarsystem/scandata/testdata.xml">
+  <scanProcedures>
+    <CustomScanProcedureParams scanLayer="Initial" emissionBaseline="0" __type="ScanProcedureParams" __polymorphicType="CustomScanProcedureParams">
+      <customDatas>
+        <ScanCustomDataFloat name="@room_briefing_room" value="40" __type="ScanCustomData" __polymorphicType="ScanCustomDataFloat" />
+        <ScanCustomDataLocString name="@room_engine_room" value="@room_mess_hall" __type="ScanCustomData" __polymorphicType="ScanCustomDataLocString" />
+      </customDatas>
+    </CustomScanProcedureParams>
+  </scanProcedures>
+</ScanCustomDataDef.TestData>

@@ -1,0 +1,6 @@
+<InventoryContainer.PersonalStorage_Template __type="InventoryContainer" __ref="d8e8f8ab-cfcc-42da-bcce-a782905829f0" __path="libs/foundry/records/inventorycontainers/ships/personalstorage_template.xml">
+  <interiorDimensions x="0" y="0" z="0" __type="Vec3" />
+  <capacity>
+    <SStandardCargoUnit standardCargoUnits="0" __type="SBaseCargoUnit" __polymorphicType="SStandardCargoUnit" />
+  </capacity>
+</InventoryContainer.PersonalStorage_Template>

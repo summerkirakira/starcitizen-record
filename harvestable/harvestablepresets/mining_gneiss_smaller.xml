@@ -1,0 +1,7 @@
+<HarvestablePreset.Mining_Gneiss_smaller entityClass="ed34ae4e-3504-42e7-80bd-2c2c835e6a20" respawnInSlotTime="3600" specialHarvestableString="" __type="HarvestablePreset" __ref="8e0a2b69-d4ea-41a7-b1ae-6dc6251c99b7" __path="libs/foundry/records/harvestable/harvestablepresets/mining_gneiss_smaller.xml">
+  <transformParams minScale="0.1" maxScale="0.1" terrainNormalAlignment="1" minZOffset="0.1" maxZOffset="0.25" minSlope="0" maxSlope="90" minElevation="-10000" maxElevation="10000" __type="HarvestableTransformParams">
+    <rotationRange x="360" y="360" z="360" __type="Vec3" />
+  </transformParams>
+  <subConfigBase>
+  </subConfigBase>
+</HarvestablePreset.Mining_Gneiss_smaller>

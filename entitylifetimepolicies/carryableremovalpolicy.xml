@@ -1,0 +1,5 @@
+<EntityLifetimePolicyRecord.CarryableRemovalPolicy __type="EntityLifetimePolicyRecord" __ref="925bb3cf-4cc6-4d5a-9310-40eaaa2ba1b5" __path="libs/foundry/records/entitylifetimepolicies/carryableremovalpolicy.xml">
+  <lifetimePolicies>
+    <SCarryableLifetimePolicy authorizerCountLimit="0" isNonTrivialRemoval="0" timeoutDuration="60" __type="SEntityLifetimePolicyParams" __polymorphicType="SCarryableLifetimePolicy" />
+  </lifetimePolicies>
+</EntityLifetimePolicyRecord.CarryableRemovalPolicy>

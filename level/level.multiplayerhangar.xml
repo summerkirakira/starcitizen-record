@@ -1,0 +1,10 @@
+<Level.MultiplayerHangar displayName="Hangar Multiplayer" locDisplayName="@LOC_EMPTY" description="@LOC_EMPTY" thumbnail="" filename="MultiplayerHangar" gameToken="" universeLocationUniqueId="0" defaultGameRules="00000000-0000-0000-0000-000000000000" TrackNumber="-1" mapCode="" systemImagePath="" __type="Level" __ref="a10cc794-831c-454f-8e1a-ad2c3b5e65ea" __path="libs/foundry/records/level/level.multiplayerhangar.xml">
+  <displayFeatures>
+  </displayFeatures>
+  <validGameRules />
+  <loadingScreenInfo loadingScreenType="StarCitizen" imagePath="" primaryTitle="@LOC_EMPTY" secondaryTitle="@LOC_EMPTY" subtitle="@LOC_EMPTY" description="@LOC_EMPTY" __type="SLoadingScreenInformationDef">
+    <tips />
+  </loadingScreenInfo>
+  <potentialSpawnLocations />
+  <potentialDevOnlySpawnLocations />
+</Level.MultiplayerHangar>

@@ -1,0 +1,51 @@
+<MissionBrokerEntry.PU_Covalex_Investigation notForRelease="0" missionModule="libs/subsumption/missions/pu/pu_missions/pu_covalex_investigation.xml" title="@missionManager_Charlie_Title_Short" titleHUD="@LOC_UNINITIALIZED" description="@missionManager_Charlie_Description" missionGiver="@missionManager_Charlie_From" commsChannelName="@LOC_UNINITIALIZED" type="0505e20d-d7d9-482e-ba79-875d3c3a03b2" locationMissionAvailable="c15033ab-2eb3-4d6d-b882-0cb336e67ed8" notifyOnAvailable="0" showAsOffer="1" missionBuyInAmount="0" refundBuyInOnWithdraw="0" hasCompleteButton="1" handlesAbandonRequest="0" missionModulePerPlayer="1" maxInstances="-1" maxPlayersPerInstance="1" maxInstancesPerPlayer="1" canBeShared="0" onceOnly="1" displayAlliedMarkers="1" availableInPrison="0" failIfSentToPrison="1" requestOnly="0" respawnTime="1" respawnTimeVariation="1" instanceHasLifeTime="0" showLifeTimeInMobiGlas="0" instanceLifeTime="45" instanceLifeTimeVariation="15" canReacceptAfterAbandoning="1" abandonedCooldownTime="60" abandonedCooldownTimeVariation="0" canReacceptAfterFailing="0" hasPersonalCooldown="0" personalCooldownTime="1" personalCooldownTimeVariation="1" moduleHandlesOwnShutdown="0" linkedMission="00000000-0000-0000-0000-000000000000" lawfulMission="1" missionGiverRecord="00000000-0000-0000-0000-000000000000" invitationMission="00000000-0000-0000-0000-000000000000" missionGiverFragmentTags="" __type="MissionBrokerEntry" __ref="6ff0f0ed-2d51-4df9-8ca1-d33a23954335" __path="libs/foundry/records/missionbroker/pu_missions/missionbrokerentry.pu_covalex_investigation.xml">
+  <availableDateSchedule />
+  <missionReward reward="8000" max="0" plusBonuses="0" currencyType="UEC" reputationBonus="00000000-0000-0000-0000-000000000000" __type="MissionReward" />
+  <missionResultReputationRewards>
+    <SReputationAmountListParams __type="SReputationAmountListParams">
+      <reputationAmounts />
+    </SReputationAmountListParams>
+    <SReputationAmountListParams __type="SReputationAmountListParams">
+      <reputationAmounts />
+    </SReputationAmountListParams>
+    <SReputationAmountListParams __type="SReputationAmountListParams">
+      <reputationAmounts />
+    </SReputationAmountListParams>
+  </missionResultReputationRewards>
+  <journalEntriesToAddOnComplete />
+  <journalEntriesToRemoveOnComplete />
+  <completionTags __type="TagList">
+    <tags />
+  </completionTags>
+  <modifiers />
+  <missionTags />
+  <reputationPrerequisites wantedLevelJurisdictionOverride="00000000-0000-0000-0000-000000000000" __type="ReputationPrerequisites">
+    <wantedLevel minValue="0" maxValue="5" __type="ReputationPrerequisiteRange" />
+  </reputationPrerequisites>
+  <reputationRequirements>
+  </reputationRequirements>
+  <requiredMissions />
+  <requiredCompletedMissionTags />
+  <requiredJournalEntries />
+  <properties>
+    <MissionProperty missionVariableName="MissionLocation" extendedTextToken="Location" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Location minLocationsToFind="1" maxLocationsToFind="1" debugForceChosenLocation="00000000-0000-0000-0000-000000000000" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Location">
+          <matchConditions>
+            <DataSetMatchCondition_TagSearch tagType="General" __type="BaseDataSetMatchCondition" __polymorphicType="DataSetMatchCondition_TagSearch">
+              <tagSearch>
+                <TagSearchTerm __type="TagSearchTerm">
+                  <positiveTags>
+                    <Reference value="c508a54d-bfb3-4c22-9f2d-9bb087deb8a0" />
+                  </positiveTags>
+                  <negativeTags />
+                </TagSearchTerm>
+              </tagSearch>
+            </DataSetMatchCondition_TagSearch>
+          </matchConditions>
+          <resourceTags />
+        </MissionPropertyValue_Location>
+      </value>
+    </MissionProperty>
+  </properties>
+</MissionBrokerEntry.PU_Covalex_Investigation>

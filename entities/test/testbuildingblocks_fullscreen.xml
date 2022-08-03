@@ -1,0 +1,399 @@
+<EntityClassDefinition.TestBuildingBlocks_FullScreen Category="Default" Icon="Default.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="2d3864c0-504b-491d-a55a-856559f1375a" __path="libs/foundry/records/entities/test/testbuildingblocks_fullscreen.xml">
+  <tags />
+  <StaticEntityClassData />
+  <Components>
+    <SGeometryResourceParams cacheResources="0" rootOverridePaint="0" inheritModelTagFromHost="1" __type="DataForgeComponentParams" __polymorphicType="SGeometryResourceParams">
+      <ModelTag>
+      </ModelTag>
+      <Geometry Tags="" ScaleMultiplier="1" __type="SGeometryNodeParams">
+        <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+          <Geometry path="objects/buildingsets/human/universal/prop/screen/screen_16x9_1_004x00255_a.cgf" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+          <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+          <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        </Geometry>
+        <SubGeometry />
+      </Geometry>
+      <Material Tags="" __type="SMaterialNodeParams">
+        <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+        <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        <materialVariants />
+      </Material>
+    </SGeometryResourceParams>
+    <UIOwnerEntityComponentParams startOpen="1" areScreens3D="0" areSounds3D="0" hasActions="0" element="235bfc85-aa63-4fd5-b5d1-821fb3522a39" domainName="global" loadDistance="10" updateDistance="10" moviePath="" variantName="" invariantName="" movieAutoPlay="0" loopMovie="0" forceFlashColourCorrection="0" ignoreTrackviewUnloadRequests="0" reflectLocalStateMachine="1" reflectLinkedStateMachines="1" graph="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="UIOwnerEntityComponentParams" />
+    <UIRenderToTextureEntityComponentParams directRenderStage="BeforeToneMapping" compositeMaterialName="" hideRenderNodeOnUnload="0" aspectRatioOverride="0" interactionDistance="5" transparentListDepthBias="0" renderFlashBeforeCamera="0" fieldOfView="90" renderType="FORWARD" fallbackTextureOnOnload="" __type="DataForgeComponentParams" __polymorphicType="UIRenderToTextureEntityComponentParams">
+      <secondaryTarget>
+      </secondaryTarget>
+      <grabCameraControlParams>
+      </grabCameraControlParams>
+    </UIRenderToTextureEntityComponentParams>
+    <UIBuildingBlocksEntityComponentParams enableFullScreenMouse="1" defaultStyle="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="UIBuildingBlocksEntityComponentParams">
+      <layers>
+        <BuildingBlocksLayer layerName="Default" renderTarget="All" defaultView="null" __type="BuildingBlocksLayer">
+          <views />
+        </BuildingBlocksLayer>
+      </layers>
+    </UIBuildingBlocksEntityComponentParams>
+    <SInteractionStateMachineParams __type="DataForgeComponentParams" __polymorphicType="SInteractionStateMachineParams">
+      <StateTypes>
+        <SInteractionStateType StateTypeName="Background" bindingsMethod="None" DefaultState="StateTypes[0].SInteractionStateType.States" networkAuthority="Server" __type="SInteractionStateType">
+          <States>
+            <SInteractionState StateName="Default" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions />
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+          </States>
+          <StateModifiers />
+        </SInteractionStateType>
+        <SInteractionStateType StateTypeName="Main" bindingsMethod="None" DefaultState="StateTypes[1].SInteractionStateType.States[2]" networkAuthority="Server" __type="SInteractionStateType">
+          <States>
+            <SInteractionState StateName="AC" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions />
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="SM" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions />
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="Home" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions />
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+          </States>
+          <StateModifiers />
+        </SInteractionStateType>
+        <SInteractionStateType StateTypeName="Defcon" bindingsMethod="States" DefaultState="StateTypes[2].SInteractionStateType.States[0]" networkAuthority="Server" __type="SInteractionStateType">
+          <States>
+            <SInteractionState StateName="One" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions />
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="Two" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions />
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="Three" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions />
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+          </States>
+          <StateModifiers />
+        </SInteractionStateType>
+        <SInteractionStateType StateTypeName="Playing" bindingsMethod="States" DefaultState="null" networkAuthority="Server" __type="SInteractionStateType">
+          <States>
+            <SInteractionState StateName="on" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions />
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="off" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions />
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+          </States>
+          <StateModifiers />
+        </SInteractionStateType>
+      </StateTypes>
+    </SInteractionStateMachineParams>
+    <SEntityInteractableParams __type="DataForgeComponentParams" __polymorphicType="SEntityInteractableParams">
+      <Interactable __type="SInteractableParams">
+        <SharedInteractions />
+        <InteractionPoints />
+        <interactionTasks />
+        <actionHandlerTasks />
+        <itemActionTasks />
+        <menuTitle>
+        </menuTitle>
+      </Interactable>
+    </SEntityInteractableParams>
+    <UIBindingsVendorEntityComponentParams namespace="" __type="DataForgeComponentParams" __polymorphicType="UIBindingsVendorEntityComponentParams" />
+    <UIBindingsConsumerEntityComponentParams linkToPort="0" __type="DataForgeComponentParams" __polymorphicType="UIBindingsConsumerEntityComponentParams" />
+    <UserVariablesComponentParams AlwaysUseDefaultValues="0" __type="DataForgeComponentParams" __polymorphicType="UserVariablesComponentParams">
+      <floats>
+        <FloatUserVariable name="myFloatA" defaultValue="0.1" __type="FloatUserVariable">
+          <tasks />
+        </FloatUserVariable>
+        <FloatUserVariable name="myFloatB" defaultValue="0.9" __type="FloatUserVariable">
+          <tasks />
+        </FloatUserVariable>
+        <FloatUserVariable name="LeftFloatInterp" defaultValue="0.5" __type="FloatUserVariable">
+          <tasks />
+        </FloatUserVariable>
+        <FloatUserVariable name="RightFloatInterp" defaultValue="0.5" __type="FloatUserVariable">
+          <tasks />
+        </FloatUserVariable>
+        <FloatUserVariable name="BackgroundFloatRed" defaultValue="0.5" __type="FloatUserVariable">
+          <tasks />
+        </FloatUserVariable>
+        <FloatUserVariable name="BackgroundFloatGreen" defaultValue="0.5" __type="FloatUserVariable">
+          <tasks />
+        </FloatUserVariable>
+        <FloatUserVariable name="BackgroundFloatBlue" defaultValue="0.5" __type="FloatUserVariable">
+          <tasks />
+        </FloatUserVariable>
+        <FloatUserVariable name="BackgroundFloatAlpha" defaultValue="1" __type="FloatUserVariable">
+          <tasks />
+        </FloatUserVariable>
+      </floats>
+      <ints>
+        <IntUserVariable name="myIntA" defaultValue="-50" __type="IntUserVariable">
+          <tasks />
+        </IntUserVariable>
+        <IntUserVariable name="myIntB" defaultValue="99" __type="IntUserVariable">
+          <tasks />
+        </IntUserVariable>
+        <IntUserVariable name="myIntC" defaultValue="12345678" __type="IntUserVariable">
+          <tasks />
+        </IntUserVariable>
+        <IntUserVariable name="TopInt" defaultValue="0" __type="IntUserVariable">
+          <tasks />
+        </IntUserVariable>
+      </ints>
+      <bools>
+        <BoolUserVariable name="myBoolA" defaultValue="0" __type="BoolUserVariable">
+          <tasks />
+        </BoolUserVariable>
+        <BoolUserVariable name="myBoolB" defaultValue="1" __type="BoolUserVariable">
+          <tasks />
+        </BoolUserVariable>
+        <BoolUserVariable name="myBoolC" defaultValue="1" __type="BoolUserVariable">
+          <tasks />
+        </BoolUserVariable>
+        <BoolUserVariable name="BottomBool" defaultValue="0" __type="BoolUserVariable">
+          <tasks />
+        </BoolUserVariable>
+        <BoolUserVariable name="notificationBoolA" defaultValue="1" __type="BoolUserVariable">
+          <tasks />
+        </BoolUserVariable>
+        <BoolUserVariable name="notificationBoolB" defaultValue="1" __type="BoolUserVariable">
+          <tasks />
+        </BoolUserVariable>
+        <BoolUserVariable name="notificationBoolC" defaultValue="1" __type="BoolUserVariable">
+          <tasks />
+        </BoolUserVariable>
+        <BoolUserVariable name="notificationBoolD" defaultValue="1" __type="BoolUserVariable">
+          <tasks />
+        </BoolUserVariable>
+        <BoolUserVariable name="notificationBoolE" defaultValue="1" __type="BoolUserVariable">
+          <tasks />
+        </BoolUserVariable>
+        <BoolUserVariable name="notificationBoolF" defaultValue="1" __type="BoolUserVariable">
+          <tasks />
+        </BoolUserVariable>
+      </bools>
+      <strings>
+        <StringUserVariable name="MyStringA" defaultValue="" __type="StringUserVariable">
+          <recordRefValue>
+          </recordRefValue>
+          <tasks />
+        </StringUserVariable>
+      </strings>
+      <locStrings />
+    </UserVariablesComponentParams>
+    <UIBindingsInteractionsComponentParams interactionDistance="50" __type="DataForgeComponentParams" __polymorphicType="UIBindingsInteractionsComponentParams" />
+    <ShipListEntityComponentParams allowSpaceships="1" allowGroundVehicles="1" allowGravLevVehicles="1" allowREC_RentedShips="0" allowUEC_RentedShips="1" setPlayerProfile="0" filterByLocation="0" __type="DataForgeComponentParams" __polymorphicType="ShipListEntityComponentParams" />
+    <ShipInsuranceEntityComponentParams selectionFilter="" __type="DataForgeComponentParams" __polymorphicType="ShipInsuranceEntityComponentParams" />
+    <UserArraysComponentParams name="myArray" __type="DataForgeComponentParams" __polymorphicType="UserArraysComponentParams">
+      <array>
+        <UserArrayElement intVar="1" floatVar="2" stringVar="" locVar="@items_commodities_lycara" __type="UserArrayElement">
+          <array>
+            <UserArrayElement intVar="3" floatVar="0" stringVar="" locVar="@ATC_Area18" __type="UserArrayElement">
+              <array />
+            </UserArrayElement>
+            <UserArrayElement intVar="4" floatVar="0" stringVar="" locVar="@ATC_Automated" __type="UserArrayElement">
+              <array />
+            </UserArrayElement>
+          </array>
+        </UserArrayElement>
+        <UserArrayElement intVar="0" floatVar="0" stringVar="" locVar="@items_commodities_silnex" __type="UserArrayElement">
+          <array />
+        </UserArrayElement>
+        <UserArrayElement intVar="0" floatVar="0" stringVar="" locVar="@items_commodities_gold" __type="UserArrayElement">
+          <array />
+        </UserArrayElement>
+        <UserArrayElement intVar="0" floatVar="0" stringVar="" locVar="@items_commodities_laranite" __type="UserArrayElement">
+          <array>
+            <UserArrayElement intVar="0" floatVar="0" stringVar="" locVar="@ATC_Lorville_Gate01" __type="UserArrayElement">
+              <array />
+            </UserArrayElement>
+            <UserArrayElement intVar="0" floatVar="0" stringVar="" locVar="@ATC_Lorville_Gate02" __type="UserArrayElement">
+              <array />
+            </UserArrayElement>
+            <UserArrayElement intVar="0" floatVar="0" stringVar="" locVar="@ATC_Lorville_Gate03" __type="UserArrayElement">
+              <array />
+            </UserArrayElement>
+          </array>
+        </UserArrayElement>
+        <UserArrayElement intVar="0" floatVar="0" stringVar="" locVar="@items_commodities_bioplastic" __type="UserArrayElement">
+          <array />
+        </UserArrayElement>
+        <UserArrayElement intVar="0" floatVar="0" stringVar="" locVar="@items_commodities_carbonsilk" __type="UserArrayElement">
+          <array />
+        </UserArrayElement>
+        <UserArrayElement intVar="0" floatVar="0" stringVar="" locVar="@items_commodities_steel" __type="UserArrayElement">
+          <array />
+        </UserArrayElement>
+        <UserArrayElement intVar="0" floatVar="0" stringVar="" locVar="@items_commodities_tungsten" __type="UserArrayElement">
+          <array />
+        </UserArrayElement>
+        <UserArrayElement intVar="0" floatVar="0" stringVar="" locVar="@items_commodities_copper" __type="UserArrayElement">
+          <array />
+        </UserArrayElement>
+        <UserArrayElement intVar="0" floatVar="0" stringVar="" locVar="@items_commodities_sarilus" __type="UserArrayElement">
+          <array />
+        </UserArrayElement>
+        <UserArrayElement intVar="0" floatVar="0" stringVar="" locVar="@items_commodities_dynaflex" __type="UserArrayElement">
+          <array />
+        </UserArrayElement>
+        <UserArrayElement intVar="0" floatVar="0" stringVar="" locVar="@items_commodities_thermalfoam" __type="UserArrayElement">
+          <array />
+        </UserArrayElement>
+        <UserArrayElement intVar="0" floatVar="0" stringVar="" locVar="@items_commodities_hephaestanite" __type="UserArrayElement">
+          <array />
+        </UserArrayElement>
+        <UserArrayElement intVar="0" floatVar="0" stringVar="" locVar="@items_commodities_diamondlaminate" __type="UserArrayElement">
+          <array />
+        </UserArrayElement>
+        <UserArrayElement intVar="0" floatVar="0" stringVar="" locVar="@items_commodities_neograph" __type="UserArrayElement">
+          <array />
+        </UserArrayElement>
+        <UserArrayElement intVar="0" floatVar="0" stringVar="" locVar="@items_commodities_dymantium" __type="UserArrayElement">
+          <array />
+        </UserArrayElement>
+        <UserArrayElement intVar="0" floatVar="0" stringVar="" locVar="@items_commodities_xapyen" __type="UserArrayElement">
+          <array />
+        </UserArrayElement>
+        <UserArrayElement intVar="0" floatVar="0" stringVar="" locVar="@items_commodities_atlasium" __type="UserArrayElement">
+          <array />
+        </UserArrayElement>
+        <UserArrayElement intVar="0" floatVar="0" stringVar="" locVar="@items_commodities_omnapoxy" __type="UserArrayElement">
+          <array />
+        </UserArrayElement>
+        <UserArrayElement intVar="0" floatVar="0" stringVar="" locVar="@items_commodities_scr" __type="UserArrayElement">
+          <array />
+        </UserArrayElement>
+        <UserArrayElement intVar="0" floatVar="0" stringVar="" locVar="@items_commodities_lastaprene" __type="UserArrayElement">
+          <array />
+        </UserArrayElement>
+        <UserArrayElement intVar="0" floatVar="0" stringVar="" locVar="@items_commodities_agricium" __type="UserArrayElement">
+          <array />
+        </UserArrayElement>
+        <UserArrayElement intVar="0" floatVar="0" stringVar="" locVar="@items_commodities_uranium" __type="UserArrayElement">
+          <array />
+        </UserArrayElement>
+        <UserArrayElement intVar="0" floatVar="0" stringVar="" locVar="@items_commodities_cadmiumallinide" __type="UserArrayElement">
+          <array />
+        </UserArrayElement>
+        <UserArrayElement intVar="0" floatVar="0" stringVar="" locVar="@items_commodities_bexalite" __type="UserArrayElement">
+          <array />
+        </UserArrayElement>
+        <UserArrayElement intVar="0" floatVar="0" stringVar="" locVar="@items_commodities_taranite" __type="UserArrayElement">
+          <array />
+        </UserArrayElement>
+        <UserArrayElement intVar="0" floatVar="0" stringVar="" locVar="@items_commodities_xenon" __type="UserArrayElement">
+          <array />
+        </UserArrayElement>
+        <UserArrayElement intVar="0" floatVar="0" stringVar="" locVar="@items_commodities_elespo" __type="UserArrayElement">
+          <array />
+        </UserArrayElement>
+      </array>
+    </UserArraysComponentParams>
+    <UIAudioComponentEntityComponentParams UIAudioDef="51c32627-1928-4c02-9925-b470a860ca2c" useEntityClass="00000000-0000-0000-0000-000000000000" dialogueContext="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="UIAudioComponentEntityComponentParams">
+      <offset>
+      </offset>
+      <videoAudioPlayTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <videoAudioPauseTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <videoAudioResumeTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+    </UIAudioComponentEntityComponentParams>
+    <UIEntityServiceEntityComponentParams immediateTransforms="0" __type="DataForgeComponentParams" __polymorphicType="UIEntityServiceEntityComponentParams" />
+    <UISimpleRenderNodeEntityComponentParams minimumBounds="1" materialName="materials/default_ui.mtl" sortDistance="0" layerOffset="5" layerDistance="0.1" fixedScaleMin="0" fixedScaleMax="0" __type="DataForgeComponentParams" __polymorphicType="UISimpleRenderNodeEntityComponentParams" />
+  </Components>
+</EntityClassDefinition.TestBuildingBlocks_FullScreen>

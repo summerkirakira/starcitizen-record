@@ -1,0 +1,421 @@
+<EntityClassDefinition.ExerciseSpot_Propless Category="Default" Icon="Usable.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="41e22cd2-c2e2-438b-9f8f-194a80ab6bca" __path="libs/foundry/records/entities/scitem/usables/exercisespot_propless.xml">
+  <tags>
+    <Reference value="6c1891a0-41c7-4132-8458-4b46f0917313" />
+  </tags>
+  <StaticEntityClassData />
+  <Components>
+    <SGeometryResourceParams cacheResources="0" rootOverridePaint="0" inheritModelTagFromHost="1" __type="DataForgeComponentParams" __polymorphicType="SGeometryResourceParams">
+      <ModelTag>
+      </ModelTag>
+      <Geometry Tags="" ScaleMultiplier="1" __type="SGeometryNodeParams">
+        <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+          <Geometry path="objects/buildingsets/human/template/usablehelpers/propless/propless_exercise.cga" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+          <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+          <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        </Geometry>
+        <SubGeometry />
+      </Geometry>
+      <Material Tags="" __type="SMaterialNodeParams">
+        <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+        <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        <materialVariants />
+      </Material>
+    </SGeometryResourceParams>
+    <SEntityPhysicsControllerParams __type="DataForgeComponentParams" __polymorphicType="SEntityPhysicsControllerParams">
+      <PhysType>
+        <SEntityRigidPhysicsControllerParams Mass="0" maxLoggedCollisions="1" Damping="0" DampingFreefall="0.05" PushableByPlayers="1" NeverAffectTriggers="0" UseManualGridTransition="0" BlocksNavigation="1" Kinematic="0" Resting="0" physicalizeAllSlots="1" __type="SEntityBasePhysicsControllerParams" __polymorphicType="SEntityRigidPhysicsControllerParams">
+          <breakableParams>
+          </breakableParams>
+          <gameCollisionClass>
+          </gameCollisionClass>
+          <grid>
+          </grid>
+          <buoyancyParams>
+          </buoyancyParams>
+          <temperature enable="0" initialTemperature="-1" internalTemperatureGeneration="0" __type="EntityTemperature" />
+        </SEntityRigidPhysicsControllerParams>
+      </PhysType>
+    </SEntityPhysicsControllerParams>
+    <SEntityInteractableParams __type="DataForgeComponentParams" __polymorphicType="SEntityInteractableParams">
+      <Interactable __type="SInteractableParams">
+        <SharedInteractions>
+          <SSharedInteractionParams Name="Burpee" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_use" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Cherrypick" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_use" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Legraises" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_use" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Lunges" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_use" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="MountainClimberTwist" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_use" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="PlankJacks" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_use" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Planks" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_use" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Pushups" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_use" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Shadowboxing" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_use" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Situps" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_use" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Squats" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_use" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Windmills" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_use" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Warmup" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_use" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="mobiGlas" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_use" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+        </SharedInteractions>
+        <InteractionPoints>
+          <SInteractionPointParams FirstInteractionPrimary="1" UseHelperLocation="0" ShowHighlight="1" ApplyToEntireSkeleton="0" longRangeIP="0" HelperName="" TextJustification="Middle" TextOrientation="RotateToPlayer" TextScale="1" Radius="1.6" MaxCursorScreenDistance="2" ShowInnerThoughtsOffScreen="0" OnlySelectableInLookDir="0" __type="SInteractionPointParams">
+            <HighlightBehaviors />
+            <AdditionalCollisionBones />
+            <Offset __type="QuatT">
+              <Rotation x="0" y="0" z="0" __type="Ang3" />
+              <Position x="0" y="0" z="0" __type="Vec3" />
+            </Offset>
+            <AngleConstraint angleRange="181" __type="SAngleConstraint">
+              <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+            </AngleConstraint>
+            <SpherePrimitive>
+            </SpherePrimitive>
+            <Interactions />
+          </SInteractionPointParams>
+        </InteractionPoints>
+        <interactionTasks />
+        <actionHandlerTasks />
+        <itemActionTasks />
+        <menuTitle>
+        </menuTitle>
+      </Interactable>
+    </SEntityInteractableParams>
+    <SActorUsableParams archetype="2354351f-be3c-40bd-909a-5d6ae13d1bc9" fragmentTag="exercise" isExterior="0" __type="DataForgeComponentParams" __polymorphicType="SActorUsableParams">
+      <useSlots>
+        <UsableUseSlot name="exercise" available="1" additionalFragmentTags="" isScoochable="0" __type="UsableUseSlot">
+          <useChannelInstances>
+            <UsableUseChannelInstance useChannelArchetype="49cd0127-1dc8-4507-b0f0-13bd5dd45732" interaction="Interactable.SharedInteractions[0]" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance useChannelArchetype="4b28d304-e343-4503-871a-175bba8e2bad" interaction="Interactable.SharedInteractions[1]" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance useChannelArchetype="177e0f8e-0533-42c0-b520-8dbe803952ce" interaction="Interactable.SharedInteractions[2]" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance useChannelArchetype="f201ea98-60c2-4222-b2f4-196dbdf6e0de" interaction="Interactable.SharedInteractions[3]" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance useChannelArchetype="50307d21-5c1b-4ec8-a1ea-97f333740883" interaction="Interactable.SharedInteractions[4]" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance useChannelArchetype="7c2d3c04-10b0-43b0-b681-547692ff5bc1" interaction="Interactable.SharedInteractions[5]" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance useChannelArchetype="38d6867e-9daf-4bf5-80ac-67196f21ed69" interaction="Interactable.SharedInteractions[6]" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance useChannelArchetype="843c3db3-4613-4bfa-9370-648088d06159" interaction="Interactable.SharedInteractions[7]" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance useChannelArchetype="df0bee2e-b3fa-4b37-b611-dcf0ffa0c6d0" interaction="Interactable.SharedInteractions[8]" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance useChannelArchetype="13b9e2c5-372c-43ba-8d47-4eb40aa323ad" interaction="Interactable.SharedInteractions[9]" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance useChannelArchetype="73473c9a-e8be-4dd6-aa64-ab86bfaf4ebb" interaction="Interactable.SharedInteractions[10]" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance useChannelArchetype="c42c206d-24a9-4289-a1e6-2ac5bcb76d00" interaction="Interactable.SharedInteractions[11]" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance useChannelArchetype="cab09d1b-790e-489a-9759-6cc6cf4a152e" interaction="Interactable.SharedInteractions[12]" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance useChannelArchetype="5c4b1434-9138-4078-b236-b7bffd72dae3" interaction="Interactable.SharedInteractions[13]" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+          </useChannelInstances>
+          <usableItemPorts />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="0" z="0" __type="Vec3" />
+          </relativeTransform>
+          <optionalGameTags />
+        </UsableUseSlot>
+      </useSlots>
+      <alignmentSlots>
+        <PointAlignmentSlot name="" available="1" canPlayerUse="0" fragmentTag="" slottedFragmentTag="" helperName="$anchor_exercise" linkMode="NoLink" spotStance="Stand" useHandIK="0" useADIK="0" __type="AlignmentSlotBase" __polymorphicType="PointAlignmentSlot">
+          <interactionPoints>
+            <WeakPointer interactionPoints="Interactable.InteractionPoints" />
+          </interactionPoints>
+          <optionalGameTags />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="0" z="0" __type="Vec3" />
+          </relativeTransform>
+          <viewParams viewLimitYawMin="-45" viewLimitYawMax="45" viewLimitPitchMin="-45" viewLimitPitchMax="45" __type="SUsableViewParams" />
+          <enterParams aiSignal="UseStart" additionalTags="" eventTriggerMask="AIAndPlayer" holsterWeapon="1" enterInteraction="null" __type="SUsableTransitionParams" __polymorphicType="SUsableEnterTransitionParams">
+            <transitionAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </enterParams>
+          <exitParams aiSignal="UseEnd" additionalTags="" eventTriggerMask="AIAndPlayer" inputExit="1" exitOnMovement="0" exitOnJump="0" exitOnDamageTaken="0" exitInteraction="null" exitSequence="null" __type="SUsableTransitionParams" __polymorphicType="SUsableExitTransitionParams">
+            <transitionAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </exitParams>
+          <usableIdleParams __type="SUsableIdleParams">
+            <idlePoseOverrides>
+              <SUsableIdlePoseOverride idlePoseTag="idlePose_1" overrideForPlayer="1" __type="SUsableIdlePoseOverride" />
+            </idlePoseOverrides>
+          </usableIdleParams>
+        </PointAlignmentSlot>
+      </alignmentSlots>
+      <slottingSetups />
+      <views />
+      <abilityLocks />
+      <usableSequencerTasks />
+      <specializedData __type="SSpecializedData">
+        <specializedDataEntry />
+      </specializedData>
+    </SActorUsableParams>
+    <SAttachableComponentParams attachToTileItemPort="NoConnection" __type="DataForgeComponentParams" __polymorphicType="SAttachableComponentParams">
+      <AttachDef Type="Usable" SubType="UNDEFINED" Size="1" Grade="1" Manufacturer="00000000-0000-0000-0000-000000000000" inheritParentManufacturer="0" Tags="" RequiredTags="" DisplayType="" __type="SItemDefinition">
+        <Localization Name="@LOC_PLACEHOLDER" ShortName="@LOC_EMPTY" Description="@LOC_EMPTY" __type="SCItemLocalization">
+          <displayFeatures LogoSimplifiedWhite="" FrontendBackground="" History="@LOC_EMPTY" Callout1="@LOC_EMPTY" Callout2="@LOC_EMPTY" Callout3="@LOC_EMPTY" UIPriority="0" __type="SCExtendedLocalizationLevelParams">
+            <locationAudioPlayTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+            <locationAudioStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </displayFeatures>
+        </Localization>
+        <mannequinTags mannequinClassTag="" mannequinTypeTag="" mannequinBaseTag="" __type="SCItemMannequinTags" />
+        <inventoryOccupancyVolume>
+          <SMicroCargoUnit microSCU="1" __type="SBaseCargoUnit" __polymorphicType="SMicroCargoUnit" />
+        </inventoryOccupancyVolume>
+        <inventoryOccupancyDimensions x="0.15" y="0.15" z="0.15" __type="Vec3" />
+        <inventoryOccupancyDimensionsUIOverride>
+        </inventoryOccupancyDimensionsUIOverride>
+      </AttachDef>
+      <entityAttachParams>
+      </entityAttachParams>
+    </SAttachableComponentParams>
+    <SItemPortContainerComponentParams PortFlags="" PortTags="" RequiredItemTags="" __type="DataForgeComponentParams" __polymorphicType="SItemPortContainerComponentParams">
+      <masterController>
+      </masterController>
+      <Ports>
+        <SItemPortDef Name="mat" DisplayName="" PortTags="" RequiredPortTags="" Flags="" MinSize="0" MaxSize="0" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags />
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types />
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationEntity usePhysicalAttachment="0" useEntityAttachment="1" useExteriorAttachment="0" usePhysicalParent="0" hangarPort="0" __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationEntity">
+              <constraintParams damping="0" noSelfCollisions="1" maxPullForce="0" maxBendTorque="0" constrainToLine="0" constrainToPlane="0" constrainFully="1" useWorldConstraintPosition="0" noRotation="1" xMin="0" xMax="0" yzMax="0" constraintHelper="" constraintMaintainOrientation="0" __type="SAttachmentConstraintParams" />
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="$slot_mat" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationEntity>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+      </Ports>
+      <InternalResourceLinks />
+    </SItemPortContainerComponentParams>
+  </Components>
+</EntityClassDefinition.ExerciseSpot_Propless>

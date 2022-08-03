@@ -1,0 +1,10 @@
+<ScanCustomDataDef.Pico_TEMP_SCANNING __type="ScanCustomDataDef" __ref="281a0fa7-f74c-4793-a426-6342f60062c2" __path="libs/foundry/records/radarsystem/scandata/pico_temp_scanning.xml">
+  <scanProcedures>
+    <CustomScanProcedureParams scanLayer="Initial" emissionBaseline="0" __type="ScanProcedureParams" __polymorphicType="CustomScanProcedureParams">
+      <customDatas>
+        <ScanCustomDataLocString name="@hud_scanning_text_message_temp_01" value="@hud_scanning_text_pico_temp_all" __type="ScanCustomData" __polymorphicType="ScanCustomDataLocString" />
+        <ScanCustomDataLocString name="@hud_scanning_info_name" value="@item_Nameplushy_penguin_1" __type="ScanCustomData" __polymorphicType="ScanCustomDataLocString" />
+      </customDatas>
+    </CustomScanProcedureParams>
+  </scanProcedures>
+</ScanCustomDataDef.Pico_TEMP_SCANNING>

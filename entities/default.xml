@@ -1,0 +1,5 @@
+<EntityClassDefinition.Default Category="Default" Icon="Default.bmp" Invisible="1" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="3d8cc013-66d7-4ea9-8e5a-2909cd1e93f9" __path="libs/foundry/records/entities/default.xml">
+  <tags />
+  <StaticEntityClassData />
+  <Components />
+</EntityClassDefinition.Default>

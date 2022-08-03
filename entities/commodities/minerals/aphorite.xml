@@ -1,0 +1,25 @@
+<EntityClassDefinition.aphorite Category="Default" Icon="Default.bmp" Invisible="1" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="2026020f-3708-42fb-acf7-5100a5c0f472" __path="libs/foundry/records/entities/commodities/minerals/aphorite.xml">
+  <tags>
+    <Reference value="f0cc9291-34b5-4897-81cf-36801b67916c" />
+  </tags>
+  <StaticEntityClassData>
+    <EntityUIDisplayParams displayDescription="@LOC_UNINITIALIZED" displayThumbnail="" displayImage="ui/sharedassets/commodityicons/cargo_comm_050x3_minerals_a_diff.tif" displayIcon="" sortString="" __type="EntityClassStaticDataParams" __polymorphicType="EntityUIDisplayParams">
+      <trackerProperties>
+        <SObjectDataBankEntryTrackerParams __type="SObjectDataBankEntryTrackerParams" />
+      </trackerProperties>
+    </EntityUIDisplayParams>
+  </StaticEntityClassData>
+  <Components>
+    <CommodityComponentParams type="138e6e5d-fbe3-425f-b94d-e11009d922a0" subtype="f747ab82-4ba6-4604-94a6-80e6be0e9e11" name="@items_commodities_aphorite" description="@items_commodities_aphorite_desc" IsUnrefinedElement="0" boxable="1" __type="DataForgeComponentParams" __polymorphicType="CommodityComponentParams">
+      <occupancy>
+        <SMicroCargoUnit microSCU="1000" __type="SBaseCargoUnit" __polymorphicType="SMicroCargoUnit" />
+      </occupancy>
+      <ContainerDimension x="0" y="0" z="0" __type="Vec3" />
+    </CommodityComponentParams>
+    <SCItemPurchasableParams displayName="@items_commodities_aphorite" displayType="@items_commodities_type_Mineral" displayThumbnail="ui/textures/vector/general/items/inv_icon_aphorite.svg" allowTryOn="0" allowQuickBuy="0" tryOnInteractionText="@shop_ui_item_action_try" defaultAttachToPortName="" interactionPointTemplate="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="SCItemPurchasableParams">
+      <Display>
+      </Display>
+      <disabledLoadoutInteractions />
+    </SCItemPurchasableParams>
+  </Components>
+</EntityClassDefinition.aphorite>

@@ -1,0 +1,26 @@
+<MissionLocationTemplate.Stanton2_OrisonFloatingPlatform __type="MissionLocationTemplate" __ref="490b7730-c02c-4fca-ae72-2efc1bbdeb9f" __path="libs/foundry/records/missiondata/pu_locations/templates/floatingplatform/stanton2/stanton2_orisonfloatingplatform.xml">
+  <locationData __type="MissionLocationData">
+    <generalTags __type="MissionLocationTags">
+      <tags>
+        <Reference value="fbed1c4e-610e-44e0-9bfe-52b0944cafbc" />
+      </tags>
+    </generalTags>
+    <producesTags __type="TagSearchTerm">
+      <positiveTags />
+      <negativeTags />
+    </producesTags>
+    <consumesTags __type="TagSearchTerm">
+      <positiveTags />
+      <negativeTags />
+    </consumesTags>
+    <aiSpawnTags __type="TagList">
+      <tags />
+    </aiSpawnTags>
+    <stringVariants __type="MissionStringVariants">
+      <variants />
+    </stringVariants>
+    <missionModules />
+    <missionLimits />
+    <autoSpawnSettings />
+  </locationData>
+</MissionLocationTemplate.Stanton2_OrisonFloatingPlatform>

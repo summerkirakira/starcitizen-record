@@ -1,0 +1,5 @@
+<EntityClassDefinition.TagPoint Category="Default" Icon="TagPoint.bmp" Invisible="1" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="f3fc491b-cba4-49ac-8cba-0922d5cd785e" __path="libs/foundry/records/entities/tagpoint.xml">
+  <tags />
+  <StaticEntityClassData />
+  <Components />
+</EntityClassDefinition.TagPoint>

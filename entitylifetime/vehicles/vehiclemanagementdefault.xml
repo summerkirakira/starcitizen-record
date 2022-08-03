@@ -1,0 +1,5 @@
+<VehicleManagementParams.VehicleManagementDefault vehicleCountLimit="85" forceRemovalImmuneDurationOnSpawn="180" __type="VehicleManagementParams" __ref="e643458d-f41e-4140-a4bc-4f40c7fdc38f" __path="libs/foundry/records/entitylifetime/vehicles/vehiclemanagementdefault.xml">
+  <vehicleManagementStrategy>
+    <VehicleManagementInactivity timeoutDuration="3600" timeoutDurationDestroyed="15" aiVehicleTimeoutDuration="120" __type="VehicleManagementStrategy" __polymorphicType="VehicleManagementInactivity" />
+  </vehicleManagementStrategy>
+</VehicleManagementParams.VehicleManagementDefault>

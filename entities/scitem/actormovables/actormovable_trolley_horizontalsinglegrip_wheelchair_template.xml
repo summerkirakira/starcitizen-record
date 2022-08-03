@@ -1,0 +1,175 @@
+<EntityClassDefinition.ActorMovable_Trolley_HorizontalSingleGrip_Wheelchair_TEMPLATE Category="ActorMovable" Icon="Default.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="a70b627f-f35c-48dd-9468-d904bdcd3f92" __path="libs/foundry/records/entities/scitem/actormovables/actormovable_trolley_horizontalsinglegrip_wheelchair_template.xml">
+  <tags>
+    <Reference value="0d49bd5b-fba9-42db-aeac-2d79fda480b7" />
+  </tags>
+  <StaticEntityClassData />
+  <Components>
+    <SEntityWheeledPhysicsComponentParams __type="DataForgeComponentParams" __polymorphicType="SEntityWheeledPhysicsComponentParams">
+      <PhysType>
+        <SEntityRigidPhysicsControllerParams Mass="70" maxLoggedCollisions="1" Damping="0" DampingFreefall="0.05" PushableByPlayers="0" NeverAffectTriggers="0" UseManualGridTransition="0" BlocksNavigation="1" Kinematic="0" Resting="0" physicalizeAllSlots="1" __type="SEntityBasePhysicsControllerParams" __polymorphicType="SEntityRigidPhysicsControllerParams">
+          <breakableParams>
+          </breakableParams>
+          <gameCollisionClass>
+          </gameCollisionClass>
+          <grid>
+          </grid>
+          <buoyancyParams>
+          </buoyancyParams>
+          <temperature enable="0" initialTemperature="-1" internalTemperatureGeneration="0" __type="EntityTemperature" />
+        </SEntityRigidPhysicsControllerParams>
+      </PhysType>
+      <wheels>
+        <SEntityPhysicsWheel wheelJoint="mesh_wheel_spin_1" castorJoint="wheel_turn_1" radius="0.095" __type="SEntityPhysicsWheel">
+          <offset x="0.025" y="0" z="0.025" __type="Vec3" />
+        </SEntityPhysicsWheel>
+        <SEntityPhysicsWheel wheelJoint="mesh_wheel_spin_2" castorJoint="wheel_turn_2" radius="0.095" __type="SEntityPhysicsWheel">
+          <offset x="-0.025" y="0" z="0.025" __type="Vec3" />
+        </SEntityPhysicsWheel>
+        <SEntityPhysicsWheel wheelJoint="mesh_wheel_spin_3" castorJoint="" radius="0.175" __type="SEntityPhysicsWheel">
+          <offset x="0" y="-0.2" z="-0.2" __type="Vec3" />
+        </SEntityPhysicsWheel>
+        <SEntityPhysicsWheel wheelJoint="mesh_wheel_spin_4" castorJoint="" radius="0.175" __type="SEntityPhysicsWheel">
+          <offset x="0" y="-0.2" z="-0.2" __type="Vec3" />
+        </SEntityPhysicsWheel>
+      </wheels>
+    </SEntityWheeledPhysicsComponentParams>
+    <SGeometryResourceParams cacheResources="0" rootOverridePaint="0" inheritModelTagFromHost="1" __type="DataForgeComponentParams" __polymorphicType="SGeometryResourceParams">
+      <ModelTag>
+      </ModelTag>
+      <Geometry Tags="" ScaleMultiplier="1" __type="SGeometryNodeParams">
+        <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+          <Geometry path="Objects/buildingsets/human/hightech/prop/medical/wheelchair/wheelchair_hospital_1_a.cga" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+          <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+          <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        </Geometry>
+        <SubGeometry>
+          <SGeometryNodeParams Tags="Destroyed" ScaleMultiplier="1" __type="SGeometryNodeParams">
+            <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="0" VisFP="0" VisShadow="0" VisSecondaryViews="0" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+              <Geometry path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+              <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+              <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+            </Geometry>
+            <SubGeometry />
+          </SGeometryNodeParams>
+        </SubGeometry>
+      </Geometry>
+      <Material Tags="" __type="SMaterialNodeParams">
+        <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+        <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        <materialVariants />
+      </Material>
+    </SGeometryResourceParams>
+    <SPersistentComponentParams __type="DataForgeComponentParams" __polymorphicType="SPersistentComponentParams" />
+    <SCEntityActorMovableParams moveInteraction="null" exitInteraction="null" LinVelocityModifier="1" AngAccelerationModifier="1" limits="84914756-400f-4811-a0f4-943ec095bb84" IntroFragmentId="ActorMovable" IntroFragTag="IntroHorizontal" OutroFragmentId="ActorMovable" OutroFragTag="OutroHorizontal" __type="DataForgeComponentParams" __polymorphicType="SCEntityActorMovableParams">
+      <grips />
+    </SCEntityActorMovableParams>
+    <EntityPhysicalAudioParams minimumImpulseContinuous="10" minimumImpulseTransient="1000" minimumVelocityNoImpulse="100" slideThreshold="0.1" rollThreshold="0.1" momentumScale="1" useAABBCentre="0" oneShotTag="0d401f6c-38a4-4c52-bb02-26059dd8d98a" oneShotCooldown="0.2" dragOnly="0" __type="DataForgeComponentParams" __polymorphicType="EntityPhysicalAudioParams">
+      <collisionTriggers>
+        <PhysicalAudioCollisionTrigger oneShotMinPlayTime="0.25" attachToObject="0" __type="PhysicalAudioCollisionTrigger">
+          <trigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+        </PhysicalAudioCollisionTrigger>
+        <PhysicalAudioCollisionTrigger oneShotMinPlayTime="0.25" attachToObject="0" __type="PhysicalAudioCollisionTrigger">
+          <trigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+        </PhysicalAudioCollisionTrigger>
+      </collisionTriggers>
+      <slideStartTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <slideStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <rollStartTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <rollStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <movementStartTrigger audioTrigger="Play_PHOB_Physics_Objects_Wheeled_Trolley_Medium_Rolling" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <movementStopTrigger audioTrigger="Stop_PHOB_Physics_Objects_Wheeled_Trolley_Medium_Rolling" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <pickupTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <pickFromOwnerTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <dropTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <placeTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <rtpcSlideVelocity rtpc="PhysicalAudio_Velocity" __type="AudioRtpc" />
+      <rtpcMassSelf rtpc="PhysicalAudio_MassSelf" __type="AudioRtpc" />
+      <rtpcMassOther rtpc="PhysicalAudio_MassOther" __type="AudioRtpc" />
+      <rtpcDampening rtpc="PhysicalAudio_Damping" __type="AudioRtpc" />
+      <rtpcRollVelocity rtpc="PhysicalAudio_RollVelocity" __type="AudioRtpc" />
+      <rtpcHealth rtpc="PhysicalAudio_Health" __type="AudioRtpc" />
+      <rtpcMovement rtpc="PhysicalAudio_Movement" __type="AudioRtpc" />
+      <rtpcRotation rtpc="PhysicalAudio_Rotation" __type="AudioRtpc" />
+      <rtpcTimeSinceLastOneshot rtpc="PhysicalAudio_TimeSinceLastOneshot" __type="AudioRtpc" />
+      <rtpcMomentum rtpc="PhysicalAudio_Momentum" __type="AudioRtpc" />
+      <rtpcCarried rtpc="PhysicalAudio_CarryState" __type="AudioRtpc" />
+    </EntityPhysicalAudioParams>
+    <SHealthComponentParams Health="50" ClientOnly="0" UnlockInteractionsOnDeath="0" PushDamageUpPartsHeirarchyWhenDead="1" DetachFromItemPortOnDeath="0" DetachFromEntityOnDeath="0" PropagateExplosionDamageToChildren="0" UseDirtShaderForDamage="0" DestroyedGeometryTag="Destroyed" ExplodedGeometryTag="" DebrisGeometryTag="" ExplosionDelayTime="0" ExplosionRandomDelayRange="0" ExplosionBone="" __type="DataForgeComponentParams" __polymorphicType="SHealthComponentParams">
+      <DamageResistances>
+        <DamageResistance __type="DamageResistanceBase" __polymorphicType="DamageResistance">
+          <PhysicalResistance Multiplier="1" Threshold="0" __type="DamageResistanceEntry" />
+          <EnergyResistance Multiplier="0" Threshold="0" __type="DamageResistanceEntry" />
+          <DistortionResistance Multiplier="0" Threshold="0" __type="DamageResistanceEntry" />
+          <ThermalResistance Multiplier="0" Threshold="0" __type="DamageResistanceEntry" />
+          <BiochemicalResistance Multiplier="0" Threshold="0" __type="DamageResistanceEntry" />
+          <StunResistance Multiplier="0" Threshold="0" __type="DamageResistanceEntry" />
+        </DamageResistance>
+      </DamageResistances>
+      <InitialDamage>
+      </InitialDamage>
+      <HealthLevelStates />
+      <DeathExplosionParams>
+      </DeathExplosionParams>
+      <DeathGasComposition />
+      <InteractionLocks />
+      <DamageMapParams>
+      </DamageMapParams>
+    </SHealthComponentParams>
+    <SActorUsableParams archetype="f5752731-b3c0-4ca4-8dc7-9a058afa0371" fragmentTag="" isExterior="0" __type="DataForgeComponentParams" __polymorphicType="SActorUsableParams">
+      <useSlots>
+        <UsableUseSlot name="Handle" available="1" additionalFragmentTags="" isScoochable="0" __type="UsableUseSlot">
+          <useChannelInstances>
+            <UsableUseChannelInstance useChannelArchetype="98f57d83-2c9b-44a8-8deb-41fc6fd244ac" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+          </useChannelInstances>
+          <usableItemPorts />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="0" z="0" __type="Vec3" />
+          </relativeTransform>
+          <optionalGameTags />
+        </UsableUseSlot>
+      </useSlots>
+      <alignmentSlots>
+        <PointAlignmentSlot name="Handle" available="1" canPlayerUse="1" fragmentTag="" slottedFragmentTag="" helperName="$anchor_console" linkMode="NoLink" spotStance="Stand" useHandIK="1" useADIK="1" __type="AlignmentSlotBase" __polymorphicType="PointAlignmentSlot">
+          <interactionPoints>
+            <WeakPointer interactionPoints="0" />
+          </interactionPoints>
+          <optionalGameTags />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="-1.9" z="0" __type="Vec3" />
+          </relativeTransform>
+          <viewParams viewLimitYawMin="-45" viewLimitYawMax="45" viewLimitPitchMin="-45" viewLimitPitchMax="45" __type="SUsableViewParams" />
+          <enterParams aiSignal="UseStart" additionalTags="" eventTriggerMask="AIAndPlayer" holsterWeapon="1" enterInteraction="Interactable.SharedInteractions[0]" __type="SUsableTransitionParams" __polymorphicType="SUsableEnterTransitionParams">
+            <transitionAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </enterParams>
+          <exitParams aiSignal="UseEnd" additionalTags="" eventTriggerMask="AIAndPlayer" inputExit="0" exitOnMovement="0" exitOnJump="1" exitOnDamageTaken="0" exitInteraction="Interactable.SharedInteractions[0]" exitSequence="null" __type="SUsableTransitionParams" __polymorphicType="SUsableExitTransitionParams">
+            <transitionAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </exitParams>
+          <usableIdleParams __type="SUsableIdleParams">
+            <idlePoseOverrides />
+          </usableIdleParams>
+        </PointAlignmentSlot>
+      </alignmentSlots>
+      <slottingSetups />
+      <views />
+      <abilityLocks />
+      <usableSequencerTasks />
+      <specializedData __type="SSpecializedData">
+        <specializedDataEntry />
+      </specializedData>
+    </SActorUsableParams>
+  </Components>
+</EntityClassDefinition.ActorMovable_Trolley_HorizontalSingleGrip_Wheelchair_TEMPLATE>

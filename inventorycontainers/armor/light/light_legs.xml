@@ -1,0 +1,6 @@
+<InventoryContainer.light_legs __type="InventoryContainer" __ref="c49420ef-450e-4fba-a1e1-787dca6eae2e" __path="libs/foundry/records/inventorycontainers/armor/light/light_legs.xml">
+  <interiorDimensions x="0.365" y="0.365" z="0.1825" __type="Vec3" />
+  <capacity>
+    <SMicroCargoUnit microSCU="2000" __type="SBaseCargoUnit" __polymorphicType="SMicroCargoUnit" />
+  </capacity>
+</InventoryContainer.light_legs>

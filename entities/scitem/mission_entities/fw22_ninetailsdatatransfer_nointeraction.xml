@@ -1,0 +1,246 @@
+<EntityClassDefinition.FW22_NinetailsDataTransfer_NoInteraction Category="Default" Icon="Default.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="99e68825-e575-4008-a4a0-a5a0e034794b" __path="libs/foundry/records/entities/scitem/mission_entities/fw22_ninetailsdatatransfer_nointeraction.xml">
+  <tags>
+    <Reference value="57a3cc41-7896-49e4-84f9-eb7cfd07bfe1" />
+    <Reference value="36c3bdd0-a8a7-4b62-bb29-1bbe6c21cf36" />
+  </tags>
+  <StaticEntityClassData />
+  <Components>
+    <SGeometryResourceParams cacheResources="0" rootOverridePaint="0" inheritModelTagFromHost="1" __type="DataForgeComponentParams" __polymorphicType="SGeometryResourceParams">
+      <ModelTag>
+      </ModelTag>
+      <Geometry Tags="" ScaleMultiplier="1" __type="SGeometryNodeParams">
+        <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+          <Geometry path="Objects\buildingsets\human\lowtech\prop\tech\laptop\laptop_rugged_1_pirate_a.cgf" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+          <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+          <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        </Geometry>
+        <SubGeometry />
+      </Geometry>
+      <Material Tags="" __type="SMaterialNodeParams">
+        <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+        <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        <materialVariants />
+      </Material>
+    </SGeometryResourceParams>
+    <SEntityPhysicsControllerParams __type="DataForgeComponentParams" __polymorphicType="SEntityPhysicsControllerParams">
+      <PhysType>
+        <SEntityStaticPhysicsControllerParams Mass="0" BlocksNavigation="1" __type="SEntityBasePhysicsControllerParams" __polymorphicType="SEntityStaticPhysicsControllerParams">
+          <breakableParams>
+          </breakableParams>
+          <gameCollisionClass>
+          </gameCollisionClass>
+        </SEntityStaticPhysicsControllerParams>
+      </PhysType>
+    </SEntityPhysicsControllerParams>
+    <SEntityComponentEffects __type="DataForgeComponentParams" __polymorphicType="SEntityComponentEffects">
+      <entityEffects __type="SEntitityEffectSystem_SystemBase" __polymorphicType="SEntitityEffectSystem_System">
+        <particleEffects>
+        </particleEffects>
+        <materialEffects>
+          <EntityEffectSystem_MaterialCategory enabled="1" allowMultipleTags="0" __type="SEntityEffectSystem_Category" __polymorphicType="EntityEffectSystem_MaterialCategory">
+            <tagEffects>
+              <EntityEffectSystem_MaterialTagEffect name="" enabled="1" tag="00000000-0000-0000-0000-000000000000" __type="SEntityEffectSystem_Effect" __polymorphicType="EntityEffectSystem_MaterialTagEffect">
+                <propertyLinks>
+                  <EntityEffectSystem_MaterialPropertyLink parameterName="00000000-0000-0000-0000-000000000000" materialProperty="Glow" subMeshName="" __type="SEntityEffectSystem_PropertyLink" __polymorphicType="EntityEffectSystem_MaterialPropertyLink">
+                    <modifiers>
+                      <SEntityEffectSystem_OverrideValueModifier overrideValue="2" __type="SEntityEffectSystem_PropertyModifier" __polymorphicType="SEntityEffectSystem_OverrideValueModifier" />
+                    </modifiers>
+                  </EntityEffectSystem_MaterialPropertyLink>
+                </propertyLinks>
+              </EntityEffectSystem_MaterialTagEffect>
+            </tagEffects>
+            <triggerEffects />
+          </EntityEffectSystem_MaterialCategory>
+        </materialEffects>
+        <soundEffects>
+        </soundEffects>
+        <audioEnvironmentEffects>
+        </audioEnvironmentEffects>
+        <lightEffects>
+        </lightEffects>
+        <uiOwnerEffects>
+        </uiOwnerEffects>
+        <sequencerTags />
+      </entityEffects>
+      <staticValues />
+      <staticColors />
+      <tagsToEnableOnLoad />
+      <triggersToEnableOnLoad />
+    </SEntityComponentEffects>
+    <SubsumptionMissionLinkComponentParams __type="DataForgeComponentParams" __polymorphicType="SubsumptionMissionLinkComponentParams" />
+    <HackableParams baseDuration="2700" baseErrorChance="0" numErrorChecks="0" maxPauseDuration="30" updateProgressDeltaTime="0.01" __type="DataForgeComponentParams" __polymorphicType="HackableParams">
+      <audioTriggerProgressLoopStart audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <audioTriggerProgressLoopStop audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <audioTriggerStart audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <audioTriggerPause audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <audioTriggerResume audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <audioTriggerError audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <audioTriggerPartSuccess audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <audioTriggerSuccess audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <audioTriggerReset audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <audioRtpcOverallProgress rtpc="" __type="AudioRtpc" />
+      <audioRtpcPartProgress rtpc="" __type="AudioRtpc" />
+      <audioRtpcTotalDuration rtpc="" __type="AudioRtpc" />
+      <audioRtpcRemainingDuration rtpc="" __type="AudioRtpc" />
+    </HackableParams>
+    <SEntityInteractableParams __type="DataForgeComponentParams" __polymorphicType="SEntityInteractableParams">
+      <Interactable __type="SInteractableParams">
+        <SharedInteractions>
+          <SSharedInteractionParams Name="CancelTransfer" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_use" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="TransferSuccess" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_use" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+        </SharedInteractions>
+        <InteractionPoints />
+        <interactionTasks />
+        <actionHandlerTasks />
+        <itemActionTasks />
+        <menuTitle>
+        </menuTitle>
+      </Interactable>
+    </SEntityInteractableParams>
+    <SInteractionStateMachineParams __type="DataForgeComponentParams" __polymorphicType="SInteractionStateMachineParams">
+      <StateTypes>
+        <SInteractionStateType StateTypeName="TransferFunds" bindingsMethod="States" DefaultState="StateTypes.SInteractionStateType.States[0]" networkAuthority="Server" __type="SInteractionStateType">
+          <States>
+            <SInteractionState StateName="Default" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+                <SStateAutoChange NextState="StateTypes.SInteractionStateType.States[1]" Delay="0" __type="SStateAutoChange" />
+              </StateAutoChange>
+              <Interactions />
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="TransferRunning" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions>
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[0]" NextState="StateTypes.SInteractionStateType.States[3]" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[1]" NextState="StateTypes.SInteractionStateType.States[2]" __type="SInteractionStateTransition" />
+              </Interactions>
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="TransferSuccess" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions />
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="TransferFail" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions />
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+          </States>
+          <StateModifiers>
+            <SHackableStateModifier onHackingSuccessState="StateTypes.SInteractionStateType.States[2]" onHackingErrorState="null" onHackingResetState="null" __type="SStateModifier" __polymorphicType="SHackableStateModifier" />
+          </StateModifiers>
+        </SInteractionStateType>
+      </StateTypes>
+    </SInteractionStateMachineParams>
+    <SCInteractionStateGameplayTriggerComponentParams __type="DataForgeComponentParams" __polymorphicType="SCInteractionStateGameplayTriggerComponentParams">
+      <onInteractionStateChangeTriggers>
+        <SOnInteractionStateChangeTriggers targetState="StateTypes.SInteractionStateType.States[1]" __type="SOnInteractionStateChangeTriggers">
+          <gameplayTriggers>
+            <SStartHackingGameplayTrigger useChip="0" itemPort="null" durationMultiplierName="Duration" errorChanceMultiplierName="ErrorChance" __type="SBaseInteractionGameplayTrigger" __polymorphicType="SStartHackingGameplayTrigger" />
+            <SChangeInteractionStateGameplayTrigger targetState="StateTypes.SInteractionStateType.States[1]" __type="SBaseInteractionGameplayTrigger" __polymorphicType="SChangeInteractionStateGameplayTrigger" />
+          </gameplayTriggers>
+        </SOnInteractionStateChangeTriggers>
+        <SOnInteractionStateChangeTriggers targetState="StateTypes.SInteractionStateType.States[3]" __type="SOnInteractionStateChangeTriggers">
+          <gameplayTriggers>
+            <SStopHackingGameplayTrigger reset="0" changeState="0" __type="SBaseInteractionGameplayTrigger" __polymorphicType="SStopHackingGameplayTrigger" />
+          </gameplayTriggers>
+        </SOnInteractionStateChangeTriggers>
+      </onInteractionStateChangeTriggers>
+      <onInteractionSuccessTriggers />
+      <onInteractionFailedTriggers />
+    </SCInteractionStateGameplayTriggerComponentParams>
+    <SObjectiveMarkerLocationParams __type="DataForgeComponentParams" __polymorphicType="SObjectiveMarkerLocationParams">
+      <locations>
+        <ObjectiveMarkerLocation name="Marker" attachMarker="0" boneName="" useBoundingBoxCenter="0" __type="ObjectiveMarkerLocation">
+          <offset x="0" y="0" z="0.0625" __type="Vec3" />
+        </ObjectiveMarkerLocation>
+      </locations>
+    </SObjectiveMarkerLocationParams>
+    <UIOwnerEntityComponentParams startOpen="1" areScreens3D="0" areSounds3D="0" hasActions="0" element="235bfc85-aa63-4fd5-b5d1-821fb3522a39" domainName="global" loadDistance="20" updateDistance="20" moviePath="" variantName="" invariantName="" movieAutoPlay="0" loopMovie="0" forceFlashColourCorrection="1" ignoreTrackviewUnloadRequests="0" reflectLocalStateMachine="0" reflectLinkedStateMachines="0" graph="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="UIOwnerEntityComponentParams" />
+    <UIRenderToTextureEntityComponentParams directRenderStage="None" compositeMaterialName="" hideRenderNodeOnUnload="0" aspectRatioOverride="1.7777" interactionDistance="5" transparentListDepthBias="0" renderFlashBeforeCamera="0" fieldOfView="90" renderType="FORWARD" fallbackTextureOnOnload="" __type="DataForgeComponentParams" __polymorphicType="UIRenderToTextureEntityComponentParams">
+      <secondaryTarget>
+        <UIRenderToTextureTarget aspectRatio="1.77776" usePrimaryTargetBounds="1" __type="UIRenderToTextureTarget" />
+      </secondaryTarget>
+      <grabCameraControlParams>
+      </grabCameraControlParams>
+    </UIRenderToTextureEntityComponentParams>
+    <UIBuildingBlocksEntityComponentParams enableFullScreenMouse="0" defaultStyle="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="UIBuildingBlocksEntityComponentParams">
+      <layers>
+        <BuildingBlocksLayer layerName="HackingA" renderTarget="Secondary" defaultView="layers[0].BuildingBlocksLayer.views" __type="BuildingBlocksLayer">
+          <views>
+            <BuildingBlocksView name="HackingA" __type="BuildingBlocksView">
+              <component canvas="33f5d31f-8c0c-4615-9281-245d512e66d7" __type="CtxGraph_Node" __polymorphicType="UIGraph_BuildingBlocksContextComponent" />
+            </BuildingBlocksView>
+          </views>
+        </BuildingBlocksLayer>
+        <BuildingBlocksLayer layerName="HackingB" renderTarget="Primary" defaultView="layers[1].BuildingBlocksLayer.views" __type="BuildingBlocksLayer">
+          <views>
+            <BuildingBlocksView name="HackingB" __type="BuildingBlocksView">
+              <component canvas="13b9c8af-d4c0-4ff7-b6ff-5a4c8200cebb" __type="CtxGraph_Node" __polymorphicType="UIGraph_BuildingBlocksContextComponent" />
+            </BuildingBlocksView>
+          </views>
+        </BuildingBlocksLayer>
+      </layers>
+    </UIBuildingBlocksEntityComponentParams>
+    <UIBindingsVendorEntityComponentParams namespace="" __type="DataForgeComponentParams" __polymorphicType="UIBindingsVendorEntityComponentParams" />
+    <UIBindingsInteractionsComponentParams interactionDistance="50" __type="DataForgeComponentParams" __polymorphicType="UIBindingsInteractionsComponentParams" />
+    <UIBindingsConsumerEntityComponentParams linkToPort="0" __type="DataForgeComponentParams" __polymorphicType="UIBindingsConsumerEntityComponentParams" />
+    <UIEntityServiceEntityComponentParams immediateTransforms="0" __type="DataForgeComponentParams" __polymorphicType="UIEntityServiceEntityComponentParams" />
+    <UISimpleRenderNodeEntityComponentParams minimumBounds="1" materialName="materials/default_ui.mtl" sortDistance="-100" layerOffset="5" layerDistance="0.1" fixedScaleMin="0" fixedScaleMax="0" __type="DataForgeComponentParams" __polymorphicType="UISimpleRenderNodeEntityComponentParams" />
+    <UserVariablesComponentParams AlwaysUseDefaultValues="0" __type="DataForgeComponentParams" __polymorphicType="UserVariablesComponentParams">
+      <floats />
+      <ints />
+      <bools>
+        <BoolUserVariable name="ShowCancelTransfer" defaultValue="0" __type="BoolUserVariable">
+          <tasks />
+        </BoolUserVariable>
+      </bools>
+      <strings />
+      <locStrings />
+    </UserVariablesComponentParams>
+  </Components>
+</EntityClassDefinition.FW22_NinetailsDataTransfer_NoInteraction>

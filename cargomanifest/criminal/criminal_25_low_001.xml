@@ -1,0 +1,12 @@
+<CargoManifest.Criminal_25_Low_001 fillCapacity="0.25" __type="CargoManifest" __ref="a7e7c805-30a7-4ba2-ac2f-793c38e371bd" __path="libs/foundry/records/cargomanifest/criminal/criminal_25_low_001.xml">
+  <descriptionTags __type="TagList">
+    <tags>
+      <Reference value="a1ba0c9f-07b7-4076-a97b-c25d42421859" />
+    </tags>
+  </descriptionTags>
+  <tags>
+    <Reference value="3c38becb-64a3-4439-8e53-eb03e13e8e82" />
+    <Reference value="7c1b9056-b2be-4b12-ba93-f656cf3ea6a0" />
+    <Reference value="53662449-deeb-4c8f-b4bc-ce9b6eee2e2d" />
+  </tags>
+</CargoManifest.Criminal_25_Low_001>

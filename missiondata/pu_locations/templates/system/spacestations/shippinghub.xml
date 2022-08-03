@@ -1,0 +1,29 @@
+<MissionLocationTemplate.ShippingHub __type="MissionLocationTemplate" __ref="d034c5b2-cdca-456c-a70a-b0a989af91c9" __path="libs/foundry/records/missiondata/pu_locations/templates/system/spacestations/shippinghub.xml">
+  <locationData __type="MissionLocationData">
+    <generalTags __type="MissionLocationTags">
+      <tags>
+        <Reference value="c508a54d-bfb3-4c22-9f2d-9bb087deb8a0" />
+      </tags>
+    </generalTags>
+    <producesTags __type="TagSearchTerm">
+      <positiveTags />
+      <negativeTags />
+    </producesTags>
+    <consumesTags __type="TagSearchTerm">
+      <positiveTags />
+      <negativeTags />
+    </consumesTags>
+    <aiSpawnTags __type="TagList">
+      <tags />
+    </aiSpawnTags>
+    <stringVariants __type="MissionStringVariants">
+      <variants />
+    </stringVariants>
+    <missionModules />
+    <missionLimits>
+      <LocationMissionLimit tag="2a3d4c60-06cc-4b5a-b805-7269f4c13226" maxMissionInstances="1" __type="LocationMissionLimit" />
+      <LocationMissionLimit tag="6804b0a9-b01d-4c9a-8063-67784bd0f021" maxMissionInstances="1" __type="LocationMissionLimit" />
+    </missionLimits>
+    <autoSpawnSettings />
+  </locationData>
+</MissionLocationTemplate.ShippingHub>

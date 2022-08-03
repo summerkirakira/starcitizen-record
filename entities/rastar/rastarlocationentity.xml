@@ -1,0 +1,7 @@
+<EntityClassDefinition.RastarLocationEntity Category="Default" Icon="Default.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="2e17c33e-7b5c-4cb7-be8d-02555b9fab9b" __path="libs/foundry/records/entities/rastar/rastarlocationentity.xml">
+  <tags />
+  <StaticEntityClassData />
+  <Components>
+    <RastarLocationParams __type="DataForgeComponentParams" __polymorphicType="RastarLocationParams" />
+  </Components>
+</EntityClassDefinition.RastarLocationEntity>

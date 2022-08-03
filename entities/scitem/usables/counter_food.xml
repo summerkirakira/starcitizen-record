@@ -1,0 +1,719 @@
+<EntityClassDefinition.Counter_Food Category="Default" Icon="Usable.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="befecee6-dcc2-4e87-a380-954c49158633" __path="libs/foundry/records/entities/scitem/usables/counter_food.xml">
+  <tags>
+    <Reference value="0cdba0b7-8087-467a-81c5-bae055f98c48" />
+  </tags>
+  <StaticEntityClassData />
+  <Components>
+    <SGeometryResourceParams cacheResources="0" rootOverridePaint="0" inheritModelTagFromHost="1" __type="DataForgeComponentParams" __polymorphicType="SGeometryResourceParams">
+      <ModelTag>
+      </ModelTag>
+      <Geometry Tags="" ScaleMultiplier="1" __type="SGeometryNodeParams">
+        <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+          <Geometry path="Objects/buildingsets/human/template/prop/furniture/counter/template_vendor_food_1_a.cga" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+          <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+          <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        </Geometry>
+        <SubGeometry />
+      </Geometry>
+      <Material Tags="" __type="SMaterialNodeParams">
+        <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+        <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        <materialVariants />
+      </Material>
+    </SGeometryResourceParams>
+    <SEntityPhysicsControllerParams __type="DataForgeComponentParams" __polymorphicType="SEntityPhysicsControllerParams">
+      <PhysType>
+        <SEntityRigidPhysicsControllerParams Mass="0" maxLoggedCollisions="1" Damping="0" DampingFreefall="0.05" PushableByPlayers="0" NeverAffectTriggers="0" UseManualGridTransition="0" BlocksNavigation="1" Kinematic="0" Resting="0" physicalizeAllSlots="1" __type="SEntityBasePhysicsControllerParams" __polymorphicType="SEntityRigidPhysicsControllerParams">
+          <breakableParams>
+          </breakableParams>
+          <gameCollisionClass>
+          </gameCollisionClass>
+          <grid>
+          </grid>
+          <buoyancyParams>
+          </buoyancyParams>
+          <temperature enable="0" initialTemperature="-1" internalTemperatureGeneration="0" __type="EntityTemperature" />
+        </SEntityRigidPhysicsControllerParams>
+      </PhysType>
+    </SEntityPhysicsControllerParams>
+    <SEntityInteractableParams __type="DataForgeComponentParams" __polymorphicType="SEntityInteractableParams">
+      <Interactable __type="SInteractableParams">
+        <SharedInteractions>
+          <SSharedInteractionParams Name="Dispose" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_use" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+        </SharedInteractions>
+        <InteractionPoints />
+        <interactionTasks />
+        <actionHandlerTasks />
+        <itemActionTasks />
+        <menuTitle>
+        </menuTitle>
+      </Interactable>
+    </SEntityInteractableParams>
+    <SActorUsableParams archetype="e5319031-d1cb-4be8-a818-85d8811755c9" fragmentTag="counter_shop" isExterior="0" __type="DataForgeComponentParams" __polymorphicType="SActorUsableParams">
+      <useSlots>
+        <UsableUseSlot name="Counter" available="1" additionalFragmentTags="" isScoochable="1" __type="UsableUseSlot">
+          <useChannelInstances>
+            <UsableUseChannelInstance useChannelArchetype="05fae299-91e4-4804-a682-63ba41ff20a4" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter>
+                <Reference value="6cc02d8d-4236-4095-b3bd-f5bcdab23791" />
+              </tagsToAddOnEnter>
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance useChannelArchetype="b4e88aa9-096f-4773-9fab-f5acde7dc15e" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance useChannelArchetype="4edfd15e-44f6-4ee8-8de5-6351b03f4300" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance useChannelArchetype="857bd0e3-717d-4849-95d4-14c67ca491ed" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+          </useChannelInstances>
+          <usableItemPorts>
+            <UsableItemPort itemPort="Ports[4]" itemPortFragmentTag="counter_tray_port_01" __type="UsableItemPort">
+              <conditionTags __type="TagsDNF">
+                <terms>
+                  <TagsDNFTerm __type="TagsDNFTerm">
+                    <positiveTags>
+                      <Reference value="d3a0797d-4b7f-4812-88f8-3a8d3b3df9e8" />
+                    </positiveTags>
+                    <negativeTags />
+                  </TagsDNFTerm>
+                </terms>
+              </conditionTags>
+            </UsableItemPort>
+            <UsableItemPort itemPort="Ports[5]" itemPortFragmentTag="counter_food_port_02" __type="UsableItemPort">
+              <conditionTags __type="TagsDNF">
+                <terms>
+                  <TagsDNFTerm __type="TagsDNFTerm">
+                    <positiveTags>
+                      <Reference value="5e11a544-7fea-4160-b2bf-98c6cf9ee9df" />
+                      <Reference value="dfd29606-8533-404a-b6c3-a8d46335ecdc" />
+                    </positiveTags>
+                    <negativeTags />
+                  </TagsDNFTerm>
+                </terms>
+              </conditionTags>
+            </UsableItemPort>
+            <UsableItemPort itemPort="Ports[7]" itemPortFragmentTag="counter_drink_port_02" __type="UsableItemPort">
+              <conditionTags __type="TagsDNF">
+                <terms>
+                  <TagsDNFTerm __type="TagsDNFTerm">
+                    <positiveTags>
+                      <Reference value="5e11a544-7fea-4160-b2bf-98c6cf9ee9df" />
+                      <Reference value="184b4c03-ca5a-4d33-84e2-254d4473ca42" />
+                    </positiveTags>
+                    <negativeTags />
+                  </TagsDNFTerm>
+                  <TagsDNFTerm __type="TagsDNFTerm">
+                    <positiveTags>
+                      <Reference value="5e11a544-7fea-4160-b2bf-98c6cf9ee9df" />
+                      <Reference value="07475dd2-bf23-4e0b-b62b-b8d6b9d452da" />
+                    </positiveTags>
+                    <negativeTags />
+                  </TagsDNFTerm>
+                </terms>
+              </conditionTags>
+            </UsableItemPort>
+            <UsableItemPort itemPort="Ports[8]" itemPortFragmentTag="counter_tray_port_02" __type="UsableItemPort">
+              <conditionTags __type="TagsDNF">
+                <terms>
+                  <TagsDNFTerm __type="TagsDNFTerm">
+                    <positiveTags>
+                      <Reference value="d3a0797d-4b7f-4812-88f8-3a8d3b3df9e8" />
+                    </positiveTags>
+                    <negativeTags />
+                  </TagsDNFTerm>
+                </terms>
+              </conditionTags>
+            </UsableItemPort>
+          </usableItemPorts>
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="0" z="0" __type="Vec3" />
+          </relativeTransform>
+          <optionalGameTags />
+        </UsableUseSlot>
+        <UsableUseSlot name="Vendor" available="1" additionalFragmentTags="" isScoochable="1" __type="UsableUseSlot">
+          <useChannelInstances>
+            <UsableUseChannelInstance useChannelArchetype="04db59c1-9230-491f-bb77-18dc11e600df" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance useChannelArchetype="4edfd15e-44f6-4ee8-8de5-6351b03f4300" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance useChannelArchetype="9a7c2309-d341-4e20-ade4-a2f0ff466eeb" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance useChannelArchetype="a3a6f455-cb4b-4004-9af6-cd2ca8bdca5a" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+          </useChannelInstances>
+          <usableItemPorts>
+            <UsableItemPort itemPort="Ports[4]" itemPortFragmentTag="counter_tray_port_01" __type="UsableItemPort">
+              <conditionTags __type="TagsDNF">
+                <terms>
+                  <TagsDNFTerm __type="TagsDNFTerm">
+                    <positiveTags>
+                      <Reference value="d3a0797d-4b7f-4812-88f8-3a8d3b3df9e8" />
+                    </positiveTags>
+                    <negativeTags />
+                  </TagsDNFTerm>
+                </terms>
+              </conditionTags>
+            </UsableItemPort>
+            <UsableItemPort itemPort="Ports[5]" itemPortFragmentTag="counter_food_port_02" __type="UsableItemPort">
+              <conditionTags __type="TagsDNF">
+                <terms>
+                  <TagsDNFTerm __type="TagsDNFTerm">
+                    <positiveTags>
+                      <Reference value="dfd29606-8533-404a-b6c3-a8d46335ecdc" />
+                      <Reference value="5e11a544-7fea-4160-b2bf-98c6cf9ee9df" />
+                    </positiveTags>
+                    <negativeTags />
+                  </TagsDNFTerm>
+                </terms>
+              </conditionTags>
+            </UsableItemPort>
+            <UsableItemPort itemPort="Ports[7]" itemPortFragmentTag="counter_drink_port_02" __type="UsableItemPort">
+              <conditionTags __type="TagsDNF">
+                <terms>
+                  <TagsDNFTerm __type="TagsDNFTerm">
+                    <positiveTags>
+                      <Reference value="184b4c03-ca5a-4d33-84e2-254d4473ca42" />
+                      <Reference value="5e11a544-7fea-4160-b2bf-98c6cf9ee9df" />
+                    </positiveTags>
+                    <negativeTags />
+                  </TagsDNFTerm>
+                  <TagsDNFTerm __type="TagsDNFTerm">
+                    <positiveTags>
+                      <Reference value="5e11a544-7fea-4160-b2bf-98c6cf9ee9df" />
+                      <Reference value="07475dd2-bf23-4e0b-b62b-b8d6b9d452da" />
+                    </positiveTags>
+                    <negativeTags />
+                  </TagsDNFTerm>
+                </terms>
+              </conditionTags>
+            </UsableItemPort>
+            <UsableItemPort itemPort="Ports[8]" itemPortFragmentTag="counter_tray_port_02" __type="UsableItemPort">
+              <conditionTags __type="TagsDNF">
+                <terms>
+                  <TagsDNFTerm __type="TagsDNFTerm">
+                    <positiveTags>
+                      <Reference value="d3a0797d-4b7f-4812-88f8-3a8d3b3df9e8" />
+                    </positiveTags>
+                    <negativeTags />
+                  </TagsDNFTerm>
+                </terms>
+              </conditionTags>
+            </UsableItemPort>
+          </usableItemPorts>
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="0" z="0" __type="Vec3" />
+          </relativeTransform>
+          <optionalGameTags>
+            <Reference value="a9458917-1e63-4bc1-bdec-b5b781f81279" />
+          </optionalGameTags>
+        </UsableUseSlot>
+        <UsableUseSlot name="Patron" available="1" additionalFragmentTags="" isScoochable="1" __type="UsableUseSlot">
+          <useChannelInstances>
+            <UsableUseChannelInstance useChannelArchetype="4edfd15e-44f6-4ee8-8de5-6351b03f4300" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance useChannelArchetype="857bd0e3-717d-4849-95d4-14c67ca491ed" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance useChannelArchetype="37dd039c-08b7-4bb2-b7ae-455000536cb9" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+          </useChannelInstances>
+          <usableItemPorts />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="0" z="0" __type="Vec3" />
+          </relativeTransform>
+          <optionalGameTags>
+            <Reference value="02bcd562-293f-421f-8b47-876503eeb13a" />
+          </optionalGameTags>
+        </UsableUseSlot>
+      </useSlots>
+      <alignmentSlots>
+        <PointAlignmentSlot name="" available="1" canPlayerUse="1" fragmentTag="back" slottedFragmentTag="" helperName="$anchor_tender_1" linkMode="FeetLink" spotStance="Stand" useHandIK="0" useADIK="0" __type="AlignmentSlotBase" __polymorphicType="PointAlignmentSlot">
+          <interactionPoints />
+          <optionalGameTags />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="0" z="0" __type="Vec3" />
+          </relativeTransform>
+          <viewParams viewLimitYawMin="-45" viewLimitYawMax="45" viewLimitPitchMin="-45" viewLimitPitchMax="45" __type="SUsableViewParams" />
+          <enterParams aiSignal="UseStart" additionalTags="" eventTriggerMask="AIAndPlayer" holsterWeapon="0" enterInteraction="null" __type="SUsableTransitionParams" __polymorphicType="SUsableEnterTransitionParams">
+            <transitionAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </enterParams>
+          <exitParams aiSignal="UseEnd" additionalTags="" eventTriggerMask="AIAndPlayer" inputExit="1" exitOnMovement="0" exitOnJump="0" exitOnDamageTaken="0" exitInteraction="null" exitSequence="null" __type="SUsableTransitionParams" __polymorphicType="SUsableExitTransitionParams">
+            <transitionAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </exitParams>
+          <usableIdleParams __type="SUsableIdleParams">
+            <idlePoseOverrides />
+          </usableIdleParams>
+        </PointAlignmentSlot>
+        <AreaAlignmentSlot name="" available="1" canPlayerUse="1" fragmentTag="front" slottedFragmentTag="" helperName="$anchor_patron_1" linkMode="FeetLink" spotStance="Stand" useHandIK="0" useADIK="0" maxAmount="1" interactionOnEnter="null" __type="AlignmentSlotBase" __polymorphicType="AreaAlignmentSlot">
+          <interactionPoints />
+          <optionalGameTags />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="180" __type="Ang3" />
+            <Position x="1" y="2.1" z="0" __type="Vec3" />
+          </relativeTransform>
+          <viewParams viewLimitYawMin="-45" viewLimitYawMax="45" viewLimitPitchMin="-45" viewLimitPitchMax="45" __type="SUsableViewParams" />
+          <enterParams aiSignal="OnTakenPlaceAtCounter" additionalTags="" eventTriggerMask="OnlyPlayer" holsterWeapon="0" enterInteraction="null" __type="SUsableTransitionParams" __polymorphicType="SUsableEnterTransitionParams">
+            <transitionAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </enterParams>
+          <exitParams aiSignal="OnLeaveCounter" additionalTags="" eventTriggerMask="AIAndPlayer" inputExit="1" exitOnMovement="0" exitOnJump="0" exitOnDamageTaken="0" exitInteraction="null" exitSequence="null" __type="SUsableTransitionParams" __polymorphicType="SUsableExitTransitionParams">
+            <transitionAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </exitParams>
+          <usableIdleParams __type="SUsableIdleParams">
+            <idlePoseOverrides />
+          </usableIdleParams>
+          <areaTypeParams>
+            <BoxAreaAlignmentSlotTypeParams __type="AreaAlignmentSlotTypeParams" __polymorphicType="BoxAreaAlignmentSlotTypeParams">
+              <min x="-0.7" y="-1" z="-0.5" __type="Vec3" />
+              <max x="0.7" y="0.5" z="2" __type="Vec3" />
+            </BoxAreaAlignmentSlotTypeParams>
+          </areaTypeParams>
+        </AreaAlignmentSlot>
+      </alignmentSlots>
+      <slottingSetups />
+      <views />
+      <abilityLocks />
+      <usableSequencerTasks />
+      <specializedData __type="SSpecializedData">
+        <specializedDataEntry />
+      </specializedData>
+    </SActorUsableParams>
+    <SEntityComponentDefaultLoadoutParams __type="DataForgeComponentParams" __polymorphicType="SEntityComponentDefaultLoadoutParams">
+      <loadout>
+        <SItemPortLoadoutManualParams __type="SItemPortLoadoutBaseParams" __polymorphicType="SItemPortLoadoutManualParams">
+          <entries>
+            <SItemPortLoadoutEntryParams itemPortName="Counter_Port_01" entityClassName="utensil_tray_1_food_a" __type="SItemPortLoadoutEntryParams">
+              <inventoryContainer>
+              </inventoryContainer>
+              <loadout>
+              </loadout>
+            </SItemPortLoadoutEntryParams>
+          </entries>
+        </SItemPortLoadoutManualParams>
+      </loadout>
+    </SEntityComponentDefaultLoadoutParams>
+    <SItemPortContainerComponentParams PortFlags="" PortTags="" RequiredItemTags="" __type="DataForgeComponentParams" __polymorphicType="SItemPortContainerComponentParams">
+      <masterController>
+      </masterController>
+      <Ports>
+        <SItemPortDef Name="Counter_Port_01" DisplayName="" PortTags="Counter_Port_01" RequiredPortTags="" Flags="nophys" MinSize="0" MaxSize="3" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags />
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types />
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationBone __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationBone">
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="$slot_tray_1" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationBone>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+        <SItemPortDef Name="Counter_Port_02" DisplayName="" PortTags="Counter_Port_02" RequiredPortTags="" Flags="nophys" MinSize="0" MaxSize="3" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags />
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types />
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationBone __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationBone">
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="$vendor_item_1" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationBone>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+        <SItemPortDef Name="Counter_Port_03" DisplayName="" PortTags="Counter_Port_03" RequiredPortTags="" Flags="nophys" MinSize="0" MaxSize="3" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags />
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types />
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationBone __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationBone">
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="$vendor_item_2" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationBone>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+        <SItemPortDef Name="Counter_Port_04" DisplayName="" PortTags="Counter_Port_04" RequiredPortTags="" Flags="nophys" MinSize="0" MaxSize="3" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags />
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types />
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationBone __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationBone">
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="$vendor_item_3" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationBone>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+        <SItemPortDef Name="Counter_Port_05" DisplayName="" PortTags="Counter_Port_05" RequiredPortTags="" Flags="nophys" MinSize="0" MaxSize="3" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags />
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types />
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationBone __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationBone">
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="$slot_vendor_tray_1" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationBone>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+        <SItemPortDef Name="Counter_Port_06" DisplayName="" PortTags="Counter_Port_06" RequiredPortTags="" Flags="nophys" MinSize="0" MaxSize="3" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags />
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types />
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationBone __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationBone">
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="$patron_item_1" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationBone>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+        <SItemPortDef Name="Counter_Port_07" DisplayName="" PortTags="Counter_Port_07" RequiredPortTags="" Flags="nophys" MinSize="0" MaxSize="3" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags />
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types />
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationBone __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationBone">
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="$patron_item_2" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationBone>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+        <SItemPortDef Name="Counter_Port_08" DisplayName="" PortTags="Counter_Port_08" RequiredPortTags="" Flags="nophys" MinSize="0" MaxSize="3" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags />
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types />
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationBone __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationBone">
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="$patron_item_3" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationBone>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+        <SItemPortDef Name="Counter_Port_09" DisplayName="" PortTags="Counter_Port_09" RequiredPortTags="" Flags="nophys" MinSize="0" MaxSize="3" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags />
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types />
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationBone __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationBone">
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="$slot_patron_tray_1" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationBone>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+      </Ports>
+      <InternalResourceLinks />
+    </SItemPortContainerComponentParams>
+    <SEntityLootableContainerParams initialLocalPlayerAccess="1" radius="1.6" mainInteractionPoint="null" validTagsOnSwapOutfit="" blockingTagsOnSwapOutfit="" infiniteLootable="0" smartRefillAmmo="0" smartRefillGrenadesAndAmmo="0" fragmentTags="" forceFirstSelect="0" openInventoryInteraction="null" placeIntoPortInteraction="null" bespokePlace="0" __type="DataForgeComponentParams" __polymorphicType="SEntityLootableContainerParams">
+      <maxOffsetTranslation x="0" y="0" z="0" __type="Vec3" />
+      <maxOffsetRotation x="0" y="0" z="0" __type="Ang3" />
+      <mainInteractions />
+      <placeOutfitRules />
+      <takeExclussionRules />
+      <itemPortRules />
+    </SEntityLootableContainerParams>
+    <SSpawnerParams spawnOnGameStart="1" spawnWithinPlayerRange="1" startActive="1" groupIndex="0" faction="00000000-0000-0000-0000-000000000000" onRequestSpawn="0" spawnInMovement="0" __type="DataForgeComponentParams" __polymorphicType="SSpawnerParams">
+      <spawnRules>
+        <SSpawnOnTimer timeBetweenSpawns="20" maxEntities="0" dontOverlap="1" startTimerOnDone="0" __type="SSpawnRules" __polymorphicType="SSpawnOnTimer" />
+      </spawnRules>
+      <portRefillData>
+        <IndividualPortRefillData __type="BasePortRefillData" __polymorphicType="IndividualPortRefillData">
+          <portRefillData>
+            <PortRefillData Port="Ports[0]" Delay="2" __type="PortRefillData" />
+          </portRefillData>
+        </IndividualPortRefillData>
+      </portRefillData>
+      <entitiesToSpawn />
+    </SSpawnerParams>
+  </Components>
+</EntityClassDefinition.Counter_Food>

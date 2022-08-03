@@ -1,0 +1,21 @@
+<TintPaletteTree.grin_util_med_backpack_02 templateTree="00000000-0000-0000-0000-000000000000" __type="TintPaletteTree" __ref="706adb83-e9ca-4869-96f8-6e9eae6b7bd2" __path="libs/foundry/records/tintpalettes/brand/grin/grin_util_med_backpack_02.xml">
+  <root name="medium_backpack_02" inheritsParams="0" decalTexture="" __type="TintPalette">
+    <children />
+    <entryA glossiness="255" __type="TintEntry">
+      <tintColor r="248" g="198" b="86" __type="SRGB8" />
+      <specColor r="255" g="255" b="255" __type="SRGB8" />
+    </entryA>
+    <entryB glossiness="255" __type="TintEntry">
+      <tintColor r="149" g="147" b="147" __type="SRGB8" />
+      <specColor r="255" g="255" b="255" __type="SRGB8" />
+    </entryB>
+    <entryC glossiness="255" __type="TintEntry">
+      <tintColor r="172" g="152" b="146" __type="SRGB8" />
+      <specColor r="59" g="59" b="59" __type="SRGB8" />
+    </entryC>
+    <glassColor r="255" g="255" b="255" __type="SRGB8" />
+    <decalColorR r="255" g="255" b="255" __type="SRGB8" />
+    <decalColorG r="255" g="255" b="255" __type="SRGB8" />
+    <decalColorB r="255" g="255" b="255" __type="SRGB8" />
+  </root>
+</TintPaletteTree.grin_util_med_backpack_02>

@@ -1,0 +1,19 @@
+<HarvestableProviderPreset.HPP_Lagrange_G __type="HarvestableProviderPreset" __ref="f64ae7c9-932c-46c7-9b72-de48139030aa" __path="libs/foundry/records/harvestable/providerpresets/system/stanton/asteroidfield/hpp_lagrange_g.xml">
+  <harvestableGroups>
+    <HarvestableElementGroup groupName="SpaceShip_Mineables" groupProbability="0.005" __type="HarvestableElementGroup">
+      <harvestables>
+        <HarvestableElement harvestable="5ecf8a42-f507-4266-bebe-830d15d3cd56" relativeProbability="0.03" clustering="ef86f29a-d4d5-477b-bfb1-b2489311cf3a" __type="HarvestableElement">
+          <geometries>
+            <HarvestableGeometry tag="d3d5956d-48c3-4254-afda-a072447a0c7e" __type="HarvestableGeometry" />
+          </geometries>
+        </HarvestableElement>
+        <HarvestableElement harvestable="8c84b942-0209-4fd7-8681-f79873196fac" relativeProbability="0.03" clustering="ef86f29a-d4d5-477b-bfb1-b2489311cf3a" __type="HarvestableElement">
+          <geometries>
+            <HarvestableGeometry tag="d3d5956d-48c3-4254-afda-a072447a0c7e" __type="HarvestableGeometry" />
+          </geometries>
+        </HarvestableElement>
+      </harvestables>
+    </HarvestableElementGroup>
+  </harvestableGroups>
+  <areas />
+</HarvestableProviderPreset.HPP_Lagrange_G>

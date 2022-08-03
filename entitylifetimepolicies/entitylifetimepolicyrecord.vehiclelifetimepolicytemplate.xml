@@ -1,0 +1,5 @@
+<EntityLifetimePolicyRecord.VehicleLifetimePolicyTemplate __type="EntityLifetimePolicyRecord" __ref="739d47df-e587-4ecd-8849-6ff6160c334d" __path="libs/foundry/records/entitylifetimepolicies/entitylifetimepolicyrecord.vehiclelifetimepolicytemplate.xml">
+  <lifetimePolicies>
+    <SVehicleLifetimePolicy authorizerCountLimit="0" isNonTrivialRemoval="1" timeoutDuration="3600" holoFadeTimeoutDuration="10" __type="SEntityLifetimePolicyParams" __polymorphicType="SVehicleLifetimePolicy" />
+  </lifetimePolicies>
+</EntityLifetimePolicyRecord.VehicleLifetimePolicyTemplate>

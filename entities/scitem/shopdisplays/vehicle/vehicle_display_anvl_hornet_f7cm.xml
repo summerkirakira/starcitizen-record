@@ -1,0 +1,49 @@
+<EntityClassDefinition.vehicle_display_ANVL_Hornet_F7CM Category="Default" Icon="Default.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="f84e7655-e1dd-440c-8220-4d4d90345f3d" __path="libs/foundry/records/entities/scitem/shopdisplays/vehicle/vehicle_display_anvl_hornet_f7cm.xml">
+  <tags />
+  <StaticEntityClassData />
+  <Components>
+    <SCItemShopRackParams bundle="0" __type="DataForgeComponentParams" __polymorphicType="SCItemShopRackParams" />
+    <SItemPortContainerComponentParams PortFlags="" PortTags="" RequiredItemTags="" __type="DataForgeComponentParams" __polymorphicType="SItemPortContainerComponentParams">
+      <masterController>
+      </masterController>
+      <Ports>
+        <SItemPortDef Name="slot_1" DisplayName="" PortTags="" RequiredPortTags="ANVL_Hornet_F7CM" Flags="" MinSize="1" MaxSize="6" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags />
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types>
+            <SItemPortDefTypes Type="NOITEM_Vehicle" __type="SItemPortDefTypes">
+              <SubTypes />
+            </SItemPortDefTypes>
+          </Types>
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationEntity usePhysicalAttachment="0" useEntityAttachment="0" useExteriorAttachment="0" usePhysicalParent="0" hangarPort="1" __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationEntity">
+              <constraintParams damping="0" noSelfCollisions="1" maxPullForce="0" maxBendTorque="0" constrainToLine="0" constrainToPlane="0" constrainFully="1" useWorldConstraintPosition="0" noRotation="1" xMin="0" xMax="0" yzMax="0" constraintHelper="" constraintMaintainOrientation="0" __type="SAttachmentConstraintParams" />
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="$Slot_001" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationEntity>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+      </Ports>
+      <InternalResourceLinks />
+    </SItemPortContainerComponentParams>
+  </Components>
+</EntityClassDefinition.vehicle_display_ANVL_Hornet_F7CM>

@@ -1,0 +1,7 @@
+<HarvestablePreset.Mining_Quantanium_smaller entityClass="51b0e9a5-abc8-4d29-911b-9185d9848c98" respawnInSlotTime="3600" specialHarvestableString="" __type="HarvestablePreset" __ref="cd1dc975-085d-4434-b86b-1fac49821960" __path="libs/foundry/records/harvestable/harvestablepresets/mining_quantanium_smaller.xml">
+  <transformParams minScale="0.1" maxScale="0.1" terrainNormalAlignment="1" minZOffset="0.1" maxZOffset="0.25" minSlope="0" maxSlope="90" minElevation="-10000" maxElevation="10000" __type="HarvestableTransformParams">
+    <rotationRange x="360" y="360" z="360" __type="Vec3" />
+  </transformParams>
+  <subConfigBase>
+  </subConfigBase>
+</HarvestablePreset.Mining_Quantanium_smaller>

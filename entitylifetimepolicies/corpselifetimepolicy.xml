@@ -1,0 +1,5 @@
+<EntityLifetimePolicyRecord.CorpseLifetimePolicy __type="EntityLifetimePolicyRecord" __ref="b529a72c-5c78-41fd-98b7-f0f494a487fe" __path="libs/foundry/records/entitylifetimepolicies/corpselifetimepolicy.xml">
+  <lifetimePolicies>
+    <SCorpseLifetimePolicy authorizerCountLimit="500" isNonTrivialRemoval="0" timeoutDuration="7200" __type="SEntityLifetimePolicyParams" __polymorphicType="SCorpseLifetimePolicy" />
+  </lifetimePolicies>
+</EntityLifetimePolicyRecord.CorpseLifetimePolicy>

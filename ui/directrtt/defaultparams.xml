@@ -1,0 +1,8 @@
+<DirectRTT_AfterTonemappingParams.DefaultParams BlurRadius="2" __type="DirectRTT_AfterTonemappingParams" __ref="dfbb7e8a-0058-4111-b587-5af2cb1bd4b5" __path="libs/foundry/records/ui/directrtt/defaultparams.xml">
+  <DropShadowParams SharpShadow="0" Spread="0" Opacity="0.35" __type="DirectRTT_DropShadowParams">
+    <Offset x="1" y="2" __type="Vec2" />
+    <Color r="128" g="128" b="128" __type="SRGB8" />
+  </DropShadowParams>
+  <BloomParams Cutoff="0.75" Opacity="0.75" __type="DirectRTT_BloomParams" />
+  <ScanlineParams TexturePath="Engine/EngineAssets/Textures/ScreenInterference/scanlines_01.tif" Intensity="0.05" Tiling="16" ScrollSpeed="0.5" __type="DirectRTT_ScanlineParams" />
+</DirectRTT_AfterTonemappingParams.DefaultParams>

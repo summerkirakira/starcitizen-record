@@ -1,0 +1,25 @@
+<EntityClassDefinition.hadanite Category="Default" Icon="Default.bmp" Invisible="1" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="02f40255-e567-4daa-a784-71d40f495a4b" __path="libs/foundry/records/entities/commodities/minerals/hadanite.xml">
+  <tags>
+    <Reference value="f2f390d5-614f-4674-811e-db532712534b" />
+  </tags>
+  <StaticEntityClassData>
+    <EntityUIDisplayParams displayDescription="@LOC_UNINITIALIZED" displayThumbnail="" displayImage="ui/sharedassets/commodityicons/cargo_comm_050x3_minerals_a_diff.tif" displayIcon="" sortString="" __type="EntityClassStaticDataParams" __polymorphicType="EntityUIDisplayParams">
+      <trackerProperties>
+        <SObjectDataBankEntryTrackerParams __type="SObjectDataBankEntryTrackerParams" />
+      </trackerProperties>
+    </EntityUIDisplayParams>
+  </StaticEntityClassData>
+  <Components>
+    <CommodityComponentParams type="138e6e5d-fbe3-425f-b94d-e11009d922a0" subtype="72f2e7ac-719f-4019-abf7-3b1f60b43a14" name="@items_commodities_hadanite" description="@items_commodities_hadanite_desc" IsUnrefinedElement="0" boxable="1" __type="DataForgeComponentParams" __polymorphicType="CommodityComponentParams">
+      <occupancy>
+        <SMicroCargoUnit microSCU="1000" __type="SBaseCargoUnit" __polymorphicType="SMicroCargoUnit" />
+      </occupancy>
+      <ContainerDimension x="0" y="0" z="0" __type="Vec3" />
+    </CommodityComponentParams>
+    <SCItemPurchasableParams displayName="@items_commodities_hadanite" displayType="@items_commodities_type_Mineral" displayThumbnail="ui/textures/vector/general/items/inv_icon_hadanite.svg" allowTryOn="0" allowQuickBuy="0" tryOnInteractionText="@shop_ui_item_action_try" defaultAttachToPortName="" interactionPointTemplate="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="SCItemPurchasableParams">
+      <Display>
+      </Display>
+      <disabledLoadoutInteractions />
+    </SCItemPurchasableParams>
+  </Components>
+</EntityClassDefinition.hadanite>

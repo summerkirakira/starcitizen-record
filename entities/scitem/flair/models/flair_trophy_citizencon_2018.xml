@@ -1,0 +1,175 @@
+<EntityClassDefinition.Flair_Trophy_Citizencon_2018 Category="Flair" Icon="Default.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="349659ce-0e4d-4b1f-a510-33551ebe9bef" __path="libs/foundry/records/entities/scitem/flair/models/flair_trophy_citizencon_2018.xml">
+  <tags />
+  <StaticEntityClassData>
+    <DefaultEntitlementEntityParams entitlementPolicy="8a1fdd48-7896-4774-a110-2466190e1a07" canEntitleThroughWebsite="1" __type="EntityClassStaticDataParams" __polymorphicType="DefaultEntitlementEntityParams" />
+  </StaticEntityClassData>
+  <Components>
+    <SEntityPhysicsControllerParams __type="DataForgeComponentParams" __polymorphicType="SEntityPhysicsControllerParams">
+      <PhysType>
+        <SEntityStaticPhysicsControllerParams Mass="0.25" BlocksNavigation="1" __type="SEntityBasePhysicsControllerParams" __polymorphicType="SEntityStaticPhysicsControllerParams">
+          <breakableParams>
+          </breakableParams>
+          <gameCollisionClass>
+          </gameCollisionClass>
+        </SEntityStaticPhysicsControllerParams>
+      </PhysType>
+    </SEntityPhysicsControllerParams>
+    <SAttachableComponentParams attachToTileItemPort="NoConnection" __type="DataForgeComponentParams" __polymorphicType="SAttachableComponentParams">
+      <AttachDef Type="Flair_Surface" SubType="Flair_Surface_DisplayCase" Size="2" Grade="1" Manufacturer="00000000-0000-0000-0000-000000000000" inheritParentManufacturer="0" Tags="Trophy" RequiredTags="" DisplayType="" __type="SItemDefinition">
+        <Localization Name="@item_NameFlair_Trophy_Citizencon_2018" ShortName="@LOC_EMPTY" Description="@item_DescFlair_Trophy_Citizencon_2018" __type="SCItemLocalization">
+          <displayFeatures LogoSimplifiedWhite="" FrontendBackground="" History="@LOC_EMPTY" Callout1="@LOC_EMPTY" Callout2="@LOC_EMPTY" Callout3="@LOC_EMPTY" UIPriority="0" __type="SCExtendedLocalizationLevelParams">
+            <locationAudioPlayTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+            <locationAudioStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </displayFeatures>
+        </Localization>
+        <mannequinTags mannequinClassTag="" mannequinTypeTag="" mannequinBaseTag="" __type="SCItemMannequinTags" />
+        <inventoryOccupancyVolume>
+          <SMicroCargoUnit microSCU="1" __type="SBaseCargoUnit" __polymorphicType="SMicroCargoUnit" />
+        </inventoryOccupancyVolume>
+        <inventoryOccupancyDimensions x="0.15" y="0.15" z="0.15" __type="Vec3" />
+        <inventoryOccupancyDimensionsUIOverride>
+        </inventoryOccupancyDimensionsUIOverride>
+      </AttachDef>
+      <entityAttachParams>
+      </entityAttachParams>
+    </SAttachableComponentParams>
+    <SGeometryResourceParams cacheResources="0" rootOverridePaint="0" inheritModelTagFromHost="1" __type="DataForgeComponentParams" __polymorphicType="SGeometryResourceParams">
+      <ModelTag>
+      </ModelTag>
+      <Geometry Tags="" ScaleMultiplier="1" __type="SGeometryNodeParams">
+        <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+          <Geometry path="objects/props/reward/trophy/trophy_citizencon2948_1_a.cga" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+          <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+          <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        </Geometry>
+        <SubGeometry />
+      </Geometry>
+      <Material Tags="" __type="SMaterialNodeParams">
+        <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+        <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        <materialVariants />
+      </Material>
+    </SGeometryResourceParams>
+    <SAnimationControllerParams AnimationDatabase="" AnimationController="" __type="DataForgeComponentParams" __polymorphicType="SAnimationControllerParams">
+      <Tags />
+      <ScopeContexts />
+      <AnimationJointControls>
+      </AnimationJointControls>
+      <AnimationControlActorIKs />
+      <AnimationTasks />
+      <defaultAnimation>
+        <SSequencerSkeletonAnimationTaskParams animationName="on" layerId="0" looping="1" playbackSpeed="0.35" __type="SSequencerDefTaskParams" __polymorphicType="SSequencerSkeletonAnimationTaskParams" />
+      </defaultAnimation>
+    </SAnimationControllerParams>
+    <SEntityComponentEffects __type="DataForgeComponentParams" __polymorphicType="SEntityComponentEffects">
+      <entityEffects __type="SEntitityEffectSystem_SystemBase" __polymorphicType="SEntitityEffectSystem_System">
+        <particleEffects>
+          <SEntityEffectSystem_ParticleCategory enabled="1" allowMultipleTags="1" __type="SEntityEffectSystem_Category" __polymorphicType="SEntityEffectSystem_ParticleCategory">
+            <tagEffects>
+              <SEntityEffectSystem_ParticleTagEffect name="hologram" enabled="1" primed="1" holographic="0" updateEntityBounds="0" clipToVisArea="Local" gpuVisAreaCullingMode="Default" tag="03228d89-5cf3-42cd-9ece-936d37cd6da2" __type="SEntityEffectSystem_Effect" __polymorphicType="SEntityEffectSystem_ParticleTagEffect">
+                <particleEffect path="Props\Generic_Flair_FX.Trophy.hologram_glow_loop" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+                <attachmentSettings>
+                  <SEntityEffectSystem_Attachment_BoneAttachment offsetParameter="00000000-0000-0000-0000-000000000000" attachmentZone="Host" boneAttachment="$slot_vfx_01" __type="SEntityEffectSystem_Attachment" __polymorphicType="SEntityEffectSystem_Attachment_BoneAttachment">
+                    <offset __type="QuatT">
+                      <Rotation x="0" y="0" z="0" __type="Ang3" />
+                      <Position x="0" y="0" z="0" __type="Vec3" />
+                    </offset>
+                  </SEntityEffectSystem_Attachment_BoneAttachment>
+                </attachmentSettings>
+                <propertyLinks />
+              </SEntityEffectSystem_ParticleTagEffect>
+            </tagEffects>
+            <triggerEffects />
+          </SEntityEffectSystem_ParticleCategory>
+        </particleEffects>
+        <materialEffects>
+          <EntityEffectSystem_MaterialCategory enabled="1" allowMultipleTags="0" __type="SEntityEffectSystem_Category" __polymorphicType="EntityEffectSystem_MaterialCategory">
+            <tagEffects>
+              <EntityEffectSystem_MaterialTagEffect name="default wear" enabled="1" tag="03228d89-5cf3-42cd-9ece-936d37cd6da2" __type="SEntityEffectSystem_Effect" __polymorphicType="EntityEffectSystem_MaterialTagEffect">
+                <propertyLinks>
+                  <EntityEffectSystem_MaterialPropertyLink parameterName="00000000-0000-0000-0000-000000000000" materialProperty="Wear" subMeshName="" __type="SEntityEffectSystem_PropertyLink" __polymorphicType="EntityEffectSystem_MaterialPropertyLink">
+                    <modifiers>
+                      <SEntityEffectSystem_OverrideValueModifier overrideValue="0.3" __type="SEntityEffectSystem_PropertyModifier" __polymorphicType="SEntityEffectSystem_OverrideValueModifier" />
+                    </modifiers>
+                  </EntityEffectSystem_MaterialPropertyLink>
+                </propertyLinks>
+              </EntityEffectSystem_MaterialTagEffect>
+              <EntityEffectSystem_MaterialTagEffect name="default dirt" enabled="1" tag="03228d89-5cf3-42cd-9ece-936d37cd6da2" __type="SEntityEffectSystem_Effect" __polymorphicType="EntityEffectSystem_MaterialTagEffect">
+                <propertyLinks>
+                  <EntityEffectSystem_MaterialPropertyLink parameterName="00000000-0000-0000-0000-000000000000" materialProperty="Dirt" subMeshName="" __type="SEntityEffectSystem_PropertyLink" __polymorphicType="EntityEffectSystem_MaterialPropertyLink">
+                    <modifiers>
+                      <SEntityEffectSystem_OverrideValueModifier overrideValue="0.2" __type="SEntityEffectSystem_PropertyModifier" __polymorphicType="SEntityEffectSystem_OverrideValueModifier" />
+                    </modifiers>
+                  </EntityEffectSystem_MaterialPropertyLink>
+                </propertyLinks>
+              </EntityEffectSystem_MaterialTagEffect>
+            </tagEffects>
+            <triggerEffects />
+          </EntityEffectSystem_MaterialCategory>
+        </materialEffects>
+        <soundEffects>
+          <SEntityEffectSystem_SoundCategory enabled="1" allowMultipleTags="1" __type="SEntityEffectSystem_Category" __polymorphicType="SEntityEffectSystem_SoundCategory">
+            <tagEffects />
+            <triggerEffects />
+          </SEntityEffectSystem_SoundCategory>
+        </soundEffects>
+        <audioEnvironmentEffects>
+        </audioEnvironmentEffects>
+        <lightEffects>
+          <EntityEffectSystem_LightCategory enabled="1" allowMultipleTags="1" __type="SEntityEffectSystem_Category" __polymorphicType="EntityEffectSystem_LightCategory">
+            <tagEffects>
+              <EntityEffectSystem_LightTagEffect name="light_holo_omni" enabled="1" useTemperature="0" colorTemperature="6500" diffuseMultiplier="0.001" viewDistanceRatio="10" castShadow="0" shadowQualityCap="Full" maxShadowCastDistance="1" ambient="0" softBulb="0" fakeLight="0" affectsFog="1" affectThisAreaOnly="0" holographic="0" visibleThirdPerson="1" visibleFirstPerson="1" visibleShadows="1" lightImportance="Standard" tag="00000000-0000-0000-0000-000000000000" __type="SEntityEffectSystem_Effect" __polymorphicType="EntityEffectSystem_LightTagEffect">
+                <color r="0.56" g="0.8148466" b="0.99" __type="RGB" />
+                <lightType>
+                  <EntityEffectSystem_LightType_PointLight radius="2" attenuationBulbSize="0" __type="EntityEffectSystem_LightType" __polymorphicType="EntityEffectSystem_LightType_PointLight" />
+                </lightType>
+                <lightLink>
+                </lightLink>
+                <flare flareEnabled="0" flare="" flareFOV="360" flareScale="1" attachToSun="0" __type="LightFlareParams" />
+                <attachmentSettings>
+                  <SEntityEffectSystem_Attachment_BoneAttachment offsetParameter="00000000-0000-0000-0000-000000000000" attachmentZone="Host" boneAttachment="$slot_light_01" __type="SEntityEffectSystem_Attachment" __polymorphicType="SEntityEffectSystem_Attachment_BoneAttachment">
+                    <offset __type="QuatT">
+                      <Rotation x="0" y="0" z="0" __type="Ang3" />
+                      <Position x="0" y="0" z="0" __type="Vec3" />
+                    </offset>
+                  </SEntityEffectSystem_Attachment_BoneAttachment>
+                </attachmentSettings>
+                <propertyLinks />
+              </EntityEffectSystem_LightTagEffect>
+              <EntityEffectSystem_LightTagEffect name="light_holo_spot" enabled="1" useTemperature="0" colorTemperature="6500" diffuseMultiplier="0.0025" viewDistanceRatio="10" castShadow="0" shadowQualityCap="Full" maxShadowCastDistance="1" ambient="0" softBulb="0" fakeLight="0" affectsFog="1" affectThisAreaOnly="0" holographic="0" visibleThirdPerson="1" visibleFirstPerson="1" visibleShadows="1" lightImportance="Standard" tag="00000000-0000-0000-0000-000000000000" __type="SEntityEffectSystem_Effect" __polymorphicType="EntityEffectSystem_LightTagEffect">
+                <color r="0.56" g="0.8148466" b="0.99" __type="RGB" />
+                <lightType>
+                  <EntityEffectSystem_LightType_ProjectorLight radius="1" fovAngle="180" attenuationBulbSize="0" texturePath="textures/lights/light_ies_3.tif" focusedBeam="0" __type="EntityEffectSystem_LightType" __polymorphicType="EntityEffectSystem_LightType_ProjectorLight" />
+                </lightType>
+                <lightLink>
+                </lightLink>
+                <flare flareEnabled="0" flare="" flareFOV="360" flareScale="1" attachToSun="0" __type="LightFlareParams" />
+                <attachmentSettings>
+                  <SEntityEffectSystem_Attachment_BoneAttachment offsetParameter="00000000-0000-0000-0000-000000000000" attachmentZone="Host" boneAttachment="$slot_light_01" __type="SEntityEffectSystem_Attachment" __polymorphicType="SEntityEffectSystem_Attachment_BoneAttachment">
+                    <offset __type="QuatT">
+                      <Rotation x="0" y="0" z="90" __type="Ang3" />
+                      <Position x="0" y="0" z="0" __type="Vec3" />
+                    </offset>
+                  </SEntityEffectSystem_Attachment_BoneAttachment>
+                </attachmentSettings>
+                <propertyLinks />
+              </EntityEffectSystem_LightTagEffect>
+            </tagEffects>
+            <triggerEffects />
+          </EntityEffectSystem_LightCategory>
+        </lightEffects>
+        <uiOwnerEffects>
+        </uiOwnerEffects>
+        <sequencerTags />
+      </entityEffects>
+      <staticValues />
+      <staticColors />
+      <tagsToEnableOnLoad>
+        <Reference value="03228d89-5cf3-42cd-9ece-936d37cd6da2" />
+      </tagsToEnableOnLoad>
+      <triggersToEnableOnLoad />
+    </SEntityComponentEffects>
+    <AudioAreaEntityComponentParams isEnabled="1" audioEnvironment="" environmentFadeDistance="5" fadeDistance="5" soundObstructionType="1" __type="DataForgeComponentParams" __polymorphicType="AudioAreaEntityComponentParams" />
+    <SPersistentComponentParams __type="DataForgeComponentParams" __polymorphicType="SPersistentComponentParams" />
+  </Components>
+</EntityClassDefinition.Flair_Trophy_Citizencon_2018>

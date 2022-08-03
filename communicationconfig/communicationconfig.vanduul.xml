@@ -1,0 +1,4 @@
+<CommunicationConfig.Vanduul name="Vanduul" __type="CommunicationConfig" __ref="89fc5c58-e55b-42c2-ba14-decf475defa9" __path="libs/foundry/records/communicationconfig/communicationconfig.vanduul.xml">
+  <communications />
+  <subConfigs />
+</CommunicationConfig.Vanduul>

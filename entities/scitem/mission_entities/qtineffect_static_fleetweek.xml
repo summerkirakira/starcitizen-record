@@ -1,0 +1,34 @@
+<EntityClassDefinition.QTINEffect_Static_FleetWeek Category="Default" Icon="Default.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="40ece718-c4fb-4edd-a1f5-edece0677dde" __path="libs/foundry/records/entities/scitem/mission_entities/qtineffect_static_fleetweek.xml">
+  <tags />
+  <StaticEntityClassData />
+  <Components>
+    <ParticleEffectParams comment="" activate="1" spawnProbability="1" primed="0" countPerUnit="0" attachType="None" attachForm="Vertices" registerByBbox="0" clipToVisArea="None" gpuVisAreaCullingMode="Default" forceDisableShadows="0" tesselationAmount="Default" attachToZone="Parent" seed="-1" __type="DataForgeComponentParams" __polymorphicType="ParticleEffectParams">
+      <particleEffect path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+      <scale>
+        <FixedFloat value="1" __type="CustomFloat" __polymorphicType="FixedFloat" />
+      </scale>
+      <emissionSizeScale x="1" y="1" z="1" __type="Vec3" />
+      <speedScale>
+        <FixedFloat value="1" __type="CustomFloat" __polymorphicType="FixedFloat" />
+      </speedScale>
+      <timeScale>
+        <FixedFloat value="1" __type="CustomFloat" __polymorphicType="FixedFloat" />
+      </timeScale>
+      <countScale>
+        <FixedFloat value="1" __type="CustomFloat" __polymorphicType="FixedFloat" />
+      </countScale>
+      <strength>
+        <FixedFloat value="-1" __type="CustomFloat" __polymorphicType="FixedFloat" />
+      </strength>
+      <pulsePeriod>
+        <FixedFloat value="0" __type="CustomFloat" __polymorphicType="FixedFloat" />
+      </pulsePeriod>
+      <externalTint>
+        <ParticleEffectNoneTintingParams __type="ParticleEffectNoneTintingParams" />
+      </externalTint>
+      <audio enableAudio="1" isManagedAudioObject="0" attenuationScale="1" volume="0" __type="ParticleEffectAudioParams">
+        <audioRTPC rtpc="particlefx" __type="AudioRtpc" />
+      </audio>
+    </ParticleEffectParams>
+  </Components>
+</EntityClassDefinition.QTINEffect_Static_FleetWeek>

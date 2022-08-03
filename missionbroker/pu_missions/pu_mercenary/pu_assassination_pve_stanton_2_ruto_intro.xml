@@ -1,0 +1,263 @@
+<MissionBrokerEntry.PU_Assassination_PVE_Stanton_2_Ruto_Intro notForRelease="1" missionModule="Libs/Subsumption/Missions/PU/PU_Missions/SpaceBounty/PU_Main_BountySystem.xml" title="@mg_ruto_assassin_title" titleHUD="@LOC_UNINITIALIZED" description="@mg_ruto_assassin_desc" missionGiver="@mg_ruto_from" commsChannelName="@LOC_UNINITIALIZED" type="62f92440-202a-43d3-9cb8-b917d4e4a102" locationMissionAvailable="c15033ab-2eb3-4d6d-b882-0cb336e67ed8" notifyOnAvailable="0" showAsOffer="1" missionBuyInAmount="0" refundBuyInOnWithdraw="0" hasCompleteButton="0" handlesAbandonRequest="0" missionModulePerPlayer="1" maxInstances="2" maxPlayersPerInstance="1" maxInstancesPerPlayer="1" canBeShared="1" onceOnly="1" displayAlliedMarkers="1" availableInPrison="0" failIfSentToPrison="1" requestOnly="0" respawnTime="5" respawnTimeVariation="5" instanceHasLifeTime="1" showLifeTimeInMobiGlas="1" instanceLifeTime="0" instanceLifeTimeVariation="0" canReacceptAfterAbandoning="0" abandonedCooldownTime="0" abandonedCooldownTimeVariation="5" canReacceptAfterFailing="0" hasPersonalCooldown="0" personalCooldownTime="5" personalCooldownTimeVariation="0" moduleHandlesOwnShutdown="0" linkedMission="00000000-0000-0000-0000-000000000000" lawfulMission="0" missionGiverRecord="e0c35a21-290d-4444-80ef-7f42da67b52f" invitationMission="2faa8cb5-e728-46b2-8e85-3a7978bdd102" missionGiverFragmentTags="missionbriefs+bad+kill" __type="MissionBrokerEntry" __ref="66486b26-ef19-493d-b701-6dcad4730d9e" __path="libs/foundry/records/missionbroker/pu_missions/pu_mercenary/pu_assassination_pve_stanton_2_ruto_intro.xml">
+  <availableDateSchedule />
+  <missionReward reward="8250" max="0" plusBonuses="0" currencyType="UEC" reputationBonus="00000000-0000-0000-0000-000000000000" __type="MissionReward" />
+  <missionResultReputationRewards>
+    <SReputationAmountListParams __type="SReputationAmountListParams">
+      <reputationAmounts>
+        <SReputationAmountParams uniqueEntityClass="99345674-f0b4-41b9-ac55-8990c4781b6f" reputationScope="f340b011-c40c-4229-b9c1-ce6a3eb1df77" reward="1335b737-6188-4c21-8923-98a74bcd3071" __type="SReputationAmountParams" />
+        <SReputationAmountParams uniqueEntityClass="99345674-f0b4-41b9-ac55-8990c4781b6f" reputationScope="7cc02ca4-8b25-42ab-98df-942a9bfe3cca" reward="1335b737-6188-4c21-8923-98a74bcd3071" __type="SReputationAmountParams" />
+      </reputationAmounts>
+    </SReputationAmountListParams>
+    <SReputationAmountListParams __type="SReputationAmountListParams">
+      <reputationAmounts>
+        <SReputationAmountParams uniqueEntityClass="99345674-f0b4-41b9-ac55-8990c4781b6f" reputationScope="f340b011-c40c-4229-b9c1-ce6a3eb1df77" reward="4ad8855c-862d-4681-bebb-99ac160cb7b0" __type="SReputationAmountParams" />
+        <SReputationAmountParams uniqueEntityClass="99345674-f0b4-41b9-ac55-8990c4781b6f" reputationScope="7cc02ca4-8b25-42ab-98df-942a9bfe3cca" reward="c8df2809-5dd3-452e-9d03-12ede43fa8f4" __type="SReputationAmountParams" />
+      </reputationAmounts>
+    </SReputationAmountListParams>
+    <SReputationAmountListParams __type="SReputationAmountListParams">
+      <reputationAmounts>
+        <SReputationAmountParams uniqueEntityClass="99345674-f0b4-41b9-ac55-8990c4781b6f" reputationScope="f340b011-c40c-4229-b9c1-ce6a3eb1df77" reward="c8df2809-5dd3-452e-9d03-12ede43fa8f4" __type="SReputationAmountParams" />
+        <SReputationAmountParams uniqueEntityClass="99345674-f0b4-41b9-ac55-8990c4781b6f" reputationScope="7cc02ca4-8b25-42ab-98df-942a9bfe3cca" reward="c8df2809-5dd3-452e-9d03-12ede43fa8f4" __type="SReputationAmountParams" />
+      </reputationAmounts>
+    </SReputationAmountListParams>
+  </missionResultReputationRewards>
+  <journalEntriesToAddOnComplete />
+  <journalEntriesToRemoveOnComplete />
+  <completionTags __type="TagList">
+    <tags>
+      <Reference value="21ab0488-038a-4861-85c4-9546d6f2102c" />
+    </tags>
+  </completionTags>
+  <modifiers />
+  <missionTags>
+    <Reference value="6804b0a9-b01d-4c9a-8063-67784bd0f021" />
+  </missionTags>
+  <reputationPrerequisites wantedLevelJurisdictionOverride="00000000-0000-0000-0000-000000000000" __type="ReputationPrerequisites">
+    <wantedLevel minValue="0" maxValue="5" __type="ReputationPrerequisiteRange" />
+  </reputationPrerequisites>
+  <reputationRequirements>
+  </reputationRequirements>
+  <requiredMissions>
+    <Reference value="640d3567-7df2-4b3b-8387-f585cd603d11" />
+  </requiredMissions>
+  <requiredCompletedMissionTags />
+  <requiredJournalEntries />
+  <properties>
+    <MissionProperty missionVariableName="Mission_TargetTags" extendedTextToken="" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Tags __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Tags">
+          <tags __type="TagList">
+            <tags>
+              <Reference value="37e51a3d-afb0-4f2a-9528-01d9e2db5a76" />
+              <Reference value="3069fb30-e0e6-4fd1-a25b-13152bf970f3" />
+            </tags>
+          </tags>
+          <negativeTags __type="TagList">
+            <tags />
+          </negativeTags>
+          <options />
+        </MissionPropertyValue_Tags>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="Mission_TargetSpread" extendedTextToken="" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_StringHash __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_StringHash">
+          <options>
+            <MissionPropertyValueOption_StringHash textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="Mid" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_StringHash">
+              <dependentProperties />
+            </MissionPropertyValueOption_StringHash>
+          </options>
+        </MissionPropertyValue_StringHash>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="Mission_TargetRange" extendedTextToken="" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_StringHash __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_StringHash">
+          <options>
+            <MissionPropertyValueOption_StringHash textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="Mid" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_StringHash">
+              <dependentProperties />
+            </MissionPropertyValueOption_StringHash>
+          </options>
+        </MissionPropertyValue_StringHash>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="Mission_ReinforcementTags" extendedTextToken="" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Tags __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Tags">
+          <tags __type="TagList">
+            <tags>
+              <Reference value="12292169-1592-4550-ae34-750db47ad0d7" />
+              <Reference value="e1d90840-d3c2-469c-9df4-6c2b9f44aa9c" />
+            </tags>
+          </tags>
+          <negativeTags __type="TagList">
+            <tags />
+          </negativeTags>
+          <options />
+        </MissionPropertyValue_Tags>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="Mission_ReinforcmentAmount" extendedTextToken="" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="2" variation="0" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="BP_MissionTargetName" extendedTextToken="TargetName" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_AIName randomName="1" randomLastName="1" randomNickName="1" characterGivenName="@LOC_UNINITIALIZED" characterGivenLastName="@LOC_UNINITIALIZED" characterGivenNickName="@LOC_UNINITIALIZED" characterNameData="652d139d-d2b1-4dc0-855b-d75c7be716b9" chanceOfNickName="0.05" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_AIName" />
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="BP_MissionType" extendedTextToken="" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_StringHash __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_StringHash">
+          <options>
+            <MissionPropertyValueOption_StringHash textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="AI_Assassination" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_StringHash">
+              <dependentProperties />
+            </MissionPropertyValueOption_StringHash>
+          </options>
+        </MissionPropertyValue_StringHash>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="Mission_Contractor" extendedTextToken="Contractor" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Organization debugForceChosenOrganization="00000000-0000-0000-0000-000000000000" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Organization">
+          <matchConditions>
+            <DataSetMatchCondition_SpecificOrganizationsDef __type="BaseDataSetMatchCondition" __polymorphicType="DataSetMatchCondition_SpecificOrganizationsDef">
+              <organizations>
+                <Reference value="5efa8ee3-534c-4d66-be05-b4e30351b266" />
+              </organizations>
+            </DataSetMatchCondition_SpecificOrganizationsDef>
+          </matchConditions>
+        </MissionPropertyValue_Organization>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="BP_MissionLocation" extendedTextToken="Location" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Location minLocationsToFind="1" maxLocationsToFind="1" debugForceChosenLocation="00000000-0000-0000-0000-000000000000" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Location">
+          <matchConditions>
+            <DataSetMatchCondition_TagSearch tagType="General" __type="BaseDataSetMatchCondition" __polymorphicType="DataSetMatchCondition_TagSearch">
+              <tagSearch>
+                <TagSearchTerm __type="TagSearchTerm">
+                  <positiveTags>
+                    <Reference value="2e415c27-168d-4129-a216-7632f74eb911" />
+                    <Reference value="bc928e7d-1e52-416f-86f3-2f4d19025743" />
+                  </positiveTags>
+                  <negativeTags />
+                </TagSearchTerm>
+              </tagSearch>
+            </DataSetMatchCondition_TagSearch>
+          </matchConditions>
+          <resourceTags>
+            <Reference value="6804b0a9-b01d-4c9a-8063-67784bd0f021" />
+            <Reference value="6804b0a9-b01d-4c9a-8063-67784bd0f021" />
+          </resourceTags>
+        </MissionPropertyValue_Location>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="Mission_Assassination_Type" extendedTextToken="" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_StringHash __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_StringHash">
+          <options>
+            <MissionPropertyValueOption_StringHash textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_StringHash">
+              <dependentProperties />
+            </MissionPropertyValueOption_StringHash>
+            <MissionPropertyValueOption_StringHash textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_StringHash">
+              <dependentProperties />
+            </MissionPropertyValueOption_StringHash>
+            <MissionPropertyValueOption_StringHash textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_StringHash">
+              <dependentProperties />
+            </MissionPropertyValueOption_StringHash>
+            <MissionPropertyValueOption_StringHash textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_StringHash">
+              <dependentProperties />
+            </MissionPropertyValueOption_StringHash>
+            <MissionPropertyValueOption_StringHash textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_StringHash">
+              <dependentProperties />
+            </MissionPropertyValueOption_StringHash>
+            <MissionPropertyValueOption_StringHash textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_StringHash">
+              <dependentProperties />
+            </MissionPropertyValueOption_StringHash>
+          </options>
+        </MissionPropertyValue_StringHash>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="BP_SpawnDescriptions" extendedTextToken="" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_ShipSpawnDescriptions __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_ShipSpawnDescriptions">
+          <spawnDescriptions>
+            <SpawnDescription_ShipGroup __type="SpawnDescription_ShipGroup">
+              <ships>
+                <SpawnDescription_ShipOptions __type="SpawnDescription_ShipOptions">
+                  <options>
+                    <SpawnDescription_Ship concurrentAmount="1" includeLocationAISpawnTags="0" nameProperty="" weight="1" __type="SpawnDescription_Ship">
+                      <tags __type="TagList">
+                        <tags>
+                          <Reference value="6a7d46fa-68cc-4c1e-9e4d-73af17c3f3ea" />
+                          <Reference value="37e51a3d-afb0-4f2a-9528-01d9e2db5a76" />
+                          <Reference value="3069fb30-e0e6-4fd1-a25b-13152bf970f3" />
+                        </tags>
+                      </tags>
+                      <negativeTags __type="TagList">
+                        <tags />
+                      </negativeTags>
+                    </SpawnDescription_Ship>
+                  </options>
+                </SpawnDescription_ShipOptions>
+              </ships>
+            </SpawnDescription_ShipGroup>
+            <SpawnDescription_ShipGroup __type="SpawnDescription_ShipGroup">
+              <ships>
+                <SpawnDescription_ShipOptions __type="SpawnDescription_ShipOptions">
+                  <options>
+                    <SpawnDescription_Ship concurrentAmount="2" includeLocationAISpawnTags="0" nameProperty="null" weight="1" __type="SpawnDescription_Ship">
+                      <tags __type="TagList">
+                        <tags>
+                          <Reference value="12292169-1592-4550-ae34-750db47ad0d7" />
+                          <Reference value="e1d90840-d3c2-469c-9df4-6c2b9f44aa9c" />
+                        </tags>
+                      </tags>
+                      <negativeTags __type="TagList">
+                        <tags />
+                      </negativeTags>
+                    </SpawnDescription_Ship>
+                  </options>
+                </SpawnDescription_ShipOptions>
+              </ships>
+            </SpawnDescription_ShipGroup>
+          </spawnDescriptions>
+        </MissionPropertyValue_ShipSpawnDescriptions>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="Mission_Danger" extendedTextToken="Danger" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_StringHash __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_StringHash">
+          <options>
+            <MissionPropertyValueOption_StringHash textId="@assassin_danger_0005" weighting="1" DEBUG_forceChooseThisOption="0" value="" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_StringHash">
+              <dependentProperties />
+            </MissionPropertyValueOption_StringHash>
+            <MissionPropertyValueOption_StringHash textId="@assassin_danger_0006" weighting="1" DEBUG_forceChooseThisOption="0" value="" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_StringHash">
+              <dependentProperties />
+            </MissionPropertyValueOption_StringHash>
+            <MissionPropertyValueOption_StringHash textId="@assassin_danger_0007" weighting="1" DEBUG_forceChooseThisOption="0" value="" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_StringHash">
+              <dependentProperties />
+            </MissionPropertyValueOption_StringHash>
+            <MissionPropertyValueOption_StringHash textId="@assassin_danger_0008" weighting="1" DEBUG_forceChooseThisOption="0" value="" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_StringHash">
+              <dependentProperties />
+            </MissionPropertyValueOption_StringHash>
+            <MissionPropertyValueOption_StringHash textId="@assassin_danger_0009" weighting="1" DEBUG_forceChooseThisOption="0" value="" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_StringHash">
+              <dependentProperties />
+            </MissionPropertyValueOption_StringHash>
+            <MissionPropertyValueOption_StringHash textId="@assassin_danger_0010" weighting="1" DEBUG_forceChooseThisOption="0" value="" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_StringHash">
+              <dependentProperties />
+            </MissionPropertyValueOption_StringHash>
+          </options>
+        </MissionPropertyValue_StringHash>
+      </value>
+    </MissionProperty>
+  </properties>
+</MissionBrokerEntry.PU_Assassination_PVE_Stanton_2_Ruto_Intro>

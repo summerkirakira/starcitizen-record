@@ -1,0 +1,8 @@
+<InventoryContainerManager.StarCitizen __type="InventoryContainerManager" __ref="83bd7154-f3bf-4b81-992c-44a783b9a7f0" __path="libs/foundry/records/inventorycontainers/starcitizen.xml">
+  <lootBoxes>
+    <Reference value="c49c3aab-3499-4029-94d8-d305e542939a" />
+    <Reference value="786ffb69-9c38-43d0-a982-5026fd53969c" />
+    <Reference value="a9aadbe5-089e-44f4-872c-dd9bb0da2da3" />
+  </lootBoxes>
+  <spawnLootGrid x="5" y="5" z="5" __type="Vec3" />
+</InventoryContainerManager.StarCitizen>

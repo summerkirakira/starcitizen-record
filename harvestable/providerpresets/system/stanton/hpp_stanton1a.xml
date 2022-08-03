@@ -1,0 +1,83 @@
+<HarvestableProviderPreset.HPP_Stanton1a __type="HarvestableProviderPreset" __ref="1f712a22-c9d5-438e-8605-fac7651e30fc" __path="libs/foundry/records/harvestable/providerpresets/system/stanton/hpp_stanton1a.xml">
+  <harvestableGroups>
+    <HarvestableElementGroup groupName="Harvestables" groupProbability="35" __type="HarvestableElementGroup">
+      <harvestables>
+        <HarvestableElement harvestable="3da30444-4375-4f2c-979e-7dc0ba11ad70" relativeProbability="35" clustering="50b251a4-2395-435f-bf33-53548649cd00" __type="HarvestableElement">
+          <geometries />
+        </HarvestableElement>
+      </harvestables>
+    </HarvestableElementGroup>
+    <HarvestableElementGroup groupName="SpaceShip_Mineables" groupProbability="6" __type="HarvestableElementGroup">
+      <harvestables>
+        <HarvestableElement harvestable="b81b872d-c943-455c-8638-bf6c1bcc25cf" relativeProbability="1.5" clustering="d3bc17e2-7a06-450a-82a0-1c5774329054" __type="HarvestableElement">
+          <geometries />
+        </HarvestableElement>
+        <HarvestableElement harvestable="2d6c59cf-8548-4826-9f38-d0be9f625120" relativeProbability="1.5" clustering="d3bc17e2-7a06-450a-82a0-1c5774329054" __type="HarvestableElement">
+          <geometries />
+        </HarvestableElement>
+        <HarvestableElement harvestable="e6244591-3997-465e-8a58-651637a76cb9" relativeProbability="1.5" clustering="d3bc17e2-7a06-450a-82a0-1c5774329054" __type="HarvestableElement">
+          <geometries />
+        </HarvestableElement>
+        <HarvestableElement harvestable="71fcb298-d586-4581-a57d-6ec68835ca27" relativeProbability="1.5" clustering="d3bc17e2-7a06-450a-82a0-1c5774329054" __type="HarvestableElement">
+          <geometries />
+        </HarvestableElement>
+      </harvestables>
+    </HarvestableElementGroup>
+    <HarvestableElementGroup groupName="GroundVehicle_Mineables" groupProbability="12.5" __type="HarvestableElementGroup">
+      <harvestables>
+        <HarvestableElement harvestable="0b32a5ed-a6e4-4947-9e8f-b59da59108db" relativeProbability="2" clustering="4ffceda3-639a-4c1f-9e24-cf4df9af1253" __type="HarvestableElement">
+          <geometries />
+        </HarvestableElement>
+        <HarvestableElement harvestable="f0207105-2593-4082-be26-17849954bfd6" relativeProbability="4" clustering="4ffceda3-639a-4c1f-9e24-cf4df9af1253" __type="HarvestableElement">
+          <geometries />
+        </HarvestableElement>
+        <HarvestableElement harvestable="7510bf4b-175e-43f3-818b-469dae715290" relativeProbability="6.5" clustering="4ffceda3-639a-4c1f-9e24-cf4df9af1253" __type="HarvestableElement">
+          <geometries />
+        </HarvestableElement>
+      </harvestables>
+    </HarvestableElementGroup>
+    <HarvestableElementGroup groupName="FPS_Mineables" groupProbability="25" __type="HarvestableElementGroup">
+      <harvestables>
+        <HarvestableElement harvestable="b4dbb414-4946-437a-870b-0df49007603b" relativeProbability="4" clustering="4ffceda3-639a-4c1f-9e24-cf4df9af1253" __type="HarvestableElement">
+          <geometries />
+        </HarvestableElement>
+        <HarvestableElement harvestable="aeb1d11d-52b8-4bb1-9c8d-c910539cb532" relativeProbability="8" clustering="4ffceda3-639a-4c1f-9e24-cf4df9af1253" __type="HarvestableElement">
+          <geometries />
+        </HarvestableElement>
+        <HarvestableElement harvestable="f42be172-0391-4482-b3ff-6f97c2182272" relativeProbability="13" clustering="4ffceda3-639a-4c1f-9e24-cf4df9af1253" __type="HarvestableElement">
+          <geometries />
+        </HarvestableElement>
+      </harvestables>
+    </HarvestableElementGroup>
+  </harvestableGroups>
+  <areas>
+    <HarvestableAreaPreset debugGroupName="Acidic" globalModifier="1" __type="HarvestableAreaPreset">
+      <areaType>
+        <HarvestableAreaTypeObjectPreset __type="HarvestableAreaTypeBase" __polymorphicType="HarvestableAreaTypeObjectPreset">
+          <objectPresetPaths>
+            <String value="Libs/ObjectPresets/PU/system/stanton/hurston/acidic_pools_01.opr" />
+            <String value="Libs/ObjectPresets/PU/system/stanton/hurston/acidic_pools_02.opr" />
+            <String value="Libs/ObjectPresets/PU/system/stanton/hurston/acidic_pools_03.opr" />
+            <String value="Libs/ObjectPresets/PU/system/stanton/hurston/acidic_geyser_01.opr" />
+            <String value="Libs/ObjectPresets/PU/system/stanton/hurston/acidic_geyser_02.opr" />
+            <String value="Libs/ObjectPresets/PU/system/stanton/hurston/acidic_geyser_03.opr" />
+          </objectPresetPaths>
+        </HarvestableAreaTypeObjectPreset>
+      </areaType>
+      <modifiers>
+        <HarvestableElementModifier harvestableElement="harvestables[0]" harvestableModifier="0" __type="HarvestableElementModifier">
+          <geometries />
+        </HarvestableElementModifier>
+        <HarvestableElementModifier harvestableElement="harvestables[1]" harvestableModifier="0" __type="HarvestableElementModifier">
+          <geometries />
+        </HarvestableElementModifier>
+        <HarvestableElementModifier harvestableElement="harvestables[2]" harvestableModifier="0" __type="HarvestableElementModifier">
+          <geometries />
+        </HarvestableElementModifier>
+        <HarvestableElementModifier harvestableElement="harvestables[3]" harvestableModifier="0" __type="HarvestableElementModifier">
+          <geometries />
+        </HarvestableElementModifier>
+      </modifiers>
+    </HarvestableAreaPreset>
+  </areas>
+</HarvestableProviderPreset.HPP_Stanton1a>

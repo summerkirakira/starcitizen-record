@@ -1,0 +1,21 @@
+<TintPaletteTree.048d_049d_050d_057g_001sr_001sg_001sb templateTree="00000000-0000-0000-0000-000000000000" __type="TintPaletteTree" __ref="5eb3978d-9376-4385-b266-d8ce8a22e428" __path="libs/foundry/records/tintpalettes/layer_blend/048d_049d_050d_057g_001sr_001sg_001sb.xml">
+  <root name="048d_049d_050d_057g_001sr_001sg_001sb" inheritsParams="0" decalTexture="" __type="TintPalette">
+    <children />
+    <entryA glossiness="255" __type="TintEntry">
+      <tintColor r="52" g="52" b="64" __type="SRGB8" />
+      <specColor r="0" g="0" b="0" __type="SRGB8" />
+    </entryA>
+    <entryB glossiness="255" __type="TintEntry">
+      <tintColor r="26" g="31" b="37" __type="SRGB8" />
+      <specColor r="0" g="0" b="0" __type="SRGB8" />
+    </entryB>
+    <entryC glossiness="255" __type="TintEntry">
+      <tintColor r="83" g="56" b="79" __type="SRGB8" />
+      <specColor r="0" g="0" b="0" __type="SRGB8" />
+    </entryC>
+    <glassColor r="251" g="28" b="3" __type="SRGB8" />
+    <decalColorR r="255" g="255" b="255" __type="SRGB8" />
+    <decalColorG r="255" g="255" b="255" __type="SRGB8" />
+    <decalColorB r="255" g="255" b="255" __type="SRGB8" />
+  </root>
+</TintPaletteTree.048d_049d_050d_057g_001sr_001sg_001sb>

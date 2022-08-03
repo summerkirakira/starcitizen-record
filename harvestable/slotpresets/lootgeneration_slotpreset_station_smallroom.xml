@@ -1,0 +1,32 @@
+<SubHarvestableConfigRecord.LootGeneration_SlotPreset_Station_SmallRoom __type="SubHarvestableConfigRecord" __ref="19307eae-d568-4918-a595-47acb04c046a" __path="libs/foundry/records/harvestable/slotpresets/lootgeneration_slotpreset_station_smallroom.xml">
+  <subConfig initialSlotsProbability="0.3" configRespawnTimeMultiplier="1" __type="SubHarvestableConfig">
+    <initialSlotsProbabilityDeepest>
+    </initialSlotsProbabilityDeepest>
+    <subHarvestables>
+      <SubHarvestableSlot harvestable="628fa4a9-1468-4711-b957-6809c505d74d" relativeProbability="1" harvestableRespawnTimeMultiplier="1" __type="SubHarvestableSlot">
+        <relativeProbabilityDeepest>
+        </relativeProbabilityDeepest>
+        <geometries />
+        <lootConfig>
+          <LootConfig lootTable="1c173b50-a1cb-43a8-ad1e-19bcfb160c6f" __type="LootConfig">
+            <lootConstraints totalResultsLimit="0" __type="LootConstraints">
+              <fullnessFactorRange min="0" max="1" __type="FloatFactorRange" />
+            </lootConstraints>
+          </LootConfig>
+        </lootConfig>
+      </SubHarvestableSlot>
+      <SubHarvestableSlot harvestable="8e34e8eb-f604-4f5f-9e11-07758dad1767" relativeProbability="1" harvestableRespawnTimeMultiplier="1" __type="SubHarvestableSlot">
+        <relativeProbabilityDeepest>
+        </relativeProbabilityDeepest>
+        <geometries />
+        <lootConfig>
+          <LootConfig lootTable="d0175ae9-88c2-4307-b8de-e13c8b6a47d5" __type="LootConfig">
+            <lootConstraints totalResultsLimit="0" __type="LootConstraints">
+              <fullnessFactorRange min="0" max="1" __type="FloatFactorRange" />
+            </lootConstraints>
+          </LootConfig>
+        </lootConfig>
+      </SubHarvestableSlot>
+    </subHarvestables>
+  </subConfig>
+</SubHarvestableConfigRecord.LootGeneration_SlotPreset_Station_SmallRoom>

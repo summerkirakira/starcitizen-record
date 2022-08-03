@@ -1,0 +1,12 @@
+<Level.EA_TheGoodDr displayName="EA_TheGoodDr" locDisplayName="@ea_ui_map_TheGoodDoctor" description="@ea_ui_mapdesc_TheGoodDoctor" thumbnail="ui/frontend/assets/tif/gametypesmaps/thegooddoctor.tif" filename="EA_TheGoodDr" gameToken="gooddr" universeLocationUniqueId="0" defaultGameRules="22d4a2f3-131e-4594-90e3-e57016690a22" TrackNumber="-1" mapCode="THEGOODDR" systemImagePath="" __type="Level" __ref="3d7a467a-63f5-45a8-9e5a-40ad6359a76a" __path="libs/foundry/records/level/ea/ea_thegooddr.xml">
+  <displayFeatures>
+  </displayFeatures>
+  <validGameRules>
+    <Reference value="22d4a2f3-131e-4594-90e3-e57016690a22" />
+  </validGameRules>
+  <loadingScreenInfo loadingScreenType="ElectronicAccess" imagePath="../TIF/LoadingScreen/sm.dds" primaryTitle="@ui_GameTitle_StarMarine" secondaryTitle="@LOC_EMPTY" subtitle="@LOC_EMPTY" description="@LOC_EMPTY" __type="SLoadingScreenInformationDef">
+    <tips />
+  </loadingScreenInfo>
+  <potentialSpawnLocations />
+  <potentialDevOnlySpawnLocations />
+</Level.EA_TheGoodDr>

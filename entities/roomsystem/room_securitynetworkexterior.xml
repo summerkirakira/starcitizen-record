@@ -1,0 +1,8 @@
+<EntityClassDefinition.Room_SecurityNetworkExterior Category="Room" Icon="Room.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="863f9225-01f9-4d6f-9f07-50c73555e825" __path="libs/foundry/records/entities/roomsystem/room_securitynetworkexterior.xml">
+  <tags />
+  <StaticEntityClassData />
+  <Components>
+    <SEntityComponentRoomParams roomType="Area" minimumVolumeStrength="0" roomName="@LOC_EMPTY" __type="DataForgeComponentParams" __polymorphicType="SEntityComponentRoomParams" />
+    <SSecurityNetworkRoomExtensionParams settings="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="SSecurityNetworkRoomExtensionParams" />
+  </Components>
+</EntityClassDefinition.Room_SecurityNetworkExterior>

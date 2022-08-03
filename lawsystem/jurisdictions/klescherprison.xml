@@ -1,0 +1,17 @@
+<Jurisdiction.KlescherPrison subsumptionJurisdiction="" name="@Jurisdictions_Name_008" parentJurisdiction="87e3c2af-000c-412f-b4d9-220377908eba" respectsParentJurisdictionLaws="1" journalEntry="00000000-0000-0000-0000-000000000000" maxStolenGoodsPossessionSCU="1" baseFine="0" earlyPaymentPeriod="-1" isPrison="1" __type="Jurisdiction" __ref="4eb79151-607f-4a67-9e0f-498b6a1b4d35" __path="libs/foundry/records/lawsystem/jurisdictions/klescherprison.xml">
+  <infractions />
+  <infractionSets />
+  <prohibitedGoods />
+  <controlledSubstanceClasses>
+    <ControlledSubstanceClass maxPossessionSCU="0.125" __type="ControlledSubstanceClass">
+      <commodities />
+    </ControlledSubstanceClass>
+    <ControlledSubstanceClass maxPossessionSCU="0.125" __type="ControlledSubstanceClass">
+      <commodities />
+    </ControlledSubstanceClass>
+    <ControlledSubstanceClass maxPossessionSCU="0.125" __type="ControlledSubstanceClass">
+      <commodities />
+    </ControlledSubstanceClass>
+  </controlledSubstanceClasses>
+  <impoundingDefinitions />
+</Jurisdiction.KlescherPrison>

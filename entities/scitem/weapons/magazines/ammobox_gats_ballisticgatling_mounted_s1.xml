@@ -1,0 +1,87 @@
+<EntityClassDefinition.AmmoBox_GATS_BallisticGatling_Mounted_S1 Category="Default" Icon="Default.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="7364eae7-deb4-46cf-b2db-0db7a5b7c21b" __path="libs/foundry/records/entities/scitem/weapons/magazines/ammobox_gats_ballisticgatling_mounted_s1.xml">
+  <tags>
+    <Reference value="6c6028af-fcc2-4205-b18c-8e344c629c10" />
+    <Reference value="59ca5e36-b9a2-4459-ad0e-5745bcf5d899" />
+    <Reference value="b97f2439-cde7-45f9-acc3-5eab75b0f84c" />
+    <Reference value="00000000-0000-0000-0000-000000000000" />
+  </tags>
+  <StaticEntityClassData>
+    <DefaultEntitlementEntityParams entitlementPolicy="8a1fdd48-7896-4774-a110-2466190e1a07" canEntitleThroughWebsite="1" __type="EntityClassStaticDataParams" __polymorphicType="DefaultEntitlementEntityParams" />
+  </StaticEntityClassData>
+  <Components>
+    <SAttachableComponentParams attachToTileItemPort="NoConnection" __type="DataForgeComponentParams" __polymorphicType="SAttachableComponentParams">
+      <AttachDef Type="AmmoBox" SubType="Magazine" Size="1" Grade="1" Manufacturer="00000000-0000-0000-0000-000000000000" inheritParentManufacturer="0" Tags="" RequiredTags="" DisplayType="" __type="SItemDefinition">
+        <Localization Name="@LOC_PLACEHOLDER" ShortName="@LOC_EMPTY" Description="@LOC_PLACEHOLDER" __type="SCItemLocalization">
+          <displayFeatures LogoSimplifiedWhite="" FrontendBackground="" History="@LOC_EMPTY" Callout1="@LOC_EMPTY" Callout2="@LOC_EMPTY" Callout3="@LOC_EMPTY" UIPriority="0" __type="SCExtendedLocalizationLevelParams">
+            <locationAudioPlayTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+            <locationAudioStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </displayFeatures>
+        </Localization>
+        <mannequinTags mannequinClassTag="" mannequinTypeTag="" mannequinBaseTag="" __type="SCItemMannequinTags" />
+        <inventoryOccupancyVolume>
+          <SMicroCargoUnit microSCU="0" __type="SBaseCargoUnit" __polymorphicType="SMicroCargoUnit" />
+        </inventoryOccupancyVolume>
+        <inventoryOccupancyDimensions x="0.045" y="0.045" z="0.208" __type="Vec3" />
+        <inventoryOccupancyDimensionsUIOverride>
+        </inventoryOccupancyDimensionsUIOverride>
+      </AttachDef>
+      <entityAttachParams>
+      </entityAttachParams>
+    </SAttachableComponentParams>
+    <SGeometryResourceParams cacheResources="0" rootOverridePaint="0" inheritModelTagFromHost="1" __type="DataForgeComponentParams" __polymorphicType="SGeometryResourceParams">
+      <ModelTag>
+      </ModelTag>
+      <Geometry Tags="" ScaleMultiplier="1" __type="SGeometryNodeParams">
+        <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+          <Geometry path="Objects/weapon/turret/ammo/ammo_box_1_ballistic_a.cgf" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+          <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+          <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        </Geometry>
+        <SubGeometry>
+          <SGeometryNodeParams Tags="tableDisplay" ScaleMultiplier="1" __type="SGeometryNodeParams">
+            <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+              <Geometry path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+              <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+              <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+            </Geometry>
+            <SubGeometry />
+          </SGeometryNodeParams>
+          <SGeometryNodeParams Tags="empty" ScaleMultiplier="1" __type="SGeometryNodeParams">
+            <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+              <Geometry path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+              <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+              <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+            </Geometry>
+            <SubGeometry />
+          </SGeometryNodeParams>
+        </SubGeometry>
+      </Geometry>
+      <Material Tags="" __type="SMaterialNodeParams">
+        <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+        <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        <materialVariants />
+      </Material>
+    </SGeometryResourceParams>
+    <SEntityPhysicsControllerParams __type="DataForgeComponentParams" __polymorphicType="SEntityPhysicsControllerParams">
+      <PhysType>
+        <SEntityRigidPhysicsControllerParams Mass="1" maxLoggedCollisions="1" Damping="0" DampingFreefall="0.05" PushableByPlayers="1" NeverAffectTriggers="0" UseManualGridTransition="0" BlocksNavigation="0" Kinematic="0" Resting="0" physicalizeAllSlots="1" __type="SEntityBasePhysicsControllerParams" __polymorphicType="SEntityRigidPhysicsControllerParams">
+          <breakableParams>
+          </breakableParams>
+          <gameCollisionClass>
+          </gameCollisionClass>
+          <grid>
+          </grid>
+          <buoyancyParams>
+          </buoyancyParams>
+          <temperature enable="0" initialTemperature="-1" internalTemperatureGeneration="0" __type="EntityTemperature" />
+        </SEntityRigidPhysicsControllerParams>
+      </PhysType>
+    </SEntityPhysicsControllerParams>
+    <SARDataComponentParams dataType="ShopItem" rangeMin="1" rangeMax="5" labelMovementType="FacingPlayer" visibleThroughWalls="1" labelZOrientationOffset="0" title1="@LOC_EMPTY" title2="@LOC_EMPTY" subtitle1="@LOC_EMPTY" subtitle2="@LOC_EMPTY" description="@LOC_EMPTY" scaleCapDistance="10" __type="DataForgeComponentParams" __polymorphicType="SARDataComponentParams">
+      <labelAttachOffset x="0" y="0" z="0" __type="Vec3" />
+      <queryOffset x="0" y="0" z="0" __type="Vec3" />
+      <labelScale x="1" y="1" z="1" __type="Vec3" />
+    </SARDataComponentParams>
+    <SPersistentComponentParams __type="DataForgeComponentParams" __polymorphicType="SPersistentComponentParams" />
+  </Components>
+</EntityClassDefinition.AmmoBox_GATS_BallisticGatling_Mounted_S1>

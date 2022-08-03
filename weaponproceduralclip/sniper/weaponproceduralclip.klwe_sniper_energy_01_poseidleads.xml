@@ -1,0 +1,8 @@
+<WeaponProceduralClip.klwe_sniper_energy_01_PoseIdleADS __type="WeaponProceduralClip" __ref="a2534cf1-6982-46ed-88f3-c10f87d3d6ed" __path="libs/foundry/records/weaponproceduralclip/sniper/weaponproceduralclip.klwe_sniper_energy_01_poseidleads.xml">
+  <weaponProceduralClipBase>
+    <WeaponProceduralClipPose blendTime="1" poseType="RightHand" zoomTransitionAngle="0" useAimHelperOffset="0" __type="WeaponProceduralClipBase" __polymorphicType="WeaponProceduralClipPose">
+      <position x="0" y="-0.06" z="0.0162" __type="Vec3" />
+      <rotation x="0" y="0" z="0" __type="Ang3" />
+    </WeaponProceduralClipPose>
+  </weaponProceduralClipBase>
+</WeaponProceduralClip.klwe_sniper_energy_01_PoseIdleADS>

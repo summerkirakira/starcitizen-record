@@ -1,0 +1,132 @@
+<EntityClassDefinition.AnimEntity_CharacterCustomizer_BodyTypeDummyFemale Category="Default" Icon="animobject.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="4c9c14fd-52e2-451b-82d0-d84ae41e38ac" __path="libs/foundry/records/entities/animentity_charactercustomizer_bodytypedummyfemale.xml">
+  <tags />
+  <StaticEntityClassData />
+  <Components>
+    <SGeometryResourceParams cacheResources="0" rootOverridePaint="0" inheritModelTagFromHost="1" __type="DataForgeComponentParams" __polymorphicType="SGeometryResourceParams">
+      <ModelTag>
+        <SGeometryActorModelTag tag="d0794a94-efb0-4cad-ad38-2558b4d3c253" __type="SGeometryModelTagBase" __polymorphicType="SGeometryActorModelTag" />
+      </ModelTag>
+      <Geometry Tags="" ScaleMultiplier="1" __type="SGeometryNodeParams">
+        <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="1" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+          <Geometry path="Objects/Characters/Human/female_v2/export/bhf_skeleton_v2.chr" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+          <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+          <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        </Geometry>
+        <SubGeometry>
+          <SGeometryNodeParams Tags="Female" ScaleMultiplier="1" __type="SGeometryNodeParams">
+            <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="1" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+              <Geometry path="objects/characters/human/female_v2/export/bhf_skeleton_v2.chr" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+              <Material path="Materials/Layers/_reference/snow_white.mtl" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+              <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+            </Geometry>
+            <SubGeometry />
+          </SGeometryNodeParams>
+          <SGeometryNodeParams Tags="Male" ScaleMultiplier="1" __type="SGeometryNodeParams">
+            <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="1" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+              <Geometry path="objects/characters/human/male_v7/export/bhm_skeleton_v7.chr" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+              <Material path="Materials/Layers/_reference/snow_white.mtl" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+              <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+            </Geometry>
+            <SubGeometry />
+          </SGeometryNodeParams>
+        </SubGeometry>
+      </Geometry>
+      <Material Tags="" __type="SMaterialNodeParams">
+        <Material path="Materials/Layers/_reference/snow_white.mtl" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+        <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        <materialVariants />
+      </Material>
+    </SGeometryResourceParams>
+    <SEntityPhysicsControllerParams __type="DataForgeComponentParams" __polymorphicType="SEntityPhysicsControllerParams">
+      <PhysType>
+        <SEntityRigidPhysicsControllerParams Mass="0" maxLoggedCollisions="1" Damping="0" DampingFreefall="0.05" PushableByPlayers="1" NeverAffectTriggers="0" UseManualGridTransition="0" BlocksNavigation="1" Kinematic="0" Resting="0" physicalizeAllSlots="1" __type="SEntityBasePhysicsControllerParams" __polymorphicType="SEntityRigidPhysicsControllerParams">
+          <breakableParams>
+          </breakableParams>
+          <gameCollisionClass>
+          </gameCollisionClass>
+          <grid>
+          </grid>
+          <buoyancyParams>
+          </buoyancyParams>
+          <temperature enable="0" initialTemperature="-1" internalTemperatureGeneration="0" __type="EntityTemperature" />
+        </SEntityRigidPhysicsControllerParams>
+      </PhysType>
+    </SEntityPhysicsControllerParams>
+    <SAnimationControllerParams AnimationDatabase="" AnimationController="" __type="DataForgeComponentParams" __polymorphicType="SAnimationControllerParams">
+      <Tags />
+      <ScopeContexts>
+        <SAnimationScopeContext scopeContext="" type="Self" __type="SAnimationScopeContext" />
+      </ScopeContexts>
+      <AnimationJointControls>
+      </AnimationJointControls>
+      <AnimationControlActorIKs />
+      <AnimationTasks />
+      <defaultAnimation>
+        <SSequencerSkeletonAnimationTaskParams animationName="CharacterCustomizer_Idle" layerId="0" looping="1" playbackSpeed="1" __type="SSequencerDefTaskParams" __polymorphicType="SSequencerSkeletonAnimationTaskParams" />
+      </defaultAnimation>
+    </SAnimationControllerParams>
+    <SEntityComponentDefaultLoadoutParams __type="DataForgeComponentParams" __polymorphicType="SEntityComponentDefaultLoadoutParams">
+      <loadout>
+        <SItemPortLoadoutOutfitParams __type="SItemPortLoadoutBaseParams" __polymorphicType="SItemPortLoadoutOutfitParams">
+          <BaseLoadout>
+            <SItemPortLoadoutXMLParams loadoutPath="scripts/loadouts/character/human/body/generic_body_protos_head.xml" __type="SItemPortLoadoutBaseParams" __polymorphicType="SItemPortLoadoutXMLParams" />
+          </BaseLoadout>
+          <Outfits>
+            <SItemPortLoadoutOutfitTagParams __type="SItemPortLoadoutOutfitTagParams">
+              <OutfitNameTags />
+              <Loadouts>
+                <SItemPortLoadoutXMLParams loadoutPath="Scripts/Loadouts/_test/undersuitzoo/hdtc_undersuit_01_01_01.xml" __type="SItemPortLoadoutBaseParams" __polymorphicType="SItemPortLoadoutXMLParams" />
+              </Loadouts>
+            </SItemPortLoadoutOutfitTagParams>
+          </Outfits>
+        </SItemPortLoadoutOutfitParams>
+      </loadout>
+    </SEntityComponentDefaultLoadoutParams>
+    <SCActorDNAComponentParams DNA="" __type="DataForgeComponentParams" __polymorphicType="SCActorDNAComponentParams" />
+    <PreviewHeadParams __type="DataForgeComponentParams" __polymorphicType="PreviewHeadParams" />
+    <SItemPortContainerComponentParams PortFlags="" PortTags="" RequiredItemTags="" __type="DataForgeComponentParams" __polymorphicType="SItemPortContainerComponentParams">
+      <masterController>
+        <SItemPortMasterControllerParams __type="SItemPortMasterControllerParams">
+          <Pipes />
+        </SItemPortMasterControllerParams>
+      </masterController>
+      <Ports>
+        <SItemPortDef Name="Body_ItemPort" DisplayName="" PortTags="" RequiredPortTags="" Flags="" MinSize="1" MaxSize="1" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags />
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types>
+            <SItemPortDefTypes Type="Char_Body" __type="SItemPortDefTypes">
+              <SubTypes />
+            </SItemPortDefTypes>
+          </Types>
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationSkin __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationSkin">
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationSkin>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+      </Ports>
+      <InternalResourceLinks />
+    </SItemPortContainerComponentParams>
+  </Components>
+</EntityClassDefinition.AnimEntity_CharacterCustomizer_BodyTypeDummyFemale>

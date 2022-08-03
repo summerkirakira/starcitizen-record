@@ -1,0 +1,1105 @@
+<EntityClassDefinition.qrt_specialist_medium_core_01_01_16 Category="Default" Icon="Default.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="2a3285d9-438a-4ead-ada7-66d45abb7174" __path="libs/foundry/records/entities/scitem/characters/human/armor/pu_armor/medium/core/qrt_specialist_medium_core_01_01_16.xml">
+  <tags>
+    <Reference value="8f77e0fc-4086-4d66-ae9e-8601b0a3c7f4" />
+    <Reference value="147c0c54-1dfa-4184-9bab-9005092a5ec1" />
+    <Reference value="ba75cc73-a4c9-447a-9912-1fd8ccc7031b" />
+    <Reference value="7fd80cf6-bce8-4499-a4a2-e1a8f3fefd7e" />
+    <Reference value="bed8e09b-a5f2-4f4e-9be9-ab618ebfbd58" />
+    <Reference value="a155115b-1a31-4033-b93a-d91d2416ed5d" />
+    <Reference value="f3653dfe-343d-45d4-8b1b-56ed4e93922a" />
+    <Reference value="31fd38bb-d5d3-424d-a473-dab5e85fd65d" />
+    <Reference value="a6c5f3ee-3547-410b-8b48-af7a4390fb5e" />
+    <Reference value="9a46e2f3-6651-4283-8447-c01e6dd778e8" />
+  </tags>
+  <StaticEntityClassData>
+    <DefaultEntitlementEntityParams entitlementPolicy="8a1fdd48-7896-4774-a110-2466190e1a07" canEntitleThroughWebsite="1" __type="EntityClassStaticDataParams" __polymorphicType="DefaultEntitlementEntityParams" />
+    <EntityUIDisplayParams displayDescription="@LOC_UNINITIALIZED" displayThumbnail="" displayImage="" displayIcon="ui/textures/ea/loadouticons/medium_armour_64.tif" sortString="" __type="EntityClassStaticDataParams" __polymorphicType="EntityUIDisplayParams">
+      <trackerProperties>
+        <SObjectDataBankEntryTrackerParams __type="SObjectDataBankEntryTrackerParams" />
+      </trackerProperties>
+    </EntityUIDisplayParams>
+  </StaticEntityClassData>
+  <Components>
+    <SEntityPhysicsControllerParams __type="DataForgeComponentParams" __polymorphicType="SEntityPhysicsControllerParams">
+      <PhysType>
+        <SEntityRigidPhysicsControllerParams Mass="5" maxLoggedCollisions="1" Damping="0" DampingFreefall="0.05" PushableByPlayers="1" NeverAffectTriggers="0" UseManualGridTransition="0" BlocksNavigation="0" Kinematic="0" Resting="0" physicalizeAllSlots="1" __type="SEntityBasePhysicsControllerParams" __polymorphicType="SEntityRigidPhysicsControllerParams">
+          <breakableParams>
+          </breakableParams>
+          <gameCollisionClass>
+          </gameCollisionClass>
+          <grid>
+          </grid>
+          <buoyancyParams>
+          </buoyancyParams>
+          <temperature enable="0" initialTemperature="-1" internalTemperatureGeneration="0" __type="EntityTemperature" />
+        </SEntityRigidPhysicsControllerParams>
+      </PhysType>
+    </SEntityPhysicsControllerParams>
+    <SAttachableComponentParams attachToTileItemPort="NoConnection" __type="DataForgeComponentParams" __polymorphicType="SAttachableComponentParams">
+      <AttachDef Type="Char_Armor_Torso" SubType="Medium" Size="1" Grade="1" Manufacturer="64f8b397-8c0d-40b0-96a0-52bbeb41e5ad" inheritParentManufacturer="0" Tags="qrt_specialist_medium Set_01 Color_16 SM_RestrictedArm" RequiredTags="" DisplayType="" __type="SItemDefinition">
+        <Localization Name="@item_Name_qrt_specialist_medium_core_01_01_16" ShortName="@LOC_EMPTY" Description="@item_Desc_qrt_specialist_medium_core_01" __type="SCItemLocalization">
+          <displayFeatures LogoSimplifiedWhite="" FrontendBackground="" History="@LOC_EMPTY" Callout1="@LOC_EMPTY" Callout2="@LOC_EMPTY" Callout3="@LOC_EMPTY" UIPriority="0" __type="SCExtendedLocalizationLevelParams">
+            <locationAudioPlayTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+            <locationAudioStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </displayFeatures>
+        </Localization>
+        <mannequinTags mannequinClassTag="" mannequinTypeTag="" mannequinBaseTag="" __type="SCItemMannequinTags" />
+        <inventoryOccupancyVolume>
+          <SMicroCargoUnit microSCU="84000" __type="SBaseCargoUnit" __polymorphicType="SMicroCargoUnit" />
+        </inventoryOccupancyVolume>
+        <inventoryOccupancyDimensions x="0.395" y="0.408" z="0.649" __type="Vec3" />
+        <inventoryOccupancyDimensionsUIOverride>
+          <Vec3 x="0.75" y="0.75" z="0.75" __type="Vec3" />
+        </inventoryOccupancyDimensionsUIOverride>
+      </AttachDef>
+      <entityAttachParams>
+      </entityAttachParams>
+    </SAttachableComponentParams>
+    <SGeometryResourceParams cacheResources="0" rootOverridePaint="0" inheritModelTagFromHost="1" __type="DataForgeComponentParams" __polymorphicType="SGeometryResourceParams">
+      <ModelTag>
+      </ModelTag>
+      <Geometry Tags="" ScaleMultiplier="1" __type="SGeometryNodeParams">
+        <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+          <Geometry path="Objects/buildingsets/human/lowtech/prop/storage/crate/crate_armor_core_1_005x005x005.cgf" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+          <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+          <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        </Geometry>
+        <SubGeometry>
+          <SGeometryNodeParams Tags="heldEntity" ScaleMultiplier="1" __type="SGeometryNodeParams">
+            <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+              <Geometry path="Objects/buildingsets/human/lowtech/prop/storage/crate/crate_armor_core_1_005x005x005.cgf" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+              <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+              <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+            </Geometry>
+            <SubGeometry />
+          </SGeometryNodeParams>
+          <SGeometryNodeParams Tags="Female" ScaleMultiplier="1" __type="SGeometryNodeParams">
+            <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="Objects/Characters/Human/female_v2/armor/qrt/quirinus/f_qrt_specialist_medium_core_01.cdf" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+              <Geometry path="Objects/Characters/Human/female_v2/armor/qrt/quirinus/f_qrt_specialist_medium_core_01.skin" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+              <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+              <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+            </Geometry>
+            <SubGeometry>
+              <SGeometryNodeParams Tags="inventoryStoredEntity" ScaleMultiplier="1" __type="SGeometryNodeParams">
+                <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+                  <Geometry path="Objects/Characters/Human/female_v2/armor/qrt/quirinus/f_qrt_specialist_medium_core_01_prop.cgf" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+                  <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+                  <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+                </Geometry>
+                <SubGeometry />
+              </SGeometryNodeParams>
+            </SubGeometry>
+          </SGeometryNodeParams>
+          <SGeometryNodeParams Tags="Male" ScaleMultiplier="1" __type="SGeometryNodeParams">
+            <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="Objects/Characters/Human/male_v7/armor/qrt/quirinus/m_qrt_specialist_medium_core_01.cdf" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+              <Geometry path="Objects/Characters/Human/male_v7/armor/qrt/quirinus/m_qrt_specialist_medium_core_01.skin" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+              <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+              <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+            </Geometry>
+            <SubGeometry>
+              <SGeometryNodeParams Tags="inventoryStoredEntity" ScaleMultiplier="1" __type="SGeometryNodeParams">
+                <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+                  <Geometry path="Objects/Characters/Human/male_v7/armor/qrt/quirinus/m_qrt_specialist_medium_core_01_prop.cgf" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+                  <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+                  <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+                </Geometry>
+                <SubGeometry />
+              </SGeometryNodeParams>
+            </SubGeometry>
+          </SGeometryNodeParams>
+        </SubGeometry>
+      </Geometry>
+      <Material Tags="" __type="SMaterialNodeParams">
+        <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+        <Palette RootRecord="e551a6f2-2449-4b29-96f1-f6aa1e63c5ce" ChildPath="" __type="TintPaletteRef" />
+        <materialVariants />
+      </Material>
+    </SGeometryResourceParams>
+    <SCItemClothingParams FoleyDef="62c7b4ef-02f4-4377-b7c0-eea83e453f48" FootstepDef="00000000-0000-0000-0000-000000000000" DressFragmentTags="" __type="DataForgeComponentParams" __polymorphicType="SCItemClothingParams">
+      <OverlayTags __type="TagList">
+        <tags>
+          <Reference value="52393257-1704-4e87-be1f-bfe108fff91c" />
+          <Reference value="a631793b-fd25-46b4-acaf-0d04e822f121" />
+          <Reference value="bbaeb0aa-9b5f-4e9a-96ff-919ef091fbe3" />
+          <Reference value="ab7b7fce-eb2e-4d5b-a90e-5c76cdbc37d8" />
+        </tags>
+      </OverlayTags>
+      <HiddenParts />
+      <Chunks>
+        <SCItemClothingMeshChunkParams MeshChunk="theta_core_zone" Layer="4" __type="SCItemClothingMeshChunkParams">
+          <VisibleLayers />
+          <VisibilityConditions>
+            <SCItemClothingVisibilityConditionParams __type="SCItemClothingVisibilityConditionParams">
+              <Ports>
+                <String value="Armor_Helmet" />
+              </Ports>
+              <TagsBlocking __type="TagsDNFTerm">
+                <positiveTags>
+                  <Reference value="52393257-1704-4e87-be1f-bfe108fff91c" />
+                  <Reference value="a631793b-fd25-46b4-acaf-0d04e822f121" />
+                  <Reference value="bbaeb0aa-9b5f-4e9a-96ff-919ef091fbe3" />
+                  <Reference value="ab7b7fce-eb2e-4d5b-a90e-5c76cdbc37d8" />
+                </positiveTags>
+                <negativeTags />
+              </TagsBlocking>
+              <TagsNonBlocking __type="TagsDNFTerm">
+                <positiveTags />
+                <negativeTags />
+              </TagsNonBlocking>
+            </SCItemClothingVisibilityConditionParams>
+          </VisibilityConditions>
+        </SCItemClothingMeshChunkParams>
+      </Chunks>
+      <Type>
+      </Type>
+      <TemperatureResistance MinResistance="-61" MaxResistance="91" __type="SCItemClothingTemperatureResistanceParams" />
+    </SCItemClothingParams>
+    <SCItemPurchasableParams displayName="@item_Name_qrt_specialist_medium_core_01_01_16" displayType="@item_displayType_ArmorCore" displayThumbnail="" allowTryOn="1" allowQuickBuy="0" tryOnInteractionText="@shop_ui_item_action_try_suit" defaultAttachToPortName="" interactionPointTemplate="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="SCItemPurchasableParams">
+      <Display>
+      </Display>
+      <disabledLoadoutInteractions />
+    </SCItemPurchasableParams>
+    <SARDataComponentParams dataType="ShopItem" rangeMin="1" rangeMax="5" labelMovementType="FacingPlayer" visibleThroughWalls="1" labelZOrientationOffset="0" title1="@LOC_EMPTY" title2="@LOC_EMPTY" subtitle1="@LOC_EMPTY" subtitle2="@LOC_EMPTY" description="@LOC_EMPTY" scaleCapDistance="10" __type="DataForgeComponentParams" __polymorphicType="SARDataComponentParams">
+      <labelAttachOffset x="0" y="0" z="1.5" __type="Vec3" />
+      <queryOffset x="0" y="0" z="1.5" __type="Vec3" />
+      <labelScale x="1" y="1" z="1" __type="Vec3" />
+    </SARDataComponentParams>
+    <SCItemSuitArmorParams damageResistance="6380c701-7466-42ef-8c31-5fa7cb59117c" automaticFootstepDef="9aef2b81-a598-4c58-830e-b54fa1b98eea" remoteAutomaticFootstepDef="9aef2b81-a598-4c58-830e-b54fa1b98eea" suitAmbienceDef="00000000-0000-0000-0000-000000000000" hitEffectLibName="playerhits_armour_heavy" remoteHitEffectLibName="playerhits_armour_heavy" actorAimLimits="b0bf0159-6f59-4465-b553-a763aa28b758" fixedUp="0" __type="DataForgeComponentParams" __polymorphicType="SCItemSuitArmorParams">
+      <protectedBodyParts>
+        <Reference value="cbe3a3e8-5035-4772-acb7-014617c6b03a" />
+      </protectedBodyParts>
+      <signatureParams />
+    </SCItemSuitArmorParams>
+    <SCItemPersonalInventoryParams openInventoryInteraction="Interactable.SharedInteractions[6]" containerParams="899f0bf4-bc8c-4d90-86ce-2ba570e34e94" __type="DataForgeComponentParams" __polymorphicType="SCItemPersonalInventoryParams" />
+    <SItemPortContainerComponentParams PortFlags="" PortTags="" RequiredItemTags="" __type="DataForgeComponentParams" __polymorphicType="SItemPortContainerComponentParams">
+      <masterController>
+      </masterController>
+      <Ports>
+        <SItemPortDef Name="wep_stocked_2" DisplayName="wep_stocked_2" PortTags="" RequiredPortTags="" Flags="body_attach nophys inventory invis_p1 transferable" MinSize="2" MaxSize="4" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags>
+            <Reference value="201aae5c-92c9-43f9-8c6c-b50c279080f8" />
+          </Tags>
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types>
+            <SItemPortDefTypes Type="WeaponPersonal" __type="SItemPortDefTypes">
+              <SubTypes>
+                <Enum value="Medium" />
+                <Enum value="Large" />
+              </SubTypes>
+            </SItemPortDefTypes>
+          </Types>
+          <Extension>
+            <SItemPortDefExtensionFPS SelectTag="backLeft" __type="SItemPortDefExtensionBase" __polymorphicType="SItemPortDefExtensionFPS" />
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationBone __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationBone">
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="wep_stocked_attach_2_override" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                    <SSimulationParamsPendulumHalfCone UseSimulation="1" UseDebugSetup="0" UseDebugText="0" UseRedirect="0" SimFPS="10" Mass="4" Gravity="35" Damping="4.5" JointSpring="1.5" ConeAngle="25" HingeRotation="270" ProjectionType="PS1_ShortarcRotation" __type="SSimulationParamsBase" __polymorphicType="SSimulationParamsPendulumHalfCone">
+                      <PivotOffset x="0" y="0" z="-0.04" __type="Vec3" />
+                      <SimulationAxis x="0" y="0.5" z="0" __type="Vec3" />
+                      <SpringTarget x="0" y="0" __type="Vec2" />
+                      <Capsule x="0.3" y="0.06" __type="Vec2" />
+                      <AvailableCollisionProxies />
+                    </SSimulationParamsPendulumHalfCone>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers>
+                  <SItemPortDefHelperNode Tags="kegr_fire_extinguisher_01" __type="SItemPortDefHelperNode">
+                    <Helper Name="wep_stocked_attach_2_override" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                      <Offset __type="QuatT">
+                        <Rotation x="80" y="180" z="0" __type="Ang3" />
+                        <Position x="-0.05" y="-0.03" z="0.15" __type="Vec3" />
+                      </Offset>
+                      <SimulationParams>
+                      </SimulationParams>
+                    </Helper>
+                    <SubHelpers />
+                  </SItemPortDefHelperNode>
+                </SubHelpers>
+              </Helper>
+            </SItemPortDefAttachmentImplementationBone>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+        <SItemPortDef Name="wep_stocked_3" DisplayName="wep_stocked_3" PortTags="" RequiredPortTags="" Flags="body_attach nophys inventory invis_p1 transferable" MinSize="2" MaxSize="5" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags>
+            <Reference value="201aae5c-92c9-43f9-8c6c-b50c279080f8" />
+          </Tags>
+          <InteractionPointOffset x="0" y="20" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types>
+            <SItemPortDefTypes Type="WeaponPersonal" __type="SItemPortDefTypes">
+              <SubTypes>
+                <Enum value="Medium" />
+                <Enum value="Large" />
+              </SubTypes>
+            </SItemPortDefTypes>
+          </Types>
+          <Extension>
+            <SItemPortDefExtensionFPS SelectTag="backRight" __type="SItemPortDefExtensionBase" __polymorphicType="SItemPortDefExtensionFPS" />
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationBone __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationBone">
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="wep_stocked_attach_3_override" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                    <SSimulationParamsPendulumHalfCone UseSimulation="1" UseDebugSetup="0" UseDebugText="0" UseRedirect="0" SimFPS="10" Mass="8" Gravity="45" Damping="8.5" JointSpring="1.5" ConeAngle="25" HingeRotation="90" ProjectionType="PS1_ShortarcRotation" __type="SSimulationParamsBase" __polymorphicType="SSimulationParamsPendulumHalfCone">
+                      <PivotOffset x="0" y="0" z="-0.04" __type="Vec3" />
+                      <SimulationAxis x="0" y="0.5" z="0" __type="Vec3" />
+                      <SpringTarget x="0" y="0" __type="Vec2" />
+                      <Capsule x="0.3" y="0.06" __type="Vec2" />
+                      <AvailableCollisionProxies />
+                    </SSimulationParamsPendulumHalfCone>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers>
+                  <SItemPortDefHelperNode Tags="shouldered" __type="SItemPortDefHelperNode">
+                    <Helper Name="wep_stocked_attach_3_override" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                      <Offset __type="QuatT">
+                        <Rotation x="-172.8" y="-0.000189" z="-1E-05" __type="Ang3" />
+                        <Position x="0" y="-0.022151" z="0.175343" __type="Vec3" />
+                      </Offset>
+                      <SimulationParams>
+                        <SSimulationParamsPendulumHalfCone UseSimulation="1" UseDebugSetup="0" UseDebugText="0" UseRedirect="0" SimFPS="10" Mass="8" Gravity="45" Damping="8.5" JointSpring="1.5" ConeAngle="25" HingeRotation="90" ProjectionType="PS1_ShortarcRotation" __type="SSimulationParamsBase" __polymorphicType="SSimulationParamsPendulumHalfCone">
+                          <PivotOffset x="0" y="0" z="-0.04" __type="Vec3" />
+                          <SimulationAxis x="0" y="0.5" z="0" __type="Vec3" />
+                          <SpringTarget x="0" y="0" __type="Vec2" />
+                          <Capsule x="0.3" y="0.06" __type="Vec2" />
+                          <AvailableCollisionProxies />
+                        </SSimulationParamsPendulumHalfCone>
+                      </SimulationParams>
+                    </Helper>
+                    <SubHelpers />
+                  </SItemPortDefHelperNode>
+                  <SItemPortDefHelperNode Tags="kegr_fire_extinguisher_01" __type="SItemPortDefHelperNode">
+                    <Helper Name="wep_stocked_attach_3_override" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                      <Offset __type="QuatT">
+                        <Rotation x="90" y="180" z="0" __type="Ang3" />
+                        <Position x="0.05" y="0" z="0.2" __type="Vec3" />
+                      </Offset>
+                      <SimulationParams>
+                        <SSimulationParamsPendulumHalfCone UseSimulation="1" UseDebugSetup="0" UseDebugText="0" UseRedirect="0" SimFPS="10" Mass="8" Gravity="45" Damping="8.5" JointSpring="1.5" ConeAngle="25" HingeRotation="90" ProjectionType="PS1_ShortarcRotation" __type="SSimulationParamsBase" __polymorphicType="SSimulationParamsPendulumHalfCone">
+                          <PivotOffset x="0" y="0" z="-0.04" __type="Vec3" />
+                          <SimulationAxis x="0" y="0.5" z="0" __type="Vec3" />
+                          <SpringTarget x="0" y="0" __type="Vec2" />
+                          <Capsule x="0.3" y="0.06" __type="Vec2" />
+                          <AvailableCollisionProxies />
+                        </SSimulationParamsPendulumHalfCone>
+                      </SimulationParams>
+                    </Helper>
+                    <SubHelpers />
+                  </SItemPortDefHelperNode>
+                </SubHelpers>
+              </Helper>
+            </SItemPortDefAttachmentImplementationBone>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+        <SItemPortDef Name="magazine_attach_1" DisplayName="magazine_attach_1" PortTags="" RequiredPortTags="" Flags="body_attach nophys inventory" MinSize="1" MaxSize="1" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags>
+            <Reference value="201aae5c-92c9-43f9-8c6c-b50c279080f8" />
+          </Tags>
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types>
+            <SItemPortDefTypes Type="WeaponAttachment" __type="SItemPortDefTypes">
+              <SubTypes>
+                <Enum value="Magazine" />
+                <Enum value="Rocket" />
+              </SubTypes>
+            </SItemPortDefTypes>
+          </Types>
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationBone __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationBone">
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="magazine_attach_1_override" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationBone>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+        <SItemPortDef Name="magazine_attach_2" DisplayName="magazine_attach_2" PortTags="" RequiredPortTags="" Flags="body_attach nophys inventory" MinSize="1" MaxSize="1" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags>
+            <Reference value="201aae5c-92c9-43f9-8c6c-b50c279080f8" />
+          </Tags>
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types>
+            <SItemPortDefTypes Type="WeaponAttachment" __type="SItemPortDefTypes">
+              <SubTypes>
+                <Enum value="Magazine" />
+                <Enum value="Rocket" />
+              </SubTypes>
+            </SItemPortDefTypes>
+          </Types>
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationBone __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationBone">
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="magazine_attach_2_override" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationBone>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+        <SItemPortDef Name="magazine_attach_3" DisplayName="magazine_attach_3" PortTags="" RequiredPortTags="" Flags="body_attach nophys inventory" MinSize="1" MaxSize="1" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags>
+            <Reference value="201aae5c-92c9-43f9-8c6c-b50c279080f8" />
+          </Tags>
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types>
+            <SItemPortDefTypes Type="WeaponAttachment" __type="SItemPortDefTypes">
+              <SubTypes>
+                <Enum value="Magazine" />
+                <Enum value="Rocket" />
+              </SubTypes>
+            </SItemPortDefTypes>
+          </Types>
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationBone __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationBone">
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="magazine_attach_3_override" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationBone>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+        <SItemPortDef Name="magazine_attach_4" DisplayName="magazine_attach_4" PortTags="" RequiredPortTags="" Flags="body_attach nophys inventory" MinSize="1" MaxSize="1" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags>
+            <Reference value="201aae5c-92c9-43f9-8c6c-b50c279080f8" />
+          </Tags>
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types>
+            <SItemPortDefTypes Type="WeaponAttachment" __type="SItemPortDefTypes">
+              <SubTypes>
+                <Enum value="Magazine" />
+                <Enum value="Rocket" />
+              </SubTypes>
+            </SItemPortDefTypes>
+          </Types>
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationBone __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationBone">
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="magazine_attach_4_override" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationBone>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+        <SItemPortDef Name="magazine_attach_5" DisplayName="magazine_attach_5" PortTags="" RequiredPortTags="" Flags="body_attach nophys inventory" MinSize="1" MaxSize="1" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags>
+            <Reference value="201aae5c-92c9-43f9-8c6c-b50c279080f8" />
+          </Tags>
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types>
+            <SItemPortDefTypes Type="WeaponAttachment" __type="SItemPortDefTypes">
+              <SubTypes>
+                <Enum value="Magazine" />
+                <Enum value="Rocket" />
+              </SubTypes>
+            </SItemPortDefTypes>
+          </Types>
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationBone __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationBone">
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="magazine_attach_5_override" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationBone>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+        <SItemPortDef Name="magazine_attach_6" DisplayName="magazine_attach_6" PortTags="" RequiredPortTags="" Flags="body_attach nophys inventory" MinSize="1" MaxSize="1" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags>
+            <Reference value="201aae5c-92c9-43f9-8c6c-b50c279080f8" />
+          </Tags>
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types>
+            <SItemPortDefTypes Type="WeaponAttachment" __type="SItemPortDefTypes">
+              <SubTypes>
+                <Enum value="Magazine" />
+                <Enum value="Rocket" />
+              </SubTypes>
+            </SItemPortDefTypes>
+          </Types>
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationBone __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationBone">
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="magazine_attach_6_override" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationBone>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+        <SItemPortDef Name="grenade_attach_1" DisplayName="grenade_attach_1" PortTags="" RequiredPortTags="" Flags="body_attach inventory" MinSize="1" MaxSize="1" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags>
+            <Reference value="201aae5c-92c9-43f9-8c6c-b50c279080f8" />
+          </Tags>
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types>
+            <SItemPortDefTypes Type="WeaponPersonal" __type="SItemPortDefTypes">
+              <SubTypes>
+                <Enum value="Grenade" />
+              </SubTypes>
+            </SItemPortDefTypes>
+          </Types>
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationBone __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationBone">
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="grenade_attach_1_override" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                    <SSimulationParamsPendulumHalfCone UseSimulation="1" UseDebugSetup="0" UseDebugText="0" UseRedirect="0" SimFPS="10" Mass="10" Gravity="25" Damping="5" JointSpring="0.02" ConeAngle="35" HingeRotation="180" ProjectionType="PS1_NoProjection" __type="SSimulationParamsBase" __polymorphicType="SSimulationParamsPendulumHalfCone">
+                      <PivotOffset x="0" y="0" z="-0.05" __type="Vec3" />
+                      <SimulationAxis x="0" y="0" z="-0.5" __type="Vec3" />
+                      <SpringTarget x="0" y="0" __type="Vec2" />
+                      <Capsule x="0.05" y="0.035" __type="Vec2" />
+                      <AvailableCollisionProxies />
+                    </SSimulationParamsPendulumHalfCone>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationBone>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+        <SItemPortDef Name="grenade_attach_2" DisplayName="grenade_attach_2" PortTags="" RequiredPortTags="" Flags="body_attach  inventory" MinSize="1" MaxSize="1" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags>
+            <Reference value="201aae5c-92c9-43f9-8c6c-b50c279080f8" />
+          </Tags>
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types>
+            <SItemPortDefTypes Type="WeaponPersonal" __type="SItemPortDefTypes">
+              <SubTypes>
+                <Enum value="Grenade" />
+              </SubTypes>
+            </SItemPortDefTypes>
+          </Types>
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationBone __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationBone">
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="grenade_attach_2_override" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                    <SSimulationParamsPendulumHalfCone UseSimulation="1" UseDebugSetup="0" UseDebugText="0" UseRedirect="0" SimFPS="10" Mass="10" Gravity="25" Damping="5.5" JointSpring="0.01" ConeAngle="30" HingeRotation="180" ProjectionType="PS1_NoProjection" __type="SSimulationParamsBase" __polymorphicType="SSimulationParamsPendulumHalfCone">
+                      <PivotOffset x="0" y="0" z="-0.05" __type="Vec3" />
+                      <SimulationAxis x="0" y="0" z="-0.5" __type="Vec3" />
+                      <SpringTarget x="0" y="0" __type="Vec2" />
+                      <Capsule x="0.05" y="0.035" __type="Vec2" />
+                      <AvailableCollisionProxies />
+                    </SSimulationParamsPendulumHalfCone>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationBone>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+        <SItemPortDef Name="grenade_attach_3" DisplayName="grenade_attach_3" PortTags="" RequiredPortTags="" Flags="body_attach inventory" MinSize="1" MaxSize="1" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags>
+            <Reference value="201aae5c-92c9-43f9-8c6c-b50c279080f8" />
+          </Tags>
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types>
+            <SItemPortDefTypes Type="WeaponPersonal" __type="SItemPortDefTypes">
+              <SubTypes>
+                <Enum value="Grenade" />
+              </SubTypes>
+            </SItemPortDefTypes>
+          </Types>
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationBone __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationBone">
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="grenade_attach_3_override" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                    <SSimulationParamsPendulumHalfCone UseSimulation="1" UseDebugSetup="0" UseDebugText="0" UseRedirect="0" SimFPS="10" Mass="10" Gravity="23" Damping="4" JointSpring="0.01" ConeAngle="35" HingeRotation="180" ProjectionType="PS1_NoProjection" __type="SSimulationParamsBase" __polymorphicType="SSimulationParamsPendulumHalfCone">
+                      <PivotOffset x="0" y="0" z="-0.05" __type="Vec3" />
+                      <SimulationAxis x="0" y="0" z="-0.5" __type="Vec3" />
+                      <SpringTarget x="0" y="0" __type="Vec2" />
+                      <Capsule x="0.05" y="0.035" __type="Vec2" />
+                      <AvailableCollisionProxies />
+                    </SSimulationParamsPendulumHalfCone>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationBone>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+        <SItemPortDef Name="Material_Variant" DisplayName="Material_Variant" PortTags="" RequiredPortTags="" Flags="nontransferable" MinSize="1" MaxSize="1" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags />
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types>
+            <SItemPortDefTypes Type="Paints" __type="SItemPortDefTypes">
+              <SubTypes />
+            </SItemPortDefTypes>
+          </Types>
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationEntity usePhysicalAttachment="0" useEntityAttachment="1" useExteriorAttachment="0" usePhysicalParent="0" hangarPort="0" __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationEntity">
+              <constraintParams damping="0" noSelfCollisions="1" maxPullForce="0" maxBendTorque="0" constrainToLine="0" constrainToPlane="0" constrainFully="1" useWorldConstraintPosition="0" noRotation="1" xMin="0" xMax="0" yzMax="0" constraintHelper="" constraintMaintainOrientation="0" __type="SAttachmentConstraintParams" />
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationEntity>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+        <SItemPortDef Name="backpack" DisplayName="backpack" PortTags="utility combat" RequiredPortTags="$backpack" Flags="body_attach inventory" MinSize="1" MaxSize="2" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags>
+            <Reference value="27893aeb-650b-4c1b-9c96-a5ae9b0da261" />
+            <Reference value="201aae5c-92c9-43f9-8c6c-b50c279080f8" />
+          </Tags>
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types>
+            <SItemPortDefTypes Type="Char_Armor_Backpack" __type="SItemPortDefTypes">
+              <SubTypes />
+            </SItemPortDefTypes>
+          </Types>
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationBone __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationBone">
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="backpack_attach_1_override" ItemOffsetHelperName="backpack_attach_1_loc" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationBone>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+        <SItemPortDef Name="gadget_attach_1" DisplayName="gadget_attach_1" PortTags="" RequiredPortTags="" Flags="body_attach nophys inventory transferable" MinSize="1" MaxSize="2" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags>
+            <Reference value="201aae5c-92c9-43f9-8c6c-b50c279080f8" />
+          </Tags>
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types>
+            <SItemPortDefTypes Type="Gadget" __type="SItemPortDefTypes">
+              <SubTypes />
+            </SItemPortDefTypes>
+          </Types>
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationBone __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationBone">
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="gadget_attach_1_override" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationBone>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+      </Ports>
+      <InternalResourceLinks />
+    </SItemPortContainerComponentParams>
+    <SEntityInteractableParams __type="DataForgeComponentParams" __polymorphicType="SEntityInteractableParams">
+      <Interactable __type="SInteractableParams">
+        <SharedInteractions>
+          <SSharedInteractionParams Name="Grab" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_grab" DisplayType="Show" GenericCursor="Grab" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="cfbf64fc-515a-4777-835d-4328af0d3003" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Carry" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_carry" DisplayType="Show" GenericCursor="Grab" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="f5e13f32-3097-46d1-b863-5bfae1c846c0" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Drop" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_drop" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="901b0193-5e7c-4a9b-9dc6-0a5af5420e51" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Place" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_place" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="9e196f93-d77e-4d6e-80b4-2378dcbbf0bf" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Store" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_store" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="29323715-dae3-41f0-8680-07aa4307e9ca" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Equip" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_equip" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="60005329-3b61-44f7-95f4-0603df373005" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="OpenExternalInventory" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_open" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="365e0a61-b482-4224-b92a-8144af3dbcf7" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+        </SharedInteractions>
+        <InteractionPoints>
+          <SInteractionPointParams FirstInteractionPrimary="0" UseHelperLocation="0" ShowHighlight="1" ApplyToEntireSkeleton="0" longRangeIP="0" HelperName="Spine3" TextJustification="Middle" TextOrientation="RotateToPlayer" TextScale="1" Radius="2" MaxCursorScreenDistance="2" ShowInnerThoughtsOffScreen="0" OnlySelectableInLookDir="0" __type="SInteractionPointParams">
+            <HighlightBehaviors />
+            <AdditionalCollisionBones>
+              <String value="mesh_crate_armor_core_1_005x005x005" />
+              <String value="anim_mesh_crate_lid_armor_core_1_005x005x005" />
+            </AdditionalCollisionBones>
+            <Offset __type="QuatT">
+              <Rotation x="0" y="0" z="0" __type="Ang3" />
+              <Position x="0" y="0" z="0" __type="Vec3" />
+            </Offset>
+            <AngleConstraint angleRange="181" __type="SAngleConstraint">
+              <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+            </AngleConstraint>
+            <SpherePrimitive>
+            </SpherePrimitive>
+            <Interactions>
+              <SInteractionParams Interaction="Interactable.SharedInteractions[0]" DisplayName="@LOC_EMPTY" IsPrimary="1" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[2]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[3]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[4]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[5]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[6]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+            </Interactions>
+          </SInteractionPointParams>
+        </InteractionPoints>
+        <interactionTasks />
+        <actionHandlerTasks />
+        <itemActionTasks />
+        <menuTitle>
+          <SInteractableMenuTitleParams titleColor="a3dead36-7a01-4244-8d76-1ae6099777b0" __type="SInteractableMenuTitleParams" />
+        </menuTitle>
+      </Interactable>
+    </SEntityInteractableParams>
+    <SEntityComponentCarryableParams pickupInteraction="null" carryInteraction="Interactable.SharedInteractions[0]" placeInteraction="Interactable.SharedInteractions[3]" dropInteraction="Interactable.SharedInteractions[2]" stowInteraction="null" offHandStowInteraction="null" storeInteraction="Interactable.SharedInteractions[4]" offHandStoreInteraction="null" equipInteraction="Interactable.SharedInteractions[5]" inspectInteraction="null" flipInteraction="null" swapAttachmentsInteraction="null" enslavementAnimationDatabase="" interactionPointToMoveOnEquip="null" canBeCarriedInProne="0" __type="DataForgeComponentParams" __polymorphicType="SEntityComponentCarryableParams">
+      <carryableStatesParams settledState="StateTypes.SInteractionStateType.States[0]" carriedState="StateTypes.SInteractionStateType.States[1]" stowedState="StateTypes.SInteractionStateType.States[3]" inspectingState="null" droppedState="StateTypes.SInteractionStateType.States[2]" offeredState="null" equippedState="StateTypes.SInteractionStateType.States[4]" __type="SCarryableStatesParams" />
+      <interactionPointOffsets __type="SCarryableInteractionPointOffsets">
+        <interactionOffsetEquipped __type="QuatT">
+          <Rotation x="0" y="0" z="0" __type="Ang3" />
+          <Position x="0" y="0" z="0" __type="Vec3" />
+        </interactionOffsetEquipped>
+        <interactionOffsetCarried __type="QuatT">
+          <Rotation x="0" y="0" z="0" __type="Ang3" />
+          <Position x="0" y="0" z="0" __type="Vec3" />
+        </interactionOffsetCarried>
+        <interactionOffsetInspected __type="QuatT">
+          <Rotation x="0" y="0" z="0" __type="Ang3" />
+          <Position x="0" y="0" z="0" __type="Vec3" />
+        </interactionOffsetInspected>
+      </interactionPointOffsets>
+      <gripData gripOverrideUsingLOS="0" __type="SGripContainer">
+        <grips>
+          <SCarryableGrip carryStyleID="2H_Standard" canBeUsedBy="All" handMode="RightHand" __type="SCarryableGrip">
+            <handGrip gripID="" optionalHelper="$grip_right_1" __type="SGrip">
+              <gripShapeParameters gripShape="gs_flat" dimension="8" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </handGrip>
+            <offHandGrip>
+              <SGrip gripID="" optionalHelper="$grip_left_1" __type="SGrip">
+                <gripShapeParameters gripShape="gs_flat" dimension="8" wristRotation="0" __type="SGripShapeParams" />
+                <offset __type="QuatT">
+                  <Rotation x="0" y="0" z="0" __type="Ang3" />
+                  <Position x="0" y="0" z="0" __type="Vec3" />
+                </offset>
+              </SGrip>
+            </offHandGrip>
+            <animationParameters motionBase="2h" handTag="" __type="SCarryAnimationParams" />
+            <carryParameters width="4.68" height="0" depth="0" __type="SCarryParams" />
+          </SCarryableGrip>
+          <SCarryableGrip carryStyleID="2H_Reverse" canBeUsedBy="All" handMode="RightHand" __type="SCarryableGrip">
+            <handGrip gripID="" optionalHelper="$grip_left_1" __type="SGrip">
+              <gripShapeParameters gripShape="gs_flat" dimension="8" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </handGrip>
+            <offHandGrip>
+              <SGrip gripID="" optionalHelper="$grip_right_1" __type="SGrip">
+                <gripShapeParameters gripShape="gs_flat" dimension="8" wristRotation="0" __type="SGripShapeParams" />
+                <offset __type="QuatT">
+                  <Rotation x="0" y="0" z="0" __type="Ang3" />
+                  <Position x="0" y="0" z="0" __type="Vec3" />
+                </offset>
+              </SGrip>
+            </offHandGrip>
+            <animationParameters motionBase="2h" handTag="" __type="SCarryAnimationParams" />
+            <carryParameters width="4.68" height="0" depth="0" __type="SCarryParams" />
+          </SCarryableGrip>
+        </grips>
+      </gripData>
+      <abilityLocks>
+        <Enum value="Climb" />
+        <Enum value="Sprint" />
+        <Enum value="Vault" />
+        <Enum value="VaultHigh" />
+        <Enum value="Mantle" />
+        <Enum value="MantleHigh" />
+      </abilityLocks>
+      <carryableTasks />
+      <throwableParams reticle="none" faceUpWhenSettled="1" allowHologramTiltRotation="0" placementRange="3" placementRangeHysteresis="0.5" yawOffset="0" applyBoundingBoxPlacementOffset="0" combatThrowable="0" __type="SThrowableParams">
+        <throwModes>
+          <SThrowMode mode="Drop" __type="SThrowMode">
+            <angularVelocity x="0" y="0" z="1" __type="Vec3" />
+            <offset x="0" y="0" z="0" __type="Vec3" />
+          </SThrowMode>
+          <SThrowMode mode="Place" __type="SThrowMode">
+            <angularVelocity x="0" y="0" z="0" __type="Vec3" />
+            <offset x="0" y="0" z="0" __type="Vec3" />
+          </SThrowMode>
+          <SThrowMode mode="InteractionMode" __type="SThrowMode">
+            <angularVelocity x="0" y="0" z="0" __type="Vec3" />
+            <offset x="0" y="0" z="0" __type="Vec3" />
+          </SThrowMode>
+          <SThrowMode mode="TwoHandedThrow" __type="SThrowMode">
+            <angularVelocity x="0" y="0" z="0" __type="Vec3" />
+            <offset x="0" y="0" z="0" __type="Vec3" />
+          </SThrowMode>
+        </throwModes>
+        <audioParams onCollisionAudioPerceptionInfo="SmallSound" onCollisionAudioPerceptionRadius="20" __type="SThrowAudioParams">
+          <onThrownAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          <onCollisionAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          <collisionSpeedAudioRTPC rtpc="" __type="AudioRtpc" />
+        </audioParams>
+        <defaultPlacementUpDirection x="0" y="0" z="1" __type="Vec3" />
+      </throwableParams>
+      <equipableParams itemPort="Armor_Torso" __type="SCEquipableParams" />
+    </SEntityComponentCarryableParams>
+    <SInteractionStateMachineParams __type="DataForgeComponentParams" __polymorphicType="SInteractionStateMachineParams">
+      <StateTypes>
+        <SInteractionStateType StateTypeName="CarryableStates" bindingsMethod="None" DefaultState="null" networkAuthority="Server" __type="SInteractionStateType">
+          <States>
+            <SInteractionState StateName="Settled" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions>
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[0]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[4]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[5]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[6]" NextState="null" __type="SInteractionStateTransition" />
+              </Interactions>
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="Carried" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions>
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[3]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[2]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[4]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[5]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[6]" NextState="null" __type="SInteractionStateTransition" />
+              </Interactions>
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="Dropped" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions />
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="Stored" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions>
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[0]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[2]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[5]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[6]" NextState="null" __type="SInteractionStateTransition" />
+              </Interactions>
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="Equipped" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions>
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[0]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[4]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[5]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[6]" NextState="null" __type="SInteractionStateTransition" />
+              </Interactions>
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+          </States>
+          <StateModifiers />
+        </SInteractionStateType>
+      </StateTypes>
+    </SInteractionStateMachineParams>
+    <SPersistentComponentParams __type="DataForgeComponentParams" __polymorphicType="SPersistentComponentParams" />
+    <SInteractionLinkParams __type="DataForgeComponentParams" __polymorphicType="SInteractionLinkParams">
+      <vehicleItemPortInteractionLinks />
+      <linkPlugs />
+    </SInteractionLinkParams>
+  </Components>
+</EntityClassDefinition.qrt_specialist_medium_core_01_01_16>

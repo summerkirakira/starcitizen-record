@@ -1,0 +1,5 @@
+<EntityLifetimePolicyRecord.StandardAutoRemovalPolicy __type="EntityLifetimePolicyRecord" __ref="1dc90755-9bda-400e-bfa3-94745a79a3da" __path="libs/foundry/records/entitylifetimepolicies/entitylifetimepolicyrecord.standardautoremovalpolicy.xml">
+  <lifetimePolicies>
+    <SStandardAutoRemovalLifetimePolicy authorizerCountLimit="300" isNonTrivialRemoval="0" timeoutDuration="60" __type="SEntityLifetimePolicyParams" __polymorphicType="SStandardAutoRemovalLifetimePolicy" />
+  </lifetimePolicies>
+</EntityLifetimePolicyRecord.StandardAutoRemovalPolicy>

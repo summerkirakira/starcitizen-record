@@ -1,0 +1,15 @@
+<WeaponProceduralRecoilConfigDef.ksar_smg_energy_01_burst __type="WeaponProceduralRecoilConfigDef" __ref="29bd6d59-4efa-499d-abc4-778d586b399f" __path="libs/foundry/records/weaponproceduralrecoil/ksar_smg_energy_01/ksar_smg_energy_01_burst.xml">
+  <weaponProceduralHandsRecoil decay="10" endDecay="5" fireRecoilTime="0.012" fireRecoilStrengthFirst="0.8" fireRecoilStrength="0.8" angleRecoilStrength="1.4" useRandomRotation="1" randomness="0.2" randomnessBackPush="0" frontalOscillationRotation="1" frontalOscillationStrength="4" frontalOscillationDecay="4" frontalOscillationRandomness="2" __type="SWeaponProceduralHandsRecoilConfigDef">
+    <rotation x="0" y="0" z="0" __type="Ang3" />
+  </weaponProceduralHandsRecoil>
+  <weaponProceduralAimRecoil pull_left_percentage="0.5" random_pitch="0.1" random_yaw="0.05" decay="10" end_decay="2" recoil_time="0" delay="0" __type="SWeaponProceduralAimRecoilConfigDef">
+    <max x="1" y="18" __type="Vec2" />
+    <shot_kick_first x="0.08" y="0.8" __type="Vec2" />
+    <shot_kick x="0.08" y="0.8" __type="Vec2" />
+  </weaponProceduralAimRecoil>
+  <weaponProceduralBodyRecoil hipsPushForce="0.005" hipsDampStrength="3" hipsDampStrengthEnd="5" spinePushForceFirst="0.005" spinePushForce="0.005" spineDampStrength="5" spineDampStrengthEnd="5" __type="SWeaponProceduralBodyRecoilConfigDef" />
+  <weaponProceduralHeadRecoil frequency="5" smoothFactor="2" frequencyNoiseFactor="0.5" maxDistance="10" phase="0" translationNoise="0" rotationNoise="0" usePerlinNoise="1" referenceSpeed="0" minSpeed="0" minScale="0" maxSpeed="0" maxScale="0" __type="SWeaponProceduralHeadRecoilConfigDef">
+    <translation x="0" y="0" z="0" __type="Vec3" />
+    <rotation x="1.2" y="1" z="0" __type="Ang3" />
+  </weaponProceduralHeadRecoil>
+</WeaponProceduralRecoilConfigDef.ksar_smg_energy_01_burst>

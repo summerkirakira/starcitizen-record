@@ -1,0 +1,84 @@
+<GameMode.SC_Frontend name="SC_Frontend" locDisplayName="@LOC_EMPTY" description="@LOC_EMPTY" thumbnail="" alias="FE" leaderboardMatchCode="" invalidShipGroup="00000000-0000-0000-0000-000000000000" singleMultiplayerAvailability="Both" disableSMLoadoutButton="0" availableToPlayer="1" isDevMode="0" __type="GameMode" __ref="a661efa9-9b36-4bd1-9557-fe61d1b19e5d" __path="libs/foundry/records/gamemode/sc_frontend.xml">
+  <params>
+    <SStandardParams moduleType="Frontend" gameModule="a510b7af-4aba-4717-88cc-76448fc43057" persistentDataPolicy="ReadOnly" spawnInSpaceship="0" enableQuantumTravel="1" isSurvivalMode="0" allowVehicleExit="1" useSelfDestructPenalty="0" allowEditLoadoutWhenDead="0" allowIngameMenu="0" maxUnattendedVehicleMarkers="2" musicSuite="00000000-0000-0000-0000-000000000000" audioOcclusionMaxDist="500" requiresBuildingBlocksRoundTimer="0" scanningEnabled="0" flyableShips="1" allShipsModifiable="0" canJoinLobbies="1" canAccessMobiGlass="1" planetMaxPatchesOverride="0" planetPatchTimeoutOverride="0" arModeSettings="d9f36265-906a-41e7-ac11-6e41295667e2" restrictGasExchanges="1" showGreenZoneWeaponsOnlineOffline="1" allowPartyInvite="1" joinOpenChannelOnStartup="0" commsMaxValidRange="-1" shipComputerMode="Default" canTakedownFriendly="0" canApplyForcesToFriendly="0" disableKillMessage="0" allowPITMenu="1" allowPITInventory="0" hasPlanetaryEffects="1" missionsWaitForSpawn="0" showNonPlayerJoinFeed="0" reputationJournalEntryParams="00000000-0000-0000-0000-000000000000" shopInventoryAlertsJournalEntry="00000000-0000-0000-0000-000000000000" quantumDriveGlobalParams="1b25f9c9-630f-47f6-865d-0f0bb199215a" __type="DataForgeComponentParams" __polymorphicType="SStandardParams">
+      <audioSwitchStates>
+        <String value="SC_Game:Live_Persistent_Universe" />
+        <String value="SC_GameMode:SC_Frontend" />
+        <String value="SC_FPS_Player_Life:None" />
+      </audioSwitchStates>
+      <legacyUIOptions updateProgressBar="1" showFrameProgressBar="1" requiresScoreboard="0" requiresGameDetails="0" __type="LegacyUIOptionsParams" />
+      <announcerParams announcer="00000000-0000-0000-0000-000000000000" announcerGameModeTokenName="" __type="SGameRulesAnnouncerParams" />
+      <playerCamerasAllowed firstPersonAllowed="1" chaseAllowed="1" orbitAllowed="1" __type="SPlayerCameraTypeAllowedParams" />
+      <fireParams enabledMode="Disabled" __type="FireParams">
+        <behaviors>
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="0" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+        </behaviors>
+      </fireParams>
+      <actorMechanics allowZeroGTraversal="0" allowEVAIronman="0" __type="ActorMechanicsParams" />
+    </SStandardParams>
+  </params>
+  <pickup>
+  </pickup>
+  <damageHandling>
+  </damageHandling>
+  <hostility>
+  </hostility>
+  <objectives>
+  </objectives>
+  <playerStats>
+  </playerStats>
+  <spawning>
+    <SFrontendSpawning respawnTimeKilled="5" pressXToRespawn="0" allowForceRespawnSuicide="0" __type="DataForgeComponentParams" __polymorphicType="SFrontendSpawning" />
+  </spawning>
+  <victoryConditions>
+  </victoryConditions>
+  <spectator>
+  </spectator>
+  <playerSetup>
+  </playerSetup>
+  <statsRecording>
+  </statsRecording>
+  <stateModule>
+    <FrontendStateParams allowOffline="0" __type="DataForgeComponentParams" __polymorphicType="FrontendStateParams" />
+  </stateModule>
+  <teams>
+  </teams>
+  <rounds>
+  </rounds>
+  <notifications>
+  </notifications>
+  <scoring>
+  </scoring>
+  <subsumptionMissionModule>
+  </subsumptionMissionModule>
+  <camerasModule>
+  </camerasModule>
+  <validMaps>
+    <GameModeValidMap mapName="Frontend_Main" numTracks="0" levelReference="00000000-0000-0000-0000-000000000000" __type="GameModeValidMap" />
+  </validMaps>
+  <customSettings />
+  <entityManagementSetting>
+    <SEntityManagementModule vehicleManagementParams="e643458d-f41e-4140-a4bc-4f40c7fdc38f" carryableManagementParams="a747b40d-5b2f-478f-84fb-4998b369b9b6" destroyUnmanagedOnDetach="1" __type="DataForgeComponentParams" __polymorphicType="SEntityManagementModule" />
+  </entityManagementSetting>
+  <chatSystemOptions>
+    <ChatSystemOptions chatChannelFilterRecord="1a9bc6af-7fa7-41be-b6aa-f0c80cfdf2c2" voiceChannelSettingsRecord="2f932346-6af6-415f-912b-122c08f5c6aa" __type="DataForgeComponentParams" __polymorphicType="ChatSystemOptions" />
+  </chatSystemOptions>
+  <reputationModule>
+    <SGameRulesReputationBaseParamsDef __type="DataForgeComponentParams" __polymorphicType="SGameRulesReputationBaseParamsDef" />
+  </reputationModule>
+</GameMode.SC_Frontend>

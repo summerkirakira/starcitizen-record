@@ -1,0 +1,17 @@
+<TacticalQuery.ShipCombatSubTarget name="ShipCombatSubTarget" type="TacticalTargetQuery" __type="TacticalQuery" __ref="0e11ffb6-1eac-44b1-9396-f81c4dea31d0" __path="libs/foundry/records/tacticalquery/ttsqueries/shipcombatsubtarget.xml">
+  <options>
+    <TQSOptionReference content="d6ffdfed-1991-4ef1-93af-da4cf14f6fd8" __type="TQSOption" __polymorphicType="TQSOptionReference">
+      <requirements __type="TagsDNF">
+        <terms>
+          <TagsDNFTerm __type="TagsDNFTerm">
+            <positiveTags>
+              <Reference value="ef734509-be28-47c9-87df-2775db104d38" />
+            </positiveTags>
+            <negativeTags />
+          </TagsDNFTerm>
+        </terms>
+      </requirements>
+      <optionOverrides />
+    </TQSOptionReference>
+  </options>
+</TacticalQuery.ShipCombatSubTarget>

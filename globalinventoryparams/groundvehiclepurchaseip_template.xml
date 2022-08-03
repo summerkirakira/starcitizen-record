@@ -1,0 +1,16 @@
+<InteractionPointTemplate.GroundVehiclePurchaseIP_Template __type="InteractionPointTemplate" __ref="42451dd9-8e26-4aef-8106-5d0fa3069388" __path="libs/foundry/records/globalinventoryparams/groundvehiclepurchaseip_template.xml">
+  <interactionPoint FirstInteractionPrimary="1" UseHelperLocation="1" ShowHighlight="1" ApplyToEntireSkeleton="1" longRangeIP="1" HelperName="" TextJustification="Middle" TextOrientation="RotateToPlayer" TextScale="1" Radius="12.5" MaxCursorScreenDistance="1" ShowInnerThoughtsOffScreen="1" OnlySelectableInLookDir="0" __type="SInteractionPointParams">
+    <HighlightBehaviors />
+    <AdditionalCollisionBones />
+    <Offset __type="QuatT">
+      <Rotation x="0" y="0" z="0" __type="Ang3" />
+      <Position x="0" y="0" z="0" __type="Vec3" />
+    </Offset>
+    <AngleConstraint angleRange="360" __type="SAngleConstraint">
+      <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+    </AngleConstraint>
+    <SpherePrimitive>
+    </SpherePrimitive>
+    <Interactions />
+  </interactionPoint>
+</InteractionPointTemplate.GroundVehiclePurchaseIP_Template>

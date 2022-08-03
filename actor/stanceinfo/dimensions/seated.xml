@@ -1,0 +1,14 @@
+<ActorStanceDimensionsInfo.Seated __type="ActorStanceDimensionsInfo" __ref="b90b070f-8a18-462c-938c-8c6a16a6d40b" __path="libs/foundry/records/actor/stanceinfo/dimensions/seated.xml">
+  <stateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Seated" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" filterByLocomotionSet="Any" __type="ActorStateFilter" __polymorphicType="ActorMotionStateFilter" />
+  <dimensions heightCollider="1.2" groundContactEps="0.01" __type="ActorStanceDimensions">
+    <pivot x="0" y="0" z="-0.75" __type="Vec3" />
+    <size x="0.33" y="0.33" z="0.15" __type="Vec3" />
+    <capsuleAxis x="0" y="0" z="1" __type="Vec3" />
+    <viewOffset x="0" y="0.16" z="0.8" __type="Vec3" />
+    <weaponOffset x="0" y="0" z="0" __type="Vec3" />
+    <headStabilization x="0" y="0" z="0" __type="Vec3" />
+    <camera useSkeletonCenter="1" smoothSpeed="0.25" __type="ActorStanceDimensionsCamera">
+      <offset x="0" y="0" z="0" __type="Vec3" />
+    </camera>
+  </dimensions>
+</ActorStanceDimensionsInfo.Seated>

@@ -1,0 +1,11 @@
+<ScanCustomDataDef.Generic_Debris __type="ScanCustomDataDef" __ref="b82c0872-b824-46f5-801a-2d6adf20e7d6" __path="libs/foundry/records/radarsystem/scandata/generic_debris.xml">
+  <scanProcedures>
+    <CustomScanProcedureParams scanLayer="Initial" emissionBaseline="0" __type="ScanProcedureParams" __polymorphicType="CustomScanProcedureParams">
+      <customDatas>
+        <ScanCustomDataLocString name="@scan_custom_data_debris_ship_name" value="@scan_custom_data_debris_ship_value" __type="ScanCustomData" __polymorphicType="ScanCustomDataLocString" />
+        <ScanCustomDataFloat name="@LOC_EMPTY" value="6" __type="ScanCustomData" __polymorphicType="ScanCustomDataFloat" />
+        <ScanCustomDataLocString name="@scan_custom_data_debris_ship_emission_name" value="@scan_custom_data_debris_ship_emission_value" __type="ScanCustomData" __polymorphicType="ScanCustomDataLocString" />
+      </customDatas>
+    </CustomScanProcedureParams>
+  </scanProcedures>
+</ScanCustomDataDef.Generic_Debris>

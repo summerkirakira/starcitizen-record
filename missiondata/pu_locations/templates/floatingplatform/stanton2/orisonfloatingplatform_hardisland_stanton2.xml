@@ -1,0 +1,27 @@
+<MissionLocationTemplate.OrisonFloatingPlatform_HardIsland_Stanton2 __type="MissionLocationTemplate" __ref="f1a98148-c7ab-4ef9-b667-eece0e15b048" __path="libs/foundry/records/missiondata/pu_locations/templates/floatingplatform/stanton2/orisonfloatingplatform_hardisland_stanton2.xml">
+  <locationData __type="MissionLocationData">
+    <generalTags __type="MissionLocationTags">
+      <tags>
+        <Reference value="fbed1c4e-610e-44e0-9bfe-52b0944cafbc" />
+        <Reference value="4e3a01bf-06ed-4cb7-9ef2-5a615042e464" />
+      </tags>
+    </generalTags>
+    <producesTags __type="TagSearchTerm">
+      <positiveTags />
+      <negativeTags />
+    </producesTags>
+    <consumesTags __type="TagSearchTerm">
+      <positiveTags />
+      <negativeTags />
+    </consumesTags>
+    <aiSpawnTags __type="TagList">
+      <tags />
+    </aiSpawnTags>
+    <stringVariants __type="MissionStringVariants">
+      <variants />
+    </stringVariants>
+    <missionModules />
+    <missionLimits />
+    <autoSpawnSettings />
+  </locationData>
+</MissionLocationTemplate.OrisonFloatingPlatform_HardIsland_Stanton2>

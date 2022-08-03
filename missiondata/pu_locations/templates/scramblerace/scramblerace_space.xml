@@ -1,0 +1,29 @@
+<MissionLocationTemplate.ScrambleRace_Space __type="MissionLocationTemplate" __ref="992f8079-0ec4-4ae5-ab29-ef7809decd7a" __path="libs/foundry/records/missiondata/pu_locations/templates/scramblerace/scramblerace_space.xml">
+  <locationData __type="MissionLocationData">
+    <generalTags __type="MissionLocationTags">
+      <tags>
+        <Reference value="2edce6b3-40ee-4d68-9c92-ab68be6ab433" />
+      </tags>
+    </generalTags>
+    <producesTags __type="TagSearchTerm">
+      <positiveTags />
+      <negativeTags />
+    </producesTags>
+    <consumesTags __type="TagSearchTerm">
+      <positiveTags />
+      <negativeTags />
+    </consumesTags>
+    <aiSpawnTags __type="TagList">
+      <tags />
+    </aiSpawnTags>
+    <stringVariants __type="MissionStringVariants">
+      <variants />
+    </stringVariants>
+    <missionModules />
+    <missionLimits>
+      <LocationMissionLimit tag="77ae9a0e-690e-4db7-8598-59332495095a" maxMissionInstances="1" __type="LocationMissionLimit" />
+      <LocationMissionLimit tag="e8dff9a6-e3d7-4363-a5a1-f5942483dead" maxMissionInstances="16" __type="LocationMissionLimit" />
+    </missionLimits>
+    <autoSpawnSettings />
+  </locationData>
+</MissionLocationTemplate.ScrambleRace_Space>

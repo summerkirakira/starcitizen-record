@@ -1,0 +1,5 @@
+<EntityLifetimePolicyRecord.QuantumTracePointLifetimePolicy __type="EntityLifetimePolicyRecord" __ref="9dc89ffd-6dc7-429c-bd80-0c4ee356676a" __path="libs/foundry/records/entitylifetimepolicies/quantumtracepointlifetimepolicy.xml">
+  <lifetimePolicies>
+    <SQuantumTracePointLifetimePolicy authorizerCountLimit="70" isNonTrivialRemoval="0" timeoutDuration="300" __type="SEntityLifetimePolicyParams" __polymorphicType="SQuantumTracePointLifetimePolicy" />
+  </lifetimePolicies>
+</EntityLifetimePolicyRecord.QuantumTracePointLifetimePolicy>

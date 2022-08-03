@@ -1,0 +1,11 @@
+<EntityClassDefinition.LedgeObject Category="Others" Icon="Ledge.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="015ac765-d28e-4b36-a215-1efe97236ed5" __path="libs/foundry/records/entities/ledgeobject.xml">
+  <tags />
+  <StaticEntityClassData />
+  <Components>
+    <LedgeObjectComponentParams isEnabled="1" isVault="0" isDoubleSided="0" isFlipped="0" autoTransition="0" followTerrain="0" ledgeMaxDepth="3" ledgeMaxExitAngle="60" cornerMaxAngle="130" cornerEndAdjustAmount="0.5" __type="DataForgeComponentParams" __polymorphicType="LedgeObjectComponentParams">
+      <pEnityParams>
+      </pEnityParams>
+    </LedgeObjectComponentParams>
+    <SGameVolumeComponentParams __type="DataForgeComponentParams" __polymorphicType="SGameVolumeComponentParams" />
+  </Components>
+</EntityClassDefinition.LedgeObject>

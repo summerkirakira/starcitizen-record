@@ -1,0 +1,30 @@
+<EntityClassDefinition.test_ping_S0 Category="Default" Icon="Default.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="a5502954-7762-4261-8c52-ddd80e917489" __path="libs/foundry/records/entities/scitem/ships/test_ping_s0.xml">
+  <tags />
+  <StaticEntityClassData />
+  <Components>
+    <SAttachableComponentParams attachToTileItemPort="NoConnection" __type="DataForgeComponentParams" __polymorphicType="SAttachableComponentParams">
+      <AttachDef Type="Ping" SubType="UNDEFINED" Size="1" Grade="1" Manufacturer="00000000-0000-0000-0000-000000000000" inheritParentManufacturer="0" Tags="flightReady" RequiredTags="" DisplayType="" __type="SItemDefinition">
+        <Localization Name="@item_Name_test_ping" ShortName="@LOC_EMPTY" Description="@item_Name_test_ping" __type="SCItemLocalization">
+          <displayFeatures LogoSimplifiedWhite="" FrontendBackground="" History="@LOC_EMPTY" Callout1="@LOC_EMPTY" Callout2="@LOC_EMPTY" Callout3="@LOC_EMPTY" UIPriority="0" __type="SCExtendedLocalizationLevelParams">
+            <locationAudioPlayTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+            <locationAudioStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </displayFeatures>
+        </Localization>
+        <mannequinTags mannequinClassTag="" mannequinTypeTag="" mannequinBaseTag="" __type="SCItemMannequinTags" />
+        <inventoryOccupancyVolume>
+          <SMicroCargoUnit microSCU="1" __type="SBaseCargoUnit" __polymorphicType="SMicroCargoUnit" />
+        </inventoryOccupancyVolume>
+        <inventoryOccupancyDimensions x="0.15" y="0.15" z="0.15" __type="Vec3" />
+        <inventoryOccupancyDimensionsUIOverride>
+        </inventoryOccupancyDimensionsUIOverride>
+      </AttachDef>
+      <entityAttachParams>
+      </entityAttachParams>
+    </SAttachableComponentParams>
+    <ItemControlComponentParams turnedOnByDefault="0" __type="DataForgeComponentParams" __polymorphicType="ItemControlComponentParams">
+      <throttleParams>
+      </throttleParams>
+    </ItemControlComponentParams>
+    <ItemControllerComponentParams operatorModeDefinitionsOverride="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="ItemControllerComponentParams" />
+  </Components>
+</EntityClassDefinition.test_ping_S0>

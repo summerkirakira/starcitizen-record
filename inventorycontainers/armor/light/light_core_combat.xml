@@ -1,0 +1,6 @@
+<InventoryContainer.light_core_combat __type="InventoryContainer" __ref="708da03d-9c8a-4ab0-b893-50cce557e714" __path="libs/foundry/records/inventorycontainers/armor/light/light_core_combat.xml">
+  <interiorDimensions x="0.365" y="0.365" z="0.1825" __type="Vec3" />
+  <capacity>
+    <SMicroCargoUnit microSCU="4000" __type="SBaseCargoUnit" __polymorphicType="SMicroCargoUnit" />
+  </capacity>
+</InventoryContainer.light_core_combat>

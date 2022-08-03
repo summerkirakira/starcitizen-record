@@ -1,0 +1,44 @@
+<MissionLocationTemplate.CommArray __type="MissionLocationTemplate" __ref="e1bd9b45-f1a6-47a2-a728-ab99c6e078bd" __path="libs/foundry/records/missiondata/pu_locations/templates/system/commarrays/commarray.xml">
+  <locationData __type="MissionLocationData">
+    <generalTags __type="MissionLocationTags">
+      <tags>
+        <Reference value="f00b6f01-7245-437d-9c41-da6a00e2df43" />
+        <Reference value="01000bb5-9f5e-40f4-96e1-0a2f9195d785" />
+        <Reference value="64b542fa-a768-4da5-97b8-60e336d88536" />
+        <Reference value="cb31c9e2-7cc8-4342-853c-832c62429bb0" />
+      </tags>
+    </generalTags>
+    <producesTags __type="TagSearchTerm">
+      <positiveTags />
+      <negativeTags />
+    </producesTags>
+    <consumesTags __type="TagSearchTerm">
+      <positiveTags />
+      <negativeTags />
+    </consumesTags>
+    <aiSpawnTags __type="TagList">
+      <tags />
+    </aiSpawnTags>
+    <stringVariants __type="MissionStringVariants">
+      <variants />
+    </stringVariants>
+    <missionModules>
+      <SMissionLocationModule missionModule="libs/subsumption/missions/pu/pu_missionmodules/pu_commarraymanager.xml" __type="SMissionLocationModule">
+        <missionInputs />
+      </SMissionLocationModule>
+      <SMissionLocationModule missionModule="libs/subsumption/missions/pu/pu_missionmodules/pu_locationhackdetection.xml" __type="SMissionLocationModule">
+        <missionInputs />
+      </SMissionLocationModule>
+      <SMissionLocationModule missionModule="Libs/Subsumption/Missions/PU/PU_MissionModules/AIManagers/PU_UnmannedAIManager.xml" __type="SMissionLocationModule">
+        <missionInputs />
+      </SMissionLocationModule>
+    </missionModules>
+    <missionLimits>
+      <LocationMissionLimit tag="a204992d-f67a-4a28-bd86-8587b3243af1" maxMissionInstances="1" __type="LocationMissionLimit" />
+      <LocationMissionLimit tag="9a2ba214-8d5d-458d-84c6-fc11fdc5b3b7" maxMissionInstances="1" __type="LocationMissionLimit" />
+      <LocationMissionLimit tag="e6a13cf1-526b-4949-ae2d-d21c2315b5c4" maxMissionInstances="1" __type="LocationMissionLimit" />
+      <LocationMissionLimit tag="6804b0a9-b01d-4c9a-8063-67784bd0f021" maxMissionInstances="1" __type="LocationMissionLimit" />
+    </missionLimits>
+    <autoSpawnSettings />
+  </locationData>
+</MissionLocationTemplate.CommArray>

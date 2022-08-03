@@ -1,0 +1,7 @@
+<HarvestablePreset.Mining_Igneous entityClass="c64d9442-6a3a-4244-b5aa-8635e3b4a329" respawnInSlotTime="3600" specialHarvestableString="" __type="HarvestablePreset" __ref="2d6c59cf-8548-4826-9f38-d0be9f625120" __path="libs/foundry/records/harvestable/harvestablepresets/mining_igneous.xml">
+  <transformParams minScale="0.7" maxScale="1" terrainNormalAlignment="1" minZOffset="0.1" maxZOffset="0.25" minSlope="0" maxSlope="90" minElevation="-10000" maxElevation="10000" __type="HarvestableTransformParams">
+    <rotationRange x="360" y="360" z="360" __type="Vec3" />
+  </transformParams>
+  <subConfigBase>
+  </subConfigBase>
+</HarvestablePreset.Mining_Igneous>

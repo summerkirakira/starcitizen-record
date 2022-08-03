@@ -1,0 +1,8 @@
+<WeaponProceduralClip.gmni_sniper_ballistic_01_PoseIdle __type="WeaponProceduralClip" __ref="18dc1374-5674-454b-8e0f-0043efe79cbc" __path="libs/foundry/records/weaponproceduralclip/sniper/gmni_sniper_ballistic_01_poseidle.xml">
+  <weaponProceduralClipBase>
+    <WeaponProceduralClipPose blendTime="1" poseType="RightHand" zoomTransitionAngle="0" useAimHelperOffset="0" __type="WeaponProceduralClipBase" __polymorphicType="WeaponProceduralClipPose">
+      <position x="0.025" y="0" z="0.025" __type="Vec3" />
+      <rotation x="2" y="0" z="1" __type="Ang3" />
+    </WeaponProceduralClipPose>
+  </weaponProceduralClipBase>
+</WeaponProceduralClip.gmni_sniper_ballistic_01_PoseIdle>

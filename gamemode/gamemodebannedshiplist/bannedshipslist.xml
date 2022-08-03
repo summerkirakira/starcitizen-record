@@ -1,0 +1,116 @@
+<GameModeBannedShipList.BannedShipsList __type="GameModeBannedShipList" __ref="75256017-cccf-4360-aee0-c9ff69ce5424" __path="libs/foundry/records/gamemode/gamemodebannedshiplist/bannedshipslist.xml">
+  <bannedShips>
+    <GameModeBannedShip shipArchetype="" entityClassDefinition="d46f4de1-8dc1-473b-9739-88c9ba7e75a6" __type="GameModeBannedShip">
+      <bannedDogfightShipOptions banInMode="1" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+      <bannedRaceShipOptions banInMode="1" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+    </GameModeBannedShip>
+    <GameModeBannedShip shipArchetype="DefaultSpaceShips.AEGS.AEGS_Reclaimer" entityClassDefinition="f05b74b2-06cf-44d0-8607-c09487359384" __type="GameModeBannedShip">
+      <bannedDogfightShipOptions banInMode="1" allowInPrivateMode="1" __type="GameModeBannedShipOptions" />
+      <bannedRaceShipOptions banInMode="1" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+    </GameModeBannedShip>
+    <GameModeBannedShip shipArchetype="DefaultSpaceShips.AEGS.AEGS_Retaliator" entityClassDefinition="93e1a434-f4fa-43ee-a40c-71bcae5073bc" __type="GameModeBannedShip">
+      <bannedDogfightShipOptions banInMode="1" allowInPrivateMode="1" __type="GameModeBannedShipOptions" />
+      <bannedRaceShipOptions banInMode="1" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+    </GameModeBannedShip>
+    <GameModeBannedShip shipArchetype="DefaultSpaceShips.ARGO.ARGO_MPUV_Transport" entityClassDefinition="e17ccf62-f2d2-4c4e-a132-a3000d40fbde" __type="GameModeBannedShip">
+      <bannedDogfightShipOptions banInMode="1" allowInPrivateMode="1" __type="GameModeBannedShipOptions" />
+      <bannedRaceShipOptions banInMode="0" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+    </GameModeBannedShip>
+    <GameModeBannedShip shipArchetype="DefaultSpaceShips.ARGO.ARGO_MPUV" entityClassDefinition="e19fc6c3-f5fa-4623-9a17-b00a29b71500" __type="GameModeBannedShip">
+      <bannedDogfightShipOptions banInMode="1" allowInPrivateMode="1" __type="GameModeBannedShipOptions" />
+      <bannedRaceShipOptions banInMode="0" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+    </GameModeBannedShip>
+    <GameModeBannedShip shipArchetype="DefaultSpaceShips.DRAK.DRAK_Caterpillar" entityClassDefinition="dc39ca6b-1d76-4db5-9346-356f49954978" __type="GameModeBannedShip">
+      <bannedDogfightShipOptions banInMode="1" allowInPrivateMode="1" __type="GameModeBannedShipOptions" />
+      <bannedRaceShipOptions banInMode="1" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+    </GameModeBannedShip>
+    <GameModeBannedShip shipArchetype="DefaultSpaceShips.DRAK.DRAK_Caterpillar_Pirate" entityClassDefinition="565d8121-50a9-4920-af50-f176caef0431" __type="GameModeBannedShip">
+      <bannedDogfightShipOptions banInMode="1" allowInPrivateMode="1" __type="GameModeBannedShipOptions" />
+      <bannedRaceShipOptions banInMode="1" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+    </GameModeBannedShip>
+    <GameModeBannedShip shipArchetype="DefaultSpaceShips.DRAK.DRAK_Dragonfly" entityClassDefinition="37659ff0-a803-4a4f-97ff-ad59822061ed" __type="GameModeBannedShip">
+      <bannedDogfightShipOptions banInMode="1" allowInPrivateMode="1" __type="GameModeBannedShipOptions" />
+      <bannedRaceShipOptions banInMode="0" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+    </GameModeBannedShip>
+    <GameModeBannedShip shipArchetype="DefaultSpaceShips.MISC.MISC_Starfarer" entityClassDefinition="13a02a6d-7d67-4d22-8530-d4d2c8443f66" __type="GameModeBannedShip">
+      <bannedDogfightShipOptions banInMode="1" allowInPrivateMode="1" __type="GameModeBannedShipOptions" />
+      <bannedRaceShipOptions banInMode="1" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+    </GameModeBannedShip>
+    <GameModeBannedShip shipArchetype="DefaultSpaceShips.MISC.MISC_Starfarer_Gemini" entityClassDefinition="c989caf2-84a5-4c01-b99e-5fc9f8d0ce8e" __type="GameModeBannedShip">
+      <bannedDogfightShipOptions banInMode="1" allowInPrivateMode="1" __type="GameModeBannedShipOptions" />
+      <bannedRaceShipOptions banInMode="1" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+    </GameModeBannedShip>
+    <GameModeBannedShip shipArchetype="DefaultSpaceShips.XIAN.XIAN_Nox" entityClassDefinition="daddeefa-fef0-4146-b630-a33d6e8904d3" __type="GameModeBannedShip">
+      <bannedDogfightShipOptions banInMode="1" allowInPrivateMode="1" __type="GameModeBannedShipOptions" />
+      <bannedRaceShipOptions banInMode="0" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+    </GameModeBannedShip>
+    <GameModeBannedShip shipArchetype="DefaultSpaceShips.ORIG.ORIG_890Jump" entityClassDefinition="50ddaf5e-a8e3-42fe-a1d3-7267f39b39b0" __type="GameModeBannedShip">
+      <bannedDogfightShipOptions banInMode="1" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+      <bannedRaceShipOptions banInMode="1" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+    </GameModeBannedShip>
+    <GameModeBannedShip shipArchetype="DefaultSpaceShips.ARGO.ARGO_MOLE" entityClassDefinition="ecdfd0df-6c5f-4183-a24b-9e1546e00a4e" __type="GameModeBannedShip">
+      <bannedDogfightShipOptions banInMode="1" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+      <bannedRaceShipOptions banInMode="1" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+    </GameModeBannedShip>
+    <GameModeBannedShip shipArchetype="" entityClassDefinition="f6d606c9-b324-4efa-814f-15a59047a6a5" __type="GameModeBannedShip">
+      <bannedDogfightShipOptions banInMode="1" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+      <bannedRaceShipOptions banInMode="1" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+    </GameModeBannedShip>
+    <GameModeBannedShip shipArchetype="" entityClassDefinition="7533ff77-836c-4bd2-9171-487d9c63863c" __type="GameModeBannedShip">
+      <bannedDogfightShipOptions banInMode="1" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+      <bannedRaceShipOptions banInMode="1" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+    </GameModeBannedShip>
+    <GameModeBannedShip shipArchetype="" entityClassDefinition="3bee9f2d-4494-4560-b9f8-463bc90695cb" __type="GameModeBannedShip">
+      <bannedDogfightShipOptions banInMode="1" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+      <bannedRaceShipOptions banInMode="1" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+    </GameModeBannedShip>
+    <GameModeBannedShip shipArchetype="" entityClassDefinition="5cf39b3b-41d8-45c1-8ef2-d4678c7a7b85" __type="GameModeBannedShip">
+      <bannedDogfightShipOptions banInMode="1" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+      <bannedRaceShipOptions banInMode="1" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+    </GameModeBannedShip>
+    <GameModeBannedShip shipArchetype="" entityClassDefinition="f8ac4c26-8f4d-4cb3-9be2-7d867a95a877" __type="GameModeBannedShip">
+      <bannedDogfightShipOptions banInMode="0" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+      <bannedRaceShipOptions banInMode="1" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+    </GameModeBannedShip>
+    <GameModeBannedShip shipArchetype="" entityClassDefinition="38ae749f-d4fc-4dfd-907b-ed8db61f3d88" __type="GameModeBannedShip">
+      <bannedDogfightShipOptions banInMode="0" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+      <bannedRaceShipOptions banInMode="1" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+    </GameModeBannedShip>
+    <GameModeBannedShip shipArchetype="" entityClassDefinition="11b660a2-c77c-490b-9e85-ee70400c5cf8" __type="GameModeBannedShip">
+      <bannedDogfightShipOptions banInMode="0" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+      <bannedRaceShipOptions banInMode="1" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+    </GameModeBannedShip>
+    <GameModeBannedShip shipArchetype="" entityClassDefinition="c8e10f09-38a0-4730-9dd3-eb0a510c9e43" __type="GameModeBannedShip">
+      <bannedDogfightShipOptions banInMode="0" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+      <bannedRaceShipOptions banInMode="1" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+    </GameModeBannedShip>
+    <GameModeBannedShip shipArchetype="" entityClassDefinition="d95fb013-60d5-43ac-ab2d-daa082f45411" __type="GameModeBannedShip">
+      <bannedDogfightShipOptions banInMode="0" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+      <bannedRaceShipOptions banInMode="1" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+    </GameModeBannedShip>
+    <GameModeBannedShip shipArchetype="" entityClassDefinition="e7b40f5c-4099-4aa6-b226-b5b08bd68413" __type="GameModeBannedShip">
+      <bannedDogfightShipOptions banInMode="0" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+      <bannedRaceShipOptions banInMode="1" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+    </GameModeBannedShip>
+    <GameModeBannedShip shipArchetype="" entityClassDefinition="ecadf2b2-a404-4776-9289-04af91538d76" __type="GameModeBannedShip">
+      <bannedDogfightShipOptions banInMode="0" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+      <bannedRaceShipOptions banInMode="1" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+    </GameModeBannedShip>
+    <GameModeBannedShip shipArchetype="" entityClassDefinition="daf936a1-689f-4edb-980a-96947e2727c4" __type="GameModeBannedShip">
+      <bannedDogfightShipOptions banInMode="0" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+      <bannedRaceShipOptions banInMode="1" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+    </GameModeBannedShip>
+    <GameModeBannedShip shipArchetype="" entityClassDefinition="d1c3fa10-b2d9-421e-8301-97dbf4d0c115" __type="GameModeBannedShip">
+      <bannedDogfightShipOptions banInMode="0" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+      <bannedRaceShipOptions banInMode="1" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+    </GameModeBannedShip>
+    <GameModeBannedShip shipArchetype="" entityClassDefinition="c4ceff45-d851-44b1-921b-bfef93a6cd6a" __type="GameModeBannedShip">
+      <bannedDogfightShipOptions banInMode="1" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+      <bannedRaceShipOptions banInMode="1" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+    </GameModeBannedShip>
+    <GameModeBannedShip shipArchetype="" entityClassDefinition="fb484074-f33f-4977-a052-2937e8508acc" __type="GameModeBannedShip">
+      <bannedDogfightShipOptions banInMode="1" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+      <bannedRaceShipOptions banInMode="1" allowInPrivateMode="0" __type="GameModeBannedShipOptions" />
+    </GameModeBannedShip>
+  </bannedShips>
+</GameModeBannedShipList.BannedShipsList>

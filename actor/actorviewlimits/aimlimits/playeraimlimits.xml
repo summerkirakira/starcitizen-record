@@ -1,0 +1,34 @@
+<ActorAimLimits.PlayerAimLimits __type="ActorAimLimits" __ref="03241dd2-3060-4d11-b16a-c8115ded5db7" __path="libs/foundry/records/actor/actorviewlimits/aimlimits/playeraimlimits.xml">
+  <aimLimitsStateFilters>
+    <ActorAimLimitsStateFilter filterByState="Usable" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="ProneBack" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" __type="ActorStateFilter" __polymorphicType="ActorAimLimitsStateFilter">
+      <aimLimits minYaw="-175" maxYaw="175" minPitch="-2" maxPitch="180" __type="ActorViewLimits" />
+    </ActorAimLimitsStateFilter>
+    <ActorAimLimitsStateFilter filterByState="Any" filterByMotionSpeed="Sprint" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" __type="ActorStateFilter" __polymorphicType="ActorAimLimitsStateFilter">
+      <aimLimits minYaw="-175" maxYaw="175" minPitch="-85" maxPitch="60" __type="ActorViewLimits" />
+    </ActorAimLimitsStateFilter>
+    <ActorAimLimitsStateFilter filterByState="Ground" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="ProneBack" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="mobiGlas" filterBySkeleton="Any" __type="ActorStateFilter" __polymorphicType="ActorAimLimitsStateFilter">
+      <aimLimits minYaw="-10" maxYaw="10" minPitch="0" maxPitch="20" __type="ActorViewLimits" />
+    </ActorAimLimitsStateFilter>
+    <ActorAimLimitsStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="ProneBack" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="mobiGlas" filterBySkeleton="Any" __type="ActorStateFilter" __polymorphicType="ActorAimLimitsStateFilter">
+      <aimLimits minYaw="-10" maxYaw="10" minPitch="40" maxPitch="90" __type="ActorViewLimits" />
+    </ActorAimLimitsStateFilter>
+    <ActorAimLimitsStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="mobiGlas" filterBySkeleton="Any" __type="ActorStateFilter" __polymorphicType="ActorAimLimitsStateFilter">
+      <aimLimits minYaw="-10" maxYaw="10" minPitch="-10" maxPitch="10" __type="ActorViewLimits" />
+    </ActorAimLimitsStateFilter>
+    <ActorAimLimitsStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Crouch" filterByAimStanceState="Ready" filterByLeanState="Any" filterByHeldItemType="MediPenHeal" filterBySkeleton="Any" __type="ActorStateFilter" __polymorphicType="ActorAimLimitsStateFilter">
+      <aimLimits minYaw="-175" maxYaw="175" minPitch="-85" maxPitch="85" __type="ActorViewLimits" />
+    </ActorAimLimitsStateFilter>
+    <ActorAimLimitsStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="UnarmedCombat" filterByStanceState="Crouch" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" __type="ActorStateFilter" __polymorphicType="ActorAimLimitsStateFilter">
+      <aimLimits minYaw="-175" maxYaw="175" minPitch="-55" maxPitch="85" __type="ActorViewLimits" />
+    </ActorAimLimitsStateFilter>
+    <ActorAimLimitsStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Crouch" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="MeleeMode" filterBySkeleton="Any" __type="ActorStateFilter" __polymorphicType="ActorAimLimitsStateFilter">
+      <aimLimits minYaw="-175" maxYaw="175" minPitch="-55" maxPitch="85" __type="ActorViewLimits" />
+    </ActorAimLimitsStateFilter>
+    <ActorAimLimitsStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="CombatThrowable" filterBySkeleton="Any" __type="ActorStateFilter" __polymorphicType="ActorAimLimitsStateFilter">
+      <aimLimits minYaw="-175" maxYaw="175" minPitch="-85" maxPitch="85" __type="ActorViewLimits" />
+    </ActorAimLimitsStateFilter>
+    <ActorAimLimitsStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" __type="ActorStateFilter" __polymorphicType="ActorAimLimitsStateFilter">
+      <aimLimits minYaw="-175" maxYaw="175" minPitch="-85" maxPitch="85" __type="ActorViewLimits" />
+    </ActorAimLimitsStateFilter>
+  </aimLimitsStateFilters>
+</ActorAimLimits.PlayerAimLimits>

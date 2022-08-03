@@ -1,0 +1,8 @@
+<MineableComposition.TestAsteroid depositName="@hud_mining_asteroid_name_1" minimumDistinctElements="1" __type="MineableComposition" __ref="f8cc16ef-2c8f-49c0-9e53-2bd755da473d" __path="libs/foundry/records/mining/rockcompositionpresets/testasteroid.xml">
+  <compositionArray>
+    <MineableCompositionPart mineableElement="3776294d-5689-41f2-b03d-e8fcd17ede6a" minPercentage="3.7" maxPercentage="4.5" probability="1" curveExponent="1" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="b471b96c-efbb-4342-90de-cfa087604d8e" minPercentage="0.3" maxPercentage="0.9" probability="0.5" curveExponent="1" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="7b9055e5-6d62-44dd-a725-a31d838301eb" minPercentage="1" maxPercentage="1.9" probability="0.6" curveExponent="1" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="efb89e24-486d-4eee-ab5c-85b90a3bdad1" minPercentage="0.1" maxPercentage="0.4" probability="0.3" curveExponent="1" __type="MineableCompositionPart" />
+  </compositionArray>
+</MineableComposition.TestAsteroid>

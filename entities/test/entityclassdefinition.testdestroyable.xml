@@ -1,0 +1,203 @@
+<EntityClassDefinition.TestDestroyable Category="Default" Icon="Default.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="df1deb7e-6476-4713-be62-344a6e809141" __path="libs/foundry/records/entities/test/entityclassdefinition.testdestroyable.xml">
+  <tags />
+  <StaticEntityClassData />
+  <Components>
+    <SGeometryResourceParams cacheResources="0" rootOverridePaint="0" inheritModelTagFromHost="1" __type="DataForgeComponentParams" __polymorphicType="SGeometryResourceParams">
+      <ModelTag>
+      </ModelTag>
+      <Geometry Tags="" ScaleMultiplier="1" __type="SGeometryNodeParams">
+        <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+          <Geometry path="objects/buildingsets/human/lowtech/prop/storage/cell/cell_fuel_1_a.cgf" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+          <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+          <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        </Geometry>
+        <SubGeometry>
+          <SGeometryNodeParams Tags="Destroyed" ScaleMultiplier="1" __type="SGeometryNodeParams">
+            <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+              <Geometry path="objects/buildingsets/human/lowtech/prop/storage/cell/cell_fuel_1_a_50_a.cgf" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+              <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+              <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+            </Geometry>
+            <SubGeometry />
+          </SGeometryNodeParams>
+          <SGeometryNodeParams Tags="Exploded" ScaleMultiplier="1" __type="SGeometryNodeParams">
+            <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+              <Geometry path="objects/buildingsets/human/lowtech/prop/storage/cell/cell_fuel_1_a_100_a.cgf" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+              <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+              <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+            </Geometry>
+            <SubGeometry />
+          </SGeometryNodeParams>
+        </SubGeometry>
+      </Geometry>
+      <Material Tags="" __type="SMaterialNodeParams">
+        <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+        <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        <materialVariants />
+      </Material>
+    </SGeometryResourceParams>
+    <SEntityPhysicsControllerParams __type="DataForgeComponentParams" __polymorphicType="SEntityPhysicsControllerParams">
+      <PhysType>
+        <SEntityRigidPhysicsControllerParams Mass="100" maxLoggedCollisions="1" Damping="0" DampingFreefall="0.05" PushableByPlayers="1" NeverAffectTriggers="0" UseManualGridTransition="0" BlocksNavigation="1" Kinematic="0" Resting="0" physicalizeAllSlots="1" __type="SEntityBasePhysicsControllerParams" __polymorphicType="SEntityRigidPhysicsControllerParams">
+          <breakableParams>
+          </breakableParams>
+          <gameCollisionClass>
+          </gameCollisionClass>
+          <grid>
+          </grid>
+          <buoyancyParams>
+          </buoyancyParams>
+          <temperature enable="0" initialTemperature="-1" internalTemperatureGeneration="0" __type="EntityTemperature" />
+        </SEntityRigidPhysicsControllerParams>
+      </PhysType>
+    </SEntityPhysicsControllerParams>
+    <SHealthComponentParams Health="20" ClientOnly="0" UnlockInteractionsOnDeath="0" PushDamageUpPartsHeirarchyWhenDead="1" DetachFromItemPortOnDeath="0" DetachFromEntityOnDeath="0" PropagateExplosionDamageToChildren="0" UseDirtShaderForDamage="1" DestroyedGeometryTag="Destroyed" ExplodedGeometryTag="Exploded" DebrisGeometryTag="" ExplosionDelayTime="0.5" ExplosionRandomDelayRange="3" ExplosionBone="" __type="DataForgeComponentParams" __polymorphicType="SHealthComponentParams">
+      <DamageResistances>
+        <DamageResistance __type="DamageResistanceBase" __polymorphicType="DamageResistance">
+          <PhysicalResistance Multiplier="1" Threshold="0" __type="DamageResistanceEntry" />
+          <EnergyResistance Multiplier="1" Threshold="0" __type="DamageResistanceEntry" />
+          <DistortionResistance Multiplier="1" Threshold="0" __type="DamageResistanceEntry" />
+          <ThermalResistance Multiplier="1" Threshold="0" __type="DamageResistanceEntry" />
+          <BiochemicalResistance Multiplier="1" Threshold="0" __type="DamageResistanceEntry" />
+          <StunResistance Multiplier="1" Threshold="0" __type="DamageResistanceEntry" />
+        </DamageResistance>
+      </DamageResistances>
+      <InitialDamage>
+      </InitialDamage>
+      <HealthLevelStates />
+      <DeathExplosionParams>
+        <ExplosionParams friendlyFire="None" minRadius="2.5" maxRadius="5" soundRadius="50" minPhysRadius="2.5" maxPhysRadius="5" angle="0" angleVertical="0" pressure="200" holeSize="0" terrainHoleSize="3" maxblurdist="10" effectScale="1" useRandomScale="0" effectScaleMin="1" effectScaleMax="1" hitType="explosion" customMaterialEffect="" particleStrength="-1" radarContactType="00000000-0000-0000-0000-000000000000" __type="ExplosionParams">
+          <explosionFront x="0" y="0" z="0" __type="Vec3" />
+          <explosionUp x="0" y="0" z="1" __type="Vec3" />
+          <damage>
+            <DamageInfo DamagePhysical="30" DamageEnergy="0" DamageDistortion="0" DamageThermal="0" DamageBiochemical="0" DamageStun="0" __type="DamageBase" __polymorphicType="DamageInfo" />
+          </damage>
+          <flashbangParams>
+          </flashbangParams>
+          <shockwaveParams>
+          </shockwaveParams>
+          <effect path="Environments\Generic\Generic_Explosions.LT_EXPLOSIONS.lt_explosion_single_1m3_once_1" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+          <failedEffect path="FPS_Weapons\Ammo\Weapons_Ammo_5mm_rifle_ballistic.Smoke" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+          <sound audioTrigger="Play_CGGT_FuelCanister_Explosion" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          <failedSound audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          <materialEffectEntry>
+          </materialEffectEntry>
+          <Offset x="0" y="0" z="0" __type="Vec3" />
+          <Direction x="0" y="0" z="1" __type="Vec3" />
+        </ExplosionParams>
+      </DeathExplosionParams>
+      <DeathGasComposition>
+        <SGasMass Gas="ac23c863-f346-4df5-9ad6-b3b534e2a6fe" Mass="0.5" __type="SGasMass" />
+      </DeathGasComposition>
+      <InteractionLocks />
+      <DamageMapParams>
+      </DamageMapParams>
+    </SHealthComponentParams>
+    <SEntityComponentEffects __type="DataForgeComponentParams" __polymorphicType="SEntityComponentEffects">
+      <entityEffects __type="SEntitityEffectSystem_SystemBase" __polymorphicType="SEntitityEffectSystem_System">
+        <particleEffects>
+          <SEntityEffectSystem_ParticleCategory enabled="1" allowMultipleTags="1" __type="SEntityEffectSystem_Category" __polymorphicType="SEntityEffectSystem_ParticleCategory">
+            <tagEffects />
+            <triggerEffects>
+              <SEntityEffectSystem_ParticleTriggerEffect name="" enabled="1" primed="0" holographic="0" updateEntityBounds="0" clipToVisArea="Local" gpuVisAreaCullingMode="Default" trigger="c665b699-4a7c-4a2b-9ff5-e361b39fa938" __type="SEntityEffectSystem_Effect" __polymorphicType="SEntityEffectSystem_ParticleTriggerEffect">
+                <particleEffect path="Environments\Generic\Generic_Spark_FX.Repair_sparks.short_weld" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+                <attachmentSettings>
+                  <SEntityEffectSystem_Attachment_EntitySlot offsetParameter="00000000-0000-0000-0000-000000000000" __type="SEntityEffectSystem_Attachment" __polymorphicType="SEntityEffectSystem_Attachment_EntitySlot">
+                    <offset __type="QuatT">
+                      <Rotation x="0" y="0" z="1" __type="Ang3" />
+                      <Position x="0" y="0" z="0" __type="Vec3" />
+                    </offset>
+                  </SEntityEffectSystem_Attachment_EntitySlot>
+                </attachmentSettings>
+                <propertyLinks />
+              </SEntityEffectSystem_ParticleTriggerEffect>
+              <SEntityEffectSystem_ParticleTriggerEffect name="" enabled="1" primed="0" holographic="0" updateEntityBounds="0" clipToVisArea="Local" gpuVisAreaCullingMode="Default" trigger="c7d52ac4-2a9e-4951-b660-e3c34387ebb0" __type="SEntityEffectSystem_Effect" __polymorphicType="SEntityEffectSystem_ParticleTriggerEffect">
+                <particleEffect path="Environments\Generic\Generic_Spark_FX.HT_Sparks_BLAST.ht_sparks_blast_4m_once_1" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+                <attachmentSettings>
+                  <SEntityEffectSystem_Attachment_EntitySlot offsetParameter="00000000-0000-0000-0000-000000000000" __type="SEntityEffectSystem_Attachment" __polymorphicType="SEntityEffectSystem_Attachment_EntitySlot">
+                    <offset __type="QuatT">
+                      <Rotation x="0" y="0" z="0" __type="Ang3" />
+                      <Position x="0" y="0" z="0" __type="Vec3" />
+                    </offset>
+                  </SEntityEffectSystem_Attachment_EntitySlot>
+                </attachmentSettings>
+                <propertyLinks />
+              </SEntityEffectSystem_ParticleTriggerEffect>
+            </triggerEffects>
+          </SEntityEffectSystem_ParticleCategory>
+        </particleEffects>
+        <materialEffects>
+        </materialEffects>
+        <soundEffects>
+        </soundEffects>
+        <audioEnvironmentEffects>
+        </audioEnvironmentEffects>
+        <lightEffects>
+          <EntityEffectSystem_LightCategory enabled="1" allowMultipleTags="1" __type="SEntityEffectSystem_Category" __polymorphicType="EntityEffectSystem_LightCategory">
+            <tagEffects>
+              <EntityEffectSystem_LightTagEffect name="" enabled="1" useTemperature="0" colorTemperature="6500" diffuseMultiplier="1" viewDistanceRatio="100" castShadow="0" shadowQualityCap="Full" maxShadowCastDistance="0" ambient="0" softBulb="0" fakeLight="0" affectsFog="1" affectThisAreaOnly="0" holographic="0" visibleThirdPerson="1" visibleFirstPerson="1" visibleShadows="1" lightImportance="Standard" tag="4b2a7fcd-3acc-48d6-b482-9f9521b8266e" __type="SEntityEffectSystem_Effect" __polymorphicType="EntityEffectSystem_LightTagEffect">
+                <color r="1" g="0.003346536" b="0.003346536" __type="RGB" />
+                <lightType>
+                  <EntityEffectSystem_LightType_PointLight radius="4" attenuationBulbSize="0" __type="EntityEffectSystem_LightType" __polymorphicType="EntityEffectSystem_LightType_PointLight" />
+                </lightType>
+                <lightLink>
+                </lightLink>
+                <flare flareEnabled="0" flare="" flareFOV="360" flareScale="1" attachToSun="0" __type="LightFlareParams" />
+                <attachmentSettings>
+                  <SEntityEffectSystem_Attachment_EntitySlot offsetParameter="00000000-0000-0000-0000-000000000000" __type="SEntityEffectSystem_Attachment" __polymorphicType="SEntityEffectSystem_Attachment_EntitySlot">
+                    <offset __type="QuatT">
+                      <Rotation x="0" y="0" z="0" __type="Ang3" />
+                      <Position x="0" y="0" z="1" __type="Vec3" />
+                    </offset>
+                  </SEntityEffectSystem_Attachment_EntitySlot>
+                </attachmentSettings>
+                <propertyLinks>
+                  <EntityEffectSystem_LightPropertyLink parameterName="803c7a01-f44a-4856-868c-76375303919c" lightProperty="Intensity" __type="SEntityEffectSystem_PropertyLink" __polymorphicType="EntityEffectSystem_LightPropertyLink">
+                    <modifiers />
+                  </EntityEffectSystem_LightPropertyLink>
+                </propertyLinks>
+              </EntityEffectSystem_LightTagEffect>
+              <EntityEffectSystem_LightTagEffect name="" enabled="1" useTemperature="0" colorTemperature="6500" diffuseMultiplier="1" viewDistanceRatio="100" castShadow="0" shadowQualityCap="Full" maxShadowCastDistance="0" ambient="0" softBulb="0" fakeLight="0" affectsFog="1" affectThisAreaOnly="0" holographic="0" visibleThirdPerson="1" visibleFirstPerson="1" visibleShadows="1" lightImportance="Standard" tag="dede0c7f-cac6-4a36-b1b7-2e2744fccfa4" __type="SEntityEffectSystem_Effect" __polymorphicType="EntityEffectSystem_LightTagEffect">
+                <color r="0.01096009" g="0.7230551" b="0.006048833" __type="RGB" />
+                <lightType>
+                  <EntityEffectSystem_LightType_PointLight radius="4" attenuationBulbSize="0" __type="EntityEffectSystem_LightType" __polymorphicType="EntityEffectSystem_LightType_PointLight" />
+                </lightType>
+                <lightLink>
+                </lightLink>
+                <flare flareEnabled="0" flare="" flareFOV="360" flareScale="1" attachToSun="0" __type="LightFlareParams" />
+                <attachmentSettings>
+                  <SEntityEffectSystem_Attachment_EntitySlot offsetParameter="00000000-0000-0000-0000-000000000000" __type="SEntityEffectSystem_Attachment" __polymorphicType="SEntityEffectSystem_Attachment_EntitySlot">
+                    <offset __type="QuatT">
+                      <Rotation x="0" y="0" z="0" __type="Ang3" />
+                      <Position x="0" y="0" z="1" __type="Vec3" />
+                    </offset>
+                  </SEntityEffectSystem_Attachment_EntitySlot>
+                </attachmentSettings>
+                <propertyLinks />
+              </EntityEffectSystem_LightTagEffect>
+            </tagEffects>
+            <triggerEffects />
+          </EntityEffectSystem_LightCategory>
+        </lightEffects>
+        <uiOwnerEffects>
+        </uiOwnerEffects>
+        <sequencerTags />
+      </entityEffects>
+      <staticValues />
+      <staticColors />
+      <tagsToEnableOnLoad />
+      <triggersToEnableOnLoad />
+    </SEntityComponentEffects>
+    <SEntityInteractableParams __type="DataForgeComponentParams" __polymorphicType="SEntityInteractableParams">
+      <Interactable __type="SInteractableParams">
+        <SharedInteractions />
+        <InteractionPoints />
+        <interactionTasks />
+        <actionHandlerTasks />
+        <itemActionTasks />
+        <menuTitle>
+        </menuTitle>
+      </Interactable>
+    </SEntityInteractableParams>
+  </Components>
+</EntityClassDefinition.TestDestroyable>

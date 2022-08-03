@@ -1,0 +1,13 @@
+<MineableComposition.TestCompositionPreset depositName="@hud_mining_rock_name_1" minimumDistinctElements="1" __type="MineableComposition" __ref="7fd5b716-8e47-424b-87b4-4e475bd179a1" __path="libs/foundry/records/mining/rockcompositionpresets/testcompositionpreset.xml">
+  <compositionArray>
+    <MineableCompositionPart mineableElement="f2f5bf2e-87f9-4f3d-bb59-b4e11eceeaad" minPercentage="0.01" maxPercentage="0.2" probability="0.1" curveExponent="1" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="3776294d-5689-41f2-b03d-e8fcd17ede6a" minPercentage="0.5" maxPercentage="2.1" probability="0.7" curveExponent="1" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="7b9055e5-6d62-44dd-a725-a31d838301eb" minPercentage="0.3" maxPercentage="1.5" probability="0.5" curveExponent="1" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="1d35c0bc-9142-42ff-8a83-0ec68d69a128" minPercentage="0.1" maxPercentage="1" probability="0.6" curveExponent="1" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="cad02f99-292c-4ee4-93cc-a73868f11ddb" minPercentage="1" maxPercentage="2" probability="0.5" curveExponent="1" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="b471b96c-efbb-4342-90de-cfa087604d8e" minPercentage="4" maxPercentage="5" probability="0.4" curveExponent="1" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="efb89e24-486d-4eee-ab5c-85b90a3bdad1" minPercentage="0.3" maxPercentage="3" probability="0.6" curveExponent="1" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="8375a8d8-1627-4d35-ae91-6f39b373c3ad" minPercentage="1" maxPercentage="2" probability="0.2" curveExponent="1" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="8f6a7e06-934d-4339-a0a2-75420b81369a" minPercentage="4" maxPercentage="6" probability="0.34" curveExponent="1" __type="MineableCompositionPart" />
+  </compositionArray>
+</MineableComposition.TestCompositionPreset>

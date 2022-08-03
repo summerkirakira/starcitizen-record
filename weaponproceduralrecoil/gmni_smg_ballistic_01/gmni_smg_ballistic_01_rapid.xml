@@ -1,0 +1,15 @@
+<WeaponProceduralRecoilConfigDef.gmni_smg_ballistic_01_rapid __type="WeaponProceduralRecoilConfigDef" __ref="f5e4d845-bb1b-4f04-877c-9ee8b8945203" __path="libs/foundry/records/weaponproceduralrecoil/gmni_smg_ballistic_01/gmni_smg_ballistic_01_rapid.xml">
+  <weaponProceduralHandsRecoil decay="14" endDecay="13" fireRecoilTime="0.02" fireRecoilStrengthFirst="2.25" fireRecoilStrength="1.7" angleRecoilStrength="0" useRandomRotation="0" randomness="0.1" randomnessBackPush="1" frontalOscillationRotation="0.4" frontalOscillationStrength="30" frontalOscillationDecay="10" frontalOscillationRandomness="0.4" __type="SWeaponProceduralHandsRecoilConfigDef">
+    <rotation x="0" y="0" z="0" __type="Ang3" />
+  </weaponProceduralHandsRecoil>
+  <weaponProceduralAimRecoil pull_left_percentage="0.5" random_pitch="0.2" random_yaw="0.05" decay="11" end_decay="20" recoil_time="0" delay="0" __type="SWeaponProceduralAimRecoilConfigDef">
+    <max x="3" y="18" __type="Vec2" />
+    <shot_kick_first x="0.05" y="1.275" __type="Vec2" />
+    <shot_kick x="0.05" y="1.21" __type="Vec2" />
+  </weaponProceduralAimRecoil>
+  <weaponProceduralBodyRecoil hipsPushForce="0.003" hipsDampStrength="3" hipsDampStrengthEnd="5" spinePushForceFirst="0.005" spinePushForce="0.005" spineDampStrength="5" spineDampStrengthEnd="5" __type="SWeaponProceduralBodyRecoilConfigDef" />
+  <weaponProceduralHeadRecoil frequency="15" smoothFactor="0.5" frequencyNoiseFactor="1" maxDistance="0.03" phase="0" translationNoise="0" rotationNoise="1.25" usePerlinNoise="1" referenceSpeed="5" minSpeed="0" minScale="0" maxSpeed="0" maxScale="0" __type="SWeaponProceduralHeadRecoilConfigDef">
+    <translation x="0.15" y="0" z="0" __type="Vec3" />
+    <rotation x="1" y="2.5" z="1" __type="Ang3" />
+  </weaponProceduralHeadRecoil>
+</WeaponProceduralRecoilConfigDef.gmni_smg_ballistic_01_rapid>

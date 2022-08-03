@@ -1,0 +1,1468 @@
+<EntityClassDefinition.grin_multitool_01_orange01 Category="Default" Icon="Default.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="7b8a3cc5-7083-4293-97e7-c1b8a26daba5" __path="libs/foundry/records/entities/scitem/weapons/fps_weapons/grin_multitool_01_orange01.xml">
+  <tags>
+    <Reference value="e6471cdd-5456-4a7c-91f3-8088c5bc067b" />
+    <Reference value="4b98a74f-aeca-48b7-aba8-92ced1edc981" />
+    <Reference value="042205a5-fe47-4486-8702-3ae5c62217f4" />
+    <Reference value="5558f6d3-adac-4797-ae75-d5863c21ff21" />
+    <Reference value="12be6f94-b692-4100-b0f0-fd391f01d019" />
+    <Reference value="1cf0acb5-fdda-4e5c-8642-6dc1eed76e8e" />
+    <Reference value="fafeae24-4826-4320-b646-509e55ce0d19" />
+    <Reference value="bed8e09b-a5f2-4f4e-9be9-ab618ebfbd58" />
+    <Reference value="b2d22876-fb2b-4f73-b9e6-d4fa00a7e7eb" />
+    <Reference value="dfbc6af5-6211-4d71-8d10-b64c66ea95a9" />
+  </tags>
+  <StaticEntityClassData>
+    <DefaultEntitlementEntityParams entitlementPolicy="8a1fdd48-7896-4774-a110-2466190e1a07" canEntitleThroughWebsite="1" __type="EntityClassStaticDataParams" __polymorphicType="DefaultEntitlementEntityParams" />
+  </StaticEntityClassData>
+  <Components>
+    <SEntityPhysicsControllerParams __type="DataForgeComponentParams" __polymorphicType="SEntityPhysicsControllerParams">
+      <PhysType>
+        <SEntityRigidPhysicsControllerParams Mass="1.5" maxLoggedCollisions="1" Damping="0" DampingFreefall="0.05" PushableByPlayers="1" NeverAffectTriggers="0" UseManualGridTransition="0" BlocksNavigation="1" Kinematic="0" Resting="0" physicalizeAllSlots="1" __type="SEntityBasePhysicsControllerParams" __polymorphicType="SEntityRigidPhysicsControllerParams">
+          <breakableParams>
+          </breakableParams>
+          <gameCollisionClass>
+          </gameCollisionClass>
+          <grid>
+          </grid>
+          <buoyancyParams>
+          </buoyancyParams>
+          <temperature enable="0" initialTemperature="-1" internalTemperatureGeneration="0" __type="EntityTemperature" />
+        </SEntityRigidPhysicsControllerParams>
+      </PhysType>
+    </SEntityPhysicsControllerParams>
+    <SAttachableComponentParams attachToTileItemPort="NoConnection" __type="DataForgeComponentParams" __polymorphicType="SAttachableComponentParams">
+      <AttachDef Type="WeaponPersonal" SubType="Gadget" Size="1" Grade="1" Manufacturer="819545f4-18af-49a6-814e-ca4fd08f56e5" inheritParentManufacturer="0" Tags="stocked multitool SM_RestrictedWep" RequiredTags="" DisplayType="" __type="SItemDefinition">
+        <Localization Name="@item_Namegrin_multitool_01_orange01" ShortName="@item_Namegrin_multitool_01_orange01_short" Description="@item_Descgrin_multitool_01_orange01" __type="SCItemLocalization">
+          <displayFeatures LogoSimplifiedWhite="" FrontendBackground="" History="@LOC_EMPTY" Callout1="@LOC_EMPTY" Callout2="@LOC_EMPTY" Callout3="@LOC_EMPTY" UIPriority="0" __type="SCExtendedLocalizationLevelParams">
+            <locationAudioPlayTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+            <locationAudioStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </displayFeatures>
+        </Localization>
+        <mannequinTags mannequinClassTag="grin_multitool_01" mannequinTypeTag="" mannequinBaseTag="" __type="SCItemMannequinTags" />
+        <inventoryOccupancyVolume>
+          <SMicroCargoUnit microSCU="1700" __type="SBaseCargoUnit" __polymorphicType="SMicroCargoUnit" />
+        </inventoryOccupancyVolume>
+        <inventoryOccupancyDimensions x="0.0612" y="0.2677" z="0.125" __type="Vec3" />
+        <inventoryOccupancyDimensionsUIOverride>
+          <Vec3 x="0.38" y="0.38" z="0.38" __type="Vec3" />
+        </inventoryOccupancyDimensionsUIOverride>
+      </AttachDef>
+      <entityAttachParams>
+      </entityAttachParams>
+    </SAttachableComponentParams>
+    <SEntityComponentCarryableParams pickupInteraction="Interactable.SharedInteractions[0]" carryInteraction="Interactable.SharedInteractions[7]" placeInteraction="Interactable.SharedInteractions[9]" dropInteraction="Interactable.SharedInteractions[6]" stowInteraction="Interactable.SharedInteractions[2]" offHandStowInteraction="Interactable.SharedInteractions[3]" storeInteraction="Interactable.SharedInteractions[4]" offHandStoreInteraction="Interactable.SharedInteractions[5]" equipInteraction="Interactable.SharedInteractions[1]" inspectInteraction="Interactable.SharedInteractions[8]" flipInteraction="null" swapAttachmentsInteraction="Interactable.SharedInteractions[12]" enslavementAnimationDatabase="animations/mannequin/adb/players/items/weapons/grin_multitool_01.adb" interactionPointToMoveOnEquip="Interactable.InteractionPoints" canBeCarriedInProne="1" __type="DataForgeComponentParams" __polymorphicType="SEntityComponentCarryableParams">
+      <carryableStatesParams settledState="StateTypes.SInteractionStateType.States[0]" carriedState="StateTypes.SInteractionStateType.States[1]" stowedState="StateTypes.SInteractionStateType.States[2]" inspectingState="StateTypes.SInteractionStateType.States[3]" droppedState="StateTypes.SInteractionStateType.States[4]" offeredState="null" equippedState="StateTypes.SInteractionStateType.States[5]" __type="SCarryableStatesParams" />
+      <interactionPointOffsets __type="SCarryableInteractionPointOffsets">
+        <interactionOffsetEquipped __type="QuatT">
+          <Rotation x="0" y="0" z="0" __type="Ang3" />
+          <Position x="0.125" y="0.85" z="0" __type="Vec3" />
+        </interactionOffsetEquipped>
+        <interactionOffsetCarried __type="QuatT">
+          <Rotation x="0" y="0" z="0" __type="Ang3" />
+          <Position x="0.05" y="0.05" z="0" __type="Vec3" />
+        </interactionOffsetCarried>
+        <interactionOffsetInspected __type="QuatT">
+          <Rotation x="0" y="0" z="0" __type="Ang3" />
+          <Position x="0" y="0.05" z="0.05" __type="Vec3" />
+        </interactionOffsetInspected>
+      </interactionPointOffsets>
+      <gripData gripOverrideUsingLOS="0" __type="SGripContainer">
+        <grips>
+          <SCarryableGrip carryStyleID="Right" canBeUsedBy="All" handMode="RightHand" __type="SCarryableGrip">
+            <handGrip gripID="" optionalHelper="root" __type="SGrip">
+              <gripShapeParameters gripShape="gs_none" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </handGrip>
+            <offHandGrip>
+            </offHandGrip>
+            <animationParameters motionBase="1hr" handTag="" __type="SCarryAnimationParams" />
+            <carryParameters width="0" height="0" depth="0" __type="SCarryParams" />
+          </SCarryableGrip>
+          <SCarryableGrip carryStyleID="Left" canBeUsedBy="All" handMode="LeftHand" __type="SCarryableGrip">
+            <handGrip gripID="" optionalHelper="root" __type="SGrip">
+              <gripShapeParameters gripShape="gs_none" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </handGrip>
+            <offHandGrip>
+            </offHandGrip>
+            <animationParameters motionBase="1hl" handTag="" __type="SCarryAnimationParams" />
+            <carryParameters width="0" height="0" depth="0" __type="SCarryParams" />
+          </SCarryableGrip>
+        </grips>
+      </gripData>
+      <abilityLocks />
+      <carryableTasks>
+        <SSequencerMoveToAnimateCarryableTaskParams fragmentId="Take" fragTag="" __type="SSequencerDefTaskParams" __polymorphicType="SSequencerMoveToAnimateCarryableTaskParams" />
+        <SSequencerBespokeTakeCarryableTaskParams fragmentId="Take" fragTag="" __type="SSequencerDefTaskParams" __polymorphicType="SSequencerBespokeTakeCarryableTaskParams" />
+        <SSequencerSetInteractionStateCarryableTaskParams state="StateTypes.SInteractionStateType.States[7]" __type="SSequencerDefTaskParams" __polymorphicType="SSequencerSetInteractionStateCarryableTaskParams" />
+        <SSequencerMoveToAnimateCarryableTaskParams fragmentId="Place" fragTag="" __type="SSequencerDefTaskParams" __polymorphicType="SSequencerMoveToAnimateCarryableTaskParams" />
+        <SSequencerBespokePlaceCarryableTaskParams fragmentId="Place" fragTag="" __type="SSequencerDefTaskParams" __polymorphicType="SSequencerBespokePlaceCarryableTaskParams" />
+        <SSequencerFirstSelectCarryableTaskParams __type="SSequencerDefTaskParams" __polymorphicType="SSequencerFirstSelectCarryableTaskParams" />
+        <SSequencerSetInteractionStateCarryableTaskParams state="StateTypes.SInteractionStateType.States[0]" __type="SSequencerDefTaskParams" __polymorphicType="SSequencerSetInteractionStateCarryableTaskParams" />
+      </carryableTasks>
+      <throwableParams reticle="none" faceUpWhenSettled="0" allowHologramTiltRotation="0" placementRange="3" placementRangeHysteresis="0.5" yawOffset="0" applyBoundingBoxPlacementOffset="0" combatThrowable="0" __type="SThrowableParams">
+        <throwModes>
+          <SThrowMode mode="Drop" __type="SThrowMode">
+            <angularVelocity x="0" y="0" z="0" __type="Vec3" />
+            <offset x="0" y="0" z="0" __type="Vec3" />
+          </SThrowMode>
+          <SThrowMode mode="Place" __type="SThrowMode">
+            <angularVelocity x="0" y="0" z="0" __type="Vec3" />
+            <offset x="0" y="0" z="0" __type="Vec3" />
+          </SThrowMode>
+          <SThrowMode mode="OverhandThrow" __type="SThrowMode">
+            <angularVelocity x="0" y="0" z="0" __type="Vec3" />
+            <offset x="0" y="0" z="0" __type="Vec3" />
+          </SThrowMode>
+          <SThrowMode mode="InteractionMode" __type="SThrowMode">
+            <angularVelocity x="0" y="0" z="0" __type="Vec3" />
+            <offset x="0" y="0" z="0" __type="Vec3" />
+          </SThrowMode>
+        </throwModes>
+        <audioParams onCollisionAudioPerceptionInfo="SmallSound" onCollisionAudioPerceptionRadius="20" __type="SThrowAudioParams">
+          <onThrownAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          <onCollisionAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          <collisionSpeedAudioRTPC rtpc="" __type="AudioRtpc" />
+        </audioParams>
+        <defaultPlacementUpDirection x="1" y="0" z="0" __type="Vec3" />
+      </throwableParams>
+      <equipableParams itemPort="" __type="SCEquipableParams" />
+    </SEntityComponentCarryableParams>
+    <SEntityInteractableParams __type="DataForgeComponentParams" __polymorphicType="SEntityInteractableParams">
+      <Interactable __type="SInteractableParams">
+        <SharedInteractions>
+          <SSharedInteractionParams Name="Grab" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_grab" DisplayType="Show" GenericCursor="Grab" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="cfbf64fc-515a-4777-835d-4328af0d3003" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="CarryReady" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_carry" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="3370f020-1774-47d5-a75b-5486986e6cea" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Equip" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_equip" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="53fd2b94-69e5-4a49-a9ad-4eae4a70b471" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="OffHandEquip" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_equip" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="53fd2b94-69e5-4a49-a9ad-4eae4a70b471" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Store" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_store" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="29323715-dae3-41f0-8680-07aa4307e9ca" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="OffHandStore" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_store" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="29323715-dae3-41f0-8680-07aa4307e9ca" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Drop" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_drop" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="901b0193-5e7c-4a9b-9dc6-0a5af5420e51" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="CarryLowered" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_carry_lowered" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="f5e13f32-3097-46d1-b863-5bfae1c846c0" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Inspect" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@innerthought_inspect" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="2f90a95d-d090-447b-9620-125f31599e2c" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Place" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_place" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="9e196f93-d77e-4d6e-80b4-2378dcbbf0bf" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="VendorInspect" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@innerthought_inspect" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="VendorReturn" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@Armory_Return" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Customize" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_customize" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="045457b7-33dd-49ed-9221-04cdc4fc1757" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="BespokePlace" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_place" DisplayType="Hide" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+        </SharedInteractions>
+        <InteractionPoints>
+          <SInteractionPointParams FirstInteractionPrimary="1" UseHelperLocation="1" ShowHighlight="1" ApplyToEntireSkeleton="0" longRangeIP="0" HelperName="root" TextJustification="Middle" TextOrientation="RotateToPlayer" TextScale="1" Radius="1.85" MaxCursorScreenDistance="2" ShowInnerThoughtsOffScreen="0" OnlySelectableInLookDir="1" __type="SInteractionPointParams">
+            <HighlightBehaviors />
+            <AdditionalCollisionBones />
+            <Offset __type="QuatT">
+              <Rotation x="0" y="0" z="0" __type="Ang3" />
+              <Position x="0" y="0" z="0" __type="Vec3" />
+            </Offset>
+            <AngleConstraint angleRange="181" __type="SAngleConstraint">
+              <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+            </AngleConstraint>
+            <SpherePrimitive>
+            </SpherePrimitive>
+            <Interactions>
+              <SInteractionParams Interaction="Interactable.SharedInteractions[0]" DisplayName="@LOC_EMPTY" IsPrimary="1" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[1]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[2]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[3]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[4]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[5]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[7]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[6]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[8]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[9]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[10]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[11]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[12]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+            </Interactions>
+          </SInteractionPointParams>
+        </InteractionPoints>
+        <interactionTasks />
+        <actionHandlerTasks />
+        <itemActionTasks />
+        <menuTitle>
+          <SInteractableMenuTitleParams titleColor="a3dead36-7a01-4244-8d76-1ae6099777b0" __type="SInteractableMenuTitleParams" />
+        </menuTitle>
+      </Interactable>
+    </SEntityInteractableParams>
+    <SGeometryResourceParams cacheResources="0" rootOverridePaint="0" inheritModelTagFromHost="1" __type="DataForgeComponentParams" __polymorphicType="SGeometryResourceParams">
+      <ModelTag>
+      </ModelTag>
+      <Geometry Tags="" ScaleMultiplier="1" __type="SGeometryNodeParams">
+        <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+          <Geometry path="Objects/fps_weapons/gadgets/grin/multitool/gdgt_fps_grin_multitool.cdf" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+          <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+          <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        </Geometry>
+        <SubGeometry>
+          <SGeometryNodeParams Tags="Brown01" ScaleMultiplier="1" __type="SGeometryNodeParams">
+            <Geometry Slot="Main" MaterialAttachments="body,parts" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+              <Geometry path="Objects/fps_weapons/gadgets/grin/multitool/gdgt_fps_grin_multitool.cdf" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+              <Material path="Objects/fps_weapons/gadgets/grin/multitool/gdgt_fps_grin_multitool_mirage_mat.mtl" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+              <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+            </Geometry>
+            <SubGeometry />
+          </SGeometryNodeParams>
+          <SGeometryNodeParams Tags="Red01" ScaleMultiplier="1" __type="SGeometryNodeParams">
+            <Geometry Slot="Main" MaterialAttachments="body,parts" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+              <Geometry path="Objects/fps_weapons/gadgets/grin/multitool/gdgt_fps_grin_multitool.cdf" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+              <Material path="Objects/fps_weapons/gadgets/grin/multitool/gdgt_fps_grin_multitool_bloodline_mat.mtl" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+              <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+            </Geometry>
+            <SubGeometry />
+          </SGeometryNodeParams>
+          <SGeometryNodeParams Tags="White01" ScaleMultiplier="1" __type="SGeometryNodeParams">
+            <Geometry Slot="Main" MaterialAttachments="body,parts" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+              <Geometry path="Objects/fps_weapons/gadgets/grin/multitool/gdgt_fps_grin_multitool.cdf" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+              <Material path="Objects/fps_weapons/gadgets/grin/multitool/gdgt_fps_grin_multitool_ghost_mat.mtl" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+              <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+            </Geometry>
+            <SubGeometry />
+          </SGeometryNodeParams>
+          <SGeometryNodeParams Tags="Black01" ScaleMultiplier="1" __type="SGeometryNodeParams">
+            <Geometry Slot="Main" MaterialAttachments="body,parts" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+              <Geometry path="Objects/fps_weapons/gadgets/grin/multitool/gdgt_fps_grin_multitool.cdf" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+              <Material path="Objects/fps_weapons/gadgets/grin/multitool/gdgt_fps_grin_multitool_black_cherry_mat.mtl" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+              <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+            </Geometry>
+            <SubGeometry />
+          </SGeometryNodeParams>
+          <SGeometryNodeParams Tags="Orange01" ScaleMultiplier="1" __type="SGeometryNodeParams">
+            <Geometry Slot="Main" MaterialAttachments="body,parts" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+              <Geometry path="Objects/fps_weapons/gadgets/grin/multitool/gdgt_fps_grin_multitool.cdf" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+              <Material path="Objects/fps_weapons/gadgets/grin/multitool/gdgt_fps_grin_multitool_harvester_mat.mtl" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+              <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+            </Geometry>
+            <SubGeometry />
+          </SGeometryNodeParams>
+          <SGeometryNodeParams Tags="Silver01" ScaleMultiplier="1" __type="SGeometryNodeParams">
+            <Geometry Slot="Main" MaterialAttachments="body,parts" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+              <Geometry path="Objects/fps_weapons/gadgets/grin/multitool/gdgt_fps_grin_multitool.cdf" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+              <Material path="Objects/fps_weapons/gadgets/grin/multitool/gdgt_fps_grin_multitool_quicksilver_mat.mtl" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+              <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+            </Geometry>
+            <SubGeometry />
+          </SGeometryNodeParams>
+        </SubGeometry>
+      </Geometry>
+      <Material Tags="" __type="SMaterialNodeParams">
+        <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+        <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        <materialVariants />
+      </Material>
+    </SGeometryResourceParams>
+    <SCItemInspectableParams inspectInteraction="Interactable.SharedInteractions[8]" stopInspectInteraction="null" flipInteraction="null" inspectRotateScaleX="0.025" inspectRotateScaleY="0.025" __type="DataForgeComponentParams" __polymorphicType="SCItemInspectableParams">
+      <inspectAnimations />
+      <inspectRotateLimitsX x="-1" y="1" __type="Vec2" />
+      <inspectRotateLimitsY x="-1" y="1" __type="Vec2" />
+      <firstSelect firstSelectMode="None" itemTag="00000000-0000-0000-0000-000000000000" __type="SFirstSelect" />
+    </SCItemInspectableParams>
+    <SInteractionStateMachineParams __type="DataForgeComponentParams" __polymorphicType="SInteractionStateMachineParams">
+      <StateTypes>
+        <SInteractionStateType StateTypeName="CarryableStates" bindingsMethod="None" DefaultState="StateTypes.SInteractionStateType.States[0]" networkAuthority="Server" __type="SInteractionStateType">
+          <States>
+            <SInteractionState StateName="Settled" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions>
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[0]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[2]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[3]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[4]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[5]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[8]" NextState="null" __type="SInteractionStateTransition" />
+              </Interactions>
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="CarriedLowered" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions>
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[1]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[2]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[4]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[8]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[6]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[9]" NextState="null" __type="SInteractionStateTransition" />
+              </Interactions>
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags>
+                  <Reference value="ba576025-1c42-4e4e-80d0-1b902f3351b1" />
+                </tags>
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="EquippedOrStored" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions>
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[0]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[4]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[5]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[2]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[3]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[8]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[1]" NextState="null" __type="SInteractionStateTransition" />
+              </Interactions>
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags>
+                  <Reference value="158faf59-73f2-42e6-a7cf-a55c3e46040d" />
+                </tags>
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="Inspecting" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions>
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[1]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[2]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[4]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[7]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[6]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[9]" NextState="null" __type="SInteractionStateTransition" />
+              </Interactions>
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags>
+                  <Reference value="005f0164-d979-4436-b1c9-0f509fc9101c" />
+                </tags>
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="Dropped" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions />
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="CarriedReady" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions>
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[7]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[2]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[4]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[8]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[6]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[9]" NextState="null" __type="SInteractionStateTransition" />
+              </Interactions>
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags>
+                  <Reference value="234eebec-3640-40a6-9e57-9e812bfd1c69" />
+                </tags>
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="VendorSettled" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions>
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[10]" NextState="StateTypes.SInteractionStateType.States[7]" __type="SInteractionStateTransition" />
+              </Interactions>
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="VendorInspecting" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions>
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[11]" NextState="StateTypes.SInteractionStateType.States[6]" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[7]" NextState="StateTypes.SInteractionStateType.States[1]" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[2]" NextState="StateTypes.SInteractionStateType.States[2]" __type="SInteractionStateTransition" />
+              </Interactions>
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+          </States>
+          <StateModifiers />
+        </SInteractionStateType>
+      </StateTypes>
+    </SInteractionStateMachineParams>
+    <SPersistentComponentParams __type="DataForgeComponentParams" __polymorphicType="SPersistentComponentParams" />
+    <SARDataComponentParams dataType="ShopItem" rangeMin="1" rangeMax="5" labelMovementType="FacingPlayer" visibleThroughWalls="1" labelZOrientationOffset="0" title1="@LOC_EMPTY" title2="@LOC_EMPTY" subtitle1="@LOC_EMPTY" subtitle2="@LOC_EMPTY" description="@LOC_EMPTY" scaleCapDistance="10" __type="DataForgeComponentParams" __polymorphicType="SARDataComponentParams">
+      <labelAttachOffset x="0" y="0" z="0" __type="Vec3" />
+      <queryOffset x="0" y="0" z="0" __type="Vec3" />
+      <labelScale x="1" y="1" z="1" __type="Vec3" />
+    </SARDataComponentParams>
+    <EntityPhysicalAudioParams minimumImpulseContinuous="5" minimumImpulseTransient="8" minimumVelocityNoImpulse="3" slideThreshold="0.5" rollThreshold="0.1" momentumScale="1" useAABBCentre="0" oneShotTag="01580479-c8a5-4bb8-85df-56b5edc32c14" oneShotCooldown="0.1" dragOnly="0" __type="DataForgeComponentParams" __polymorphicType="EntityPhysicalAudioParams">
+      <collisionTriggers>
+        <PhysicalAudioCollisionTrigger oneShotMinPlayTime="0.25" attachToObject="1" __type="PhysicalAudioCollisionTrigger">
+          <trigger audioTrigger="Play_PHOB_Weapons_Generic_Pistol_Impacts" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+        </PhysicalAudioCollisionTrigger>
+      </collisionTriggers>
+      <slideStartTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <slideStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <rollStartTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <rollStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <movementStartTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <movementStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <pickupTrigger audioTrigger="Play_PHOB_Weapons_Generic_Pistol_Pickup" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <pickFromOwnerTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <dropTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <placeTrigger audioTrigger="Play_PHOB_Weapons_Generic_Pistol_Place" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <rtpcSlideVelocity rtpc="PhysicalAudio_Velocity" __type="AudioRtpc" />
+      <rtpcMassSelf rtpc="PhysicalAudio_MassSelf" __type="AudioRtpc" />
+      <rtpcMassOther rtpc="PhysicalAudio_MassOther" __type="AudioRtpc" />
+      <rtpcDampening rtpc="PhysicalAudio_Damping" __type="AudioRtpc" />
+      <rtpcRollVelocity rtpc="PhysicalAudio_RollVelocity" __type="AudioRtpc" />
+      <rtpcHealth rtpc="PhysicalAudio_Health" __type="AudioRtpc" />
+      <rtpcMovement rtpc="PhysicalAudio_Movement_Weapon_Firearm" __type="AudioRtpc" />
+      <rtpcRotation rtpc="PhysicalAudio_Rotation_Weapon_Firearm" __type="AudioRtpc" />
+      <rtpcTimeSinceLastOneshot rtpc="PhysicalAudio_TimeSinceLastOneshot" __type="AudioRtpc" />
+      <rtpcMomentum rtpc="PhysicalAudio_Momentum" __type="AudioRtpc" />
+      <rtpcCarried rtpc="PhysicalAudio_CarryState" __type="AudioRtpc" />
+    </EntityPhysicalAudioParams>
+    <SMeleeWeaponComponentParams helper="" audioTriggerName="Play_CGGT_PAW_Welder_Handling_Melee" matFxTriggerName="melee_blunt" canBeUsedForTakeDown="0" canBlock="0" canBeUsedInProne="0" canDodge="0" meleeCombatConfig="00000000-0000-0000-0000-000000000000" meleeAttackComboConfig="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="SMeleeWeaponComponentParams">
+      <closeRangeParams range="1.75" delay="0" duration="0.5" impulse_ai_to_player="-1" __type="SCMeleeCloseRangeParams" />
+      <powerParams delay="0" duration="0" __type="SCMeleePowerParams" />
+    </SMeleeWeaponComponentParams>
+    <SActorUsableParams archetype="8149e01e-35dc-4ea0-9b46-c8d440068026" fragmentTag="Carryable" isExterior="0" __type="DataForgeComponentParams" __polymorphicType="SActorUsableParams">
+      <useSlots>
+        <UsableUseSlot name="" available="1" additionalFragmentTags="" isScoochable="0" __type="UsableUseSlot">
+          <useChannelInstances>
+            <UsableUseChannelInstance useChannelArchetype="68319952-3bd9-46ae-ad11-883fa32c8365" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+          </useChannelInstances>
+          <usableItemPorts />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="0" z="0" __type="Vec3" />
+          </relativeTransform>
+          <optionalGameTags />
+        </UsableUseSlot>
+      </useSlots>
+      <alignmentSlots>
+        <PointAlignmentSlot name="" available="1" canPlayerUse="1" fragmentTag="" slottedFragmentTag="" helperName="Missing" linkMode="NoLink" spotStance="Stand" useHandIK="0" useADIK="0" __type="AlignmentSlotBase" __polymorphicType="PointAlignmentSlot">
+          <interactionPoints />
+          <optionalGameTags />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="0" z="0" __type="Vec3" />
+          </relativeTransform>
+          <viewParams viewLimitYawMin="-45" viewLimitYawMax="45" viewLimitPitchMin="-45" viewLimitPitchMax="45" __type="SUsableViewParams" />
+          <enterParams aiSignal="UseStart" additionalTags="" eventTriggerMask="AIAndPlayer" holsterWeapon="1" enterInteraction="null" __type="SUsableTransitionParams" __polymorphicType="SUsableEnterTransitionParams">
+            <transitionAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </enterParams>
+          <exitParams aiSignal="UseEnd" additionalTags="" eventTriggerMask="AIAndPlayer" inputExit="1" exitOnMovement="0" exitOnJump="0" exitOnDamageTaken="0" exitInteraction="null" exitSequence="null" __type="SUsableTransitionParams" __polymorphicType="SUsableExitTransitionParams">
+            <transitionAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </exitParams>
+          <usableIdleParams __type="SUsableIdleParams">
+            <idlePoseOverrides />
+          </usableIdleParams>
+        </PointAlignmentSlot>
+      </alignmentSlots>
+      <slottingSetups />
+      <views />
+      <abilityLocks />
+      <usableSequencerTasks />
+      <specializedData __type="SSpecializedData">
+        <specializedDataEntry />
+      </specializedData>
+    </SActorUsableParams>
+    <SCItemPurchasableParams displayName="@item_Namegrin_multitool_01" displayType="@item_TypeGadget" displayThumbnail="" allowTryOn="1" allowQuickBuy="0" tryOnInteractionText="@shop_ui_item_action_preview" defaultAttachToPortName="" interactionPointTemplate="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="SCItemPurchasableParams">
+      <Display>
+      </Display>
+      <disabledLoadoutInteractions />
+    </SCItemPurchasableParams>
+    <SEntityComponentSequencerParams resetSequence="null" __type="DataForgeComponentParams" __polymorphicType="SEntityComponentSequencerParams">
+      <sequences>
+        <SReplicatedSequencerDefSequenceParams name="ChakmaInspect" interaction="Interactable.SharedInteractions[10]" __type="SSequencerDefSequenceParams" __polymorphicType="SReplicatedSequencerDefSequenceParams">
+          <taskEntries>
+            <SSequencerSequenceTaskEntryParams task="carryableTasks[0]" postDelay="0" haltOnFailure="1" __type="SSequencerSequenceTaskEntryParams">
+              <dependentTasks />
+            </SSequencerSequenceTaskEntryParams>
+            <SSequencerSequenceTaskEntryParams task="carryableTasks" postDelay="0" haltOnFailure="1" __type="SSequencerSequenceTaskEntryParams">
+              <dependentTasks>
+                <WeakPointer dependentTasks="carryableTasks[0]" />
+              </dependentTasks>
+            </SSequencerSequenceTaskEntryParams>
+            <SSequencerSequenceTaskEntryParams task="carryableTasks" postDelay="0" haltOnFailure="1" __type="SSequencerSequenceTaskEntryParams">
+              <dependentTasks>
+                <WeakPointer dependentTasks="carryableTasks" />
+              </dependentTasks>
+            </SSequencerSequenceTaskEntryParams>
+            <SSequencerSequenceTaskEntryParams task="carryableTasks[0]" postDelay="0" haltOnFailure="1" __type="SSequencerSequenceTaskEntryParams">
+              <dependentTasks>
+                <WeakPointer dependentTasks="carryableTasks" />
+              </dependentTasks>
+            </SSequencerSequenceTaskEntryParams>
+          </taskEntries>
+        </SReplicatedSequencerDefSequenceParams>
+        <SReplicatedSequencerDefSequenceParams name="ChakmaReturn" interaction="Interactable.SharedInteractions[11]" __type="SSequencerDefSequenceParams" __polymorphicType="SReplicatedSequencerDefSequenceParams">
+          <taskEntries>
+            <SSequencerSequenceTaskEntryParams task="carryableTasks[1]" postDelay="0" haltOnFailure="1" __type="SSequencerSequenceTaskEntryParams">
+              <dependentTasks />
+            </SSequencerSequenceTaskEntryParams>
+            <SSequencerSequenceTaskEntryParams task="carryableTasks" postDelay="0" haltOnFailure="1" __type="SSequencerSequenceTaskEntryParams">
+              <dependentTasks>
+                <WeakPointer dependentTasks="carryableTasks[1]" />
+              </dependentTasks>
+            </SSequencerSequenceTaskEntryParams>
+          </taskEntries>
+        </SReplicatedSequencerDefSequenceParams>
+        <SReplicatedSequencerDefSequenceParams name="ChakmaBespokePlace" interaction="Interactable.SharedInteractions[13]" __type="SSequencerDefSequenceParams" __polymorphicType="SReplicatedSequencerDefSequenceParams">
+          <taskEntries>
+            <SSequencerSequenceTaskEntryParams task="carryableTasks[1]" postDelay="0" haltOnFailure="1" __type="SSequencerSequenceTaskEntryParams">
+              <dependentTasks />
+            </SSequencerSequenceTaskEntryParams>
+            <SSequencerSequenceTaskEntryParams task="carryableTasks" postDelay="0" haltOnFailure="1" __type="SSequencerSequenceTaskEntryParams">
+              <dependentTasks>
+                <WeakPointer dependentTasks="carryableTasks[1]" />
+              </dependentTasks>
+            </SSequencerSequenceTaskEntryParams>
+            <SSequencerSequenceTaskEntryParams task="carryableTasks[1]" postDelay="0" haltOnFailure="1" __type="SSequencerSequenceTaskEntryParams">
+              <dependentTasks>
+                <WeakPointer dependentTasks="carryableTasks" />
+              </dependentTasks>
+            </SSequencerSequenceTaskEntryParams>
+          </taskEntries>
+        </SReplicatedSequencerDefSequenceParams>
+      </sequences>
+    </SEntityComponentSequencerParams>
+    <AudioPropagationParams audioEnvironment="" physicalOcclusionValueWhenClosed="1" physicalEncapsulationValue="1" __type="DataForgeComponentParams" __polymorphicType="AudioPropagationParams" />
+    <SAnimationControllerParams AnimationDatabase="Items/Weapons/FPS/grin_multitool_01.adb" AnimationController="Items/Weapons/weaponControllerDef.xml" __type="DataForgeComponentParams" __polymorphicType="SAnimationControllerParams">
+      <Tags />
+      <ScopeContexts>
+        <SAnimationScopeContext scopeContext="Weapon" type="Self" __type="SAnimationScopeContext" />
+      </ScopeContexts>
+      <AnimationJointControls>
+      </AnimationJointControls>
+      <AnimationControlActorIKs />
+      <AnimationTasks />
+      <defaultAnimation>
+      </defaultAnimation>
+    </SAnimationControllerParams>
+    <SCItemWeaponComponentParams ammoContainerRecord="03fc4136-a491-4713-b278-ef7e4333431d" geometryTags="Orange01" supplementaryFireTime="0" proceduralAnimationRecord="ceb3d9bd-1e71-4c43-ba6f-119d1fad05d6" actorProceduralRecoilConfig="00000000-0000-0000-0000-000000000000" idealCombatRange="25" autoAimMuzzleAngleOverwrite="-1" useAdsHelper="1" isAllowedInGreenZones="1" uncollapseOnTurnedOn="0" __type="DataForgeComponentParams" __polymorphicType="SCItemWeaponComponentParams">
+      <defaultAdsCameraOffset x="0" y="0" z="0" __type="Vec3" />
+      <onAttachParams />
+      <reticleParams defaultReticle="none" adsReticle="none" __type="SWeaponReticleParams" />
+      <connectionParams powerActiveCooldown="1" heatRateOnline="25" maxGlow="100" glowTag="00000000-0000-0000-0000-000000000000" __type="SWeaponConnectionParams">
+        <noPowerStats fireRate="0" fireRateMultiplier="0" damageMultiplier="1" projectileSpeedMultiplier="1" pellets="0" burstShots="0" ammoCost="0" ammoCostMultiplier="1" heatGenerationMultiplier="1" soundRadiusMultiplier="1" useAlternateProjectileVisuals="0" __type="SWeaponStats">
+          <recoilModifier decayMultiplier="1" endDecayMultiplier="1" fireRecoilTimeMultiplier="1" fireRecoilStrengthFirstMultiplier="1" fireRecoilStrengthMultiplier="1" angleRecoilStrengthMultiplier="1" randomnessMultiplier="1" randomnessBackPushMultiplier="1" frontalOscillationRotationMultiplier="1" frontalOscillationStrengthMultiplier="1" frontalOscillationDecayMultiplier="1" frontalOscillationRandomnessMultiplier="1" animatedRecoilMultiplier="1" __type="SRecoilModifier">
+            <headRotationMultiplier x="1" y="1" z="1" __type="Vec3" />
+            <aimRecoilModifier randomPitchMultiplier="1" randomYawMultiplier="1" decayMultiplier="1" endDecayMultiplier="1" __type="SAimRecoilModifier">
+              <maxMultiplier x="1" y="1" __type="Vec2" />
+              <shotKickFirstMultiplier x="1" y="1" __type="Vec2" />
+              <shotKickMultiplier x="1" y="1" __type="Vec2" />
+            </aimRecoilModifier>
+          </recoilModifier>
+          <spreadModifier minMultiplier="1" maxMultiplier="1" firstAttackMultiplier="1" attackMultiplier="1" decayMultiplier="1" additiveModifier="0" __type="SSpreadModifier" />
+          <aimModifier zoomScale="1" zoomTimeScale="1" hideWeaponInADS="0" __type="SAimModifier" />
+        </noPowerStats>
+        <underpowerStats fireRate="0" fireRateMultiplier="0.1" damageMultiplier="1" projectileSpeedMultiplier="1" pellets="0" burstShots="0" ammoCost="0" ammoCostMultiplier="1" heatGenerationMultiplier="1" soundRadiusMultiplier="1" useAlternateProjectileVisuals="0" __type="SWeaponStats">
+          <recoilModifier decayMultiplier="1" endDecayMultiplier="1" fireRecoilTimeMultiplier="1" fireRecoilStrengthFirstMultiplier="1" fireRecoilStrengthMultiplier="1" angleRecoilStrengthMultiplier="1" randomnessMultiplier="1" randomnessBackPushMultiplier="1" frontalOscillationRotationMultiplier="1" frontalOscillationStrengthMultiplier="1" frontalOscillationDecayMultiplier="1" frontalOscillationRandomnessMultiplier="1" animatedRecoilMultiplier="1" __type="SRecoilModifier">
+            <headRotationMultiplier x="1" y="1" z="1" __type="Vec3" />
+            <aimRecoilModifier randomPitchMultiplier="1" randomYawMultiplier="1" decayMultiplier="1" endDecayMultiplier="1" __type="SAimRecoilModifier">
+              <maxMultiplier x="1" y="1" __type="Vec2" />
+              <shotKickFirstMultiplier x="1" y="1" __type="Vec2" />
+              <shotKickMultiplier x="1" y="1" __type="Vec2" />
+            </aimRecoilModifier>
+          </recoilModifier>
+          <spreadModifier minMultiplier="1" maxMultiplier="1" firstAttackMultiplier="1" attackMultiplier="1" decayMultiplier="1" additiveModifier="0" __type="SSpreadModifier" />
+          <aimModifier zoomScale="1" zoomTimeScale="1" hideWeaponInADS="0" __type="SAimModifier" />
+        </underpowerStats>
+        <overpowerStats fireRate="0" fireRateMultiplier="1.2" damageMultiplier="1" projectileSpeedMultiplier="1" pellets="0" burstShots="0" ammoCost="0" ammoCostMultiplier="1" heatGenerationMultiplier="1" soundRadiusMultiplier="1" useAlternateProjectileVisuals="0" __type="SWeaponStats">
+          <recoilModifier decayMultiplier="1" endDecayMultiplier="1" fireRecoilTimeMultiplier="1" fireRecoilStrengthFirstMultiplier="1" fireRecoilStrengthMultiplier="1" angleRecoilStrengthMultiplier="1" randomnessMultiplier="1" randomnessBackPushMultiplier="1" frontalOscillationRotationMultiplier="1" frontalOscillationStrengthMultiplier="1" frontalOscillationDecayMultiplier="1" frontalOscillationRandomnessMultiplier="1" animatedRecoilMultiplier="1" __type="SRecoilModifier">
+            <headRotationMultiplier x="1" y="1" z="1" __type="Vec3" />
+            <aimRecoilModifier randomPitchMultiplier="1" randomYawMultiplier="1" decayMultiplier="1" endDecayMultiplier="1" __type="SAimRecoilModifier">
+              <maxMultiplier x="1" y="1" __type="Vec2" />
+              <shotKickFirstMultiplier x="1" y="1" __type="Vec2" />
+              <shotKickMultiplier x="1" y="1" __type="Vec2" />
+            </aimRecoilModifier>
+          </recoilModifier>
+          <spreadModifier minMultiplier="1" maxMultiplier="1" firstAttackMultiplier="1" attackMultiplier="1" decayMultiplier="1" additiveModifier="0" __type="SSpreadModifier" />
+          <aimModifier zoomScale="1" zoomTimeScale="1" hideWeaponInADS="0" __type="SAimModifier" />
+        </overpowerStats>
+        <overclockStats fireRate="0" fireRateMultiplier="1.5" damageMultiplier="1" projectileSpeedMultiplier="1" pellets="0" burstShots="0" ammoCost="0" ammoCostMultiplier="1" heatGenerationMultiplier="1" soundRadiusMultiplier="1" useAlternateProjectileVisuals="0" __type="SWeaponStats">
+          <recoilModifier decayMultiplier="1" endDecayMultiplier="1" fireRecoilTimeMultiplier="1" fireRecoilStrengthFirstMultiplier="1" fireRecoilStrengthMultiplier="1" angleRecoilStrengthMultiplier="1" randomnessMultiplier="1" randomnessBackPushMultiplier="1" frontalOscillationRotationMultiplier="1" frontalOscillationStrengthMultiplier="1" frontalOscillationDecayMultiplier="1" frontalOscillationRandomnessMultiplier="1" animatedRecoilMultiplier="1" __type="SRecoilModifier">
+            <headRotationMultiplier x="1" y="1" z="1" __type="Vec3" />
+            <aimRecoilModifier randomPitchMultiplier="1" randomYawMultiplier="1" decayMultiplier="1" endDecayMultiplier="1" __type="SAimRecoilModifier">
+              <maxMultiplier x="1" y="1" __type="Vec2" />
+              <shotKickFirstMultiplier x="1" y="1" __type="Vec2" />
+              <shotKickMultiplier x="1" y="1" __type="Vec2" />
+            </aimRecoilModifier>
+          </recoilModifier>
+          <spreadModifier minMultiplier="1" maxMultiplier="1" firstAttackMultiplier="1" attackMultiplier="1" decayMultiplier="1" additiveModifier="0" __type="SSpreadModifier" />
+          <aimModifier zoomScale="1" zoomTimeScale="1" hideWeaponInADS="0" __type="SAimModifier" />
+        </overclockStats>
+        <heatStats fireRate="0" fireRateMultiplier="1" damageMultiplier="1" projectileSpeedMultiplier="1" pellets="0" burstShots="0" ammoCost="0" ammoCostMultiplier="1" heatGenerationMultiplier="1" soundRadiusMultiplier="1" useAlternateProjectileVisuals="0" __type="SWeaponStats">
+          <recoilModifier decayMultiplier="1" endDecayMultiplier="1" fireRecoilTimeMultiplier="1" fireRecoilStrengthFirstMultiplier="1" fireRecoilStrengthMultiplier="1" angleRecoilStrengthMultiplier="1" randomnessMultiplier="1" randomnessBackPushMultiplier="1" frontalOscillationRotationMultiplier="1" frontalOscillationStrengthMultiplier="1" frontalOscillationDecayMultiplier="1" frontalOscillationRandomnessMultiplier="1" animatedRecoilMultiplier="1" __type="SRecoilModifier">
+            <headRotationMultiplier x="1" y="1" z="1" __type="Vec3" />
+            <aimRecoilModifier randomPitchMultiplier="1" randomYawMultiplier="1" decayMultiplier="1" endDecayMultiplier="1" __type="SAimRecoilModifier">
+              <maxMultiplier x="1" y="1" __type="Vec2" />
+              <shotKickFirstMultiplier x="1" y="1" __type="Vec2" />
+              <shotKickMultiplier x="1" y="1" __type="Vec2" />
+            </aimRecoilModifier>
+          </recoilModifier>
+          <spreadModifier minMultiplier="1" maxMultiplier="1" firstAttackMultiplier="1" attackMultiplier="1" decayMultiplier="1" additiveModifier="0" __type="SSpreadModifier" />
+          <aimModifier zoomScale="1" zoomTimeScale="1" hideWeaponInADS="0" __type="SAimModifier" />
+        </heatStats>
+        <overheatTag tag="" __type="SMannequinTagParams" />
+        <overheatEffects />
+      </connectionParams>
+      <weaponRegenConsumerParams>
+      </weaponRegenConsumerParams>
+      <aimAction>
+        <SWeaponActionParallelParams name="" localisedName="@ui_weapons_multiply" aiShootingMode="Single" __type="SWeaponActionParams" __polymorphicType="SWeaponActionParallelParams">
+          <mannequinTag tag="" __type="SMannequinTagParams" />
+          <switchFireModeAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          <selectableCondition>
+          </selectableCondition>
+          <weaponActions>
+            <SWeaponActionAimSimpleParams name="Aim Simple" localisedName="@ui_COAimMode" aiShootingMode="Single" zoomScale="1" zoomTime="0.2" toggleZoomOverride="1" __type="SWeaponActionParams" __polymorphicType="SWeaponActionAimSimpleParams">
+              <mannequinTag tag="" __type="SMannequinTagParams" />
+              <switchFireModeAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+              <selectableCondition>
+              </selectableCondition>
+              <dofSettings>
+                <SWeaponAimDofSettings mask="" focusMin="-1" focusMax="-1" blurAmount="0.2" maskBlurAmount="0.3" dofMinZ="0.75" dofMinZScale="1" fStop="50" nearFocalDistance="0.5" __type="SWeaponAimDofSettings" />
+              </dofSettings>
+              <aimModifier>
+              </aimModifier>
+              <aimGeometryTags>
+              </aimGeometryTags>
+              <mannequinTags>
+                <SMannequinTagParams tag="ADS" __type="SMannequinTagParams" />
+              </mannequinTags>
+              <aimRTPC rtpc="Weapon_ADS" __type="AudioRtpc" />
+              <aimStart audioTrigger="Play_CGGT_PAW_Welder_Handling_Guards_Open" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+              <aimStop audioTrigger="Play_CGGT_PAW_Welder_Handling_Guards_Closed" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+              <timeSinceLastAimStartRtpc rtpc="Weapon_ADS_TimeSinceLastRaise" __type="AudioRtpc" />
+              <timeSinceLastAimStopRtpc rtpc="Weapon_ADS_TimeSinceLastDrop" __type="AudioRtpc" />
+            </SWeaponActionAimSimpleParams>
+            <SWeaponActionConditionParams name="" localisedName="@Test_DEFCON_Condition" aiShootingMode="Single" __type="SWeaponActionParams" __polymorphicType="SWeaponActionConditionParams">
+              <mannequinTag tag="" __type="SMannequinTagParams" />
+              <switchFireModeAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+              <selectableCondition>
+              </selectableCondition>
+              <conditionalWeaponActions>
+                <SConditionalWeaponAction __type="SConditionalWeaponAction">
+                  <condition>
+                    <SWeaponConditionHasTags __type="SWeaponConditionBase" __polymorphicType="SWeaponConditionHasTags">
+                      <tags>
+                        <Reference value="66fe36c7-6f6f-4ae3-9ae4-550b210c58cf" />
+                      </tags>
+                    </SWeaponConditionHasTags>
+                  </condition>
+                  <weaponAction>
+                    <SWeaponActionHighlightCuttablesParams name="Highlight Cuttable" localisedName="@pause_OptionsInteractionHighlightMode" aiShootingMode="Single" __type="SWeaponActionParams" __polymorphicType="SWeaponActionHighlightCuttablesParams">
+                      <mannequinTag tag="" __type="SMannequinTagParams" />
+                      <switchFireModeAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                      <selectableCondition>
+                      </selectableCondition>
+                    </SWeaponActionHighlightCuttablesParams>
+                  </weaponAction>
+                </SConditionalWeaponAction>
+                <SConditionalWeaponAction __type="SConditionalWeaponAction">
+                  <condition>
+                    <SWeaponConditionHasTags __type="SWeaponConditionBase" __polymorphicType="SWeaponConditionHasTags">
+                      <tags>
+                        <Reference value="3e25f08b-eb10-4d06-8bde-574666008b00" />
+                      </tags>
+                    </SWeaponConditionHasTags>
+                  </condition>
+                  <weaponAction>
+                    <SWeaponActionMiningParams name="Mining Mode" localisedName="@item_TypeMiningModifier" aiShootingMode="Single" __type="SWeaponActionParams" __polymorphicType="SWeaponActionMiningParams">
+                      <mannequinTag tag="" __type="SMannequinTagParams" />
+                      <switchFireModeAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                      <selectableCondition>
+                      </selectableCondition>
+                    </SWeaponActionMiningParams>
+                  </weaponAction>
+                </SConditionalWeaponAction>
+              </conditionalWeaponActions>
+              <defaultWeaponAction>
+              </defaultWeaponAction>
+            </SWeaponActionConditionParams>
+          </weaponActions>
+        </SWeaponActionParallelParams>
+      </aimAction>
+      <fireActions>
+        <SWeaponActionConditionParams name="Attachment condition" localisedName="@Test_DEFCON_Condition" aiShootingMode="Rapid" __type="SWeaponActionParams" __polymorphicType="SWeaponActionConditionParams">
+          <mannequinTag tag="" __type="SMannequinTagParams" />
+          <switchFireModeAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          <selectableCondition>
+          </selectableCondition>
+          <conditionalWeaponActions>
+            <SConditionalWeaponAction __type="SConditionalWeaponAction">
+              <condition>
+                <SWeaponConditionHasTags __type="SWeaponConditionBase" __polymorphicType="SWeaponConditionHasTags">
+                  <tags>
+                    <Reference value="66fe36c7-6f6f-4ae3-9ae4-550b210c58cf" />
+                  </tags>
+                </SWeaponConditionHasTags>
+              </condition>
+              <weaponAction>
+                <SWeaponActionFireBeamParams name="Cutter" localisedName="@ui_weapons_multi_cutter" aiShootingMode="Rapid" fireHelper="muzzle_flash" toggle="0" energyRate="0" fullDamageRange="10" zeroDamageRange="10" heatPerSecond="0" hitType="ElectricArc" hitRadius="0.005" ignoreSkiplist="0" shouldDryFireInGreenZones="1" __type="SWeaponActionParams" __polymorphicType="SWeaponActionFireBeamParams">
+                  <mannequinTag tag="" __type="SMannequinTagParams" />
+                  <switchFireModeAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                  <selectableCondition>
+                  </selectableCondition>
+                  <damagePerSecond>
+                    <DamageInfo DamagePhysical="0" DamageEnergy="2" DamageDistortion="0" DamageThermal="0" DamageBiochemical="0" DamageStun="0" __type="DamageBase" __polymorphicType="DamageInfo" />
+                  </damagePerSecond>
+                  <fireFragment fragment="firing" __type="SFragmentParams" />
+                  <stopFireFragment fragment="stop_firing" __type="SFragmentParams" />
+                  <startFireOneShotAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                  <startFireLoopAudioTrigger audioTrigger="Play_WPGT_GRIN_Gadget_Pyro_MultiTool_Fire" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                  <stopFireAudioTrigger audioTrigger="Stop_WPGT_GRIN_Gadget_Pyro_MultiTool_Fire" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                  <dryFireAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                  <timeSinceLastFireRTPC rtpc="" __type="AudioRtpc" />
+                  <fireEffects>
+                    <SWeaponParticleEffectParams helper="muzzle_flash" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0.1" scale="1" __type="SWeaponParticleEffectParams">
+                      <firstPerson path="Gadgets\Grin_Multitool.ALL.Multitool_Muzzleflash_fps" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+                      <thirdPerson path="Gadgets\Grin_Multitool.ALL.Multitool_Muzzleflash_tpp" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+                    </SWeaponParticleEffectParams>
+                  </fireEffects>
+                  <beamGroup>
+                    <SBeamGroupParams hitEffectName="multitool" tractorBeam="0" useADSHelper="0" detachOnActivate="0" immediateRaycast="0" beamModifierRTPCSource="Power" __type="SBeamGroupParams">
+                      <beamAudioOneShot audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                      <beamLoopAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                      <beamStopAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                      <beamActiveRTPC rtpc="" __type="AudioRtpc" />
+                      <beamModifierRTPC rtpc="Weapon_Power_Level" __type="AudioRtpc" />
+                      <beamImpactStartTriggerOneShot audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                      <beamImpactStartTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                      <beamImpactStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                      <targetAttractionRTPC rtpc="" __type="AudioRtpc" />
+                      <beamEffects>
+                        <SBeamEffectParams helper="muzzle_flash" killParticlesOnDeactivate="1" startPointStrength="0" endPointStrength="0" modifierSource="Power" __type="SBeamEffectParams">
+                          <particleEffect path="Gadgets\Grin_Multitool.ReW.Spline" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+                          <particleAudioParams />
+                        </SBeamEffectParams>
+                      </beamEffects>
+                    </SBeamGroupParams>
+                  </beamGroup>
+                </SWeaponActionFireBeamParams>
+              </weaponAction>
+            </SConditionalWeaponAction>
+            <SConditionalWeaponAction __type="SConditionalWeaponAction">
+              <condition>
+                <SWeaponConditionHasTags __type="SWeaponConditionBase" __polymorphicType="SWeaponConditionHasTags">
+                  <tags>
+                    <Reference value="3e25f08b-eb10-4d06-8bde-574666008b00" />
+                  </tags>
+                </SWeaponConditionHasTags>
+              </condition>
+              <weaponAction>
+                <SWeaponActionFireBeamParams name="Mining" localisedName="@ui_weapons_multi_mining" aiShootingMode="Rapid" fireHelper="muzzle_flash" toggle="1" energyRate="0" fullDamageRange="1" zeroDamageRange="2" heatPerSecond="0" hitType="ElectricArc" hitRadius="0.005" ignoreSkiplist="0" shouldDryFireInGreenZones="1" __type="SWeaponActionParams" __polymorphicType="SWeaponActionFireBeamParams">
+                  <mannequinTag tag="" __type="SMannequinTagParams" />
+                  <switchFireModeAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                  <selectableCondition>
+                  </selectableCondition>
+                  <damagePerSecond>
+                    <DamageInfo DamagePhysical="1.9" DamageEnergy="0.1" DamageDistortion="0" DamageThermal="0" DamageBiochemical="0" DamageStun="0" __type="DamageBase" __polymorphicType="DamageInfo" />
+                  </damagePerSecond>
+                  <fireFragment fragment="firing" __type="SFragmentParams" />
+                  <stopFireFragment fragment="stop_firing" __type="SFragmentParams" />
+                  <startFireOneShotAudioTrigger audioTrigger="Play_WPGT_Local_GRIN_Gadget_MultiTool_FPS_Mining_On" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                  <startFireLoopAudioTrigger audioTrigger="Play_WPGT_Local_GRIN_Gadget_MultiTool_FPS_Nozzle" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                  <stopFireAudioTrigger audioTrigger="Stop_WPGT_Local_GRIN_Gadget_MultiTool_FPS_Nozzle" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                  <dryFireAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                  <timeSinceLastFireRTPC rtpc="" __type="AudioRtpc" />
+                  <fireEffects>
+                    <SWeaponParticleEffectParams helper="muzzle_flash" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0.1" scale="1" __type="SWeaponParticleEffectParams">
+                      <firstPerson path="mining\fps_mining_laser.FPS_Mining_Weapon_VFX.Muzzleflash_1st" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+                      <thirdPerson path="mining\fps_mining_laser.FPS_Mining_Weapon_VFX.Muzzleflash_3rd" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+                    </SWeaponParticleEffectParams>
+                  </fireEffects>
+                  <beamGroup>
+                    <SBeamGroupParams hitEffectName="Mining_Laser_FPS" tractorBeam="0" useADSHelper="0" detachOnActivate="0" immediateRaycast="0" beamModifierRTPCSource="MiningLaserThrottle" __type="SBeamGroupParams">
+                      <beamAudioOneShot audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                      <beamLoopAudioTrigger audioTrigger="Play_WPGT_Local_GRIN_Gadget_MultiTool_FPS_Beam" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                      <beamStopAudioTrigger audioTrigger="Stop_WPGT_Local_GRIN_Gadget_MultiTool_FPS_Beam" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                      <beamActiveRTPC rtpc="" __type="AudioRtpc" />
+                      <beamModifierRTPC rtpc="Grin_Multitool_Laser_Throttle" __type="AudioRtpc" />
+                      <beamImpactStartTriggerOneShot audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                      <beamImpactStartTrigger audioTrigger="Play_WPGT_Local_GRIN_Gadget_MultiTool_FPS_Mining_Beam_Impact" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                      <beamImpactStopTrigger audioTrigger="Stop_WPGT_Local_GRIN_Gadget_MultiTool_FPS_Mining_Beam_Impact" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                      <targetAttractionRTPC rtpc="" __type="AudioRtpc" />
+                      <beamEffects>
+                        <SBeamEffectParams helper="weapon_term_01" killParticlesOnDeactivate="1" startPointStrength="0" endPointStrength="0" modifierSource="MiningLaserThrottle" __type="SBeamEffectParams">
+                          <particleEffect path="mining\fps_mining_laser.FPS_Mining_Weapon_VFX.Fracture_Beam_GPU" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+                          <particleAudioParams />
+                        </SBeamEffectParams>
+                        <SBeamEffectParams helper="weapon_term_02" killParticlesOnDeactivate="1" startPointStrength="0" endPointStrength="0" modifierSource="MiningLaserThrottle" __type="SBeamEffectParams">
+                          <particleEffect path="mining\fps_mining_laser.FPS_Mining_Weapon_VFX.Fracture_Beam_GPU" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+                          <particleAudioParams />
+                        </SBeamEffectParams>
+                        <SBeamEffectParams helper="weapon_term_03" killParticlesOnDeactivate="1" startPointStrength="0" endPointStrength="0" modifierSource="MiningLaserThrottle" __type="SBeamEffectParams">
+                          <particleEffect path="mining\fps_mining_laser.FPS_Mining_Weapon_VFX.Fracture_Beam_GPU" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+                          <particleAudioParams />
+                        </SBeamEffectParams>
+                      </beamEffects>
+                    </SBeamGroupParams>
+                  </beamGroup>
+                </SWeaponActionFireBeamParams>
+              </weaponAction>
+            </SConditionalWeaponAction>
+            <SConditionalWeaponAction __type="SConditionalWeaponAction">
+              <condition>
+                <SWeaponConditionHasTags __type="SWeaponConditionBase" __polymorphicType="SWeaponConditionHasTags">
+                  <tags>
+                    <Reference value="6822a94a-9734-4a0d-b578-88f8e2485942" />
+                  </tags>
+                </SWeaponConditionHasTags>
+              </condition>
+              <weaponAction>
+                <SWeaponActionFireTractorBeamParams name="TractorBeam" localisedName="@ui_weapons_multi_tractor" aiShootingMode="Rapid" fireHelper="muzzle_flash" toggle="0" minForce="0" maxForce="2500" minDistance="0.5" maxDistance="100" fullStrengthDistance="7.5" maxAngle="40" maxVolume="4" tetherBreakTime="1" safeRangeForceFactor="0.9" allowScrollingIntoBreakingRange="1" shouldDryFireInGreenZones="1" heatPerSecond="0" hitType="ElectricArc" hitRadius="0.005" __type="SWeaponActionParams" __polymorphicType="SWeaponActionFireTractorBeamParams">
+                  <mannequinTag tag="" __type="SMannequinTagParams" />
+                  <switchFireModeAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                  <selectableCondition>
+                  </selectableCondition>
+                  <actorStatusBuff>
+                  </actorStatusBuff>
+                  <inputParams distanceChangePerAction="0.1" distanceAccelerationTimePeriod="0.1" distanceAccelerationFactor="10" __type="SWeaponActionFireTractorBeamInputParams" />
+                  <movementParams minAcceleration="0.1" maxAcceleration="20" minSpeed="5" maxSpeed="10" accelerationFactor="5" enterPushPullThreshold="0.5" exitPushPullThreshold="0.1" requiredPortTags="TimeCage MissionQuestItem QuantumCage DamageCage" __type="SWeaponActionFireTractorBeamMovementParams" />
+                  <rotationParams degreesPerAction="7.5" maxAngularAcceleration="40" maxAngularVelocity="0.4" __type="SWeaponActionFireTractorBeamRotationParams" />
+                  <grappleParams positiveAccelerationLimit="5" negativeAccelerationLimit="-5" maxSpeed="50" coastSpeed="10" __type="SWeaponActionFireTractorBeamGrappleParams" />
+                  <fireFragment fragment="firing" __type="SFragmentParams" />
+                  <stopFireFragment fragment="stop_firing" __type="SFragmentParams" />
+                  <startFireOneShotAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                  <startFireLoopAudioTrigger audioTrigger="Play_WPGT_GRIN_Gadget_Pyro_MultiTool_Fire" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                  <stopFireAudioTrigger audioTrigger="Stop_WPGT_GRIN_Gadget_Pyro_MultiTool_Fire" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                  <dryFireAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                  <startRotationModeAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                  <stopRotationModeAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                  <startGrappleAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                  <stopGrappleAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                  <timeSinceLastFireRTPC rtpc="" __type="AudioRtpc" />
+                  <tractorBeamAccelerationRTPC rtpc="" __type="AudioRtpc" />
+                  <tractorBeamSpeedRTPC rtpc="" __type="AudioRtpc" />
+                  <rotationModeAmountRTPC rtpc="" __type="AudioRtpc" />
+                  <tetherWarningStateRTPC rtpc="" __type="AudioRtpc" />
+                  <fireEffects />
+                  <beamGroup>
+                    <SBeamGroupParams hitEffectName="tractor_beam_fps" tractorBeam="0" useADSHelper="0" detachOnActivate="0" immediateRaycast="0" beamModifierRTPCSource="WeaponState" __type="SBeamGroupParams">
+                      <beamAudioOneShot audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                      <beamLoopAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                      <beamStopAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                      <beamActiveRTPC rtpc="" __type="AudioRtpc" />
+                      <beamModifierRTPC rtpc="Weapon_Power_Level" __type="AudioRtpc" />
+                      <beamImpactStartTriggerOneShot audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                      <beamImpactStartTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                      <beamImpactStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                      <targetAttractionRTPC rtpc="" __type="AudioRtpc" />
+                      <beamEffects>
+                        <SBeamEffectParams helper="muzzle_flash" killParticlesOnDeactivate="1" startPointStrength="0" endPointStrength="1" modifierSource="WeaponState" __type="SBeamEffectParams">
+                          <particleEffect path="tractorbeam\fps_tractorbeam.FPS_Tractor_Beam.Tractor_Beam" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+                          <particleAudioParams />
+                        </SBeamEffectParams>
+                      </beamEffects>
+                    </SBeamGroupParams>
+                  </beamGroup>
+                  <beamStrengthValues noTarget="0" stable="1" unstable="0.5" breaking="0" impactInvalidTarget="0" impactControllingTarget="1" impactGrapple="1" impactSizeScale="1" __type="SWeaponActionFireTractorBeamStrengthValueParams" />
+                  <updateCondition>
+                    <SWeaponConditionHasTags __type="SWeaponConditionBase" __polymorphicType="SWeaponConditionHasTags">
+                      <tags>
+                        <Reference value="6822a94a-9734-4a0d-b578-88f8e2485942" />
+                      </tags>
+                    </SWeaponConditionHasTags>
+                  </updateCondition>
+                </SWeaponActionFireTractorBeamParams>
+              </weaponAction>
+            </SConditionalWeaponAction>
+            <SConditionalWeaponAction __type="SConditionalWeaponAction">
+              <condition>
+                <SWeaponConditionHasTags __type="SWeaponConditionBase" __polymorphicType="SWeaponConditionHasTags">
+                  <tags>
+                    <Reference value="fb8e108c-c105-4787-9916-e0c25191fc77" />
+                  </tags>
+                </SWeaponConditionHasTags>
+              </condition>
+              <weaponAction>
+                <SWeaponActionFireHealingBeamParams name="Heal" localisedName="@LOC_PLACEHOLDER" aiShootingMode="Rapid" healingMode="Target" fireHelper="muzzle_flash" toggle="0" maxDistance="1.5" maxSensorDistance="20" mSCUPerSec="8" ammoPerMSCU="1" autoDosageTargetBDLModifier="0.75" healingBreakTime="0.1" maxDoseForAutoAdjustment="5" hitType="ElectricArc" globalActorStatusParams="412a3dc8-b655-4c77-9aff-a81d23a38fc6" __type="SWeaponActionParams" __polymorphicType="SWeaponActionFireHealingBeamParams">
+                  <mannequinTag tag="" __type="SMannequinTagParams" />
+                  <switchFireModeAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                  <selectableCondition>
+                  </selectableCondition>
+                  <consumableTypes>
+                    <SHealingBeamConsumableType consumableSubtype="2e3fc0d3-be97-4c57-972e-526872e4bd56" valueType="Health" __type="SHealingBeamConsumableType" />
+                    <SHealingBeamConsumableType consumableSubtype="bff2f5cb-a902-4df9-9560-97f550484ee6" valueType="Buff" __type="SHealingBeamConsumableType" />
+                    <SHealingBeamConsumableType consumableSubtype="2d9aa8d0-cb7d-40bf-a3a6-b1869feb0d14" valueType="Buff" __type="SHealingBeamConsumableType" />
+                    <SHealingBeamConsumableType consumableSubtype="cabca3ed-15cd-4dab-89de-5ce92d597868" valueType="Buff" __type="SHealingBeamConsumableType" />
+                  </consumableTypes>
+                  <fireFragment fragment="firing" __type="SFragmentParams" />
+                  <stopFireFragment fragment="stop_firing" __type="SFragmentParams" />
+                  <startFireOneShotAudioTrigger audioTrigger="Play_WPGT_GRIN_Healing_Tool_Start" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                  <startFireLoopAudioTrigger audioTrigger="Play_WPGT_GRIN_Healing_Tool_Beam" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                  <stopFireAudioTrigger audioTrigger="Play_WPGT_GRIN_Healing_Tool_Stop" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                  <dryFireAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                  <timeSinceLastFireRTPC rtpc="" __type="AudioRtpc" />
+                  <fireEffects>
+                    <SWeaponParticleEffectParams helper="muzzle_flash" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0.1" scale="1" __type="SWeaponParticleEffectParams">
+                      <firstPerson path="Gadgets\Grin_Multitool.ALL.Multitool_Muzzleflash_healing" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+                      <thirdPerson path="Gadgets\Grin_Multitool.ALL.Multitool_Muzzleflash_healing" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+                    </SWeaponParticleEffectParams>
+                  </fireEffects>
+                  <beamGroup>
+                    <SBeamGroupParams hitEffectName="multitool" tractorBeam="0" useADSHelper="0" detachOnActivate="0" immediateRaycast="0" beamModifierRTPCSource="Power" __type="SBeamGroupParams">
+                      <beamAudioOneShot audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                      <beamLoopAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                      <beamStopAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                      <beamActiveRTPC rtpc="" __type="AudioRtpc" />
+                      <beamModifierRTPC rtpc="Weapon_Power_Level" __type="AudioRtpc" />
+                      <beamImpactStartTriggerOneShot audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                      <beamImpactStartTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                      <beamImpactStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                      <targetAttractionRTPC rtpc="" __type="AudioRtpc" />
+                      <beamEffects>
+                        <SBeamEffectParams helper="muzzle_flash" killParticlesOnDeactivate="1" startPointStrength="0" endPointStrength="0" modifierSource="Power" __type="SBeamEffectParams">
+                          <particleEffect path="Gadgets\Grin_Multitool.ALL.healing_beam" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+                          <particleAudioParams />
+                        </SBeamEffectParams>
+                      </beamEffects>
+                    </SBeamGroupParams>
+                  </beamGroup>
+                  <updateCondition>
+                    <SWeaponConditionHasTags __type="SWeaponConditionBase" __polymorphicType="SWeaponConditionHasTags">
+                      <tags>
+                        <Reference value="fb8e108c-c105-4787-9916-e0c25191fc77" />
+                      </tags>
+                    </SWeaponConditionHasTags>
+                  </updateCondition>
+                  <isHealingRTPC rtpc="Medgun_IsHealing" __type="AudioRtpc" />
+                  <targetPlayerHealthRTPC rtpc="MedGun_Target_Player_Health" __type="AudioRtpc" />
+                  <abilityTypesToHideCards />
+                </SWeaponActionFireHealingBeamParams>
+              </weaponAction>
+            </SConditionalWeaponAction>
+            <SConditionalWeaponAction __type="SConditionalWeaponAction">
+              <condition>
+                <SWeaponConditionHasTags __type="SWeaponConditionBase" __polymorphicType="SWeaponConditionHasTags">
+                  <tags>
+                    <Reference value="b66f6baa-b22d-42e0-8d91-f3f634a3e6f0" />
+                  </tags>
+                </SWeaponConditionHasTags>
+              </condition>
+              <weaponAction>
+                <SWeaponActionFireBeamParams name="Salvage" localisedName="@ui_weapons_multi_cutter" aiShootingMode="Rapid" fireHelper="muzzle_flash" toggle="0" energyRate="0" fullDamageRange="10" zeroDamageRange="10" heatPerSecond="0" hitType="ElectricArc" hitRadius="0.005" ignoreSkiplist="0" shouldDryFireInGreenZones="0" __type="SWeaponActionParams" __polymorphicType="SWeaponActionFireBeamParams">
+                  <mannequinTag tag="" __type="SMannequinTagParams" />
+                  <switchFireModeAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                  <selectableCondition>
+                  </selectableCondition>
+                  <damagePerSecond>
+                    <DamageInfo DamagePhysical="0" DamageEnergy="2" DamageDistortion="0" DamageThermal="0" DamageBiochemical="0" DamageStun="0" __type="DamageBase" __polymorphicType="DamageInfo" />
+                  </damagePerSecond>
+                  <fireFragment fragment="firing" __type="SFragmentParams" />
+                  <stopFireFragment fragment="stop_firing" __type="SFragmentParams" />
+                  <startFireOneShotAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                  <startFireLoopAudioTrigger audioTrigger="Play_WPGT_GRIN_Gadget_Pyro_MultiTool_Fire" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                  <stopFireAudioTrigger audioTrigger="Stop_WPGT_GRIN_Gadget_Pyro_MultiTool_Fire" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                  <dryFireAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                  <timeSinceLastFireRTPC rtpc="" __type="AudioRtpc" />
+                  <fireEffects>
+                    <SWeaponParticleEffectParams helper="muzzle_flash" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0.1" scale="1" __type="SWeaponParticleEffectParams">
+                      <firstPerson path="Gadgets\Grin_Multitool.ALL.Multitool_Muzzleflash_fps" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+                      <thirdPerson path="Gadgets\Grin_Multitool.ALL.Multitool_Muzzleflash_tpp" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+                    </SWeaponParticleEffectParams>
+                  </fireEffects>
+                  <beamGroup>
+                    <SBeamGroupParams hitEffectName="multitool" tractorBeam="0" useADSHelper="0" detachOnActivate="0" immediateRaycast="0" beamModifierRTPCSource="Power" __type="SBeamGroupParams">
+                      <beamAudioOneShot audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                      <beamLoopAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                      <beamStopAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                      <beamActiveRTPC rtpc="" __type="AudioRtpc" />
+                      <beamModifierRTPC rtpc="Weapon_Power_Level" __type="AudioRtpc" />
+                      <beamImpactStartTriggerOneShot audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                      <beamImpactStartTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                      <beamImpactStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                      <targetAttractionRTPC rtpc="" __type="AudioRtpc" />
+                      <beamEffects>
+                        <SBeamEffectParams helper="muzzle_flash" killParticlesOnDeactivate="1" startPointStrength="0" endPointStrength="0" modifierSource="Power" __type="SBeamEffectParams">
+                          <particleEffect path="Gadgets\Grin_Multitool.ReW.Spline" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+                          <particleAudioParams />
+                        </SBeamEffectParams>
+                      </beamEffects>
+                    </SBeamGroupParams>
+                  </beamGroup>
+                </SWeaponActionFireBeamParams>
+              </weaponAction>
+            </SConditionalWeaponAction>
+          </conditionalWeaponActions>
+          <defaultWeaponAction>
+          </defaultWeaponAction>
+        </SWeaponActionConditionParams>
+        <SWeaponActionFireHealingBeamParams name="Self Heal" localisedName="@ui_weapons_multi_healing" aiShootingMode="Rapid" healingMode="Self" fireHelper="muzzle_flash" toggle="0" maxDistance="10" maxSensorDistance="20" mSCUPerSec="8" ammoPerMSCU="1" autoDosageTargetBDLModifier="0.75" healingBreakTime="0.1" maxDoseForAutoAdjustment="5" hitType="ElectricArc" globalActorStatusParams="412a3dc8-b655-4c77-9aff-a81d23a38fc6" __type="SWeaponActionParams" __polymorphicType="SWeaponActionFireHealingBeamParams">
+          <mannequinTag tag="" __type="SMannequinTagParams" />
+          <switchFireModeAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          <selectableCondition>
+            <SWeaponConditionHasTags __type="SWeaponConditionBase" __polymorphicType="SWeaponConditionHasTags">
+              <tags>
+                <Reference value="fb8e108c-c105-4787-9916-e0c25191fc77" />
+              </tags>
+            </SWeaponConditionHasTags>
+          </selectableCondition>
+          <consumableTypes>
+            <SHealingBeamConsumableType consumableSubtype="2e3fc0d3-be97-4c57-972e-526872e4bd56" valueType="Health" __type="SHealingBeamConsumableType" />
+            <SHealingBeamConsumableType consumableSubtype="bff2f5cb-a902-4df9-9560-97f550484ee6" valueType="Buff" __type="SHealingBeamConsumableType" />
+            <SHealingBeamConsumableType consumableSubtype="2d9aa8d0-cb7d-40bf-a3a6-b1869feb0d14" valueType="Buff" __type="SHealingBeamConsumableType" />
+            <SHealingBeamConsumableType consumableSubtype="cabca3ed-15cd-4dab-89de-5ce92d597868" valueType="Buff" __type="SHealingBeamConsumableType" />
+          </consumableTypes>
+          <fireFragment fragment="fire_02" __type="SFragmentParams" />
+          <stopFireFragment fragment="stop_rapid_fire" __type="SFragmentParams" />
+          <startFireOneShotAudioTrigger audioTrigger="Play_WPGT_GRIN_Healing_Tool_Start" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          <startFireLoopAudioTrigger audioTrigger="Play_WPGT_GRIN_Healing_Tool_Beam" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          <stopFireAudioTrigger audioTrigger="Play_WPGT_GRIN_Healing_Tool_Stop" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          <dryFireAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          <timeSinceLastFireRTPC rtpc="" __type="AudioRtpc" />
+          <fireEffects>
+            <SWeaponParticleEffectParams helper="muzzle_flash" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="Gadgets\Grin_Multitool.ALL.Multitool_Muzzleflash_healing" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="Gadgets\Grin_Multitool.ALL.Multitool_Muzzleflash_self_healing_TP" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+          </fireEffects>
+          <beamGroup>
+          </beamGroup>
+          <updateCondition>
+            <SWeaponConditionHasTags __type="SWeaponConditionBase" __polymorphicType="SWeaponConditionHasTags">
+              <tags>
+                <Reference value="fb8e108c-c105-4787-9916-e0c25191fc77" />
+              </tags>
+            </SWeaponConditionHasTags>
+          </updateCondition>
+          <isHealingRTPC rtpc="Medgun_IsHealing" __type="AudioRtpc" />
+          <targetPlayerHealthRTPC rtpc="MedGun_Target_Player_Health" __type="AudioRtpc" />
+          <abilityTypesToHideCards>
+            <Enum value="Melee" />
+            <Enum value="Jump" />
+          </abilityTypesToHideCards>
+        </SWeaponActionFireHealingBeamParams>
+      </fireActions>
+      <audioParams visorAudioAvailable="0" __type="SWeaponAudioParams">
+        <ammoCountRTPC rtpc="Ammo_Count_Normalised" __type="AudioRtpc" />
+        <weaponPowerRTPC rtpc="Weapon_Power_Level" __type="AudioRtpc" />
+        <switchFireModeAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+        <weaponHeatRTPC rtpc="Weapon_Heat_Level" __type="AudioRtpc" />
+        <overheatAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+        <overheatEndAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      </audioParams>
+      <audioReportEnvironmentParams maxTriggers="6" __type="SWeaponAudioReportEnvironmentParams">
+        <reportEnvironments />
+      </audioReportEnvironmentParams>
+      <specialEffectsParams>
+        <SWeaponParticleEffectParamsArray __type="SWeaponParticleEffectParamsArray">
+          <effects />
+        </SWeaponParticleEffectParamsArray>
+        <SWeaponParticleEffectParamsArray __type="SWeaponParticleEffectParamsArray">
+          <effects />
+        </SWeaponParticleEffectParamsArray>
+        <SWeaponParticleEffectParamsArray __type="SWeaponParticleEffectParamsArray">
+          <effects />
+        </SWeaponParticleEffectParamsArray>
+      </specialEffectsParams>
+      <turnedOnEffects />
+      <fireSpinAnimationParams>
+      </fireSpinAnimationParams>
+    </SCItemWeaponComponentParams>
+    <SEntityComponentEffects __type="DataForgeComponentParams" __polymorphicType="SEntityComponentEffects">
+      <entityEffects __type="SEntitityEffectSystem_SystemBase" __polymorphicType="SEntitityEffectSystem_System">
+        <particleEffects>
+        </particleEffects>
+        <materialEffects>
+        </materialEffects>
+        <soundEffects>
+        </soundEffects>
+        <audioEnvironmentEffects>
+        </audioEnvironmentEffects>
+        <lightEffects>
+        </lightEffects>
+        <uiOwnerEffects>
+        </uiOwnerEffects>
+        <sequencerTags />
+      </entityEffects>
+      <staticValues />
+      <staticColors />
+      <tagsToEnableOnLoad />
+      <triggersToEnableOnLoad />
+    </SEntityComponentEffects>
+    <SEntityComponentDefaultLoadoutParams __type="DataForgeComponentParams" __polymorphicType="SEntityComponentDefaultLoadoutParams">
+      <loadout>
+        <SItemPortLoadoutManualParams __type="SItemPortLoadoutBaseParams" __polymorphicType="SItemPortLoadoutManualParams">
+          <entries>
+            <SItemPortLoadoutEntryParams itemPortName="module_attach" entityClassName="grin_multitool_energy_01_mag" __type="SItemPortLoadoutEntryParams">
+              <inventoryContainer>
+              </inventoryContainer>
+              <loadout>
+              </loadout>
+            </SItemPortLoadoutEntryParams>
+            <SItemPortLoadoutEntryParams itemPortName="magazine_attach" entityClassName="grin_multitool_resource_healing_01" __type="SItemPortLoadoutEntryParams">
+              <inventoryContainer>
+              </inventoryContainer>
+              <loadout>
+              </loadout>
+            </SItemPortLoadoutEntryParams>
+          </entries>
+        </SItemPortLoadoutManualParams>
+      </loadout>
+    </SEntityComponentDefaultLoadoutParams>
+    <ItemControlComponentParams turnedOnByDefault="1" __type="DataForgeComponentParams" __polymorphicType="ItemControlComponentParams">
+      <throttleParams>
+      </throttleParams>
+    </ItemControlComponentParams>
+    <SItemPortContainerComponentParams PortFlags="" PortTags="" RequiredItemTags="" __type="DataForgeComponentParams" __polymorphicType="SItemPortContainerComponentParams">
+      <masterController>
+      </masterController>
+      <Ports>
+        <SItemPortDef Name="magazine_attach" DisplayName="Magazine Slot" PortTags="" RequiredPortTags="multitool_resource" Flags="" MinSize="1" MaxSize="1" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags />
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types>
+            <SItemPortDefTypes Type="WeaponAttachment" __type="SItemPortDefTypes">
+              <SubTypes>
+                <Enum value="Magazine" />
+              </SubTypes>
+            </SItemPortDefTypes>
+          </Types>
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationBone __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationBone">
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="canister_attachment" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationBone>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+        <SItemPortDef Name="weapon_action_attachment" DisplayName="WeaponActionAttachment" PortTags="" RequiredPortTags="" Flags="" MinSize="1" MaxSize="1" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags />
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types>
+            <SItemPortDefTypes Type="WeaponAttachment" __type="SItemPortDefTypes">
+              <SubTypes>
+                <Enum value="Personal" />
+              </SubTypes>
+            </SItemPortDefTypes>
+          </Types>
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationEntity usePhysicalAttachment="0" useEntityAttachment="1" useExteriorAttachment="0" usePhysicalParent="0" hangarPort="0" __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationEntity">
+              <constraintParams damping="0" noSelfCollisions="1" maxPullForce="0" maxBendTorque="0" constrainToLine="0" constrainToPlane="0" constrainFully="1" useWorldConstraintPosition="0" noRotation="1" xMin="0" xMax="0" yzMax="0" constraintHelper="" constraintMaintainOrientation="0" __type="SAttachmentConstraintParams" />
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationEntity>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+        <SItemPortDef Name="module_attach" DisplayName="ModuleSlot" PortTags="grin_multitool_01" RequiredPortTags="grin_multitool_01" Flags="inventory" MinSize="1" MaxSize="1" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags>
+            <Reference value="201aae5c-92c9-43f9-8c6c-b50c279080f8" />
+            <Reference value="fdd7e1a2-e990-4346-a08c-d22d1480e39c" />
+          </Tags>
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types>
+            <SItemPortDefTypes Type="WeaponAttachment" __type="SItemPortDefTypes">
+              <SubTypes>
+                <Enum value="Utility" />
+              </SubTypes>
+            </SItemPortDefTypes>
+          </Types>
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationBone __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationBone">
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="moduleAttach" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationBone>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+      </Ports>
+      <InternalResourceLinks />
+    </SItemPortContainerComponentParams>
+    <UIOwnerEntityComponentParams startOpen="1" areScreens3D="0" areSounds3D="0" hasActions="0" element="235bfc85-aa63-4fd5-b5d1-821fb3522a39" domainName="global" loadDistance="8" updateDistance="5" moviePath="" variantName="" invariantName="" movieAutoPlay="0" loopMovie="0" forceFlashColourCorrection="0" ignoreTrackviewUnloadRequests="0" reflectLocalStateMachine="1" reflectLinkedStateMachines="0" graph="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="UIOwnerEntityComponentParams" />
+    <UIRenderToTextureEntityComponentParams directRenderStage="None" compositeMaterialName="" hideRenderNodeOnUnload="0" aspectRatioOverride="1" interactionDistance="5" transparentListDepthBias="0" renderFlashBeforeCamera="0" fieldOfView="90" renderType="FORWARD" fallbackTextureOnOnload="" __type="DataForgeComponentParams" __polymorphicType="UIRenderToTextureEntityComponentParams">
+      <secondaryTarget>
+      </secondaryTarget>
+      <grabCameraControlParams>
+      </grabCameraControlParams>
+    </UIRenderToTextureEntityComponentParams>
+    <UIBuildingBlocksEntityComponentParams enableFullScreenMouse="0" defaultStyle="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="UIBuildingBlocksEntityComponentParams">
+      <layers>
+        <BuildingBlocksLayer layerName="Default" renderTarget="All" defaultView="layers.BuildingBlocksLayer.views" __type="BuildingBlocksLayer">
+          <views>
+            <BuildingBlocksView name="Default" __type="BuildingBlocksView">
+              <component canvas="67228876-147c-4647-9410-31c6d21c1f6c" __type="CtxGraph_Node" __polymorphicType="UIGraph_BuildingBlocksContextComponent" />
+            </BuildingBlocksView>
+          </views>
+        </BuildingBlocksLayer>
+      </layers>
+    </UIBuildingBlocksEntityComponentParams>
+    <UIBindingsVendorEntityComponentParams namespace="" __type="DataForgeComponentParams" __polymorphicType="UIBindingsVendorEntityComponentParams" />
+    <UIBindingsConsumerEntityComponentParams linkToPort="0" __type="DataForgeComponentParams" __polymorphicType="UIBindingsConsumerEntityComponentParams" />
+    <SEntityComponentMiningLaserParams globalParams="a3c468d8-1194-44a3-b3e6-a8d65ecebd85" throttleLerpSpeed="10" __type="DataForgeComponentParams" __polymorphicType="SEntityComponentMiningLaserParams">
+      <miningLaserModifiers resistanceModifier="0" showResistanceInUI="1" isOptimalRateGood="1" __type="MiningLaserModifiers">
+        <laserInstability>
+        </laserInstability>
+        <optimalChargeWindowSizeModifier>
+        </optimalChargeWindowSizeModifier>
+        <shatterdamageModifier>
+        </shatterdamageModifier>
+        <optimalChargeWindowRateModifier>
+        </optimalChargeWindowRateModifier>
+        <catastrophicChargeWindowRateModifier>
+        </catastrophicChargeWindowRateModifier>
+      </miningLaserModifiers>
+    </SEntityComponentMiningLaserParams>
+    <SCItemMiningControllerParams globalParams="f0e24e0c-a940-40ee-a242-9443f5cea213" __type="DataForgeComponentParams" __polymorphicType="SCItemMiningControllerParams">
+      <audioParams __type="MiningControllerAudioParams">
+        <scanningProgressRtpc rtpc="Mining_UI_Loading_Bar" __type="AudioRtpc" />
+      </audioParams>
+    </SCItemMiningControllerParams>
+    <SCItemRadarComponentParams identityDetection="0.9" isMultiTool="1" __type="DataForgeComponentParams" __polymorphicType="SCItemRadarComponentParams">
+      <contactGroups __type="RadarContactGroupArray">
+        <groups>
+          <Reference value="3af73712-f0ca-42e4-b201-8737f91887d4" />
+        </groups>
+      </contactGroups>
+      <signatureDetection>
+        <SCItemRadarSignatureDetection sensitivity="0" piercing="0.25" permitPassiveDetection="1" permitActiveDetection="1" __type="SCItemRadarSignatureDetection" />
+        <SCItemRadarSignatureDetection sensitivity="0" piercing="0.25" permitPassiveDetection="1" permitActiveDetection="1" __type="SCItemRadarSignatureDetection" />
+        <SCItemRadarSignatureDetection sensitivity="0" piercing="0.25" permitPassiveDetection="1" permitActiveDetection="1" __type="SCItemRadarSignatureDetection" />
+        <SCItemRadarSignatureDetection sensitivity="0" piercing="0.25" permitPassiveDetection="1" permitActiveDetection="1" __type="SCItemRadarSignatureDetection" />
+        <SCItemRadarSignatureDetection sensitivity="1" piercing="0.25" permitPassiveDetection="1" permitActiveDetection="1" __type="SCItemRadarSignatureDetection" />
+        <SCItemRadarSignatureDetection sensitivity="0" piercing="0.25" permitPassiveDetection="1" permitActiveDetection="1" __type="SCItemRadarSignatureDetection" />
+        <SCItemRadarSignatureDetection sensitivity="0" piercing="0.25" permitPassiveDetection="1" permitActiveDetection="1" __type="SCItemRadarSignatureDetection" />
+      </signatureDetection>
+      <pingProperties cooldownTime="2.5" __type="SCItemRadarPingProperties" />
+    </SCItemRadarComponentParams>
+    <UIAudioComponentEntityComponentParams UIAudioDef="17150bab-c2df-4949-b331-ab1c585629e5" useEntityClass="00000000-0000-0000-0000-000000000000" dialogueContext="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="UIAudioComponentEntityComponentParams">
+      <offset>
+        <UIAudioComponent_ManualOffset __type="UIAudioComponent_Offset" __polymorphicType="UIAudioComponent_ManualOffset">
+          <offset __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="-0.015" z="0.11" __type="Vec3" />
+          </offset>
+        </UIAudioComponent_ManualOffset>
+      </offset>
+      <videoAudioPlayTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <videoAudioPauseTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <videoAudioResumeTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+    </UIAudioComponentEntityComponentParams>
+    <EntityComponentPowerConnection PowerBase="1" PowerDraw="50" TimeToReachDrawRequest="0" SafeguardPriority="0" DisplayedInPoweredItemList="0" IsThrottleable="0" IsOverclockable="0" OverclockThresholdMin="0" OverclockThresholdMax="0" OverpowerPerformance="0" OverclockPerformance="0" PowerToEM="0" DecayRateOfEM="0.15" WarningDelayTime="0.3" WarningDisplayTime="8" MisfireItemTypeLocID="@LOC_PLACEHOLDER" __type="DataForgeComponentParams" __polymorphicType="EntityComponentPowerConnection">
+      <MisfireGenerationParams>
+      </MisfireGenerationParams>
+      <MisfireEvents __type="SMisfireEvents">
+        <MinorMisfires />
+        <MajorMisfires />
+        <CriticalMisfires />
+      </MisfireEvents>
+    </EntityComponentPowerConnection>
+    <StatusEntityComponentParams bindingsPrefix="ParentCardActor" __type="DataForgeComponentParams" __polymorphicType="StatusEntityComponentParams" />
+  </Components>
+</EntityClassDefinition.grin_multitool_01_orange01>

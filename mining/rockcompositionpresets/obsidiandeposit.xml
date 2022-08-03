@@ -1,0 +1,9 @@
+<MineableComposition.ObsidianDeposit depositName="@hud_mining_rock_name_4" minimumDistinctElements="3" __type="MineableComposition" __ref="07374f98-ddb2-4dcf-884f-cec5af8d4db0" __path="libs/foundry/records/mining/rockcompositionpresets/obsidiandeposit.xml">
+  <compositionArray>
+    <MineableCompositionPart mineableElement="b471b96c-efbb-4342-90de-cfa087604d8e" minPercentage="3" maxPercentage="50" probability="0.5" curveExponent="2" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="cad02f99-292c-4ee4-93cc-a73868f11ddb" minPercentage="2" maxPercentage="40" probability="0.25" curveExponent="2" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="efb89e24-486d-4eee-ab5c-85b90a3bdad1" minPercentage="2" maxPercentage="35" probability="0.25" curveExponent="3" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="220c2e18-9324-4528-b399-2f908488b204" minPercentage="3" maxPercentage="30" probability="0.2" curveExponent="4" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="f48b147f-713e-481f-adf2-ff9869ac61bd" minPercentage="3" maxPercentage="30" probability="0.2" curveExponent="5" __type="MineableCompositionPart" />
+  </compositionArray>
+</MineableComposition.ObsidianDeposit>

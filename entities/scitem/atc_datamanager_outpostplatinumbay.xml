@@ -1,0 +1,146 @@
+<EntityClassDefinition.ATC_DataManager_OutpostPlatinumBay Category="Default" Icon="Default.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="b2595834-452a-4753-98fc-5e7d5827fecd" __path="libs/foundry/records/entities/scitem/atc_datamanager_outpostplatinumbay.xml">
+  <tags />
+  <StaticEntityClassData />
+  <Components>
+    <SAttachableComponentParams attachToTileItemPort="NoConnection" __type="DataForgeComponentParams" __polymorphicType="SAttachableComponentParams">
+      <AttachDef Type="AirTrafficController" SubType="Default" Size="1" Grade="1" Manufacturer="00000000-0000-0000-0000-000000000000" inheritParentManufacturer="0" Tags="" RequiredTags="NOPE" DisplayType="" __type="SItemDefinition">
+        <Localization Name="@LOC_PLACEHOLDER" ShortName="@LOC_EMPTY" Description="@ATC_PlatinumBay" __type="SCItemLocalization">
+          <displayFeatures LogoSimplifiedWhite="" FrontendBackground="" History="@LOC_EMPTY" Callout1="@LOC_EMPTY" Callout2="@LOC_EMPTY" Callout3="@LOC_EMPTY" UIPriority="0" __type="SCExtendedLocalizationLevelParams">
+            <locationAudioPlayTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+            <locationAudioStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </displayFeatures>
+        </Localization>
+        <mannequinTags mannequinClassTag="" mannequinTypeTag="" mannequinBaseTag="" __type="SCItemMannequinTags" />
+        <inventoryOccupancyVolume>
+          <SMicroCargoUnit microSCU="1" __type="SBaseCargoUnit" __polymorphicType="SMicroCargoUnit" />
+        </inventoryOccupancyVolume>
+        <inventoryOccupancyDimensions x="0.15" y="0.15" z="0.15" __type="Vec3" />
+        <inventoryOccupancyDimensionsUIOverride>
+        </inventoryOccupancyDimensionsUIOverride>
+      </AttachDef>
+      <entityAttachParams>
+      </entityAttachParams>
+    </SAttachableComponentParams>
+    <SCAirTrafficControllerDataManagerParams isVehicleATC="0" timeToLand="-1" timeToTakeOff="-1" timeToUndock="5" distanceForManualComms="100" timeReservedToCancelDock="30" timeToTakeOffMin="600" stayTime="-1" stayTimeMin="100" timeToRemoveIllegal="30" timeToNotifyQueue="5" timeToRepeatWaitingMessage="30" reservationTime="600" warningTimeBeforeDespawn="15" timeToDespawn="200" timeObstructionAllowed="15" timeToConsiderVehicleLeft="12" occupancyLimit="0.9" controlDoorsAutomatically="1" greetingMessage="@dfm_ui_ATCPrompt" greetingTime="10" timeToForgiveObstruction="10" timeAllowedToChangeShips="20" disableObstructionDespawn="0" maxCrimeStatAllowed="0" canDespawnShips="0" __type="DataForgeComponentParams" __polymorphicType="SCAirTrafficControllerDataManagerParams">
+      <timeToTakeOffMinOverrideByDockingClass />
+      <stayTimeMinOverrideByDockingClass />
+    </SCAirTrafficControllerDataManagerParams>
+    <SCItemATCCommsComponentParams setup="4ab68026-2e32-49af-8cd5-e03c8b0503fa" __type="DataForgeComponentParams" __polymorphicType="SCItemATCCommsComponentParams" />
+    <HintComponentParams trigger="88d4f7ab-2a25-4367-9a33-9cd6424f7e10" radius="5000" showDebugInEditor="1" __type="DataForgeComponentParams" __polymorphicType="HintComponentParams">
+      <bounds x="0" y="0" z="0" __type="Vec3" />
+    </HintComponentParams>
+    <SEntityComponentObjectMetadataParams name="@ATC_PlatinumBay" hasLocalBounds="1" __type="DataForgeComponentParams" __polymorphicType="SEntityComponentObjectMetadataParams">
+      <metadata />
+    </SEntityComponentObjectMetadataParams>
+    <RestrictedAreaATCComponentParams __type="DataForgeComponentParams" __polymorphicType="RestrictedAreaATCComponentParams" />
+    <SItemPortContainerComponentParams PortFlags="" PortTags="" RequiredItemTags="" __type="DataForgeComponentParams" __polymorphicType="SItemPortContainerComponentParams">
+      <masterController>
+        <SItemPortMasterControllerParams __type="SItemPortMasterControllerParams">
+          <Pipes />
+        </SItemPortMasterControllerParams>
+      </masterController>
+      <Ports>
+        <SItemPortDef Name="hardpoint_ATC" DisplayName="" PortTags="" RequiredPortTags="" Flags="uneditable" MinSize="0" MaxSize="10" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags />
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+            <SCItemControlAIModuleParams __type="SCItemControlBaseParams" __polymorphicType="SCItemControlAIModuleParams">
+              <aiModuleObserve>
+                <SCItemObservableParams __type="SCItemObservableParams">
+                  <observableGroups />
+                </SCItemObservableParams>
+              </aiModuleObserve>
+              <aiModuleControl>
+                <SCItemControllableSimpleParams priority="10" __type="SCItemControllableParams" __polymorphicType="SCItemControllableSimpleParams" />
+              </aiModuleControl>
+            </SCItemControlAIModuleParams>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types />
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationBone __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationBone">
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="hardpoint_ATC" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationBone>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+      </Ports>
+      <InternalResourceLinks />
+    </SItemPortContainerComponentParams>
+    <SSCSignatureDummyParams enable="1" type="CrossSection" value="1000000" __type="DataForgeComponentParams" __polymorphicType="SSCSignatureDummyParams" />
+    <SSCSignatureSystemParams bindingURLPrefix="" scanCustomData="00000000-0000-0000-0000-000000000000" isOverridden="1" __type="DataForgeComponentParams" __polymorphicType="SSCSignatureSystemParams">
+      <radarProperties>
+        <SSCRadarContactProperites contactType="3a94a6bd-757b-422d-8225-f34a0f54d855" __type="SSCRadarContactProperites">
+          <baseSignatureParams>
+          </baseSignatureParams>
+          <crossSectionParams>
+          </crossSectionParams>
+          <scanBounds>
+          </scanBounds>
+        </SSCRadarContactProperites>
+      </radarProperties>
+      <audioParams>
+      </audioParams>
+      <detectionTags />
+      <overriddenSize x="5" y="5" z="5" __type="Vec3" />
+    </SSCSignatureSystemParams>
+    <SHealthComponentParams Health="1" ClientOnly="0" UnlockInteractionsOnDeath="0" PushDamageUpPartsHeirarchyWhenDead="0" DetachFromItemPortOnDeath="0" DetachFromEntityOnDeath="0" PropagateExplosionDamageToChildren="0" UseDirtShaderForDamage="0" DestroyedGeometryTag="" ExplodedGeometryTag="" DebrisGeometryTag="" ExplosionDelayTime="0" ExplosionRandomDelayRange="0" ExplosionBone="" __type="DataForgeComponentParams" __polymorphicType="SHealthComponentParams">
+      <DamageResistances>
+        <DamageResistance __type="DamageResistanceBase" __polymorphicType="DamageResistance">
+          <PhysicalResistance Multiplier="0" Threshold="0" __type="DamageResistanceEntry" />
+          <EnergyResistance Multiplier="0" Threshold="0" __type="DamageResistanceEntry" />
+          <DistortionResistance Multiplier="0" Threshold="0" __type="DamageResistanceEntry" />
+          <ThermalResistance Multiplier="0" Threshold="0" __type="DamageResistanceEntry" />
+          <BiochemicalResistance Multiplier="0" Threshold="0" __type="DamageResistanceEntry" />
+          <StunResistance Multiplier="0" Threshold="0" __type="DamageResistanceEntry" />
+        </DamageResistance>
+      </DamageResistances>
+      <InitialDamage>
+      </InitialDamage>
+      <HealthLevelStates />
+      <DeathExplosionParams>
+      </DeathExplosionParams>
+      <DeathGasComposition />
+      <InteractionLocks />
+      <DamageMapParams>
+      </DamageMapParams>
+    </SHealthComponentParams>
+    <SHealthComponentParams Health="1" ClientOnly="0" UnlockInteractionsOnDeath="0" PushDamageUpPartsHeirarchyWhenDead="0" DetachFromItemPortOnDeath="0" DetachFromEntityOnDeath="0" PropagateExplosionDamageToChildren="0" UseDirtShaderForDamage="0" DestroyedGeometryTag="" ExplodedGeometryTag="" DebrisGeometryTag="" ExplosionDelayTime="0" ExplosionRandomDelayRange="0" ExplosionBone="" __type="DataForgeComponentParams" __polymorphicType="SHealthComponentParams">
+      <DamageResistances>
+        <DamageResistance __type="DamageResistanceBase" __polymorphicType="DamageResistance">
+          <PhysicalResistance Multiplier="0" Threshold="0" __type="DamageResistanceEntry" />
+          <EnergyResistance Multiplier="0" Threshold="0" __type="DamageResistanceEntry" />
+          <DistortionResistance Multiplier="0" Threshold="0" __type="DamageResistanceEntry" />
+          <ThermalResistance Multiplier="0" Threshold="0" __type="DamageResistanceEntry" />
+          <BiochemicalResistance Multiplier="0" Threshold="0" __type="DamageResistanceEntry" />
+          <StunResistance Multiplier="0" Threshold="0" __type="DamageResistanceEntry" />
+        </DamageResistance>
+      </DamageResistances>
+      <InitialDamage>
+      </InitialDamage>
+      <HealthLevelStates />
+      <DeathExplosionParams>
+      </DeathExplosionParams>
+      <DeathGasComposition />
+      <InteractionLocks />
+      <DamageMapParams>
+      </DamageMapParams>
+    </SHealthComponentParams>
+  </Components>
+</EntityClassDefinition.ATC_DataManager_OutpostPlatinumBay>

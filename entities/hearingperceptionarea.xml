@@ -1,0 +1,13 @@
+<EntityClassDefinition.HearingPerceptionArea Category="Subsumption" Icon="AreaTrigger.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="0e7e4c49-ff32-455a-8ff9-36678ec5f61f" __path="libs/foundry/records/entities/hearingperceptionarea.xml">
+  <tags>
+    <Reference value="d85f8fe2-ceb7-4bd9-98d3-18a5829a3aab" />
+  </tags>
+  <StaticEntityClassData />
+  <Components>
+    <SActionAreaComponentParams triggerOnce="0" enterEvent="" exitEvent="" eventTriggerMask="AIAndPlayer" __type="DataForgeComponentParams" __polymorphicType="SActionAreaComponentParams">
+      <requiredTags />
+      <excludedTags />
+      <applyTagsToContainedEntities />
+    </SActionAreaComponentParams>
+  </Components>
+</EntityClassDefinition.HearingPerceptionArea>

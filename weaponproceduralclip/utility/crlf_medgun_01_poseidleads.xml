@@ -1,0 +1,8 @@
+<WeaponProceduralClip.crlf_medgun_01_PoseIdleADS __type="WeaponProceduralClip" __ref="880605e0-1a67-4d27-be77-436c9a947601" __path="libs/foundry/records/weaponproceduralclip/utility/crlf_medgun_01_poseidleads.xml">
+  <weaponProceduralClipBase>
+    <WeaponProceduralClipPose blendTime="1" poseType="RightHand" zoomTransitionAngle="0" useAimHelperOffset="0" __type="WeaponProceduralClipBase" __polymorphicType="WeaponProceduralClipPose">
+      <position x="0" y="-0.05" z="-0.03" __type="Vec3" />
+      <rotation x="0.8" y="0" z="0" __type="Ang3" />
+    </WeaponProceduralClipPose>
+  </weaponProceduralClipBase>
+</WeaponProceduralClip.crlf_medgun_01_PoseIdleADS>

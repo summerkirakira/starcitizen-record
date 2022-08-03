@@ -1,0 +1,35 @@
+<MissionLocationTemplate.ConventionCenterOrison __type="MissionLocationTemplate" __ref="f3727374-ced7-45c3-8ceb-2957a1b2d739" __path="libs/foundry/records/missiondata/pu_locations/templates/conventioncenterhalls/conventioncenterorison.xml">
+  <locationData __type="MissionLocationData">
+    <generalTags __type="MissionLocationTags">
+      <tags>
+        <Reference value="070b2dde-9ee1-4222-a6af-26c62385580a" />
+      </tags>
+    </generalTags>
+    <producesTags __type="TagSearchTerm">
+      <positiveTags />
+      <negativeTags />
+    </producesTags>
+    <consumesTags __type="TagSearchTerm">
+      <positiveTags />
+      <negativeTags />
+    </consumesTags>
+    <aiSpawnTags __type="TagList">
+      <tags />
+    </aiSpawnTags>
+    <stringVariants __type="MissionStringVariants">
+      <variants />
+    </stringVariants>
+    <missionModules>
+      <SMissionLocationModule missionModule="Libs/Subsumption/Missions/PU/PU_MissionModules/LocationManager/ExpoHalls/ExpoHalls_Security.xml" __type="SMissionLocationModule">
+        <missionInputs />
+      </SMissionLocationModule>
+      <SMissionLocationModule missionModule="Libs/Subsumption/Missions/PU/PU_MissionModules/LocationManager/ExpoHalls/ExpoHalls_Elevators.xml" __type="SMissionLocationModule">
+        <missionInputs>
+          <MissionInitParamInteger name="DestinationToEnableDisable_Int" value="1" __type="AbstractMissionInitParam" __polymorphicType="MissionInitParamInteger" />
+        </missionInputs>
+      </SMissionLocationModule>
+    </missionModules>
+    <missionLimits />
+    <autoSpawnSettings />
+  </locationData>
+</MissionLocationTemplate.ConventionCenterOrison>

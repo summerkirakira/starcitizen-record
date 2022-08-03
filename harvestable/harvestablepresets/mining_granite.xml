@@ -1,0 +1,7 @@
+<HarvestablePreset.Mining_Granite entityClass="505eb015-d36c-4298-8303-598cbd77447e" respawnInSlotTime="3600" specialHarvestableString="" __type="HarvestablePreset" __ref="d5527b9f-273a-4582-99ba-561596cb5c92" __path="libs/foundry/records/harvestable/harvestablepresets/mining_granite.xml">
+  <transformParams minScale="0.7" maxScale="1" terrainNormalAlignment="1" minZOffset="0.1" maxZOffset="0.25" minSlope="0" maxSlope="90" minElevation="-10000" maxElevation="10000" __type="HarvestableTransformParams">
+    <rotationRange x="360" y="360" z="360" __type="Vec3" />
+  </transformParams>
+  <subConfigBase>
+  </subConfigBase>
+</HarvestablePreset.Mining_Granite>

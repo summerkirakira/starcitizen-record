@@ -1,0 +1,49 @@
+<EntityClassDefinition.LocationObjectContainer Category="Default" Icon="Default.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="1fd113fe-d8b2-4ef0-ab08-ff5330f82927" __path="libs/foundry/records/entities/objectcontainers/locationobjectcontainer.xml">
+  <tags />
+  <StaticEntityClassData />
+  <Components>
+    <SObjectContainerComponentParams objectContainer="" __type="DataForgeComponentParams" __polymorphicType="SObjectContainerComponentParams" />
+    <SSuperGUIDComponentParams __type="DataForgeComponentParams" __polymorphicType="SSuperGUIDComponentParams" />
+    <GoToPointComponentParams pointName="" description="" __type="DataForgeComponentParams" __polymorphicType="GoToPointComponentParams" />
+    <SEntityComponentObjectMetadataParams name="@LOC_EMPTY" hasLocalBounds="1" __type="DataForgeComponentParams" __polymorphicType="SEntityComponentObjectMetadataParams">
+      <metadata />
+    </SEntityComponentObjectMetadataParams>
+    <SubsumptionPlatformComponentParams locationHierarchyTag="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="SubsumptionPlatformComponentParams">
+      <missionLocation>
+        <MissionLocationParams template="00000000-0000-0000-0000-000000000000" actionArea="" __type="MissionLocationParams">
+          <additionalData __type="MissionLocationData">
+            <generalTags __type="MissionLocationTags">
+              <tags />
+            </generalTags>
+            <producesTags __type="TagSearchTerm">
+              <positiveTags />
+              <negativeTags />
+            </producesTags>
+            <consumesTags __type="TagSearchTerm">
+              <positiveTags />
+              <negativeTags />
+            </consumesTags>
+            <aiSpawnTags __type="TagList">
+              <tags />
+            </aiSpawnTags>
+            <stringVariants __type="MissionStringVariants">
+              <variants />
+            </stringVariants>
+            <missionModules />
+            <missionLimits />
+            <autoSpawnSettings />
+          </additionalData>
+        </MissionLocationParams>
+      </missionLocation>
+      <additionalLocations />
+    </SubsumptionPlatformComponentParams>
+    <SSCSignatureSystemParams bindingURLPrefix="" scanCustomData="00000000-0000-0000-0000-000000000000" isOverridden="0" __type="DataForgeComponentParams" __polymorphicType="SSCSignatureSystemParams">
+      <radarProperties>
+      </radarProperties>
+      <audioParams>
+      </audioParams>
+      <detectionTags />
+      <overriddenSize x="0" y="0" z="0" __type="Vec3" />
+    </SSCSignatureSystemParams>
+  </Components>
+</EntityClassDefinition.LocationObjectContainer>

@@ -1,0 +1,36 @@
+<HarvestablePreset.Mining_AsteroidSType entityClass="7167018a-1edf-462e-bf72-9db813968db0" respawnInSlotTime="3600" specialHarvestableString="" __type="HarvestablePreset" __ref="23ad6146-b549-401c-9092-099a94dd57da" __path="libs/foundry/records/harvestable/harvestablepresets/mining_asteroidstype.xml">
+  <transformParams minScale="1" maxScale="1" terrainNormalAlignment="1" minZOffset="0.1" maxZOffset="0.25" minSlope="0" maxSlope="90" minElevation="-10000" maxElevation="10000" __type="HarvestableTransformParams">
+    <rotationRange x="360" y="360" z="360" __type="Vec3" />
+  </transformParams>
+  <subConfigBase>
+    <SubHarvestableConfigManual __type="SubHarvestableConfigBase" __polymorphicType="SubHarvestableConfigManual">
+      <subConfigManual initialSlotsProbability="0.5" configRespawnTimeMultiplier="1" __type="SubHarvestableConfig">
+        <initialSlotsProbabilityDeepest>
+        </initialSlotsProbabilityDeepest>
+        <subHarvestables>
+          <SubHarvestableSlot harvestable="41dd2e4f-e03f-4dde-8d70-a7ceffa2cb6d" relativeProbability="0.1" harvestableRespawnTimeMultiplier="1" __type="SubHarvestableSlot">
+            <relativeProbabilityDeepest>
+            </relativeProbabilityDeepest>
+            <geometries />
+            <lootConfig>
+            </lootConfig>
+          </SubHarvestableSlot>
+          <SubHarvestableSlot harvestable="36f22fc5-6b6a-4781-bf60-f205ab0ddda0" relativeProbability="1" harvestableRespawnTimeMultiplier="1" __type="SubHarvestableSlot">
+            <relativeProbabilityDeepest>
+            </relativeProbabilityDeepest>
+            <geometries />
+            <lootConfig>
+            </lootConfig>
+          </SubHarvestableSlot>
+          <SubHarvestableSlot harvestable="a776880f-c8e0-4642-bbbc-889d9b7b1037" relativeProbability="0.5" harvestableRespawnTimeMultiplier="1" __type="SubHarvestableSlot">
+            <relativeProbabilityDeepest>
+            </relativeProbabilityDeepest>
+            <geometries />
+            <lootConfig>
+            </lootConfig>
+          </SubHarvestableSlot>
+        </subHarvestables>
+      </subConfigManual>
+    </SubHarvestableConfigManual>
+  </subConfigBase>
+</HarvestablePreset.Mining_AsteroidSType>

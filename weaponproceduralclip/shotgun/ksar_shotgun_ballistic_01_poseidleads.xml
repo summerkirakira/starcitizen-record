@@ -1,0 +1,8 @@
+<WeaponProceduralClip.ksar_shotgun_ballistic_01_PoseIdleADS __type="WeaponProceduralClip" __ref="78e9e78a-2357-48d3-87b9-b828ecbe3333" __path="libs/foundry/records/weaponproceduralclip/shotgun/ksar_shotgun_ballistic_01_poseidleads.xml">
+  <weaponProceduralClipBase>
+    <WeaponProceduralClipPose blendTime="1" poseType="RightHand" zoomTransitionAngle="0" useAimHelperOffset="0" __type="WeaponProceduralClipBase" __polymorphicType="WeaponProceduralClipPose">
+      <position x="0" y="-0.035" z="-0.022" __type="Vec3" />
+      <rotation x="0" y="0" z="0" __type="Ang3" />
+    </WeaponProceduralClipPose>
+  </weaponProceduralClipBase>
+</WeaponProceduralClip.ksar_shotgun_ballistic_01_PoseIdleADS>

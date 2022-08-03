@@ -1,0 +1,21 @@
+<CrewManifest.PU_Human_Navy_Light_wTurret __type="CrewManifest" __ref="0ba1bb08-4ae2-4ab7-8f79-4e171b85ab14" __path="libs/foundry/records/crewmanifest/pu/navy/pu_human_navy_light_wturret.xml">
+  <descriptionTags __type="TagList">
+    <tags>
+      <Reference value="9084131e-53fe-44cb-ae70-33b8ac757e72" />
+    </tags>
+  </descriptionTags>
+  <crew>
+    <CrewData entityClassDefinition="900715d6-cf26-47e5-b6db-6f48e64196b4" archetype="00000000-0000-0000-0000-000000000000" __type="CrewData">
+      <outfitTags />
+      <tags>
+        <Reference value="275db83d-5b41-4ebc-bcd7-d325220af86a" />
+      </tags>
+    </CrewData>
+    <CrewData entityClassDefinition="4b971b38-4ad2-4386-b8d3-34ca1fbe71b6" archetype="00000000-0000-0000-0000-000000000000" __type="CrewData">
+      <outfitTags />
+      <tags>
+        <Reference value="61d439f9-0bef-43e0-8ecc-fe96c9793d66" />
+      </tags>
+    </CrewData>
+  </crew>
+</CrewManifest.PU_Human_Navy_Light_wTurret>

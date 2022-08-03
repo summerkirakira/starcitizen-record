@@ -1,0 +1,13 @@
+<Level.EA_Echo11 displayName="EA_Echo11" locDisplayName="@ea_ui_map_Echo11" description="@ea_ui_mapdesc_Echo11" thumbnail="ui/frontend/assets/tif/gametypesmaps/echo11.tif" filename="EA_Echo11" gameToken="echo11" universeLocationUniqueId="0" defaultGameRules="22d4a2f3-131e-4594-90e3-e57016690a22" TrackNumber="-1" mapCode="ECHO11" systemImagePath="" __type="Level" __ref="7c0a83d6-8b74-45f5-b468-9cc6524e6eb5" __path="libs/foundry/records/level/ea/ea_echo11.xml">
+  <displayFeatures>
+  </displayFeatures>
+  <validGameRules>
+    <Reference value="c259e426-be03-4c88-b6ca-712b4ba75f64" />
+    <Reference value="22d4a2f3-131e-4594-90e3-e57016690a22" />
+  </validGameRules>
+  <loadingScreenInfo loadingScreenType="ElectronicAccess" imagePath="../TIF/LoadingScreen/sm.dds" primaryTitle="@ui_GameTitle_StarMarine" secondaryTitle="@dfm_ac_ui_MissionTypeNameFPS_Elimination" subtitle="@LOC_EMPTY" description="@dfm_ac_ui_MissionTypeDescFPS_Elimination" __type="SLoadingScreenInformationDef">
+    <tips />
+  </loadingScreenInfo>
+  <potentialSpawnLocations />
+  <potentialDevOnlySpawnLocations />
+</Level.EA_Echo11>

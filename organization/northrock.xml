@@ -1,0 +1,38 @@
+<EntityClassDefinition.NorthRock Category="Default" Icon="Default.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="690ca828-9281-4c56-b6fe-5d92b6a83e5b" __path="libs/foundry/records/organization/northrock.xml">
+  <tags />
+  <StaticEntityClassData>
+    <SOrganizationProperties Name="(Default)" DisplayName="@NorthRock_RepUI_Name" Description="@NorthRock_RepUI_Description" Headquarters="@NorthRock_RepUI_Headquarters" Logo="UI/mobiGlas/assets/PNG/Reputation/rep_ui_icon_logo_northrock.tif" MemberCount="74" __type="EntityClassStaticDataParams" __polymorphicType="SOrganizationProperties">
+      <Allies>
+        <LocID value="@Northrock_Allies" />
+      </Allies>
+      <Enemies>
+        <LocID value="@Northrock_Rivals" />
+      </Enemies>
+      <propertiesBB>
+        <SReputationContextBBPropertyParams name="entityFounded" __type="SReputationContextBBPropertyParams">
+          <dynamicProperty>
+            <SBBDynamicPropertyLocString value="@NorthRock_RepUI_Founded" __type="SBBDynamicPropertyBase" __polymorphicType="SBBDynamicPropertyLocString" />
+          </dynamicProperty>
+        </SReputationContextBBPropertyParams>
+        <SReputationContextBBPropertyParams name="entityLeadership" __type="SReputationContextBBPropertyParams">
+          <dynamicProperty>
+            <SBBDynamicPropertyLocString value="@NorthRock_RepUI_Leadership" __type="SBBDynamicPropertyBase" __polymorphicType="SBBDynamicPropertyLocString" />
+          </dynamicProperty>
+        </SReputationContextBBPropertyParams>
+        <SReputationContextBBPropertyParams name="entityArea" __type="SReputationContextBBPropertyParams">
+          <dynamicProperty>
+            <SBBDynamicPropertyLocString value="@NorthRock_RepUI_Area" __type="SBBDynamicPropertyBase" __polymorphicType="SBBDynamicPropertyLocString" />
+          </dynamicProperty>
+        </SReputationContextBBPropertyParams>
+        <SReputationContextBBPropertyParams name="entityFocus" __type="SReputationContextBBPropertyParams">
+          <dynamicProperty>
+            <SBBDynamicPropertyLocString value="@NorthRock_RepUI_Focus" __type="SBBDynamicPropertyBase" __polymorphicType="SBBDynamicPropertyLocString" />
+          </dynamicProperty>
+        </SReputationContextBBPropertyParams>
+      </propertiesBB>
+    </SOrganizationProperties>
+    <SUniqueEntityClass fixed_geid="199998000064" is_exportable="0" __type="EntityClassStaticDataParams" __polymorphicType="SUniqueEntityClass" />
+    <SReputationContextPropertiesUI context="7d213bd9-b7dd-4bdc-b24c-a3d618ba9e54" __type="EntityClassStaticDataParams" __polymorphicType="SReputationContextPropertiesUI" />
+  </StaticEntityClassData>
+  <Components />
+</EntityClassDefinition.NorthRock>

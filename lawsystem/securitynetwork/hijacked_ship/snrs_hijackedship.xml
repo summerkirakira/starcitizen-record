@@ -1,0 +1,9 @@
+<SecurityNetworkRoomSettings.SNRS_HijackedShip roomIdentifier="00000000-0000-0000-0000-000000000000" __type="SecurityNetworkRoomSettings" __ref="78b9bb14-9693-4854-9505-d88c71658d3b" __path="libs/foundry/records/lawsystem/securitynetwork/hijacked_ship/snrs_hijackedship.xml">
+  <defaultProtocol __type="SecurityNetworkProtocol">
+    <permissionsWithClearance access="No" shootOnSight="Yes" __type="SecurityNetworkPermissions" />
+    <permissionsWithoutClearance access="No" shootOnSight="Yes" __type="SecurityNetworkPermissions" />
+    <acceptedClearance __type="SecurityClearanceConditions">
+      <tokens />
+    </acceptedClearance>
+  </defaultProtocol>
+</SecurityNetworkRoomSettings.SNRS_HijackedShip>

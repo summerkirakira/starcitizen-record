@@ -1,0 +1,66 @@
+<HarvestablePreset.Stash_01 entityClass="45d6de76-f2ff-4d51-9c64-d434149675e3" respawnInSlotTime="3600" specialHarvestableString="" __type="HarvestablePreset" __ref="dca07dcf-a5db-4b92-bf9b-5bdd4ea5ef40" __path="libs/foundry/records/harvestable/harvestablepresets/stash_01.xml">
+  <transformParams minScale="1" maxScale="1" terrainNormalAlignment="1" minZOffset="0" maxZOffset="0" minSlope="0" maxSlope="90" minElevation="-10000" maxElevation="10000" __type="HarvestableTransformParams">
+    <rotationRange x="0" y="0" z="360" __type="Vec3" />
+  </transformParams>
+  <subConfigBase>
+    <SubHarvestableConfigManual __type="SubHarvestableConfigBase" __polymorphicType="SubHarvestableConfigManual">
+      <subConfigManual initialSlotsProbability="0.25" configRespawnTimeMultiplier="1" __type="SubHarvestableConfig">
+        <initialSlotsProbabilityDeepest>
+          <OptionalProbability probability="0.1" __type="OptionalProbability" />
+        </initialSlotsProbabilityDeepest>
+        <subHarvestables>
+          <SubHarvestableSlot harvestable="cfb19350-e758-45c7-ac56-ac0b5cc756a1" relativeProbability="0.25" harvestableRespawnTimeMultiplier="1" __type="SubHarvestableSlot">
+            <relativeProbabilityDeepest>
+              <OptionalProbability probability="0" __type="OptionalProbability" />
+            </relativeProbabilityDeepest>
+            <geometries>
+              <HarvestableGeometry tag="76fe6ffc-334f-4c4d-87c6-95f97549fc1c" __type="HarvestableGeometry" />
+            </geometries>
+            <lootConfig>
+            </lootConfig>
+          </SubHarvestableSlot>
+          <SubHarvestableSlot harvestable="1d2cc023-362b-4bfc-a0a2-0b62583d3ae5" relativeProbability="0.25" harvestableRespawnTimeMultiplier="1" __type="SubHarvestableSlot">
+            <relativeProbabilityDeepest>
+              <OptionalProbability probability="0" __type="OptionalProbability" />
+            </relativeProbabilityDeepest>
+            <geometries>
+              <HarvestableGeometry tag="24ab3e15-0c21-4167-94cf-ce0874b34018" __type="HarvestableGeometry" />
+            </geometries>
+            <lootConfig>
+            </lootConfig>
+          </SubHarvestableSlot>
+          <SubHarvestableSlot harvestable="56a9b9f6-f85d-4e37-9ad8-e80bb71d560c" relativeProbability="0.375" harvestableRespawnTimeMultiplier="1" __type="SubHarvestableSlot">
+            <relativeProbabilityDeepest>
+              <OptionalProbability probability="0.5" __type="OptionalProbability" />
+            </relativeProbabilityDeepest>
+            <geometries>
+              <HarvestableGeometry tag="34b3efb7-fee0-4a73-8c5e-94b0abdb88ec" __type="HarvestableGeometry" />
+            </geometries>
+            <lootConfig>
+            </lootConfig>
+          </SubHarvestableSlot>
+          <SubHarvestableSlot harvestable="2cc08625-0a02-40b2-bb4c-9eebf08c797d" relativeProbability="0" harvestableRespawnTimeMultiplier="1" __type="SubHarvestableSlot">
+            <relativeProbabilityDeepest>
+              <OptionalProbability probability="0.5" __type="OptionalProbability" />
+            </relativeProbabilityDeepest>
+            <geometries>
+              <HarvestableGeometry tag="46631682-0e60-44a4-b5c3-f7a8869b730a" __type="HarvestableGeometry" />
+            </geometries>
+            <lootConfig>
+            </lootConfig>
+          </SubHarvestableSlot>
+          <SubHarvestableSlot harvestable="1607479f-019d-4e5f-af78-c619fb38bafd" relativeProbability="0.125" harvestableRespawnTimeMultiplier="1" __type="SubHarvestableSlot">
+            <relativeProbabilityDeepest>
+              <OptionalProbability probability="0.25" __type="OptionalProbability" />
+            </relativeProbabilityDeepest>
+            <geometries>
+              <HarvestableGeometry tag="d25cb9d1-0677-4f15-9312-51fb91779d0f" __type="HarvestableGeometry" />
+            </geometries>
+            <lootConfig>
+            </lootConfig>
+          </SubHarvestableSlot>
+        </subHarvestables>
+      </subConfigManual>
+    </SubHarvestableConfigManual>
+  </subConfigBase>
+</HarvestablePreset.Stash_01>

@@ -1,0 +1,84 @@
+<EntityClassDefinition.MXOX_NeutronRepeater_FiringMechanism_S2 Category="Items" Icon="Default.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="e090007e-3c41-4429-8b32-76794da6e246" __path="libs/foundry/records/entities/scitem/ships/weapons/parts/mxox_neutronrepeater_firingmechanism_s2.xml">
+  <tags />
+  <StaticEntityClassData>
+    <DefaultEntitlementEntityParams entitlementPolicy="8a1fdd48-7896-4774-a110-2466190e1a07" canEntitleThroughWebsite="1" __type="EntityClassStaticDataParams" __polymorphicType="DefaultEntitlementEntityParams" />
+  </StaticEntityClassData>
+  <Components>
+    <SAttachableComponentParams attachToTileItemPort="NoConnection" __type="DataForgeComponentParams" __polymorphicType="SAttachableComponentParams">
+      <AttachDef Type="WeaponAttachment" SubType="FiringMechanism" Size="1" Grade="1" Manufacturer="00000000-0000-0000-0000-000000000000" inheritParentManufacturer="0" Tags="uneditable" RequiredTags="" DisplayType="" __type="SItemDefinition">
+        <Localization Name="@LOC_PLACEHOLDER" ShortName="@LOC_EMPTY" Description="@LOC_EMPTY" __type="SCItemLocalization">
+          <displayFeatures LogoSimplifiedWhite="" FrontendBackground="" History="@LOC_EMPTY" Callout1="@LOC_EMPTY" Callout2="@LOC_EMPTY" Callout3="@LOC_EMPTY" UIPriority="0" __type="SCExtendedLocalizationLevelParams">
+            <locationAudioPlayTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+            <locationAudioStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </displayFeatures>
+        </Localization>
+        <mannequinTags mannequinClassTag="" mannequinTypeTag="" mannequinBaseTag="" __type="SCItemMannequinTags" />
+        <inventoryOccupancyVolume>
+          <SMicroCargoUnit microSCU="1" __type="SBaseCargoUnit" __polymorphicType="SMicroCargoUnit" />
+        </inventoryOccupancyVolume>
+        <inventoryOccupancyDimensions x="0.15" y="0.15" z="0.15" __type="Vec3" />
+        <inventoryOccupancyDimensionsUIOverride>
+        </inventoryOccupancyDimensionsUIOverride>
+      </AttachDef>
+      <entityAttachParams>
+      </entityAttachParams>
+    </SAttachableComponentParams>
+    <SGeometryResourceParams cacheResources="0" rootOverridePaint="0" inheritModelTagFromHost="1" __type="DataForgeComponentParams" __polymorphicType="SGeometryResourceParams">
+      <ModelTag>
+      </ModelTag>
+      <Geometry Tags="" ScaleMultiplier="1" __type="SGeometryNodeParams">
+        <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+          <Geometry path="objects/spaceships/weapons/mxox/mxox_neu_rep_s1-3_mec/mxox_neu_rep_s2_mec_1.cgf" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+          <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+          <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        </Geometry>
+        <SubGeometry />
+      </Geometry>
+      <Material Tags="" __type="SMaterialNodeParams">
+        <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+        <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        <materialVariants />
+      </Material>
+    </SGeometryResourceParams>
+    <SWeaponModifierComponentParams tag="00000000-0000-0000-0000-000000000000" uiIndex="0" aimHelperYOffset="0" barrelEffectsStrength="1" __type="DataForgeComponentParams" __polymorphicType="SWeaponModifierComponentParams">
+      <modifier __type="SWeaponModifierParams">
+        <weaponStats fireRate="0" fireRateMultiplier="1" damageMultiplier="1" projectileSpeedMultiplier="1" pellets="0" burstShots="0" ammoCost="0" ammoCostMultiplier="1" heatGenerationMultiplier="1" soundRadiusMultiplier="1" useAlternateProjectileVisuals="0" __type="SWeaponStats">
+          <recoilModifier decayMultiplier="1" endDecayMultiplier="1" fireRecoilTimeMultiplier="1" fireRecoilStrengthFirstMultiplier="1" fireRecoilStrengthMultiplier="1" angleRecoilStrengthMultiplier="1" randomnessMultiplier="1" randomnessBackPushMultiplier="1" frontalOscillationRotationMultiplier="1" frontalOscillationStrengthMultiplier="1" frontalOscillationDecayMultiplier="1" frontalOscillationRandomnessMultiplier="1" animatedRecoilMultiplier="1" __type="SRecoilModifier">
+            <headRotationMultiplier x="1" y="1" z="1" __type="Vec3" />
+            <aimRecoilModifier randomPitchMultiplier="1" randomYawMultiplier="1" decayMultiplier="1" endDecayMultiplier="1" __type="SAimRecoilModifier">
+              <maxMultiplier x="1" y="1" __type="Vec2" />
+              <shotKickFirstMultiplier x="1" y="1" __type="Vec2" />
+              <shotKickMultiplier x="1" y="1" __type="Vec2" />
+            </aimRecoilModifier>
+          </recoilModifier>
+          <spreadModifier minMultiplier="1" maxMultiplier="1" firstAttackMultiplier="1" attackMultiplier="1" decayMultiplier="1" additiveModifier="0" __type="SSpreadModifier" />
+          <aimModifier zoomScale="1" zoomTimeScale="1" hideWeaponInADS="0" __type="SAimModifier" />
+        </weaponStats>
+      </modifier>
+      <zeroingParams>
+      </zeroingParams>
+      <reticleParams>
+      </reticleParams>
+      <adsCameraOffset>
+      </adsCameraOffset>
+      <userRTPCs />
+      <fireEffects />
+      <mannequinTag tag="" __type="SMannequinTagParams" />
+    </SWeaponModifierComponentParams>
+    <SEntityPhysicsControllerParams __type="DataForgeComponentParams" __polymorphicType="SEntityPhysicsControllerParams">
+      <PhysType>
+        <SEntityRigidPhysicsControllerParams Mass="0" maxLoggedCollisions="1" Damping="0" DampingFreefall="0.05" PushableByPlayers="1" NeverAffectTriggers="0" UseManualGridTransition="0" BlocksNavigation="1" Kinematic="0" Resting="0" physicalizeAllSlots="1" __type="SEntityBasePhysicsControllerParams" __polymorphicType="SEntityRigidPhysicsControllerParams">
+          <breakableParams>
+          </breakableParams>
+          <gameCollisionClass>
+          </gameCollisionClass>
+          <grid>
+          </grid>
+          <buoyancyParams>
+          </buoyancyParams>
+          <temperature enable="0" initialTemperature="-1" internalTemperatureGeneration="0" __type="EntityTemperature" />
+        </SEntityRigidPhysicsControllerParams>
+      </PhysType>
+    </SEntityPhysicsControllerParams>
+  </Components>
+</EntityClassDefinition.MXOX_NeutronRepeater_FiringMechanism_S2>

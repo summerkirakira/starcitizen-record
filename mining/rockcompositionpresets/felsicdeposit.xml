@@ -1,0 +1,8 @@
+<MineableComposition.FelsicDeposit depositName="@hud_mining_rock_name_7" minimumDistinctElements="3" __type="MineableComposition" __ref="a206fbe9-233b-4a64-ba0e-225042c07ecc" __path="libs/foundry/records/mining/rockcompositionpresets/felsicdeposit.xml">
+  <compositionArray>
+    <MineableCompositionPart mineableElement="1d35c0bc-9142-42ff-8a83-0ec68d69a128" minPercentage="3" maxPercentage="55" probability="0.5" curveExponent="1.5" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="8f6a7e06-934d-4339-a0a2-75420b81369a" minPercentage="3" maxPercentage="40" probability="0.5" curveExponent="2.5" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="220c2e18-9324-4528-b399-2f908488b204" minPercentage="2" maxPercentage="25" probability="0.25" curveExponent="4" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="f48b147f-713e-481f-adf2-ff9869ac61bd" minPercentage="1" maxPercentage="30" probability="0.2" curveExponent="6" __type="MineableCompositionPart" />
+  </compositionArray>
+</MineableComposition.FelsicDeposit>

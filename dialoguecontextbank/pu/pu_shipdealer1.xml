@@ -1,0 +1,48 @@
+<DialogueContextBank.PU_SHIPDEALER1 realm="080eec66-11c3-4efa-91be-aeb3363ca17e" character="64ac9916-1efa-4fea-8626-e2a97841b39f" __type="DialogueContextBank" __ref="73456528-0f18-4796-b27f-1f51cdf7be42" __path="libs/foundry/records/dialoguecontextbank/pu/pu_shipdealer1.xml">
+  <defaultTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+  <contexts>
+    <Reference value="d8192233-fa0e-4c0e-b571-7ba84f91b129" />
+    <Reference value="19a55d41-d090-448b-9c58-cb795b622061" />
+    <Reference value="9fcfceab-eed7-4af9-abd7-fa52fc852b49" />
+    <Reference value="d513add7-25b7-401c-ba41-3988c9a356ae" />
+    <Reference value="b98a8802-cf6b-448c-ade4-c364f52945be" />
+    <Reference value="724d7dbc-929a-4ab0-a7c5-763b0a3bd668" />
+    <Reference value="87940df8-0211-437e-adc7-7052963d6192" />
+    <Reference value="9b07f491-e004-4bc0-8e02-a328670e8576" />
+    <Reference value="576d086b-a531-45a5-885b-e8d87bdd997a" />
+    <Reference value="7e758bc9-d3d2-4883-8693-ef8bb6b8a4af" />
+    <Reference value="c154d80c-1959-4013-830b-44ec61a235e2" />
+    <Reference value="73475beb-ed76-407f-aabb-8855b1972a15" />
+    <Reference value="b3e9e68d-d8c2-44c2-a517-5cd153ebdd71" />
+    <Reference value="e2758eaf-fc49-4f43-9dcb-3d42e5671b52" />
+    <Reference value="ddca6eca-f9c3-45e7-ac78-48aab61c04ab" />
+    <Reference value="8fce8572-6792-41a7-9431-148ffa1cfcfa" />
+    <Reference value="9dcf4363-7caa-4b4c-ae0a-892a584bb278" />
+    <Reference value="b728b4a8-3b48-4ad0-bae9-d6e0966d8c7b" />
+    <Reference value="a7ead4b1-86d1-4387-a09c-5a03bf509c9b" />
+    <Reference value="03103448-1741-4ffd-a02e-f7378ee77159" />
+    <Reference value="e8bf370d-b728-4554-90c1-c4e124a959e1" />
+    <Reference value="4a40c0fa-9066-4ac6-a31a-7bd3e9d56162" />
+    <Reference value="43ba5e29-1029-4f1c-b28b-5292880588d5" />
+    <Reference value="3513212f-9930-4552-b9f0-8a832c43cfdc" />
+    <Reference value="54ebe2d6-1816-4f54-bc8e-e212a8a762fa" />
+    <Reference value="fe2df57c-557a-42c1-af4e-999ddccb5407" />
+    <Reference value="8969516b-624d-4cf0-bff3-acf33466ca47" />
+    <Reference value="9fa63bc6-63f3-4526-b46b-48a374fb95b0" />
+    <Reference value="39a19181-8008-49f8-a672-638c649f1cc4" />
+    <Reference value="9c5e70ee-1db0-4e3f-b935-4a16c40c95b1" />
+    <Reference value="1453390f-4465-4dbb-9fb8-15862ba83666" />
+    <Reference value="e7d3e90a-9421-491e-a157-d7b242b9b1b7" />
+    <Reference value="d224aacd-a2b1-4c56-80e9-37616c0ebbdd" />
+    <Reference value="fd30324b-36da-4a08-9671-200d37b4bfd0" />
+    <Reference value="de064c34-973c-4215-b7c7-0f757cc508d2" />
+    <Reference value="d2a56dc9-d98d-4f3b-af79-0a5367b63ad6" />
+    <Reference value="2a681af9-bb7d-45a9-8410-d1b29d98b11b" />
+    <Reference value="972b7c2b-4379-452e-9685-4e9bdf145845" />
+    <Reference value="19aedb43-9f64-406d-bb58-dbf360096900" />
+    <Reference value="cff01154-6d88-49fa-87ab-7f35926bb2b3" />
+    <Reference value="38d2285a-abf3-446d-a157-f7ca4acb6a3c" />
+    <Reference value="648f5233-1e39-4ed5-9dbb-b002fd88a704" />
+    <Reference value="119c7e6d-df64-44eb-9dbc-50bd66661868" />
+  </contexts>
+</DialogueContextBank.PU_SHIPDEALER1>

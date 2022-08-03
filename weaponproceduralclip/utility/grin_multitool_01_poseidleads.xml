@@ -1,0 +1,8 @@
+<WeaponProceduralClip.grin_multitool_01_PoseIdleADS __type="WeaponProceduralClip" __ref="09130743-f36e-416f-a3f0-bbb73e5cfcb0" __path="libs/foundry/records/weaponproceduralclip/utility/grin_multitool_01_poseidleads.xml">
+  <weaponProceduralClipBase>
+    <WeaponProceduralClipPose blendTime="1" poseType="RightHand" zoomTransitionAngle="0" useAimHelperOffset="0" __type="WeaponProceduralClipBase" __polymorphicType="WeaponProceduralClipPose">
+      <position x="0" y="0.06" z="-0.01" __type="Vec3" />
+      <rotation x="0.8" y="0" z="0" __type="Ang3" />
+    </WeaponProceduralClipPose>
+  </weaponProceduralClipBase>
+</WeaponProceduralClip.grin_multitool_01_PoseIdleADS>

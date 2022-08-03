@@ -1,0 +1,10 @@
+<Level.Hangar_Interactible_objects_test displayName="Hangar_Interactible_objects_test" locDisplayName="@LOC_EMPTY" description="@LOC_EMPTY" thumbnail="" filename="Hangar_Interactible_objects_test" gameToken="" universeLocationUniqueId="0" defaultGameRules="00000000-0000-0000-0000-000000000000" TrackNumber="-1" mapCode="" systemImagePath="" __type="Level" __ref="e0137b2e-3c15-4d31-bfd6-d3a29b35107e" __path="libs/foundry/records/level/level.hangar_interactible_objects_test.xml">
+  <displayFeatures>
+  </displayFeatures>
+  <validGameRules />
+  <loadingScreenInfo loadingScreenType="StarCitizen" imagePath="" primaryTitle="@LOC_EMPTY" secondaryTitle="@LOC_EMPTY" subtitle="@LOC_EMPTY" description="@LOC_EMPTY" __type="SLoadingScreenInformationDef">
+    <tips />
+  </loadingScreenInfo>
+  <potentialSpawnLocations />
+  <potentialDevOnlySpawnLocations />
+</Level.Hangar_Interactible_objects_test>

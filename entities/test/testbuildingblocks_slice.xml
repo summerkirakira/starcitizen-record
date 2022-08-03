@@ -1,0 +1,26 @@
+<EntityClassDefinition.TestBuildingBlocks_Slice Category="Default" Icon="Default.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="074340f6-9707-422c-a5a9-644ce1b99026" __path="libs/foundry/records/entities/test/testbuildingblocks_slice.xml">
+  <tags />
+  <StaticEntityClassData />
+  <Components>
+    <UIOwnerEntityComponentParams startOpen="1" areScreens3D="0" areSounds3D="0" hasActions="0" element="235bfc85-aa63-4fd5-b5d1-821fb3522a39" domainName="global" loadDistance="8" updateDistance="5" moviePath="" variantName="" invariantName="" movieAutoPlay="0" loopMovie="0" forceFlashColourCorrection="0" ignoreTrackviewUnloadRequests="0" reflectLocalStateMachine="0" reflectLinkedStateMachines="0" graph="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="UIOwnerEntityComponentParams" />
+    <UISimpleRenderNodeEntityComponentParams minimumBounds="1" materialName="materials/default_ui.mtl" sortDistance="0" layerOffset="5" layerDistance="0.1" fixedScaleMin="0" fixedScaleMax="0" __type="DataForgeComponentParams" __polymorphicType="UISimpleRenderNodeEntityComponentParams" />
+    <UIRenderToTextureEntityComponentParams directRenderStage="None" compositeMaterialName="" hideRenderNodeOnUnload="0" aspectRatioOverride="1.7776" interactionDistance="5" transparentListDepthBias="0" renderFlashBeforeCamera="0" fieldOfView="90" renderType="FORWARD" fallbackTextureOnOnload="" __type="DataForgeComponentParams" __polymorphicType="UIRenderToTextureEntityComponentParams">
+      <secondaryTarget>
+      </secondaryTarget>
+      <grabCameraControlParams>
+      </grabCameraControlParams>
+    </UIRenderToTextureEntityComponentParams>
+    <UIBuildingBlocksEntityComponentParams enableFullScreenMouse="0" defaultStyle="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="UIBuildingBlocksEntityComponentParams">
+      <layers>
+        <BuildingBlocksLayer layerName="layer0" renderTarget="All" defaultView="layers.BuildingBlocksLayer.views" __type="BuildingBlocksLayer">
+          <views>
+            <BuildingBlocksView name="view0" __type="BuildingBlocksView">
+              <component canvas="379fa5f0-5e99-43a1-85e4-19e21f319eb6" __type="CtxGraph_Node" __polymorphicType="UIGraph_BuildingBlocksContextComponent" />
+            </BuildingBlocksView>
+          </views>
+        </BuildingBlocksLayer>
+      </layers>
+    </UIBuildingBlocksEntityComponentParams>
+    <UIBindingsConsumerEntityComponentParams linkToPort="0" __type="DataForgeComponentParams" __polymorphicType="UIBindingsConsumerEntityComponentParams" />
+  </Components>
+</EntityClassDefinition.TestBuildingBlocks_Slice>

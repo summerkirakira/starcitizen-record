@@ -1,0 +1,21 @@
+<TintPaletteTree.aegs_gladius_106thSquadron templateTree="00000000-0000-0000-0000-000000000000" __type="TintPaletteTree" __ref="cce3097b-9dab-4648-ab3b-12d3875a42da" __path="libs/foundry/records/tintpalettes/brand/aegs/gladius/aegs_gladius_106thsquadron.xml">
+  <root name="aegs_gladius_106thSquadron" inheritsParams="0" decalTexture="objects/spaceships/textures/decals_custom/manufacturers/aegs_106thsquadron_stencil.tif" __type="TintPalette">
+    <children />
+    <entryA glossiness="195" __type="TintEntry">
+      <tintColor r="124" g="134" b="112" __type="SRGB8" />
+      <specColor r="59" g="59" b="59" __type="SRGB8" />
+    </entryA>
+    <entryB glossiness="131" __type="TintEntry">
+      <tintColor r="72" g="76" b="66" __type="SRGB8" />
+      <specColor r="59" g="59" b="59" __type="SRGB8" />
+    </entryB>
+    <entryC glossiness="178" __type="TintEntry">
+      <tintColor r="163" g="135" b="83" __type="SRGB8" />
+      <specColor r="59" g="59" b="59" __type="SRGB8" />
+    </entryC>
+    <glassColor r="234" g="195" b="136" __type="SRGB8" />
+    <decalColorR r="240" g="69" b="69" __type="SRGB8" />
+    <decalColorG r="19" g="19" b="19" __type="SRGB8" />
+    <decalColorB r="189" g="189" b="189" __type="SRGB8" />
+  </root>
+</TintPaletteTree.aegs_gladius_106thSquadron>

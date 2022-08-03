@@ -1,0 +1,10 @@
+<Level.HangarApp displayName="Hangar" locDisplayName="@LOC_EMPTY" description="@LOC_EMPTY" thumbnail="" filename="HangarApp" gameToken="" universeLocationUniqueId="0" defaultGameRules="00000000-0000-0000-0000-000000000000" TrackNumber="-1" mapCode="" systemImagePath="" __type="Level" __ref="aa7d4293-a46b-4649-ac04-c07136bdfb51" __path="libs/foundry/records/level/level.hangarapp.xml">
+  <displayFeatures>
+  </displayFeatures>
+  <validGameRules />
+  <loadingScreenInfo loadingScreenType="StarCitizen" imagePath="../TIF/LoadingScreen/hangar-selfland.dds" primaryTitle="@LOC_EMPTY" secondaryTitle="@LOC_EMPTY" subtitle="@LOC_EMPTY" description="@LOC_EMPTY" __type="SLoadingScreenInformationDef">
+    <tips />
+  </loadingScreenInfo>
+  <potentialSpawnLocations />
+  <potentialDevOnlySpawnLocations />
+</Level.HangarApp>

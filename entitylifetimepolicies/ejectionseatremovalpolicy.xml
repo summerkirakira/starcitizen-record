@@ -1,0 +1,5 @@
+<EntityLifetimePolicyRecord.EjectionSeatRemovalPolicy __type="EntityLifetimePolicyRecord" __ref="9a01c8b2-949f-43fd-aa37-f909d97132c0" __path="libs/foundry/records/entitylifetimepolicies/ejectionseatremovalpolicy.xml">
+  <lifetimePolicies>
+    <SEjectionSeatLifetimePolicy authorizerCountLimit="0" isNonTrivialRemoval="0" timeoutDuration="10" __type="SEntityLifetimePolicyParams" __polymorphicType="SEjectionSeatLifetimePolicy" />
+  </lifetimePolicies>
+</EntityLifetimePolicyRecord.EjectionSeatRemovalPolicy>

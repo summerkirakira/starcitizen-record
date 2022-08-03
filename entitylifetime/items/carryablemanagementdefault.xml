@@ -1,0 +1,9 @@
+<CarryableManagementParams.CarryableManagementDefault defaultTimeoutDuration="300" __type="CarryableManagementParams" __ref="a747b40d-5b2f-478f-84fb-4998b369b9b6" __path="libs/foundry/records/entitylifetime/items/carryablemanagementdefault.xml">
+  <itemTypeTimeouts>
+    <ItemTypeTimeout itemType="WeaponAttachment" timeoutDuration="600" __type="ItemTypeTimeout" />
+    <ItemTypeTimeout itemType="WeaponPersonal" timeoutDuration="600" __type="ItemTypeTimeout" />
+    <ItemTypeTimeout itemType="Cargo" timeoutDuration="3000" __type="ItemTypeTimeout" />
+    <ItemTypeTimeout itemType="Gadget" timeoutDuration="1200" __type="ItemTypeTimeout" />
+    <ItemTypeTimeout itemType="WeaponGun" timeoutDuration="60" __type="ItemTypeTimeout" />
+  </itemTypeTimeouts>
+</CarryableManagementParams.CarryableManagementDefault>

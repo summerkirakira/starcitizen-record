@@ -1,0 +1,26 @@
+<MissionLocationTemplate.FloatingCluster_Stanton2_FW22 __type="MissionLocationTemplate" __ref="9e4c94e6-dc4f-4e17-874e-0a11e26ab5de" __path="libs/foundry/records/missiondata/pu_locations/templates/floatingcluster/stanton2/floatingcluster_stanton2_fw22.xml">
+  <locationData __type="MissionLocationData">
+    <generalTags __type="MissionLocationTags">
+      <tags>
+        <Reference value="1bb99b20-e8b3-4279-9779-15ec3965d34f" />
+      </tags>
+    </generalTags>
+    <producesTags __type="TagSearchTerm">
+      <positiveTags />
+      <negativeTags />
+    </producesTags>
+    <consumesTags __type="TagSearchTerm">
+      <positiveTags />
+      <negativeTags />
+    </consumesTags>
+    <aiSpawnTags __type="TagList">
+      <tags />
+    </aiSpawnTags>
+    <stringVariants __type="MissionStringVariants">
+      <variants />
+    </stringVariants>
+    <missionModules />
+    <missionLimits />
+    <autoSpawnSettings />
+  </locationData>
+</MissionLocationTemplate.FloatingCluster_Stanton2_FW22>

@@ -1,0 +1,11 @@
+<SecurityNetworkRoomSettings.SNRS_UGFServer roomIdentifier="58239818-35f6-4b6a-811f-6e7e42648afc" __type="SecurityNetworkRoomSettings" __ref="a5a2b0c9-0932-40d5-8b44-f8f4079354e8" __path="libs/foundry/records/lawsystem/securitynetwork/ugf/snrs_ugfserver.xml">
+  <defaultProtocol __type="SecurityNetworkProtocol">
+    <permissionsWithClearance access="Inherit" shootOnSight="Inherit" __type="SecurityNetworkPermissions" />
+    <permissionsWithoutClearance access="No" shootOnSight="Yes" __type="SecurityNetworkPermissions" />
+    <acceptedClearance __type="SecurityClearanceConditions">
+      <tokens>
+        <Reference value="c9e3c098-5392-41e7-a031-dd324b850530" />
+      </tokens>
+    </acceptedClearance>
+  </defaultProtocol>
+</SecurityNetworkRoomSettings.SNRS_UGFServer>

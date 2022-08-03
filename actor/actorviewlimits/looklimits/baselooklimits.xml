@@ -1,0 +1,16 @@
+<ActorLookLimits.BaseLookLimits __type="ActorLookLimits" __ref="120d1d75-97b4-40d5-ad59-33fa87c2ca9e" __path="libs/foundry/records/actor/actorviewlimits/looklimits/baselooklimits.xml">
+  <lookLimitsStateFilters>
+    <ActorLookLimitsStateFilter filterByState="Any" filterByMotionSpeed="Sprint" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Shouldered" filterBySkeleton="Any" __type="ActorStateFilter" __polymorphicType="ActorLookLimitsStateFilter">
+      <lookLimits minYaw="-60" maxYaw="90" minPitch="-85" maxPitch="60" __type="ActorViewLimits" />
+    </ActorLookLimitsStateFilter>
+    <ActorLookLimitsStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Shouldered" filterBySkeleton="Any" __type="ActorStateFilter" __polymorphicType="ActorLookLimitsStateFilter">
+      <lookLimits minYaw="-60" maxYaw="90" minPitch="-85" maxPitch="85" __type="ActorViewLimits" />
+    </ActorLookLimitsStateFilter>
+    <ActorLookLimitsStateFilter filterByState="Any" filterByMotionSpeed="Sprint" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" __type="ActorStateFilter" __polymorphicType="ActorLookLimitsStateFilter">
+      <lookLimits minYaw="-90" maxYaw="90" minPitch="-85" maxPitch="60" __type="ActorViewLimits" />
+    </ActorLookLimitsStateFilter>
+    <ActorLookLimitsStateFilter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" __type="ActorStateFilter" __polymorphicType="ActorLookLimitsStateFilter">
+      <lookLimits minYaw="-90" maxYaw="90" minPitch="-85" maxPitch="85" __type="ActorViewLimits" />
+    </ActorLookLimitsStateFilter>
+  </lookLimitsStateFilters>
+</ActorLookLimits.BaseLookLimits>

@@ -1,0 +1,203 @@
+<MissionBrokerEntry.PU_MiningActivity_Legal_Delamar_Battaglia_LowReliability notForRelease="1" missionModule="libs/subsumption/missions/pu/pu_missions/pu_miningactivity.xml" title="@claimsweep_title" titleHUD="@LOC_UNINITIALIZED" description="@claimsweep_desc" missionGiver="@claimsweep_from" commsChannelName="@LOC_UNINITIALIZED" type="62f92440-202a-43d3-9cb8-b917d4e4a102" locationMissionAvailable="0c39de63-bb45-496e-8029-0ed91580c84a" notifyOnAvailable="0" showAsOffer="0" missionBuyInAmount="0" refundBuyInOnWithdraw="0" hasCompleteButton="0" handlesAbandonRequest="0" missionModulePerPlayer="1" maxInstances="8" maxPlayersPerInstance="1" maxInstancesPerPlayer="1" canBeShared="1" onceOnly="0" displayAlliedMarkers="1" availableInPrison="0" failIfSentToPrison="1" requestOnly="0" respawnTime="1" respawnTimeVariation="1" instanceHasLifeTime="1" showLifeTimeInMobiGlas="0" instanceLifeTime="15" instanceLifeTimeVariation="0" canReacceptAfterAbandoning="0" abandonedCooldownTime="15" abandonedCooldownTimeVariation="5" canReacceptAfterFailing="0" hasPersonalCooldown="1" personalCooldownTime="10" personalCooldownTimeVariation="5" moduleHandlesOwnShutdown="0" linkedMission="00000000-0000-0000-0000-000000000000" lawfulMission="1" missionGiverRecord="00c73db5-ae97-4a02-b5f0-c87b64ed4535" invitationMission="26f261b7-ac4d-437e-afc4-4d42e373d6cb" missionGiverFragmentTags="generic+hard" __type="MissionBrokerEntry" __ref="ce699f67-1dd3-4523-9bf3-f49529878918" __path="libs/foundry/records/missionbroker/pu_missions/pu_miningactivity_legal_delamar_battaglia_lowreliability.xml">
+  <availableDateSchedule />
+  <missionReward reward="20000" max="0" plusBonuses="0" currencyType="UEC" reputationBonus="00000000-0000-0000-0000-000000000000" __type="MissionReward" />
+  <missionResultReputationRewards>
+    <SReputationAmountListParams __type="SReputationAmountListParams">
+      <reputationAmounts>
+        <SReputationAmountParams uniqueEntityClass="7de7f66f-d49e-4219-9feb-748e6da8fbd6" reputationScope="f340b011-c40c-4229-b9c1-ce6a3eb1df77" reward="1335b737-6188-4c21-8923-98a74bcd3071" __type="SReputationAmountParams" />
+        <SReputationAmountParams uniqueEntityClass="7de7f66f-d49e-4219-9feb-748e6da8fbd6" reputationScope="7cc02ca4-8b25-42ab-98df-942a9bfe3cca" reward="1335b737-6188-4c21-8923-98a74bcd3071" __type="SReputationAmountParams" />
+      </reputationAmounts>
+    </SReputationAmountListParams>
+    <SReputationAmountListParams __type="SReputationAmountListParams">
+      <reputationAmounts>
+        <SReputationAmountParams uniqueEntityClass="7de7f66f-d49e-4219-9feb-748e6da8fbd6" reputationScope="f340b011-c40c-4229-b9c1-ce6a3eb1df77" reward="4ad8855c-862d-4681-bebb-99ac160cb7b0" __type="SReputationAmountParams" />
+        <SReputationAmountParams uniqueEntityClass="7de7f66f-d49e-4219-9feb-748e6da8fbd6" reputationScope="7cc02ca4-8b25-42ab-98df-942a9bfe3cca" reward="c8df2809-5dd3-452e-9d03-12ede43fa8f4" __type="SReputationAmountParams" />
+      </reputationAmounts>
+    </SReputationAmountListParams>
+    <SReputationAmountListParams __type="SReputationAmountListParams">
+      <reputationAmounts>
+        <SReputationAmountParams uniqueEntityClass="7de7f66f-d49e-4219-9feb-748e6da8fbd6" reputationScope="f340b011-c40c-4229-b9c1-ce6a3eb1df77" reward="c8df2809-5dd3-452e-9d03-12ede43fa8f4" __type="SReputationAmountParams" />
+        <SReputationAmountParams uniqueEntityClass="7de7f66f-d49e-4219-9feb-748e6da8fbd6" reputationScope="7cc02ca4-8b25-42ab-98df-942a9bfe3cca" reward="c8df2809-5dd3-452e-9d03-12ede43fa8f4" __type="SReputationAmountParams" />
+      </reputationAmounts>
+    </SReputationAmountListParams>
+  </missionResultReputationRewards>
+  <journalEntriesToAddOnComplete />
+  <journalEntriesToRemoveOnComplete />
+  <completionTags __type="TagList">
+    <tags />
+  </completionTags>
+  <modifiers />
+  <missionTags>
+    <Reference value="e604ed9c-c969-46b3-9667-ae6dc8e38994" />
+  </missionTags>
+  <reputationPrerequisites wantedLevelJurisdictionOverride="00000000-0000-0000-0000-000000000000" __type="ReputationPrerequisites">
+    <wantedLevel minValue="0" maxValue="5" __type="ReputationPrerequisiteRange" />
+  </reputationPrerequisites>
+  <reputationRequirements>
+    <SReputationMissionRequirementsParams __type="SReputationMissionRequirementsParams">
+      <expression>
+        <SReputationMissionGiverRequirementParams missionGiverEntityClass="7de7f66f-d49e-4219-9feb-748e6da8fbd6" reputationScope="8d0eccdd-fb59-4c5e-a63b-4155280b12b8" comparison="GreaterThan" standing="93f3dc28-237a-4b0f-b98a-974dd9cf8a0e" __type="SReputationMissionRequirementExpressionElement" __polymorphicType="SReputationMissionGiverRequirementParams" />
+        <SReputationMissionRequirementExpression_And __type="SReputationMissionRequirementExpressionElement" __polymorphicType="SReputationMissionRequirementExpression_And" />
+        <SReputationMissionGiverRequirementParams missionGiverEntityClass="7de7f66f-d49e-4219-9feb-748e6da8fbd6" reputationScope="7cc02ca4-8b25-42ab-98df-942a9bfe3cca" comparison="EqualTo" standing="9efa8373-e6a2-4118-9db3-262ceb095785" __type="SReputationMissionRequirementExpressionElement" __polymorphicType="SReputationMissionGiverRequirementParams" />
+      </expression>
+    </SReputationMissionRequirementsParams>
+  </reputationRequirements>
+  <requiredMissions />
+  <requiredCompletedMissionTags />
+  <requiredJournalEntries />
+  <properties>
+    <MissionProperty missionVariableName="MissionLocation" extendedTextToken="Location" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Location minLocationsToFind="1" maxLocationsToFind="1" debugForceChosenLocation="00000000-0000-0000-0000-000000000000" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Location">
+          <matchConditions>
+            <DataSetMatchCondition_TagSearch tagType="General" __type="BaseDataSetMatchCondition" __polymorphicType="DataSetMatchCondition_TagSearch">
+              <tagSearch>
+                <TagSearchTerm __type="TagSearchTerm">
+                  <positiveTags>
+                    <Reference value="f7de902d-76c8-4bc6-9135-65f7d64d757f" />
+                    <Reference value="3b7af69d-7fa4-40ea-afd3-0d4e131889ae" />
+                  </positiveTags>
+                  <negativeTags />
+                </TagSearchTerm>
+              </tagSearch>
+            </DataSetMatchCondition_TagSearch>
+          </matchConditions>
+          <resourceTags>
+            <Reference value="f9f24ef7-d236-4482-972c-33b66fc22d47" />
+          </resourceTags>
+        </MissionPropertyValue_Location>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="" extendedTextToken="LagrangeLocation" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Location minLocationsToFind="1" maxLocationsToFind="1" debugForceChosenLocation="00000000-0000-0000-0000-000000000000" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Location">
+          <matchConditions>
+            <DataSetMatchCondition_PropertyTags searchProperty="" propertyTagType="General" targetTagType="General" searchForAnyTag="0" __type="BaseDataSetMatchCondition" __polymorphicType="DataSetMatchCondition_PropertyTags">
+              <tagFilters>
+                <Reference value="f75c08b8-1b82-4cdb-a9ea-d4ca9777ddfb" />
+              </tagFilters>
+            </DataSetMatchCondition_PropertyTags>
+            <DataSetMatchCondition_TagSearch tagType="General" __type="BaseDataSetMatchCondition" __polymorphicType="DataSetMatchCondition_TagSearch">
+              <tagSearch>
+                <TagSearchTerm __type="TagSearchTerm">
+                  <positiveTags>
+                    <Reference value="98f014c3-c9d0-4440-bed7-ff2d06068e86" />
+                  </positiveTags>
+                  <negativeTags />
+                </TagSearchTerm>
+              </tagSearch>
+            </DataSetMatchCondition_TagSearch>
+          </matchConditions>
+          <resourceTags />
+        </MissionPropertyValue_Location>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="Mission_Type" extendedTextToken="" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_StringHash __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_StringHash">
+          <options>
+            <MissionPropertyValueOption_StringHash textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="Lawful" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_StringHash">
+              <dependentProperties />
+            </MissionPropertyValueOption_StringHash>
+          </options>
+        </MissionPropertyValue_StringHash>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="CombatShips" extendedTextToken="" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Tags __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Tags">
+          <tags __type="TagList">
+            <tags>
+              <Reference value="ecfb92fe-5d2d-4fef-aa8f-2f09fcf42b6f" />
+              <Reference value="3069fb30-e0e6-4fd1-a25b-13152bf970f3" />
+              <Reference value="434af56b-80a5-4e0d-a004-fe22c07ebacd" />
+              <Reference value="5be30324-0f0c-4032-b645-21f10cc59d10" />
+              <Reference value="78b70f42-b9b8-406d-81f2-d9114736ea23" />
+            </tags>
+          </tags>
+          <negativeTags __type="TagList">
+            <tags />
+          </negativeTags>
+          <options />
+        </MissionPropertyValue_Tags>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="CombatShipsAmount" extendedTextToken="" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="5" variation="0" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="Mission_Sentries" extendedTextToken="" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Tags __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Tags">
+          <tags __type="TagList">
+            <tags>
+              <Reference value="3fc9e968-f9f3-4451-983e-4c2cfb8fc8c9" />
+            </tags>
+          </tags>
+          <negativeTags __type="TagList">
+            <tags />
+          </negativeTags>
+          <options />
+        </MissionPropertyValue_Tags>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="SentriesAmount" extendedTextToken="" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="9" variation="0" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="Mission_NumberOfLocations" extendedTextToken="" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="3" variation="0" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="Mission_SentriesPerLocation" extendedTextToken="" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="3" variation="0" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="MissionContractor" extendedTextToken="Contractor" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Organization debugForceChosenOrganization="00000000-0000-0000-0000-000000000000" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Organization">
+          <matchConditions>
+            <DataSetMatchCondition_TagSearch tagType="General" __type="BaseDataSetMatchCondition" __polymorphicType="DataSetMatchCondition_TagSearch">
+              <tagSearch>
+                <TagSearchTerm __type="TagSearchTerm">
+                  <positiveTags>
+                    <Reference value="693cad9b-33a2-4cea-bc9e-25c48d1c1116" />
+                  </positiveTags>
+                  <negativeTags />
+                </TagSearchTerm>
+              </tagSearch>
+            </DataSetMatchCondition_TagSearch>
+          </matchConditions>
+        </MissionPropertyValue_Organization>
+      </value>
+    </MissionProperty>
+  </properties>
+</MissionBrokerEntry.PU_MiningActivity_Legal_Delamar_Battaglia_LowReliability>

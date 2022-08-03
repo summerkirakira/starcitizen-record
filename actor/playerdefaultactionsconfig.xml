@@ -1,0 +1,750 @@
+<ActorDefaultActionsConfig.PlayerDefaultActionsConfig __type="ActorDefaultActionsConfig" __ref="4e3e0440-d1ca-4942-b4e4-cf92e7f9b284" __path="libs/foundry/records/actor/playerdefaultactionsconfig.xml">
+  <defaultActionsList>
+    <DefaultActionsEntry __type="DefaultActionsEntry">
+      <conditions>
+        <DefaultActionsEntityCondition_OR __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_OR">
+          <conditions>
+            <DefaultActionsEntityCondition_AttachableItems type="WeaponPersonal" subType="Small" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+            <DefaultActionsEntityCondition_AttachableItems type="WeaponPersonal" subType="Medium" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+            <DefaultActionsEntityCondition_AttachableItems type="WeaponPersonal" subType="Large" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+            <DefaultActionsEntityCondition_AttachableItems type="WeaponPersonal" subType="Gadget" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+          </conditions>
+        </DefaultActionsEntityCondition_OR>
+        <DefaultActionsEntityCondition_Customisable isCustomisable="0" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_Customisable" />
+      </conditions>
+      <defaultActions __type="DefaultActions">
+        <defaultActionsPerState>
+          <DefaultActionsParams state="Settled" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Equip" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Carried" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Equip" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+              <DefaultAction_InteractionDef name="Inspect" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Equipped" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_ActionDef name="attack1" __type="DefaultActionDef" __polymorphicType="DefaultAction_ActionDef" />
+              <DefaultAction_ActionDef name="zoom" __type="DefaultActionDef" __polymorphicType="DefaultAction_ActionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Inspecting" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Carry" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+              <DefaultAction_InteractionDef name="Equip" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+        </defaultActionsPerState>
+      </defaultActions>
+    </DefaultActionsEntry>
+    <DefaultActionsEntry __type="DefaultActionsEntry">
+      <conditions>
+        <DefaultActionsEntityCondition_OR __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_OR">
+          <conditions>
+            <DefaultActionsEntityCondition_AttachableItems type="WeaponPersonal" subType="Gadget" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+            <DefaultActionsEntityCondition_AttachableItems type="WeaponPersonal" subType="Small" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+            <DefaultActionsEntityCondition_AttachableItems type="WeaponPersonal" subType="Medium" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+            <DefaultActionsEntityCondition_AttachableItems type="WeaponPersonal" subType="Large" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+          </conditions>
+        </DefaultActionsEntityCondition_OR>
+        <DefaultActionsEntityCondition_Customisable isCustomisable="1" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_Customisable" />
+      </conditions>
+      <defaultActions __type="DefaultActions">
+        <defaultActionsPerState>
+          <DefaultActionsParams state="Settled" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Equip" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Carried" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Equip" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+              <DefaultAction_InteractionDef name="Inspect" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Equipped" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_ActionDef name="attack1" __type="DefaultActionDef" __polymorphicType="DefaultAction_ActionDef" />
+              <DefaultAction_ActionDef name="zoom" __type="DefaultActionDef" __polymorphicType="DefaultAction_ActionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Inspecting" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Customize" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+              <DefaultAction_InteractionDef name="Equip" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+        </defaultActionsPerState>
+      </defaultActions>
+    </DefaultActionsEntry>
+    <DefaultActionsEntry __type="DefaultActionsEntry">
+      <conditions>
+        <DefaultActionsEntityCondition_AttachableItems type="WeaponPersonal" subType="Knife" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+      </conditions>
+      <defaultActions __type="DefaultActions">
+        <defaultActionsPerState>
+          <DefaultActionsParams state="Settled" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Equip" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Carried" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Equip" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Inspecting" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Equip" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+        </defaultActionsPerState>
+      </defaultActions>
+    </DefaultActionsEntry>
+    <DefaultActionsEntry __type="DefaultActionsEntry">
+      <conditions>
+        <DefaultActionsEntityCondition_AttachableItems type="WeaponPersonal" subType="Grenade" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+        <DefaultActionsEntityCondition_Primed isPrimed="0" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_Primed" />
+        <DefaultActionsEntityCondition_Tags hasTags="0" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_Tags">
+          <tags __type="TagList">
+            <tags>
+              <Reference value="f306fdf9-03d0-4866-b66a-14ac9a7b1823" />
+            </tags>
+          </tags>
+        </DefaultActionsEntityCondition_Tags>
+        <DefaultActionsEntityCondition_Tags hasTags="0" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_Tags">
+          <tags __type="TagList">
+            <tags>
+              <Reference value="70c5f147-4391-4f5c-91ec-e25e4b56662f" />
+            </tags>
+          </tags>
+        </DefaultActionsEntityCondition_Tags>
+      </conditions>
+      <defaultActions __type="DefaultActions">
+        <defaultActionsPerState>
+          <DefaultActionsParams state="Settled" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Equip" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Carried" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_ActionDef name="throw_overhand" __type="DefaultActionDef" __polymorphicType="DefaultAction_ActionDef" />
+              <DefaultAction_ActionDef name="throw_underhand" __type="DefaultActionDef" __polymorphicType="DefaultAction_ActionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Equipped" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_ActionDef name="throw_overhand" __type="DefaultActionDef" __polymorphicType="DefaultAction_ActionDef" />
+              <DefaultAction_ActionDef name="throw_underhand" __type="DefaultActionDef" __polymorphicType="DefaultAction_ActionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Inspecting" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_ActionDef name="throw_overhand" __type="DefaultActionDef" __polymorphicType="DefaultAction_ActionDef" />
+              <DefaultAction_InteractionDef name="Equip" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+        </defaultActionsPerState>
+      </defaultActions>
+    </DefaultActionsEntry>
+    <DefaultActionsEntry __type="DefaultActionsEntry">
+      <conditions>
+        <DefaultActionsEntityCondition_AttachableItems type="WeaponPersonal" subType="Grenade" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+        <DefaultActionsEntityCondition_Primed isPrimed="1" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_Primed" />
+        <DefaultActionsEntityCondition_Tags hasTags="0" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_Tags">
+          <tags __type="TagList">
+            <tags>
+              <Reference value="dff6ec60-74a9-45fc-a58b-2f0bfd0e222e" />
+            </tags>
+          </tags>
+        </DefaultActionsEntityCondition_Tags>
+      </conditions>
+      <defaultActions __type="DefaultActions">
+        <defaultActionsPerState>
+          <DefaultActionsParams state="Settled" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Equip" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Carried" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_ActionDef name="throw_overhand" __type="DefaultActionDef" __polymorphicType="DefaultAction_ActionDef" />
+              <DefaultAction_ActionDef name="throw_underhand" __type="DefaultActionDef" __polymorphicType="DefaultAction_ActionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Equipped" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_ActionDef name="throw_overhand" __type="DefaultActionDef" __polymorphicType="DefaultAction_ActionDef" />
+              <DefaultAction_ActionDef name="throw_underhand" __type="DefaultActionDef" __polymorphicType="DefaultAction_ActionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Inspecting" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_ActionDef name="throw_overhand" __type="DefaultActionDef" __polymorphicType="DefaultAction_ActionDef" />
+              <DefaultAction_ActionDef name="throw_underhand" __type="DefaultActionDef" __polymorphicType="DefaultAction_ActionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+        </defaultActionsPerState>
+      </defaultActions>
+    </DefaultActionsEntry>
+    <DefaultActionsEntry __type="DefaultActionsEntry">
+      <conditions>
+        <DefaultActionsEntityCondition_OR __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_OR">
+          <conditions>
+            <DefaultActionsEntityCondition_AttachableItems type="FPS_Consumable" subType="MedPack" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+            <DefaultActionsEntityCondition_AttachableItems type="FPS_Consumable" subType="OxygenCap" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+          </conditions>
+        </DefaultActionsEntityCondition_OR>
+      </conditions>
+      <defaultActions __type="DefaultActions">
+        <defaultActionsPerState>
+          <DefaultActionsParams state="Settled" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Equip" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Carried" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Consume" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+              <DefaultAction_ActionDef name="throw_underhand" __type="DefaultActionDef" __polymorphicType="DefaultAction_ActionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Equipped" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Consume" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+              <DefaultAction_ActionDef name="throw_underhand" __type="DefaultActionDef" __polymorphicType="DefaultAction_ActionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Inspecting" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Consume" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+              <DefaultAction_InteractionDef name="Equip" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+        </defaultActionsPerState>
+      </defaultActions>
+    </DefaultActionsEntry>
+    <DefaultActionsEntry __type="DefaultActionsEntry">
+      <conditions>
+        <DefaultActionsEntityCondition_OR __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_OR">
+          <conditions>
+            <DefaultActionsEntityCondition_AttachableItems type="Misc" subType="Harvestable" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+            <DefaultActionsEntityCondition_AttachableItems type="Food" subType="Junk" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+            <DefaultActionsEntityCondition_AttachableItems type="Food" subType="Bar" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+            <DefaultActionsEntityCondition_AttachableItems type="Food" subType="Box" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+            <DefaultActionsEntityCondition_AttachableItems type="Food" subType="Plant" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+            <DefaultActionsEntityCondition_AttachableItems type="Food" subType="Tin" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+            <DefaultActionsEntityCondition_AttachableItems type="Food" subType="Sachet" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+            <DefaultActionsEntityCondition_AttachableItems type="Misc" subType="UNDEFINED" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+            <DefaultActionsEntityCondition_AttachableItems type="Food" subType="Consumable" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+          </conditions>
+        </DefaultActionsEntityCondition_OR>
+        <DefaultActionsEntityCondition_Tags hasTags="1" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_Tags">
+          <tags __type="TagList">
+            <tags>
+              <Reference value="dfd29606-8533-404a-b6c3-a8d46335ecdc" />
+            </tags>
+          </tags>
+        </DefaultActionsEntityCondition_Tags>
+        <DefaultActionsEntityCondition_Tags hasTags="0" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_Tags">
+          <tags __type="TagList">
+            <tags>
+              <Reference value="dff6ec60-74a9-45fc-a58b-2f0bfd0e222e" />
+            </tags>
+          </tags>
+        </DefaultActionsEntityCondition_Tags>
+      </conditions>
+      <defaultActions __type="DefaultActions">
+        <defaultActionsPerState>
+          <DefaultActionsParams state="Settled" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Carry" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Carried" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Consume" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+              <DefaultAction_InteractionDef name="Inspect" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Inspecting" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Consume" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+              <DefaultAction_InteractionDef name="Carry" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+        </defaultActionsPerState>
+      </defaultActions>
+    </DefaultActionsEntry>
+    <DefaultActionsEntry __type="DefaultActionsEntry">
+      <conditions>
+        <DefaultActionsEntityCondition_OR __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_OR">
+          <conditions>
+            <DefaultActionsEntityCondition_AttachableItems type="Drink" subType="UNDEFINED" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+            <DefaultActionsEntityCondition_AttachableItems type="Drink" subType="Bottle" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+            <DefaultActionsEntityCondition_AttachableItems type="Drink" subType="Can" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+          </conditions>
+        </DefaultActionsEntityCondition_OR>
+        <DefaultActionsEntityCondition_Tags hasTags="0" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_Tags">
+          <tags __type="TagList">
+            <tags>
+              <Reference value="dff6ec60-74a9-45fc-a58b-2f0bfd0e222e" />
+            </tags>
+          </tags>
+        </DefaultActionsEntityCondition_Tags>
+      </conditions>
+      <defaultActions __type="DefaultActions">
+        <defaultActionsPerState>
+          <DefaultActionsParams state="Settled" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Carry" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Carried" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Consume" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+              <DefaultAction_InteractionDef name="Inspect" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Inspecting" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Consume" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+              <DefaultAction_InteractionDef name="Carry" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+        </defaultActionsPerState>
+      </defaultActions>
+    </DefaultActionsEntry>
+    <DefaultActionsEntry __type="DefaultActionsEntry">
+      <conditions>
+        <DefaultActionsEntityCondition_EntityTypes type="DraggableBody" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_EntityTypes" />
+      </conditions>
+      <defaultActions __type="DefaultActions">
+        <defaultActionsPerState>
+          <DefaultActionsParams state="Settled" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="BodyDrag" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Gripped" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="BodyDrop" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+        </defaultActionsPerState>
+      </defaultActions>
+    </DefaultActionsEntry>
+    <DefaultActionsEntry __type="DefaultActionsEntry">
+      <conditions>
+        <DefaultActionsEntityCondition_EntityTypes type="MountedGun" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_EntityTypes" />
+      </conditions>
+      <defaultActions __type="DefaultActions">
+        <defaultActionsPerState>
+          <DefaultActionsParams state="Settled" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Grip" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Equipped" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_ActionDef name="attack1" __type="DefaultActionDef" __polymorphicType="DefaultAction_ActionDef" />
+              <DefaultAction_ActionDef name="zoom" __type="DefaultActionDef" __polymorphicType="DefaultAction_ActionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+        </defaultActionsPerState>
+      </defaultActions>
+    </DefaultActionsEntry>
+    <DefaultActionsEntry __type="DefaultActionsEntry">
+      <conditions>
+        <DefaultActionsEntityCondition_EntityTypes type="ActorMovable" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_EntityTypes" />
+      </conditions>
+      <defaultActions __type="DefaultActions">
+        <defaultActionsPerState>
+          <DefaultActionsParams state="Settled" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Push" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Gripped" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Release" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+        </defaultActionsPerState>
+      </defaultActions>
+    </DefaultActionsEntry>
+    <DefaultActionsEntry __type="DefaultActionsEntry">
+      <conditions>
+        <DefaultActionsEntityCondition_AttachableItems type="Misc" subType="Mineable" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+      </conditions>
+      <defaultActions __type="DefaultActions">
+        <defaultActionsPerState>
+          <DefaultActionsParams state="Settled" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Stow" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Carried" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Stow" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+              <DefaultAction_InteractionDef name="Inspect" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Inspecting" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Stow" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+              <DefaultAction_InteractionDef name="Carry" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+        </defaultActionsPerState>
+      </defaultActions>
+    </DefaultActionsEntry>
+    <DefaultActionsEntry __type="DefaultActionsEntry">
+      <conditions>
+        <DefaultActionsEntityCondition_AttachableItems type="Misc" subType="UNDEFINED" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+        <DefaultActionsEntityCondition_Tags hasTags="1" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_Tags">
+          <tags __type="TagList">
+            <tags>
+              <Reference value="f306fdf9-03d0-4866-b66a-14ac9a7b1823" />
+            </tags>
+          </tags>
+        </DefaultActionsEntityCondition_Tags>
+        <DefaultActionsEntityCondition_Tags hasTags="0" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_Tags">
+          <tags __type="TagList">
+            <tags>
+              <Reference value="dff6ec60-74a9-45fc-a58b-2f0bfd0e222e" />
+            </tags>
+          </tags>
+        </DefaultActionsEntityCondition_Tags>
+      </conditions>
+      <defaultActions __type="DefaultActions">
+        <defaultActionsPerState>
+          <DefaultActionsParams state="Settled" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Carry" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Carried" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Ignite" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+              <DefaultAction_InteractionDef name="Inspect" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Inspecting" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Ignite" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+              <DefaultAction_InteractionDef name="Carry" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+        </defaultActionsPerState>
+      </defaultActions>
+    </DefaultActionsEntry>
+    <DefaultActionsEntry __type="DefaultActionsEntry">
+      <conditions>
+        <DefaultActionsEntityCondition_AttachableItems type="WeaponPersonal" subType="Grenade" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+        <DefaultActionsEntityCondition_Tags hasTags="1" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_Tags">
+          <tags __type="TagList">
+            <tags>
+              <Reference value="70c5f147-4391-4f5c-91ec-e25e4b56662f" />
+            </tags>
+          </tags>
+        </DefaultActionsEntityCondition_Tags>
+        <DefaultActionsEntityCondition_Tags hasTags="0" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_Tags">
+          <tags __type="TagList">
+            <tags>
+              <Reference value="dff6ec60-74a9-45fc-a58b-2f0bfd0e222e" />
+            </tags>
+          </tags>
+        </DefaultActionsEntityCondition_Tags>
+      </conditions>
+      <defaultActions __type="DefaultActions">
+        <defaultActionsPerState>
+          <DefaultActionsParams state="Settled" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Carry" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Carried" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Activate" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+              <DefaultAction_InteractionDef name="Inspect" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Inspecting" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Activate" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+              <DefaultAction_InteractionDef name="Carry" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+        </defaultActionsPerState>
+      </defaultActions>
+    </DefaultActionsEntry>
+    <DefaultActionsEntry __type="DefaultActionsEntry">
+      <conditions>
+        <DefaultActionsEntityCondition_AttachableItems type="Misc" subType="UNDEFINED" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+        <DefaultActionsEntityCondition_OR __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_OR">
+          <conditions>
+            <DefaultActionsEntityCondition_Tags hasTags="1" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_Tags">
+              <tags __type="TagList">
+                <tags>
+                  <Reference value="70dfb9ad-dbcd-4fc4-9cca-f7ddef6232b7" />
+                </tags>
+              </tags>
+            </DefaultActionsEntityCondition_Tags>
+            <DefaultActionsEntityCondition_Tags hasTags="1" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_Tags">
+              <tags __type="TagList">
+                <tags>
+                  <Reference value="4a975e8f-d4b6-46df-a4fc-2bc9e22cd6d5" />
+                </tags>
+              </tags>
+            </DefaultActionsEntityCondition_Tags>
+            <DefaultActionsEntityCondition_Tags hasTags="1" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_Tags">
+              <tags __type="TagList">
+                <tags>
+                  <Reference value="4def30aa-4ed2-404a-9439-6713f246f1e3" />
+                </tags>
+              </tags>
+            </DefaultActionsEntityCondition_Tags>
+          </conditions>
+        </DefaultActionsEntityCondition_OR>
+      </conditions>
+      <defaultActions __type="DefaultActions">
+        <defaultActionsPerState>
+          <DefaultActionsParams state="Settled" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Inspect" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Carried" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_ActionDef name="throw_overhand" __type="DefaultActionDef" __polymorphicType="DefaultAction_ActionDef" />
+              <DefaultAction_ActionDef name="throw_underhand" __type="DefaultActionDef" __polymorphicType="DefaultAction_ActionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Inspecting" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Carry" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+              <DefaultAction_InteractionDef name="Drop" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+        </defaultActionsPerState>
+      </defaultActions>
+    </DefaultActionsEntry>
+    <DefaultActionsEntry __type="DefaultActionsEntry">
+      <conditions>
+        <DefaultActionsEntityCondition_AttachableItems type="Misc" subType="UNDEFINED" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+        <DefaultActionsEntityCondition_Tags hasTags="1" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_Tags">
+          <tags __type="TagList">
+            <tags>
+              <Reference value="8af4fa7d-518a-44ab-821d-2afb565464dc" />
+              <Reference value="5e11a544-7fea-4160-b2bf-98c6cf9ee9df" />
+            </tags>
+          </tags>
+        </DefaultActionsEntityCondition_Tags>
+      </conditions>
+      <defaultActions __type="DefaultActions">
+        <defaultActionsPerState>
+          <DefaultActionsParams state="Settled" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Carry" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Carried" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Stow" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+              <DefaultAction_InteractionDef name="Inspect" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Inspecting" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Stow" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+              <DefaultAction_InteractionDef name="Carry" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+        </defaultActionsPerState>
+      </defaultActions>
+    </DefaultActionsEntry>
+    <DefaultActionsEntry __type="DefaultActionsEntry">
+      <conditions>
+        <DefaultActionsEntityCondition_OR __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_OR">
+          <conditions>
+            <DefaultActionsEntityCondition_AttachableItems type="Drink" subType="UNDEFINED" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+            <DefaultActionsEntityCondition_AttachableItems type="Drink" subType="Bottle" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+            <DefaultActionsEntityCondition_AttachableItems type="Drink" subType="Can" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+            <DefaultActionsEntityCondition_AttachableItems type="Food" subType="Junk" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+            <DefaultActionsEntityCondition_AttachableItems type="Food" subType="Bar" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+            <DefaultActionsEntityCondition_AttachableItems type="Food" subType="Box" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+            <DefaultActionsEntityCondition_AttachableItems type="Food" subType="Plant" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+            <DefaultActionsEntityCondition_AttachableItems type="Food" subType="Tin" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+            <DefaultActionsEntityCondition_AttachableItems type="Food" subType="Sachet" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+            <DefaultActionsEntityCondition_AttachableItems type="Misc" subType="UNDEFINED" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+            <DefaultActionsEntityCondition_AND __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AND">
+              <conditions>
+                <DefaultActionsEntityCondition_AttachableItems type="WeaponPersonal" subType="Grenade" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+                <DefaultActionsEntityCondition_Tags hasTags="1" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_Tags">
+                  <tags __type="TagList">
+                    <tags>
+                      <Reference value="70c5f147-4391-4f5c-91ec-e25e4b56662f" />
+                    </tags>
+                  </tags>
+                </DefaultActionsEntityCondition_Tags>
+              </conditions>
+            </DefaultActionsEntityCondition_AND>
+            <DefaultActionsEntityCondition_AND __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AND">
+              <conditions>
+                <DefaultActionsEntityCondition_AttachableItems type="Misc" subType="UNDEFINED" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+                <DefaultActionsEntityCondition_Tags hasTags="1" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_Tags">
+                  <tags __type="TagList">
+                    <tags>
+                      <Reference value="f306fdf9-03d0-4866-b66a-14ac9a7b1823" />
+                    </tags>
+                  </tags>
+                </DefaultActionsEntityCondition_Tags>
+              </conditions>
+            </DefaultActionsEntityCondition_AND>
+          </conditions>
+        </DefaultActionsEntityCondition_OR>
+        <DefaultActionsEntityCondition_Tags hasTags="1" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_Tags">
+          <tags __type="TagList">
+            <tags>
+              <Reference value="dff6ec60-74a9-45fc-a58b-2f0bfd0e222e" />
+              <Reference value="5e11a544-7fea-4160-b2bf-98c6cf9ee9df" />
+            </tags>
+          </tags>
+        </DefaultActionsEntityCondition_Tags>
+      </conditions>
+      <defaultActions __type="DefaultActions">
+        <defaultActionsPerState>
+          <DefaultActionsParams state="Settled" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Carry" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Carried" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Place" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+              <DefaultAction_ActionDef name="throw_underhand" __type="DefaultActionDef" __polymorphicType="DefaultAction_ActionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Inspecting" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Place" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+              <DefaultAction_InteractionDef name="Carry" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+        </defaultActionsPerState>
+      </defaultActions>
+    </DefaultActionsEntry>
+    <DefaultActionsEntry __type="DefaultActionsEntry">
+      <conditions>
+        <DefaultActionsEntityCondition_Tags hasTags="1" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_Tags">
+          <tags __type="TagList">
+            <tags>
+              <Reference value="5e11a544-7fea-4160-b2bf-98c6cf9ee9df" />
+            </tags>
+          </tags>
+        </DefaultActionsEntityCondition_Tags>
+      </conditions>
+      <defaultActions __type="DefaultActions">
+        <defaultActionsPerState>
+          <DefaultActionsParams state="Settled" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Carry" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Carried" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Place" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+              <DefaultAction_ActionDef name="throw_underhand" __type="DefaultActionDef" __polymorphicType="DefaultAction_ActionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Inspecting" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Place" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+              <DefaultAction_InteractionDef name="Carry" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+        </defaultActionsPerState>
+      </defaultActions>
+    </DefaultActionsEntry>
+    <DefaultActionsEntry __type="DefaultActionsEntry">
+      <conditions>
+        <DefaultActionsEntityCondition_Tags hasTags="1" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_Tags">
+          <tags __type="TagList">
+            <tags>
+              <Reference value="37ba7ad8-8553-45df-a84b-c49eb6ebb7a6" />
+            </tags>
+          </tags>
+        </DefaultActionsEntityCondition_Tags>
+      </conditions>
+      <defaultActions __type="DefaultActions">
+        <defaultActionsPerState>
+          <DefaultActionsParams state="Settled" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Carry" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Carried" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Place" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+              <DefaultAction_InteractionDef name="Drop" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+        </defaultActionsPerState>
+      </defaultActions>
+    </DefaultActionsEntry>
+    <DefaultActionsEntry __type="DefaultActionsEntry">
+      <conditions>
+        <DefaultActionsEntityCondition_AttachableItems type="Gadget" subType="Gadget" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+      </conditions>
+      <defaultActions __type="DefaultActions">
+        <defaultActionsPerState>
+          <DefaultActionsParams state="Settled" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Carry" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Carried" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Place" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+        </defaultActionsPerState>
+      </defaultActions>
+    </DefaultActionsEntry>
+    <DefaultActionsEntry __type="DefaultActionsEntry">
+      <conditions>
+        <DefaultActionsEntityCondition_AttachableItems type="FPS_Throwable" subType="Gadget" __type="DefaultActionsEntityCondition" __polymorphicType="DefaultActionsEntityCondition_AttachableItems" />
+      </conditions>
+      <defaultActions __type="DefaultActions">
+        <defaultActionsPerState>
+          <DefaultActionsParams state="Settled" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Carry" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Carried" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Prime" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+          <DefaultActionsParams state="Inspecting" __type="DefaultActionsParams">
+            <defaultActions>
+              <DefaultAction_InteractionDef name="Prime" __type="DefaultActionDef" __polymorphicType="DefaultAction_InteractionDef" />
+            </defaultActions>
+          </DefaultActionsParams>
+        </defaultActionsPerState>
+      </defaultActions>
+    </DefaultActionsEntry>
+  </defaultActionsList>
+  <defaultActionsDescriptions>
+    <LocID value="@ui_CIFPSAttack1" />
+    <LocID value="@ui_CIFPSAimDownSight" />
+    <LocID value="@ui_CIThrowOver" />
+    <LocID value="@ui_CIThrowUnder" />
+  </defaultActionsDescriptions>
+</ActorDefaultActionsConfig.PlayerDefaultActionsConfig>

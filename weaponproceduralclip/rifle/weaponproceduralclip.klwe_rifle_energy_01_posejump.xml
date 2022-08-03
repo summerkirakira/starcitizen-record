@@ -1,0 +1,8 @@
+<WeaponProceduralClip.klwe_rifle_energy_01_PoseJump __type="WeaponProceduralClip" __ref="5fd61e82-0d95-4f27-a47f-46e122afca75" __path="libs/foundry/records/weaponproceduralclip/rifle/weaponproceduralclip.klwe_rifle_energy_01_posejump.xml">
+  <weaponProceduralClipBase>
+    <WeaponProceduralClipPose blendTime="1" poseType="RightHand" zoomTransitionAngle="0" useAimHelperOffset="0" __type="WeaponProceduralClipBase" __polymorphicType="WeaponProceduralClipPose">
+      <position x="0" y="0" z="0.03" __type="Vec3" />
+      <rotation x="0" y="0" z="0" __type="Ang3" />
+    </WeaponProceduralClipPose>
+  </weaponProceduralClipBase>
+</WeaponProceduralClip.klwe_rifle_energy_01_PoseJump>

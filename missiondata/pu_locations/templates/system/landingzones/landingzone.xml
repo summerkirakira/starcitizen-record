@@ -1,0 +1,31 @@
+<MissionLocationTemplate.LandingZone __type="MissionLocationTemplate" __ref="dbf480d5-bf7a-4823-82dc-1685ca9d9f25" __path="libs/foundry/records/missiondata/pu_locations/templates/system/landingzones/landingzone.xml">
+  <locationData __type="MissionLocationData">
+    <generalTags __type="MissionLocationTags">
+      <tags>
+        <Reference value="c70dbe51-3d1e-47b7-9795-290d3eba1728" />
+        <Reference value="2bc6eed6-ef04-4680-ae65-2337258d26b7" />
+      </tags>
+    </generalTags>
+    <producesTags __type="TagSearchTerm">
+      <positiveTags />
+      <negativeTags />
+    </producesTags>
+    <consumesTags __type="TagSearchTerm">
+      <positiveTags />
+      <negativeTags />
+    </consumesTags>
+    <aiSpawnTags __type="TagList">
+      <tags />
+    </aiSpawnTags>
+    <stringVariants __type="MissionStringVariants">
+      <variants />
+    </stringVariants>
+    <missionModules>
+      <SMissionLocationModule missionModule="Libs/Subsumption/Missions/PU/PU_MissionModules/LocationManager/Delivery/DeliveryItemPort_Manager.xml" __type="SMissionLocationModule">
+        <missionInputs />
+      </SMissionLocationModule>
+    </missionModules>
+    <missionLimits />
+    <autoSpawnSettings />
+  </locationData>
+</MissionLocationTemplate.LandingZone>

@@ -1,0 +1,4 @@
+<MusicLogicParameter.FPS_Intensity name="FPS_Intensity" min="0" max="5000" defaultValue="0" decayRate="10" decayIsPercentage="1" scaleModifier="1" shiftModifier="0" inverted="0" rtpc="" rtpcIsGlobal="0" __type="MusicLogicParameter" __ref="49e50db4-d2a4-4327-ada5-532ff0a8dd3a" __path="libs/foundry/records/musiclogic/parameters/fps_intensity.xml">
+  <contributors />
+  <debugColour r="0.373" g="0.62" b="0.627" __type="RGB" />
+</MusicLogicParameter.FPS_Intensity>

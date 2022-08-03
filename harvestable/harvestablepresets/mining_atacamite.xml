@@ -1,0 +1,7 @@
+<HarvestablePreset.Mining_Atacamite entityClass="a6292510-4b3a-4dbb-828d-5f92fac14a9f" respawnInSlotTime="3600" specialHarvestableString="" __type="HarvestablePreset" __ref="de2c1f8e-ab6f-449d-b102-24efd340ae56" __path="libs/foundry/records/harvestable/harvestablepresets/mining_atacamite.xml">
+  <transformParams minScale="0.7" maxScale="1" terrainNormalAlignment="1" minZOffset="0.1" maxZOffset="0.25" minSlope="0" maxSlope="90" minElevation="-10000" maxElevation="10000" __type="HarvestableTransformParams">
+    <rotationRange x="360" y="360" z="360" __type="Vec3" />
+  </transformParams>
+  <subConfigBase>
+  </subConfigBase>
+</HarvestablePreset.Mining_Atacamite>

@@ -1,0 +1,8 @@
+<WeaponProceduralClip.klwe_smg_energy_01_PoseIdle __type="WeaponProceduralClip" __ref="ae279dfa-b8e6-4f61-a3c9-f43c6ebcfc1b" __path="libs/foundry/records/weaponproceduralclip/rifle/klwe_smg_energy_01_poseidle.xml">
+  <weaponProceduralClipBase>
+    <WeaponProceduralClipPose blendTime="1" poseType="RightHand" zoomTransitionAngle="0" useAimHelperOffset="0" __type="WeaponProceduralClipBase" __polymorphicType="WeaponProceduralClipPose">
+      <position x="0" y="0" z="0.04" __type="Vec3" />
+      <rotation x="0" y="0" z="0" __type="Ang3" />
+    </WeaponProceduralClipPose>
+  </weaponProceduralClipBase>
+</WeaponProceduralClip.klwe_smg_energy_01_PoseIdle>

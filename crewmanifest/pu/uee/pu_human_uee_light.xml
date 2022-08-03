@@ -1,0 +1,15 @@
+<CrewManifest.PU_Human_UEE_Light __type="CrewManifest" __ref="de920434-400a-4919-a2cc-f8d89194fc3e" __path="libs/foundry/records/crewmanifest/pu/uee/pu_human_uee_light.xml">
+  <descriptionTags __type="TagList">
+    <tags>
+      <Reference value="cb358c9f-6077-43ac-91a2-75203d796108" />
+    </tags>
+  </descriptionTags>
+  <crew>
+    <CrewData entityClassDefinition="4b0070c2-f6f9-4ab7-9526-ba505fde66fc" archetype="00000000-0000-0000-0000-000000000000" __type="CrewData">
+      <outfitTags />
+      <tags>
+        <Reference value="275db83d-5b41-4ebc-bcd7-d325220af86a" />
+      </tags>
+    </CrewData>
+  </crew>
+</CrewManifest.PU_Human_UEE_Light>

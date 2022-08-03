@@ -1,0 +1,11 @@
+<SecurityNetworkRoomSettings.SNRS_Fleetweek22_EventOver roomIdentifier="00000000-0000-0000-0000-000000000000" __type="SecurityNetworkRoomSettings" __ref="be4d1bd2-ad35-4371-a924-205cfe91a531" __path="libs/foundry/records/lawsystem/securitynetwork/roomsettings/fleetweek/2022/snrs_fleetweek22_eventover.xml">
+  <defaultProtocol __type="SecurityNetworkProtocol">
+    <permissionsWithClearance access="Inherit" shootOnSight="Inherit" __type="SecurityNetworkPermissions" />
+    <permissionsWithoutClearance access="Yes" shootOnSight="No" __type="SecurityNetworkPermissions" />
+    <acceptedClearance __type="SecurityClearanceConditions">
+      <tokens>
+        <Reference value="7e49d2fa-2cb8-455d-b440-b9287c228c2a" />
+      </tokens>
+    </acceptedClearance>
+  </defaultProtocol>
+</SecurityNetworkRoomSettings.SNRS_Fleetweek22_EventOver>

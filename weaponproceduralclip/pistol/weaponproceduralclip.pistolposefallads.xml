@@ -1,0 +1,8 @@
+<WeaponProceduralClip.PistolPoseFallADS __type="WeaponProceduralClip" __ref="82a9a0fb-9e3a-4843-a9be-e3688417b469" __path="libs/foundry/records/weaponproceduralclip/pistol/weaponproceduralclip.pistolposefallads.xml">
+  <weaponProceduralClipBase>
+    <WeaponProceduralClipPose blendTime="1" poseType="RightHand" zoomTransitionAngle="0" useAimHelperOffset="1" __type="WeaponProceduralClipBase" __polymorphicType="WeaponProceduralClipPose">
+      <position x="0" y="-0.079926" z="0.1031" __type="Vec3" />
+      <rotation x="0" y="0" z="0" __type="Ang3" />
+    </WeaponProceduralClipPose>
+  </weaponProceduralClipBase>
+</WeaponProceduralClip.PistolPoseFallADS>

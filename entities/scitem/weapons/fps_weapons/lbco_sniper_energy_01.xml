@@ -1,0 +1,1268 @@
+<EntityClassDefinition.lbco_sniper_energy_01 Category="Default" Icon="Default.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="7623e7fa-3be9-4e9d-891c-597482c448b5" __path="libs/foundry/records/entities/scitem/weapons/fps_weapons/lbco_sniper_energy_01.xml">
+  <tags>
+    <Reference value="a0191226-abf0-4677-b249-c3111aa7222f" />
+    <Reference value="0436bd92-db4f-4c46-9ba9-75801569d825" />
+    <Reference value="096dee56-09f4-4682-90bd-b05440bf8098" />
+    <Reference value="e00c2c31-1a12-40ef-9bc8-7304bfa63e49" />
+    <Reference value="6ded920f-3e6e-4638-a070-b7c6a6811a7a" />
+    <Reference value="505e5e9b-012c-4209-a67c-e21db7b477d9" />
+    <Reference value="bbcb43ed-5a96-4766-8fb9-3181305e149b" />
+    <Reference value="bed8e09b-a5f2-4f4e-9be9-ab618ebfbd58" />
+    <Reference value="53ce1b85-cd5a-4930-82d6-825d537b1dc4" />
+    <Reference value="9a46e2f3-6651-4283-8447-c01e6dd778e8" />
+  </tags>
+  <StaticEntityClassData>
+    <DefaultEntitlementEntityParams entitlementPolicy="086801b6-4827-47ea-b796-ef9706b5b694" canEntitleThroughWebsite="1" __type="EntityClassStaticDataParams" __polymorphicType="DefaultEntitlementEntityParams" />
+    <EntityUIDisplayParams displayDescription="@LOC_UNINITIALIZED" displayThumbnail="" displayImage="" displayIcon="UI/Textures/EA/LoadoutIcons/LBCO_Atzkav_Sniper_64.tif" sortString="" __type="EntityClassStaticDataParams" __polymorphicType="EntityUIDisplayParams">
+      <trackerProperties>
+        <SObjectDataBankEntryTrackerParams __type="SObjectDataBankEntryTrackerParams" />
+      </trackerProperties>
+    </EntityUIDisplayParams>
+  </StaticEntityClassData>
+  <Components>
+    <SEntityPhysicsControllerParams __type="DataForgeComponentParams" __polymorphicType="SEntityPhysicsControllerParams">
+      <PhysType>
+        <SEntityRigidPhysicsControllerParams Mass="4.5" maxLoggedCollisions="1" Damping="0" DampingFreefall="0.05" PushableByPlayers="1" NeverAffectTriggers="0" UseManualGridTransition="0" BlocksNavigation="1" Kinematic="0" Resting="0" physicalizeAllSlots="1" __type="SEntityBasePhysicsControllerParams" __polymorphicType="SEntityRigidPhysicsControllerParams">
+          <breakableParams>
+          </breakableParams>
+          <gameCollisionClass>
+          </gameCollisionClass>
+          <grid>
+          </grid>
+          <buoyancyParams>
+          </buoyancyParams>
+          <temperature enable="0" initialTemperature="-1" internalTemperatureGeneration="0" __type="EntityTemperature" />
+        </SEntityRigidPhysicsControllerParams>
+      </PhysType>
+    </SEntityPhysicsControllerParams>
+    <SAttachableComponentParams attachToTileItemPort="NoConnection" __type="DataForgeComponentParams" __polymorphicType="SAttachableComponentParams">
+      <AttachDef Type="WeaponPersonal" SubType="Medium" Size="3" Grade="1" Manufacturer="98bb2e9e-fcc7-46e5-9ba6-d34c42c414e0" inheritParentManufacturer="0" Tags="stocked lbco_sniper_energy_01 sniper" RequiredTags="" DisplayType="" __type="SItemDefinition">
+        <Localization Name="@item_Namelbco_sniper_energy_01" ShortName="@item_Namelbco_sniper_energy_01_short" Description="@item_Desclbco_sniper_energy_01" __type="SCItemLocalization">
+          <displayFeatures LogoSimplifiedWhite="" FrontendBackground="" History="@LOC_EMPTY" Callout1="@LOC_EMPTY" Callout2="@LOC_EMPTY" Callout3="@LOC_EMPTY" UIPriority="0" __type="SCExtendedLocalizationLevelParams">
+            <locationAudioPlayTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+            <locationAudioStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </displayFeatures>
+        </Localization>
+        <mannequinTags mannequinClassTag="lbco_sniper_energy_01" mannequinTypeTag="" mannequinBaseTag="" __type="SCItemMannequinTags" />
+        <inventoryOccupancyVolume>
+          <SMicroCargoUnit microSCU="16000" __type="SBaseCargoUnit" __polymorphicType="SMicroCargoUnit" />
+        </inventoryOccupancyVolume>
+        <inventoryOccupancyDimensions x="0.0559" y="0.9987" z="0.3436" __type="Vec3" />
+        <inventoryOccupancyDimensionsUIOverride>
+          <Vec3 x="0.38" y="1.1" z="0.38" __type="Vec3" />
+        </inventoryOccupancyDimensionsUIOverride>
+      </AttachDef>
+      <entityAttachParams>
+      </entityAttachParams>
+    </SAttachableComponentParams>
+    <SEntityComponentCarryableParams pickupInteraction="Interactable.SharedInteractions[0]" carryInteraction="Interactable.SharedInteractions[7]" placeInteraction="Interactable.SharedInteractions[9]" dropInteraction="Interactable.SharedInteractions[6]" stowInteraction="Interactable.SharedInteractions[2]" offHandStowInteraction="Interactable.SharedInteractions[3]" storeInteraction="Interactable.SharedInteractions[4]" offHandStoreInteraction="Interactable.SharedInteractions[5]" equipInteraction="Interactable.SharedInteractions[1]" inspectInteraction="Interactable.SharedInteractions[8]" flipInteraction="null" swapAttachmentsInteraction="Interactable.SharedInteractions[12]" enslavementAnimationDatabase="Animations/Mannequin/ADB/Players/Items/Weapons/lbco_sniper_energy_01.adb" interactionPointToMoveOnEquip="Interactable.InteractionPoints" canBeCarriedInProne="1" __type="DataForgeComponentParams" __polymorphicType="SEntityComponentCarryableParams">
+      <carryableStatesParams settledState="StateTypes.SInteractionStateType.States[0]" carriedState="StateTypes.SInteractionStateType.States[1]" stowedState="StateTypes.SInteractionStateType.States[2]" inspectingState="StateTypes.SInteractionStateType.States[3]" droppedState="StateTypes.SInteractionStateType.States[4]" offeredState="null" equippedState="StateTypes.SInteractionStateType.States[5]" __type="SCarryableStatesParams" />
+      <interactionPointOffsets __type="SCarryableInteractionPointOffsets">
+        <interactionOffsetEquipped __type="QuatT">
+          <Rotation x="0" y="0" z="0" __type="Ang3" />
+          <Position x="0.125" y="0.2" z="0.15" __type="Vec3" />
+        </interactionOffsetEquipped>
+        <interactionOffsetCarried __type="QuatT">
+          <Rotation x="0" y="0" z="0" __type="Ang3" />
+          <Position x="0.05" y="0.05" z="0" __type="Vec3" />
+        </interactionOffsetCarried>
+        <interactionOffsetInspected __type="QuatT">
+          <Rotation x="0" y="0" z="0" __type="Ang3" />
+          <Position x="0.4" y="0.2" z="0" __type="Vec3" />
+        </interactionOffsetInspected>
+      </interactionPointOffsets>
+      <gripData gripOverrideUsingLOS="0" __type="SGripContainer">
+        <grips>
+          <SCarryableGrip carryStyleID="Right" canBeUsedBy="All" handMode="RightHand" __type="SCarryableGrip">
+            <handGrip gripID="" optionalHelper="root" __type="SGrip">
+              <gripShapeParameters gripShape="gs_none" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </handGrip>
+            <offHandGrip>
+              <SGrip gripID="BarrelGrip" optionalHelper="L_IKGripTarget" __type="SGrip">
+                <gripShapeParameters gripShape="gs_none" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+                <offset __type="QuatT">
+                  <Rotation x="0" y="0" z="0" __type="Ang3" />
+                  <Position x="0" y="0" z="0" __type="Vec3" />
+                </offset>
+              </SGrip>
+            </offHandGrip>
+            <animationParameters motionBase="1hr" handTag="" __type="SCarryAnimationParams" />
+            <carryParameters width="0" height="0" depth="0" __type="SCarryParams" />
+          </SCarryableGrip>
+          <SCarryableGrip carryStyleID="Left" canBeUsedBy="All" handMode="LeftHand" __type="SCarryableGrip">
+            <handGrip gripID="" optionalHelper="root" __type="SGrip">
+              <gripShapeParameters gripShape="gs_none" dimension="0" wristRotation="0" __type="SGripShapeParams" />
+              <offset __type="QuatT">
+                <Rotation x="0" y="0" z="0" __type="Ang3" />
+                <Position x="0" y="0" z="0" __type="Vec3" />
+              </offset>
+            </handGrip>
+            <offHandGrip>
+            </offHandGrip>
+            <animationParameters motionBase="1hl" handTag="" __type="SCarryAnimationParams" />
+            <carryParameters width="0" height="0" depth="0" __type="SCarryParams" />
+          </SCarryableGrip>
+        </grips>
+      </gripData>
+      <abilityLocks />
+      <carryableTasks>
+        <SSequencerMoveToAnimateCarryableTaskParams fragmentId="Take" fragTag="" __type="SSequencerDefTaskParams" __polymorphicType="SSequencerMoveToAnimateCarryableTaskParams" />
+        <SSequencerBespokeTakeCarryableTaskParams fragmentId="Take" fragTag="" __type="SSequencerDefTaskParams" __polymorphicType="SSequencerBespokeTakeCarryableTaskParams" />
+        <SSequencerSetInteractionStateCarryableTaskParams state="StateTypes.SInteractionStateType.States[7]" __type="SSequencerDefTaskParams" __polymorphicType="SSequencerSetInteractionStateCarryableTaskParams" />
+        <SSequencerMoveToAnimateCarryableTaskParams fragmentId="Place" fragTag="" __type="SSequencerDefTaskParams" __polymorphicType="SSequencerMoveToAnimateCarryableTaskParams" />
+        <SSequencerBespokePlaceCarryableTaskParams fragmentId="Place" fragTag="" __type="SSequencerDefTaskParams" __polymorphicType="SSequencerBespokePlaceCarryableTaskParams" />
+        <SSequencerFirstSelectCarryableTaskParams __type="SSequencerDefTaskParams" __polymorphicType="SSequencerFirstSelectCarryableTaskParams" />
+        <SSequencerSetInteractionStateCarryableTaskParams state="StateTypes.SInteractionStateType.States[0]" __type="SSequencerDefTaskParams" __polymorphicType="SSequencerSetInteractionStateCarryableTaskParams" />
+      </carryableTasks>
+      <throwableParams reticle="none" faceUpWhenSettled="0" allowHologramTiltRotation="0" placementRange="3" placementRangeHysteresis="0.5" yawOffset="0" applyBoundingBoxPlacementOffset="0" combatThrowable="0" __type="SThrowableParams">
+        <throwModes>
+          <SThrowMode mode="Drop" __type="SThrowMode">
+            <angularVelocity x="0" y="0" z="0" __type="Vec3" />
+            <offset x="0" y="0" z="0" __type="Vec3" />
+          </SThrowMode>
+          <SThrowMode mode="Place" __type="SThrowMode">
+            <angularVelocity x="0" y="0" z="0" __type="Vec3" />
+            <offset x="0" y="0" z="0" __type="Vec3" />
+          </SThrowMode>
+          <SThrowMode mode="OverhandThrow" __type="SThrowMode">
+            <angularVelocity x="0" y="0" z="0" __type="Vec3" />
+            <offset x="0" y="0" z="0" __type="Vec3" />
+          </SThrowMode>
+          <SThrowMode mode="InteractionMode" __type="SThrowMode">
+            <angularVelocity x="0" y="0" z="0" __type="Vec3" />
+            <offset x="0" y="0" z="0" __type="Vec3" />
+          </SThrowMode>
+        </throwModes>
+        <audioParams onCollisionAudioPerceptionInfo="SmallSound" onCollisionAudioPerceptionRadius="20" __type="SThrowAudioParams">
+          <onThrownAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          <onCollisionAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          <collisionSpeedAudioRTPC rtpc="" __type="AudioRtpc" />
+        </audioParams>
+        <defaultPlacementUpDirection x="-1" y="0" z="0" __type="Vec3" />
+      </throwableParams>
+      <equipableParams itemPort="" __type="SCEquipableParams" />
+    </SEntityComponentCarryableParams>
+    <SEntityInteractableParams __type="DataForgeComponentParams" __polymorphicType="SEntityInteractableParams">
+      <Interactable __type="SInteractableParams">
+        <SharedInteractions>
+          <SSharedInteractionParams Name="Grab" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_grab" DisplayType="Show" GenericCursor="Grab" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="cfbf64fc-515a-4777-835d-4328af0d3003" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="CarryReady" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_carry" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="3370f020-1774-47d5-a75b-5486986e6cea" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Equip" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_equip" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="53fd2b94-69e5-4a49-a9ad-4eae4a70b471" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="OffHandEquip" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_equip" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="53fd2b94-69e5-4a49-a9ad-4eae4a70b471" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Store" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_store" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="29323715-dae3-41f0-8680-07aa4307e9ca" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="OffHandStore" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_store" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="29323715-dae3-41f0-8680-07aa4307e9ca" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Drop" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_drop" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="901b0193-5e7c-4a9b-9dc6-0a5af5420e51" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="CarryLowered" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_carry_lowered" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="f5e13f32-3097-46d1-b863-5bfae1c846c0" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Inspect" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@innerthought_inspect" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="2f90a95d-d090-447b-9620-125f31599e2c" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Place" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_place" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="9e196f93-d77e-4d6e-80b4-2378dcbbf0bf" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="VendorInspect" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@innerthought_inspect" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="VendorReturn" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@Armory_Return" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Customize" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_customize" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+              <InteractionConditionList preset="045457b7-33dd-49ed-9221-04cdc4fc1757" __type="InteractionConditionList">
+                <conditionParams />
+                <conditionToHideParams />
+              </InteractionConditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="BespokePlace" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@interaction_place" DisplayType="Hide" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+        </SharedInteractions>
+        <InteractionPoints>
+          <SInteractionPointParams FirstInteractionPrimary="1" UseHelperLocation="1" ShowHighlight="1" ApplyToEntireSkeleton="0" longRangeIP="0" HelperName="root" TextJustification="Middle" TextOrientation="RotateToPlayer" TextScale="1" Radius="1.8" MaxCursorScreenDistance="2" ShowInnerThoughtsOffScreen="0" OnlySelectableInLookDir="1" __type="SInteractionPointParams">
+            <HighlightBehaviors />
+            <AdditionalCollisionBones />
+            <Offset __type="QuatT">
+              <Rotation x="0" y="0" z="0" __type="Ang3" />
+              <Position x="0" y="0" z="0" __type="Vec3" />
+            </Offset>
+            <AngleConstraint angleRange="181" __type="SAngleConstraint">
+              <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+            </AngleConstraint>
+            <SpherePrimitive>
+            </SpherePrimitive>
+            <Interactions>
+              <SInteractionParams Interaction="Interactable.SharedInteractions[0]" DisplayName="@LOC_EMPTY" IsPrimary="1" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[1]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[2]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[3]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[4]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[5]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[7]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[6]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[8]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[9]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[10]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[11]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[12]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="null" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+            </Interactions>
+          </SInteractionPointParams>
+        </InteractionPoints>
+        <interactionTasks />
+        <actionHandlerTasks />
+        <itemActionTasks />
+        <menuTitle>
+          <SInteractableMenuTitleParams titleColor="a3dead36-7a01-4244-8d76-1ae6099777b0" __type="SInteractableMenuTitleParams" />
+        </menuTitle>
+      </Interactable>
+    </SEntityInteractableParams>
+    <SGeometryResourceParams cacheResources="0" rootOverridePaint="0" inheritModelTagFromHost="1" __type="DataForgeComponentParams" __polymorphicType="SGeometryResourceParams">
+      <ModelTag>
+      </ModelTag>
+      <Geometry Tags="" ScaleMultiplier="1" __type="SGeometryNodeParams">
+        <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+          <Geometry path="Objects/fps_weapons/weapons_v7/lbco/sniper/atzkav/esnp_fps_lbco_atzkav.cdf" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+          <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+          <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        </Geometry>
+        <SubGeometry>
+          <SGeometryNodeParams Tags="Chromic01" ScaleMultiplier="1" __type="SGeometryNodeParams">
+            <Geometry Slot="Main" MaterialAttachments="body,parts" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+              <Geometry path="Objects/fps_weapons/weapons_v7/lbco/sniper/atzkav/esnp_fps_lbco_atzkav.cdf" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+              <Material path="Objects/fps_weapons/weapons_v7/lbco/sniper/atzkav/esnp_fps_lbco_atzkav_mat_chromic_01.mtl" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+              <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+            </Geometry>
+            <SubGeometry />
+          </SGeometryNodeParams>
+          <SGeometryNodeParams Tags="Acid01" ScaleMultiplier="1" __type="SGeometryNodeParams">
+            <Geometry Slot="Main" MaterialAttachments="body,parts" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+              <Geometry path="Objects/fps_weapons/weapons_v7/lbco/sniper/atzkav/esnp_fps_lbco_atzkav.cdf" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+              <Material path="Objects/fps_weapons/weapons_v7/lbco/sniper/atzkav/esnp_fps_lbco_atzkav_mat_acid_01.mtl" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+              <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+            </Geometry>
+            <SubGeometry />
+          </SGeometryNodeParams>
+          <SGeometryNodeParams Tags="Sunset01" ScaleMultiplier="1" __type="SGeometryNodeParams">
+            <Geometry Slot="Main" MaterialAttachments="body,parts" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+              <Geometry path="Objects/fps_weapons/weapons_v7/lbco/sniper/atzkav/esnp_fps_lbco_atzkav.cdf" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+              <Material path="Objects/fps_weapons/weapons_v7/lbco/sniper/atzkav/esnp_fps_lbco_atzkav_mat_sunset_01.mtl" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+              <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+            </Geometry>
+            <SubGeometry />
+          </SGeometryNodeParams>
+        </SubGeometry>
+      </Geometry>
+      <Material Tags="" __type="SMaterialNodeParams">
+        <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+        <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        <materialVariants />
+      </Material>
+    </SGeometryResourceParams>
+    <SCItemInspectableParams inspectInteraction="Interactable.SharedInteractions[8]" stopInspectInteraction="null" flipInteraction="null" inspectRotateScaleX="0.025" inspectRotateScaleY="0.025" __type="DataForgeComponentParams" __polymorphicType="SCItemInspectableParams">
+      <inspectAnimations />
+      <inspectRotateLimitsX x="-1" y="1" __type="Vec2" />
+      <inspectRotateLimitsY x="-1" y="1" __type="Vec2" />
+      <firstSelect firstSelectMode="Once" itemTag="00000000-0000-0000-0000-000000000000" __type="SFirstSelect" />
+    </SCItemInspectableParams>
+    <SInteractionStateMachineParams __type="DataForgeComponentParams" __polymorphicType="SInteractionStateMachineParams">
+      <StateTypes>
+        <SInteractionStateType StateTypeName="CarryableStates" bindingsMethod="None" DefaultState="StateTypes.SInteractionStateType.States[0]" networkAuthority="Server" __type="SInteractionStateType">
+          <States>
+            <SInteractionState StateName="Settled" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions>
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[0]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[2]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[3]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[4]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[5]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[8]" NextState="null" __type="SInteractionStateTransition" />
+              </Interactions>
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="CarriedLowered" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions>
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[1]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[2]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[4]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[8]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[6]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[9]" NextState="null" __type="SInteractionStateTransition" />
+              </Interactions>
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags>
+                  <Reference value="ba576025-1c42-4e4e-80d0-1b902f3351b1" />
+                </tags>
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="EquippedOrStored" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions>
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[0]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[4]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[5]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[2]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[3]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[8]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[1]" NextState="null" __type="SInteractionStateTransition" />
+              </Interactions>
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags>
+                  <Reference value="158faf59-73f2-42e6-a7cf-a55c3e46040d" />
+                </tags>
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="Inspecting" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions>
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[1]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[2]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[4]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[7]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[6]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[9]" NextState="null" __type="SInteractionStateTransition" />
+              </Interactions>
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags>
+                  <Reference value="005f0164-d979-4436-b1c9-0f509fc9101c" />
+                </tags>
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="Dropped" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions />
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="CarriedReady" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions>
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[7]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[2]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[4]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[8]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[6]" NextState="null" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[9]" NextState="null" __type="SInteractionStateTransition" />
+              </Interactions>
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags>
+                  <Reference value="234eebec-3640-40a6-9e57-9e812bfd1c69" />
+                </tags>
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="VendorSettled" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions>
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[10]" NextState="StateTypes.SInteractionStateType.States[7]" __type="SInteractionStateTransition" />
+              </Interactions>
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="VendorInspecting" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions>
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[11]" NextState="StateTypes.SInteractionStateType.States[6]" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[7]" NextState="StateTypes.SInteractionStateType.States[1]" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[2]" NextState="StateTypes.SInteractionStateType.States[2]" __type="SInteractionStateTransition" />
+              </Interactions>
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+          </States>
+          <StateModifiers />
+        </SInteractionStateType>
+      </StateTypes>
+    </SInteractionStateMachineParams>
+    <SPersistentComponentParams __type="DataForgeComponentParams" __polymorphicType="SPersistentComponentParams" />
+    <SARDataComponentParams dataType="ShopItem" rangeMin="1" rangeMax="5" labelMovementType="FacingPlayer" visibleThroughWalls="1" labelZOrientationOffset="0" title1="@LOC_EMPTY" title2="@LOC_EMPTY" subtitle1="@LOC_EMPTY" subtitle2="@LOC_EMPTY" description="@LOC_EMPTY" scaleCapDistance="10" __type="DataForgeComponentParams" __polymorphicType="SARDataComponentParams">
+      <labelAttachOffset x="0" y="0" z="0" __type="Vec3" />
+      <queryOffset x="0" y="0" z="0" __type="Vec3" />
+      <labelScale x="1" y="1" z="1" __type="Vec3" />
+    </SARDataComponentParams>
+    <EntityPhysicalAudioParams minimumImpulseContinuous="5" minimumImpulseTransient="8" minimumVelocityNoImpulse="3" slideThreshold="0.5" rollThreshold="0.1" momentumScale="1" useAABBCentre="0" oneShotTag="01580479-c8a5-4bb8-85df-56b5edc32c14" oneShotCooldown="0.1" dragOnly="0" __type="DataForgeComponentParams" __polymorphicType="EntityPhysicalAudioParams">
+      <collisionTriggers>
+        <PhysicalAudioCollisionTrigger oneShotMinPlayTime="0.25" attachToObject="1" __type="PhysicalAudioCollisionTrigger">
+          <trigger audioTrigger="Play_PHOB_Weapons_Generic_Rifle_Impacts" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+        </PhysicalAudioCollisionTrigger>
+      </collisionTriggers>
+      <slideStartTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <slideStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <rollStartTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <rollStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <movementStartTrigger audioTrigger="Play_WPFA_Handling_LBCO_Sniper_Atzkav_Movement_Loop" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <movementStopTrigger audioTrigger="Stop_WPFA_Handling_LBCO_Sniper_Atzkav_Movement_Loop" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <pickupTrigger audioTrigger="Play_PHOB_Weapons_Generic_Rifle_Pickup" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <pickFromOwnerTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <dropTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <placeTrigger audioTrigger="Play_PHOB_Weapons_Generic_Rifle_Place" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <rtpcSlideVelocity rtpc="PhysicalAudio_Velocity" __type="AudioRtpc" />
+      <rtpcMassSelf rtpc="PhysicalAudio_MassSelf" __type="AudioRtpc" />
+      <rtpcMassOther rtpc="PhysicalAudio_MassOther" __type="AudioRtpc" />
+      <rtpcDampening rtpc="PhysicalAudio_Damping" __type="AudioRtpc" />
+      <rtpcRollVelocity rtpc="PhysicalAudio_RollVelocity" __type="AudioRtpc" />
+      <rtpcHealth rtpc="PhysicalAudio_Health" __type="AudioRtpc" />
+      <rtpcMovement rtpc="PhysicalAudio_Movement_Weapon_Firearm_LBCO_Atzkav" __type="AudioRtpc" />
+      <rtpcRotation rtpc="PhysicalAudio_Rotation_Weapon_Firearm" __type="AudioRtpc" />
+      <rtpcTimeSinceLastOneshot rtpc="PhysicalAudio_TimeSinceLastOneshot" __type="AudioRtpc" />
+      <rtpcMomentum rtpc="PhysicalAudio_Momentum" __type="AudioRtpc" />
+      <rtpcCarried rtpc="PhysicalAudio_CarryState" __type="AudioRtpc" />
+    </EntityPhysicalAudioParams>
+    <SMeleeWeaponComponentParams helper="" audioTriggerName="Play_WPFA_Handling_LBCO_Sniper_Atzkav_Melee" matFxTriggerName="melee_blunt" canBeUsedForTakeDown="0" canBlock="0" canBeUsedInProne="0" canDodge="0" meleeCombatConfig="00000000-0000-0000-0000-000000000000" meleeAttackComboConfig="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="SMeleeWeaponComponentParams">
+      <closeRangeParams range="1.75" delay="0" duration="0.5" impulse_ai_to_player="-1" __type="SCMeleeCloseRangeParams" />
+      <powerParams delay="0" duration="0" __type="SCMeleePowerParams" />
+    </SMeleeWeaponComponentParams>
+    <SActorUsableParams archetype="8149e01e-35dc-4ea0-9b46-c8d440068026" fragmentTag="Carryable" isExterior="0" __type="DataForgeComponentParams" __polymorphicType="SActorUsableParams">
+      <useSlots>
+        <UsableUseSlot name="" available="1" additionalFragmentTags="" isScoochable="0" __type="UsableUseSlot">
+          <useChannelInstances>
+            <UsableUseChannelInstance useChannelArchetype="68319952-3bd9-46ae-ad11-883fa32c8365" interaction="null" isEnabled="1" fragmentTag="" preparationSequence="null" __type="UsableUseChannelInstance">
+              <alignmentSlots>
+                <WeakPointer alignmentSlots="alignmentSlots" />
+              </alignmentSlots>
+              <conditionList>
+              </conditionList>
+              <useChannelInstancesToEnable />
+              <useChannelInstancesToDisable />
+              <tagsToAddOnEnter />
+              <tagsToRemoveOnEnter />
+              <tagsToAddOnExit />
+              <tagsToRemoveOnExit />
+            </UsableUseChannelInstance>
+          </useChannelInstances>
+          <usableItemPorts />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="0" z="0" __type="Vec3" />
+          </relativeTransform>
+          <optionalGameTags />
+        </UsableUseSlot>
+      </useSlots>
+      <alignmentSlots>
+        <PointAlignmentSlot name="" available="1" canPlayerUse="1" fragmentTag="" slottedFragmentTag="" helperName="Missing" linkMode="NoLink" spotStance="Stand" useHandIK="0" useADIK="0" __type="AlignmentSlotBase" __polymorphicType="PointAlignmentSlot">
+          <interactionPoints />
+          <optionalGameTags />
+          <relativeTransform __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="0" z="0" __type="Vec3" />
+          </relativeTransform>
+          <viewParams viewLimitYawMin="-45" viewLimitYawMax="45" viewLimitPitchMin="-45" viewLimitPitchMax="45" __type="SUsableViewParams" />
+          <enterParams aiSignal="UseStart" additionalTags="" eventTriggerMask="AIAndPlayer" holsterWeapon="1" enterInteraction="null" __type="SUsableTransitionParams" __polymorphicType="SUsableEnterTransitionParams">
+            <transitionAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </enterParams>
+          <exitParams aiSignal="UseEnd" additionalTags="" eventTriggerMask="AIAndPlayer" inputExit="1" exitOnMovement="0" exitOnJump="0" exitOnDamageTaken="0" exitInteraction="null" exitSequence="null" __type="SUsableTransitionParams" __polymorphicType="SUsableExitTransitionParams">
+            <transitionAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </exitParams>
+          <usableIdleParams __type="SUsableIdleParams">
+            <idlePoseOverrides />
+          </usableIdleParams>
+        </PointAlignmentSlot>
+      </alignmentSlots>
+      <slottingSetups />
+      <views />
+      <abilityLocks />
+      <usableSequencerTasks />
+      <specializedData __type="SSpecializedData">
+        <specializedDataEntry />
+      </specializedData>
+    </SActorUsableParams>
+    <SCItemPurchasableParams displayName="@item_Namelbco_sniper_energy_01" displayType="@item_displayType_Sniper" displayThumbnail="" allowTryOn="1" allowQuickBuy="0" tryOnInteractionText="@innerthought_inspect" defaultAttachToPortName="" interactionPointTemplate="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="SCItemPurchasableParams">
+      <Display>
+      </Display>
+      <disabledLoadoutInteractions />
+    </SCItemPurchasableParams>
+    <SEntityComponentSequencerParams resetSequence="null" __type="DataForgeComponentParams" __polymorphicType="SEntityComponentSequencerParams">
+      <sequences>
+        <SReplicatedSequencerDefSequenceParams name="ChakmaInspect" interaction="Interactable.SharedInteractions[10]" __type="SSequencerDefSequenceParams" __polymorphicType="SReplicatedSequencerDefSequenceParams">
+          <taskEntries>
+            <SSequencerSequenceTaskEntryParams task="carryableTasks[0]" postDelay="0" haltOnFailure="1" __type="SSequencerSequenceTaskEntryParams">
+              <dependentTasks />
+            </SSequencerSequenceTaskEntryParams>
+            <SSequencerSequenceTaskEntryParams task="carryableTasks" postDelay="0" haltOnFailure="1" __type="SSequencerSequenceTaskEntryParams">
+              <dependentTasks>
+                <WeakPointer dependentTasks="carryableTasks[0]" />
+              </dependentTasks>
+            </SSequencerSequenceTaskEntryParams>
+            <SSequencerSequenceTaskEntryParams task="carryableTasks" postDelay="0" haltOnFailure="1" __type="SSequencerSequenceTaskEntryParams">
+              <dependentTasks>
+                <WeakPointer dependentTasks="carryableTasks" />
+              </dependentTasks>
+            </SSequencerSequenceTaskEntryParams>
+            <SSequencerSequenceTaskEntryParams task="carryableTasks[0]" postDelay="0" haltOnFailure="1" __type="SSequencerSequenceTaskEntryParams">
+              <dependentTasks>
+                <WeakPointer dependentTasks="carryableTasks" />
+              </dependentTasks>
+            </SSequencerSequenceTaskEntryParams>
+          </taskEntries>
+        </SReplicatedSequencerDefSequenceParams>
+        <SReplicatedSequencerDefSequenceParams name="ChakmaReturn" interaction="Interactable.SharedInteractions[11]" __type="SSequencerDefSequenceParams" __polymorphicType="SReplicatedSequencerDefSequenceParams">
+          <taskEntries>
+            <SSequencerSequenceTaskEntryParams task="carryableTasks[1]" postDelay="0" haltOnFailure="1" __type="SSequencerSequenceTaskEntryParams">
+              <dependentTasks />
+            </SSequencerSequenceTaskEntryParams>
+            <SSequencerSequenceTaskEntryParams task="carryableTasks" postDelay="0" haltOnFailure="1" __type="SSequencerSequenceTaskEntryParams">
+              <dependentTasks>
+                <WeakPointer dependentTasks="carryableTasks[1]" />
+              </dependentTasks>
+            </SSequencerSequenceTaskEntryParams>
+          </taskEntries>
+        </SReplicatedSequencerDefSequenceParams>
+        <SReplicatedSequencerDefSequenceParams name="ChakmaBespokePlace" interaction="Interactable.SharedInteractions[13]" __type="SSequencerDefSequenceParams" __polymorphicType="SReplicatedSequencerDefSequenceParams">
+          <taskEntries>
+            <SSequencerSequenceTaskEntryParams task="carryableTasks[1]" postDelay="0" haltOnFailure="1" __type="SSequencerSequenceTaskEntryParams">
+              <dependentTasks />
+            </SSequencerSequenceTaskEntryParams>
+            <SSequencerSequenceTaskEntryParams task="carryableTasks" postDelay="0" haltOnFailure="1" __type="SSequencerSequenceTaskEntryParams">
+              <dependentTasks>
+                <WeakPointer dependentTasks="carryableTasks[1]" />
+              </dependentTasks>
+            </SSequencerSequenceTaskEntryParams>
+            <SSequencerSequenceTaskEntryParams task="carryableTasks[1]" postDelay="0" haltOnFailure="1" __type="SSequencerSequenceTaskEntryParams">
+              <dependentTasks>
+                <WeakPointer dependentTasks="carryableTasks" />
+              </dependentTasks>
+            </SSequencerSequenceTaskEntryParams>
+          </taskEntries>
+        </SReplicatedSequencerDefSequenceParams>
+      </sequences>
+    </SEntityComponentSequencerParams>
+    <AudioPropagationParams audioEnvironment="" physicalOcclusionValueWhenClosed="1" physicalEncapsulationValue="1" __type="DataForgeComponentParams" __polymorphicType="AudioPropagationParams" />
+    <SAnimationControllerParams AnimationDatabase="Items/Weapons/FPS/lbco_sniper_energy_01.adb" AnimationController="Items/Weapons/weaponControllerDef.xml" __type="DataForgeComponentParams" __polymorphicType="SAnimationControllerParams">
+      <Tags />
+      <ScopeContexts>
+        <SAnimationScopeContext scopeContext="Weapon" type="Self" __type="SAnimationScopeContext" />
+      </ScopeContexts>
+      <AnimationJointControls>
+      </AnimationJointControls>
+      <AnimationControlActorIKs />
+      <AnimationTasks />
+      <defaultAnimation>
+      </defaultAnimation>
+    </SAnimationControllerParams>
+    <SCItemWeaponComponentParams ammoContainerRecord="8177489f-ed83-44ac-afd4-2b32a80fa0a6" geometryTags="" supplementaryFireTime="0" proceduralAnimationRecord="89ce1891-2208-45ce-bd70-4eca44d645bd" actorProceduralRecoilConfig="00000000-0000-0000-0000-000000000000" idealCombatRange="75" autoAimMuzzleAngleOverwrite="-1" useAdsHelper="1" isAllowedInGreenZones="0" uncollapseOnTurnedOn="0" __type="DataForgeComponentParams" __polymorphicType="SCItemWeaponComponentParams">
+      <defaultAdsCameraOffset x="0" y="0" z="0" __type="Vec3" />
+      <onAttachParams>
+        <SWeaponOnAttachParams itemPort="optics_attach" __type="SWeaponOnAttachParams">
+          <mannequinTag tag="" __type="SMannequinTagParams" />
+          <attachmentsToHide>
+            <String value="ironsight_attachment" />
+          </attachmentsToHide>
+        </SWeaponOnAttachParams>
+      </onAttachParams>
+      <reticleParams defaultReticle="none" adsReticle="none" __type="SWeaponReticleParams" />
+      <connectionParams powerActiveCooldown="1" heatRateOnline="25" maxGlow="100" glowTag="00000000-0000-0000-0000-000000000000" __type="SWeaponConnectionParams">
+        <noPowerStats fireRate="0" fireRateMultiplier="0" damageMultiplier="1" projectileSpeedMultiplier="1" pellets="0" burstShots="0" ammoCost="0" ammoCostMultiplier="1" heatGenerationMultiplier="1" soundRadiusMultiplier="1" useAlternateProjectileVisuals="0" __type="SWeaponStats">
+          <recoilModifier decayMultiplier="1" endDecayMultiplier="1" fireRecoilTimeMultiplier="1" fireRecoilStrengthFirstMultiplier="1" fireRecoilStrengthMultiplier="1" angleRecoilStrengthMultiplier="1" randomnessMultiplier="1" randomnessBackPushMultiplier="1" frontalOscillationRotationMultiplier="1" frontalOscillationStrengthMultiplier="1" frontalOscillationDecayMultiplier="1" frontalOscillationRandomnessMultiplier="1" animatedRecoilMultiplier="1" __type="SRecoilModifier">
+            <headRotationMultiplier x="1" y="1" z="1" __type="Vec3" />
+            <aimRecoilModifier randomPitchMultiplier="1" randomYawMultiplier="1" decayMultiplier="1" endDecayMultiplier="1" __type="SAimRecoilModifier">
+              <maxMultiplier x="1" y="1" __type="Vec2" />
+              <shotKickFirstMultiplier x="1" y="1" __type="Vec2" />
+              <shotKickMultiplier x="1" y="1" __type="Vec2" />
+            </aimRecoilModifier>
+          </recoilModifier>
+          <spreadModifier minMultiplier="1" maxMultiplier="1" firstAttackMultiplier="1" attackMultiplier="1" decayMultiplier="1" additiveModifier="0" __type="SSpreadModifier" />
+          <aimModifier zoomScale="1" zoomTimeScale="1" hideWeaponInADS="0" __type="SAimModifier" />
+        </noPowerStats>
+        <underpowerStats fireRate="0" fireRateMultiplier="0.1" damageMultiplier="1" projectileSpeedMultiplier="1" pellets="0" burstShots="0" ammoCost="0" ammoCostMultiplier="1" heatGenerationMultiplier="1" soundRadiusMultiplier="1" useAlternateProjectileVisuals="0" __type="SWeaponStats">
+          <recoilModifier decayMultiplier="1" endDecayMultiplier="1" fireRecoilTimeMultiplier="1" fireRecoilStrengthFirstMultiplier="1" fireRecoilStrengthMultiplier="1" angleRecoilStrengthMultiplier="1" randomnessMultiplier="1" randomnessBackPushMultiplier="1" frontalOscillationRotationMultiplier="1" frontalOscillationStrengthMultiplier="1" frontalOscillationDecayMultiplier="1" frontalOscillationRandomnessMultiplier="1" animatedRecoilMultiplier="1" __type="SRecoilModifier">
+            <headRotationMultiplier x="1" y="1" z="1" __type="Vec3" />
+            <aimRecoilModifier randomPitchMultiplier="1" randomYawMultiplier="1" decayMultiplier="1" endDecayMultiplier="1" __type="SAimRecoilModifier">
+              <maxMultiplier x="1" y="1" __type="Vec2" />
+              <shotKickFirstMultiplier x="1" y="1" __type="Vec2" />
+              <shotKickMultiplier x="1" y="1" __type="Vec2" />
+            </aimRecoilModifier>
+          </recoilModifier>
+          <spreadModifier minMultiplier="1" maxMultiplier="1" firstAttackMultiplier="1" attackMultiplier="1" decayMultiplier="1" additiveModifier="0" __type="SSpreadModifier" />
+          <aimModifier zoomScale="1" zoomTimeScale="1" hideWeaponInADS="0" __type="SAimModifier" />
+        </underpowerStats>
+        <overpowerStats fireRate="0" fireRateMultiplier="1.2" damageMultiplier="1" projectileSpeedMultiplier="1" pellets="0" burstShots="0" ammoCost="0" ammoCostMultiplier="1" heatGenerationMultiplier="1" soundRadiusMultiplier="1" useAlternateProjectileVisuals="0" __type="SWeaponStats">
+          <recoilModifier decayMultiplier="1" endDecayMultiplier="1" fireRecoilTimeMultiplier="1" fireRecoilStrengthFirstMultiplier="1" fireRecoilStrengthMultiplier="1" angleRecoilStrengthMultiplier="1" randomnessMultiplier="1" randomnessBackPushMultiplier="1" frontalOscillationRotationMultiplier="1" frontalOscillationStrengthMultiplier="1" frontalOscillationDecayMultiplier="1" frontalOscillationRandomnessMultiplier="1" animatedRecoilMultiplier="1" __type="SRecoilModifier">
+            <headRotationMultiplier x="1" y="1" z="1" __type="Vec3" />
+            <aimRecoilModifier randomPitchMultiplier="1" randomYawMultiplier="1" decayMultiplier="1" endDecayMultiplier="1" __type="SAimRecoilModifier">
+              <maxMultiplier x="1" y="1" __type="Vec2" />
+              <shotKickFirstMultiplier x="1" y="1" __type="Vec2" />
+              <shotKickMultiplier x="1" y="1" __type="Vec2" />
+            </aimRecoilModifier>
+          </recoilModifier>
+          <spreadModifier minMultiplier="1" maxMultiplier="1" firstAttackMultiplier="1" attackMultiplier="1" decayMultiplier="1" additiveModifier="0" __type="SSpreadModifier" />
+          <aimModifier zoomScale="1" zoomTimeScale="1" hideWeaponInADS="0" __type="SAimModifier" />
+        </overpowerStats>
+        <overclockStats fireRate="0" fireRateMultiplier="1.5" damageMultiplier="1" projectileSpeedMultiplier="1" pellets="0" burstShots="0" ammoCost="0" ammoCostMultiplier="1" heatGenerationMultiplier="1" soundRadiusMultiplier="1" useAlternateProjectileVisuals="0" __type="SWeaponStats">
+          <recoilModifier decayMultiplier="1" endDecayMultiplier="1" fireRecoilTimeMultiplier="1" fireRecoilStrengthFirstMultiplier="1" fireRecoilStrengthMultiplier="1" angleRecoilStrengthMultiplier="1" randomnessMultiplier="1" randomnessBackPushMultiplier="1" frontalOscillationRotationMultiplier="1" frontalOscillationStrengthMultiplier="1" frontalOscillationDecayMultiplier="1" frontalOscillationRandomnessMultiplier="1" animatedRecoilMultiplier="1" __type="SRecoilModifier">
+            <headRotationMultiplier x="1" y="1" z="1" __type="Vec3" />
+            <aimRecoilModifier randomPitchMultiplier="1" randomYawMultiplier="1" decayMultiplier="1" endDecayMultiplier="1" __type="SAimRecoilModifier">
+              <maxMultiplier x="1" y="1" __type="Vec2" />
+              <shotKickFirstMultiplier x="1" y="1" __type="Vec2" />
+              <shotKickMultiplier x="1" y="1" __type="Vec2" />
+            </aimRecoilModifier>
+          </recoilModifier>
+          <spreadModifier minMultiplier="1" maxMultiplier="1" firstAttackMultiplier="1" attackMultiplier="1" decayMultiplier="1" additiveModifier="0" __type="SSpreadModifier" />
+          <aimModifier zoomScale="1" zoomTimeScale="1" hideWeaponInADS="0" __type="SAimModifier" />
+        </overclockStats>
+        <heatStats fireRate="0" fireRateMultiplier="1" damageMultiplier="1" projectileSpeedMultiplier="1" pellets="0" burstShots="0" ammoCost="0" ammoCostMultiplier="1" heatGenerationMultiplier="1" soundRadiusMultiplier="1" useAlternateProjectileVisuals="0" __type="SWeaponStats">
+          <recoilModifier decayMultiplier="1" endDecayMultiplier="1" fireRecoilTimeMultiplier="1" fireRecoilStrengthFirstMultiplier="1" fireRecoilStrengthMultiplier="1" angleRecoilStrengthMultiplier="1" randomnessMultiplier="1" randomnessBackPushMultiplier="1" frontalOscillationRotationMultiplier="1" frontalOscillationStrengthMultiplier="1" frontalOscillationDecayMultiplier="1" frontalOscillationRandomnessMultiplier="1" animatedRecoilMultiplier="1" __type="SRecoilModifier">
+            <headRotationMultiplier x="1" y="1" z="1" __type="Vec3" />
+            <aimRecoilModifier randomPitchMultiplier="1" randomYawMultiplier="1" decayMultiplier="1" endDecayMultiplier="1" __type="SAimRecoilModifier">
+              <maxMultiplier x="1" y="1" __type="Vec2" />
+              <shotKickFirstMultiplier x="1" y="1" __type="Vec2" />
+              <shotKickMultiplier x="1" y="1" __type="Vec2" />
+            </aimRecoilModifier>
+          </recoilModifier>
+          <spreadModifier minMultiplier="1" maxMultiplier="1" firstAttackMultiplier="1" attackMultiplier="1" decayMultiplier="1" additiveModifier="0" __type="SSpreadModifier" />
+          <aimModifier zoomScale="1" zoomTimeScale="1" hideWeaponInADS="0" __type="SAimModifier" />
+        </heatStats>
+        <overheatTag tag="" __type="SMannequinTagParams" />
+        <overheatEffects />
+      </connectionParams>
+      <weaponRegenConsumerParams>
+      </weaponRegenConsumerParams>
+      <aimAction>
+        <SWeaponActionAimSimpleParams name="" localisedName="@LOC_PLACEHOLDER" aiShootingMode="Single" zoomScale="1.4" zoomTime="0.23" toggleZoomOverride="0" __type="SWeaponActionParams" __polymorphicType="SWeaponActionAimSimpleParams">
+          <mannequinTag tag="" __type="SMannequinTagParams" />
+          <switchFireModeAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          <selectableCondition>
+          </selectableCondition>
+          <dofSettings>
+            <SWeaponAimDofSettings mask="" focusMin="-1" focusMax="-1" blurAmount="0.2" maskBlurAmount="0.3" dofMinZ="0.75" dofMinZScale="1" fStop="50" nearFocalDistance="0.3" __type="SWeaponAimDofSettings" />
+          </dofSettings>
+          <aimModifier>
+            <SWeaponModifierParams __type="SWeaponModifierParams">
+              <weaponStats fireRate="0" fireRateMultiplier="1" damageMultiplier="1" projectileSpeedMultiplier="1" pellets="0" burstShots="0" ammoCost="0" ammoCostMultiplier="1" heatGenerationMultiplier="1" soundRadiusMultiplier="1" useAlternateProjectileVisuals="0" __type="SWeaponStats">
+                <recoilModifier decayMultiplier="1" endDecayMultiplier="1" fireRecoilTimeMultiplier="1" fireRecoilStrengthFirstMultiplier="1" fireRecoilStrengthMultiplier="1" angleRecoilStrengthMultiplier="1" randomnessMultiplier="1" randomnessBackPushMultiplier="1" frontalOscillationRotationMultiplier="1" frontalOscillationStrengthMultiplier="1" frontalOscillationDecayMultiplier="1" frontalOscillationRandomnessMultiplier="1" animatedRecoilMultiplier="1" __type="SRecoilModifier">
+                  <headRotationMultiplier x="1" y="1" z="1" __type="Vec3" />
+                  <aimRecoilModifier randomPitchMultiplier="1" randomYawMultiplier="1" decayMultiplier="1" endDecayMultiplier="1" __type="SAimRecoilModifier">
+                    <maxMultiplier x="1" y="1" __type="Vec2" />
+                    <shotKickFirstMultiplier x="1" y="1" __type="Vec2" />
+                    <shotKickMultiplier x="1" y="1" __type="Vec2" />
+                  </aimRecoilModifier>
+                </recoilModifier>
+                <spreadModifier minMultiplier="0" maxMultiplier="0" firstAttackMultiplier="0" attackMultiplier="0" decayMultiplier="1" additiveModifier="0" __type="SSpreadModifier" />
+                <aimModifier zoomScale="1" zoomTimeScale="1" hideWeaponInADS="0" __type="SAimModifier" />
+              </weaponStats>
+            </SWeaponModifierParams>
+          </aimModifier>
+          <aimGeometryTags>
+            <SWeaponGeometryTagsParams tags="aux0" startDelay="0.19" stopDelay="0.03" firstPerson="1" thirdPerson="0" __type="SWeaponGeometryTagsParams" />
+          </aimGeometryTags>
+          <mannequinTags>
+            <SMannequinTagParams tag="ADS" __type="SMannequinTagParams" />
+          </mannequinTags>
+          <aimRTPC rtpc="Weapon_ADS" __type="AudioRtpc" />
+          <aimStart audioTrigger="Play_WPFA_Handling_GMNI_Sniper_A03_ADS_Raise" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          <aimStop audioTrigger="Play_WPFA_Handling_GMNI_Sniper_A03_ADS_Lower" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          <timeSinceLastAimStartRtpc rtpc="Weapon_ADS_TimeSinceLastRaise" __type="AudioRtpc" />
+          <timeSinceLastAimStopRtpc rtpc="Weapon_ADS_TimeSinceLastDrop" __type="AudioRtpc" />
+        </SWeaponActionAimSimpleParams>
+      </aimAction>
+      <fireActions>
+        <SWeaponActionFireSingleParams name="Single" localisedName="@FireMode_Single" aiShootingMode="Single" fireRate="30" heatPerShot="0" recoil="1e7bfd21-310a-480a-aa69-9e20b0c95564" __type="SWeaponActionParams" __polymorphicType="SWeaponActionFireSingleParams">
+          <mannequinTag tag="" __type="SMannequinTagParams" />
+          <switchFireModeAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          <selectableCondition>
+          </selectableCondition>
+          <launchParams>
+            <SProjectileLauncher fireHelper="weapon_term_internal_01" muzzleHelper="muzzle_flash" ammoCost="1" pelletCount="1" damageMultiplier="1" soundRadius="50" __type="SLauncherBase" __polymorphicType="SProjectileLauncher">
+              <spreadParams min="9" max="9" firstAttack="0" attack="0" decay="0" __type="SSpreadParams" />
+            </SProjectileLauncher>
+          </launchParams>
+          <fireFragment fragment="fire" __type="SFragmentParams" />
+          <fireAudioTrigger audioTrigger="Play_WPFA_Summed_LBCO_Sniper_Atzkav_Single" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          <dryFireAudioTrigger audioTrigger="Play_WPFA_Handling_LBCO_Sniper_Atzkav_DryFire" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          <cooldownStartTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          <cooldownStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          <fireEffects>
+            <SWeaponParticleEffectParams helper="muzzle_flash_01" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="BarrelAttachment" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.1st_muzzleflash" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.3rd_muzzleflash" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="muzzle_flash_02" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="BarrelAttachment" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.1st_muzzleflash" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.3rd_muzzleflash" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_pin_T_L_01" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_pin_B_L_01" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_pin_T_R_01" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_pin_B_R_01" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_pin_T_L_02" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_pin_B_L_02" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_pin_T_R_02" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_pin_B_R_02" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_pin_T_L_03" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_pin_B_L_03" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_pin_T_R_03" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_pin_B_R_03" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_pin_T_L_04" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_pin_B_L_04" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_pin_T_R_04" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_pin_B_R_04" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_pin_T_L_05" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_pin_B_L_05" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_pin_T_R_05" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_pin_B_R_05" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_pin_T_L_06" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_pin_B_L_06" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_pin_T_R_06" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_pin_B_R_06" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_core" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging_core" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging_core" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_flap_L_01" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="1.2" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.vent" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.vent" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_flap_R_01" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="1.2" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.vent" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.vent" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_flap_L_02" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="1.3" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.vent" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.vent" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_flap_R_02" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="1.3" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.vent" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.vent" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_flap_L_03" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="1.4" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.vent" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.vent" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_flap_R_03" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="1.4" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.vent" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.vent" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_flap_L_04" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="1.5" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.vent" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.vent" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_flap_R_04" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="1.5" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.vent" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.vent" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_flap_L_05" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="1.6" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.vent" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.vent" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_flap_R_05" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="1.6" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.vent" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.vent" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_M_L_01" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging_mid" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging_mid" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_M_R_01" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging_mid" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging_mid" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_M_L_02" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging_mid" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging_mid" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_M_R_02" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging_mid" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging_mid" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_M_L_03" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging_mid" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging_mid" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_M_R_03" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging_mid" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging_mid" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_M_L_04" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging_mid" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging_mid" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_M_R_04" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging_mid" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging_mid" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_M_L_05" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging_mid" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging_mid" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_M_R_05" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging_mid" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging_mid" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_M_L_06" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging_mid" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging_mid" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+            <SWeaponParticleEffectParams helper="vfx_side_M_R_06" triggerTag="00000000-0000-0000-0000-000000000000" modifierSource="None" delay="0" scale="1" __type="SWeaponParticleEffectParams">
+              <firstPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging_mid" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+              <thirdPerson path="FPS_Weapons\Weapons\Weapons_lbco_sniper_energy_01.charging_mid" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+            </SWeaponParticleEffectParams>
+          </fireEffects>
+          <vibrationParams normalVibration="0" playerVibration="0" __type="SWeaponVibrationParams" />
+          <explosionParams>
+          </explosionParams>
+        </SWeaponActionFireSingleParams>
+      </fireActions>
+      <audioParams visorAudioAvailable="0" __type="SWeaponAudioParams">
+        <ammoCountRTPC rtpc="Ammo_Count_Normalised" __type="AudioRtpc" />
+        <weaponPowerRTPC rtpc="Weapon_Power_Level" __type="AudioRtpc" />
+        <switchFireModeAudioTrigger audioTrigger="Play_WPFA_KSAR_Scalpel_Handling_Firemode_Switch" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+        <weaponHeatRTPC rtpc="Weapon_Heat_Level" __type="AudioRtpc" />
+        <overheatAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+        <overheatEndAudioTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      </audioParams>
+      <audioReportEnvironmentParams maxTriggers="6" __type="SWeaponAudioReportEnvironmentParams">
+        <reportEnvironments>
+          <SWeaponAudioReportEnvironment wwiseEnvironmentName="VERB_SYS_EXT_Large" __type="SWeaponAudioReportEnvironment">
+            <reportAudioTrigger audioTrigger="Play_WPFR_Report_Sniper_EXT_Large" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </SWeaponAudioReportEnvironment>
+          <SWeaponAudioReportEnvironment wwiseEnvironmentName="VERB_SYS_EXT_Medium" __type="SWeaponAudioReportEnvironment">
+            <reportAudioTrigger audioTrigger="Play_WPFR_Report_Rifle_Heavy_EXT_Medium" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </SWeaponAudioReportEnvironment>
+          <SWeaponAudioReportEnvironment wwiseEnvironmentName="VERB_SYS_EXT_Small" __type="SWeaponAudioReportEnvironment">
+            <reportAudioTrigger audioTrigger="Play_WPFR_Report_Rifle_Heavy_EXT_Medium" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </SWeaponAudioReportEnvironment>
+          <SWeaponAudioReportEnvironment wwiseEnvironmentName="VERB_SYS_EXT_Tiny" __type="SWeaponAudioReportEnvironment">
+            <reportAudioTrigger audioTrigger="Play_WPFR_Report_Rifle_Heavy_EXT_Medium" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </SWeaponAudioReportEnvironment>
+          <SWeaponAudioReportEnvironment wwiseEnvironmentName="VERB_SYS_INT_Metal_Large" __type="SWeaponAudioReportEnvironment">
+            <reportAudioTrigger audioTrigger="Play_WPFR_Report_Rifle_Heavy_INT_Large" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </SWeaponAudioReportEnvironment>
+          <SWeaponAudioReportEnvironment wwiseEnvironmentName="VERB_SYS_INT_Metal_Medium" __type="SWeaponAudioReportEnvironment">
+            <reportAudioTrigger audioTrigger="Play_WPFR_Report_Rifle_Heavy_INT_Medium" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </SWeaponAudioReportEnvironment>
+          <SWeaponAudioReportEnvironment wwiseEnvironmentName="VERB_SYS_INT_Metal_Small" __type="SWeaponAudioReportEnvironment">
+            <reportAudioTrigger audioTrigger="Play_WPFR_Report_Rifle_Heavy_INT_Small" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </SWeaponAudioReportEnvironment>
+          <SWeaponAudioReportEnvironment wwiseEnvironmentName="VERB_SYS_INT_Metal_Tiny" __type="SWeaponAudioReportEnvironment">
+            <reportAudioTrigger audioTrigger="Play_WPFR_Report_Rifle_Heavy_INT_VerySmall" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </SWeaponAudioReportEnvironment>
+          <SWeaponAudioReportEnvironment wwiseEnvironmentName="VERB_SYS_INT_Cave_Large" __type="SWeaponAudioReportEnvironment">
+            <reportAudioTrigger audioTrigger="Play_WPFR_Report_Rifle_INT_Cave_Large" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </SWeaponAudioReportEnvironment>
+          <SWeaponAudioReportEnvironment wwiseEnvironmentName="VERB_SYS_INT_Cave_Small" __type="SWeaponAudioReportEnvironment">
+            <reportAudioTrigger audioTrigger="Play_WPFR_Report_Rifle_INT_Cave_Small" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </SWeaponAudioReportEnvironment>
+        </reportEnvironments>
+      </audioReportEnvironmentParams>
+      <specialEffectsParams>
+        <SWeaponParticleEffectParamsArray __type="SWeaponParticleEffectParamsArray">
+          <effects />
+        </SWeaponParticleEffectParamsArray>
+        <SWeaponParticleEffectParamsArray __type="SWeaponParticleEffectParamsArray">
+          <effects />
+        </SWeaponParticleEffectParamsArray>
+        <SWeaponParticleEffectParamsArray __type="SWeaponParticleEffectParamsArray">
+          <effects />
+        </SWeaponParticleEffectParamsArray>
+      </specialEffectsParams>
+      <turnedOnEffects />
+      <fireSpinAnimationParams>
+      </fireSpinAnimationParams>
+    </SCItemWeaponComponentParams>
+    <SEntityComponentEffects __type="DataForgeComponentParams" __polymorphicType="SEntityComponentEffects">
+      <entityEffects __type="SEntitityEffectSystem_SystemBase" __polymorphicType="SEntitityEffectSystem_System">
+        <particleEffects>
+        </particleEffects>
+        <materialEffects>
+        </materialEffects>
+        <soundEffects>
+        </soundEffects>
+        <audioEnvironmentEffects>
+        </audioEnvironmentEffects>
+        <lightEffects>
+        </lightEffects>
+        <uiOwnerEffects>
+        </uiOwnerEffects>
+        <sequencerTags />
+      </entityEffects>
+      <staticValues />
+      <staticColors />
+      <tagsToEnableOnLoad />
+      <triggersToEnableOnLoad />
+    </SEntityComponentEffects>
+    <SEntityComponentDefaultLoadoutParams __type="DataForgeComponentParams" __polymorphicType="SEntityComponentDefaultLoadoutParams">
+      <loadout>
+        <SItemPortLoadoutManualParams __type="SItemPortLoadoutBaseParams" __polymorphicType="SItemPortLoadoutManualParams">
+          <entries>
+            <SItemPortLoadoutEntryParams itemPortName="magazine_attach" entityClassName="lbco_sniper_energy_01_mag" __type="SItemPortLoadoutEntryParams">
+              <inventoryContainer>
+              </inventoryContainer>
+              <loadout>
+              </loadout>
+            </SItemPortLoadoutEntryParams>
+            <SItemPortLoadoutEntryParams itemPortName="optics_attach" entityClassName="lbco_optics_tsco_x16_s3" __type="SItemPortLoadoutEntryParams">
+              <inventoryContainer>
+              </inventoryContainer>
+              <loadout>
+              </loadout>
+            </SItemPortLoadoutEntryParams>
+          </entries>
+        </SItemPortLoadoutManualParams>
+      </loadout>
+    </SEntityComponentDefaultLoadoutParams>
+    <ItemControlComponentParams turnedOnByDefault="0" __type="DataForgeComponentParams" __polymorphicType="ItemControlComponentParams">
+      <throttleParams>
+      </throttleParams>
+    </ItemControlComponentParams>
+    <SItemPortContainerComponentParams PortFlags="" PortTags="" RequiredItemTags="" __type="DataForgeComponentParams" __polymorphicType="SItemPortContainerComponentParams">
+      <masterController>
+      </masterController>
+      <Ports>
+        <SItemPortDef Name="magazine_attach" DisplayName="Magazine Slot" PortTags="lbco_sniper_energy_01" RequiredPortTags="lbco_sniper_energy_01" Flags="" MinSize="1" MaxSize="1" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags />
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types>
+            <SItemPortDefTypes Type="WeaponAttachment" __type="SItemPortDefTypes">
+              <SubTypes>
+                <Enum value="Magazine" />
+              </SubTypes>
+            </SItemPortDefTypes>
+          </Types>
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationBone __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationBone">
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="magAttach" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationBone>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+        <SItemPortDef Name="optics_attach" DisplayName="OpticsSlot" PortTags="" RequiredPortTags="" Flags="inventory" MinSize="1" MaxSize="3" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags>
+            <Reference value="201aae5c-92c9-43f9-8c6c-b50c279080f8" />
+            <Reference value="fdd7e1a2-e990-4346-a08c-d22d1480e39c" />
+          </Tags>
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types>
+            <SItemPortDefTypes Type="WeaponAttachment" __type="SItemPortDefTypes">
+              <SubTypes>
+                <Enum value="IronSight" />
+              </SubTypes>
+            </SItemPortDefTypes>
+          </Types>
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationBone __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationBone">
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="sight_attachment" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationBone>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+        <SItemPortDef Name="underbarrel_attach" DisplayName="UnderbarrelSlot" PortTags="" RequiredPortTags="" Flags="inventory" MinSize="1" MaxSize="2" InteractionPointSize="-1" DefaultWeaponGroup="UNDEFINED" controllableTag="" resourceLinkToParent="0" __type="SItemPortDef">
+          <Tags>
+            <Reference value="201aae5c-92c9-43f9-8c6c-b50c279080f8" />
+            <Reference value="fdd7e1a2-e990-4346-a08c-d22d1480e39c" />
+          </Tags>
+          <InteractionPointOffset x="0" y="0" z="0" __type="Vec3" />
+          <AttachmentPoints />
+          <control>
+          </control>
+          <Connections />
+          <DisabledPortLinks />
+          <Types>
+            <SItemPortDefTypes Type="WeaponAttachment" __type="SItemPortDefTypes">
+              <SubTypes>
+                <Enum value="BottomAttachment" />
+              </SubTypes>
+            </SItemPortDefTypes>
+          </Types>
+          <Extension>
+          </Extension>
+          <DamageTech>
+          </DamageTech>
+          <AttachmentImplementation>
+            <SItemPortDefAttachmentImplementationBone __type="SItemPortDefAttachmentImplementationBase" __polymorphicType="SItemPortDefAttachmentImplementationBone">
+              <Helper Tags="" __type="SItemPortDefHelperNode">
+                <Helper Name="underbarrel_attachment" ItemOffsetHelperName="" __type="SItemPortDefHelper">
+                  <Offset __type="QuatT">
+                    <Rotation x="0" y="0" z="0" __type="Ang3" />
+                    <Position x="0" y="0" z="0" __type="Vec3" />
+                  </Offset>
+                  <SimulationParams>
+                  </SimulationParams>
+                </Helper>
+                <SubHelpers />
+              </Helper>
+            </SItemPortDefAttachmentImplementationBone>
+          </AttachmentImplementation>
+          <linkedItemPorts />
+        </SItemPortDef>
+      </Ports>
+      <InternalResourceLinks />
+    </SItemPortContainerComponentParams>
+    <UIOwnerEntityComponentParams startOpen="1" areScreens3D="0" areSounds3D="0" hasActions="0" element="235bfc85-aa63-4fd5-b5d1-821fb3522a39" domainName="global" loadDistance="8" updateDistance="5" moviePath="" variantName="" invariantName="" movieAutoPlay="0" loopMovie="0" forceFlashColourCorrection="1" ignoreTrackviewUnloadRequests="0" reflectLocalStateMachine="1" reflectLinkedStateMachines="0" graph="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="UIOwnerEntityComponentParams" />
+    <UIRenderToTextureEntityComponentParams directRenderStage="None" compositeMaterialName="" hideRenderNodeOnUnload="0" aspectRatioOverride="1" interactionDistance="5" transparentListDepthBias="0" renderFlashBeforeCamera="0" fieldOfView="90" renderType="FORWARD" fallbackTextureOnOnload="" __type="DataForgeComponentParams" __polymorphicType="UIRenderToTextureEntityComponentParams">
+      <secondaryTarget>
+      </secondaryTarget>
+      <grabCameraControlParams>
+      </grabCameraControlParams>
+    </UIRenderToTextureEntityComponentParams>
+    <UIBuildingBlocksEntityComponentParams enableFullScreenMouse="0" defaultStyle="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="UIBuildingBlocksEntityComponentParams">
+      <layers>
+        <BuildingBlocksLayer layerName="Default" renderTarget="All" defaultView="layers.BuildingBlocksLayer.views" __type="BuildingBlocksLayer">
+          <views>
+            <BuildingBlocksView name="Default" __type="BuildingBlocksView">
+              <component canvas="56f22d17-e126-42c4-b274-27d10ee80fe8" __type="CtxGraph_Node" __polymorphicType="UIGraph_BuildingBlocksContextComponent" />
+            </BuildingBlocksView>
+          </views>
+        </BuildingBlocksLayer>
+      </layers>
+    </UIBuildingBlocksEntityComponentParams>
+    <UIBindingsVendorEntityComponentParams namespace="" __type="DataForgeComponentParams" __polymorphicType="UIBindingsVendorEntityComponentParams" />
+    <UIBindingsConsumerEntityComponentParams linkToPort="0" __type="DataForgeComponentParams" __polymorphicType="UIBindingsConsumerEntityComponentParams" />
+  </Components>
+</EntityClassDefinition.lbco_sniper_energy_01>

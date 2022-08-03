@@ -1,0 +1,841 @@
+<RadarSystemGlobalParams.RadarSystemGlobalParams paramsVersion="1" __type="RadarSystemGlobalParams" __ref="bc8d2eea-420e-40d1-9228-6f6978485e61" __path="libs/foundry/records/radarsystem/radarsystemglobalparams.xml">
+  <signatureParams globalDBFactor="1" influencingClampingPercent="0.25" __type="RadarSignatureGlobalParams">
+    <crossSectionParams maxDistance="10000" lineOfSightAngle="45" __type="RadarCrossSectionGlobalParams">
+      <globalCSFactor x="10" y="10" z="10" __type="Vec3" />
+    </crossSectionParams>
+  </signatureParams>
+  <pingParams __type="RadarPingGlobalParams">
+    <legacyParams blobOffsetScalar="0" blobSizeScalar="1" pingWaveAcceleration="30000" __type="RadarPingLegacyParams">
+      <focusAngles>
+        <Single value="360" />
+        <Single value="179" />
+        <Single value="90" />
+        <Single value="45" />
+        <Single value="22.5" />
+        <Single value="11.25" />
+        <Single value="5.625" />
+        <Single value="2.8125" />
+      </focusAngles>
+      <detectionParams>
+        <PingDetectionParams __type="PingDetectionParams">
+          <contactSensitivityFactors>
+            <Single value="1.01" />
+            <Single value="1.1" />
+            <Single value="1.2" />
+            <Single value="1.3" />
+            <Single value="1.4" />
+            <Single value="1.5" />
+            <Single value="1.75" />
+            <Single value="2" />
+          </contactSensitivityFactors>
+          <blobSensitivityFactors>
+            <Single value="2" />
+            <Single value="2.1" />
+            <Single value="2.2" />
+            <Single value="2.4" />
+            <Single value="2.8" />
+            <Single value="3.2" />
+            <Single value="3.8" />
+            <Single value="5" />
+          </blobSensitivityFactors>
+          <pierceFactors>
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+          </pierceFactors>
+        </PingDetectionParams>
+        <PingDetectionParams __type="PingDetectionParams">
+          <contactSensitivityFactors>
+            <Single value="1.01" />
+            <Single value="1.1" />
+            <Single value="1.2" />
+            <Single value="1.3" />
+            <Single value="1.4" />
+            <Single value="1.5" />
+            <Single value="1.75" />
+            <Single value="2" />
+          </contactSensitivityFactors>
+          <blobSensitivityFactors>
+            <Single value="2" />
+            <Single value="2.1" />
+            <Single value="2.2" />
+            <Single value="2.4" />
+            <Single value="2.8" />
+            <Single value="3.2" />
+            <Single value="3.8" />
+            <Single value="5" />
+          </blobSensitivityFactors>
+          <pierceFactors>
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+          </pierceFactors>
+        </PingDetectionParams>
+        <PingDetectionParams __type="PingDetectionParams">
+          <contactSensitivityFactors>
+            <Single value="1.01" />
+            <Single value="1.1" />
+            <Single value="1.2" />
+            <Single value="1.3" />
+            <Single value="1.4" />
+            <Single value="1.5" />
+            <Single value="1.75" />
+            <Single value="2" />
+          </contactSensitivityFactors>
+          <blobSensitivityFactors>
+            <Single value="2" />
+            <Single value="2.1" />
+            <Single value="2.2" />
+            <Single value="2.4" />
+            <Single value="2.8" />
+            <Single value="3.2" />
+            <Single value="3.8" />
+            <Single value="5" />
+          </blobSensitivityFactors>
+          <pierceFactors>
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+          </pierceFactors>
+        </PingDetectionParams>
+        <PingDetectionParams __type="PingDetectionParams">
+          <contactSensitivityFactors>
+            <Single value="1.01" />
+            <Single value="1.1" />
+            <Single value="1.2" />
+            <Single value="1.3" />
+            <Single value="1.4" />
+            <Single value="1.5" />
+            <Single value="1.75" />
+            <Single value="2" />
+          </contactSensitivityFactors>
+          <blobSensitivityFactors>
+            <Single value="2" />
+            <Single value="2.1" />
+            <Single value="2.2" />
+            <Single value="2.4" />
+            <Single value="2.8" />
+            <Single value="3.2" />
+            <Single value="3.8" />
+            <Single value="5" />
+          </blobSensitivityFactors>
+          <pierceFactors>
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+          </pierceFactors>
+        </PingDetectionParams>
+        <PingDetectionParams __type="PingDetectionParams">
+          <contactSensitivityFactors>
+            <Single value="2" />
+            <Single value="3" />
+            <Single value="4" />
+            <Single value="5" />
+            <Single value="6" />
+            <Single value="7" />
+            <Single value="8" />
+            <Single value="9" />
+          </contactSensitivityFactors>
+          <blobSensitivityFactors>
+            <Single value="10" />
+            <Single value="10" />
+            <Single value="10" />
+            <Single value="10" />
+            <Single value="10" />
+            <Single value="10" />
+            <Single value="10" />
+            <Single value="10" />
+          </blobSensitivityFactors>
+          <pierceFactors>
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+          </pierceFactors>
+        </PingDetectionParams>
+        <PingDetectionParams __type="PingDetectionParams">
+          <contactSensitivityFactors>
+            <Single value="1.01" />
+            <Single value="1.1" />
+            <Single value="1.2" />
+            <Single value="1.3" />
+            <Single value="1.4" />
+            <Single value="1.5" />
+            <Single value="1.75" />
+            <Single value="2" />
+          </contactSensitivityFactors>
+          <blobSensitivityFactors>
+            <Single value="2" />
+            <Single value="2.1" />
+            <Single value="2.2" />
+            <Single value="2.4" />
+            <Single value="2.8" />
+            <Single value="3.2" />
+            <Single value="3.8" />
+            <Single value="5" />
+          </blobSensitivityFactors>
+          <pierceFactors>
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+          </pierceFactors>
+        </PingDetectionParams>
+        <PingDetectionParams __type="PingDetectionParams">
+          <contactSensitivityFactors>
+            <Single value="1.01" />
+            <Single value="1.1" />
+            <Single value="1.2" />
+            <Single value="1.3" />
+            <Single value="1.4" />
+            <Single value="1.5" />
+            <Single value="1.75" />
+            <Single value="2" />
+          </contactSensitivityFactors>
+          <blobSensitivityFactors>
+            <Single value="2" />
+            <Single value="2.1" />
+            <Single value="2.2" />
+            <Single value="2.4" />
+            <Single value="2.8" />
+            <Single value="3.2" />
+            <Single value="3.8" />
+            <Single value="5" />
+          </blobSensitivityFactors>
+          <pierceFactors>
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+            <Single value="1" />
+          </pierceFactors>
+        </PingDetectionParams>
+      </detectionParams>
+      <contactLifeTime lifeTimeMin="5" lifeTimeMax="15" __type="RadarPingContactLifeTime" />
+    </legacyParams>
+    <experimentalParams blobOffsetScalar="0.5" blobSizeScalar="1" pingWaveAcceleration="30000" __type="RadarPingExperimentalParams">
+      <focusAngles>
+        <Single value="360" />
+        <Single value="179" />
+        <Single value="90" />
+        <Single value="45" />
+        <Single value="22.5" />
+        <Single value="11.25" />
+        <Single value="5.625" />
+        <Single value="2.8125" />
+      </focusAngles>
+      <lowChargeParams>
+        <PingDetectionParams __type="PingDetectionParams">
+          <contactSensitivityFactors>
+            <Single value="1.125" />
+            <Single value="1.150426" />
+            <Single value="1.191312" />
+            <Single value="1.241179" />
+            <Single value="1.297947" />
+            <Single value="1.360472" />
+            <Single value="1.428002" />
+            <Single value="1.5" />
+          </contactSensitivityFactors>
+          <blobSensitivityFactors>
+            <Single value="1.25" />
+            <Single value="1.300852" />
+            <Single value="1.382625" />
+            <Single value="1.482357" />
+            <Single value="1.595895" />
+            <Single value="1.720943" />
+            <Single value="1.856003" />
+            <Single value="2" />
+          </blobSensitivityFactors>
+          <pierceFactors>
+            <Single value="1" />
+            <Single value="1.067802" />
+            <Single value="1.176833" />
+            <Single value="1.309809" />
+            <Single value="1.461193" />
+            <Single value="1.627925" />
+            <Single value="1.808004" />
+            <Single value="2" />
+          </pierceFactors>
+        </PingDetectionParams>
+        <PingDetectionParams __type="PingDetectionParams">
+          <contactSensitivityFactors>
+            <Single value="1.125" />
+            <Single value="1.150426" />
+            <Single value="1.191312" />
+            <Single value="1.241179" />
+            <Single value="1.297947" />
+            <Single value="1.360472" />
+            <Single value="1.428002" />
+            <Single value="1.5" />
+          </contactSensitivityFactors>
+          <blobSensitivityFactors>
+            <Single value="1.25" />
+            <Single value="1.300852" />
+            <Single value="1.382625" />
+            <Single value="1.482357" />
+            <Single value="1.595895" />
+            <Single value="1.720943" />
+            <Single value="1.856003" />
+            <Single value="2" />
+          </blobSensitivityFactors>
+          <pierceFactors>
+            <Single value="1" />
+            <Single value="1.067802" />
+            <Single value="1.176833" />
+            <Single value="1.309809" />
+            <Single value="1.461193" />
+            <Single value="1.627925" />
+            <Single value="1.808004" />
+            <Single value="2" />
+          </pierceFactors>
+        </PingDetectionParams>
+        <PingDetectionParams __type="PingDetectionParams">
+          <contactSensitivityFactors>
+            <Single value="1.125" />
+            <Single value="1.150426" />
+            <Single value="1.191312" />
+            <Single value="1.241179" />
+            <Single value="1.297947" />
+            <Single value="1.360472" />
+            <Single value="1.428002" />
+            <Single value="1.5" />
+          </contactSensitivityFactors>
+          <blobSensitivityFactors>
+            <Single value="1.25" />
+            <Single value="1.300852" />
+            <Single value="1.382625" />
+            <Single value="1.482357" />
+            <Single value="1.595895" />
+            <Single value="1.720943" />
+            <Single value="1.856003" />
+            <Single value="2" />
+          </blobSensitivityFactors>
+          <pierceFactors>
+            <Single value="1" />
+            <Single value="1.067802" />
+            <Single value="1.176833" />
+            <Single value="1.309809" />
+            <Single value="1.461193" />
+            <Single value="1.627925" />
+            <Single value="1.808004" />
+            <Single value="2" />
+          </pierceFactors>
+        </PingDetectionParams>
+        <PingDetectionParams __type="PingDetectionParams">
+          <contactSensitivityFactors>
+            <Single value="1.125" />
+            <Single value="1.150426" />
+            <Single value="1.191312" />
+            <Single value="1.241179" />
+            <Single value="1.297947" />
+            <Single value="1.360472" />
+            <Single value="1.428002" />
+            <Single value="1.5" />
+          </contactSensitivityFactors>
+          <blobSensitivityFactors>
+            <Single value="1.25" />
+            <Single value="1.300852" />
+            <Single value="1.382625" />
+            <Single value="1.482357" />
+            <Single value="1.595895" />
+            <Single value="1.720943" />
+            <Single value="1.856003" />
+            <Single value="2" />
+          </blobSensitivityFactors>
+          <pierceFactors>
+            <Single value="1" />
+            <Single value="1.067802" />
+            <Single value="1.176833" />
+            <Single value="1.309809" />
+            <Single value="1.461193" />
+            <Single value="1.627925" />
+            <Single value="1.808004" />
+            <Single value="2" />
+          </pierceFactors>
+        </PingDetectionParams>
+        <PingDetectionParams __type="PingDetectionParams">
+          <contactSensitivityFactors>
+            <Single value="1.125" />
+            <Single value="1.150426" />
+            <Single value="1.191312" />
+            <Single value="1.241179" />
+            <Single value="1.297947" />
+            <Single value="1.360472" />
+            <Single value="1.428002" />
+            <Single value="1.5" />
+          </contactSensitivityFactors>
+          <blobSensitivityFactors>
+            <Single value="1.25" />
+            <Single value="1.300852" />
+            <Single value="1.382625" />
+            <Single value="1.482357" />
+            <Single value="1.595895" />
+            <Single value="1.720943" />
+            <Single value="1.856003" />
+            <Single value="2" />
+          </blobSensitivityFactors>
+          <pierceFactors>
+            <Single value="1" />
+            <Single value="1.067802" />
+            <Single value="1.176833" />
+            <Single value="1.309809" />
+            <Single value="1.461193" />
+            <Single value="1.627925" />
+            <Single value="1.808004" />
+            <Single value="2" />
+          </pierceFactors>
+        </PingDetectionParams>
+        <PingDetectionParams __type="PingDetectionParams">
+          <contactSensitivityFactors>
+            <Single value="1.125" />
+            <Single value="1.150426" />
+            <Single value="1.191312" />
+            <Single value="1.241179" />
+            <Single value="1.297947" />
+            <Single value="1.360472" />
+            <Single value="1.428002" />
+            <Single value="1.5" />
+          </contactSensitivityFactors>
+          <blobSensitivityFactors>
+            <Single value="1.25" />
+            <Single value="1.300852" />
+            <Single value="1.382625" />
+            <Single value="1.482357" />
+            <Single value="1.595895" />
+            <Single value="1.720943" />
+            <Single value="1.856003" />
+            <Single value="2" />
+          </blobSensitivityFactors>
+          <pierceFactors>
+            <Single value="1" />
+            <Single value="1.067802" />
+            <Single value="1.176833" />
+            <Single value="1.309809" />
+            <Single value="1.461193" />
+            <Single value="1.627925" />
+            <Single value="1.808004" />
+            <Single value="2" />
+          </pierceFactors>
+        </PingDetectionParams>
+        <PingDetectionParams __type="PingDetectionParams">
+          <contactSensitivityFactors>
+            <Single value="1.125" />
+            <Single value="1.150426" />
+            <Single value="1.191312" />
+            <Single value="1.241179" />
+            <Single value="1.297947" />
+            <Single value="1.360472" />
+            <Single value="1.428002" />
+            <Single value="1.5" />
+          </contactSensitivityFactors>
+          <blobSensitivityFactors>
+            <Single value="1.25" />
+            <Single value="1.300852" />
+            <Single value="1.382625" />
+            <Single value="1.482357" />
+            <Single value="1.595895" />
+            <Single value="1.720943" />
+            <Single value="1.856003" />
+            <Single value="2" />
+          </blobSensitivityFactors>
+          <pierceFactors>
+            <Single value="1" />
+            <Single value="1.067802" />
+            <Single value="1.176833" />
+            <Single value="1.309809" />
+            <Single value="1.461193" />
+            <Single value="1.627925" />
+            <Single value="1.808004" />
+            <Single value="2" />
+          </pierceFactors>
+        </PingDetectionParams>
+      </lowChargeParams>
+      <fullChargeParams>
+        <PingDetectionParams __type="PingDetectionParams">
+          <contactSensitivityFactors>
+            <Single value="1.25" />
+            <Single value="1.287291" />
+            <Single value="1.347258" />
+            <Single value="1.420395" />
+            <Single value="1.503656" />
+            <Single value="1.595358" />
+            <Single value="1.694402" />
+            <Single value="1.8" />
+          </contactSensitivityFactors>
+          <blobSensitivityFactors>
+            <Single value="1.5" />
+            <Single value="1.533901" />
+            <Single value="1.588416" />
+            <Single value="1.654905" />
+            <Single value="1.730596" />
+            <Single value="1.813962" />
+            <Single value="1.904002" />
+            <Single value="2" />
+          </blobSensitivityFactors>
+          <pierceFactors>
+            <Single value="1" />
+            <Single value="1.067802" />
+            <Single value="1.176833" />
+            <Single value="1.309809" />
+            <Single value="1.461193" />
+            <Single value="1.627925" />
+            <Single value="1.808004" />
+            <Single value="2" />
+          </pierceFactors>
+        </PingDetectionParams>
+        <PingDetectionParams __type="PingDetectionParams">
+          <contactSensitivityFactors>
+            <Single value="1.25" />
+            <Single value="1.287291" />
+            <Single value="1.347258" />
+            <Single value="1.420395" />
+            <Single value="1.503656" />
+            <Single value="1.595358" />
+            <Single value="1.694402" />
+            <Single value="1.8" />
+          </contactSensitivityFactors>
+          <blobSensitivityFactors>
+            <Single value="1.5" />
+            <Single value="1.533901" />
+            <Single value="1.588416" />
+            <Single value="1.654905" />
+            <Single value="1.730596" />
+            <Single value="1.813962" />
+            <Single value="1.904002" />
+            <Single value="2" />
+          </blobSensitivityFactors>
+          <pierceFactors>
+            <Single value="1" />
+            <Single value="1.067802" />
+            <Single value="1.176833" />
+            <Single value="1.309809" />
+            <Single value="1.461193" />
+            <Single value="1.627925" />
+            <Single value="1.808004" />
+            <Single value="2" />
+          </pierceFactors>
+        </PingDetectionParams>
+        <PingDetectionParams __type="PingDetectionParams">
+          <contactSensitivityFactors>
+            <Single value="1.25" />
+            <Single value="1.287291" />
+            <Single value="1.347258" />
+            <Single value="1.420395" />
+            <Single value="1.503656" />
+            <Single value="1.595358" />
+            <Single value="1.694402" />
+            <Single value="1.8" />
+          </contactSensitivityFactors>
+          <blobSensitivityFactors>
+            <Single value="1.5" />
+            <Single value="1.533901" />
+            <Single value="1.588416" />
+            <Single value="1.654905" />
+            <Single value="1.730596" />
+            <Single value="1.813962" />
+            <Single value="1.904002" />
+            <Single value="2" />
+          </blobSensitivityFactors>
+          <pierceFactors>
+            <Single value="1" />
+            <Single value="1.067802" />
+            <Single value="1.176833" />
+            <Single value="1.309809" />
+            <Single value="1.461193" />
+            <Single value="1.627925" />
+            <Single value="1.808004" />
+            <Single value="2" />
+          </pierceFactors>
+        </PingDetectionParams>
+        <PingDetectionParams __type="PingDetectionParams">
+          <contactSensitivityFactors>
+            <Single value="1.25" />
+            <Single value="1.287291" />
+            <Single value="1.347258" />
+            <Single value="1.420395" />
+            <Single value="1.503656" />
+            <Single value="1.595358" />
+            <Single value="1.694402" />
+            <Single value="1.8" />
+          </contactSensitivityFactors>
+          <blobSensitivityFactors>
+            <Single value="1.5" />
+            <Single value="1.533901" />
+            <Single value="1.588416" />
+            <Single value="1.654905" />
+            <Single value="1.730596" />
+            <Single value="1.813962" />
+            <Single value="1.904002" />
+            <Single value="2" />
+          </blobSensitivityFactors>
+          <pierceFactors>
+            <Single value="1" />
+            <Single value="1.067802" />
+            <Single value="1.176833" />
+            <Single value="1.309809" />
+            <Single value="1.461193" />
+            <Single value="1.627925" />
+            <Single value="1.808004" />
+            <Single value="2" />
+          </pierceFactors>
+        </PingDetectionParams>
+        <PingDetectionParams __type="PingDetectionParams">
+          <contactSensitivityFactors>
+            <Single value="1.25" />
+            <Single value="1.287291" />
+            <Single value="1.347258" />
+            <Single value="1.420395" />
+            <Single value="1.503656" />
+            <Single value="1.595358" />
+            <Single value="1.694402" />
+            <Single value="1.8" />
+          </contactSensitivityFactors>
+          <blobSensitivityFactors>
+            <Single value="1.5" />
+            <Single value="1.533901" />
+            <Single value="1.588416" />
+            <Single value="1.654905" />
+            <Single value="1.730596" />
+            <Single value="1.813962" />
+            <Single value="1.904002" />
+            <Single value="2" />
+          </blobSensitivityFactors>
+          <pierceFactors>
+            <Single value="1" />
+            <Single value="1.067802" />
+            <Single value="1.176833" />
+            <Single value="1.309809" />
+            <Single value="1.461193" />
+            <Single value="1.627925" />
+            <Single value="1.808004" />
+            <Single value="2" />
+          </pierceFactors>
+        </PingDetectionParams>
+        <PingDetectionParams __type="PingDetectionParams">
+          <contactSensitivityFactors>
+            <Single value="1.25" />
+            <Single value="1.287291" />
+            <Single value="1.347258" />
+            <Single value="1.420395" />
+            <Single value="1.503656" />
+            <Single value="1.595358" />
+            <Single value="1.694402" />
+            <Single value="1.8" />
+          </contactSensitivityFactors>
+          <blobSensitivityFactors>
+            <Single value="1.5" />
+            <Single value="1.533901" />
+            <Single value="1.588416" />
+            <Single value="1.654905" />
+            <Single value="1.730596" />
+            <Single value="1.813962" />
+            <Single value="1.904002" />
+            <Single value="2" />
+          </blobSensitivityFactors>
+          <pierceFactors>
+            <Single value="1" />
+            <Single value="1.067802" />
+            <Single value="1.176833" />
+            <Single value="1.309809" />
+            <Single value="1.461193" />
+            <Single value="1.627925" />
+            <Single value="1.808004" />
+            <Single value="2" />
+          </pierceFactors>
+        </PingDetectionParams>
+        <PingDetectionParams __type="PingDetectionParams">
+          <contactSensitivityFactors>
+            <Single value="1.25" />
+            <Single value="1.287291" />
+            <Single value="1.347258" />
+            <Single value="1.420395" />
+            <Single value="1.503656" />
+            <Single value="1.595358" />
+            <Single value="1.694402" />
+            <Single value="1.8" />
+          </contactSensitivityFactors>
+          <blobSensitivityFactors>
+            <Single value="1.5" />
+            <Single value="1.533901" />
+            <Single value="1.588416" />
+            <Single value="1.654905" />
+            <Single value="1.730596" />
+            <Single value="1.813962" />
+            <Single value="1.904002" />
+            <Single value="2" />
+          </blobSensitivityFactors>
+          <pierceFactors>
+            <Single value="1" />
+            <Single value="1.067802" />
+            <Single value="1.176833" />
+            <Single value="1.309809" />
+            <Single value="1.461193" />
+            <Single value="1.627925" />
+            <Single value="1.808004" />
+            <Single value="2" />
+          </pierceFactors>
+        </PingDetectionParams>
+      </fullChargeParams>
+      <contactLifeTime lifeTimeMin="5" lifeTimeMax="15" __type="RadarPingContactLifeTime" />
+    </experimentalParams>
+  </pingParams>
+  <scannerParams __type="ScannerGlobalParams">
+    <scanDataUIDisplayInfo>
+      <ScanDataUIDisplayInfo displaySection="Overview" __type="ScanDataUIDisplayInfo" />
+      <ScanDataUIDisplayInfo displaySection="Overview" __type="ScanDataUIDisplayInfo" />
+      <ScanDataUIDisplayInfo displaySection="Interior" __type="ScanDataUIDisplayInfo" />
+      <ScanDataUIDisplayInfo displaySection="Overview" __type="ScanDataUIDisplayInfo" />
+      <ScanDataUIDisplayInfo displaySection="Exterior" __type="ScanDataUIDisplayInfo" />
+      <ScanDataUIDisplayInfo displaySection="Overview" __type="ScanDataUIDisplayInfo" />
+      <ScanDataUIDisplayInfo displaySection="Overview" __type="ScanDataUIDisplayInfo" />
+      <ScanDataUIDisplayInfo displaySection="Overview" __type="ScanDataUIDisplayInfo" />
+      <ScanDataUIDisplayInfo displaySection="Interior" __type="ScanDataUIDisplayInfo" />
+      <ScanDataUIDisplayInfo displaySection="Overview" __type="ScanDataUIDisplayInfo" />
+      <ScanDataUIDisplayInfo displaySection="Interior" __type="ScanDataUIDisplayInfo" />
+      <ScanDataUIDisplayInfo displaySection="Overview" __type="ScanDataUIDisplayInfo" />
+      <ScanDataUIDisplayInfo displaySection="Exterior" __type="ScanDataUIDisplayInfo" />
+      <ScanDataUIDisplayInfo displaySection="Overview" __type="ScanDataUIDisplayInfo" />
+    </scanDataUIDisplayInfo>
+    <scanCategoryDisplayLoc>
+      <LocID value="@hud_scanning_cat_root" />
+      <LocID value="@hud_scanning_cat_affiliation" />
+      <LocID value="@hud_scanning_cat_cargo_commodities" />
+      <LocID value="@LOC_EMPTY" />
+      <LocID value="@hud_scanning_cat_fps_gear" />
+      <LocID value="@hud_scanning_cat_general" />
+      <LocID value="@LOC_EMPTY" />
+      <LocID value="@hud_scanning_cat_nav_point" />
+      <LocID value="@hud_scanning_cat_mineable_commodities" />
+      <LocID value="@hud_scanning_cat_mineable_properties" />
+      <LocID value="@hud_scanning_cat_passengers" />
+      <LocID value="@LOC_EMPTY" />
+      <LocID value="@hud_scanning_cat_subitems" />
+      <LocID value="@hud_scanning_cat_vehicle" />
+    </scanCategoryDisplayLoc>
+    <scanInfoDisplayLoc>
+      <LocID value="@hud_scanning_info_commodity" />
+      <LocID value="@hud_scanning_info_classification" />
+      <LocID value="@LOC_EMPTY" />
+      <LocID value="@LOC_EMPTY" />
+      <LocID value="@LOC_EMPTY" />
+      <LocID value="@LOC_EMPTY" />
+      <LocID value="@LOC_EMPTY" />
+      <LocID value="@LOC_EMPTY" />
+      <LocID value="@hud_scanning_info_faction" />
+      <LocID value="@hud_scanning_info_instability" />
+      <LocID value="@hud_scanning_info_inventory_amount" />
+      <LocID value="@hud_scanning_info_jurisdiction" />
+      <LocID value="@hud_scanning_info_last_scanned" />
+      <LocID value="@hud_scanning_info_legal_owner_entity_id" />
+      <LocID value="@hud_scanning_info_legal_owner_flagged" />
+      <LocID value="@hud_scanning_info_legal_owner_name" />
+      <LocID value="@hud_scanning_info_health" />
+      <LocID value="@hud_scanning_info_mass" />
+      <LocID value="@hud_scanning_info_mineable_percentage_total" />
+      <LocID value="@hud_scanning_info_mineable_percentage_value" />
+      <LocID value="@hud_scanning_info_name" />
+      <LocID value="@hud_scanning_info_optimal_power_window_low" />
+      <LocID value="@hud_scanning_info_optimal_power_window_high" />
+      <LocID value="@hud_scanning_info_power_transfer_resistance" />
+      <LocID value="@LOC_EMPTY" />
+      <LocID value="@LOC_EMPTY" />
+      <LocID value="@LOC_EMPTY" />
+      <LocID value="@LOC_EMPTY" />
+      <LocID value="@hud_scanning_info_species" />
+      <LocID value="@hud_scanning_info_stolen" />
+      <LocID value="@hud_scanning_info_subtype" />
+      <LocID value="@hud_scanning_info_type" />
+      <LocID value="@LOC_EMPTY" />
+      <LocID value="@hud_scanning_info_vehicle_id" />
+      <LocID value="@hud_scanning_info_vehicle_model" />
+      <LocID value="@hud_scanning_info_vehicle_role" />
+      <LocID value="@hud_scanning_info_volatility" />
+      <LocID value="@hud_scanning_info_wanted_level" />
+    </scanInfoDisplayLoc>
+  </scannerParams>
+  <sfxScannerParams __type="ScannerSFXGlobalParams">
+    <startScan audioTrigger="Play_SSMC_Shared_Scanner_Radar_Scan" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+    <stopScan audioTrigger="Stop_SSMC_Shared_Scanner_Radar_Scan" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+    <infoPopulate audioTrigger="Play_UI_MCMN_Scan_Interface_Radar_Stat_Result" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+  </sfxScannerParams>
+  <vfxScannerParams highlightOutlineWidth="3" highlightOutlineAlpha="1" __type="ScannerVFXGlobalParams">
+    <highlightColorBlocked r="0.4019778" g="0.6938718" b="1" a="1" __type="RGBA" />
+    <highlightColorScannable r="0.2961383" g="0.1412633" b="0.9911021" a="0.5" __type="RGBA" />
+    <highlightColorScanned r="0.4019778" g="0.6938718" b="1" a="0.1441285" __type="RGBA" />
+    <highlightColorScanning r="1" g="0.5906188" b="0.1589608" a="0.6724432" __type="RGBA" />
+  </vfxScannerParams>
+  <uiSignatureParams __type="SignatureUIGlobalParams">
+    <signatureNames>
+      <LocID value="@hud_scanning_info_ir_signature" />
+      <LocID value="@hud_scanning_info_em_signature" />
+      <LocID value="@hud_scanning_info_cs_signature" />
+      <LocID value="@hud_scanning_info_db_signature" />
+      <LocID value="@hud_scanning_info_rs_signature" />
+      <LocID value="@hud_scanning_info_id_signature" />
+      <LocID value="@LOC_EMPTY" />
+    </signatureNames>
+    <signatureBlobNames>
+      <LocID value="@hud_scanning_info_max_ir_signature" />
+      <LocID value="@hud_scanning_info_max_em_signature" />
+      <LocID value="@hud_scanning_info_max_cs_signature" />
+      <LocID value="@hud_scanning_info_max_db_signature" />
+      <LocID value="@hud_scanning_info_max_rs_signature" />
+      <LocID value="@hud_scanning_info_max_id_signature" />
+      <LocID value="@LOC_EMPTY" />
+    </signatureBlobNames>
+  </uiSignatureParams>
+  <uiPingParams focusAngleUITime="2" __type="PingUIGlobalParams" />
+  <sfxPingParams __type="PingSFXGlobalParams">
+    <changeFocusLevel audioTrigger="Play_UI_MCMN_Scan_Interface_Radar_Zoom" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+    <invokePing audioTrigger="Play_UI_MCMN_Scan_Interface_Radar_Ping_Scan" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+  </sfxPingParams>
+  <vfxPingParams waveMaxDistance="200000" snapBlobTimescaleToLifeTime="0" snapWaveTimescaleToLifetime="1" use360PingwaveEffectForAllLevels="1" attachPingwaveEffectToHost="0" __type="PingVFXGlobalParams">
+    <waveParticle>
+      <GlobalResourceParticle path="UI\ui_radar.all.radar_wave" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+      <GlobalResourceParticle path="UI\ui_radar.all.radar_wave_x2" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+      <GlobalResourceParticle path="UI\ui_radar.all.radar_wave_x4" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+      <GlobalResourceParticle path="UI\ui_radar.all.radar_wave_x8" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+      <GlobalResourceParticle path="UI\ui_radar.all.radar_wave_x16" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+      <GlobalResourceParticle path="UI\ui_radar.all.radar_wave_x32" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+      <GlobalResourceParticle path="UI\ui_radar.all.radar_wave_x64" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+      <GlobalResourceParticle path="UI\ui_radar.all.radar_wave_x128" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+    </waveParticle>
+    <blobParticle path="UI\ui_radar.all.radar_blob" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+    <pulseSphereGeometry path="Objects/VFX/MeshEffects/radar_pulse_sphere.cgf" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+    <pulseHalfSphereGeometry path="objects/vfx/mesheffects/radar_pulse_half.cgf" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+    <pulseConeGeometry path="objects/vfx/mesheffects/radar_pulse_half.cgf" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+    <pulseMaterial path="Materials/VFX/ping/vehicle_ping_wave1.mtl" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+    <conePulseMaterial path="materials/vfx/ping/scanning_ping2.mtl" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+  </vfxPingParams>
+</RadarSystemGlobalParams.RadarSystemGlobalParams>

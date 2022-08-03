@@ -1,0 +1,833 @@
+<CommunicationConfig.Player name="Player" __type="CommunicationConfig" __ref="016b698e-ceb9-4547-ba71-3bdaf3892b98" __path="libs/foundry/records/communicationconfig/communicationconfig.player.xml">
+  <communications>
+    <CommunicationEntry name="a66de91d-8945-44df-8a93-f689746fe614" method="RandomSequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="wildlines" animationFragmentTags="Morrow+greetings+good" soundName="" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="39dafe03-fc5b-4731-844c-dab5c63dfdb1" method="RandomSequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C06S04_PLAYER_QuickTurnaround_ApproachWill_Encouraged_V_WP_D1_001_WellItMight" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="d5fc3da2-d709-4b9a-9bb7-0240792f84be" method="RandomSequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C06S04_PLAYER_QuickTurnaround_ApproachWill_Encouraged_V_WP_D2_001_WellItsStill" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="23914d67-9ee4-467a-96c3-e0f178f25aad" method="RandomSequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C06S04_PLAYER_QuickTurnaround_ApproachWill_Encouraged_V_WP_D1_002_DrillUntilIt" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="fc3b52d0-22f7-4361-ad7c-9eb648b9c150" method="RandomSequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C06S06A_PLAYER_QuickTurnaround_BriefingRoomConvo_V_WP_S1_D1_001_ItsBeenGood" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="28bdfc35-7e39-4e45-b6c8-805dc50c7117" method="RandomSequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C06S06A_PLAYER_QuickTurnaround_BriefingRoomConvo_V_WP_S1_D2_SUBSTART_001_ImGettingUsed" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="c1991583-4791-46cc-83a6-fbe97e4a3fcc" method="RandomSequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C06S06A_PLAYER_QuickTurnaround_BriefingRoomConvo_V_WP_S2_D1_001_YesSirI" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="bebad494-e7e0-479c-992f-315c079451ba" method="RandomSequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C06S06A_PLAYER_QuickTurnaround_BriefingRoomConvo_V_WP_S2_D2_001_IDoNot" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="84165928-7404-4ce5-9697-9a76035ec3d0" method="RandomSequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C06S06A_PLAYER_QuickTurnaround_BriefingRoomConvo_V_WP_S3_D1_001_ThankYouSir" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="0724b9e1-c899-4641-b96b-2390be1368c7" method="RandomSequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C06S06A_PLAYER_QuickTurnaround_BriefingRoomConvo_V_WP_S3_D2_001_SirHaveYou" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="3b4e112b-f38a-4336-8574-98a2f0a7d036" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C06S06_PLAYER_QuickTurnaround_TheMissionAtHand_C_FP_002_TheMissingStarfarer" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="83b05376-a274-4d1a-9da8-037bba0a48a4" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C06S03D_PLAYER_NeuerConvo_FireFight_V_WP_START_002_WhatAboutIt" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="4fc79357-09b1-4289-a1e5-e2b9e6b4c2a5" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C06S03D_PLAYER_NeuerConvo_FireFight_V_WP_D1_IV_001_SuperFun" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="33f81304-bca9-4fa8-b8ea-604ec56bdd09" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C06S03D_PLAYER_NeuerConvo_FireFight_V_WP_D1_001_UhThereIsnt" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="1e3b59f3-9332-4afd-aeea-f986d93f077b" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C06S03D_PLAYER_NeuerConvo_FireFight_V_WP_D1_002_YourHeartPounds" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="65710858-9459-44ad-b850-a6cfba9800fd" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C06S03D_PLAYER_NeuerConvo_FireFight_V_WP_D1_003_ItsAlmostAddictive" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="f9194aa6-93a0-4afb-a968-8e95def19721" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C06S03D_PLAYER_NeuerConvo_FireFight_V_WP_D1_005_WellGoodLuck" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="c1b81047-687c-4b78-910d-8814f75afd06" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C06S03D_PLAYER_NeuerConvo_FireFight_V_WP_D2_IV_001_JustPartOf" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="135aea12-2654-467e-9461-f78d37d7ccf5" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C06S03D_PLAYER_NeuerConvo_FireFight_V_WP_D2_001_IJustTry" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="2a57a7a5-68be-409f-a56e-29651be47ae8" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C06S03D_PLAYER_NeuerConvo_FireFight_V_WP_D2_003_ImStartingTo" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="d3eb5abd-6081-44e8-a477-26a7ee3e43d9" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C07S01_PLAYER_ClearTheCoil_V_WP_Scans_001_SeemsToBe" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="c5d52891-b9d9-40e8-a9ec-d05ad65694da" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C07S02_PLAYER_BellaDonnaSalvage_V_WP_D1_IV_001_TheyAreInterfering" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="26de38be-1c27-4310-9bf5-b34c3fc1bd70" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C07S02_PLAYER_BellaDonnaSalvage_V_WP_D1_001_ButThatsWhat" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="4e0e137e-288e-436d-8d7b-8877f72a3ec7" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C07S02_PLAYER_BellaDonnaSalvage_V_WP_D2_IV_001_FocusOnThe" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="dd25755a-6821-46b5-be3c-aeeb4280f104" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C07S02_PLAYER_BellaDonnaSalvage_V_WP_D2_001_WereJustLooking" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="31ead344-b919-4e27-a27f-bddda5c7083e" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C07S04DA_PLAYER_HandcuffsCut_V_WP_D1_IV_001_GiveHerMeds" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="db55f725-06d0-4f66-9937-4c6a9654e8b3" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C07S04DA_PLAYER_HandcuffsCut_V_WP_D1_001_SureHere" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="4cd0e63f-53b6-4e56-8b6d-c19df8ae5222" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C07S04DA_PLAYER_HandcuffsCut_V_WP_D2_IV_001_SayNo" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="5e1e4b2d-5d9c-47da-9f78-68033a74d36a" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C07S04DA_PLAYER_HandcuffsCut_V_WP_D2_001_UhSorry" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="048b7551-421c-4a9a-8c59-e3342b094149" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C07S04G_PLAYER_ReallyApologize_V_WP_D1_IV_001_LightenTheMood" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="608e0057-673d-48b2-b964-1f84600e1add" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C07S04G_PLAYER_ReallyApologize_V_WP_D1_001_ImSureIts" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="51b40a0e-ecd6-4d2a-a765-68189ae0ee16" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C07S04G_PLAYER_ReallyApologize_V_WP_D1_003_WillDo" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="3eba5865-cf65-41e2-bd17-571baab5fb5a" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C07S04G_PLAYER_ReallyApologize_V_WP_D2_IV_001_JustDoingMy" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="0cd92c2b-f9e8-4b24-8ce8-121f93d99eac" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C07S04G_PLAYER_ReallyApologize_V_WP_D2_001_ItsPartOf" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="f8bcbe1e-9db0-4beb-95fc-6e9bee5328ff" method="RandomSequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C07S04A_PLAYER_FoundDatapad_V_WP_001_FoundADatapad" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="f21de13b-46ed-438f-bcc6-b07a6af87f20" method="RandomSequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C07S04A_PLAYER_FoundDatapad_V_WP_003_LetMeCheck" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="911f48f6-52d0-470f-8582-3c46f9d86470" method="RandomSequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C07S04A_PLAYER_PowerOnDatapad_V_WP_001_P1_YeahGotSomething" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="9c878a13-105d-4f8e-a7a7-f871dcb3fd44" method="RandomSequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C07S04A_PLAYER_PowerOnDatapad_V_WP_001_P2_SendingItNow" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="3d7155d8-b72e-4bac-bad0-a20f72a7c276" method="RandomSequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C07S04A_PLAYER_ApproachDeadAvenger_V_WP_001_NobodyHereShip" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="175fab68-30bf-4781-b32f-fc2edca250d5" method="RandomSequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C07S04A_PLAYER_NoticeWeaponFireSigns_V_WP_001_TheresSignOf" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="8202a6cb-2225-4f8a-a9d3-efcdf883b1f5" method="RandomSequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C07S04A_PLAYER_NoticeWeaponFireSigns_V_WP_003_NoNotYet" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="070f3b70-c107-4dcd-b8a8-4ded5882ce11" method="RandomSequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C07S04A_PLAYER_TriesToStart_V_WP_001_TheAvionicsAre" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="21c2c8c4-0446-4589-a515-c5069c7088da" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C07S04A_PLAYER_ApproachSurface_V_WP_002_Understood" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="ea6226b0-ab46-400a-985d-35bd47ddf5d2" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C07S04A_PLAYER_LandingChoiceAppears_V_WP_002_ClearSir" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="35441b8a-c669-4a0d-aa8b-ea197dbe84d9" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C07S04H_PLAYER_BackToTheirShip_V_WP_002_MaybeItNever" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="c11addc7-ad19-4b82-b960-a12287d467ae" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C07S04E_PLAYER_DisablesAllCommRelays_V_WP_001_ColtonIDisabled" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="86335702-a4fa-48fc-868a-02ece14b0831" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C07S04E_PLAYER_SlaverShipsApproach_V_WP_FFSet_001_ItsTakenCare" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="94b6b604-f944-4bcb-ab57-c7af0a5d2de8" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C07S04E_PLAYER_DisableAA_V_WP_1st_001_ColtonTheAA" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="84a68c4f-1155-4e56-a5d5-49bc335899c8" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C07S04E_PLAYER_DisableAA_V_WP_Additional_001_AnotherAAOffline" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="84d80d36-dbd0-491d-8cd6-6cf70ba93add" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C07S04E_PLAYER_SetFF_V_WP_Fail_001_Shit" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="80cade12-7ea8-4c5b-ae16-42a3418a369a" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C07S04E_PLAYER_SetFF_V_WP_Success_001_HeyColtonWe" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="b15e79c6-7412-454d-880d-99539fc60cd6" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C04A_PLAYER_OldManConvo_Optional1_V_WP_START_001_ColtonIWas" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="37c12c49-f44c-4cec-a22f-9f32d4b67dea" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C04A_PLAYER_OldManConvo_Optional1_V_WP_Good_002_WellThatsA" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="3af53deb-5563-4ae8-ae2b-809e829f3e93" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C04A_PLAYER_OldManConvo_Optional2_V_WP_START_001_SoIHeard" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="678c2878-1bb0-4f2b-84dd-662a9df05800" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1C04A_PLAYER_OldManConvo_Optional2_V_WP_Bad_002_Ah" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="615f663d-d882-4c02-b19b-3e20908ae9f2" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1_PLAYER_OldManConvo_Optional3_V_WP_START_001_OutOfCuriosity" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="cd5f88c1-e5c3-4d95-b428-f52f760d7379" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1_PLAYER_OldManConvo_Optional3_V_WP_Good_002_GotIt" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="3dcc2463-3053-428a-a1d7-38bfcb67a787" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1_PLAYER_OldManConvo_Optional3_V_WP_NeutralBad_002_Clear" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="1890a4ce-ec31-4451-8dc7-335dc430e343" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1_PLAYER_OldManConvo_Optional4_V_WP_START_001_ColtonWheredYou" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="d140e352-7b08-4c57-ab5f-c2b1cd3a73e5" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1_PLAYER_OldManConvo_Optional4_V_WP_GoodNeutralBad_002_ShesACorvette" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="d93325e4-8d0d-47fe-ade3-8d5f37641876" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1_PLAYER_OldManConvo_Optional4_V_WP_GoodNeutralBad_004_SoWhyDid" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="6381a92a-43cb-4de1-aed7-ce2383a45ff1" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1_PLAYER_OldManConvo_Optional5_V_WP_START_001_SoYouGot" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="99134f57-3470-409f-ad64-9eb5d64cf0f4" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1_PLAYER_OldManConvo_Optional5_V_WP_Good_002_YouSeeThem" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="785c2494-df85-46f8-8fe6-10ef0c51f194" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1_PLAYER_OldManConvo_Optional5_V_WP_Neutral_002_WhatNoThat" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="39830b9b-17e5-4cbd-8b61-cf3c522c6c4a" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1_PLAYER_OldManConvo_Optional6_V_WP_START_001_SoColtonHow" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="f90e21b0-a80b-41f0-b49f-1ea1ff78873c" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1_PLAYER_OldManConvo_Optional6_V_WP_Good_002_WellTheresGot" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="8721445b-b92a-4a9b-aa58-fcd691eaea44" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1_PLAYER_OldManConvo_Optional7_V_WP_START_001_WhatMadeYou" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="33949d29-a3cd-4876-b84d-a6265ef0b244" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1_PLAYER_OldManConvo_Optional7_V_WP_Good_002_YouDidntWant" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+    <CommunicationEntry name="22a73653-9518-43c5-b1aa-36a757ec9ec5" method="Sequence" forceAnimation="0" __type="CommunicationEntry">
+      <variations>
+        <CommunicationVariation animationFragmentId="" animationFragmentTags="" soundName="Play_E1_PLAYER_OldManConvo_Optional8_V_WP_START_001_ColtonII" overrideMinSilence="-1" overrideMinSpeakerSilence="-1" dialogueContext="00000000-0000-0000-0000-000000000000" dialogueExternalSource="00000000-0000-0000-0000-000000000000" __type="CommunicationVariation">
+          <rules timeout="0" lookAtTarget="0" finishAnimation="1" finishSound="1" finishVoice="1" finishTimeout="1" blockMovement="0" blockFire="0" __type="CommunicationVariationRules" />
+          <conditions expression="" __type="CommunicationVariationCondition">
+            <conditionTags __type="TagsDNF">
+              <terms />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+    </CommunicationEntry>
+  </communications>
+  <subConfigs />
+</CommunicationConfig.Player>

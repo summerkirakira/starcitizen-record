@@ -1,0 +1,38 @@
+<EntityClassDefinition.CrusaderSecurity Category="Default" Icon="Default.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="52e2ba2f-22d5-4063-aa59-6f0ea5eda78d" __path="libs/foundry/records/organization/crusadersecurity.xml">
+  <tags />
+  <StaticEntityClassData>
+    <SOrganizationProperties Name="CrusaderSecurity" DisplayName="@CrusaderSecurity_RepUI_Name" Description="@CrusaderSecurity_RepUI_Description" Headquarters="@CrusaderSecurity_RepUI_Headquarters" Logo="UI/mobiGlas/assets/PNG/Reputation/rep_ui_icon_logo_crusadersec.tif" MemberCount="17982" __type="EntityClassStaticDataParams" __polymorphicType="SOrganizationProperties">
+      <Allies>
+        <LocID value="@CrusaderSecurity_Allies" />
+      </Allies>
+      <Enemies>
+        <LocID value="@CrusaderSecurity_Rivals" />
+      </Enemies>
+      <propertiesBB>
+        <SReputationContextBBPropertyParams name="entityFounded" __type="SReputationContextBBPropertyParams">
+          <dynamicProperty>
+            <SBBDynamicPropertyLocString value="@CrusaderSecurity_RepUI_Founded" __type="SBBDynamicPropertyBase" __polymorphicType="SBBDynamicPropertyLocString" />
+          </dynamicProperty>
+        </SReputationContextBBPropertyParams>
+        <SReputationContextBBPropertyParams name="entityLeadership" __type="SReputationContextBBPropertyParams">
+          <dynamicProperty>
+            <SBBDynamicPropertyLocString value="@CrusaderSecurity_RepUI_Leadership" __type="SBBDynamicPropertyBase" __polymorphicType="SBBDynamicPropertyLocString" />
+          </dynamicProperty>
+        </SReputationContextBBPropertyParams>
+        <SReputationContextBBPropertyParams name="entityArea" __type="SReputationContextBBPropertyParams">
+          <dynamicProperty>
+            <SBBDynamicPropertyLocString value="@CrusaderSecurity_RepUI_Area" __type="SBBDynamicPropertyBase" __polymorphicType="SBBDynamicPropertyLocString" />
+          </dynamicProperty>
+        </SReputationContextBBPropertyParams>
+        <SReputationContextBBPropertyParams name="entityFocus" __type="SReputationContextBBPropertyParams">
+          <dynamicProperty>
+            <SBBDynamicPropertyLocString value="@CrusaderSecurity_RepUI_Focus" __type="SBBDynamicPropertyBase" __polymorphicType="SBBDynamicPropertyLocString" />
+          </dynamicProperty>
+        </SReputationContextBBPropertyParams>
+      </propertiesBB>
+    </SOrganizationProperties>
+    <SUniqueEntityClass fixed_geid="199998000061" is_exportable="0" __type="EntityClassStaticDataParams" __polymorphicType="SUniqueEntityClass" />
+    <SReputationContextPropertiesUI context="7d213bd9-b7dd-4bdc-b24c-a3d618ba9e54" __type="EntityClassStaticDataParams" __polymorphicType="SReputationContextPropertiesUI" />
+  </StaticEntityClassData>
+  <Components />
+</EntityClassDefinition.CrusaderSecurity>

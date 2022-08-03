@@ -1,0 +1,35 @@
+<MissionLocationTemplate.Inhabited_Derelict __type="MissionLocationTemplate" __ref="2c2c628b-6c0d-4df2-9b7d-829bd843febe" __path="libs/foundry/records/missiondata/pu_locations/templates/derelicts/inhabited_derelicts/inhabited_derelict.xml">
+  <locationData __type="MissionLocationData">
+    <generalTags __type="MissionLocationTags">
+      <tags>
+        <Reference value="19b465cf-ba03-4706-8fec-3b356726eb03" />
+        <Reference value="c70dbe51-3d1e-47b7-9795-290d3eba1728" />
+        <Reference value="49b648ae-7f30-40d5-82e2-48bc15862475" />
+        <Reference value="72609231-b9fe-4149-a82b-b5fb63fc7d05" />
+      </tags>
+    </generalTags>
+    <producesTags __type="TagSearchTerm">
+      <positiveTags />
+      <negativeTags />
+    </producesTags>
+    <consumesTags __type="TagSearchTerm">
+      <positiveTags />
+      <negativeTags />
+    </consumesTags>
+    <aiSpawnTags __type="TagList">
+      <tags />
+    </aiSpawnTags>
+    <stringVariants __type="MissionStringVariants">
+      <variants>
+        <MissionStringVariant tag="0130de18-97e2-4d4c-9bb1-3e7ef5fd0490" string="@generic_locations_blank" __type="MissionStringVariant" />
+      </variants>
+    </stringVariants>
+    <missionModules>
+      <SMissionLocationModule missionModule="Libs/Subsumption/Missions/PU/PU_MissionModules/LocationManager/Delivery/DeliveryItemPort_Manager.xml" __type="SMissionLocationModule">
+        <missionInputs />
+      </SMissionLocationModule>
+    </missionModules>
+    <missionLimits />
+    <autoSpawnSettings />
+  </locationData>
+</MissionLocationTemplate.Inhabited_Derelict>

@@ -1,0 +1,7 @@
+<HarvestablePreset.Mining_Felsic entityClass="06aec6f9-e6c9-40f0-be9d-8acaa2d2a4a6" respawnInSlotTime="3600" specialHarvestableString="" __type="HarvestablePreset" __ref="b81b872d-c943-455c-8638-bf6c1bcc25cf" __path="libs/foundry/records/harvestable/harvestablepresets/mining_felsic.xml">
+  <transformParams minScale="0.7" maxScale="1" terrainNormalAlignment="1" minZOffset="0.1" maxZOffset="0.25" minSlope="0" maxSlope="90" minElevation="-10000" maxElevation="10000" __type="HarvestableTransformParams">
+    <rotationRange x="0" y="0" z="360" __type="Vec3" />
+  </transformParams>
+  <subConfigBase>
+  </subConfigBase>
+</HarvestablePreset.Mining_Felsic>

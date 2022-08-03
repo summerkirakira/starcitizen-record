@@ -1,0 +1,117 @@
+<EntityClassDefinition.m_cds_light_jetpack_01 Category="Default" Icon="" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="f66a70d5-a484-4b01-b4e0-24b90c4c86f5" __path="libs/foundry/records/entities/scitem/suit/thrusterpack/cds/entityclassdefinition.m_cds_light_jetpack_01.xml">
+  <tags />
+  <StaticEntityClassData />
+  <Components>
+    <SAttachableComponentParams attachToTileItemPort="NoConnection" __type="DataForgeComponentParams" __polymorphicType="SAttachableComponentParams">
+      <AttachDef Type="Suit" SubType="ThrusterPack" Size="1" Grade="1" Manufacturer="8a7bd715-5b97-404f-b02e-0d0cc593f608" inheritParentManufacturer="0" Tags="Marine_Light Male" RequiredTags="" DisplayType="" __type="SItemDefinition">
+        <Localization Name="@item_NameRSI_DefaultJetPack" ShortName="@LOC_EMPTY" Description="@item_DescRSI_DefaultJetPack" __type="SCItemLocalization">
+          <displayFeatures LogoSimplifiedWhite="" FrontendBackground="" History="@LOC_EMPTY" Callout1="@LOC_EMPTY" Callout2="@LOC_EMPTY" Callout3="@LOC_EMPTY" UIPriority="0" __type="SCExtendedLocalizationLevelParams">
+            <locationAudioPlayTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+            <locationAudioStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </displayFeatures>
+        </Localization>
+        <mannequinTags mannequinClassTag="" mannequinTypeTag="" mannequinBaseTag="" __type="SCItemMannequinTags" />
+        <inventoryOccupancyVolume>
+          <SMicroCargoUnit microSCU="1" __type="SBaseCargoUnit" __polymorphicType="SMicroCargoUnit" />
+        </inventoryOccupancyVolume>
+        <inventoryOccupancyDimensions x="0.15" y="0.15" z="0.15" __type="Vec3" />
+        <inventoryOccupancyDimensionsUIOverride>
+        </inventoryOccupancyDimensionsUIOverride>
+      </AttachDef>
+      <entityAttachParams>
+      </entityAttachParams>
+    </SAttachableComponentParams>
+    <SCItemSuitThrusterPackParams MaxLinearVelocity="6" LinearAccelerationDecay="1000" AngularAccelerationDecay="10" BoostScale="5" VFXThrusterThreshold="0.1" SFXThrusterAngularThreshold="0.1" SFXThrusterLinearThreshold="0.01" __type="DataForgeComponentParams" __polymorphicType="SCItemSuitThrusterPackParams">
+      <MaxAngularVelocity x="90" y="90" z="90" __type="Vec3" />
+      <MaxLinearAccelerationPositive x="3.5" y="3.5" z="3.5" __type="Vec3" />
+      <MaxLinearAccelerationNegative x="-3.5" y="-3.5" z="-3.5" __type="Vec3" />
+      <MaxAngularAccelerationPositive x="435" y="520" z="145" __type="Vec3" />
+      <MaxAngularAccelerationNegative x="-435" y="-520" z="-145" __type="Vec3" />
+      <StartAudioTrigger audioTrigger="Play_CGMB_Jetpack_Loop" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <StopAudioTrigger audioTrigger="Stop_CGMB_Jetpack_Loop" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <ThrusterEffect path="Gadgets\suitThrusters.suitThrusters.zeroGThruster" __type="GlobalResourceBase" __polymorphicType="GlobalResourceParticle" />
+      <Thrusters>
+        <SCItemSuitThrusterParams HelperName="thruster_front_r_upper" __type="SCItemSuitThrusterParams">
+          <ActivationInputs />
+        </SCItemSuitThrusterParams>
+        <SCItemSuitThrusterParams HelperName="thruster_front_l_upper" __type="SCItemSuitThrusterParams">
+          <ActivationInputs />
+        </SCItemSuitThrusterParams>
+        <SCItemSuitThrusterParams HelperName="thruster_front_l_bottom" __type="SCItemSuitThrusterParams">
+          <ActivationInputs />
+        </SCItemSuitThrusterParams>
+        <SCItemSuitThrusterParams HelperName="thruster_front_r_bottom" __type="SCItemSuitThrusterParams">
+          <ActivationInputs />
+        </SCItemSuitThrusterParams>
+        <SCItemSuitThrusterParams HelperName="thruster_back_l_bottom" __type="SCItemSuitThrusterParams">
+          <ActivationInputs />
+        </SCItemSuitThrusterParams>
+        <SCItemSuitThrusterParams HelperName="thruster_back_r_bottom" __type="SCItemSuitThrusterParams">
+          <ActivationInputs />
+        </SCItemSuitThrusterParams>
+        <SCItemSuitThrusterParams HelperName="thruster_back_r_upper" __type="SCItemSuitThrusterParams">
+          <ActivationInputs />
+        </SCItemSuitThrusterParams>
+        <SCItemSuitThrusterParams HelperName="thruster_back_l_upper" __type="SCItemSuitThrusterParams">
+          <ActivationInputs />
+        </SCItemSuitThrusterParams>
+      </Thrusters>
+    </SCItemSuitThrusterPackParams>
+    <SGeometryResourceParams cacheResources="0" rootOverridePaint="0" inheritModelTagFromHost="1" __type="DataForgeComponentParams" __polymorphicType="SGeometryResourceParams">
+      <ModelTag>
+      </ModelTag>
+      <Geometry Tags="" ScaleMultiplier="1" __type="SGeometryNodeParams">
+        <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+          <Geometry path="objects/characters/human/male_v7/armor/cds/jetpack/m_cds_light_jetpack_01.skin" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+          <Material path="Objects\Characters\Human\male_v7\armor\cds\jetpack\m_cds_light_jetpack_01_01_01.mtl" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+          <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        </Geometry>
+        <SubGeometry />
+      </Geometry>
+      <Material Tags="" __type="SMaterialNodeParams">
+        <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+        <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        <materialVariants />
+      </Material>
+    </SGeometryResourceParams>
+    <SEntityComponentEffects __type="DataForgeComponentParams" __polymorphicType="SEntityComponentEffects">
+      <entityEffects __type="SEntitityEffectSystem_SystemBase" __polymorphicType="SEntitityEffectSystem_System">
+        <particleEffects>
+          <SEntityEffectSystem_ParticleCategory enabled="1" allowMultipleTags="1" __type="SEntityEffectSystem_Category" __polymorphicType="SEntityEffectSystem_ParticleCategory">
+            <tagEffects />
+            <triggerEffects />
+          </SEntityEffectSystem_ParticleCategory>
+        </particleEffects>
+        <materialEffects>
+        </materialEffects>
+        <soundEffects>
+        </soundEffects>
+        <audioEnvironmentEffects>
+        </audioEnvironmentEffects>
+        <lightEffects>
+        </lightEffects>
+        <uiOwnerEffects>
+        </uiOwnerEffects>
+        <sequencerTags />
+      </entityEffects>
+      <staticValues />
+      <staticColors />
+      <tagsToEnableOnLoad />
+      <triggersToEnableOnLoad />
+    </SEntityComponentEffects>
+    <SEntityPhysicsControllerParams __type="DataForgeComponentParams" __polymorphicType="SEntityPhysicsControllerParams">
+      <PhysType>
+        <SEntityDummyPhysicsControllerParams Mass="2" BlocksNavigation="0" __type="SEntityBasePhysicsControllerParams" __polymorphicType="SEntityDummyPhysicsControllerParams">
+          <breakableParams>
+          </breakableParams>
+          <gameCollisionClass>
+          </gameCollisionClass>
+        </SEntityDummyPhysicsControllerParams>
+      </PhysType>
+    </SEntityPhysicsControllerParams>
+    <ItemControlComponentParams turnedOnByDefault="0" __type="DataForgeComponentParams" __polymorphicType="ItemControlComponentParams">
+      <throttleParams>
+      </throttleParams>
+    </ItemControlComponentParams>
+  </Components>
+</EntityClassDefinition.m_cds_light_jetpack_01>

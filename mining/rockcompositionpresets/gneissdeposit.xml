@@ -1,0 +1,10 @@
+<MineableComposition.GneissDeposit depositName="@hud_mining_rock_name_5" minimumDistinctElements="3" __type="MineableComposition" __ref="89a4a9b0-d845-4cfe-a7b0-1baaf9b0fe2e" __path="libs/foundry/records/mining/rockcompositionpresets/gneissdeposit.xml">
+  <compositionArray>
+    <MineableCompositionPart mineableElement="3776294d-5689-41f2-b03d-e8fcd17ede6a" minPercentage="3" maxPercentage="65" probability="0.5" curveExponent="2" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="8f6a7e06-934d-4339-a0a2-75420b81369a" minPercentage="2" maxPercentage="40" probability="0.5" curveExponent="2" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="cad02f99-292c-4ee4-93cc-a73868f11ddb" minPercentage="2" maxPercentage="20" probability="0.5" curveExponent="2" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="efb89e24-486d-4eee-ab5c-85b90a3bdad1" minPercentage="1" maxPercentage="20" probability="0.25" curveExponent="2" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="d61d6c33-e428-4014-9326-0b06034de16a" minPercentage="2" maxPercentage="30" probability="0.25" curveExponent="5" __type="MineableCompositionPart" />
+    <MineableCompositionPart mineableElement="8893c670-f9f7-48df-a05b-e85764994256" minPercentage="1" maxPercentage="30" probability="0.2" curveExponent="6" __type="MineableCompositionPart" />
+  </compositionArray>
+</MineableComposition.GneissDeposit>

@@ -1,0 +1,667 @@
+<ActorStatusGlobalParams.GlobalActorStatusParams medicalItemTierConfig="c3d42fe9-1cf2-4eb0-8d9b-f4425d76efe6" drugConsumableType="518c62f1-4605-466d-a85c-957822317e43" overdoseRevivalConsumableSubType="4e45d0b2-3e49-4d85-ba40-29ddcd6e310b" __type="ActorStatusGlobalParams" __ref="412a3dc8-b655-4c77-9aff-a81d23a38fc6" __path="libs/foundry/records/actorstatuscomponent/globalactorstatusparams.xml">
+  <actorStatusEffects>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="Multiplier" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="Multiplier" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+        <ActorStatusStatModifier affectedStatType="BloodDrugLevel" __type="ActorStatusStatModifier" />
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MinValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="Additive" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+        <ActorStatusStatModifier affectedStatType="DownedDamage" __type="ActorStatusStatModifier" />
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="Multiplier" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <DiminishingReturnsStatusEffectApplicationType valueType="DiminishingReturns" scalar="1.5" __type="BasicStatusEffectApplicationType" __polymorphicType="DiminishingReturnsStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+        <ActorStatusStatModifier affectedStatType="HealthPool" __type="ActorStatusStatModifier" />
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="Multiplier" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+        <ActorStatusStatModifier affectedStatType="Hunger" __type="ActorStatusStatModifier" />
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="Multiplier" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="Multiplier" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="Multiplier" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="Multiplier" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="Multiplier" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="Multiplier" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="Multiplier" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="Multiplier" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="Multiplier" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="Multiplier" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MinValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MinValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="Multiplier" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="Multiplier" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+        <ActorStatusStatModifier affectedStatType="Stun" __type="ActorStatusStatModifier" />
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="Multiplier" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+        <ActorStatusStatModifier affectedStatType="Thirst" __type="ActorStatusStatModifier" />
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="Multiplier" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="MaxValue" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+    <ActorStatusEffect __type="ActorStatusEffect">
+      <statusEffectValueType>
+        <BasicStatusEffectApplicationType valueType="Multiplier" __type="BasicStatusEffectApplicationType" />
+      </statusEffectValueType>
+      <affectedStat>
+      </affectedStat>
+    </ActorStatusEffect>
+  </actorStatusEffects>
+  <actorStatusBuffs>
+    <ActorStatusBuff statusEffectType="StaminaCost" buffValue="0.95" buffDuration="600" buffDurationCap="3600" __type="ActorStatusBuff">
+      <buffApplication>
+        <ApplyStatusBuff __type="StatusBuffTypeBase" __polymorphicType="ApplyStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="StaminaCost" buffValue="1.05" buffDuration="300" buffDurationCap="1800" __type="ActorStatusBuff">
+      <buffApplication>
+        <ApplyStatusBuff __type="StatusBuffTypeBase" __polymorphicType="ApplyStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="StaminaRegen" buffValue="1.05" buffDuration="600" buffDurationCap="3600" __type="ActorStatusBuff">
+      <buffApplication>
+        <ApplyStatusBuff __type="StatusBuffTypeBase" __polymorphicType="ApplyStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="StaminaRegen" buffValue="0.95" buffDuration="300" buffDurationCap="1800" __type="ActorStatusBuff">
+      <buffApplication>
+        <ApplyStatusBuff __type="StatusBuffTypeBase" __polymorphicType="ApplyStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="WeaponSway" buffValue="0.75" buffDuration="600" buffDurationCap="3600" __type="ActorStatusBuff">
+      <buffApplication>
+        <ApplyStatusBuff __type="StatusBuffTypeBase" __polymorphicType="ApplyStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="WeaponSway" buffValue="1.25" buffDuration="300" buffDurationCap="1800" __type="ActorStatusBuff">
+      <buffApplication>
+        <ApplyStatusBuff __type="StatusBuffTypeBase" __polymorphicType="ApplyStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="HungerDecay" buffValue="0.9" buffDuration="600" buffDurationCap="3600" __type="ActorStatusBuff">
+      <buffApplication>
+        <ApplyStatusBuff __type="StatusBuffTypeBase" __polymorphicType="ApplyStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="HungerDecay" buffValue="1.1" buffDuration="300" buffDurationCap="1800" __type="ActorStatusBuff">
+      <buffApplication>
+        <ApplyStatusBuff __type="StatusBuffTypeBase" __polymorphicType="ApplyStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="ThirstDecay" buffValue="0.9" buffDuration="600" buffDurationCap="3600" __type="ActorStatusBuff">
+      <buffApplication>
+        <ApplyStatusBuff __type="StatusBuffTypeBase" __polymorphicType="ApplyStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="ThirstDecay" buffValue="1.1" buffDuration="300" buffDurationCap="1800" __type="ActorStatusBuff">
+      <buffApplication>
+        <ApplyStatusBuff __type="StatusBuffTypeBase" __polymorphicType="ApplyStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="HealthPool" buffValue="0" buffDuration="0" buffDurationCap="-1" __type="ActorStatusBuff">
+      <buffApplication>
+        <ApplyStatusBuff __type="StatusBuffTypeBase" __polymorphicType="ApplyStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="HealthPool" buffValue="0" buffDuration="0" buffDurationCap="-1" __type="ActorStatusBuff">
+      <buffApplication>
+        <ApplyStatusBuff __type="StatusBuffTypeBase" __polymorphicType="ApplyStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="HealthPool" buffValue="0" buffDuration="0" buffDurationCap="-1" __type="ActorStatusBuff">
+      <buffApplication>
+        <ApplyStatusBuff __type="StatusBuffTypeBase" __polymorphicType="ApplyStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="HealthPool" buffValue="0" buffDuration="0" buffDurationCap="-1" __type="ActorStatusBuff">
+      <buffApplication>
+        <ApplyStatusBuff __type="StatusBuffTypeBase" __polymorphicType="ApplyStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="MoveSpeed" buffValue="0.5" buffDuration="1" buffDurationCap="-1" __type="ActorStatusBuff">
+      <buffApplication>
+        <ApplyStatusBuff __type="StatusBuffTypeBase" __polymorphicType="ApplyStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="PassOutGForce" buffValue="0.5" buffDuration="10" buffDurationCap="10" __type="ActorStatusBuff">
+      <buffApplication>
+        <ApplyStatusBuff __type="StatusBuffTypeBase" __polymorphicType="ApplyStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="PassOutOverdosed" buffValue="1" buffDuration="1" buffDurationCap="-1" __type="ActorStatusBuff">
+      <buffApplication>
+        <MaskStatusBuff __type="StatusBuffTypeBase" __polymorphicType="MaskStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="BloodDrugLevelDecay" buffValue="3" buffDuration="1" buffDurationCap="-1" __type="ActorStatusBuff">
+      <buffApplication>
+        <ApplyStatusBuff __type="StatusBuffTypeBase" __polymorphicType="ApplyStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="StatusDamageMultiplier" buffValue="0" buffDuration="0" buffDurationCap="-1" __type="ActorStatusBuff">
+      <buffApplication>
+        <ApplyStatusBuff __type="StatusBuffTypeBase" __polymorphicType="ApplyStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="ExternalDamageMultiplier" buffValue="0" buffDuration="2" buffDurationCap="-1" __type="ActorStatusBuff">
+      <buffApplication>
+        <ApplyStatusBuff __type="StatusBuffTypeBase" __polymorphicType="ApplyStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="DrugDuration" buffValue="0.3333333" buffDuration="1" buffDurationCap="-1" __type="ActorStatusBuff">
+      <buffApplication>
+        <ApplyStatusBuff __type="StatusBuffTypeBase" __polymorphicType="ApplyStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="HealthPool" buffValue="1" buffDuration="1" buffDurationCap="-1" __type="ActorStatusBuff">
+      <buffApplication>
+        <MaskStatusBuff __type="StatusBuffTypeBase" __polymorphicType="MaskStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="HurtLocomotion" buffValue="1" buffDuration="1" buffDurationCap="-1" __type="ActorStatusBuff">
+      <buffApplication>
+        <MaskStatusBuff __type="StatusBuffTypeBase" __polymorphicType="MaskStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="StunDecay" buffValue="1" buffDuration="1" buffDurationCap="-1" __type="ActorStatusBuff">
+      <buffApplication>
+        <MaskStatusBuff __type="StatusBuffTypeBase" __polymorphicType="MaskStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="ImpactResistanceKnockdown" buffValue="1" buffDuration="1" buffDurationCap="-1" __type="ActorStatusBuff">
+      <buffApplication>
+        <MaskStatusBuff __type="StatusBuffTypeBase" __polymorphicType="MaskStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="ImpactResistanceStagger" buffValue="1" buffDuration="1" buffDurationCap="-1" __type="ActorStatusBuff">
+      <buffApplication>
+        <MaskStatusBuff __type="StatusBuffTypeBase" __polymorphicType="MaskStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="ImpactResistanceTwitch" buffValue="1" buffDuration="1" buffDurationCap="-1" __type="ActorStatusBuff">
+      <buffApplication>
+        <MaskStatusBuff __type="StatusBuffTypeBase" __polymorphicType="MaskStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="ImpactResistanceFlinch" buffValue="1" buffDuration="1" buffDurationCap="-1" __type="ActorStatusBuff">
+      <buffApplication>
+        <MaskStatusBuff __type="StatusBuffTypeBase" __polymorphicType="MaskStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="StaminaRegen" buffValue="1" buffDuration="1" buffDurationCap="-1" __type="ActorStatusBuff">
+      <buffApplication>
+        <MaskStatusBuff __type="StatusBuffTypeBase" __polymorphicType="MaskStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="StaminaPool" buffValue="1" buffDuration="1" buffDurationCap="-1" __type="ActorStatusBuff">
+      <buffApplication>
+        <MaskStatusBuff __type="StatusBuffTypeBase" __polymorphicType="MaskStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="Wheezing" buffValue="1" buffDuration="1" buffDurationCap="-1" __type="ActorStatusBuff">
+      <buffApplication>
+        <MaskStatusBuff __type="StatusBuffTypeBase" __polymorphicType="MaskStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="CoughBlood" buffValue="1" buffDuration="1" buffDurationCap="-1" __type="ActorStatusBuff">
+      <buffApplication>
+        <MaskStatusBuff __type="StatusBuffTypeBase" __polymorphicType="MaskStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="MoveSpeed" buffValue="1" buffDuration="1" buffDurationCap="-1" __type="ActorStatusBuff">
+      <buffApplication>
+        <MaskStatusBuff __type="StatusBuffTypeBase" __polymorphicType="MaskStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="TraversalLock" buffValue="1" buffDuration="1" buffDurationCap="-1" __type="ActorStatusBuff">
+      <buffApplication>
+        <MaskStatusBuff __type="StatusBuffTypeBase" __polymorphicType="MaskStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="TraversalLockProne" buffValue="1" buffDuration="1" buffDurationCap="-1" __type="ActorStatusBuff">
+      <buffApplication>
+        <MaskStatusBuff __type="StatusBuffTypeBase" __polymorphicType="MaskStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="PainGrunt" buffValue="1" buffDuration="1" buffDurationCap="-1" __type="ActorStatusBuff">
+      <buffApplication>
+        <MaskStatusBuff __type="StatusBuffTypeBase" __polymorphicType="MaskStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="ArmsLock" buffValue="1" buffDuration="1" buffDurationCap="-1" __type="ActorStatusBuff">
+      <buffApplication>
+        <MaskStatusBuff __type="StatusBuffTypeBase" __polymorphicType="MaskStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="WeaponSway" buffValue="1" buffDuration="1" buffDurationCap="-1" __type="ActorStatusBuff">
+      <buffApplication>
+        <MaskStatusBuff __type="StatusBuffTypeBase" __polymorphicType="MaskStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="ADSEnter" buffValue="1" buffDuration="1" buffDurationCap="-1" __type="ActorStatusBuff">
+      <buffApplication>
+        <MaskStatusBuff __type="StatusBuffTypeBase" __polymorphicType="MaskStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+    <ActorStatusBuff statusEffectType="BloodVision" buffValue="1" buffDuration="1" buffDurationCap="-1" __type="ActorStatusBuff">
+      <buffApplication>
+        <MaskStatusBuff __type="StatusBuffTypeBase" __polymorphicType="MaskStatusBuff" />
+      </buffApplication>
+    </ActorStatusBuff>
+  </actorStatusBuffs>
+  <somaticShakeParams __type="ActorSomaticShakingParams">
+    <shiveringParams frequencyStart="8" frequencyEnd="13" amplitudeStart="0.6" amplitudeEnd="2" blendDuration="2" breathingInfluence="0.75" __type="ActorSomaticShakeParams">
+      <shudder shuddersEnabled="1" frequencyMin="1" frequencyMax="3" amplitudeMin="0.5" amplitudeMax="1.9" durationMin="4" durationMax="6" delayMin="3" delayMax="5" __type="ActorShudderConfig" />
+      <somaticShakeConfigs>
+        <ActorSomaticShakeConfig weaponOffsetCm="0.025" weaponRotationAngle="0.1" armRotationAngle="0.05" handRotationAngle="0.1" __type="ActorSomaticShakeConfig">
+          <filter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="ADS" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" __type="ActorStateFilter" />
+        </ActorSomaticShakeConfig>
+        <ActorSomaticShakeConfig weaponOffsetCm="0.05" weaponRotationAngle="0.1" armRotationAngle="0.1" handRotationAngle="-0.01" __type="ActorSomaticShakeConfig">
+          <filter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Stocked" filterBySkeleton="Any" __type="ActorStateFilter" />
+        </ActorSomaticShakeConfig>
+        <ActorSomaticShakeConfig weaponOffsetCm="0.1" weaponRotationAngle="0.1" armRotationAngle="0.1" handRotationAngle="-0.1" __type="ActorSomaticShakeConfig">
+          <filter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Shouldered" filterBySkeleton="Any" __type="ActorStateFilter" />
+        </ActorSomaticShakeConfig>
+        <ActorSomaticShakeConfig weaponOffsetCm="0.01" weaponRotationAngle="0.1" armRotationAngle="0.1" handRotationAngle="-0.3" __type="ActorSomaticShakeConfig">
+          <filter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="mobiGlas" filterBySkeleton="Any" __type="ActorStateFilter" />
+        </ActorSomaticShakeConfig>
+        <ActorSomaticShakeConfig weaponOffsetCm="0.1" weaponRotationAngle="0.1" armRotationAngle="0.1" handRotationAngle="-0.5" __type="ActorSomaticShakeConfig">
+          <filter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" __type="ActorStateFilter" />
+        </ActorSomaticShakeConfig>
+      </somaticShakeConfigs>
+    </shiveringParams>
+    <armsLockShakeParams frequencyStart="4" frequencyEnd="5.5" amplitudeStart="0.75" amplitudeEnd="1.75" blendDuration="1" breathingInfluence="0.75" __type="ActorSomaticShakeParams">
+      <shudder shuddersEnabled="1" frequencyMin="1" frequencyMax="3" amplitudeMin="0.5" amplitudeMax="1.9" durationMin="4" durationMax="6" delayMin="3" delayMax="5" __type="ActorShudderConfig" />
+      <somaticShakeConfigs>
+        <ActorSomaticShakeConfig weaponOffsetCm="0.025" weaponRotationAngle="0.1" armRotationAngle="0.05" handRotationAngle="0.1" __type="ActorSomaticShakeConfig">
+          <filter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="ADS" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" __type="ActorStateFilter" />
+        </ActorSomaticShakeConfig>
+        <ActorSomaticShakeConfig weaponOffsetCm="0.05" weaponRotationAngle="0.1" armRotationAngle="0.1" handRotationAngle="-0.01" __type="ActorSomaticShakeConfig">
+          <filter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Stocked" filterBySkeleton="Any" __type="ActorStateFilter" />
+        </ActorSomaticShakeConfig>
+        <ActorSomaticShakeConfig weaponOffsetCm="0.1" weaponRotationAngle="0.1" armRotationAngle="0.1" handRotationAngle="-0.1" __type="ActorSomaticShakeConfig">
+          <filter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Shouldered" filterBySkeleton="Any" __type="ActorStateFilter" />
+        </ActorSomaticShakeConfig>
+        <ActorSomaticShakeConfig weaponOffsetCm="0.01" weaponRotationAngle="0.1" armRotationAngle="0.1" handRotationAngle="-0.3" __type="ActorSomaticShakeConfig">
+          <filter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="mobiGlas" filterBySkeleton="Any" __type="ActorStateFilter" />
+        </ActorSomaticShakeConfig>
+        <ActorSomaticShakeConfig weaponOffsetCm="0.1" weaponRotationAngle="0.1" armRotationAngle="0.1" handRotationAngle="-0.5" __type="ActorSomaticShakeConfig">
+          <filter filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" __type="ActorStateFilter" />
+        </ActorSomaticShakeConfig>
+      </somaticShakeConfigs>
+    </armsLockShakeParams>
+  </somaticShakeParams>
+</ActorStatusGlobalParams.GlobalActorStatusParams>

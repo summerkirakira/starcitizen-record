@@ -1,0 +1,94 @@
+<ActorGForceComponent.PlayerGForce __type="ActorGForceComponent" __ref="a046a43b-bfb7-4393-8c77-de7dbd2461a5" __path="libs/foundry/records/actorgforcecomponent/actorgforcecomponent.playergforce.xml">
+  <gForceParams>
+    <GForceParams tolerance="4" maxGees="5" safeGStress="0.7" stressMaxoutTime="8" stressRecoveryTime="4.5" __type="GForceParams">
+      <stressEffects>
+        <StatusEffectBuffMacro threshold="1" __type="StatusEffectBuffMacro">
+          <buffEffects>
+            <ActorStatusAddBuff buffType="GForcePassOut" __type="ActorStatusAddBuff">
+              <durationOverride>
+                <BuffDurationOverride durationOverride="4" __type="BuffDurationOverride" />
+              </durationOverride>
+              <valueOverride>
+              </valueOverride>
+            </ActorStatusAddBuff>
+          </buffEffects>
+        </StatusEffectBuffMacro>
+      </stressEffects>
+    </GForceParams>
+    <GForceParams tolerance="7" maxGees="9" safeGStress="0.7" stressMaxoutTime="8" stressRecoveryTime="4.5" __type="GForceParams">
+      <stressEffects>
+        <StatusEffectBuffMacro threshold="1" __type="StatusEffectBuffMacro">
+          <buffEffects>
+            <ActorStatusAddBuff buffType="GForcePassOut" __type="ActorStatusAddBuff">
+              <durationOverride>
+                <BuffDurationOverride durationOverride="4" __type="BuffDurationOverride" />
+              </durationOverride>
+              <valueOverride>
+              </valueOverride>
+            </ActorStatusAddBuff>
+          </buffEffects>
+        </StatusEffectBuffMacro>
+      </stressEffects>
+    </GForceParams>
+    <GForceParams tolerance="20" maxGees="25" safeGStress="0.7" stressMaxoutTime="8" stressRecoveryTime="4.5" __type="GForceParams">
+      <stressEffects>
+        <StatusEffectBuffMacro threshold="1" __type="StatusEffectBuffMacro">
+          <buffEffects>
+            <ActorStatusAddBuff buffType="GForcePassOut" __type="ActorStatusAddBuff">
+              <durationOverride>
+                <BuffDurationOverride durationOverride="4" __type="BuffDurationOverride" />
+              </durationOverride>
+              <valueOverride>
+              </valueOverride>
+            </ActorStatusAddBuff>
+          </buffEffects>
+        </StatusEffectBuffMacro>
+      </stressEffects>
+    </GForceParams>
+    <GForceParams tolerance="20" maxGees="25" safeGStress="0.7" stressMaxoutTime="8" stressRecoveryTime="4.5" __type="GForceParams">
+      <stressEffects>
+        <StatusEffectBuffMacro threshold="1" __type="StatusEffectBuffMacro">
+          <buffEffects>
+            <ActorStatusAddBuff buffType="GForcePassOut" __type="ActorStatusAddBuff">
+              <durationOverride>
+                <BuffDurationOverride durationOverride="4" __type="BuffDurationOverride" />
+              </durationOverride>
+              <valueOverride>
+              </valueOverride>
+            </ActorStatusAddBuff>
+          </buffEffects>
+        </StatusEffectBuffMacro>
+      </stressEffects>
+    </GForceParams>
+    <GForceParams tolerance="4" maxGees="6" safeGStress="0.7" stressMaxoutTime="8" stressRecoveryTime="4.5" __type="GForceParams">
+      <stressEffects>
+        <StatusEffectBuffMacro threshold="1" __type="StatusEffectBuffMacro">
+          <buffEffects>
+            <ActorStatusAddBuff buffType="GForcePassOut" __type="ActorStatusAddBuff">
+              <durationOverride>
+                <BuffDurationOverride durationOverride="6" __type="BuffDurationOverride" />
+              </durationOverride>
+              <valueOverride>
+              </valueOverride>
+            </ActorStatusAddBuff>
+          </buffEffects>
+        </StatusEffectBuffMacro>
+      </stressEffects>
+    </GForceParams>
+    <GForceParams tolerance="4" maxGees="6" safeGStress="0.7" stressMaxoutTime="8" stressRecoveryTime="4.5" __type="GForceParams">
+      <stressEffects>
+        <StatusEffectBuffMacro threshold="1" __type="StatusEffectBuffMacro">
+          <buffEffects>
+            <ActorStatusAddBuff buffType="GForcePassOut" __type="ActorStatusAddBuff">
+              <durationOverride>
+                <BuffDurationOverride durationOverride="6" __type="BuffDurationOverride" />
+              </durationOverride>
+              <valueOverride>
+              </valueOverride>
+            </ActorStatusAddBuff>
+          </buffEffects>
+        </StatusEffectBuffMacro>
+      </stressEffects>
+    </GForceParams>
+  </gForceParams>
+</ActorGForceComponent.PlayerGForce>

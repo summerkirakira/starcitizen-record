@@ -1,0 +1,8 @@
+<ActorViewLimitPresetDatabase.ViewLimitPresetDatabase __type="ActorViewLimitPresetDatabase" __ref="3b155933-f9a4-41f9-88c4-a10ae862cb7d" __path="libs/foundry/records/actorviewlimitpresetdatabase/viewlimitpresetdatabase.xml">
+  <presets>
+    <ActorViewLimitPreset name="Consume" __type="ActorViewLimitPreset">
+      <lookLimits minYaw="-180" maxYaw="180" minPitch="-25" maxPitch="25" __type="ActorViewLimits" />
+      <aimLimits minYaw="-180" maxYaw="180" minPitch="-25" maxPitch="25" __type="ActorViewLimits" />
+    </ActorViewLimitPreset>
+  </presets>
+</ActorViewLimitPresetDatabase.ViewLimitPresetDatabase>

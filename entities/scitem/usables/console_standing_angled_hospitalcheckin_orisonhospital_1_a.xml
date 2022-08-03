@@ -1,0 +1,318 @@
+<EntityClassDefinition.Console_Standing_Angled_HospitalCheckIn_OrisonHospital_1_a Category="Usable" Icon="Usable.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="08da77be-9269-4d12-9d18-d4e9a8eb9e2f" __path="libs/foundry/records/entities/scitem/usables/console_standing_angled_hospitalcheckin_orisonhospital_1_a.xml">
+  <tags>
+    <Reference value="d6841691-d537-4186-bc3f-e427a614353c" />
+    <Reference value="b7792907-0b11-47e2-80f6-f2fe69400bfe" />
+    <Reference value="01dd48c6-525c-4613-844a-8468df8d99f1" />
+  </tags>
+  <StaticEntityClassData />
+  <Components>
+    <SGeometryResourceParams cacheResources="0" rootOverridePaint="0" inheritModelTagFromHost="1" __type="DataForgeComponentParams" __polymorphicType="SGeometryResourceParams">
+      <ModelTag>
+      </ModelTag>
+      <Geometry Tags="" ScaleMultiplier="1" __type="SGeometryNodeParams">
+        <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+          <Geometry path="Objects/buildingsets/human/hightech/prop/interactive/console/console_info_4_a.cga" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+          <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+          <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        </Geometry>
+        <SubGeometry />
+      </Geometry>
+      <Material Tags="" __type="SMaterialNodeParams">
+        <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+        <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        <materialVariants />
+      </Material>
+    </SGeometryResourceParams>
+    <SEntityPhysicsControllerParams __type="DataForgeComponentParams" __polymorphicType="SEntityPhysicsControllerParams">
+      <PhysType>
+        <SEntityRigidPhysicsControllerParams Mass="0" maxLoggedCollisions="1" Damping="0" DampingFreefall="0.05" PushableByPlayers="1" NeverAffectTriggers="0" UseManualGridTransition="0" BlocksNavigation="1" Kinematic="0" Resting="0" physicalizeAllSlots="1" __type="SEntityBasePhysicsControllerParams" __polymorphicType="SEntityRigidPhysicsControllerParams">
+          <breakableParams>
+          </breakableParams>
+          <gameCollisionClass>
+          </gameCollisionClass>
+          <grid>
+          </grid>
+          <buoyancyParams>
+          </buoyancyParams>
+          <temperature enable="0" initialTemperature="-1" internalTemperatureGeneration="0" __type="EntityTemperature" />
+        </SEntityRigidPhysicsControllerParams>
+      </PhysType>
+    </SEntityPhysicsControllerParams>
+    <SEntityInteractableParams __type="DataForgeComponentParams" __polymorphicType="SEntityInteractableParams">
+      <Interactable __type="SInteractableParams">
+        <SharedInteractions>
+          <SSharedInteractionParams Name="UseConsole" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_use" DisplayType="Hide" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags>
+              <Reference value="00000000-0000-0000-0000-000000000000" />
+            </QueryTags>
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="ExitConsole" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_Exit" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+        </SharedInteractions>
+        <InteractionPoints>
+          <SInteractionPointParams FirstInteractionPrimary="1" UseHelperLocation="0" ShowHighlight="1" ApplyToEntireSkeleton="0" longRangeIP="0" HelperName="mesh_interaction_1" TextJustification="Middle" TextOrientation="FixedRotation" TextScale="1" Radius="1.6" MaxCursorScreenDistance="2" ShowInnerThoughtsOffScreen="0" OnlySelectableInLookDir="0" __type="SInteractionPointParams">
+            <HighlightBehaviors>
+              <SHighlightBehaviorNode __type="SHighlightBehaviorNode">
+                <HighlightBehaviorNodeParams>
+                  <SEntityHighlightNode __type="SHighlightBehaviorNodeParams" __polymorphicType="SEntityHighlightNode" />
+                </HighlightBehaviorNodeParams>
+                <nextNodes />
+              </SHighlightBehaviorNode>
+            </HighlightBehaviors>
+            <AdditionalCollisionBones />
+            <Offset __type="QuatT">
+              <Rotation x="60" y="0" z="0" __type="Ang3" />
+              <Position x="0" y="0" z="0" __type="Vec3" />
+            </Offset>
+            <AngleConstraint angleRange="90" __type="SAngleConstraint">
+              <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+            </AngleConstraint>
+            <SpherePrimitive>
+              <SInteractionPointSpherePrimitiveParams Radius="0.4" __type="SInteractionPointSpherePrimitiveParams">
+                <Center x="0" y="0" z="0" __type="Vec3" />
+              </SInteractionPointSpherePrimitiveParams>
+            </SpherePrimitive>
+            <Interactions>
+              <SInteractionParams Interaction="Interactable.SharedInteractions[0]" DisplayName="@usable_use" IsPrimary="1" __type="SInteractionParams" />
+            </Interactions>
+          </SInteractionPointParams>
+        </InteractionPoints>
+        <interactionTasks />
+        <actionHandlerTasks />
+        <itemActionTasks />
+        <menuTitle>
+        </menuTitle>
+      </Interactable>
+    </SEntityInteractableParams>
+    <SEntityComponentEffects __type="DataForgeComponentParams" __polymorphicType="SEntityComponentEffects">
+      <entityEffects __type="SEntitityEffectSystem_SystemBase" __polymorphicType="SEntitityEffectSystem_System">
+        <particleEffects>
+        </particleEffects>
+        <materialEffects>
+          <EntityEffectSystem_MaterialCategory enabled="1" allowMultipleTags="0" __type="SEntityEffectSystem_Category" __polymorphicType="EntityEffectSystem_MaterialCategory">
+            <tagEffects>
+              <EntityEffectSystem_MaterialTagEffect name="ScreenGlow" enabled="1" tag="00000000-0000-0000-0000-000000000000" __type="SEntityEffectSystem_Effect" __polymorphicType="EntityEffectSystem_MaterialTagEffect">
+                <propertyLinks>
+                  <EntityEffectSystem_MaterialPropertyLink parameterName="00000000-0000-0000-0000-000000000000" materialProperty="Glow" subMeshName="mesh_screen_1" __type="SEntityEffectSystem_PropertyLink" __polymorphicType="EntityEffectSystem_MaterialPropertyLink">
+                    <modifiers>
+                      <SEntityEffectSystem_OverrideValueModifier overrideValue="4" __type="SEntityEffectSystem_PropertyModifier" __polymorphicType="SEntityEffectSystem_OverrideValueModifier" />
+                    </modifiers>
+                  </EntityEffectSystem_MaterialPropertyLink>
+                </propertyLinks>
+              </EntityEffectSystem_MaterialTagEffect>
+            </tagEffects>
+            <triggerEffects />
+          </EntityEffectSystem_MaterialCategory>
+        </materialEffects>
+        <soundEffects>
+          <SEntityEffectSystem_SoundCategory enabled="1" allowMultipleTags="1" __type="SEntityEffectSystem_Category" __polymorphicType="SEntityEffectSystem_SoundCategory">
+            <tagEffects>
+              <SEntityEffectSystem_SoundTagEffect name="Console_Loop" enabled="1" multiPosition="0" useDefaultProxy="0" tag="00000000-0000-0000-0000-000000000000" __type="SEntityEffectSystem_Effect" __polymorphicType="SEntityEffectSystem_SoundTagEffect">
+                <soundEffect audioTrigger="Play_UI_MCCS_Console_Loop_AEGS_c" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+                <attachmentSettings>
+                  <SEntityEffectSystem_Attachment_EntitySlot offsetParameter="00000000-0000-0000-0000-000000000000" __type="SEntityEffectSystem_Attachment" __polymorphicType="SEntityEffectSystem_Attachment_EntitySlot">
+                    <offset __type="QuatT">
+                      <Rotation x="0" y="0" z="0" __type="Ang3" />
+                      <Position x="0" y="-0.1" z="1.1" __type="Vec3" />
+                    </offset>
+                  </SEntityEffectSystem_Attachment_EntitySlot>
+                </attachmentSettings>
+                <propertyLinks />
+              </SEntityEffectSystem_SoundTagEffect>
+            </tagEffects>
+            <triggerEffects />
+          </SEntityEffectSystem_SoundCategory>
+        </soundEffects>
+        <audioEnvironmentEffects>
+        </audioEnvironmentEffects>
+        <lightEffects>
+        </lightEffects>
+        <uiOwnerEffects>
+        </uiOwnerEffects>
+        <sequencerTags />
+      </entityEffects>
+      <staticValues />
+      <staticColors />
+      <tagsToEnableOnLoad />
+      <triggersToEnableOnLoad />
+    </SEntityComponentEffects>
+    <SEntityAudioControllerParams audioControllerEntityType="None" randomSeedCount="0" fullLODDistance="9000" fullToLowLODDistance="9050" offToLowLODDistance="10000" offLODDistance="10050" occlusionAttenuationScaler="0.5" __type="DataForgeComponentParams" __polymorphicType="SEntityAudioControllerParams" />
+    <SInteractionStateMachineParams __type="DataForgeComponentParams" __polymorphicType="SInteractionStateMachineParams">
+      <StateTypes>
+        <SInteractionStateType StateTypeName="States" bindingsMethod="None" DefaultState="StateTypes[0].SInteractionStateType.States[0]" networkAuthority="Server" __type="SInteractionStateType">
+          <States>
+            <SInteractionState StateName="Inactive" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions>
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[0]" NextState="null" __type="SInteractionStateTransition" />
+              </Interactions>
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="Typing" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions>
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[1]" NextState="null" __type="SInteractionStateTransition" />
+              </Interactions>
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+          </States>
+          <StateModifiers>
+            <SKioskInteractionStateModifier onKioskInteractionOpen="StateTypes[0].SInteractionStateType.States[1]" onKioskInteractionClose="StateTypes[0].SInteractionStateType.States[0]" __type="SStateModifier" __polymorphicType="SKioskInteractionStateModifier" />
+          </StateModifiers>
+        </SInteractionStateType>
+        <SInteractionStateType StateTypeName="MainScreens" bindingsMethod="States" DefaultState="StateTypes[1].SInteractionStateType.States[0]" networkAuthority="Server" __type="SInteractionStateType">
+          <States>
+            <SInteractionState StateName="Attract" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions />
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="CheckingIn" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+                <SStateAutoChange NextState="StateTypes[1].SInteractionStateType.States[2]" Delay="2" __type="SStateAutoChange" />
+              </StateAutoChange>
+              <Interactions />
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="EndCheckingIn" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions />
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="CheckedIn" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions />
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="Failed" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions />
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+          </States>
+          <StateModifiers>
+            <SKioskInteractionStateModifier onKioskInteractionOpen="StateTypes[1].SInteractionStateType.States[1]" onKioskInteractionClose="StateTypes[1].SInteractionStateType.States[0]" __type="SStateModifier" __polymorphicType="SKioskInteractionStateModifier" />
+          </StateModifiers>
+        </SInteractionStateType>
+      </StateTypes>
+    </SInteractionStateMachineParams>
+    <UIOwnerEntityComponentParams startOpen="1" areScreens3D="0" areSounds3D="0" hasActions="0" element="235bfc85-aa63-4fd5-b5d1-821fb3522a39" domainName="global" loadDistance="30" updateDistance="20" moviePath="" variantName="" invariantName="" movieAutoPlay="0" loopMovie="0" forceFlashColourCorrection="1" ignoreTrackviewUnloadRequests="0" reflectLocalStateMachine="1" reflectLinkedStateMachines="0" graph="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="UIOwnerEntityComponentParams" />
+    <UIRenderToTextureEntityComponentParams directRenderStage="None" compositeMaterialName="" hideRenderNodeOnUnload="0" aspectRatioOverride="0" interactionDistance="5" transparentListDepthBias="0" renderFlashBeforeCamera="0" fieldOfView="90" renderType="FORWARD" fallbackTextureOnOnload="" __type="DataForgeComponentParams" __polymorphicType="UIRenderToTextureEntityComponentParams">
+      <secondaryTarget>
+      </secondaryTarget>
+      <grabCameraControlParams>
+      </grabCameraControlParams>
+    </UIRenderToTextureEntityComponentParams>
+    <UIBuildingBlocksEntityComponentParams enableFullScreenMouse="0" defaultStyle="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="UIBuildingBlocksEntityComponentParams">
+      <layers>
+        <BuildingBlocksLayer layerName="01" renderTarget="All" defaultView="layers.BuildingBlocksLayer.views" __type="BuildingBlocksLayer">
+          <views>
+            <BuildingBlocksView name="01" __type="BuildingBlocksView">
+              <component canvas="6c036d54-4d67-4b3a-af80-05d123785329" __type="CtxGraph_Node" __polymorphicType="UIGraph_BuildingBlocksContextComponent" />
+            </BuildingBlocksView>
+          </views>
+        </BuildingBlocksLayer>
+      </layers>
+    </UIBuildingBlocksEntityComponentParams>
+    <KioskInteractionEntityComponentParams initialForceLookAtLerpTime="0.4" defaultForceLookAtLerpTime="0.05" forceLookAtDecayFactor="2" forceLookAtIncreaseFactor="1" forceLookAtThreshold="0.8" FOVSpeedFactor="0.5" FOVHaltDistanceMax="0.1" FOVHaltDistanceMin="0.075" FOVMax="1.3" FOVMin="0.3" lookInputFactor="0.8" inActivityTimer="60" openInteraction="Interactable.SharedInteractions[0]" __type="DataForgeComponentParams" __polymorphicType="KioskInteractionEntityComponentParams">
+      <attractTransitions>
+        <UIOwnerContextTransitionPair layerName="01" viewName="01" __type="UIOwnerContextTransitionPair" />
+      </attractTransitions>
+      <openTransitions>
+        <UIOwnerContextTransitionPair layerName="01" viewName="01" __type="UIOwnerContextTransitionPair" />
+      </openTransitions>
+      <powerOffTransitions />
+      <abilityLocks>
+        <Enum value="Crouch" />
+        <Enum value="Jump" />
+        <Enum value="Prone" />
+        <Enum value="Run" />
+        <Enum value="Sprint" />
+      </abilityLocks>
+    </KioskInteractionEntityComponentParams>
+    <UIBindingsInteractionsComponentParams interactionDistance="50" __type="DataForgeComponentParams" __polymorphicType="UIBindingsInteractionsComponentParams" />
+    <UIBindingsVendorEntityComponentParams namespace="" __type="DataForgeComponentParams" __polymorphicType="UIBindingsVendorEntityComponentParams" />
+    <UIBindingsConsumerEntityComponentParams linkToPort="0" __type="DataForgeComponentParams" __polymorphicType="UIBindingsConsumerEntityComponentParams" />
+    <UIAudioComponentEntityComponentParams UIAudioDef="ad7f1fe2-5b80-4174-a4f6-f4dbb0290741" useEntityClass="00000000-0000-0000-0000-000000000000" dialogueContext="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="UIAudioComponentEntityComponentParams">
+      <offset>
+        <UIAudioComponent_ManualOffset __type="UIAudioComponent_Offset" __polymorphicType="UIAudioComponent_ManualOffset">
+          <offset __type="QuatT">
+            <Rotation x="0" y="0" z="0" __type="Ang3" />
+            <Position x="0" y="0.1" z="1.7" __type="Vec3" />
+          </offset>
+        </UIAudioComponent_ManualOffset>
+      </offset>
+      <videoAudioPlayTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <videoAudioPauseTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+      <videoAudioResumeTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+    </UIAudioComponentEntityComponentParams>
+    <HospitalCheckinScreenComponentParams __type="DataForgeComponentParams" __polymorphicType="HospitalCheckinScreenComponentParams" />
+  </Components>
+</EntityClassDefinition.Console_Standing_Angled_HospitalCheckIn_OrisonHospital_1_a>

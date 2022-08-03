@@ -1,0 +1,27 @@
+<MissionLocationTemplate.LagrangePoint_Stanton __type="MissionLocationTemplate" __ref="9d46d9a9-b8a9-4d56-b819-f9100c609f5e" __path="libs/foundry/records/missiondata/pu_locations/templates/lagrange/lagrangepoint_stanton.xml">
+  <locationData __type="MissionLocationData">
+    <generalTags __type="MissionLocationTags">
+      <tags>
+        <Reference value="98f014c3-c9d0-4440-bed7-ff2d06068e86" />
+        <Reference value="a47673ef-8511-490d-90ea-fd171d99b626" />
+      </tags>
+    </generalTags>
+    <producesTags __type="TagSearchTerm">
+      <positiveTags />
+      <negativeTags />
+    </producesTags>
+    <consumesTags __type="TagSearchTerm">
+      <positiveTags />
+      <negativeTags />
+    </consumesTags>
+    <aiSpawnTags __type="TagList">
+      <tags />
+    </aiSpawnTags>
+    <stringVariants __type="MissionStringVariants">
+      <variants />
+    </stringVariants>
+    <missionModules />
+    <missionLimits />
+    <autoSpawnSettings />
+  </locationData>
+</MissionLocationTemplate.LagrangePoint_Stanton>

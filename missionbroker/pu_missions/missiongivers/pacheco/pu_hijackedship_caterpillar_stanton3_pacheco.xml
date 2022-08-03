@@ -1,0 +1,630 @@
+<MissionBrokerEntry.PU_HijackedShip_Caterpillar_Stanton3_Pacheco notForRelease="0" missionModule="libs/subsumption/missions/pu/pu_missions/pu_hijackedship_caterpillar.xml" title="@prisonerbreak_title" titleHUD="@LOC_UNINITIALIZED" description="@mg_pacheco_prisonerbreak_desc_002" missionGiver="@prisonerbreak_from" commsChannelName="@prisonerbreak_from" type="62f92440-202a-43d3-9cb8-b917d4e4a102" locationMissionAvailable="34ff378f-faee-47bb-b5fe-f505e665c5ca" notifyOnAvailable="1" showAsOffer="1" missionBuyInAmount="0" refundBuyInOnWithdraw="0" hasCompleteButton="0" handlesAbandonRequest="0" missionModulePerPlayer="1" maxInstances="8" maxPlayersPerInstance="1" maxInstancesPerPlayer="1" canBeShared="1" onceOnly="1" displayAlliedMarkers="1" availableInPrison="0" failIfSentToPrison="1" requestOnly="0" respawnTime="1" respawnTimeVariation="0" instanceHasLifeTime="1" showLifeTimeInMobiGlas="1" instanceLifeTime="15" instanceLifeTimeVariation="2" canReacceptAfterAbandoning="0" abandonedCooldownTime="1" abandonedCooldownTimeVariation="1" canReacceptAfterFailing="0" hasPersonalCooldown="1" personalCooldownTime="10" personalCooldownTimeVariation="0" moduleHandlesOwnShutdown="0" linkedMission="00000000-0000-0000-0000-000000000000" lawfulMission="0" missionGiverRecord="5fd52afe-490a-4b5c-9b06-e86553e5a7c8" invitationMission="75e3480a-2b5f-4cf7-9cd4-72f1cb162c31" missionGiverFragmentTags="missionbriefs+steal" __type="MissionBrokerEntry" __ref="3239ad0a-b14a-4291-b183-d3f3c3b095d8" __path="libs/foundry/records/missionbroker/pu_missions/missiongivers/pacheco/pu_hijackedship_caterpillar_stanton3_pacheco.xml">
+  <availableDateSchedule />
+  <missionReward reward="0" max="43000" plusBonuses="1" currencyType="UEC" reputationBonus="00000000-0000-0000-0000-000000000000" __type="MissionReward" />
+  <missionResultReputationRewards>
+    <SReputationAmountListParams __type="SReputationAmountListParams">
+      <reputationAmounts>
+        <SReputationAmountParams uniqueEntityClass="7c7a8c39-e475-4322-a372-d75082b61a01" reputationScope="f340b011-c40c-4229-b9c1-ce6a3eb1df77" reward="1335b737-6188-4c21-8923-98a74bcd3071" __type="SReputationAmountParams" />
+        <SReputationAmountParams uniqueEntityClass="7c7a8c39-e475-4322-a372-d75082b61a01" reputationScope="7cc02ca4-8b25-42ab-98df-942a9bfe3cca" reward="1335b737-6188-4c21-8923-98a74bcd3071" __type="SReputationAmountParams" />
+      </reputationAmounts>
+    </SReputationAmountListParams>
+    <SReputationAmountListParams __type="SReputationAmountListParams">
+      <reputationAmounts>
+        <SReputationAmountParams uniqueEntityClass="7c7a8c39-e475-4322-a372-d75082b61a01" reputationScope="f340b011-c40c-4229-b9c1-ce6a3eb1df77" reward="4ad8855c-862d-4681-bebb-99ac160cb7b0" __type="SReputationAmountParams" />
+        <SReputationAmountParams uniqueEntityClass="7c7a8c39-e475-4322-a372-d75082b61a01" reputationScope="7cc02ca4-8b25-42ab-98df-942a9bfe3cca" reward="c8df2809-5dd3-452e-9d03-12ede43fa8f4" __type="SReputationAmountParams" />
+      </reputationAmounts>
+    </SReputationAmountListParams>
+    <SReputationAmountListParams __type="SReputationAmountListParams">
+      <reputationAmounts>
+        <SReputationAmountParams uniqueEntityClass="7c7a8c39-e475-4322-a372-d75082b61a01" reputationScope="f340b011-c40c-4229-b9c1-ce6a3eb1df77" reward="c8df2809-5dd3-452e-9d03-12ede43fa8f4" __type="SReputationAmountParams" />
+        <SReputationAmountParams uniqueEntityClass="7c7a8c39-e475-4322-a372-d75082b61a01" reputationScope="7cc02ca4-8b25-42ab-98df-942a9bfe3cca" reward="c8df2809-5dd3-452e-9d03-12ede43fa8f4" __type="SReputationAmountParams" />
+      </reputationAmounts>
+    </SReputationAmountListParams>
+  </missionResultReputationRewards>
+  <journalEntriesToAddOnComplete />
+  <journalEntriesToRemoveOnComplete />
+  <completionTags __type="TagList">
+    <tags />
+  </completionTags>
+  <modifiers />
+  <missionTags />
+  <reputationPrerequisites wantedLevelJurisdictionOverride="00000000-0000-0000-0000-000000000000" __type="ReputationPrerequisites">
+    <wantedLevel minValue="0" maxValue="5" __type="ReputationPrerequisiteRange" />
+  </reputationPrerequisites>
+  <reputationRequirements>
+    <SReputationMissionRequirementsParams __type="SReputationMissionRequirementsParams">
+      <expression>
+        <SReputationMissionGiverRequirementParams missionGiverEntityClass="7c7a8c39-e475-4322-a372-d75082b61a01" reputationScope="f340b011-c40c-4229-b9c1-ce6a3eb1df77" comparison="GreaterThan" standing="3cb3b0e4-a4c0-4eae-bb1c-ad7a2751b01b" __type="SReputationMissionRequirementExpressionElement" __polymorphicType="SReputationMissionGiverRequirementParams" />
+        <SReputationMissionRequirementExpression_And __type="SReputationMissionRequirementExpressionElement" __polymorphicType="SReputationMissionRequirementExpression_And" />
+        <SReputationMissionGiverRequirementParams missionGiverEntityClass="7c7a8c39-e475-4322-a372-d75082b61a01" reputationScope="7cc02ca4-8b25-42ab-98df-942a9bfe3cca" comparison="GreaterThan" standing="9efa8373-e6a2-4118-9db3-262ceb095785" __type="SReputationMissionRequirementExpressionElement" __polymorphicType="SReputationMissionGiverRequirementParams" />
+      </expression>
+    </SReputationMissionRequirementsParams>
+  </reputationRequirements>
+  <requiredMissions />
+  <requiredCompletedMissionTags />
+  <requiredJournalEntries />
+  <properties>
+    <MissionProperty missionVariableName="MDSE_MissionLocation" extendedTextToken="" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Location minLocationsToFind="1" maxLocationsToFind="1" debugForceChosenLocation="00000000-0000-0000-0000-000000000000" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Location">
+          <matchConditions>
+            <DataSetMatchCondition_TagSearch tagType="General" __type="BaseDataSetMatchCondition" __polymorphicType="DataSetMatchCondition_TagSearch">
+              <tagSearch>
+                <TagSearchTerm __type="TagSearchTerm">
+                  <positiveTags>
+                    <Reference value="81e6117e-e1d2-4d44-b03f-27e50c78b7c8" />
+                    <Reference value="67508ea1-f2a5-4e1a-a045-2c1378c4b89e" />
+                  </positiveTags>
+                  <negativeTags />
+                </TagSearchTerm>
+              </tagSearch>
+            </DataSetMatchCondition_TagSearch>
+          </matchConditions>
+          <resourceTags />
+        </MissionPropertyValue_Location>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AIName_Save1" extendedTextToken="NameSave1" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_AIName randomName="1" randomLastName="1" randomNickName="1" characterGivenName="@LOC_UNINITIALIZED" characterGivenLastName="@LOC_UNINITIALIZED" characterGivenNickName="@LOC_UNINITIALIZED" characterNameData="652d139d-d2b1-4dc0-855b-d75c7be716b9" chanceOfNickName="0.05" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_AIName" />
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AIName_Save2" extendedTextToken="NameSave2" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_AIName randomName="1" randomLastName="1" randomNickName="1" characterGivenName="@LOC_UNINITIALIZED" characterGivenLastName="@LOC_UNINITIALIZED" characterGivenNickName="@LOC_UNINITIALIZED" characterNameData="652d139d-d2b1-4dc0-855b-d75c7be716b9" chanceOfNickName="0.05" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_AIName" />
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AIName_Save3" extendedTextToken="NameSave3" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_AIName randomName="1" randomLastName="1" randomNickName="1" characterGivenName="@LOC_UNINITIALIZED" characterGivenLastName="@LOC_UNINITIALIZED" characterGivenNickName="@LOC_UNINITIALIZED" characterNameData="652d139d-d2b1-4dc0-855b-d75c7be716b9" chanceOfNickName="0.05" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_AIName" />
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AI_Integer_Save1" extendedTextToken="AIIntegerSave1" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="1000" variation="8999" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AI_Integer_Save2" extendedTextToken="AIIntegerSave2" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="1000" variation="8999" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AI_Integer_Save3" extendedTextToken="AIIntegerSave3" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="1000" variation="8999" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AIName_Kill1" extendedTextToken="NameKill1" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_AIName randomName="1" randomLastName="1" randomNickName="1" characterGivenName="@LOC_UNINITIALIZED" characterGivenLastName="@LOC_UNINITIALIZED" characterGivenNickName="@LOC_UNINITIALIZED" characterNameData="652d139d-d2b1-4dc0-855b-d75c7be716b9" chanceOfNickName="0.05" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_AIName" />
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AI_Integer_Kill" extendedTextToken="AIIntegerKill" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="1000" variation="9998" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AIName_Random1" extendedTextToken="RandomName1" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_AIName randomName="1" randomLastName="1" randomNickName="1" characterGivenName="@LOC_UNINITIALIZED" characterGivenLastName="@LOC_UNINITIALIZED" characterGivenNickName="@LOC_UNINITIALIZED" characterNameData="652d139d-d2b1-4dc0-855b-d75c7be716b9" chanceOfNickName="0.05" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_AIName" />
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AIName_Random2" extendedTextToken="RandomName2" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_AIName randomName="1" randomLastName="1" randomNickName="1" characterGivenName="@LOC_UNINITIALIZED" characterGivenLastName="@LOC_UNINITIALIZED" characterGivenNickName="@LOC_UNINITIALIZED" characterNameData="652d139d-d2b1-4dc0-855b-d75c7be716b9" chanceOfNickName="0.05" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_AIName" />
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AIName_Random3" extendedTextToken="RandomName3" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_AIName randomName="1" randomLastName="1" randomNickName="1" characterGivenName="@LOC_UNINITIALIZED" characterGivenLastName="@LOC_UNINITIALIZED" characterGivenNickName="@LOC_UNINITIALIZED" characterNameData="652d139d-d2b1-4dc0-855b-d75c7be716b9" chanceOfNickName="0.05" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_AIName" />
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AIName_Random4" extendedTextToken="RandomName4" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_AIName randomName="1" randomLastName="1" randomNickName="1" characterGivenName="@LOC_UNINITIALIZED" characterGivenLastName="@LOC_UNINITIALIZED" characterGivenNickName="@LOC_UNINITIALIZED" characterNameData="652d139d-d2b1-4dc0-855b-d75c7be716b9" chanceOfNickName="0.05" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_AIName" />
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AIName_Random5" extendedTextToken="RandomName5" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_AIName randomName="1" randomLastName="1" randomNickName="1" characterGivenName="@LOC_UNINITIALIZED" characterGivenLastName="@LOC_UNINITIALIZED" characterGivenNickName="@LOC_UNINITIALIZED" characterNameData="652d139d-d2b1-4dc0-855b-d75c7be716b9" chanceOfNickName="0.05" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_AIName" />
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AIName_Random6" extendedTextToken="RandomName6" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_AIName randomName="1" randomLastName="1" randomNickName="1" characterGivenName="@LOC_UNINITIALIZED" characterGivenLastName="@LOC_UNINITIALIZED" characterGivenNickName="@LOC_UNINITIALIZED" characterNameData="652d139d-d2b1-4dc0-855b-d75c7be716b9" chanceOfNickName="0.05" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_AIName" />
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AIName_Random7" extendedTextToken="RandomName7" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_AIName randomName="1" randomLastName="1" randomNickName="1" characterGivenName="@LOC_UNINITIALIZED" characterGivenLastName="@LOC_UNINITIALIZED" characterGivenNickName="@LOC_UNINITIALIZED" characterNameData="652d139d-d2b1-4dc0-855b-d75c7be716b9" chanceOfNickName="0.05" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_AIName" />
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AIName_Random8" extendedTextToken="RandomName8" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_AIName randomName="1" randomLastName="1" randomNickName="1" characterGivenName="@LOC_UNINITIALIZED" characterGivenLastName="@LOC_UNINITIALIZED" characterGivenNickName="@LOC_UNINITIALIZED" characterNameData="652d139d-d2b1-4dc0-855b-d75c7be716b9" chanceOfNickName="0.05" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_AIName" />
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AIName_Random9" extendedTextToken="RandomName9" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_AIName randomName="1" randomLastName="1" randomNickName="1" characterGivenName="@LOC_UNINITIALIZED" characterGivenLastName="@LOC_UNINITIALIZED" characterGivenNickName="@LOC_UNINITIALIZED" characterNameData="652d139d-d2b1-4dc0-855b-d75c7be716b9" chanceOfNickName="0.05" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_AIName" />
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AIName_Random10" extendedTextToken="RandomName10" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_AIName randomName="1" randomLastName="1" randomNickName="1" characterGivenName="@LOC_UNINITIALIZED" characterGivenLastName="@LOC_UNINITIALIZED" characterGivenNickName="@LOC_UNINITIALIZED" characterNameData="652d139d-d2b1-4dc0-855b-d75c7be716b9" chanceOfNickName="0.05" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_AIName" />
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AIName_Random11" extendedTextToken="RandomName11" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_AIName randomName="1" randomLastName="1" randomNickName="1" characterGivenName="@LOC_UNINITIALIZED" characterGivenLastName="@LOC_UNINITIALIZED" characterGivenNickName="@LOC_UNINITIALIZED" characterNameData="652d139d-d2b1-4dc0-855b-d75c7be716b9" chanceOfNickName="0.05" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_AIName" />
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AIName_Random12" extendedTextToken="RandomName12" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_AIName randomName="1" randomLastName="1" randomNickName="1" characterGivenName="@LOC_UNINITIALIZED" characterGivenLastName="@LOC_UNINITIALIZED" characterGivenNickName="@LOC_UNINITIALIZED" characterNameData="652d139d-d2b1-4dc0-855b-d75c7be716b9" chanceOfNickName="0.05" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_AIName" />
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AIName_Random13" extendedTextToken="RandomName13" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_AIName randomName="1" randomLastName="1" randomNickName="1" characterGivenName="@LOC_UNINITIALIZED" characterGivenLastName="@LOC_UNINITIALIZED" characterGivenNickName="@LOC_UNINITIALIZED" characterNameData="652d139d-d2b1-4dc0-855b-d75c7be716b9" chanceOfNickName="0.05" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_AIName" />
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AIName_Random14" extendedTextToken="RandomName14" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_AIName randomName="1" randomLastName="1" randomNickName="1" characterGivenName="@LOC_UNINITIALIZED" characterGivenLastName="@LOC_UNINITIALIZED" characterGivenNickName="@LOC_UNINITIALIZED" characterNameData="652d139d-d2b1-4dc0-855b-d75c7be716b9" chanceOfNickName="0.05" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_AIName" />
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AIName_Random15" extendedTextToken="RandomName15" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_AIName randomName="1" randomLastName="1" randomNickName="1" characterGivenName="@LOC_UNINITIALIZED" characterGivenLastName="@LOC_UNINITIALIZED" characterGivenNickName="@LOC_UNINITIALIZED" characterNameData="652d139d-d2b1-4dc0-855b-d75c7be716b9" chanceOfNickName="0.05" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_AIName" />
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AIName_Random16" extendedTextToken="RandomName16" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_AIName randomName="1" randomLastName="1" randomNickName="1" characterGivenName="@LOC_UNINITIALIZED" characterGivenLastName="@LOC_UNINITIALIZED" characterGivenNickName="@LOC_UNINITIALIZED" characterNameData="652d139d-d2b1-4dc0-855b-d75c7be716b9" chanceOfNickName="0.05" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_AIName" />
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AIName_Random17" extendedTextToken="RandomName17" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_AIName randomName="1" randomLastName="1" randomNickName="1" characterGivenName="@LOC_UNINITIALIZED" characterGivenLastName="@LOC_UNINITIALIZED" characterGivenNickName="@LOC_UNINITIALIZED" characterNameData="652d139d-d2b1-4dc0-855b-d75c7be716b9" chanceOfNickName="0.05" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_AIName" />
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AIName_Random18" extendedTextToken="RandomName18" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_AIName randomName="1" randomLastName="1" randomNickName="1" characterGivenName="@LOC_UNINITIALIZED" characterGivenLastName="@LOC_UNINITIALIZED" characterGivenNickName="@LOC_UNINITIALIZED" characterNameData="652d139d-d2b1-4dc0-855b-d75c7be716b9" chanceOfNickName="0.05" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_AIName" />
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AIName_Random19" extendedTextToken="RandomName19" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_AIName randomName="1" randomLastName="1" randomNickName="1" characterGivenName="@LOC_UNINITIALIZED" characterGivenLastName="@LOC_UNINITIALIZED" characterGivenNickName="@LOC_UNINITIALIZED" characterNameData="652d139d-d2b1-4dc0-855b-d75c7be716b9" chanceOfNickName="0.05" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_AIName" />
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AIName_Random20" extendedTextToken="RandomName20" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_AIName randomName="1" randomLastName="1" randomNickName="1" characterGivenName="@LOC_UNINITIALIZED" characterGivenLastName="@LOC_UNINITIALIZED" characterGivenNickName="@LOC_UNINITIALIZED" characterNameData="652d139d-d2b1-4dc0-855b-d75c7be716b9" chanceOfNickName="0.05" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_AIName" />
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AIName_Random21" extendedTextToken="RandomName21" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_AIName randomName="1" randomLastName="1" randomNickName="1" characterGivenName="@LOC_UNINITIALIZED" characterGivenLastName="@LOC_UNINITIALIZED" characterGivenNickName="@LOC_UNINITIALIZED" characterNameData="652d139d-d2b1-4dc0-855b-d75c7be716b9" chanceOfNickName="0.05" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_AIName" />
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AIName_Random22" extendedTextToken="RandomName22" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_AIName randomName="1" randomLastName="1" randomNickName="1" characterGivenName="@LOC_UNINITIALIZED" characterGivenLastName="@LOC_UNINITIALIZED" characterGivenNickName="@LOC_UNINITIALIZED" characterNameData="652d139d-d2b1-4dc0-855b-d75c7be716b9" chanceOfNickName="0.05" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_AIName" />
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AIName_Random23" extendedTextToken="RandomName23" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_AIName randomName="1" randomLastName="1" randomNickName="1" characterGivenName="@LOC_UNINITIALIZED" characterGivenLastName="@LOC_UNINITIALIZED" characterGivenNickName="@LOC_UNINITIALIZED" characterNameData="652d139d-d2b1-4dc0-855b-d75c7be716b9" chanceOfNickName="0.05" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_AIName" />
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AIName_Random24" extendedTextToken="RandomName24" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_AIName randomName="1" randomLastName="1" randomNickName="1" characterGivenName="@LOC_UNINITIALIZED" characterGivenLastName="@LOC_UNINITIALIZED" characterGivenNickName="@LOC_UNINITIALIZED" characterNameData="652d139d-d2b1-4dc0-855b-d75c7be716b9" chanceOfNickName="0.05" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_AIName" />
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AIName_Random25" extendedTextToken="RandomName25" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_AIName randomName="1" randomLastName="1" randomNickName="1" characterGivenName="@LOC_UNINITIALIZED" characterGivenLastName="@LOC_UNINITIALIZED" characterGivenNickName="@LOC_UNINITIALIZED" characterNameData="652d139d-d2b1-4dc0-855b-d75c7be716b9" chanceOfNickName="0.05" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_AIName" />
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AIName_Random26" extendedTextToken="RandomName26" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_AIName randomName="1" randomLastName="1" randomNickName="1" characterGivenName="@LOC_UNINITIALIZED" characterGivenLastName="@LOC_UNINITIALIZED" characterGivenNickName="@LOC_UNINITIALIZED" characterNameData="652d139d-d2b1-4dc0-855b-d75c7be716b9" chanceOfNickName="0.05" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_AIName" />
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AIName_Random27" extendedTextToken="RandomName27" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_AIName randomName="1" randomLastName="1" randomNickName="1" characterGivenName="@LOC_UNINITIALIZED" characterGivenLastName="@LOC_UNINITIALIZED" characterGivenNickName="@LOC_UNINITIALIZED" characterNameData="652d139d-d2b1-4dc0-855b-d75c7be716b9" chanceOfNickName="0.05" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_AIName" />
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AIName_Random28" extendedTextToken="RandomName28" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_AIName randomName="1" randomLastName="1" randomNickName="1" characterGivenName="@LOC_UNINITIALIZED" characterGivenLastName="@LOC_UNINITIALIZED" characterGivenNickName="@LOC_UNINITIALIZED" characterNameData="652d139d-d2b1-4dc0-855b-d75c7be716b9" chanceOfNickName="0.05" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_AIName" />
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AI_Integer_1" extendedTextToken="RandomInteger1" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="1000" variation="8999" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AI_Integer_2" extendedTextToken="RandomInteger2" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="1000" variation="8999" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AI_Integer_3" extendedTextToken="RandomInteger3" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="1000" variation="8999" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AI_Integer_4" extendedTextToken="RandomInteger4" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="1000" variation="8999" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AI_Integer_5" extendedTextToken="RandomInteger5" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="1000" variation="8999" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AI_Integer_6" extendedTextToken="RandomInteger6" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="1000" variation="8999" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AI_Integer_7" extendedTextToken="RandomInteger7" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="1000" variation="8999" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AI_Integer_8" extendedTextToken="RandomInteger8" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="1000" variation="8999" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AI_Integer_9" extendedTextToken="RandomInteger9" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="1000" variation="8999" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AI_Integer_10" extendedTextToken="RandomInteger10" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="1000" variation="8999" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AI_Integer_11" extendedTextToken="RandomInteger11" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="1000" variation="8999" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AI_Integer_12" extendedTextToken="RandomInteger12" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="1000" variation="8999" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AI_Integer_13" extendedTextToken="RandomInteger13" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="1000" variation="8999" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AI_Integer_14" extendedTextToken="RandomInteger14" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="1000" variation="8999" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AI_Integer_15" extendedTextToken="RandomInteger15" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="1000" variation="8999" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AI_Integer_16" extendedTextToken="RandomInteger16" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="1000" variation="8999" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AI_Integer_17" extendedTextToken="RandomInteger17" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="1000" variation="8999" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AI_Integer_18" extendedTextToken="RandomInteger18" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="1000" variation="8999" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AI_Integer_19" extendedTextToken="RandomInteger19" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="1000" variation="8999" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AI_Integer_20" extendedTextToken="RandomInteger20" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="1000" variation="8999" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AI_Integer_21" extendedTextToken="RandomInteger21" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="1000" variation="8999" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AI_Integer_22" extendedTextToken="RandomInteger22" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="1000" variation="8999" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AI_Integer_23" extendedTextToken="RandomInteger23" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="1000" variation="8999" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AI_Integer_24" extendedTextToken="RandomInteger24" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="1000" variation="8999" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AI_Integer_25" extendedTextToken="RandomInteger25" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="1000" variation="8999" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AI_Integer_26" extendedTextToken="RandomInteger26" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="1000" variation="8999" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AI_Integer_27" extendedTextToken="RandomInteger27" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="1000" variation="8999" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="AI_Integer_28" extendedTextToken="RandomInteger28" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="1000" variation="8999" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="" extendedTextToken="Contractor" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Organization debugForceChosenOrganization="00000000-0000-0000-0000-000000000000" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Organization">
+          <matchConditions>
+            <DataSetMatchCondition_SpecificOrganizationsDef __type="BaseDataSetMatchCondition" __polymorphicType="DataSetMatchCondition_SpecificOrganizationsDef">
+              <organizations>
+                <Reference value="bb702729-f3d8-4f74-8fa8-a7f15af3306f" />
+              </organizations>
+            </DataSetMatchCondition_SpecificOrganizationsDef>
+          </matchConditions>
+        </MissionPropertyValue_Organization>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="Int_ReviveReward" extendedTextToken="" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="10000" variation="0" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="Int_KillSnitchReward" extendedTextToken="" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Integer __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Integer">
+          <options>
+            <MissionPropertyValueOption_Integer textId="@LOC_UNINITIALIZED" weighting="1" DEBUG_forceChooseThisOption="0" value="15000" variation="0" __type="BaseMissionPropertyValueOption" __polymorphicType="MissionPropertyValueOption_Integer">
+              <dependentProperties />
+            </MissionPropertyValueOption_Integer>
+          </options>
+        </MissionPropertyValue_Integer>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="SecurityTag" extendedTextToken="" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Tags __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Tags">
+          <tags __type="TagList">
+            <tags>
+              <Reference value="6d8cd8e1-ed4e-40e1-90e9-931ec8e3ed86" />
+            </tags>
+          </tags>
+          <negativeTags __type="TagList">
+            <tags />
+          </negativeTags>
+          <options />
+        </MissionPropertyValue_Tags>
+      </value>
+    </MissionProperty>
+  </properties>
+</MissionBrokerEntry.PU_HijackedShip_Caterpillar_Stanton3_Pacheco>

@@ -1,0 +1,4 @@
+<ShieldTypeParams.GlobalShieldTypeParams minDamageStrengthRange="0" maxDamageStrengthRange="2000" minCapIsoRange="1" maxCapIsoRange="5" minSizeRange="15" maxSizeRange="70" rangeController="0" alphaScaleDefault="1" alphaScale1stPerson="0.7" sizeScale1stPerson="1" __type="ShieldTypeParams" __ref="d55d406d-d4c0-4e70-93b3-17b41f6e03a9" __path="libs/foundry/records/vfx/globalshieldtypeparams.xml">
+  <minHealthColor r="129" g="40" b="40" __type="SRGB8" />
+  <maxHealthColor r="49" g="133" b="218" __type="SRGB8" />
+</ShieldTypeParams.GlobalShieldTypeParams>

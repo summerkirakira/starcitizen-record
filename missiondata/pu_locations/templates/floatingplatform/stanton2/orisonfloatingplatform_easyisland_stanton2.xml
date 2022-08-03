@@ -1,0 +1,27 @@
+<MissionLocationTemplate.OrisonFloatingPlatform_EasyIsland_Stanton2 __type="MissionLocationTemplate" __ref="f8fd679d-d57b-47bb-9240-cc4783e7d22d" __path="libs/foundry/records/missiondata/pu_locations/templates/floatingplatform/stanton2/orisonfloatingplatform_easyisland_stanton2.xml">
+  <locationData __type="MissionLocationData">
+    <generalTags __type="MissionLocationTags">
+      <tags>
+        <Reference value="fbed1c4e-610e-44e0-9bfe-52b0944cafbc" />
+        <Reference value="47c2bba0-0710-4792-8148-4ea40ea41243" />
+      </tags>
+    </generalTags>
+    <producesTags __type="TagSearchTerm">
+      <positiveTags />
+      <negativeTags />
+    </producesTags>
+    <consumesTags __type="TagSearchTerm">
+      <positiveTags />
+      <negativeTags />
+    </consumesTags>
+    <aiSpawnTags __type="TagList">
+      <tags />
+    </aiSpawnTags>
+    <stringVariants __type="MissionStringVariants">
+      <variants />
+    </stringVariants>
+    <missionModules />
+    <missionLimits />
+    <autoSpawnSettings />
+  </locationData>
+</MissionLocationTemplate.OrisonFloatingPlatform_EasyIsland_Stanton2>

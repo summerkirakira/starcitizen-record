@@ -1,0 +1,8 @@
+<WeaponProceduralClip.SniperPoseOffset __type="WeaponProceduralClip" __ref="28df7904-0b59-49a6-855a-724afc1cee40" __path="libs/foundry/records/weaponproceduralclip/sniper/weaponproceduralclip.sniperposeoffset.xml">
+  <weaponProceduralClipBase>
+    <WeaponProceduralClipPose blendTime="1" poseType="RightHand" zoomTransitionAngle="0" useAimHelperOffset="0" __type="WeaponProceduralClipBase" __polymorphicType="WeaponProceduralClipPose">
+      <position x="0" y="0" z="0" __type="Vec3" />
+      <rotation x="0" y="0" z="0" __type="Ang3" />
+    </WeaponProceduralClipPose>
+  </weaponProceduralClipBase>
+</WeaponProceduralClip.SniperPoseOffset>

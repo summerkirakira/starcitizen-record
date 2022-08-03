@@ -1,0 +1,5 @@
+<ActorLocomotionPersonality.LocomotionPersonality_Friendly locomotionStyleMannequinTag="Friendly" __type="ActorLocomotionPersonality" __ref="d319b795-4858-4832-99ca-288705387f7e" __path="libs/foundry/records/actor/locomotionpersonality/locomotionpersonality_friendly.xml">
+  <avoidance enableAvoidanceTwist="1" minTwistDistance="0.1" maxTwistDistance="0.75" blendWeightAtMinTwist="0.25" blendWeightAtMaxTwist="1" twistBlendTime="0.3" twistBlendOutTime="0.75" __type="ActorLocomotionAvoidanceParams" />
+  <glancing enable="0" minTimeBetweenGlances="1" maxTimeBetweenGlances="3" __type="ActorLocomotionGlanceParams" />
+  <acknowledgements enable="0" allowNods="1" allowWaves="1" minDistance="3" maxDistance="5" triggerProbability="1" __type="ActorLocomotionAcknowledgementParams" />
+</ActorLocomotionPersonality.LocomotionPersonality_Friendly>

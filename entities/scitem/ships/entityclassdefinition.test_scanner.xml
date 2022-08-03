@@ -1,0 +1,83 @@
+<EntityClassDefinition.test_scanner Category="Default" Icon="Default.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="c36ac77b-9d65-448d-b889-55ae705d4871" __path="libs/foundry/records/entities/scitem/ships/entityclassdefinition.test_scanner.xml">
+  <tags />
+  <StaticEntityClassData />
+  <Components>
+    <SAttachableComponentParams attachToTileItemPort="NoConnection" __type="DataForgeComponentParams" __polymorphicType="SAttachableComponentParams">
+      <AttachDef Type="Scanner" SubType="UNDEFINED" Size="1" Grade="1" Manufacturer="00000000-0000-0000-0000-000000000000" inheritParentManufacturer="0" Tags="flightReady" RequiredTags="" DisplayType="" __type="SItemDefinition">
+        <Localization Name="@LOC_PLACEHOLDER" ShortName="@LOC_EMPTY" Description="@LOC_EMPTY" __type="SCItemLocalization">
+          <displayFeatures LogoSimplifiedWhite="" FrontendBackground="" History="@LOC_EMPTY" Callout1="@LOC_EMPTY" Callout2="@LOC_EMPTY" Callout3="@LOC_EMPTY" UIPriority="0" __type="SCExtendedLocalizationLevelParams">
+            <locationAudioPlayTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+            <locationAudioStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </displayFeatures>
+        </Localization>
+        <mannequinTags mannequinClassTag="" mannequinTypeTag="" mannequinBaseTag="" __type="SCItemMannequinTags" />
+        <inventoryOccupancyVolume>
+          <SMicroCargoUnit microSCU="1" __type="SBaseCargoUnit" __polymorphicType="SMicroCargoUnit" />
+        </inventoryOccupancyVolume>
+        <inventoryOccupancyDimensions x="0.15" y="0.15" z="0.15" __type="Vec3" />
+        <inventoryOccupancyDimensionsUIOverride>
+        </inventoryOccupancyDimensionsUIOverride>
+      </AttachDef>
+      <entityAttachParams>
+      </entityAttachParams>
+    </SAttachableComponentParams>
+    <SSCItemScannerComponentParams scanBaselineFactor="0.2" allowAccessToScanMode="1" __type="DataForgeComponentParams" __polymorphicType="SSCItemScannerComponentParams">
+      <signatureDetection>
+        <SCItemScannerSignatureDetection sensitivity="1" piercing="0" __type="SCItemScannerSignatureDetection" />
+        <SCItemScannerSignatureDetection sensitivity="1" piercing="0" __type="SCItemScannerSignatureDetection" />
+        <SCItemScannerSignatureDetection sensitivity="1" piercing="0" __type="SCItemScannerSignatureDetection" />
+        <SCItemScannerSignatureDetection sensitivity="1" piercing="0" __type="SCItemScannerSignatureDetection" />
+        <SCItemScannerSignatureDetection sensitivity="1" piercing="0" __type="SCItemScannerSignatureDetection" />
+        <SCItemScannerSignatureDetection sensitivity="1" piercing="0" __type="SCItemScannerSignatureDetection" />
+        <SCItemScannerSignatureDetection sensitivity="0.5" piercing="0" __type="SCItemScannerSignatureDetection" />
+      </signatureDetection>
+      <contactGroups __type="RadarContactGroupArray">
+        <groups>
+          <Reference value="647f26ac-92ce-4d33-8913-870f66ab6415" />
+          <Reference value="0ea6278c-4230-4325-95d8-13b68af5415e" />
+          <Reference value="04b16c7c-57af-4efd-a71d-5ca91954355e" />
+          <Reference value="738d84db-4457-40c5-9280-362cef26a37f" />
+          <Reference value="0ea6278c-4230-4325-95d8-13b68af5415e" />
+          <Reference value="af7b90b0-4ebc-4537-a6af-7c31d7c59b86" />
+          <Reference value="ff866e3c-2efa-42ad-8698-6820f16cdc41" />
+          <Reference value="bd56dfb8-5140-496b-b053-1e10a766a782" />
+        </groups>
+      </contactGroups>
+      <excludedScanCategory __type="TagList">
+        <tags />
+      </excludedScanCategory>
+    </SSCItemScannerComponentParams>
+    <SEntityInteractableParams __type="DataForgeComponentParams" __polymorphicType="SEntityInteractableParams">
+      <Interactable __type="SInteractableParams">
+        <SharedInteractions>
+          <SSharedInteractionParams Name="BeginScan" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_scan" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="EndScan" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_CIEmoteStop" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+        </SharedInteractions>
+        <InteractionPoints />
+        <interactionTasks />
+        <actionHandlerTasks />
+        <itemActionTasks />
+        <menuTitle>
+        </menuTitle>
+      </Interactable>
+    </SEntityInteractableParams>
+    <SInteractionLinkParams __type="DataForgeComponentParams" __polymorphicType="SInteractionLinkParams">
+      <vehicleItemPortInteractionLinks />
+      <linkPlugs />
+    </SInteractionLinkParams>
+    <ItemControlComponentParams turnedOnByDefault="0" __type="DataForgeComponentParams" __polymorphicType="ItemControlComponentParams">
+      <throttleParams>
+      </throttleParams>
+    </ItemControlComponentParams>
+    <ItemControllerComponentParams operatorModeDefinitionsOverride="00000000-0000-0000-0000-000000000000" __type="DataForgeComponentParams" __polymorphicType="ItemControllerComponentParams" />
+    <UIBindingsVendorEntityComponentParams namespace="" __type="DataForgeComponentParams" __polymorphicType="UIBindingsVendorEntityComponentParams" />
+  </Components>
+</EntityClassDefinition.test_scanner>

@@ -1,0 +1,7 @@
+<HarvestablePreset.Mining_Shale entityClass="aa7b4473-a212-4f68-b91f-d1f33b343f43" respawnInSlotTime="3600" specialHarvestableString="" __type="HarvestablePreset" __ref="f5700b10-cd6d-4e94-9338-58e001258568" __path="libs/foundry/records/harvestable/harvestablepresets/mining_shale.xml">
+  <transformParams minScale="0.7" maxScale="1" terrainNormalAlignment="1" minZOffset="0.1" maxZOffset="0.25" minSlope="0" maxSlope="90" minElevation="-10000" maxElevation="10000" __type="HarvestableTransformParams">
+    <rotationRange x="360" y="360" z="360" __type="Vec3" />
+  </transformParams>
+  <subConfigBase>
+  </subConfigBase>
+</HarvestablePreset.Mining_Shale>

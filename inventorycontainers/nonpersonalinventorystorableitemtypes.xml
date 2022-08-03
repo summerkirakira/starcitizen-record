@@ -1,0 +1,29 @@
+<NonPersonalInventoryStorableItemGlobalParams.NonPersonalInventoryStorableItemTypes __type="NonPersonalInventoryStorableItemGlobalParams" __ref="e21e9739-839c-4bf2-b361-c83ccc470c31" __path="libs/foundry/records/inventorycontainers/nonpersonalinventorystorableitemtypes.xml">
+  <itemTypes>
+    <DisabledItemType Type="Armor" __type="DisabledItemType" />
+    <DisabledItemType Type="Cargo" __type="DisabledItemType" />
+    <DisabledItemType Type="CapacitorAssignmentController" __type="DisabledItemType" />
+    <DisabledItemType Type="CoolerController" __type="DisabledItemType" />
+    <DisabledItemType Type="Display" __type="DisabledItemType" />
+    <DisabledItemType Type="DockingAnimator" __type="DisabledItemType" />
+    <DisabledItemType Type="DockingCollar" __type="DisabledItemType" />
+    <DisabledItemType Type="DockingController" __type="DisabledItemType" />
+    <DisabledItemType Type="FuelIntake" __type="DisabledItemType" />
+    <DisabledItemType Type="FuelTank" __type="DisabledItemType" />
+    <DisabledItemType Type="JumpDrive" __type="DisabledItemType" />
+    <DisabledItemType Type="LandingSystem" __type="DisabledItemType" />
+    <DisabledItemType Type="QuantumInterdictionGenerator" __type="DisabledItemType" />
+    <DisabledItemType Type="QuantumFuelTank" __type="DisabledItemType" />
+    <DisabledItemType Type="Radar" __type="DisabledItemType" />
+    <DisabledItemType Type="Scanner" __type="DisabledItemType" />
+    <DisabledItemType Type="Seat" __type="DisabledItemType" />
+    <DisabledItemType Type="SeatDashboard" __type="DisabledItemType" />
+    <DisabledItemType Type="SelfDestruct" __type="DisabledItemType" />
+    <DisabledItemType Type="TurretBase" __type="DisabledItemType" />
+    <DisabledItemType Type="MainEngine" __type="DisabledItemType" />
+    <DisabledItemType Type="MainThruster" __type="DisabledItemType" />
+    <DisabledItemType Type="ManneuverThruster" __type="DisabledItemType" />
+    <DisabledItemType Type="NOITEM_Vehicle" __type="DisabledItemType" />
+    <DisabledItemType Type="Debris" __type="DisabledItemType" />
+  </itemTypes>
+</NonPersonalInventoryStorableItemGlobalParams.NonPersonalInventoryStorableItemTypes>

@@ -1,0 +1,26 @@
+<ActorFOVViewParams.FOVGlobalSettings globalFOVLerpSpeed="1.5" __type="ActorFOVViewParams" __ref="b3fadb5f-d223-4bc7-93a7-363a2261c9d7" __path="libs/foundry/records/cameras/actorfovviewparams.fovglobalsettings.xml">
+  <fovValues>
+    <FOVEntryParams FOV="5" offset="-0.099" __type="FOVEntryParams" />
+    <FOVEntryParams FOV="15" offset="-0.099" __type="FOVEntryParams" />
+    <FOVEntryParams FOV="30" offset="-0.076" __type="FOVEntryParams" />
+    <FOVEntryParams FOV="55" offset="0" __type="FOVEntryParams" />
+    <FOVEntryParams FOV="80" offset="0.031" __type="FOVEntryParams" />
+  </fovValues>
+  <fovAspectRatioSettings>
+    <FOVAspectRatioParams minFOV="69" maxFOV="83" __type="FOVAspectRatioParams">
+      <aspectRatio x="4" y="3" __type="Vec2" />
+    </FOVAspectRatioParams>
+    <FOVAspectRatioParams minFOV="85" maxFOV="100" __type="FOVAspectRatioParams">
+      <aspectRatio x="16" y="9" __type="Vec2" />
+    </FOVAspectRatioParams>
+    <FOVAspectRatioParams minFOV="80" maxFOV="95" __type="FOVAspectRatioParams">
+      <aspectRatio x="16" y="10" __type="Vec2" />
+    </FOVAspectRatioParams>
+    <FOVAspectRatioParams minFOV="100" maxFOV="115" __type="FOVAspectRatioParams">
+      <aspectRatio x="21" y="9" __type="Vec2" />
+    </FOVAspectRatioParams>
+    <FOVAspectRatioParams minFOV="140" maxFOV="148" __type="FOVAspectRatioParams">
+      <aspectRatio x="48" y="9" __type="Vec2" />
+    </FOVAspectRatioParams>
+  </fovAspectRatioSettings>
+</ActorFOVViewParams.FOVGlobalSettings>

@@ -1,0 +1,71 @@
+<MissionBrokerEntry.PU_Jumptown2_Child_Illegal notForRelease="0" missionModule="Libs/Subsumption/Missions/PU/PU_Missions/DynamicEvents/Jumptown2/JT2_Child_Criminal.xml" title="@Jumptown2_Criminal_MBroker_name" titleHUD="@LOC_UNINITIALIZED" description="@Jumptown2_Criminal_MBroker_desc" missionGiver="@mg_ruto_from" commsChannelName="@LOC_UNINITIALIZED" type="9c585972-95b7-4408-ad72-aa9858545958" locationMissionAvailable="34ff378f-faee-47bb-b5fe-f505e665c5ca" notifyOnAvailable="1" showAsOffer="1" missionBuyInAmount="5000" refundBuyInOnWithdraw="0" hasCompleteButton="0" handlesAbandonRequest="0" missionModulePerPlayer="1" maxInstances="-1" maxPlayersPerInstance="-1" maxInstancesPerPlayer="1" canBeShared="0" onceOnly="0" displayAlliedMarkers="0" availableInPrison="0" failIfSentToPrison="1" requestOnly="1" respawnTime="0" respawnTimeVariation="0" instanceHasLifeTime="0" showLifeTimeInMobiGlas="0" instanceLifeTime="0" instanceLifeTimeVariation="0" canReacceptAfterAbandoning="1" abandonedCooldownTime="0" abandonedCooldownTimeVariation="0" canReacceptAfterFailing="0" hasPersonalCooldown="0" personalCooldownTime="1" personalCooldownTimeVariation="1" moduleHandlesOwnShutdown="0" linkedMission="00000000-0000-0000-0000-000000000000" lawfulMission="1" missionGiverRecord="e0c35a21-290d-4444-80ef-7f42da67b52f" invitationMission="00000000-0000-0000-0000-000000000000" missionGiverFragmentTags="" __type="MissionBrokerEntry" __ref="192340f0-1a45-435e-a89c-286cea730b25" __path="libs/foundry/records/missionbroker/pu_missions/pu_jumptown2_child_illegal.xml">
+  <availableDateSchedule />
+  <missionReward reward="0" max="0" plusBonuses="1" currencyType="UEC" reputationBonus="00000000-0000-0000-0000-000000000000" __type="MissionReward" />
+  <missionResultReputationRewards>
+    <SReputationAmountListParams __type="SReputationAmountListParams">
+      <reputationAmounts />
+    </SReputationAmountListParams>
+    <SReputationAmountListParams __type="SReputationAmountListParams">
+      <reputationAmounts />
+    </SReputationAmountListParams>
+    <SReputationAmountListParams __type="SReputationAmountListParams">
+      <reputationAmounts />
+    </SReputationAmountListParams>
+  </missionResultReputationRewards>
+  <journalEntriesToAddOnComplete />
+  <journalEntriesToRemoveOnComplete />
+  <completionTags __type="TagList">
+    <tags />
+  </completionTags>
+  <modifiers />
+  <missionTags />
+  <reputationPrerequisites wantedLevelJurisdictionOverride="00000000-0000-0000-0000-000000000000" __type="ReputationPrerequisites">
+    <wantedLevel minValue="1" maxValue="5" __type="ReputationPrerequisiteRange" />
+  </reputationPrerequisites>
+  <reputationRequirements>
+  </reputationRequirements>
+  <requiredMissions />
+  <requiredCompletedMissionTags />
+  <requiredJournalEntries />
+  <properties>
+    <MissionProperty missionVariableName="Event_MDSE" extendedTextToken="Location" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Location minLocationsToFind="1" maxLocationsToFind="1" debugForceChosenLocation="00000000-0000-0000-0000-000000000000" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Location">
+          <matchConditions>
+            <DataSetMatchCondition_TagSearch tagType="General" __type="BaseDataSetMatchCondition" __polymorphicType="DataSetMatchCondition_TagSearch">
+              <tagSearch>
+                <TagSearchTerm __type="TagSearchTerm">
+                  <positiveTags>
+                    <Reference value="c14daf5e-e967-40cd-b30e-92cd518dbe00" />
+                  </positiveTags>
+                  <negativeTags />
+                </TagSearchTerm>
+              </tagSearch>
+            </DataSetMatchCondition_TagSearch>
+          </matchConditions>
+          <resourceTags />
+        </MissionPropertyValue_Location>
+      </value>
+    </MissionProperty>
+    <MissionProperty missionVariableName="Event_Destination_MDSE" extendedTextToken="Destination" __type="MissionProperty">
+      <value>
+        <MissionPropertyValue_Location minLocationsToFind="1" maxLocationsToFind="1" debugForceChosenLocation="00000000-0000-0000-0000-000000000000" __type="BaseMissionPropertyValue" __polymorphicType="MissionPropertyValue_Location">
+          <matchConditions>
+            <DataSetMatchCondition_TagSearch tagType="General" __type="BaseDataSetMatchCondition" __polymorphicType="DataSetMatchCondition_TagSearch">
+              <tagSearch>
+                <TagSearchTerm __type="TagSearchTerm">
+                  <positiveTags>
+                    <Reference value="c83dd76a-486f-4110-91fd-b35d5a0874b6" />
+                    <Reference value="ff32dc1e-0fd0-4704-aadc-1a47b30af6e3" />
+                  </positiveTags>
+                  <negativeTags />
+                </TagSearchTerm>
+              </tagSearch>
+            </DataSetMatchCondition_TagSearch>
+          </matchConditions>
+          <resourceTags />
+        </MissionPropertyValue_Location>
+      </value>
+    </MissionProperty>
+  </properties>
+</MissionBrokerEntry.PU_Jumptown2_Child_Illegal>

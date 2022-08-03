@@ -1,0 +1,3 @@
+<ChatManagerGlobalParams.ChatManagerGlobalParams __type="ChatManagerGlobalParams" __ref="cfe011e4-65d3-41d0-873a-2b9779ee3faf" __path="libs/foundry/records/chatmanager/chatmanagerglobalparams.xml">
+  <defaultChannelColor global="White" party="Green" gameEntity="Yellow" whisper="Purple" team="Blue" squad="Green" __type="ChatManagerDefaultChannelColor" />
+</ChatManagerGlobalParams.ChatManagerGlobalParams>

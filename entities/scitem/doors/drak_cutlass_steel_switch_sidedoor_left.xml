@@ -1,0 +1,1013 @@
+<EntityClassDefinition.DRAK_Cutlass_Steel_Switch_SideDoor_Left Category="Default" Icon="Default.bmp" Invisible="0" BBoxSelection="0" lifetimePolicy="00000000-0000-0000-0000-000000000000" __type="EntityClassDefinition" __ref="d19246d9-13cd-49d3-8f9e-f69846ae104d" __path="libs/foundry/records/entities/scitem/doors/drak_cutlass_steel_switch_sidedoor_left.xml">
+  <tags />
+  <StaticEntityClassData />
+  <Components>
+    <SAttachableComponentParams attachToTileItemPort="NoConnection" __type="DataForgeComponentParams" __polymorphicType="SAttachableComponentParams">
+      <AttachDef Type="Usable" SubType="UNDEFINED" Size="1" Grade="1" Manufacturer="00000000-0000-0000-0000-000000000000" inheritParentManufacturer="0" Tags="" RequiredTags="" DisplayType="" __type="SItemDefinition">
+        <Localization Name="@LOC_PLACEHOLDER" ShortName="@LOC_EMPTY" Description="@LOC_EMPTY" __type="SCItemLocalization">
+          <displayFeatures LogoSimplifiedWhite="" FrontendBackground="" History="@LOC_EMPTY" Callout1="@LOC_EMPTY" Callout2="@LOC_EMPTY" Callout3="@LOC_EMPTY" UIPriority="0" __type="SCExtendedLocalizationLevelParams">
+            <locationAudioPlayTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+            <locationAudioStopTrigger audioTrigger="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceAudio" />
+          </displayFeatures>
+        </Localization>
+        <mannequinTags mannequinClassTag="" mannequinTypeTag="" mannequinBaseTag="" __type="SCItemMannequinTags" />
+        <inventoryOccupancyVolume>
+          <SMicroCargoUnit microSCU="1" __type="SBaseCargoUnit" __polymorphicType="SMicroCargoUnit" />
+        </inventoryOccupancyVolume>
+        <inventoryOccupancyDimensions x="0.15" y="0.15" z="0.15" __type="Vec3" />
+        <inventoryOccupancyDimensionsUIOverride>
+        </inventoryOccupancyDimensionsUIOverride>
+      </AttachDef>
+      <entityAttachParams>
+      </entityAttachParams>
+    </SAttachableComponentParams>
+    <SEntityInteractableParams __type="DataForgeComponentParams" __polymorphicType="SEntityInteractableParams">
+      <Interactable __type="SInteractableParams">
+        <SharedInteractions>
+          <SSharedInteractionParams Name="Open" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_interactor_open" DisplayType="Show" GenericCursor="Button" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Close" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_interactor_close" DisplayType="Show" GenericCursor="Button" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Hack" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@sm_ui_CTRL_Prompt_Hack" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Repair" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_use" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="SyncOpen" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_use" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="1" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="SyncClose" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_use" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="1" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Deploy" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_interactor_deploy" DisplayType="Show" GenericCursor="Button" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Retract" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_interactor_retract" DisplayType="Show" GenericCursor="Button" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="SyncDeploy" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_use" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="1" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="SyncRetract" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_use" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="1" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="RetractClose" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_interactor_retract" DisplayType="Show" GenericCursor="Button" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Name="Unlock" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@ui_label_unlock" DisplayType="Show" GenericCursor="Button" FocusModeOnly="0" Sendable="1" Linkable="1" LockedByLinks="1" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+            <QueryTags />
+            <conditionList>
+            </conditionList>
+          </SSharedInteractionParams>
+        </SharedInteractions>
+        <InteractionPoints>
+          <SInteractionPointParams FirstInteractionPrimary="1" UseHelperLocation="0" ShowHighlight="1" ApplyToEntireSkeleton="0" longRangeIP="0" HelperName="$IP_Button_Door" TextJustification="Middle" TextOrientation="RotateToPlayer" TextScale="1" Radius="1.6" MaxCursorScreenDistance="2" ShowInnerThoughtsOffScreen="0" OnlySelectableInLookDir="0" __type="SInteractionPointParams">
+            <HighlightBehaviors>
+              <SHighlightBehaviorNode __type="SHighlightBehaviorNode">
+                <HighlightBehaviorNodeParams>
+                  <SBonesHighlightNode __type="SHighlightBehaviorNodeParams" __polymorphicType="SBonesHighlightNode">
+                    <boneNames>
+                      <String value="button_door" />
+                    </boneNames>
+                  </SBonesHighlightNode>
+                </HighlightBehaviorNodeParams>
+                <nextNodes />
+              </SHighlightBehaviorNode>
+            </HighlightBehaviors>
+            <AdditionalCollisionBones />
+            <Offset __type="QuatT">
+              <Rotation x="0" y="0" z="0" __type="Ang3" />
+              <Position x="0" y="0" z="0" __type="Vec3" />
+            </Offset>
+            <AngleConstraint angleRange="181" __type="SAngleConstraint">
+              <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+            </AngleConstraint>
+            <SpherePrimitive>
+            </SpherePrimitive>
+            <Interactions>
+              <SInteractionParams Interaction="Interactable.SharedInteractions[0]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[1]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+            </Interactions>
+          </SInteractionPointParams>
+          <SInteractionPointParams FirstInteractionPrimary="1" UseHelperLocation="0" ShowHighlight="1" ApplyToEntireSkeleton="0" longRangeIP="0" HelperName="$IP_Button_Weapon" TextJustification="Middle" TextOrientation="RotateToPlayer" TextScale="1" Radius="1.6" MaxCursorScreenDistance="2" ShowInnerThoughtsOffScreen="0" OnlySelectableInLookDir="0" __type="SInteractionPointParams">
+            <HighlightBehaviors>
+              <SHighlightBehaviorNode __type="SHighlightBehaviorNode">
+                <HighlightBehaviorNodeParams>
+                  <SBonesHighlightNode __type="SHighlightBehaviorNodeParams" __polymorphicType="SBonesHighlightNode">
+                    <boneNames>
+                      <String value="button_weapon" />
+                    </boneNames>
+                  </SBonesHighlightNode>
+                </HighlightBehaviorNodeParams>
+                <nextNodes />
+              </SHighlightBehaviorNode>
+            </HighlightBehaviors>
+            <AdditionalCollisionBones />
+            <Offset __type="QuatT">
+              <Rotation x="0" y="0" z="0" __type="Ang3" />
+              <Position x="0" y="0" z="0" __type="Vec3" />
+            </Offset>
+            <AngleConstraint angleRange="181" __type="SAngleConstraint">
+              <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+            </AngleConstraint>
+            <SpherePrimitive>
+            </SpherePrimitive>
+            <Interactions>
+              <SInteractionParams Interaction="Interactable.SharedInteractions[6]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[7]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+            </Interactions>
+          </SInteractionPointParams>
+          <SInteractionPointParams FirstInteractionPrimary="1" UseHelperLocation="0" ShowHighlight="1" ApplyToEntireSkeleton="0" longRangeIP="0" HelperName="$IP_Button_Lock" TextJustification="Middle" TextOrientation="RotateToPlayer" TextScale="1" Radius="1.6" MaxCursorScreenDistance="2" ShowInnerThoughtsOffScreen="0" OnlySelectableInLookDir="0" __type="SInteractionPointParams">
+            <HighlightBehaviors>
+              <SHighlightBehaviorNode __type="SHighlightBehaviorNode">
+                <HighlightBehaviorNodeParams>
+                  <SBonesHighlightNode __type="SHighlightBehaviorNodeParams" __polymorphicType="SBonesHighlightNode">
+                    <boneNames>
+                      <String value="button_lock" />
+                    </boneNames>
+                  </SBonesHighlightNode>
+                </HighlightBehaviorNodeParams>
+                <nextNodes />
+              </SHighlightBehaviorNode>
+            </HighlightBehaviors>
+            <AdditionalCollisionBones />
+            <Offset __type="QuatT">
+              <Rotation x="0" y="0" z="0" __type="Ang3" />
+              <Position x="0" y="0" z="0" __type="Vec3" />
+            </Offset>
+            <AngleConstraint angleRange="181" __type="SAngleConstraint">
+              <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+            </AngleConstraint>
+            <SpherePrimitive>
+            </SpherePrimitive>
+            <Interactions>
+              <SInteractionParams Interaction="null" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+              <SInteractionParams Interaction="Interactable.SharedInteractions[11]" DisplayName="@LOC_EMPTY" IsPrimary="0" __type="SInteractionParams" />
+            </Interactions>
+          </SInteractionPointParams>
+        </InteractionPoints>
+        <interactionTasks />
+        <actionHandlerTasks />
+        <itemActionTasks />
+        <menuTitle>
+        </menuTitle>
+      </Interactable>
+    </SEntityInteractableParams>
+    <SInteractionLinkParams __type="DataForgeComponentParams" __polymorphicType="SInteractionLinkParams">
+      <vehicleItemPortInteractionLinks>
+        <SVehicleItemportInteractionLink sourceInteraction="Interactable.SharedInteractions[0]" itemPort="hardpoint_door_left" targetInteraction="Open" __type="SVehicleItemportInteractionLink" />
+        <SVehicleItemportInteractionLink sourceInteraction="Interactable.SharedInteractions[1]" itemPort="hardpoint_door_left" targetInteraction="Close" __type="SVehicleItemportInteractionLink" />
+        <SVehicleItemportInteractionLink sourceInteraction="Interactable.SharedInteractions[6]" itemPort="hardpoint_mountedgun_left_01" targetInteraction="Deploy" __type="SVehicleItemportInteractionLink" />
+        <SVehicleItemportInteractionLink sourceInteraction="Interactable.SharedInteractions[7]" itemPort="hardpoint_mountedgun_left_01" targetInteraction="Retract" __type="SVehicleItemportInteractionLink" />
+        <SVehicleItemportInteractionLink sourceInteraction="Interactable.SharedInteractions[6]" itemPort="hardpoint_mountedgun_left_02" targetInteraction="Deploy" __type="SVehicleItemportInteractionLink" />
+        <SVehicleItemportInteractionLink sourceInteraction="Interactable.SharedInteractions[7]" itemPort="hardpoint_mountedgun_left_02" targetInteraction="Retract" __type="SVehicleItemportInteractionLink" />
+        <SVehicleItemportInteractionLink sourceInteraction="null" itemPort="hardpoint_door_left" targetInteraction="Lock" __type="SVehicleItemportInteractionLink" />
+        <SVehicleItemportInteractionLink sourceInteraction="Interactable.SharedInteractions[11]" itemPort="hardpoint_door_left" targetInteraction="Unlock" __type="SVehicleItemportInteractionLink" />
+      </vehicleItemPortInteractionLinks>
+      <linkPlugs />
+    </SInteractionLinkParams>
+    <SGeometryResourceParams cacheResources="0" rootOverridePaint="0" inheritModelTagFromHost="1" __type="DataForgeComponentParams" __polymorphicType="SGeometryResourceParams">
+      <ModelTag>
+      </ModelTag>
+      <Geometry Tags="" ScaleMultiplier="1" __type="SGeometryNodeParams">
+        <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+          <Geometry path="Objects/Spaceships/Ships/DRAK/Cutlass/Cutlass_Steel/DRAK_Cutlass_Steel_Control_Door_Wall.cga" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+          <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+          <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        </Geometry>
+        <SubGeometry>
+          <SGeometryNodeParams Tags="Ext" ScaleMultiplier="1" __type="SGeometryNodeParams">
+            <Geometry Slot="Main" MaterialAttachments="" ProxyCDFPath="" ModifiersPath="" AttachFlags="0" DeformerType="Standard" ProtosBShapeExclude="0" VisTP="1" VisFP="1" VisShadow="1" VisSecondaryViews="1" WrinkleMap="0" BBoxJoint="" BBoxRadius="0" Wear="0" Dirt="0" Interference="0" Damage="0" VisAreaMode="AABB_Center" SunShadowMode="Upto_400m" viewDistRatio="00000000-0000-0000-0000-000000000000" __type="SGeometryDataParams">
+              <Geometry path="Objects/Spaceships/Ships/DRAK/Cutlass/DRAK_Cutlass_Control_Door_Wall_Exterior.cga" __type="GlobalResourceBase" __polymorphicType="GlobalResourceGeometry" />
+              <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+              <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+            </Geometry>
+            <SubGeometry />
+          </SGeometryNodeParams>
+        </SubGeometry>
+      </Geometry>
+      <Material Tags="" __type="SMaterialNodeParams">
+        <Material path="" __type="GlobalResourceBase" __polymorphicType="GlobalResourceMaterial" />
+        <Palette RootRecord="00000000-0000-0000-0000-000000000000" ChildPath="" __type="TintPaletteRef" />
+        <materialVariants />
+      </Material>
+    </SGeometryResourceParams>
+    <SEntityPhysicsControllerParams __type="DataForgeComponentParams" __polymorphicType="SEntityPhysicsControllerParams">
+      <PhysType>
+        <SEntityRigidPhysicsControllerParams Mass="0" maxLoggedCollisions="1" Damping="0" DampingFreefall="0.05" PushableByPlayers="1" NeverAffectTriggers="0" UseManualGridTransition="0" BlocksNavigation="1" Kinematic="0" Resting="0" physicalizeAllSlots="1" __type="SEntityBasePhysicsControllerParams" __polymorphicType="SEntityRigidPhysicsControllerParams">
+          <breakableParams>
+          </breakableParams>
+          <gameCollisionClass>
+          </gameCollisionClass>
+          <grid>
+          </grid>
+          <buoyancyParams>
+          </buoyancyParams>
+          <temperature enable="0" initialTemperature="-1" internalTemperatureGeneration="0" __type="EntityTemperature" />
+        </SEntityRigidPhysicsControllerParams>
+      </PhysType>
+    </SEntityPhysicsControllerParams>
+    <SCItemInteractionEffectsMapParams __type="DataForgeComponentParams" __polymorphicType="SCItemInteractionEffectsMapParams">
+      <Entries>
+        <SCInteractionEffectsMapEntryParams Interaction="Interactable.SharedInteractions[0]" __type="SCInteractionEffectsMapEntryParams">
+          <enableEffectTags>
+            <Reference value="5ed0ade9-51ed-4bed-835c-ada7fbd38738" />
+          </enableEffectTags>
+          <disableEffectTags>
+            <Reference value="61cc8167-9013-4534-b4fc-3d7f60e752b7" />
+          </disableEffectTags>
+        </SCInteractionEffectsMapEntryParams>
+        <SCInteractionEffectsMapEntryParams Interaction="Interactable.SharedInteractions[4]" __type="SCInteractionEffectsMapEntryParams">
+          <enableEffectTags>
+            <Reference value="5ed0ade9-51ed-4bed-835c-ada7fbd38738" />
+          </enableEffectTags>
+          <disableEffectTags>
+            <Reference value="61cc8167-9013-4534-b4fc-3d7f60e752b7" />
+          </disableEffectTags>
+        </SCInteractionEffectsMapEntryParams>
+        <SCInteractionEffectsMapEntryParams Interaction="Interactable.SharedInteractions[1]" __type="SCInteractionEffectsMapEntryParams">
+          <enableEffectTags>
+            <Reference value="61cc8167-9013-4534-b4fc-3d7f60e752b7" />
+          </enableEffectTags>
+          <disableEffectTags>
+            <Reference value="5ed0ade9-51ed-4bed-835c-ada7fbd38738" />
+          </disableEffectTags>
+        </SCInteractionEffectsMapEntryParams>
+        <SCInteractionEffectsMapEntryParams Interaction="Interactable.SharedInteractions[5]" __type="SCInteractionEffectsMapEntryParams">
+          <enableEffectTags>
+            <Reference value="61cc8167-9013-4534-b4fc-3d7f60e752b7" />
+          </enableEffectTags>
+          <disableEffectTags>
+            <Reference value="5ed0ade9-51ed-4bed-835c-ada7fbd38738" />
+          </disableEffectTags>
+        </SCInteractionEffectsMapEntryParams>
+      </Entries>
+    </SCItemInteractionEffectsMapParams>
+    <SEntityComponentEffects __type="DataForgeComponentParams" __polymorphicType="SEntityComponentEffects">
+      <entityEffects __type="SEntitityEffectSystem_SystemBase" __polymorphicType="SEntitityEffectSystem_System">
+        <particleEffects>
+        </particleEffects>
+        <materialEffects>
+        </materialEffects>
+        <soundEffects>
+        </soundEffects>
+        <audioEnvironmentEffects>
+        </audioEnvironmentEffects>
+        <lightEffects>
+          <EntityEffectSystem_LightCategory enabled="1" allowMultipleTags="1" __type="SEntityEffectSystem_Category" __polymorphicType="EntityEffectSystem_LightCategory">
+            <tagEffects>
+              <EntityEffectSystem_LightTagEffect name="GunDeployed" enabled="1" useTemperature="1" colorTemperature="3000" diffuseMultiplier="0.001" viewDistanceRatio="100" castShadow="0" shadowQualityCap="Full" maxShadowCastDistance="0" ambient="0" softBulb="0" fakeLight="1" affectsFog="1" affectThisAreaOnly="0" holographic="0" visibleThirdPerson="1" visibleFirstPerson="1" visibleShadows="1" lightImportance="Standard" tag="03228d89-5cf3-42cd-9ece-936d37cd6da2" __type="SEntityEffectSystem_Effect" __polymorphicType="EntityEffectSystem_LightTagEffect">
+                <color r="1" g="1" b="1" __type="RGB" />
+                <lightType>
+                  <EntityEffectSystem_LightType_PointLight radius="0.5" attenuationBulbSize="0" __type="EntityEffectSystem_LightType" __polymorphicType="EntityEffectSystem_LightType_PointLight" />
+                </lightType>
+                <lightLink>
+                  <EntityEffectSystem_LightLink subMeshName="Button_Gun_Label_Deploy" linkIgnoresColor="0" __type="EntityEffectSystem_LightLink" />
+                </lightLink>
+                <flare flareEnabled="0" flare="" flareFOV="360" flareScale="1" attachToSun="0" __type="LightFlareParams" />
+                <attachmentSettings>
+                  <SEntityEffectSystem_Attachment_BoneAttachment offsetParameter="00000000-0000-0000-0000-000000000000" attachmentZone="Host" boneAttachment="Light_Button_Weapon" __type="SEntityEffectSystem_Attachment" __polymorphicType="SEntityEffectSystem_Attachment_BoneAttachment">
+                    <offset __type="QuatT">
+                      <Rotation x="0" y="0" z="0" __type="Ang3" />
+                      <Position x="0" y="0" z="0" __type="Vec3" />
+                    </offset>
+                  </SEntityEffectSystem_Attachment_BoneAttachment>
+                </attachmentSettings>
+                <propertyLinks />
+              </EntityEffectSystem_LightTagEffect>
+              <EntityEffectSystem_LightTagEffect name="DoorClosed" enabled="1" useTemperature="1" colorTemperature="3000" diffuseMultiplier="0.001" viewDistanceRatio="100" castShadow="0" shadowQualityCap="Full" maxShadowCastDistance="0" ambient="0" softBulb="0" fakeLight="1" affectsFog="1" affectThisAreaOnly="0" holographic="0" visibleThirdPerson="1" visibleFirstPerson="1" visibleShadows="1" lightImportance="Standard" tag="e131930d-be85-49db-9dc6-fac52dde4656" __type="SEntityEffectSystem_Effect" __polymorphicType="EntityEffectSystem_LightTagEffect">
+                <color r="1" g="1" b="1" __type="RGB" />
+                <lightType>
+                  <EntityEffectSystem_LightType_PointLight radius="0.5" attenuationBulbSize="0" __type="EntityEffectSystem_LightType" __polymorphicType="EntityEffectSystem_LightType_PointLight" />
+                </lightType>
+                <lightLink>
+                  <EntityEffectSystem_LightLink subMeshName="Button_Door_Label_Close" linkIgnoresColor="0" __type="EntityEffectSystem_LightLink" />
+                </lightLink>
+                <flare flareEnabled="0" flare="" flareFOV="360" flareScale="1" attachToSun="0" __type="LightFlareParams" />
+                <attachmentSettings>
+                  <SEntityEffectSystem_Attachment_BoneAttachment offsetParameter="00000000-0000-0000-0000-000000000000" attachmentZone="Host" boneAttachment="Light_Button_Door" __type="SEntityEffectSystem_Attachment" __polymorphicType="SEntityEffectSystem_Attachment_BoneAttachment">
+                    <offset __type="QuatT">
+                      <Rotation x="0" y="0" z="0" __type="Ang3" />
+                      <Position x="0" y="0" z="0" __type="Vec3" />
+                    </offset>
+                  </SEntityEffectSystem_Attachment_BoneAttachment>
+                </attachmentSettings>
+                <propertyLinks />
+              </EntityEffectSystem_LightTagEffect>
+              <EntityEffectSystem_LightTagEffect name="GunRetracted" enabled="1" useTemperature="1" colorTemperature="3000" diffuseMultiplier="0.001" viewDistanceRatio="100" castShadow="0" shadowQualityCap="Full" maxShadowCastDistance="0" ambient="0" softBulb="0" fakeLight="1" affectsFog="1" affectThisAreaOnly="0" holographic="0" visibleThirdPerson="1" visibleFirstPerson="1" visibleShadows="1" lightImportance="Standard" tag="0f3f7525-7177-471e-91b4-2d4e76682148" __type="SEntityEffectSystem_Effect" __polymorphicType="EntityEffectSystem_LightTagEffect">
+                <color r="1" g="1" b="1" __type="RGB" />
+                <lightType>
+                  <EntityEffectSystem_LightType_PointLight radius="0.5" attenuationBulbSize="0" __type="EntityEffectSystem_LightType" __polymorphicType="EntityEffectSystem_LightType_PointLight" />
+                </lightType>
+                <lightLink>
+                  <EntityEffectSystem_LightLink subMeshName="Button_Gun_Label_Retract" linkIgnoresColor="0" __type="EntityEffectSystem_LightLink" />
+                </lightLink>
+                <flare flareEnabled="0" flare="" flareFOV="360" flareScale="1" attachToSun="0" __type="LightFlareParams" />
+                <attachmentSettings>
+                  <SEntityEffectSystem_Attachment_BoneAttachment offsetParameter="00000000-0000-0000-0000-000000000000" attachmentZone="Host" boneAttachment="Light_Button_Weapon" __type="SEntityEffectSystem_Attachment" __polymorphicType="SEntityEffectSystem_Attachment_BoneAttachment">
+                    <offset __type="QuatT">
+                      <Rotation x="0" y="0" z="0" __type="Ang3" />
+                      <Position x="0" y="0" z="0" __type="Vec3" />
+                    </offset>
+                  </SEntityEffectSystem_Attachment_BoneAttachment>
+                </attachmentSettings>
+                <propertyLinks />
+              </EntityEffectSystem_LightTagEffect>
+              <EntityEffectSystem_LightTagEffect name="DoorOpen" enabled="1" useTemperature="1" colorTemperature="3000" diffuseMultiplier="0.001" viewDistanceRatio="100" castShadow="0" shadowQualityCap="Full" maxShadowCastDistance="0" ambient="0" softBulb="0" fakeLight="1" affectsFog="1" affectThisAreaOnly="0" holographic="0" visibleThirdPerson="1" visibleFirstPerson="1" visibleShadows="1" lightImportance="Standard" tag="15e0a4c4-25e7-46dc-8f50-40963deb52be" __type="SEntityEffectSystem_Effect" __polymorphicType="EntityEffectSystem_LightTagEffect">
+                <color r="1" g="1" b="1" __type="RGB" />
+                <lightType>
+                  <EntityEffectSystem_LightType_PointLight radius="0.5" attenuationBulbSize="0" __type="EntityEffectSystem_LightType" __polymorphicType="EntityEffectSystem_LightType_PointLight" />
+                </lightType>
+                <lightLink>
+                  <EntityEffectSystem_LightLink subMeshName="Button_Door_Label_Open" linkIgnoresColor="0" __type="EntityEffectSystem_LightLink" />
+                </lightLink>
+                <flare flareEnabled="0" flare="" flareFOV="360" flareScale="1" attachToSun="0" __type="LightFlareParams" />
+                <attachmentSettings>
+                  <SEntityEffectSystem_Attachment_BoneAttachment offsetParameter="00000000-0000-0000-0000-000000000000" attachmentZone="Host" boneAttachment="Light_Button_Door" __type="SEntityEffectSystem_Attachment" __polymorphicType="SEntityEffectSystem_Attachment_BoneAttachment">
+                    <offset __type="QuatT">
+                      <Rotation x="0" y="0" z="0" __type="Ang3" />
+                      <Position x="0" y="0" z="0" __type="Vec3" />
+                    </offset>
+                  </SEntityEffectSystem_Attachment_BoneAttachment>
+                </attachmentSettings>
+                <propertyLinks />
+              </EntityEffectSystem_LightTagEffect>
+              <EntityEffectSystem_LightTagEffect name="DoorClosing" enabled="1" useTemperature="1" colorTemperature="3000" diffuseMultiplier="0.001" viewDistanceRatio="100" castShadow="0" shadowQualityCap="Full" maxShadowCastDistance="0" ambient="0" softBulb="0" fakeLight="0" affectsFog="1" affectThisAreaOnly="0" holographic="0" visibleThirdPerson="1" visibleFirstPerson="1" visibleShadows="1" lightImportance="Standard" tag="bf445c2c-1d59-42dd-91d4-b5d465dd1ffa" __type="SEntityEffectSystem_Effect" __polymorphicType="EntityEffectSystem_LightTagEffect">
+                <color r="1" g="1" b="1" __type="RGB" />
+                <lightType>
+                  <EntityEffectSystem_LightType_PointLight radius="0.5" attenuationBulbSize="0" __type="EntityEffectSystem_LightType" __polymorphicType="EntityEffectSystem_LightType_PointLight" />
+                </lightType>
+                <lightLink>
+                </lightLink>
+                <flare flareEnabled="0" flare="" flareFOV="360" flareScale="1" attachToSun="0" __type="LightFlareParams" />
+                <attachmentSettings>
+                  <SEntityEffectSystem_Attachment_BoneAttachment offsetParameter="00000000-0000-0000-0000-000000000000" attachmentZone="Host" boneAttachment="Light_Button_Door" __type="SEntityEffectSystem_Attachment" __polymorphicType="SEntityEffectSystem_Attachment_BoneAttachment">
+                    <offset __type="QuatT">
+                      <Rotation x="0" y="0" z="0" __type="Ang3" />
+                      <Position x="0" y="0" z="0" __type="Vec3" />
+                    </offset>
+                  </SEntityEffectSystem_Attachment_BoneAttachment>
+                </attachmentSettings>
+                <propertyLinks />
+              </EntityEffectSystem_LightTagEffect>
+              <EntityEffectSystem_LightTagEffect name="DoorOpening" enabled="1" useTemperature="1" colorTemperature="3000" diffuseMultiplier="0.001" viewDistanceRatio="100" castShadow="0" shadowQualityCap="Full" maxShadowCastDistance="0" ambient="0" softBulb="0" fakeLight="0" affectsFog="1" affectThisAreaOnly="0" holographic="0" visibleThirdPerson="1" visibleFirstPerson="1" visibleShadows="1" lightImportance="Standard" tag="5661f83d-ce39-4515-834f-51410446871b" __type="SEntityEffectSystem_Effect" __polymorphicType="EntityEffectSystem_LightTagEffect">
+                <color r="1" g="1" b="1" __type="RGB" />
+                <lightType>
+                  <EntityEffectSystem_LightType_PointLight radius="0.5" attenuationBulbSize="0" __type="EntityEffectSystem_LightType" __polymorphicType="EntityEffectSystem_LightType_PointLight" />
+                </lightType>
+                <lightLink>
+                </lightLink>
+                <flare flareEnabled="0" flare="" flareFOV="360" flareScale="1" attachToSun="0" __type="LightFlareParams" />
+                <attachmentSettings>
+                  <SEntityEffectSystem_Attachment_BoneAttachment offsetParameter="00000000-0000-0000-0000-000000000000" attachmentZone="Host" boneAttachment="Light_Button_Door" __type="SEntityEffectSystem_Attachment" __polymorphicType="SEntityEffectSystem_Attachment_BoneAttachment">
+                    <offset __type="QuatT">
+                      <Rotation x="0" y="0" z="0" __type="Ang3" />
+                      <Position x="0" y="0" z="0" __type="Vec3" />
+                    </offset>
+                  </SEntityEffectSystem_Attachment_BoneAttachment>
+                </attachmentSettings>
+                <propertyLinks />
+              </EntityEffectSystem_LightTagEffect>
+              <EntityEffectSystem_LightTagEffect name="GunButtonActive" enabled="1" useTemperature="1" colorTemperature="3000" diffuseMultiplier="0.001" viewDistanceRatio="100" castShadow="0" shadowQualityCap="Full" maxShadowCastDistance="0" ambient="0" softBulb="0" fakeLight="0" affectsFog="1" affectThisAreaOnly="0" holographic="0" visibleThirdPerson="1" visibleFirstPerson="1" visibleShadows="1" lightImportance="Standard" tag="d222dafe-4ea3-4ba6-8775-fe2ed10e28e9" __type="SEntityEffectSystem_Effect" __polymorphicType="EntityEffectSystem_LightTagEffect">
+                <color r="1" g="1" b="1" __type="RGB" />
+                <lightType>
+                  <EntityEffectSystem_LightType_PointLight radius="0.5" attenuationBulbSize="0" __type="EntityEffectSystem_LightType" __polymorphicType="EntityEffectSystem_LightType_PointLight" />
+                </lightType>
+                <lightLink>
+                </lightLink>
+                <flare flareEnabled="0" flare="" flareFOV="360" flareScale="1" attachToSun="0" __type="LightFlareParams" />
+                <attachmentSettings>
+                  <SEntityEffectSystem_Attachment_BoneAttachment offsetParameter="00000000-0000-0000-0000-000000000000" attachmentZone="Host" boneAttachment="Light_Button_Weapon" __type="SEntityEffectSystem_Attachment" __polymorphicType="SEntityEffectSystem_Attachment_BoneAttachment">
+                    <offset __type="QuatT">
+                      <Rotation x="0" y="0" z="0" __type="Ang3" />
+                      <Position x="0" y="0" z="0" __type="Vec3" />
+                    </offset>
+                  </SEntityEffectSystem_Attachment_BoneAttachment>
+                </attachmentSettings>
+                <propertyLinks />
+              </EntityEffectSystem_LightTagEffect>
+              <EntityEffectSystem_LightTagEffect name="Light_Button_Lock" enabled="1" useTemperature="1" colorTemperature="2000" diffuseMultiplier="0.001" viewDistanceRatio="100" castShadow="0" shadowQualityCap="Full" maxShadowCastDistance="0" ambient="0" softBulb="0" fakeLight="1" affectsFog="1" affectThisAreaOnly="0" holographic="0" visibleThirdPerson="1" visibleFirstPerson="1" visibleShadows="1" lightImportance="Standard" tag="a1f4a441-bb9a-4d0c-9c71-46eaeea6e8ac" __type="SEntityEffectSystem_Effect" __polymorphicType="EntityEffectSystem_LightTagEffect">
+                <color r="1" g="1" b="1" __type="RGB" />
+                <lightType>
+                  <EntityEffectSystem_LightType_PointLight radius="0.5" attenuationBulbSize="0" __type="EntityEffectSystem_LightType" __polymorphicType="EntityEffectSystem_LightType_PointLight" />
+                </lightType>
+                <lightLink>
+                  <EntityEffectSystem_LightLink subMeshName="Button_Door_Label_Lock" linkIgnoresColor="0" __type="EntityEffectSystem_LightLink" />
+                </lightLink>
+                <flare flareEnabled="0" flare="" flareFOV="360" flareScale="1" attachToSun="0" __type="LightFlareParams" />
+                <attachmentSettings>
+                  <SEntityEffectSystem_Attachment_EntitySlot offsetParameter="00000000-0000-0000-0000-000000000000" __type="SEntityEffectSystem_Attachment" __polymorphicType="SEntityEffectSystem_Attachment_EntitySlot">
+                    <offset __type="QuatT">
+                      <Rotation x="0" y="0" z="0" __type="Ang3" />
+                      <Position x="0" y="0" z="0" __type="Vec3" />
+                    </offset>
+                  </SEntityEffectSystem_Attachment_EntitySlot>
+                </attachmentSettings>
+                <propertyLinks />
+              </EntityEffectSystem_LightTagEffect>
+            </tagEffects>
+            <triggerEffects />
+          </EntityEffectSystem_LightCategory>
+        </lightEffects>
+        <uiOwnerEffects>
+        </uiOwnerEffects>
+        <sequencerTags>
+          <EntityEffectSystem_ToggleSequencerTask tag="5ed0ade9-51ed-4bed-835c-ada7fbd38738" __type="SSequencerDefTaskParams" __polymorphicType="EntityEffectSystem_ToggleSequencerTask" />
+          <EntityEffectSystem_ToggleSequencerTask tag="61cc8167-9013-4534-b4fc-3d7f60e752b7" __type="SSequencerDefTaskParams" __polymorphicType="EntityEffectSystem_ToggleSequencerTask" />
+        </sequencerTags>
+      </entityEffects>
+      <staticValues />
+      <staticColors />
+      <tagsToEnableOnLoad />
+      <triggersToEnableOnLoad />
+    </SEntityComponentEffects>
+    <SInteractionStateMachineParams __type="DataForgeComponentParams" __polymorphicType="SInteractionStateMachineParams">
+      <StateTypes>
+        <SInteractionStateType StateTypeName="OpenCloseStates" bindingsMethod="None" DefaultState="StateTypes[0].SInteractionStateType.States[0]" networkAuthority="Server" __type="SInteractionStateType">
+          <States>
+            <SInteractionState StateName="Closed" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags>
+                <Reference value="e131930d-be85-49db-9dc6-fac52dde4656" />
+              </enterStateEffectTags>
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions />
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="Opened" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags>
+                <Reference value="15e0a4c4-25e7-46dc-8f50-40963deb52be" />
+              </enterStateEffectTags>
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions />
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="Opening" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags>
+                <Reference value="5661f83d-ce39-4515-834f-51410446871b" />
+              </enterStateEffectTags>
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions />
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="Closing" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags>
+                <Reference value="bf445c2c-1d59-42dd-91d4-b5d465dd1ffa" />
+              </enterStateEffectTags>
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions />
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+          </States>
+          <StateModifiers>
+            <SLinkedInteractionStateChangedStateModifier nullEntityState="null" __type="SStateModifier" __polymorphicType="SLinkedInteractionStateChangedStateModifier">
+              <context>
+                <SEntityTraversalNodeContext entityTraversalNode="TraversingNodes.SEntityTraversingNodeBase.nextNodes[0].SEntityTraversingNodeBase.id" __type="SEntityContextBase" __polymorphicType="SEntityTraversalNodeContext" />
+              </context>
+              <onChangeStateTagStates>
+                <SLinkedInteractionStateTags state="StateTypes[0].SInteractionStateType.States[0]" __type="SLinkedInteractionStateTags">
+                  <stateTags __type="TagList">
+                    <tags>
+                      <Reference value="6bd67663-b803-4f3b-9c9f-42c591b51b93" />
+                    </tags>
+                  </stateTags>
+                </SLinkedInteractionStateTags>
+                <SLinkedInteractionStateTags state="StateTypes[0].SInteractionStateType.States[2]" __type="SLinkedInteractionStateTags">
+                  <stateTags __type="TagList">
+                    <tags>
+                      <Reference value="5d7b8e59-552f-407f-9df1-8eb582e9c22b" />
+                    </tags>
+                  </stateTags>
+                </SLinkedInteractionStateTags>
+                <SLinkedInteractionStateTags state="StateTypes[0].SInteractionStateType.States[1]" __type="SLinkedInteractionStateTags">
+                  <stateTags __type="TagList">
+                    <tags>
+                      <Reference value="9057a388-8ac5-40e2-9b0f-657bfab9ff60" />
+                    </tags>
+                  </stateTags>
+                </SLinkedInteractionStateTags>
+                <SLinkedInteractionStateTags state="StateTypes[0].SInteractionStateType.States[3]" __type="SLinkedInteractionStateTags">
+                  <stateTags __type="TagList">
+                    <tags>
+                      <Reference value="19e014c7-a1cc-4255-b206-94a9d85a3dac" />
+                    </tags>
+                  </stateTags>
+                </SLinkedInteractionStateTags>
+              </onChangeStateTagStates>
+            </SLinkedInteractionStateChangedStateModifier>
+          </StateModifiers>
+        </SInteractionStateType>
+        <SInteractionStateType StateTypeName="Button1_PressState" bindingsMethod="None" DefaultState="null" networkAuthority="Server" __type="SInteractionStateType">
+          <States>
+            <SInteractionState StateName="Button1_AwaitingPress" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers>
+                <AnimationSetVariable variable="AnimationJointControls.AnimationJointControl.variables[0]" value="-1" __type="EventDispatcher" __polymorphicType="AnimationSetVariable">
+                  <overrideInterpolation>
+                  </overrideInterpolation>
+                </AnimationSetVariable>
+              </EnterEventDispatchers>
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions>
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[6]" NextState="StateTypes[1].SInteractionStateType.States[1]" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[7]" NextState="StateTypes[1].SInteractionStateType.States[1]" __type="SInteractionStateTransition" />
+              </Interactions>
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="Button1_Pressed" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers>
+                <AnimationSetVariable variable="AnimationJointControls.AnimationJointControl.variables[0]" value="1" __type="EventDispatcher" __polymorphicType="AnimationSetVariable">
+                  <overrideInterpolation>
+                  </overrideInterpolation>
+                </AnimationSetVariable>
+              </EnterEventDispatchers>
+              <StateAutoChange>
+                <SStateAutoChange NextState="StateTypes[1].SInteractionStateType.States[0]" Delay="0.25" __type="SStateAutoChange" />
+              </StateAutoChange>
+              <Interactions />
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+          </States>
+          <StateModifiers />
+        </SInteractionStateType>
+        <SInteractionStateType StateTypeName="Button2_PressState" bindingsMethod="None" DefaultState="null" networkAuthority="Server" __type="SInteractionStateType">
+          <States>
+            <SInteractionState StateName="Button2_AwaitingPress" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers>
+                <AnimationSetVariable variable="AnimationJointControls.AnimationJointControl.variables[1]" value="-1" __type="EventDispatcher" __polymorphicType="AnimationSetVariable">
+                  <overrideInterpolation>
+                  </overrideInterpolation>
+                </AnimationSetVariable>
+              </EnterEventDispatchers>
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions>
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[1]" NextState="StateTypes[2].SInteractionStateType.States[1]" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[0]" NextState="StateTypes[2].SInteractionStateType.States[1]" __type="SInteractionStateTransition" />
+              </Interactions>
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="Button2_Pressed" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers>
+                <AnimationSetVariable variable="AnimationJointControls.AnimationJointControl.variables[1]" value="1" __type="EventDispatcher" __polymorphicType="AnimationSetVariable">
+                  <overrideInterpolation>
+                  </overrideInterpolation>
+                </AnimationSetVariable>
+              </EnterEventDispatchers>
+              <StateAutoChange>
+                <SStateAutoChange NextState="StateTypes[2].SInteractionStateType.States[0]" Delay="0.25" __type="SStateAutoChange" />
+              </StateAutoChange>
+              <Interactions />
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+          </States>
+          <StateModifiers />
+        </SInteractionStateType>
+        <SInteractionStateType StateTypeName="Button3_PressState" bindingsMethod="None" DefaultState="null" networkAuthority="Server" __type="SInteractionStateType">
+          <States>
+            <SInteractionState StateName="Button3_AwaitingPress" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers>
+                <AnimationSetVariable variable="AnimationJointControls.AnimationJointControl.variables[2]" value="-1" __type="EventDispatcher" __polymorphicType="AnimationSetVariable">
+                  <overrideInterpolation>
+                  </overrideInterpolation>
+                </AnimationSetVariable>
+              </EnterEventDispatchers>
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions>
+                <SInteractionStateTransition Interaction="null" NextState="StateTypes[3].SInteractionStateType.States[1]" __type="SInteractionStateTransition" />
+                <SInteractionStateTransition Interaction="Interactable.SharedInteractions[11]" NextState="StateTypes[3].SInteractionStateType.States[1]" __type="SInteractionStateTransition" />
+              </Interactions>
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="Button3_Pressed" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers>
+                <AnimationSetVariable variable="AnimationJointControls.AnimationJointControl.variables[2]" value="1" __type="EventDispatcher" __polymorphicType="AnimationSetVariable">
+                  <overrideInterpolation>
+                  </overrideInterpolation>
+                </AnimationSetVariable>
+              </EnterEventDispatchers>
+              <StateAutoChange>
+                <SStateAutoChange NextState="StateTypes[3].SInteractionStateType.States[0]" Delay="0.25" __type="SStateAutoChange" />
+              </StateAutoChange>
+              <Interactions />
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+          </States>
+          <StateModifiers />
+        </SInteractionStateType>
+        <SInteractionStateType StateTypeName="DeployRetractStates" bindingsMethod="None" DefaultState="StateTypes[4].SInteractionStateType.States[0]" networkAuthority="Server" __type="SInteractionStateType">
+          <States>
+            <SInteractionState StateName="Retracted" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags>
+                <Reference value="0f3f7525-7177-471e-91b4-2d4e76682148" />
+              </enterStateEffectTags>
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions />
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="Deployed" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags>
+                <Reference value="03228d89-5cf3-42cd-9ece-936d37cd6da2" />
+              </enterStateEffectTags>
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions />
+              <stateTags __type="TagList">
+                <tags />
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+          </States>
+          <StateModifiers>
+            <SLinkedInteractionStateChangedStateModifier nullEntityState="null" __type="SStateModifier" __polymorphicType="SLinkedInteractionStateChangedStateModifier">
+              <context>
+                <SEntityTraversalNodeContext entityTraversalNode="TraversingNodes.SEntityTraversingNodeBase.nextNodes[1].SEntityTraversingNodeBase.id" __type="SEntityContextBase" __polymorphicType="SEntityTraversalNodeContext" />
+              </context>
+              <onChangeStateTagStates>
+                <SLinkedInteractionStateTags state="StateTypes[4].SInteractionStateType.States[0]" __type="SLinkedInteractionStateTags">
+                  <stateTags __type="TagList">
+                    <tags>
+                      <Reference value="32b71516-397d-4768-a4e4-b0e2b5b78191" />
+                    </tags>
+                  </stateTags>
+                </SLinkedInteractionStateTags>
+                <SLinkedInteractionStateTags state="StateTypes[4].SInteractionStateType.States[1]" __type="SLinkedInteractionStateTags">
+                  <stateTags __type="TagList">
+                    <tags>
+                      <Reference value="f10f6fac-833b-4f65-982d-86072f737040" />
+                    </tags>
+                  </stateTags>
+                </SLinkedInteractionStateTags>
+              </onChangeStateTagStates>
+            </SLinkedInteractionStateChangedStateModifier>
+          </StateModifiers>
+        </SInteractionStateType>
+        <SInteractionStateType StateTypeName="DoorLockState" bindingsMethod="None" DefaultState="null" networkAuthority="Server" __type="SInteractionStateType">
+          <States>
+            <SInteractionState StateName="DoorUnlocked" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags />
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions />
+              <stateTags __type="TagList">
+                <tags>
+                  <Reference value="e5e348ca-7752-4930-8a50-874f34dca55e" />
+                </tags>
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState StateName="DoorLocked" EnterStateEffectGroup="" ExitStateEffectGroup="" EnterStatePlaySequence="null" ExitStatePlaySequence="null" enterGeometryTags="" __type="SInteractionState">
+              <enterStateEffectTags>
+                <Reference value="a1f4a441-bb9a-4d0c-9c71-46eaeea6e8ac" />
+              </enterStateEffectTags>
+              <exitStateEffectTags />
+              <EnterEventDispatchers />
+              <StateAutoChange>
+              </StateAutoChange>
+              <Interactions />
+              <stateTags __type="TagList">
+                <tags>
+                  <Reference value="60daf4c5-91c1-4900-aac2-1eb57f9de62f" />
+                </tags>
+              </stateTags>
+              <entityTags __type="TagList">
+                <tags />
+              </entityTags>
+            </SInteractionState>
+          </States>
+          <StateModifiers>
+            <SLinkedInteractionStateChangedStateModifier nullEntityState="null" __type="SStateModifier" __polymorphicType="SLinkedInteractionStateChangedStateModifier">
+              <context>
+                <SEntityTraversalNodeContext entityTraversalNode="TraversingNodes.SEntityTraversingNodeBase.nextNodes[0].SEntityTraversingNodeBase.id" __type="SEntityContextBase" __polymorphicType="SEntityTraversalNodeContext" />
+              </context>
+              <onChangeStateTagStates>
+                <SLinkedInteractionStateTags state="StateTypes[5].SInteractionStateType.States[1]" __type="SLinkedInteractionStateTags">
+                  <stateTags __type="TagList">
+                    <tags>
+                      <Reference value="60daf4c5-91c1-4900-aac2-1eb57f9de62f" />
+                    </tags>
+                  </stateTags>
+                </SLinkedInteractionStateTags>
+                <SLinkedInteractionStateTags state="StateTypes[5].SInteractionStateType.States[0]" __type="SLinkedInteractionStateTags">
+                  <stateTags __type="TagList">
+                    <tags>
+                      <Reference value="e5e348ca-7752-4930-8a50-874f34dca55e" />
+                    </tags>
+                  </stateTags>
+                </SLinkedInteractionStateTags>
+              </onChangeStateTagStates>
+            </SLinkedInteractionStateChangedStateModifier>
+          </StateModifiers>
+        </SInteractionStateType>
+      </StateTypes>
+    </SInteractionStateMachineParams>
+    <SEntityTraversingTreeParams __type="DataForgeComponentParams" __polymorphicType="SEntityTraversingTreeParams">
+      <TraversingNodes>
+        <SEntityTraversingNodeBase name="DRAK_Cutlass" __type="SEntityTraversingNodeBase">
+          <id>
+          </id>
+          <entityTraversingType>
+            <SEntityTraversingNodeTypeZoneHostEntity __type="SEntityTraversingNodeTypeParams" __polymorphicType="SEntityTraversingNodeTypeZoneHostEntity" />
+          </entityTraversingType>
+          <executeNodes />
+          <nextNodes>
+            <SEntityTraversingNodeBase name="Door" __type="SEntityTraversingNodeBase">
+              <id>
+                <SEntityTraversingNodeUniqueId id="da42f60e-dd75-4819-9b8c-a9a813d5cbcf" __type="SEntityTraversingNodeUniqueId" />
+              </id>
+              <entityTraversingType>
+                <SEntityTraversingNodeTypeItemPort itemPortName="hardpoint_door_left" __type="SEntityTraversingNodeTypeParams" __polymorphicType="SEntityTraversingNodeTypeItemPort" />
+              </entityTraversingType>
+              <executeNodes>
+                <SInverseInteractionLinkExecuteCreateInteractionLinkNode __type="SEntityTraversingExecuteNodeBase" __polymorphicType="SInverseInteractionLinkExecuteCreateInteractionLinkNode">
+                  <interactionPointParams FirstInteractionPrimary="1" UseHelperLocation="0" ShowHighlight="1" ApplyToEntireSkeleton="0" longRangeIP="0" HelperName="" TextJustification="Middle" TextOrientation="RotateToPlayer" TextScale="1" Radius="1.6" MaxCursorScreenDistance="2" ShowInnerThoughtsOffScreen="0" OnlySelectableInLookDir="0" __type="SInteractionPointParams">
+                    <HighlightBehaviors />
+                    <AdditionalCollisionBones />
+                    <Offset __type="QuatT">
+                      <Rotation x="0" y="0" z="0" __type="Ang3" />
+                      <Position x="0" y="0" z="0" __type="Vec3" />
+                    </Offset>
+                    <AngleConstraint angleRange="181" __type="SAngleConstraint">
+                      <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+                    </AngleConstraint>
+                    <SpherePrimitive>
+                    </SpherePrimitive>
+                    <Interactions />
+                  </interactionPointParams>
+                  <inverseInteractionEntries>
+                    <SInverseInteractionLinkParams targetInteractionName="SyncOpen" __type="SInverseInteractionLinkParams">
+                      <interactionEntry Name="Open" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_use" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+                        <QueryTags />
+                        <conditionList>
+                        </conditionList>
+                      </interactionEntry>
+                    </SInverseInteractionLinkParams>
+                    <SInverseInteractionLinkParams targetInteractionName="SyncClose" __type="SInverseInteractionLinkParams">
+                      <interactionEntry Name="Close" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_use" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+                        <QueryTags />
+                        <conditionList>
+                        </conditionList>
+                      </interactionEntry>
+                    </SInverseInteractionLinkParams>
+                  </inverseInteractionEntries>
+                </SInverseInteractionLinkExecuteCreateInteractionLinkNode>
+              </executeNodes>
+              <nextNodes />
+            </SEntityTraversingNodeBase>
+            <SEntityTraversingNodeBase name="Gun" __type="SEntityTraversingNodeBase">
+              <id>
+                <SEntityTraversingNodeUniqueId id="afcee5ab-38fd-4d02-97a0-f0b5d7bbabe6" __type="SEntityTraversingNodeUniqueId" />
+              </id>
+              <entityTraversingType>
+                <SEntityTraversingNodeTypeItemPort itemPortName="hardpoint_mountedgun_left_01" __type="SEntityTraversingNodeTypeParams" __polymorphicType="SEntityTraversingNodeTypeItemPort" />
+              </entityTraversingType>
+              <executeNodes>
+                <SInverseInteractionLinkExecuteCreateInteractionLinkNode __type="SEntityTraversingExecuteNodeBase" __polymorphicType="SInverseInteractionLinkExecuteCreateInteractionLinkNode">
+                  <interactionPointParams FirstInteractionPrimary="1" UseHelperLocation="0" ShowHighlight="1" ApplyToEntireSkeleton="0" longRangeIP="0" HelperName="" TextJustification="Middle" TextOrientation="RotateToPlayer" TextScale="1" Radius="1.6" MaxCursorScreenDistance="2" ShowInnerThoughtsOffScreen="0" OnlySelectableInLookDir="0" __type="SInteractionPointParams">
+                    <HighlightBehaviors />
+                    <AdditionalCollisionBones />
+                    <Offset __type="QuatT">
+                      <Rotation x="0" y="0" z="0" __type="Ang3" />
+                      <Position x="0" y="0" z="0" __type="Vec3" />
+                    </Offset>
+                    <AngleConstraint angleRange="181" __type="SAngleConstraint">
+                      <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+                    </AngleConstraint>
+                    <SpherePrimitive>
+                    </SpherePrimitive>
+                    <Interactions />
+                  </interactionPointParams>
+                  <inverseInteractionEntries>
+                    <SInverseInteractionLinkParams targetInteractionName="SyncDeploy" __type="SInverseInteractionLinkParams">
+                      <interactionEntry Name="Deploy" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_use" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+                        <QueryTags />
+                        <conditionList>
+                        </conditionList>
+                      </interactionEntry>
+                    </SInverseInteractionLinkParams>
+                    <SInverseInteractionLinkParams targetInteractionName="SyncRetract" __type="SInverseInteractionLinkParams">
+                      <interactionEntry Name="Retract" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_use" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+                        <QueryTags />
+                        <conditionList>
+                        </conditionList>
+                      </interactionEntry>
+                    </SInverseInteractionLinkParams>
+                  </inverseInteractionEntries>
+                </SInverseInteractionLinkExecuteCreateInteractionLinkNode>
+              </executeNodes>
+              <nextNodes />
+            </SEntityTraversingNodeBase>
+            <SEntityTraversingNodeBase name="Gun2" __type="SEntityTraversingNodeBase">
+              <id>
+                <SEntityTraversingNodeUniqueId id="4ac88894-6b1a-45cd-9323-29be56225849" __type="SEntityTraversingNodeUniqueId" />
+              </id>
+              <entityTraversingType>
+                <SEntityTraversingNodeTypeItemPort itemPortName="hardpoint_mountedgun_left_02" __type="SEntityTraversingNodeTypeParams" __polymorphicType="SEntityTraversingNodeTypeItemPort" />
+              </entityTraversingType>
+              <executeNodes>
+                <SInverseInteractionLinkExecuteCreateInteractionLinkNode __type="SEntityTraversingExecuteNodeBase" __polymorphicType="SInverseInteractionLinkExecuteCreateInteractionLinkNode">
+                  <interactionPointParams FirstInteractionPrimary="1" UseHelperLocation="0" ShowHighlight="1" ApplyToEntireSkeleton="0" longRangeIP="0" HelperName="" TextJustification="Middle" TextOrientation="RotateToPlayer" TextScale="1" Radius="1.6" MaxCursorScreenDistance="2" ShowInnerThoughtsOffScreen="0" OnlySelectableInLookDir="0" __type="SInteractionPointParams">
+                    <HighlightBehaviors />
+                    <AdditionalCollisionBones />
+                    <Offset __type="QuatT">
+                      <Rotation x="0" y="0" z="0" __type="Ang3" />
+                      <Position x="0" y="0" z="0" __type="Vec3" />
+                    </Offset>
+                    <AngleConstraint angleRange="181" __type="SAngleConstraint">
+                      <forwardDirOffset x="0" y="0" z="0" __type="Vec3" />
+                    </AngleConstraint>
+                    <SpherePrimitive>
+                    </SpherePrimitive>
+                    <Interactions />
+                  </interactionPointParams>
+                  <inverseInteractionEntries>
+                    <SInverseInteractionLinkParams targetInteractionName="SyncDeploy" __type="SInverseInteractionLinkParams">
+                      <interactionEntry Name="Deploy" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_use" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+                        <QueryTags />
+                        <conditionList>
+                        </conditionList>
+                      </interactionEntry>
+                    </SInverseInteractionLinkParams>
+                    <SInverseInteractionLinkParams targetInteractionName="SyncRetract" __type="SInverseInteractionLinkParams">
+                      <interactionEntry Name="Retract" RoomTag="00000000-0000-0000-0000-000000000000" UsableTag="00000000-0000-0000-0000-000000000000" LinkingTag="00000000-0000-0000-0000-000000000000" DisplayName="@usable_use" DisplayType="Show" GenericCursor="SingleAction" FocusModeOnly="0" Sendable="0" Linkable="0" LockedByLinks="0" RequiresAuthorizedUser="0" available="1" InheritsConditionDisplaysThroughLinks="0" __type="SSharedInteractionParams">
+                        <QueryTags />
+                        <conditionList>
+                        </conditionList>
+                      </interactionEntry>
+                    </SInverseInteractionLinkParams>
+                  </inverseInteractionEntries>
+                </SInverseInteractionLinkExecuteCreateInteractionLinkNode>
+              </executeNodes>
+              <nextNodes />
+            </SEntityTraversingNodeBase>
+          </nextNodes>
+        </SEntityTraversingNodeBase>
+      </TraversingNodes>
+    </SEntityTraversingTreeParams>
+    <SAnimationControllerParams AnimationDatabase="" AnimationController="" __type="DataForgeComponentParams" __polymorphicType="SAnimationControllerParams">
+      <Tags />
+      <ScopeContexts />
+      <AnimationJointControls>
+        <AnimationJointControl __type="AnimationJointControl">
+          <variables>
+            <AnimationFloatVariable name="var_Button1" defaultValue="-1" __type="AnimationVariable" __polymorphicType="AnimationFloatVariable">
+              <range minimum="-1" maximum="1" __type="Range" />
+              <defaultInterpolation timeRange="0.1" type="Linear" __type="AnimationVariableInterpolation" />
+            </AnimationFloatVariable>
+            <AnimationFloatVariable name="var_Button2" defaultValue="-1" __type="AnimationVariable" __polymorphicType="AnimationFloatVariable">
+              <range minimum="-1" maximum="1" __type="Range" />
+              <defaultInterpolation timeRange="0.1" type="Linear" __type="AnimationVariableInterpolation" />
+            </AnimationFloatVariable>
+            <AnimationFloatVariable name="var_Button3" defaultValue="-1" __type="AnimationVariable" __polymorphicType="AnimationFloatVariable">
+              <range minimum="-1" maximum="1" __type="Range" />
+              <defaultInterpolation timeRange="0.1" type="Linear" __type="AnimationVariableInterpolation" />
+            </AnimationFloatVariable>
+          </variables>
+          <movements>
+            <AnimationJointMovement joint="button_weapon" __type="AnimationJointMovement">
+              <rotations>
+              </rotations>
+              <translations>
+                <AnimationJointLinearTranslation variable="AnimationJointControls.AnimationJointControl.variables[0]" fromStartValus="-1" fromEndValus="1" toStartOffset="-0.003" toEndOffset="0.003" __type="AnimationJointTransform" __polymorphicType="AnimationJointLinearTranslation" />
+              </translations>
+            </AnimationJointMovement>
+            <AnimationJointMovement joint="button_door" __type="AnimationJointMovement">
+              <rotations>
+              </rotations>
+              <translations>
+                <AnimationJointLinearTranslation variable="AnimationJointControls.AnimationJointControl.variables[1]" fromStartValus="-1" fromEndValus="1" toStartOffset="-0.003" toEndOffset="0.003" __type="AnimationJointTransform" __polymorphicType="AnimationJointLinearTranslation" />
+              </translations>
+            </AnimationJointMovement>
+            <AnimationJointMovement joint="button_lock" __type="AnimationJointMovement">
+              <rotations>
+              </rotations>
+              <translations>
+                <AnimationJointLinearTranslation variable="AnimationJointControls.AnimationJointControl.variables[2]" fromStartValus="-1" fromEndValus="1" toStartOffset="-0.003" toEndOffset="0.003" __type="AnimationJointTransform" __polymorphicType="AnimationJointLinearTranslation" />
+              </translations>
+            </AnimationJointMovement>
+          </movements>
+          <animations />
+        </AnimationJointControl>
+      </AnimationJointControls>
+      <AnimationControlActorIKs />
+      <AnimationTasks />
+      <defaultAnimation>
+      </defaultAnimation>
+    </SAnimationControllerParams>
+  </Components>
+</EntityClassDefinition.DRAK_Cutlass_Steel_Switch_SideDoor_Left>

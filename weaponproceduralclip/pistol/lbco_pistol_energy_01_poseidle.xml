@@ -1,0 +1,8 @@
+<WeaponProceduralClip.lbco_pistol_energy_01_PoseIdle __type="WeaponProceduralClip" __ref="c32d732f-0a93-4cf2-ae17-63b53087bfb5" __path="libs/foundry/records/weaponproceduralclip/pistol/lbco_pistol_energy_01_poseidle.xml">
+  <weaponProceduralClipBase>
+    <WeaponProceduralClipPose blendTime="1" poseType="RightHand" zoomTransitionAngle="0" useAimHelperOffset="0" __type="WeaponProceduralClipBase" __polymorphicType="WeaponProceduralClipPose">
+      <position x="0.045" y="0.035" z="-0.015" __type="Vec3" />
+      <rotation x="0" y="2" z="0" __type="Ang3" />
+    </WeaponProceduralClipPose>
+  </weaponProceduralClipBase>
+</WeaponProceduralClip.lbco_pistol_energy_01_PoseIdle>

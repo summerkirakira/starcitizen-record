@@ -1,0 +1,73 @@
+<WeaponProceduralAnimation.klwe_lmg_energy_01 __type="WeaponProceduralAnimation" __ref="18472a10-bd5f-4962-b4bd-d0940eeeab27" __path="libs/foundry/records/weaponproceduralanimation/klwe_lmg_energy_01.xml">
+  <weaponProceduralClipsSetUp>
+    <WeaponProceduralClipsSetUp filterByState="Jump" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="ADS" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" __type="ActorStateFilter" __polymorphicType="WeaponProceduralClipsSetUp">
+      <weaponProceduralClips>
+        <Reference value="eae2a258-b177-42e6-9db9-f2b151240175" />
+      </weaponProceduralClips>
+    </WeaponProceduralClipsSetUp>
+    <WeaponProceduralClipsSetUp filterByState="Jump" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" __type="ActorStateFilter" __polymorphicType="WeaponProceduralClipsSetUp">
+      <weaponProceduralClips>
+        <Reference value="5fd61e82-0d95-4f27-a47f-46e122afca75" />
+      </weaponProceduralClips>
+    </WeaponProceduralClipsSetUp>
+    <WeaponProceduralClipsSetUp filterByState="Fall" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="ADS" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" __type="ActorStateFilter" __polymorphicType="WeaponProceduralClipsSetUp">
+      <weaponProceduralClips>
+        <Reference value="7dcf1f74-8833-4327-ab27-43af87c2cbd8" />
+      </weaponProceduralClips>
+    </WeaponProceduralClipsSetUp>
+    <WeaponProceduralClipsSetUp filterByState="Fall" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" __type="ActorStateFilter" __polymorphicType="WeaponProceduralClipsSetUp">
+      <weaponProceduralClips>
+        <Reference value="614c1a86-961c-4aaa-bdae-5c0b5d4beaf4" />
+      </weaponProceduralClips>
+    </WeaponProceduralClipsSetUp>
+    <WeaponProceduralClipsSetUp filterByState="Any" filterByMotionSpeed="Idle" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="ADS" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" __type="ActorStateFilter" __polymorphicType="WeaponProceduralClipsSetUp">
+      <weaponProceduralClips>
+        <Reference value="49182404-e695-47cb-b5e3-b937bab7b90a" />
+      </weaponProceduralClips>
+    </WeaponProceduralClipsSetUp>
+    <WeaponProceduralClipsSetUp filterByState="Any" filterByMotionSpeed="Idle" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" __type="ActorStateFilter" __polymorphicType="WeaponProceduralClipsSetUp">
+      <weaponProceduralClips>
+        <Reference value="82211c65-192b-4fb7-9b1e-220221d12b7d" />
+      </weaponProceduralClips>
+    </WeaponProceduralClipsSetUp>
+    <WeaponProceduralClipsSetUp filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="ADS" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" __type="ActorStateFilter" __polymorphicType="WeaponProceduralClipsSetUp">
+      <weaponProceduralClips>
+        <Reference value="b6108e79-d123-439c-9f64-3a8eba2eff25" />
+        <Reference value="d5eed025-6314-4cc3-8947-5468f31d216f" />
+        <Reference value="6a9af09e-b358-41e8-927d-7c882e3354f0" />
+      </weaponProceduralClips>
+    </WeaponProceduralClipsSetUp>
+    <WeaponProceduralClipsSetUp filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" __type="ActorStateFilter" __polymorphicType="WeaponProceduralClipsSetUp">
+      <weaponProceduralClips>
+        <Reference value="22379d0a-169e-4b8f-b763-17bd07215903" />
+        <Reference value="9d3fc905-71a0-471c-951e-3836d9515df7" />
+        <Reference value="a47257e1-303d-4104-9edb-498aa92bcd2f" />
+      </weaponProceduralClips>
+    </WeaponProceduralClipsSetUp>
+    <WeaponProceduralClipsSetUp filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Ready" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" __type="ActorStateFilter" __polymorphicType="WeaponProceduralClipsSetUp">
+      <weaponProceduralClips>
+        <Reference value="df9364d6-7766-410e-bd7d-3668ba1c726f" />
+      </weaponProceduralClips>
+    </WeaponProceduralClipsSetUp>
+    <WeaponProceduralClipsSetUp filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Left" filterByHeldItemType="Any" filterBySkeleton="Any" __type="ActorStateFilter" __polymorphicType="WeaponProceduralClipsSetUp">
+      <weaponProceduralClips>
+        <Reference value="5df803ff-0f65-4726-891b-b77ab2eb3929" />
+      </weaponProceduralClips>
+    </WeaponProceduralClipsSetUp>
+    <WeaponProceduralClipsSetUp filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Right" filterByHeldItemType="Any" filterBySkeleton="Any" __type="ActorStateFilter" __polymorphicType="WeaponProceduralClipsSetUp">
+      <weaponProceduralClips>
+        <Reference value="14f8c1d6-2b62-41da-b18d-3794a1e59d4a" />
+      </weaponProceduralClips>
+    </WeaponProceduralClipsSetUp>
+    <WeaponProceduralClipsSetUp filterByState="Interacting" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" __type="ActorStateFilter" __polymorphicType="WeaponProceduralClipsSetUp">
+      <weaponProceduralClips>
+        <Reference value="f36aa1df-3eeb-4ba7-8013-eda4dd960fec" />
+      </weaponProceduralClips>
+    </WeaponProceduralClipsSetUp>
+    <WeaponProceduralClipsSetUp filterByState="Any" filterByMotionSpeed="Any" filterByPoseState="Any" filterByStanceState="Any" filterByAimStanceState="Any" filterByLeanState="Any" filterByHeldItemType="Any" filterBySkeleton="Any" __type="ActorStateFilter" __polymorphicType="WeaponProceduralClipsSetUp">
+      <weaponProceduralClips>
+        <Reference value="acbf9ad5-4b6d-4752-8e02-8c238eda1c91" />
+      </weaponProceduralClips>
+    </WeaponProceduralClipsSetUp>
+  </weaponProceduralClipsSetUp>
+</WeaponProceduralAnimation.klwe_lmg_energy_01>

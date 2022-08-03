@@ -1,0 +1,182 @@
+<GameMode.EA_TeamElimination name="EA_TeamElimination" locDisplayName="@ea_ui_mode_TeamElimination" description="@ea_ui_modedesc_TeamElimination" thumbnail="ui/frontend/assets/tif/gametypesmaps/teamelimination.tif" alias="TE" leaderboardMatchCode="TE" invalidShipGroup="75256017-cccf-4360-aee0-c9ff69ce5424" singleMultiplayerAvailability="MultiOnly" disableSMLoadoutButton="1" availableToPlayer="1" isDevMode="0" __type="GameMode" __ref="7ca27acb-1e6d-4521-bf59-95fe8a926c14" __path="libs/foundry/records/gamemode/ea_teamelimination.xml">
+  <params>
+    <SStandardParams moduleType="StarMarine" gameModule="f3a008ad-fa7b-4f54-8f48-425adfedf304" persistentDataPolicy="ReadOnly" spawnInSpaceship="0" enableQuantumTravel="0" isSurvivalMode="0" allowVehicleExit="1" useSelfDestructPenalty="0" allowEditLoadoutWhenDead="1" allowIngameMenu="1" maxUnattendedVehicleMarkers="0" musicSuite="97d0d71a-6a8e-4ef9-afcb-08deeaa55054" audioOcclusionMaxDist="500" requiresBuildingBlocksRoundTimer="0" scanningEnabled="0" flyableShips="1" allShipsModifiable="0" canJoinLobbies="0" canAccessMobiGlass="1" planetMaxPatchesOverride="0" planetPatchTimeoutOverride="0" arModeSettings="0ec4a1f8-ab97-4120-abe2-45bedc6a50a1" restrictGasExchanges="0" showGreenZoneWeaponsOnlineOffline="1" allowPartyInvite="0" joinOpenChannelOnStartup="0" commsMaxValidRange="-1" shipComputerMode="Default" canTakedownFriendly="0" canApplyForcesToFriendly="0" disableKillMessage="0" allowPITMenu="1" allowPITInventory="0" hasPlanetaryEffects="1" missionsWaitForSpawn="0" showNonPlayerJoinFeed="0" reputationJournalEntryParams="00000000-0000-0000-0000-000000000000" shopInventoryAlertsJournalEntry="00000000-0000-0000-0000-000000000000" quantumDriveGlobalParams="1b25f9c9-630f-47f6-865d-0f0bb199215a" __type="DataForgeComponentParams" __polymorphicType="SStandardParams">
+      <audioSwitchStates>
+        <String value="SC_Game:Simulation_StarMarine" />
+        <String value="SC_GameMode:FPS_Elimination" />
+      </audioSwitchStates>
+      <legacyUIOptions updateProgressBar="1" showFrameProgressBar="1" requiresScoreboard="1" requiresGameDetails="1" __type="LegacyUIOptionsParams" />
+      <announcerParams announcer="22a5bb8b-383b-495b-9444-502324949125" announcerGameModeTokenName="fps_team_elimination" __type="SGameRulesAnnouncerParams" />
+      <playerCamerasAllowed firstPersonAllowed="1" chaseAllowed="1" orbitAllowed="0" __type="SPlayerCameraTypeAllowedParams" />
+      <fireParams enabledMode="Disabled" __type="FireParams">
+        <behaviors>
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="0" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+          <Bool value="1" />
+        </behaviors>
+      </fireParams>
+      <actorMechanics allowZeroGTraversal="0" allowEVAIronman="0" __type="ActorMechanicsParams" />
+    </SStandardParams>
+  </params>
+  <pickup>
+  </pickup>
+  <damageHandling>
+    <SSCDamageHandling damageDisabled="0" incomingDamageModifierToAIVehicles="1" incomingVehicleDamageModifierFromAI="1" __type="DataForgeComponentParams" __polymorphicType="SSCDamageHandling" />
+  </damageHandling>
+  <hostility>
+    <STeamHostility __type="DataForgeComponentParams" __polymorphicType="STeamHostility" />
+  </hostility>
+  <objectives>
+  </objectives>
+  <playerStats>
+    <SStandardPlayerStats checkFriendlyFire="1" serverKickPlayersFriendlyDamage="1500" serverKickPlayersDamageForInfraction="800" serverKickPlayersIgnoreDamageTimeAfterInfraction="2" serverKickPlayersNumberOfInfractionsToKick="4" serverKickPlayersDamageDecayHalflife="4" secondsToMergeHits="0.5" deathScreenMaxItemsPerColumn="4" deathScreenMaxSecondsStatValid="60" teamDamageCaution="@dfm_ui_Critical_Local_TeamDamage_Caution" teamDamageWarning="@dfm_ui_Critical_Local_TeamDamage_Warning" teamDamageKicked="@dfm_ui_Critical_Local_TeamDamage_Dismissal" __type="DataForgeComponentParams" __polymorphicType="SStandardPlayerStats" />
+  </playerStats>
+  <spawning>
+    <SFPSSpawningTeamLives team1AlwaysUsesInitialSpawns="0" team2AlwaysUsesInitialSpawns="0" groupSpawners="0" playerCanSuicide="0" forceRespawnTimer="6" respawnInvulnerableTime="3" spawningSafeDistance="8" roundSwap="0" autoRespawn="1" loadoutId="23" backupLoadout="Scripts/Loadouts/Player/StarMarine/StarMarine_Marine_Medium.xml" midRoundJoining="1" autoEquipDefaultWeapon="1" dematerializeParticlesDelay="1" showRespawnMessages="1" initialLivesPerTeam="24" __type="DataForgeComponentParams" __polymorphicType="SFPSSpawningTeamLives" />
+  </spawning>
+  <victoryConditions>
+    <SFPSVictoryConditionsTeam timeLimit="10" timeRemainingNoNewPlayers="2" scoreLimit="5000" checkScore="1" checkTime="1" checkScoreAsTime="0" decideRoundWinnerUsingRoundPoints="0" decideGameWinnerWithTeamScore="0" playHalfwaySound="1" playHalfwaySoundAfterUpdatingTimeLimit="0" playTimeAnnouncements="1" canPlayMusicMoods="1" doOpponentDisconnectedCheck="0" narrowMatchWinRatio="1.1" bigRoundWinRatio="2" narrowMatchDefeatRatio="1.05" bigRoundDefeatRatio="2" endOnKill="1" __type="DataForgeComponentParams" __polymorphicType="SFPSVictoryConditionsTeam" />
+  </victoryConditions>
+  <spectator>
+    <SFPSSpectator __type="DataForgeComponentParams" __polymorphicType="SFPSSpectator">
+      <modes>
+        <SpectatorModeParams spectatorMode="SM_Fixed" cameraRecord="9eb3fa42-e9f7-4c5c-aeb8-49295eb8a29f" availableToPlayers="1" __type="SpectatorModeParams" />
+        <SpectatorModeParams spectatorMode="SM_Follow" cameraRecord="94688a95-9e34-4fec-92ee-a5f68a888762" availableToPlayers="1" __type="SpectatorModeParams" />
+        <SpectatorModeParams spectatorMode="SM_Free" cameraRecord="53dab46b-4c8c-4939-afc2-c8fc5e357a1a" availableToPlayers="0" __type="SpectatorModeParams" />
+        <SpectatorModeParams spectatorMode="SM_FirstPerson" cameraRecord="d200e716-ce68-4c28-8ebd-a222bbe71968" availableToPlayers="1" __type="SpectatorModeParams" />
+      </modes>
+    </SFPSSpectator>
+  </spectator>
+  <playerSetup>
+    <SStandardPlayerSetup __type="DataForgeComponentParams" __polymorphicType="SStandardPlayerSetup" />
+  </playerSetup>
+  <statsRecording>
+    <SAuthoritativeStatsRecording __type="DataForgeComponentParams" __polymorphicType="SAuthoritativeStatsRecording" />
+  </statsRecording>
+  <stateModule>
+    <EAStateParams allowOffline="0" __type="DataForgeComponentParams" __polymorphicType="EAStateParams">
+      <pregame enabled="1" requiredPlayers="2" enableIntro="1" movementEnabled="0" gameStartCountdown="10" announceCountdown="1" restrictJoiningToPreGame="0" saturateScreen="1" initialSpawnType="AutoSpawnRespawn" __type="GameRulesEAStatePreGameParams">
+        <readySystem enabled="0" requiredPlayers="2" forceReadyTime="-1" __type="ReadySystemParams" />
+      </pregame>
+      <postgame enabled="1" enableOutro="1" shutdownDelay="10" __type="GameRulesEAStatePostGameParams">
+        <scoreboard enabled="1" scoreboardTime="20" postScoreboardLogoTime="4.5" __type="PostGameScoreboardParams" />
+        <matchCycle type="NewServer" matchCycleTimeout="180" __type="MatchCycleParams" />
+      </postgame>
+    </EAStateParams>
+  </stateModule>
+  <teams>
+    <EATeamsModuleParams allowSwitch="0" autoFillType="Balance" __type="DataForgeComponentParams" __polymorphicType="EATeamsModuleParams">
+      <teams>
+        <EAFactionTeamParams faction="1159b975-b26c-4f6d-bc96-2cc80491e214" playersAllowed="1" maxPlayers="12" backupLoadout="Scripts/Loadouts/Player/CDS_Undersuit_Armor.xml" __type="EAFactionTeamParams" />
+        <EAFactionTeamParams faction="94d7c53b-0bf6-4e8a-bb9a-f1bc19d7b749" playersAllowed="1" maxPlayers="12" backupLoadout="Scripts/Loadouts/Player/CDS_Undersuit_Armor.xml" __type="EAFactionTeamParams" />
+      </teams>
+    </EATeamsModuleParams>
+  </teams>
+  <rounds>
+  </rounds>
+  <notifications>
+    <SStandardNotifications showNotifications="1" __type="DataForgeComponentParams" __polymorphicType="SStandardNotifications" />
+  </notifications>
+  <scoring>
+    <EAScoringParams countScoreDown="0" noFriendlyFire="1" killsForAceKill="5" aceBonusCap="5" killsForKillingSpree="5" killingSpreeBonusCap="5" killsForNemesisKill="3" deathCountForResurgentKill="3" underdogBonusScalar="0.2" saviorTime="5" teamRevengeKillTime="15" itemDamageFactor="0.1" enableScoreBalancing="0" scoreBalancingMirrorScore="1000" __type="DataForgeComponentParams" __polymorphicType="EAScoringParams">
+      <playerScoring>
+        <SPlayerScoring __type="SPlayerScoring">
+          <playerScoreEvents>
+            <SScoreEvent points="100" type="PlayerKill" __type="SScoreEvent" />
+            <SScoreEvent points="-200" type="Accident" __type="SScoreEvent" />
+            <SScoreEvent points="-200" type="Suicide" __type="SScoreEvent" />
+            <SScoreEvent points="25" type="Award_Haemorrhage" __type="SScoreEvent" />
+            <SScoreEvent points="75" type="PlayerBledOut" __type="SScoreEvent" />
+            <SScoreEvent points="100" type="Award_FirstBlood" __type="SScoreEvent" />
+            <SScoreEvent points="100" type="Award_Ace" __type="SScoreEvent" />
+            <SScoreEvent points="20" type="Award_AceBonus" __type="SScoreEvent" />
+            <SScoreEvent points="100" type="Award_AceKill" __type="SScoreEvent" />
+            <SScoreEvent points="20" type="Award_AceKillBonus" __type="SScoreEvent" />
+            <SScoreEvent points="100" type="Award_KillingSpree" __type="SScoreEvent" />
+            <SScoreEvent points="20" type="Award_KillingSpreeBonus" __type="SScoreEvent" />
+            <SScoreEvent points="100" type="Award_KillingSpreeKill" __type="SScoreEvent" />
+            <SScoreEvent points="20" type="Award_KillingSpreeKillBonus" __type="SScoreEvent" />
+            <SScoreEvent points="100" type="Award_NemesisKill" __type="SScoreEvent" />
+            <SScoreEvent points="50" type="Award_RedemptionKill" __type="SScoreEvent" />
+            <SScoreEvent points="20" type="Award_SquadronRevengeKill" __type="SScoreEvent" />
+            <SScoreEvent points="50" type="Award_Headshot" __type="SScoreEvent" />
+            <SScoreEvent points="25" type="Award_MeleeKill" __type="SScoreEvent" />
+            <SScoreEvent points="50" type="Award_Savior" __type="SScoreEvent" />
+            <SScoreEvent points="1" type="DamageShip" __type="SScoreEvent" />
+            <SScoreEvent points="1" type="DamageItem" __type="SScoreEvent" />
+            <SScoreEvent points="1" type="DestroyedShip" __type="SScoreEvent" />
+            <SScoreEvent points="1" type="PlayerKillEjected" __type="SScoreEvent" />
+            <SScoreEvent points="1" type="Award_ForcedError" __type="SScoreEvent" />
+            <SScoreEvent points="1" type="Award_ForcedEject" __type="SScoreEvent" />
+            <SScoreEvent points="100" type="Award_ResurgentKill" __type="SScoreEvent" />
+            <SScoreEvent points="10" type="Award_CrashRoberts" __type="SScoreEvent" />
+          </playerScoreEvents>
+        </SPlayerScoring>
+      </playerScoring>
+      <teamScoring>
+        <STeamScoring maxScore="0" startTeamScore="0" useScoreAsTime="0" __type="STeamScoring">
+          <teamScoreEvents>
+            <SScoreEvent points="100" type="PlayerKill" __type="SScoreEvent" />
+            <SScoreEvent points="1" type="DamageShip" __type="SScoreEvent" />
+            <SScoreEvent points="1" type="DamageItem" __type="SScoreEvent" />
+            <SScoreEvent points="1" type="DestroyedShip" __type="SScoreEvent" />
+            <SScoreEvent points="200" type="Award_Ace" __type="SScoreEvent" />
+            <SScoreEvent points="100" type="Award_AceBonus" __type="SScoreEvent" />
+            <SScoreEvent points="200" type="Award_AceKill" __type="SScoreEvent" />
+            <SScoreEvent points="100" type="Award_ForcedError" __type="SScoreEvent" />
+            <SScoreEvent points="100" type="Award_ForcedEject" __type="SScoreEvent" />
+            <SScoreEvent points="100" type="Award_AceKillBonus" __type="SScoreEvent" />
+            <SScoreEvent points="100" type="Award_SquadronRevengeKill" __type="SScoreEvent" />
+            <SScoreEvent points="50" type="Award_KillAssist" __type="SScoreEvent" />
+          </teamScoreEvents>
+        </STeamScoring>
+      </teamScoring>
+      <assistParams enabled="0" teamSpecificScoring="0" timeout="12000" maxAssistScore="-1" assistScoreMultiplier="1" __type="EAScoringAssistParams">
+        <assistThresholds />
+      </assistParams>
+    </EAScoringParams>
+  </scoring>
+  <subsumptionMissionModule>
+    <SSubsumptionMission startOnIntialCountdown="0" __type="DataForgeComponentParams" __polymorphicType="SSubsumptionMission">
+      <spawningTagFilter __type="TagList">
+        <tags>
+          <Reference value="5a9670c9-d060-4bad-b042-e538f90e24e3" />
+        </tags>
+      </spawningTagFilter>
+    </SSubsumptionMission>
+  </subsumptionMissionModule>
+  <camerasModule>
+    <SCamerasBaseModule gameEndCameraRecord="00000000-0000-0000-0000-000000000000" onFootDeathCameraRecord="d39f6caf-e3a6-4ce4-8a79-653a0f244cd0" vehicleDeathCameraRecord="2d5adedb-1eb6-4287-87e1-d049f070d1b0" deathCameraDuration="8" useFadeOut="0" fadeOutTriggerTime="0" allowConstantDOF="0" __type="DataForgeComponentParams" __polymorphicType="SCamerasBaseModule" />
+  </camerasModule>
+  <validMaps>
+    <GameModeValidMap mapName="EA_TheGoodDr" numTracks="0" levelReference="3d7a467a-63f5-45a8-9e5a-40ad6359a76a" __type="GameModeValidMap" />
+    <GameModeValidMap mapName="EA_Demien" numTracks="0" levelReference="87b4fbae-3440-4b72-8423-79b3f22a153c" __type="GameModeValidMap" />
+    <GameModeValidMap mapName="EA_Ministry" numTracks="0" levelReference="0eb7abba-4c3b-41a3-bed2-df6a457d5942" __type="GameModeValidMap" />
+    <GameModeValidMap mapName="EA_Echo11" numTracks="0" levelReference="7c0a83d6-8b74-45f5-b468-9cc6524e6eb5" __type="GameModeValidMap" />
+  </validMaps>
+  <customSettings>
+    <GameModeCustomSetting name="TimeLimit" displayName="@dfm_ac_ui_RulesTimeLimit" description="@dfm_ac_ui_RulesTimeLimit" min="2" max="30" step="1" defaultValue="10" __type="GameModeCustomSetting" />
+  </customSettings>
+  <entityManagementSetting>
+    <SEntityManagementModule vehicleManagementParams="e643458d-f41e-4140-a4bc-4f40c7fdc38f" carryableManagementParams="a747b40d-5b2f-478f-84fb-4998b369b9b6" destroyUnmanagedOnDetach="1" __type="DataForgeComponentParams" __polymorphicType="SEntityManagementModule" />
+  </entityManagementSetting>
+  <chatSystemOptions>
+    <ChatSystemOptions chatChannelFilterRecord="fce8901f-4060-45cc-9e9f-063956ec70bd" voiceChannelSettingsRecord="585a4dce-9fa8-4e95-9fe3-bb8a767e2fe7" __type="DataForgeComponentParams" __polymorphicType="ChatSystemOptions" />
+  </chatSystemOptions>
+  <reputationModule>
+    <SGameRulesReputationBaseParamsDef __type="DataForgeComponentParams" __polymorphicType="SGameRulesReputationBaseParamsDef" />
+  </reputationModule>
+</GameMode.EA_TeamElimination>
